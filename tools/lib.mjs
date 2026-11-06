@@ -314,11 +314,13 @@ export function widestRange(levelSets) {
 
 // ---- writing the pack ----
 
-/** The pack's map, written as the others are (one space indent). */
+/** The pack's map, written as the others are (one space indent, its size after its credit). */
 export function writeManifest(pack) {
   const file = join(root, 'packs', pack.id, 'pack.json');
   mkdirSync(dirname(file), { recursive: true });
-  writeFileSync(file, `${JSON.stringify(pack, null, 1)}\n`);
+  const { format, version, id, name, license, credit, bytes, ...rest } = pack;
+  const ordered = { format, version, id, name, license, credit, ...(bytes ? { bytes } : {}), ...rest };
+  writeFileSync(file, `${JSON.stringify(ordered, null, 1)}\n`);
   return file;
 }
 
@@ -332,6 +334,7 @@ export async function makeFiles(pack, downloads, out) {
   const sums = {};
   const paths = Object.keys(source.files).sort();
   let done = 0;
+  let total = 0;
   const cache = new Map();
   for (const path of paths) {
     const recipe = source.files[path];
@@ -342,6 +345,7 @@ export async function makeFiles(pack, downloads, out) {
     }
     const bytes = mixFile(recipe, inputs, source.bits);
     sums[path] = sha256(bytes);
+    total += bytes.length;
     if (out) {
       const file = join(out, path);
       mkdirSync(dirname(file), { recursive: true });
@@ -352,6 +356,8 @@ export async function makeFiles(pack, downloads, out) {
     if (++done % 100 === 0) console.log(`  made ${done}/${paths.length}`);
   }
   writeFileSync(join(root, 'packs', pack.id, 'files.sha256'), formatChecksums(sums));
+  // its samples' size on disk: what an install takes, shown before it
+  pack.bytes = total;
   return sums;
 }
 

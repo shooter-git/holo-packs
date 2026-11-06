@@ -5,7 +5,8 @@
   "description": "The sample packs HO[LO] Desk installs: their instrument maps, sources and checksums (no audio).",
   "license": "MIT",
   "scripts": {
-    "check": "node tools/check.mjs",
-    "checksums": "node tools/checksums.mjs"
+    "check": "node tools/check.mjs && node tools/readme.mjs --check",
+    "checksums": "node tools/checksums.mjs",
+    "readme": "node tools/readme.mjs"
   }
 }

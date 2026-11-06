@@ -44,6 +44,8 @@ for (const id of readdirSync(packsDir).sort()) {
     if (pack.format !== 'holo-pack' || pack.version !== 1) fail('pack.json is not a holo-pack map, version 1');
     if (pack.id !== id) fail(`its id is "${pack.id}", not its folder's "${id}"`);
     for (const key of ['name', 'license', 'credit']) if (!pack[key]) fail(`it has no ${key}`);
+    if (!Number.isInteger(pack.bytes) || pack.bytes <= 0)
+      fail('it has no "bytes" (its samples\' size: node tools/checksums.mjs, or its recipe, writes it)');
     if (!KINDS.has(pack.source?.kind)) fail(`its source is "${pack.source?.kind}", not ${[...KINDS].join(', ')}`);
     if (!pack.instruments?.length && !pack.impulses?.length) fail('it has no instruments and no spaces');
 

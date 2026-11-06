@@ -5,6 +5,7 @@
  "name": "Jazz Kit (Virtuosity Drums)",
  "license": "CC0-1.0",
  "credit": "Virtuosity Drums by Versilian Studios and Karoryfer Samples (CC0): a contemporary jazz kit. Mixed for HO[LO] from its kick, snare, overhead and room microphones.",
+ "bytes": 167796666,
  "source": {
   "kind": "mix",
   "note": "Virtuosity Drums' kick, snare, overhead and room microphones (FLAC, at the pinned commit), mixed as one session.",

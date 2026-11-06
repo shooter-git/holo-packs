@@ -5,6 +5,7 @@
  "name": "Rock Kit (Karoryfer Big Rusty Drums)",
  "license": "CC0-1.0",
  "credit": "Big Rusty Drums by Karoryfer Samples (CC0): a 24\" kick, a 14x8 snare, 14/15/18\" toms and a 22\" floor, Sabian and Zildjian cymbals. Mixed for HO[LO] from its close and overhead microphones.",
+ "bytes": 172408276,
  "source": {
   "kind": "mix",
   "note": "Big Rusty Drums' close and overhead microphones (FLAC, at the pinned commit), mixed at its own mixer's levels.",

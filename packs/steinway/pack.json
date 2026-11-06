@@ -5,6 +5,7 @@
  "name": "Steinway Model D (bitKlavier Grand)",
  "license": "CC-BY-4.0",
  "credit": "bitKlavier Grand Sample Library by Matthew Wang, Andrés Villalta, Jeffrey Gordon, Katie Chou, Christien Ayers and Daniel Trueman, Princeton University (CC BY 4.0, doi:10.34770/csaa-6a71 and doi:10.34770/r75s-9j74): a Steinway D recorded in Taplin Auditorium in 2021. Trimmed for HO[LO]: each note ends where it falls to -58 dB.",
+ "bytes": 1202633684,
  "source": {
   "kind": "mix",
   "note": "bitKlavier Grand's 44.1 kHz 16-bit release (Princeton University Research Data Service), each note kept until it falls to -58 dB (20 s at most) and faded there, otherwise bit for bit.",

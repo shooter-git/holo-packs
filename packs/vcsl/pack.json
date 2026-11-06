@@ -5,6 +5,7 @@
  "name": "Versilian Community Sample Library",
  "license": "CC0-1.0",
  "credit": "Using the Versilian Community Sample Library (CC0, Versilian Studios).",
+ "bytes": 197972425,
  "source": {
   "kind": "git",
   "url": "https://github.com/sgossner/VCSL.git",

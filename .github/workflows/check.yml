@@ -43,3 +43,6 @@ jobs:
       - name: Check every pack
         working-directory: holo-packs
         run: node tools/check.mjs
+      - name: The READMEs say what the maps say
+        working-directory: holo-packs
+        run: node tools/readme.mjs --check

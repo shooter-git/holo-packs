@@ -5,6 +5,7 @@
  "name": "FreePats Spanish Classical Guitar",
  "license": "CC0-1.0",
  "credit": "The Spanish classical guitar of the FreePats project (CC0).",
+ "bytes": 19818592,
  "source": {
   "kind": "archive",
   "note": "The FreePats project's SFZ+FLAC download (CC0), each note decoded from its FLAC and written as the 16-bit WAV ffmpeg wrote the first time, its INFO tag and all.",
