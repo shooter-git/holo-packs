@@ -1,0 +1,11 @@
+{
+  "name": "holo-packs",
+  "private": true,
+  "type": "module",
+  "description": "The sample packs HO[LO] Desk installs: their instrument maps, sources and checksums (no audio).",
+  "license": "MIT",
+  "scripts": {
+    "check": "node tools/check.mjs",
+    "checksums": "node tools/checksums.mjs"
+  }
+}

@@ -1,0 +1,45 @@
+name: Check
+
+# Every pack checked with HO[LO] Desk's own code (its main branch): maps, checksums, pads. Weekly too,
+# so a change in HO[LO] Desk that a pack no longer agrees with shows here.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.event_name == 'pull_request' && github.ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  packs:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: holo-packs
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: shooter-git/holo-desk
+          ref: main
+          path: holo-desk
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+        with:
+          package_json_file: holo-desk/package.json
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: holo-desk/.nvmrc
+          cache: pnpm
+          cache-dependency-path: holo-desk/pnpm-lock.yaml
+      - name: Install HO[LO] Desk
+        working-directory: holo-desk
+        run: pnpm install --frozen-lockfile
+      - name: Check every pack
+        working-directory: holo-packs
+        run: node tools/check.mjs
