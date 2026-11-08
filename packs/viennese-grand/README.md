@@ -9,17 +9,18 @@ bright.
 with HO[LO] Desk's own effects. No other piano's recordings are used.
 - **Transient Softener:** the first milliseconds of each hammer strike pulled down against the body of
   the note, for a rounder attack.
-- **Channel EQ:** +2 dB around 220 Hz for fuller low-mids, −2.5 dB around 3.2 kHz and a −3.5 dB shelf
-  from 7 kHz for a darker, singing treble.
+- **Channel EQ:** +2 dB around 220 Hz for fuller low-mids, −2.5 dB around 3 kHz and a −3.5 dB shelf
+  from 5.5 kHz for a darker, singing treble.
 - **Warm Hall:** a concert hall with its highs damped (high cut at 6.5 kHz) and its decay lengthened
   by 15%.
 
 **Coming:** **Viennese Grand, Resonant** adds String Resonance, the sympathetic ringing of undamped
 strings, including extra bass strings below the lowest A, once HO[LO] Desk has that effect.
 
-**Measured:** against the plain Steinway, the treble's spectral centroid is lower and the attack
-softer, while the decay is the same (the voicing changes tone, not length). The numbers are in the
-pull request that added this palette.
+**Measured** against the plain Steinway, dry, from A1 to A6 at velocities 50 and 100: the spectral
+centroid of each note's first second is 7–17% lower and its energy above 2 kHz 1.4–4 dB lower; the
+attack stands 0.2–3.3 dB less above the body of the note; and the decay is unchanged (the voicing
+changes the tone, not the length). The top octave changes least, so its fundamentals still sing.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
 

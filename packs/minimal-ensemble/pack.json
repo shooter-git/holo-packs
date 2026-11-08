@@ -42,8 +42,8 @@
     },
     "send": -18
    },
-   "note": "A plain, steady electric organ: no rotor, no vibrato, for long patterns.",
-   "volume": -5.5
+   "volume": -5.5,
+   "note": "A plain, steady electric organ: no rotor, no vibrato, for long patterns."
   },
   {
    "name": "Organ Arpeggio",
@@ -81,8 +81,8 @@
     },
     "send": -18
    },
-   "note": "The electric organ arpeggiating a held chord up and down in eighths.",
-   "volume": -4
+   "volume": -4,
+   "note": "The electric organ arpeggiating a held chord up and down in eighths."
   },
   {
    "name": "Pipe Organ",
@@ -102,8 +102,8 @@
     },
     "send": -10
    },
-   "note": "A soft pipe organ registration.",
-   "volume": -8.5
+   "volume": -8.5,
+   "note": "A soft pipe organ registration."
   },
   {
    "name": "Arp Synth",
@@ -141,8 +141,8 @@
     },
     "send": -16
    },
-   "note": "A clean pluck arpeggiating a held chord in sixteenths over two octaves.",
-   "volume": -0.5
+   "volume": -0.5,
+   "note": "A clean pluck arpeggiating a held chord in sixteenths over two octaves."
   },
   {
    "name": "Pulse Synth",
@@ -176,8 +176,8 @@
     },
     "send": -16
    },
-   "note": "Held chords repeated in steady eighths.",
-   "volume": -1
+   "volume": -1,
+   "note": "Held chords repeated in steady eighths."
   },
   {
    "name": "Piano",
@@ -197,8 +197,8 @@
     },
     "send": -16
    },
-   "note": "The grand, close and clear.",
-   "volume": 5
+   "volume": 5,
+   "note": "The grand, close and clear."
   },
   {
    "name": "Piano Broken Chords",
@@ -229,8 +229,8 @@
     },
     "send": -16
    },
-   "note": "Hold a chord: the piano breaks it up and down in eighths.",
-   "volume": 3
+   "volume": 3,
+   "note": "Hold a chord: the piano breaks it up and down in eighths."
   },
   {
    "name": "Solo Violin",
@@ -250,8 +250,8 @@
     },
     "send": -14
    },
-   "note": "One violin.",
-   "volume": -6
+   "volume": -6,
+   "note": "One violin."
   },
   {
    "name": "Violas",
@@ -271,8 +271,8 @@
     },
     "send": -14
    },
-   "note": "Violas for the middle voices.",
-   "volume": -5
+   "volume": -5,
+   "note": "Violas for the middle voices."
   },
   {
    "name": "Cellos",
@@ -292,8 +292,8 @@
     },
     "send": -14
    },
-   "note": "Cellos for the bass line.",
-   "volume": -5.5
+   "volume": -5.5,
+   "note": "Cellos for the bass line."
   },
   {
    "name": "Flute",
@@ -313,8 +313,8 @@
     },
     "send": -14
    },
-   "note": "Flute without vibrato: plain and even.",
-   "volume": -5
+   "volume": -5,
+   "note": "Flute without vibrato: plain and even."
   },
   {
    "name": "Clarinet",
@@ -334,8 +334,8 @@
     },
     "send": -14
    },
-   "note": "Clarinet, even and warm.",
-   "volume": -3
+   "volume": -3,
+   "note": "Clarinet, even and warm."
   },
   {
    "name": "Soprano Sax",
@@ -383,8 +383,8 @@
     },
     "send": -14
    },
-   "note": "Straight-toned voices on “ah”, singing the patterns with the band.",
-   "volume": -5
+   "volume": -5,
+   "note": "Straight-toned voices on “ah”, singing the patterns with the band."
   }
  ]
 }

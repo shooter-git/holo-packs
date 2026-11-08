@@ -34,8 +34,8 @@
     },
     "send": -10
    },
-   "note": "The horn section, noble and round.",
-   "volume": -3.5
+   "volume": -3.5,
+   "note": "The horn section, noble and round."
   },
   {
    "name": "Trumpets",
@@ -78,8 +78,8 @@
     },
     "send": -12
    },
-   "note": "Trombones for weight and chorales.",
-   "volume": -5.5
+   "volume": -5.5,
+   "note": "Trombones for weight and chorales."
   },
   {
    "name": "Violins",
@@ -100,8 +100,8 @@
     },
     "send": -10
    },
-   "note": "The violin section, sustained.",
-   "volume": -9
+   "volume": -9,
+   "note": "The violin section, sustained."
   },
   {
    "name": "Cellos",
@@ -122,8 +122,8 @@
     },
     "send": -10
    },
-   "note": "The cello section, sustained.",
-   "volume": -6.5
+   "volume": -6.5,
+   "note": "The cello section, sustained."
   },
   {
    "name": "Pizzicato Strings",
@@ -144,8 +144,8 @@
     },
     "send": -12
    },
-   "note": "Plucked violins.",
-   "volume": -3
+   "volume": -3,
+   "note": "Plucked violins."
   },
   {
    "name": "Flute",
@@ -166,8 +166,8 @@
     },
     "send": -12
    },
-   "note": "Concert flute, with vibrato.",
-   "volume": 5.5
+   "volume": 5.5,
+   "note": "Concert flute, with vibrato."
   },
   {
    "name": "Oboe",
@@ -188,8 +188,8 @@
     },
     "send": -12
    },
-   "note": "Oboe: reedy and singing.",
-   "volume": -5
+   "volume": -5,
+   "note": "Oboe: reedy and singing."
   },
   {
    "name": "Clarinet",
@@ -210,8 +210,8 @@
     },
     "send": -12
    },
-   "note": "Clarinet: warm and agile.",
-   "volume": -5.5
+   "volume": -5.5,
+   "note": "Clarinet: warm and agile."
   },
   {
    "name": "Bassoon",
@@ -232,8 +232,8 @@
     },
     "send": -12
    },
-   "note": "Bassoon for the low woodwind line.",
-   "volume": -4.5
+   "volume": -4.5,
+   "note": "Bassoon for the low woodwind line."
   },
   {
    "name": "Harp",
@@ -254,8 +254,8 @@
     },
     "send": -12
    },
-   "note": "Concert harp.",
-   "volume": -4.5
+   "volume": -4.5,
+   "note": "Concert harp."
   },
   {
    "name": "Celesta Bells",
@@ -291,8 +291,8 @@
     },
     "send": -12
    },
-   "note": "FM tines voiced like a celesta: small, sweet bells (no free celesta recording yet). Play high.",
-   "volume": 1
+   "volume": 1,
+   "note": "FM tines voiced like a celesta: small, sweet bells (no free celesta recording yet). Play high."
   },
   {
    "name": "Glockenspiel",
@@ -313,8 +313,8 @@
     },
     "send": -14
    },
-   "note": "Glockenspiel, bright and clear.",
-   "volume": 0.5
+   "volume": 0.5,
+   "note": "Glockenspiel, bright and clear."
   },
   {
    "name": "Timpani",
@@ -335,8 +335,8 @@
     },
     "send": -12
    },
-   "note": "Timpani, from soft taps to big strokes.",
-   "volume": -6
+   "volume": -6,
+   "note": "Timpani, from soft taps to big strokes."
   },
   {
    "name": "Snare Drum",
@@ -357,8 +357,8 @@
     },
     "send": -14
    },
-   "note": "Concert snare drum.",
-   "volume": 5
+   "volume": 5,
+   "note": "Concert snare drum."
   },
   {
    "name": "Choir",
@@ -384,8 +384,8 @@
     },
     "send": -10
    },
-   "note": "A wordless mixed choir on “ah”.",
-   "volume": -7
+   "volume": -7,
+   "note": "A wordless mixed choir on “ah”."
   }
  ]
 }

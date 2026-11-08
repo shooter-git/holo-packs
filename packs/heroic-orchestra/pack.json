@@ -44,8 +44,8 @@
     },
     "send": -10
    },
-   "note": "Trombones played big, with a bright edge.",
-   "volume": -8
+   "volume": -8,
+   "note": "Trombones played big, with a bright edge."
   },
   {
    "name": "Horns",
@@ -65,8 +65,8 @@
     },
     "send": -10
    },
-   "note": "French horns for the heroic lines.",
-   "volume": -5
+   "volume": -5,
+   "note": "French horns for the heroic lines."
   },
   {
    "name": "Horns, Short",
@@ -86,8 +86,8 @@
     },
     "send": -10
    },
-   "note": "Short horn notes for rhythmic calls.",
-   "volume": -2.5
+   "volume": -2.5,
+   "note": "Short horn notes for rhythmic calls."
   },
   {
    "name": "Tuba",
@@ -107,8 +107,8 @@
     },
     "send": -12
    },
-   "note": "Tuba under the brass.",
-   "volume": -8.5
+   "volume": -8.5,
+   "note": "Tuba under the brass."
   },
   {
    "name": "Male Choir",
@@ -135,8 +135,8 @@
     },
     "send": -10
    },
-   "note": "Low men’s voices for chant and weight.",
-   "volume": -7.5
+   "volume": -7.5,
+   "note": "Low men’s voices for chant and weight."
   },
   {
    "name": "War Drums",
@@ -173,8 +173,8 @@
     },
     "send": -10
    },
-   "note": "Many big drums struck together. Play low.",
-   "volume": -0.5
+   "volume": -0.5,
+   "note": "Many big drums struck together. Play low."
   },
   {
    "name": "Timpani",
@@ -194,8 +194,8 @@
     },
     "send": -12
    },
-   "note": "Timpani strokes.",
-   "volume": -6.5
+   "volume": -6.5,
+   "note": "Timpani strokes."
   },
   {
    "name": "Timpani Roll",
@@ -215,8 +215,8 @@
     },
     "send": -12
    },
-   "note": "Timpani rolls for swells.",
-   "volume": -8
+   "volume": -8,
+   "note": "Timpani rolls for swells."
   },
   {
    "name": "Field Snare",
@@ -236,8 +236,8 @@
     },
     "send": -14
    },
-   "note": "A marching snare.",
-   "volume": 5
+   "volume": 5,
+   "note": "A marching snare."
   },
   {
    "name": "Low Strings",
@@ -266,8 +266,8 @@
     },
     "send": -10
    },
-   "note": "Cellos, dark and full, for the low melodies.",
-   "volume": -7
+   "volume": -7,
+   "note": "Cellos, dark and full, for the low melodies."
   },
   {
    "name": "Contrabass Spiccato",
@@ -287,8 +287,8 @@
     },
     "send": -12
    },
-   "note": "Short basses for driving rhythms.",
-   "volume": -4.5
+   "volume": -4.5,
+   "note": "Short basses for driving rhythms."
   },
   {
    "name": "Oboe",
@@ -308,8 +308,8 @@
     },
     "send": -12
    },
-   "note": "Oboe for modal, ancient-sounding melodies.",
-   "volume": -5
+   "volume": -5,
+   "note": "Oboe for modal, ancient-sounding melodies."
   },
   {
    "name": "Flute",
@@ -329,8 +329,8 @@
     },
     "send": -12
    },
-   "note": "Flute for soaring lines.",
-   "volume": 5
+   "volume": 5,
+   "note": "Flute for soaring lines."
   },
   {
    "name": "Bassoon",
@@ -350,8 +350,8 @@
     },
     "send": -12
    },
-   "note": "Bassoon, dark and woody.",
-   "volume": -4.5
+   "volume": -4.5,
+   "note": "Bassoon, dark and woody."
   }
  ]
 }

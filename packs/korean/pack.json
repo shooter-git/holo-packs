@@ -34,8 +34,8 @@
     },
     "send": -12
    },
-   "note": "Warm and round, with a deep, slow vibrato.",
-   "volume": -1.5
+   "volume": -1.5,
+   "note": "Warm and round, with a deep, slow vibrato."
   },
   {
    "name": "Gayageum, Deep Vibrato",
@@ -59,8 +59,8 @@
     },
     "send": -12
    },
-   "note": "The left hand pressing and shaking the string (nonghyeon), wide and slow.",
-   "volume": -1.5
+   "volume": -1.5,
+   "note": "The left hand pressing and shaking the string (nonghyeon), wide and slow."
   },
   {
    "name": "Gayageum, Bright",
@@ -86,8 +86,8 @@
     },
     "send": -12
    },
-   "note": "A brighter pluck with less vibrato, for quick figures.",
-   "volume": -2
+   "volume": -2,
+   "note": "A brighter pluck with less vibrato, for quick figures."
   }
  ]
 }

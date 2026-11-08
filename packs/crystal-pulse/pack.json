@@ -41,8 +41,8 @@
     },
     "send": -12
    },
-   "note": "Rubbed glass bowls: pure tones that swell in and shimmer as they ring.",
-   "volume": -2.5
+   "volume": -2.5,
+   "note": "Rubbed glass bowls: pure tones that swell in and shimmer as they ring."
   },
   {
    "name": "Crystal Rods",
@@ -83,8 +83,8 @@
     },
     "send": -14
    },
-   "note": "Struck glass rods: clear, inharmonic and long, with a dotted echo.",
-   "volume": -2.5
+   "volume": -2.5,
+   "note": "Struck glass rods: clear, inharmonic and long, with a dotted echo."
   },
   {
    "name": "Steel Pan Tones",
@@ -124,8 +124,8 @@
     },
     "send": -16
    },
-   "note": "FM voiced like a steel pan: sweet, bright and quick to fade, echoing softly.",
-   "volume": 0.5
+   "volume": 0.5,
+   "note": "FM voiced like a steel pan: sweet, bright and quick to fade, echoing softly."
   },
   {
    "name": "Bowed Vibes",
@@ -146,8 +146,8 @@
     },
     "send": -10
    },
-   "note": "Vibraphone bars bowed: a pure tone that swells and hangs.",
-   "volume": 10
+   "volume": 10,
+   "note": "Vibraphone bars bowed: a pure tone that swells and hangs."
   },
   {
    "name": "Vibes in Echo",
@@ -189,8 +189,8 @@
     },
     "send": -16
    },
-   "note": "Vibraphone through a ping-pong tape delay, a little warble on it.",
-   "volume": -1
+   "volume": -1,
+   "note": "Vibraphone through a ping-pong tape delay, a little warble on it."
   },
   {
    "name": "Marimba Pulse",
@@ -232,8 +232,8 @@
     },
     "send": -18
    },
-   "note": "Soft marimba notes repeating in eighths through a tape delay.",
-   "volume": -0.5
+   "volume": -0.5,
+   "note": "Soft marimba notes repeating in eighths through a tape delay."
   },
   {
    "name": "Glockenspiel Echo",
@@ -273,8 +273,8 @@
     },
     "send": -14
    },
-   "note": "Glockenspiel, its edge taken off, with a dotted-quarter echo.",
-   "volume": 2.5
+   "volume": 2.5,
+   "note": "Glockenspiel, its edge taken off, with a dotted-quarter echo."
   },
   {
    "name": "Soft Pulse",
@@ -331,8 +331,8 @@
     },
     "send": -18
    },
-   "note": "Held chords throb in sixteenths: a soft, filtered analog pulse.",
-   "volume": 8
+   "volume": 8,
+   "note": "Held chords throb in sixteenths: a soft, filtered analog pulse."
   },
   {
    "name": "Analog Arp",
@@ -382,8 +382,8 @@
     },
     "send": -18
    },
-   "note": "Hold a chord: it rises in sixteenths over two octaves, echoing in dotted eighths.",
-   "volume": -3.5
+   "volume": -3.5,
+   "note": "Hold a chord: it rises in sixteenths over two octaves, echoing in dotted eighths."
   },
   {
    "name": "Pulse Bass",
@@ -411,8 +411,8 @@
     }
    ],
    "space": null,
-   "note": "A dark analog bass that pulses in eighths while a note is held.",
-   "volume": -3
+   "volume": -3,
+   "note": "A dark analog bass that pulses in eighths while a note is held."
   },
   {
    "name": "Cold Pad",
@@ -451,8 +451,8 @@
     },
     "send": -10
    },
-   "note": "A glassy wavetable pad, thin in the lows and cold on top.",
-   "volume": -4
+   "volume": -4,
+   "note": "A glassy wavetable pad, thin in the lows and cold on top."
   },
   {
    "name": "Bowed Metal",
@@ -480,8 +480,8 @@
     },
     "send": -10
    },
-   "note": "The sustained, slowly shifting ring of bowed metal bars.",
-   "volume": -6.5
+   "volume": -6.5,
+   "note": "The sustained, slowly shifting ring of bowed metal bars."
   },
   {
    "name": "Frozen Air",
@@ -509,8 +509,8 @@
     },
     "send": -8
    },
-   "note": "High glassy partials glinting in and out: frost in the air.",
-   "volume": -9
+   "volume": -9,
+   "note": "High glassy partials glinting in and out: frost in the air."
   }
  ]
 }

@@ -65,8 +65,8 @@
     },
     "send": -14
    },
-   "note": "An upright with felt on the strings: soft, muffled and close, a gentle warble.",
-   "volume": -3.5
+   "volume": -3.5,
+   "note": "An upright with felt on the strings: soft, muffled and close, a gentle warble."
   },
   {
    "name": "Felt Upright, Worn Tape",
@@ -126,8 +126,8 @@
     },
     "send": -14
    },
-   "note": "The felt upright on old tape: deeper wow, saturated and dark.",
-   "volume": -9
+   "volume": -9,
+   "note": "The felt upright on old tape: deeper wow, saturated and dark."
   },
   {
    "name": "Felt Upright, Cassette",
@@ -218,8 +218,8 @@
     },
     "send": -12
    },
-   "note": "Violins, soft and near.",
-   "volume": -8
+   "volume": -8,
+   "note": "Violins, soft and near."
   },
   {
    "name": "Chamber Cellos",
@@ -239,8 +239,8 @@
     },
     "send": -12
    },
-   "note": "Cellos, soft and near.",
-   "volume": -6
+   "volume": -6,
+   "note": "Cellos, soft and near."
   },
   {
    "name": "Solo Violin",
@@ -260,8 +260,8 @@
     },
     "send": -12
    },
-   "note": "One violin, close.",
-   "volume": -6.5
+   "volume": -6.5,
+   "note": "One violin, close."
   },
   {
    "name": "Tremolo Strings",
@@ -290,8 +290,8 @@
     },
     "send": -10
    },
-   "note": "Trembling violins, kept low: a shimmer under the piano.",
-   "volume": -7
+   "volume": -7,
+   "note": "Trembling violins, kept low: a shimmer under the piano."
   },
   {
    "name": "Soft Pad",
@@ -327,8 +327,8 @@
     },
     "send": -10
    },
-   "note": "A soft, dark wavetable pad with a touch of tape drift.",
-   "volume": -9
+   "volume": -9,
+   "note": "A soft, dark wavetable pad with a touch of tape drift."
   },
   {
    "name": "Tape Pad",
@@ -371,8 +371,8 @@
     },
     "send": -12
    },
-   "note": "A blooming pad through warbling tape.",
-   "volume": -2
+   "volume": -2,
+   "note": "A blooming pad through warbling tape."
   },
   {
    "name": "Dust and Air",
@@ -414,8 +414,8 @@
     },
     "send": -10
    },
-   "note": "Breathy air drifting in slowly: hold one note and leave space around it.",
-   "volume": -2
+   "volume": -2,
+   "note": "Breathy air drifting in slowly: hold one note and leave space around it."
   },
   {
    "name": "Distant Glass",
@@ -442,8 +442,8 @@
     },
     "send": -8
    },
-   "note": "Sparse glints of high glass, far away.",
-   "volume": -5.5
+   "volume": -5.5,
+   "note": "Sparse glints of high glass, far away."
   }
  ]
 }

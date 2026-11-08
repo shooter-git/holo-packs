@@ -41,8 +41,8 @@
     },
     "send": -10
    },
-   "note": "An end-blown bamboo flute full of air, each note scooping up into pitch.",
-   "volume": -5.5
+   "volume": -5.5,
+   "note": "An end-blown bamboo flute full of air, each note scooping up into pitch."
   },
   {
    "name": "Celtic Pipes",
@@ -64,8 +64,8 @@
     },
     "send": -14
    },
-   "note": "A reedy chanter over two drones, which hold until every key is let go.",
-   "volume": -3
+   "volume": -3,
+   "note": "A reedy chanter over two drones, which hold until every key is let go."
   },
   {
    "name": "Soft Choir",
@@ -101,8 +101,8 @@
     },
     "send": -10
    },
-   "note": "A soft, wordless mixed choir on an “oh”, set back.",
-   "volume": -7
+   "volume": -7,
+   "note": "A soft, wordless mixed choir on an “oh”, set back."
   },
   {
    "name": "Lush Strings",
@@ -139,8 +139,8 @@
     },
     "send": -9
    },
-   "note": "Violins, warm and wide in a big hall.",
-   "volume": -11.5
+   "volume": -11.5,
+   "note": "Violins, warm and wide in a big hall."
   },
   {
    "name": "Low Strings",
@@ -160,8 +160,8 @@
     },
     "send": -10
    },
-   "note": "Cellos for the warm line underneath.",
-   "volume": -7
+   "volume": -7,
+   "note": "Cellos for the warm line underneath."
   },
   {
    "name": "Low Brass Stabs",
@@ -190,8 +190,8 @@
     },
     "send": -12
    },
-   "note": "Short trombone chords, dark and heavy.",
-   "volume": -2.5
+   "volume": -2.5,
+   "note": "Short trombone chords, dark and heavy."
   },
   {
    "name": "Anvil",
@@ -216,8 +216,8 @@
     },
     "send": -14
    },
-   "note": "A struck steel block: a hard, high ring that cuts through the orchestra.",
-   "volume": -2
+   "volume": -2,
+   "note": "A struck steel block: a hard, high ring that cuts through the orchestra."
   },
   {
    "name": "Frame Drum",
@@ -240,8 +240,8 @@
     },
     "send": -16
    },
-   "note": "A shallow skin drum, more skin than boom.",
-   "volume": 6.5
+   "volume": 6.5,
+   "note": "A shallow skin drum, more skin than boom."
   },
   {
    "name": "Harp",
@@ -261,8 +261,8 @@
     },
     "send": -12
    },
-   "note": "Concert harp for gentle arpeggios.",
-   "volume": -3
+   "volume": -3,
+   "note": "Concert harp for gentle arpeggios."
   },
   {
    "name": "Grand Piano",
@@ -291,8 +291,8 @@
     },
     "send": -14
    },
-   "note": "The concert grand, a little softened, in the hall.",
-   "volume": 0.5
+   "volume": 0.5,
+   "note": "The concert grand, a little softened, in the hall."
   },
   {
    "name": "Warm Pad",
@@ -319,8 +319,8 @@
     },
     "send": -10
    },
-   "note": "A soft, round wavetable pad under the orchestra.",
-   "volume": -9.5
+   "volume": -9.5,
+   "note": "A soft, round wavetable pad under the orchestra."
   },
   {
    "name": "Breath Pad",
@@ -346,8 +346,8 @@
     },
     "send": -10
    },
-   "note": "Airy harmonics, like wind across pipes.",
-   "volume": -4.5
+   "volume": -4.5,
+   "note": "Airy harmonics, like wind across pipes."
   }
  ]
 }

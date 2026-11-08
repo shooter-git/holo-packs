@@ -34,8 +34,8 @@
     },
     "send": -12
    },
-   "note": "The long zither, plucked with picks: clean and bright.",
-   "volume": -1.5
+   "volume": -1.5,
+   "note": "The long zither, plucked with picks: clean and bright."
   },
   {
    "name": "Koto, Pressed",
@@ -59,8 +59,8 @@
     },
     "send": -12
    },
-   "note": "The koto with the left hand pressing the string after each pluck.",
-   "volume": -1.5
+   "volume": -1.5,
+   "note": "The koto with the left hand pressing the string after each pluck."
   },
   {
    "name": "Shamisen",
@@ -83,8 +83,8 @@
     },
     "send": -14
    },
-   "note": "The three-stringed lute struck with a large plectrum: sharp and buzzing.",
-   "volume": -1.5
+   "volume": -1.5,
+   "note": "The three-stringed lute struck with a large plectrum: sharp and buzzing."
   },
   {
    "name": "Shakuhachi",
@@ -107,8 +107,8 @@
     },
     "send": -10
    },
-   "note": "The end-blown bamboo flute: hollow, breathy, each note scooping up.",
-   "volume": -5.5
+   "volume": -5.5,
+   "note": "The end-blown bamboo flute: hollow, breathy, each note scooping up."
   },
   {
    "name": "Shakuhachi, Breathy",
@@ -133,8 +133,8 @@
     },
     "send": -10
    },
-   "note": "More air and overblowing, for the rougher, wind-like tones.",
-   "volume": -6
+   "volume": -6,
+   "note": "More air and overblowing, for the rougher, wind-like tones."
   },
   {
    "name": "Taiko",
@@ -157,8 +157,8 @@
     },
     "send": -12
    },
-   "note": "A deep barrel drum: boom and stick. Play low.",
-   "volume": 3
+   "volume": 3,
+   "note": "A deep barrel drum: boom and stick. Play low."
   },
   {
    "name": "Taiko Ensemble",
@@ -182,8 +182,8 @@
     },
     "send": -12
    },
-   "note": "Several taiko struck together, a little apart.",
-   "volume": 4.5
+   "volume": 4.5,
+   "note": "Several taiko struck together, a little apart."
   }
  ]
 }

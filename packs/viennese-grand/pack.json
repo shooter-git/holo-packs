@@ -38,10 +38,10 @@
       "b1Freq": 220,
       "b1Gain": 2,
       "b1Q": 0.8,
-      "b3Freq": 3200,
+      "b3Freq": 3000,
       "b3Gain": -2.5,
       "b3Q": 0.7,
-      "hsFreq": 7000,
+      "hsFreq": 5500,
       "hsGain": -3.5
      }
     }
@@ -59,8 +59,8 @@
     },
     "send": -12
    },
-   "note": "The grand voiced darker and rounder, in a warm hall.",
-   "volume": 1.5
+   "volume": 1.5,
+   "note": "The grand voiced darker and rounder, in a warm hall."
   },
   {
    "name": "Viennese Grand, Close",
@@ -85,10 +85,10 @@
       "b1Freq": 220,
       "b1Gain": 2,
       "b1Q": 0.8,
-      "b3Freq": 3200,
+      "b3Freq": 3000,
       "b3Gain": -2.5,
       "b3Q": 0.7,
-      "hsFreq": 7000,
+      "hsFreq": 5500,
       "hsGain": -3.5
      }
     }
@@ -106,8 +106,8 @@
     },
     "send": -18
    },
-   "note": "Close to the strings: more detail, the same round, singing voice.",
-   "volume": 6
+   "volume": 6,
+   "note": "Close to the strings: more detail, the same round, singing voice."
   },
   {
    "name": "Viennese Grand, Resonant",
@@ -132,10 +132,10 @@
       "b1Freq": 220,
       "b1Gain": 2,
       "b1Q": 0.8,
-      "b3Freq": 3200,
+      "b3Freq": 3000,
       "b3Gain": -2.5,
       "b3Q": 0.7,
-      "hsFreq": 7000,
+      "hsFreq": 5500,
       "hsGain": -3.5
      }
     },
