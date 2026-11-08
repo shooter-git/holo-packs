@@ -374,11 +374,19 @@ export function pinDownloads(source, downloads) {
   return out;
 }
 
-/** Decoded size in megabytes of an instrument's samples at 48 kHz stereo float (what a device holds). */
-export function memoryMb(zones, rates) {
+/**
+ * Decoded size in megabytes of an instrument's samples at 48 kHz float (what a device holds): stereo,
+ * but for the files `mono` names (a set of paths), at half that.
+ */
+export function memoryMb(zones, rates, mono) {
   let frames = 0;
-  for (const z of zones) frames += ((z.end - z.start) * 48000) / (rates?.[z.file] ?? z.rate);
-  return (frames * 8) / 1048576;
+  let monoFrames = 0;
+  for (const z of zones) {
+    const f = ((z.end - z.start) * 48000) / (rates?.[z.file] ?? z.rate);
+    if (mono?.has(z.file)) monoFrames += f;
+    else frames += f;
+  }
+  return (frames * 8 + monoFrames * 4) / 1048576;
 }
 
 export { mixExtension };
