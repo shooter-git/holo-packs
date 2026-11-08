@@ -9,7 +9,8 @@ An install, and an experience's own build, fetch the audio from its source:
 - the Iowa notes cut from the university's own downloads;
 - the FreePats guitar decoded from the project's own archive;
 - the Steinway and the drum kits made from their libraries' own recordings (trimmed, and the kits mixed
-  from their microphones) by the recipes in `packs/<id>/recipe.mjs`.
+  from their microphones, or each microphone kept as its own file) by the recipes in
+  `packs/<id>/recipe.mjs`.
 
 | Pack | Authors | Licence | Source |
 |---|---|---|---|
@@ -23,6 +24,7 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Prog Kit](packs/prog-kit/)'s snare (Frankensnare) | Karoryfer Samples | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.frankensnare> |
 | [Prog Kit](packs/prog-kit/)'s gong | Versilian Studios (VSCO 2 Community Edition) | CC0 1.0 | <https://github.com/sgossner/VSCO-2-CE> |
 | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) | Versilian Studios and Karoryfer Samples | CC0 1.0 | <https://github.com/sfzinstruments/virtuosity_drums> |
+| [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Wilkinson Audio; its SFZ and FLAC version by kinwie | CC BY 4.0 | <https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.
