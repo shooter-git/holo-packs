@@ -30,6 +30,7 @@ version…) are listed with it, and every pack links to its own page.
 |---|---|---|---|---|
 | [Angklung and Khaen (OLPC)](packs/angklung-khaen/) | Percussion, Woodwinds | 3 | 3 MB | CC BY 3.0 |
 | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) | Percussion, Tuned percussion | 6 | 14 MB | CC BY 3.0 |
+| [Brushes Kit (Karoryfer Swirly Drums)](packs/brushes-kit/) | Drum kits | 1 | 373 MB | CC0 1.0 |
 | [Dim Cabasa](packs/dim-cabasa/) | Percussion | 1 | 22 MB | CC BY 4.0 |
 | [Erhu](packs/erhu/) | Strings | 2 | 45 MB | CC0 1.0 |
 | [Ethan Winer's Instruments](packs/ethan-winer/) | Percussion, Tuned percussion, Strings, Woodwinds | 14 | 32 MB | Free to use without restriction |
@@ -65,7 +66,9 @@ version…) are listed with it, and every pack links to its own page.
 | [Salamander Grand Piano (Yamaha C5)](packs/salamander/) | Pianos and keys | 2 | 1.4 GB | Public domain |
 | [Singing Bowls (OLPC)](packs/singing-bowls/) | Tuned percussion | 1 | 8 MB | CC BY 3.0 |
 | [Sonic Pi Samples](packs/sonic-pi/) | Percussion, Other | 9 | 91 MB | CC0 1.0 |
+| [Soul Kit (Karoryfer Unruly Drums)](packs/soul-kit/) | Drum kits | 1 | 222 MB | CC0 1.0 |
 | [Steinway Model D (bitKlavier Grand)](packs/steinway/) | Pianos and keys | 3 | 1.2 GB | CC BY 4.0 |
+| [Studio Kit (Karoryfer Unruly Drums)](packs/studio-kit/) | Drum kits | 1 | 143 MB | CC0 1.0 |
 | [Tabla (OLPC, Sonic Pi)](packs/tabla/) | Percussion | 2 | 4 MB | CC BY 3.0 |
 | [University of Iowa MIS: Brass](packs/iowa-brass/) | Brass | 6 | 170 MB | Free to use without restriction |
 | [University of Iowa MIS: Clarinet and Bassoon](packs/iowa/) | Woodwinds | 4 | 101 MB | Free to use without restriction |
@@ -105,10 +108,13 @@ version…) are listed with it, and every pack links to its own page.
 
 | Instrument | Also played as | Pack |
 |---|---|---|
+| Brushes Kit |  | [Brushes Kit (Karoryfer Swirly Drums)](packs/brushes-kit/) |
 | Jazz Kit |  | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) |
 | Lo-fi Beat Kit |  | [Lo-fi Beat Kit (Sonic Pi, FreePats)](packs/lofi-kit/) |
 | Prog Kit |  | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) |
 | Rock Kit |  | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) |
+| Soul Kit |  | [Soul Kit (Karoryfer Unruly Drums)](packs/soul-kit/) |
+| Studio Kit |  | [Studio Kit (Karoryfer Unruly Drums)](packs/studio-kit/) |
 | Synth Percussion Kit |  | [FreePats Synthesizer Percussion](packs/freepats-synth-percussion/) |
 
 ### Percussion
@@ -371,6 +377,7 @@ packs/<id>/pack.json      the map: instruments, zones, levels, pads, the source 
 packs/<id>/files.sha256   every sample's sha256, as `sha256sum -c` reads them
 packs/<id>/recipe.mjs     how pack.json was made, for the packs made from recordings
 tools/lib.mjs, kit.mjs    what the recipes share: fetching, measuring, levelling, writing a pack
+tools/iowa.mjs, unruly.mjs  the Iowa pages and Unruly Drums' folders, as their recipes read them
 tools/sampler.mjs         played instruments (pianos, strings, winds…) from a library's recordings
 tools/sfz.mjs             an SFZ program read as a player reads it, for the recipes that map one
 tools/checksums.mjs       files.sha256 and the pack's size, from a pack installed in HO[LO]'s data folder

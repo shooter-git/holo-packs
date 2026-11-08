@@ -53,6 +53,7 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Ethan Winer's Instruments](packs/ethan-winer/) | Ethan Winer (the turtle drum played by Katie Petreycik); mapped in FLAC by kinwie (SFZ Instruments) | Free to use without restriction | <https://ethanwiner.com/ewsf2.html>, <https://github.com/sfzinstruments/EthanWiner.Soundfonts> |
 | [Growlybass](packs/growlybass/), [Caveman Cosmonaut](packs/caveman-cosmonaut/), [Cowsynth](packs/cowsynth/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments> |
 | [Vintage Keys](packs/vintage-keys/) | Made for HO[LO] from Greg Sullivan's E-Pianos and the FreePats Upright Piano KW | CC BY 3.0 | <https://github.com/sfzinstruments/GregSullivan.E-Pianos>, <https://freepats.zenvoid.org/> |
+| [Brushes Kit](packs/brushes-kit/) (Swirly Drums), [Soul Kit](packs/soul-kit/) and [Studio Kit](packs/studio-kit/) (Unruly Drums) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.swirly-drums>, <https://github.com/sfzinstruments/karoryfer.unruly-drums> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.
