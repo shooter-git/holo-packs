@@ -40,36 +40,36 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Glass Harmonica | Glass Harmonica synth | — | Glass Sky, −12 dB | 0 dB | Rubbed glass bowls: pure tones that swell in and shimmer as they ring. |
-| Crystal Rods | FM Bells synth | Tape Delay | Glass Sky, −14 dB | 0 dB | Struck glass rods: clear, inharmonic and long, with a dotted echo. |
-| Steel Pan Tones | FM Pluck synth | Tape Delay | Glass Sky, −16 dB | 0 dB | FM voiced like a steel pan: sweet, bright and quick to fade, echoing softly. |
-| Bowed Vibes | [Vibraphone (Bowed)](../vcsl/) | — | Glass Sky, −10 dB | 0 dB | Vibraphone bars bowed: a pure tone that swells and hangs. |
-| Vibes in Echo | [Vibraphone](../vcsl/) | Tape Delay, Wow & Flutter | Glass Sky, −16 dB | 0 dB | Vibraphone through a ping-pong tape delay, a little warble on it. |
-| Marimba Pulse | [Marimba](../vsco2/) | Channel EQ, Tape Delay | Glass Sky, −18 dB | 0 dB | Soft marimba notes repeating in eighths through a tape delay. |
-| Glockenspiel Echo | [Glockenspiel](../vsco2/) | Channel EQ, Tape Delay | Glass Sky, −14 dB | 0 dB | Glockenspiel, its edge taken off, with a dotted-quarter echo. |
+| Glass Harmonica | Glass Harmonica synth | — | Glass Sky, −12 dB | −2.5 dB | Rubbed glass bowls: pure tones that swell in and shimmer as they ring. |
+| Crystal Rods | FM Bells synth | Tape Delay | Glass Sky, −14 dB | −2.5 dB | Struck glass rods: clear, inharmonic and long, with a dotted echo. |
+| Steel Pan Tones | FM Pluck synth | Tape Delay | Glass Sky, −16 dB | +0.5 dB | FM voiced like a steel pan: sweet, bright and quick to fade, echoing softly. |
+| Bowed Vibes | [Vibraphone (Bowed)](../vcsl/) | — | Glass Sky, −10 dB | +10 dB | Vibraphone bars bowed: a pure tone that swells and hangs. |
+| Vibes in Echo | [Vibraphone](../vcsl/) | Tape Delay, Wow & Flutter | Glass Sky, −16 dB | −1 dB | Vibraphone through a ping-pong tape delay, a little warble on it. |
+| Marimba Pulse | [Marimba](../vsco2/) | Channel EQ, Tape Delay | Glass Sky, −18 dB | −0.5 dB | Soft marimba notes repeating in eighths through a tape delay. |
+| Glockenspiel Echo | [Glockenspiel](../vsco2/) | Channel EQ, Tape Delay | Glass Sky, −14 dB | +2.5 dB | Glockenspiel, its edge taken off, with a dotted-quarter echo. |
 
 ### Bass
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Pulse Bass | Fat Mono synth | Arpeggiator | dry | 0 dB | A dark analog bass that pulses in eighths while a note is held. |
+| Pulse Bass | Fat Mono synth | Arpeggiator | dry | −3 dB | A dark analog bass that pulses in eighths while a note is held. |
 
 ### Synths
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Soft Pulse | Fat Poly synth | Arpeggiator, Chorus, Tape Delay | Glass Sky, −18 dB | 0 dB | Held chords throb in sixteenths: a soft, filtered analog pulse. |
-| Analog Arp | Fat Mono synth | Arpeggiator, Tape Delay | Glass Sky, −18 dB | 0 dB | Hold a chord: it rises in sixteenths over two octaves, echoing in dotted eighths. |
+| Soft Pulse | Fat Poly synth | Arpeggiator, Chorus, Tape Delay | Glass Sky, −18 dB | +8 dB | Held chords throb in sixteenths: a soft, filtered analog pulse. |
+| Analog Arp | Fat Mono synth | Arpeggiator, Tape Delay | Glass Sky, −18 dB | −3.5 dB | Hold a chord: it rises in sixteenths over two octaves, echoing in dotted eighths. |
 
 ### Pads
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Cold Pad | Morph Pad synth | Channel EQ | Glass Sky, −10 dB | 0 dB | A glassy wavetable pad, thin in the lows and cold on top. |
+| Cold Pad | Morph Pad synth | Channel EQ | Glass Sky, −10 dB | −4 dB | A glassy wavetable pad, thin in the lows and cold on top. |
 
 ### Textures
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Bowed Metal | Drone Metal synth | — | Glass Sky, −10 dB | 0 dB | The sustained, slowly shifting ring of bowed metal bars. |
-| Frozen Air | Drone Glass synth | — | Glass Sky, −8 dB | 0 dB | High glassy partials glinting in and out: frost in the air. |
+| Bowed Metal | Drone Metal synth | — | Glass Sky, −10 dB | −6.5 dB | The sustained, slowly shifting ring of bowed metal bars. |
+| Frozen Air | Drone Glass synth | — | Glass Sky, −8 dB | −9 dB | High glassy partials glinting in and out: frost in the air. |

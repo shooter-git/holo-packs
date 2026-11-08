@@ -33,6 +33,6 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Gayageum | Gayageum synth | — | Wooden Hall, −12 dB | 0 dB | Warm and round, with a deep, slow vibrato. |
-| Gayageum, Deep Vibrato | Gayageum synth | — | Wooden Hall, −12 dB | 0 dB | The left hand pressing and shaking the string (nonghyeon), wide and slow. |
-| Gayageum, Bright | Gayageum synth | — | Wooden Hall, −12 dB | 0 dB | A brighter pluck with less vibrato, for quick figures. |
+| Gayageum | Gayageum synth | — | Wooden Hall, −12 dB | −1.5 dB | Warm and round, with a deep, slow vibrato. |
+| Gayageum, Deep Vibrato | Gayageum synth | — | Wooden Hall, −12 dB | −1.5 dB | The left hand pressing and shaking the string (nonghyeon), wide and slow. |
+| Gayageum, Bright | Gayageum synth | — | Wooden Hall, −12 dB | −2 dB | A brighter pluck with less vibrato, for quick figures. |

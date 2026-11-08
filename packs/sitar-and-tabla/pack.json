@@ -36,7 +36,8 @@
     },
     "send": -12
    },
-   "note": "Strings buzzing on the wide bridge (jawari), sympathetic strings ringing along."
+   "note": "Strings buzzing on the wide bridge (jawari), sympathetic strings ringing along.",
+   "volume": -1.5
   },
   {
    "name": "Tanpura",
@@ -59,7 +60,8 @@
     },
     "send": -10
    },
-   "note": "Hold Sa: the drone plays Pa, Sa, Sa and the low Sa, round and round."
+   "note": "Hold Sa: the drone plays Pa, Sa, Sa and the low Sa, round and round.",
+   "volume": -2.5
   },
   {
    "name": "Bansuri",
@@ -82,7 +84,8 @@
     },
     "send": -10
    },
-   "note": "The side-blown bamboo flute: sweet, with a wide gentle vibrato."
+   "note": "The side-blown bamboo flute: sweet, with a wide gentle vibrato.",
+   "volume": -5.5
   },
   {
    "name": "Harmonium",
@@ -105,7 +108,8 @@
     },
     "send": -12
    },
-   "note": "Hand-pumped reeds, breathing with the bellows."
+   "note": "Hand-pumped reeds, breathing with the bellows.",
+   "volume": -3.5
   },
   {
    "name": "Tabla",

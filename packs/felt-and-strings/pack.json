@@ -65,7 +65,8 @@
     },
     "send": -14
    },
-   "note": "An upright with felt on the strings: soft, muffled and close, a gentle warble."
+   "note": "An upright with felt on the strings: soft, muffled and close, a gentle warble.",
+   "volume": -3.5
   },
   {
    "name": "Felt Upright, Worn Tape",
@@ -125,7 +126,8 @@
     },
     "send": -14
    },
-   "note": "The felt upright on old tape: deeper wow, saturated and dark."
+   "note": "The felt upright on old tape: deeper wow, saturated and dark.",
+   "volume": -9
   },
   {
    "name": "Felt Upright, Cassette",
@@ -216,7 +218,8 @@
     },
     "send": -12
    },
-   "note": "Violins, soft and near."
+   "note": "Violins, soft and near.",
+   "volume": -8
   },
   {
    "name": "Chamber Cellos",
@@ -236,7 +239,8 @@
     },
     "send": -12
    },
-   "note": "Cellos, soft and near."
+   "note": "Cellos, soft and near.",
+   "volume": -6
   },
   {
    "name": "Solo Violin",
@@ -256,7 +260,8 @@
     },
     "send": -12
    },
-   "note": "One violin, close."
+   "note": "One violin, close.",
+   "volume": -6.5
   },
   {
    "name": "Tremolo Strings",
@@ -285,7 +290,8 @@
     },
     "send": -10
    },
-   "note": "Trembling violins, kept low: a shimmer under the piano."
+   "note": "Trembling violins, kept low: a shimmer under the piano.",
+   "volume": -7
   },
   {
    "name": "Soft Pad",
@@ -321,7 +327,8 @@
     },
     "send": -10
    },
-   "note": "A soft, dark wavetable pad with a touch of tape drift."
+   "note": "A soft, dark wavetable pad with a touch of tape drift.",
+   "volume": -9
   },
   {
    "name": "Tape Pad",
@@ -364,7 +371,8 @@
     },
     "send": -12
    },
-   "note": "A blooming pad through warbling tape."
+   "note": "A blooming pad through warbling tape.",
+   "volume": -2
   },
   {
    "name": "Dust and Air",
@@ -406,7 +414,8 @@
     },
     "send": -10
    },
-   "note": "Breathy air drifting in slowly: hold one note and leave space around it."
+   "note": "Breathy air drifting in slowly: hold one note and leave space around it.",
+   "volume": -2
   },
   {
    "name": "Distant Glass",
@@ -433,7 +442,8 @@
     },
     "send": -8
    },
-   "note": "Sparse glints of high glass, far away."
+   "note": "Sparse glints of high glass, far away.",
+   "volume": -5.5
   }
  ]
 }

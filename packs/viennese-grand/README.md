@@ -47,6 +47,6 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Viennese Grand | [Steinway D Grand](../steinway/) | Transient Softener, Channel EQ | Warm Hall, −12 dB | 0 dB | The grand voiced darker and rounder, in a warm hall. |
-| Viennese Grand, Close | [Steinway D Grand, Close](../steinway/) | Transient Softener, Channel EQ | Warm Hall, −18 dB | 0 dB | Close to the strings: more detail, the same round, singing voice. |
+| Viennese Grand | [Steinway D Grand](../steinway/) | Transient Softener, Channel EQ | Warm Hall, −12 dB | +1.5 dB | The grand voiced darker and rounder, in a warm hall. |
+| Viennese Grand, Close | [Steinway D Grand, Close](../steinway/) | Transient Softener, Channel EQ | Warm Hall, −18 dB | +6 dB | Close to the strings: more detail, the same round, singing voice. |
 | Viennese Grand, Resonant *(coming)* | [Steinway D Grand](../steinway/) | Transient Softener, Channel EQ, String Resonance | Warm Hall, −12 dB | 0 dB | With sympathetic ringing from extra bass strings (coming with String Resonance). |

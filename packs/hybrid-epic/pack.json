@@ -53,7 +53,8 @@
     },
     "send": -12
    },
-   "note": "Trombones massed and pushed: a broad, heavy wall of low brass."
+   "note": "Trombones massed and pushed: a broad, heavy wall of low brass.",
+   "volume": -9.5
   },
   {
    "name": "Brass Stabs",
@@ -93,7 +94,8 @@
     },
     "send": -12
    },
-   "note": "Short, hard trombone hits for driving rhythms."
+   "note": "Short, hard trombone hits for driving rhythms.",
+   "volume": -4
   },
   {
    "name": "Horns",
@@ -123,7 +125,8 @@
     },
     "send": -10
    },
-   "note": "French horns, warm and heroic, set back in the hall."
+   "note": "French horns, warm and heroic, set back in the hall.",
+   "volume": -4
   },
   {
    "name": "Cello Ostinato",
@@ -161,7 +164,8 @@
     },
     "send": -16
    },
-   "note": "Spiccato cellos for chugging ostinatos."
+   "note": "Spiccato cellos for chugging ostinatos.",
+   "volume": 1
   },
   {
    "name": "Violin Ostinato",
@@ -193,7 +197,8 @@
     },
     "send": -16
    },
-   "note": "Spiccato violins: tight, bright repeated notes above the cellos."
+   "note": "Spiccato violins: tight, bright repeated notes above the cellos.",
+   "volume": 0
   },
   {
    "name": "Cellos",
@@ -214,7 +219,8 @@
     },
     "send": -12
    },
-   "note": "A cello section singing a long line."
+   "note": "A cello section singing a long line.",
+   "volume": -5.5
   },
   {
    "name": "Solo Cello",
@@ -274,7 +280,8 @@
     },
     "send": -10
    },
-   "note": "Several big drums struck together: a massed, rolling thunder. Play low."
+   "note": "Several big drums struck together: a massed, rolling thunder. Play low.",
+   "volume": 1
   },
   {
    "name": "Taiko Hits",
@@ -301,7 +308,8 @@
     },
     "send": -12
    },
-   "note": "One deep barrel drum: the boom and the stick’s slap. Play low."
+   "note": "One deep barrel drum: the boom and the stick’s slap. Play low.",
+   "volume": 6
   },
   {
    "name": "Analog Sub",
@@ -329,7 +337,8 @@
     }
    ],
    "space": null,
-   "note": "A deep, steady analog sub to sit under the low brass."
+   "note": "A deep, steady analog sub to sit under the low brass.",
+   "volume": -2.5
   },
   {
    "name": "Cymbal Riser",
@@ -350,7 +359,8 @@
     },
     "send": -10
    },
-   "note": "A long cymbal swell rising into the downbeat."
+   "note": "A long cymbal swell rising into the downbeat.",
+   "volume": 1
   },
   {
    "name": "Rising Air",
@@ -387,7 +397,8 @@
     },
     "send": -10
    },
-   "note": "Breath and noise swelling slowly over a held chord: a riser you can pitch."
+   "note": "Breath and noise swelling slowly over a held chord: a riser you can pitch.",
+   "volume": 0
   },
   {
    "name": "Cathedral Organ",
@@ -407,7 +418,8 @@
     },
     "send": -6
    },
-   "note": "Pipe organ in a cathedral: full, slow and enormous."
+   "note": "Pipe organ in a cathedral: full, slow and enormous.",
+   "volume": -7.5
   },
   {
    "name": "Felt Piano",
@@ -449,7 +461,8 @@
     },
     "send": -14
    },
-   "note": "Upright piano with the felt down: soft hammers, a muffled top, close."
+   "note": "Upright piano with the felt down: soft hammers, a muffled top, close.",
+   "volume": -4.5
   }
  ]
 }

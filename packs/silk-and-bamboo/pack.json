@@ -58,7 +58,8 @@
     },
     "send": -12
    },
-   "note": "The many-stringed zither: shimmering plucks, lovely for glissandi."
+   "note": "The many-stringed zither: shimmering plucks, lovely for glissandi.",
+   "volume": -2
   },
   {
    "name": "Guzheng, Pressed",
@@ -82,7 +83,8 @@
     },
     "send": -12
    },
-   "note": "The guzheng with a deep left-hand vibrato pressed into each note."
+   "note": "The guzheng with a deep left-hand vibrato pressed into each note.",
+   "volume": -2.5
   },
   {
    "name": "Pipa",
@@ -105,7 +107,8 @@
     },
     "send": -12
    },
-   "note": "The pear-shaped lute: held notes become a fast tremolo."
+   "note": "The pear-shaped lute: held notes become a fast tremolo.",
+   "volume": 0
   },
   {
    "name": "Dizi",
@@ -128,7 +131,8 @@
     },
     "send": -12
    },
-   "note": "The bamboo flute with a buzzing membrane: bright and reedy."
+   "note": "The bamboo flute with a buzzing membrane: bright and reedy.",
+   "volume": -3
   },
   {
    "name": "Sheng",
@@ -151,7 +155,8 @@
     },
     "send": -12
    },
-   "note": "The mouth organ of bamboo pipes: each note with its fifth and octave."
+   "note": "The mouth organ of bamboo pipes: each note with its fifth and octave.",
+   "volume": -3.5
   },
   {
    "name": "Opera Gongs",
@@ -174,7 +179,8 @@
     },
     "send": -12
    },
-   "note": "Peking opera hand gongs: the pitch slides down on low notes and up on high ones."
+   "note": "Peking opera hand gongs: the pitch slides down on low notes and up on high ones.",
+   "volume": -4.5
   },
   {
    "name": "Temple Block",
@@ -195,7 +201,8 @@
     },
     "send": -14
    },
-   "note": "The hollow wooden block that keeps time."
+   "note": "The hollow wooden block that keeps time.",
+   "volume": -2.5
   }
  ]
 }

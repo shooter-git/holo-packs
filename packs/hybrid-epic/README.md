@@ -39,44 +39,44 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Felt Piano | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ | Chamber, −14 dB | 0 dB | Upright piano with the felt down: soft hammers, a muffled top, close. |
+| Felt Piano | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ | Chamber, −14 dB | −4.5 dB | Upright piano with the felt down: soft hammers, a muffled top, close. |
 
 ### Organs
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Cathedral Organ | [Organ](../vsco2/) | — | Cathedral, −6 dB | 0 dB | Pipe organ in a cathedral: full, slow and enormous. |
+| Cathedral Organ | [Organ](../vsco2/) | — | Cathedral, −6 dB | −7.5 dB | Pipe organ in a cathedral: full, slow and enormous. |
 
 ### Strings
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Cello Ostinato | [Cellos Spiccato](../vsco2/) | Compressor, Channel EQ | Epic Hall, −16 dB | 0 dB | Spiccato cellos for chugging ostinatos. |
+| Cello Ostinato | [Cellos Spiccato](../vsco2/) | Compressor, Channel EQ | Epic Hall, −16 dB | +1 dB | Spiccato cellos for chugging ostinatos. |
 | Violin Ostinato | [Violins Spiccato](../vsco2/) | Compressor | Epic Hall, −16 dB | 0 dB | Spiccato violins: tight, bright repeated notes above the cellos. |
-| Cellos | [Cellos](../vsco2/) | — | Epic Hall, −12 dB | 0 dB | A cello section singing a long line. |
+| Cellos | [Cellos](../vsco2/) | — | Epic Hall, −12 dB | −5.5 dB | A cello section singing a long line. |
 | Solo Cello *(coming)* | `bigcat-cello/cello` | — | Epic Hall, −14 dB | 0 dB | One cello, close and expressive (coming with the Bigcat Cello pack). |
 
 ### Brass
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Massed Low Brass | [Trombones](../vsco2/) | Channel EQ, Saturation | Epic Hall, −12 dB | 0 dB | Trombones massed and pushed: a broad, heavy wall of low brass. |
-| Brass Stabs | [Trombones Staccato](../vsco2/) | Channel EQ, Saturation | Epic Hall, −12 dB | 0 dB | Short, hard trombone hits for driving rhythms. |
-| Horns | [French Horns](../vsco2/) | Channel EQ | Epic Hall, −10 dB | 0 dB | French horns, warm and heroic, set back in the hall. |
+| Massed Low Brass | [Trombones](../vsco2/) | Channel EQ, Saturation | Epic Hall, −12 dB | −9.5 dB | Trombones massed and pushed: a broad, heavy wall of low brass. |
+| Brass Stabs | [Trombones Staccato](../vsco2/) | Channel EQ, Saturation | Epic Hall, −12 dB | −4 dB | Short, hard trombone hits for driving rhythms. |
+| Horns | [French Horns](../vsco2/) | Channel EQ | Epic Hall, −10 dB | −4 dB | French horns, warm and heroic, set back in the hall. |
 
 ### Drums and percussion
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| War Drums | War Drums synth | Compressor | Epic Hall, −10 dB | 0 dB | Several big drums struck together: a massed, rolling thunder. Play low. |
-| Taiko Hits | Taiko synth | — | Epic Hall, −12 dB | 0 dB | One deep barrel drum: the boom and the stick’s slap. Play low. |
-| Cymbal Riser | [Cymbal Swell (Long)](../vsco2/) | — | Epic Hall, −10 dB | 0 dB | A long cymbal swell rising into the downbeat. |
+| War Drums | War Drums synth | Compressor | Epic Hall, −10 dB | +1 dB | Several big drums struck together: a massed, rolling thunder. Play low. |
+| Taiko Hits | Taiko synth | — | Epic Hall, −12 dB | +6 dB | One deep barrel drum: the boom and the stick’s slap. Play low. |
+| Cymbal Riser | [Cymbal Swell (Long)](../vsco2/) | — | Epic Hall, −10 dB | +1 dB | A long cymbal swell rising into the downbeat. |
 
 ### Bass
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Analog Sub | Fat Mono synth | Channel EQ | dry | 0 dB | A deep, steady analog sub to sit under the low brass. |
+| Analog Sub | Fat Mono synth | Channel EQ | dry | −2.5 dB | A deep, steady analog sub to sit under the low brass. |
 
 ### Textures
 

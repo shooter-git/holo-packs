@@ -59,7 +59,8 @@
     },
     "send": -12
    },
-   "note": "The grand voiced darker and rounder, in a warm hall."
+   "note": "The grand voiced darker and rounder, in a warm hall.",
+   "volume": 1.5
   },
   {
    "name": "Viennese Grand, Close",
@@ -105,7 +106,8 @@
     },
     "send": -18
    },
-   "note": "Close to the strings: more detail, the same round, singing voice."
+   "note": "Close to the strings: more detail, the same round, singing voice.",
+   "volume": 6
   },
   {
    "name": "Viennese Grand, Resonant",

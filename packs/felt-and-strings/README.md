@@ -39,29 +39,29 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Felt Upright | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter | Small Room, −14 dB | 0 dB | An upright with felt on the strings: soft, muffled and close, a gentle warble. |
-| Felt Upright, Worn Tape | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter, Tape Warmth | Small Room, −14 dB | 0 dB | The felt upright on old tape: deeper wow, saturated and dark. |
+| Felt Upright | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter | Small Room, −14 dB | −3.5 dB | An upright with felt on the strings: soft, muffled and close, a gentle warble. |
+| Felt Upright, Worn Tape | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter, Tape Warmth | Small Room, −14 dB | −9 dB | The felt upright on old tape: deeper wow, saturated and dark. |
 | Felt Upright, Cassette *(coming)* | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter, Lo-fi | Small Room, −14 dB | 0 dB | The felt upright with a cassette’s hiss and grain (coming with the Lo-fi effect). |
 
 ### Strings
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Chamber Violins | [Violins](../vsco2/) | Channel EQ | Chamber, −12 dB | 0 dB | Violins, soft and near. |
-| Chamber Cellos | [Cellos](../vsco2/) | — | Chamber, −12 dB | 0 dB | Cellos, soft and near. |
-| Solo Violin | [Solo Violin](../vsco2/) | — | Chamber, −12 dB | 0 dB | One violin, close. |
-| Tremolo Strings | [Violins Tremolo](../vsco2/) | Channel EQ | Chamber, −10 dB | 0 dB | Trembling violins, kept low: a shimmer under the piano. |
+| Chamber Violins | [Violins](../vsco2/) | Channel EQ | Chamber, −12 dB | −8 dB | Violins, soft and near. |
+| Chamber Cellos | [Cellos](../vsco2/) | — | Chamber, −12 dB | −6 dB | Cellos, soft and near. |
+| Solo Violin | [Solo Violin](../vsco2/) | — | Chamber, −12 dB | −6.5 dB | One violin, close. |
+| Tremolo Strings | [Violins Tremolo](../vsco2/) | Channel EQ | Chamber, −10 dB | −7 dB | Trembling violins, kept low: a shimmer under the piano. |
 
 ### Pads
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Soft Pad | Morph Pad synth | Wow & Flutter | Chamber, −10 dB | 0 dB | A soft, dark wavetable pad with a touch of tape drift. |
-| Tape Pad | Ethereal Pad synth | Wow & Flutter, Tape Warmth | Chamber, −12 dB | 0 dB | A blooming pad through warbling tape. |
+| Soft Pad | Morph Pad synth | Wow & Flutter | Chamber, −10 dB | −9 dB | A soft, dark wavetable pad with a touch of tape drift. |
+| Tape Pad | Ethereal Pad synth | Wow & Flutter, Tape Warmth | Chamber, −12 dB | −2 dB | A blooming pad through warbling tape. |
 
 ### Textures
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Dust and Air | Drone Breath synth | Channel EQ, Wow & Flutter | Chamber, −10 dB | 0 dB | Breathy air drifting in slowly: hold one note and leave space around it. |
-| Distant Glass | Drone Glass synth | — | Chamber, −8 dB | 0 dB | Sparse glints of high glass, far away. |
+| Dust and Air | Drone Breath synth | Channel EQ, Wow & Flutter | Chamber, −10 dB | −2 dB | Breathy air drifting in slowly: hold one note and leave space around it. |
+| Distant Glass | Drone Glass synth | — | Chamber, −8 dB | −5.5 dB | Sparse glints of high glass, far away. |

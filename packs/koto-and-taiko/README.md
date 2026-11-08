@@ -37,20 +37,20 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Shakuhachi | Shakuhachi synth | — | Wooden Hall, −10 dB | 0 dB | The end-blown bamboo flute: hollow, breathy, each note scooping up. |
-| Shakuhachi, Breathy | Shakuhachi synth | — | Wooden Hall, −10 dB | 0 dB | More air and overblowing, for the rougher, wind-like tones. |
+| Shakuhachi | Shakuhachi synth | — | Wooden Hall, −10 dB | −5.5 dB | The end-blown bamboo flute: hollow, breathy, each note scooping up. |
+| Shakuhachi, Breathy | Shakuhachi synth | — | Wooden Hall, −10 dB | −6 dB | More air and overblowing, for the rougher, wind-like tones. |
 
 ### Plucked
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Koto | Koto synth | — | Wooden Hall, −12 dB | 0 dB | The long zither, plucked with picks: clean and bright. |
-| Koto, Pressed | Koto synth | — | Wooden Hall, −12 dB | 0 dB | The koto with the left hand pressing the string after each pluck. |
-| Shamisen | Shamisen synth | — | Wooden Hall, −14 dB | 0 dB | The three-stringed lute struck with a large plectrum: sharp and buzzing. |
+| Koto | Koto synth | — | Wooden Hall, −12 dB | −1.5 dB | The long zither, plucked with picks: clean and bright. |
+| Koto, Pressed | Koto synth | — | Wooden Hall, −12 dB | −1.5 dB | The koto with the left hand pressing the string after each pluck. |
+| Shamisen | Shamisen synth | — | Wooden Hall, −14 dB | −1.5 dB | The three-stringed lute struck with a large plectrum: sharp and buzzing. |
 
 ### Drums and percussion
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Taiko | Taiko synth | — | Wooden Hall, −12 dB | 0 dB | A deep barrel drum: boom and stick. Play low. |
-| Taiko Ensemble | Taiko synth | — | Wooden Hall, −12 dB | 0 dB | Several taiko struck together, a little apart. |
+| Taiko | Taiko synth | — | Wooden Hall, −12 dB | +3 dB | A deep barrel drum: boom and stick. Play low. |
+| Taiko Ensemble | Taiko synth | — | Wooden Hall, −12 dB | +4.5 dB | Several taiko struck together, a little apart. |

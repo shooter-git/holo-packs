@@ -41,9 +41,9 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Đàn Tranh | [Dan Tranh (Zither)](../vcsl/) | — | Wooden Hall, −12 dB | 0 dB | The Vietnamese zither: bright plucks with bent, sliding notes. |
-| Đàn Tranh Tremolo | [Dan Tranh Tremolo](../vcsl/) | — | Wooden Hall, −12 dB | 0 dB | Đàn tranh notes played as a fast tremolo. |
-| Đàn Tranh Glissando | [Dan Tranh Glissando Up](../vcsl/) | — | Wooden Hall, −12 dB | 0 dB | A sweep up the strings. |
+| Đàn Tranh | [Dan Tranh (Zither)](../vcsl/) | — | Wooden Hall, −12 dB | −4 dB | The Vietnamese zither: bright plucks with bent, sliding notes. |
+| Đàn Tranh Tremolo | [Dan Tranh Tremolo](../vcsl/) | — | Wooden Hall, −12 dB | −8 dB | Đàn tranh notes played as a fast tremolo. |
+| Đàn Tranh Glissando | [Dan Tranh Glissando Up](../vcsl/) | — | Wooden Hall, −12 dB | −8 dB | A sweep up the strings. |
 
 ### Mallets and bells
 

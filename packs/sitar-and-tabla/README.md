@@ -40,20 +40,20 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Harmonium | Harmonium synth | — | Wooden Hall, −12 dB | 0 dB | Hand-pumped reeds, breathing with the bellows. |
+| Harmonium | Harmonium synth | — | Wooden Hall, −12 dB | −3.5 dB | Hand-pumped reeds, breathing with the bellows. |
 
 ### Woodwinds
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Bansuri | Bansuri synth | — | Wooden Hall, −10 dB | 0 dB | The side-blown bamboo flute: sweet, with a wide gentle vibrato. |
+| Bansuri | Bansuri synth | — | Wooden Hall, −10 dB | −5.5 dB | The side-blown bamboo flute: sweet, with a wide gentle vibrato. |
 
 ### Plucked
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Sitar | Sitar synth | — | Wooden Hall, −12 dB | 0 dB | Strings buzzing on the wide bridge (jawari), sympathetic strings ringing along. |
-| Tanpura | Tanpura synth | — | Wooden Hall, −10 dB | 0 dB | Hold Sa: the drone plays Pa, Sa, Sa and the low Sa, round and round. |
+| Sitar | Sitar synth | — | Wooden Hall, −12 dB | −1.5 dB | Strings buzzing on the wide bridge (jawari), sympathetic strings ringing along. |
+| Tanpura | Tanpura synth | — | Wooden Hall, −10 dB | −2.5 dB | Hold Sa: the drone plays Pa, Sa, Sa and the low Sa, round and round. |
 
 ### Mallets and bells
 

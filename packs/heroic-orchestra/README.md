@@ -35,37 +35,37 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Low Strings | [Cellos](../vsco2/) | Channel EQ | Concert Hall, −10 dB | 0 dB | Cellos, dark and full, for the low melodies. |
-| Contrabass Spiccato | [Contrabass Spiccato](../vsco2/) | — | Concert Hall, −12 dB | 0 dB | Short basses for driving rhythms. |
+| Low Strings | [Cellos](../vsco2/) | Channel EQ | Concert Hall, −10 dB | −7 dB | Cellos, dark and full, for the low melodies. |
+| Contrabass Spiccato | [Contrabass Spiccato](../vsco2/) | — | Concert Hall, −12 dB | −4.5 dB | Short basses for driving rhythms. |
 
 ### Brass
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Big Brass | [Trombones](../vsco2/) | Channel EQ | Concert Hall, −10 dB | 0 dB | Trombones played big, with a bright edge. |
-| Horns | [French Horns](../vsco2/) | — | Concert Hall, −10 dB | 0 dB | French horns for the heroic lines. |
-| Horns, Short | [French Horns Staccato](../vsco2/) | — | Concert Hall, −10 dB | 0 dB | Short horn notes for rhythmic calls. |
-| Tuba | [Tuba](../vsco2/) | — | Concert Hall, −12 dB | 0 dB | Tuba under the brass. |
+| Big Brass | [Trombones](../vsco2/) | Channel EQ | Concert Hall, −10 dB | −8 dB | Trombones played big, with a bright edge. |
+| Horns | [French Horns](../vsco2/) | — | Concert Hall, −10 dB | −5 dB | French horns for the heroic lines. |
+| Horns, Short | [French Horns Staccato](../vsco2/) | — | Concert Hall, −10 dB | −2.5 dB | Short horn notes for rhythmic calls. |
+| Tuba | [Tuba](../vsco2/) | — | Concert Hall, −12 dB | −8.5 dB | Tuba under the brass. |
 
 ### Woodwinds
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Oboe | [Oboe](../vsco2/) | — | Concert Hall, −12 dB | 0 dB | Oboe for modal, ancient-sounding melodies. |
-| Flute | [Flute](../vsco2/) | — | Concert Hall, −12 dB | 0 dB | Flute for soaring lines. |
-| Bassoon | [Bassoon](../vsco2/) | — | Concert Hall, −12 dB | 0 dB | Bassoon, dark and woody. |
+| Oboe | [Oboe](../vsco2/) | — | Concert Hall, −12 dB | −5 dB | Oboe for modal, ancient-sounding melodies. |
+| Flute | [Flute](../vsco2/) | — | Concert Hall, −12 dB | +5 dB | Flute for soaring lines. |
+| Bassoon | [Bassoon](../vsco2/) | — | Concert Hall, −12 dB | −4.5 dB | Bassoon, dark and woody. |
 
 ### Voices
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Male Choir | Male Choir synth | — | Concert Hall, −10 dB | 0 dB | Low men’s voices for chant and weight. |
+| Male Choir | Male Choir synth | — | Concert Hall, −10 dB | −7.5 dB | Low men’s voices for chant and weight. |
 
 ### Drums and percussion
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| War Drums | War Drums synth | Compressor | Concert Hall, −10 dB | 0 dB | Many big drums struck together. Play low. |
-| Timpani | [Timpani](../vsco2/) | — | Concert Hall, −12 dB | 0 dB | Timpani strokes. |
-| Timpani Roll | [Timpani Roll](../vsco2/) | — | Concert Hall, −12 dB | 0 dB | Timpani rolls for swells. |
-| Field Snare | [Snare](../vsco2/) | — | Concert Hall, −14 dB | 0 dB | A marching snare. |
+| War Drums | War Drums synth | Compressor | Concert Hall, −10 dB | −0.5 dB | Many big drums struck together. Play low. |
+| Timpani | [Timpani](../vsco2/) | — | Concert Hall, −12 dB | −6.5 dB | Timpani strokes. |
+| Timpani Roll | [Timpani Roll](../vsco2/) | — | Concert Hall, −12 dB | −8 dB | Timpani rolls for swells. |
+| Field Snare | [Snare](../vsco2/) | — | Concert Hall, −14 dB | +5 dB | A marching snare. |

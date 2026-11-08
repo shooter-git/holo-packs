@@ -41,42 +41,42 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Piano | [Steinway D Grand, Close](../steinway/) | — | Chamber, −16 dB | 0 dB | The grand, close and clear. |
-| Piano Broken Chords | [Steinway D Grand, Close](../steinway/) | Arpeggiator | Chamber, −16 dB | 0 dB | Hold a chord: the piano breaks it up and down in eighths. |
+| Piano | [Steinway D Grand, Close](../steinway/) | — | Chamber, −16 dB | +5 dB | The grand, close and clear. |
+| Piano Broken Chords | [Steinway D Grand, Close](../steinway/) | Arpeggiator | Chamber, −16 dB | +3 dB | Hold a chord: the piano breaks it up and down in eighths. |
 
 ### Organs
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Electric Organ | Tonewheel Ballad synth | — | Chamber, −18 dB | 0 dB | A plain, steady electric organ: no rotor, no vibrato, for long patterns. |
-| Organ Arpeggio | Tonewheel Ballad synth | Arpeggiator | Chamber, −18 dB | 0 dB | The electric organ arpeggiating a held chord up and down in eighths. |
-| Pipe Organ | [Organ (Soft)](../vsco2/) | — | Concert Hall, −10 dB | 0 dB | A soft pipe organ registration. |
+| Electric Organ | Tonewheel Ballad synth | — | Chamber, −18 dB | −5.5 dB | A plain, steady electric organ: no rotor, no vibrato, for long patterns. |
+| Organ Arpeggio | Tonewheel Ballad synth | Arpeggiator | Chamber, −18 dB | −4 dB | The electric organ arpeggiating a held chord up and down in eighths. |
+| Pipe Organ | [Organ (Soft)](../vsco2/) | — | Concert Hall, −10 dB | −8.5 dB | A soft pipe organ registration. |
 
 ### Strings
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Solo Violin | [Solo Violin](../vsco2/) | — | Chamber, −14 dB | 0 dB | One violin. |
-| Violas | [Violas](../vsco2/) | — | Chamber, −14 dB | 0 dB | Violas for the middle voices. |
-| Cellos | [Cellos](../vsco2/) | — | Chamber, −14 dB | 0 dB | Cellos for the bass line. |
+| Solo Violin | [Solo Violin](../vsco2/) | — | Chamber, −14 dB | −6 dB | One violin. |
+| Violas | [Violas](../vsco2/) | — | Chamber, −14 dB | −5 dB | Violas for the middle voices. |
+| Cellos | [Cellos](../vsco2/) | — | Chamber, −14 dB | −5.5 dB | Cellos for the bass line. |
 
 ### Woodwinds
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Flute | [Flute Non-vibrato](../vsco2/) | — | Chamber, −14 dB | 0 dB | Flute without vibrato: plain and even. |
-| Clarinet | [Clarinet](../iowa/) | — | Chamber, −14 dB | 0 dB | Clarinet, even and warm. |
+| Flute | [Flute Non-vibrato](../vsco2/) | — | Chamber, −14 dB | −5 dB | Flute without vibrato: plain and even. |
+| Clarinet | [Clarinet](../iowa/) | — | Chamber, −14 dB | −3 dB | Clarinet, even and warm. |
 | Soprano Sax *(coming)* | `mtg-sax/soprano` | — | Chamber, −14 dB | 0 dB | Saxophone for the patterns (coming with the MTG sax pack). |
 
 ### Voices
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Wordless Voices | Choir Ahh synth | — | Chamber, −14 dB | 0 dB | Straight-toned voices on “ah”, singing the patterns with the band. |
+| Wordless Voices | Choir Ahh synth | — | Chamber, −14 dB | −5 dB | Straight-toned voices on “ah”, singing the patterns with the band. |
 
 ### Synths
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Arp Synth | Morph Pluck synth | Arpeggiator | Chamber, −16 dB | 0 dB | A clean pluck arpeggiating a held chord in sixteenths over two octaves. |
-| Pulse Synth | FM Pluck synth | Arpeggiator | Chamber, −16 dB | 0 dB | Held chords repeated in steady eighths. |
+| Arp Synth | Morph Pluck synth | Arpeggiator | Chamber, −16 dB | −0.5 dB | A clean pluck arpeggiating a held chord in sixteenths over two octaves. |
+| Pulse Synth | FM Pluck synth | Arpeggiator | Chamber, −16 dB | −1 dB | Held chords repeated in steady eighths. |

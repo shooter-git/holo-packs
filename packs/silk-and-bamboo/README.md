@@ -41,7 +41,7 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Sheng | Sheng synth | — | Wooden Hall, −12 dB | 0 dB | The mouth organ of bamboo pipes: each note with its fifth and octave. |
+| Sheng | Sheng synth | — | Wooden Hall, −12 dB | −3.5 dB | The mouth organ of bamboo pipes: each note with its fifth and octave. |
 
 ### Strings
 
@@ -53,19 +53,19 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Dizi | Dizi synth | — | Wooden Hall, −12 dB | 0 dB | The bamboo flute with a buzzing membrane: bright and reedy. |
+| Dizi | Dizi synth | — | Wooden Hall, −12 dB | −3 dB | The bamboo flute with a buzzing membrane: bright and reedy. |
 
 ### Plucked
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Guzheng | Guzheng synth | — | Wooden Hall, −12 dB | 0 dB | The many-stringed zither: shimmering plucks, lovely for glissandi. |
-| Guzheng, Pressed | Guzheng synth | — | Wooden Hall, −12 dB | 0 dB | The guzheng with a deep left-hand vibrato pressed into each note. |
+| Guzheng | Guzheng synth | — | Wooden Hall, −12 dB | −2 dB | The many-stringed zither: shimmering plucks, lovely for glissandi. |
+| Guzheng, Pressed | Guzheng synth | — | Wooden Hall, −12 dB | −2.5 dB | The guzheng with a deep left-hand vibrato pressed into each note. |
 | Pipa | Pipa synth | — | Wooden Hall, −12 dB | 0 dB | The pear-shaped lute: held notes become a fast tremolo. |
 
 ### Drums and percussion
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Opera Gongs | Opera Gongs synth | — | Wooden Hall, −12 dB | 0 dB | Peking opera hand gongs: the pitch slides down on low notes and up on high ones. |
-| Temple Block | [Temple Block](../vcsl/) | — | Wooden Hall, −14 dB | 0 dB | The hollow wooden block that keeps time. |
+| Opera Gongs | Opera Gongs synth | — | Wooden Hall, −12 dB | −4.5 dB | Peking opera hand gongs: the pitch slides down on low notes and up on high ones. |
+| Temple Block | [Temple Block](../vcsl/) | — | Wooden Hall, −14 dB | −2.5 dB | The hollow wooden block that keeps time. |
