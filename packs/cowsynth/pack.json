@@ -1,0 +1,534 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "cowsynth",
+ "name": "Karoryfer Cowsynth (Bagpipe Synth)",
+ "license": "CC0-1.0",
+ "credit": "Cowsynth by Karoryfer Lecolds (CC0): a replica of medieval bagpipes, sampled as a synthesizer's oscillators.",
+ "bytes": 12547154,
+ "source": {
+  "kind": "mix",
+  "note": "The library's WAVs at the pinned commit, as they are, held on their loops.",
+  "bases": {
+   "k": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.cowsynth/5a5b5afc2dabbe54cf9d75ab64711ce01862b42c/"
+  },
+  "downloads": {
+   "k:natural/a2.wav": "e82606709947447ab8ad726b2c7bad383ac49df4b54d1e0a56c29ad73cd6e095",
+   "k:natural/a3.wav": "03fd46b1c2296988e4a4ac6b090f97d323515ec53fcd8c4906bbbbcc925352b4",
+   "k:natural/c4.wav": "65d5852f4c94b8b1dd4dd35eae8a3839e89769555297dadf81f5026058e6aed6",
+   "k:natural/d4.wav": "12fb965a77b133853b9a389e94e0c7420786949a0596ed430cc61ae42ff84e83",
+   "k:natural/e4.wav": "350661b1198b694a7cf38d804d23e9ff71d70a0793e16d1fb084c80489dff1c6",
+   "k:natural/f3.wav": "748b31c6f68cb2c7ec33949f7dc19c30f002b8e8cfe15532a89ce2aa417c09eb",
+   "k:natural/g2.wav": "61059d8e83f0e340f1532c84bea6ac0c057e71ad85c24052018ae0d610c91f3a",
+   "k:natural/g3.wav": "b2c86702e23ca6aeb0baca9d6b6cd7b9f75b54459bda7969bd7ca9582fc6d049",
+   "k:tuned/a2.wav": "55e8a60633970b570d91a01f72ddc3cd565ab58f4c15652ed4d385fb401376cf",
+   "k:tuned/a3.wav": "9d321949e939d45f6b7b4331a8b9ba2de4531e44efa1a42a9ea4689ef2e850d5",
+   "k:tuned/c4.wav": "94d424c1507ad7f1606e8edbcfdf4d30b119d4c430f14406c7a444f3826fc68d",
+   "k:tuned/d4.wav": "2558b0b6c4be3e4e304ecaf6f3581ada4d88b0b88990b87a7941810c9360ef60",
+   "k:tuned/e4.wav": "b98e8c115c0caae5671024e29555fc906ef352374bd8acd8f6eaa47b414ee0a8",
+   "k:tuned/f3.wav": "2cf198b7e38898b2e68107aa66a6bea1c541124d79f1fa714bf011e89765c506",
+   "k:tuned/g2.wav": "96f0c84d22149751c2344d860e1d4d112e50d7e49206abbeb14547879e0c00e0",
+   "k:tuned/g3.wav": "ae2f47746ebd8a38a73fe1475f60ab973e6dfed54d5032b45a0775767cb3c576"
+  },
+  "bits": 16,
+  "files": {
+   "wheezy/g2.wav": {
+    "in": [
+     [
+      "k:natural/g2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 683550,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "wheezy/a2.wav": {
+    "in": [
+     [
+      "k:natural/a2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 683550,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "wheezy/f3.wav": {
+    "in": [
+     [
+      "k:natural/f3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 178237,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "wheezy/g3.wav": {
+    "in": [
+     [
+      "k:natural/g3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 176400,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "wheezy/a3.wav": {
+    "in": [
+     [
+      "k:natural/a3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 558600,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "wheezy/c4.wav": {
+    "in": [
+     [
+      "k:natural/c4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 158025,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "wheezy/d4.wav": {
+    "in": [
+     [
+      "k:natural/d4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 205800,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "wheezy/e4.wav": {
+    "in": [
+     [
+      "k:natural/e4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 332588,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "lonely/g2.wav": {
+    "in": [
+     [
+      "k:tuned/g2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 698250,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "lonely/a2.wav": {
+    "in": [
+     [
+      "k:tuned/a2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 676200,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "lonely/f3.wav": {
+    "in": [
+     [
+      "k:tuned/f3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 187425,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "lonely/g3.wav": {
+    "in": [
+     [
+      "k:tuned/g3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 191100,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "lonely/a3.wav": {
+    "in": [
+     [
+      "k:tuned/a3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 588000,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "lonely/c4.wav": {
+    "in": [
+     [
+      "k:tuned/c4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 294000,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "lonely/d4.wav": {
+    "in": [
+     [
+      "k:tuned/d4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 323400,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "lonely/e4.wav": {
+    "in": [
+     [
+      "k:tuned/e4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 338100,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "wheezy",
+   "title": "Bagpipe Synth (Wheezy)",
+   "category": "Other",
+   "pitched": true,
+   "release": 0.3,
+   "attack": 0.02,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "wheezy/g2.wav",
+     "root": 55.05,
+     "lo": 48,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.1,
+     "start": 0,
+     "end": 683550,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "wheezy/a2.wav",
+     "root": 56.99,
+     "lo": 54,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.1,
+     "start": 0,
+     "end": 683550,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "wheezy/f3.wav",
+     "root": 65.15,
+     "lo": 60,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.1,
+     "start": 0,
+     "end": 178237,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "wheezy/g3.wav",
+     "root": 66.95,
+     "lo": 66,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.1,
+     "start": 0,
+     "end": 176400,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "wheezy/a3.wav",
+     "root": 68.92,
+     "lo": 72,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.1,
+     "start": 0,
+     "end": 558600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "wheezy/c4.wav",
+     "root": 78.06,
+     "lo": 78,
+     "hi": 83,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.1,
+     "start": 0,
+     "end": 158025,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "wheezy/d4.wav",
+     "root": 74.05,
+     "lo": 84,
+     "hi": 89,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.1,
+     "start": 0,
+     "end": 205800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "wheezy/e4.wav",
+     "root": 75.96,
+     "lo": 90,
+     "hi": 96,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.1,
+     "start": 0,
+     "end": 332588,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  },
+  {
+   "name": "lonely",
+   "title": "Bagpipe Synth (Lonely)",
+   "category": "Other",
+   "pitched": true,
+   "release": 0.3,
+   "attack": 0.02,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "lonely/g2.wav",
+     "root": 55,
+     "lo": 48,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.13,
+     "start": 0,
+     "end": 698250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "lonely/a2.wav",
+     "root": 57,
+     "lo": 54,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.13,
+     "start": 0,
+     "end": 676200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "lonely/f3.wav",
+     "root": 65,
+     "lo": 60,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.13,
+     "start": 0,
+     "end": 187425,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "lonely/g3.wav",
+     "root": 67,
+     "lo": 66,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.13,
+     "start": 0,
+     "end": 191100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "lonely/a3.wav",
+     "root": 69,
+     "lo": 72,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.13,
+     "start": 0,
+     "end": 588000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "lonely/c4.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 83,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.13,
+     "start": 0,
+     "end": 294000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "lonely/d4.wav",
+     "root": 74,
+     "lo": 84,
+     "hi": 89,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.13,
+     "start": 0,
+     "end": 323400,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "lonely/e4.wav",
+     "root": 76,
+     "lo": 90,
+     "hi": 96,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.13,
+     "start": 0,
+     "end": 338100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  }
+ ]
+}

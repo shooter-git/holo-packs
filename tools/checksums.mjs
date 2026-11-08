@@ -7,6 +7,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { dataDir, holo, repo } from './holo.mjs';
+import { privateReason } from './private.mjs';
 
 const { formatChecksums, packPaths } = await holo('packages/music/src/packs.ts');
 
@@ -28,6 +29,13 @@ for (const id of readdirSync(packs).sort()) {
   const mapFile = join(packs, id, 'pack.json');
   if (!existsSync(mapFile) || (args.length && !args.includes(id))) continue;
   const pack = JSON.parse(readFileSync(mapFile, 'utf8'));
+  // someone's own pack never goes in this public repository: nothing of it is written
+  const why = privateReason(pack);
+  if (why) {
+    console.error(`${pack.id ?? id}: nothing written, as ${why}.`);
+    process.exitCode = 1;
+    continue;
+  }
   if (!packPaths(pack).length) {
     console.log(`${pack.id}: no files of its own (a palette): its files.sha256 is only its comment`);
     continue;

@@ -1,0 +1,732 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "lofi-kit",
+ "name": "Lo-fi Beat Kit (Sonic Pi, FreePats)",
+ "license": "CC0-1.0",
+ "credit": "Made for HO[LO] from Sonic Pi's samples (CC0, Freesound users' recordings as Sonic Pi's README lists them) and the FreePats synthesizer percussion (CC0, Roberto of FreePats): each played two semitones slow.",
+ "bytes": 3398060,
+ "source": {
+  "kind": "mix",
+  "note": "Sonic Pi's FLACs at the pinned commit and the FreePats 7z download, each sound resampled two semitones slow into a 44.1 kHz WAV, kept until it falls to -60 dB.",
+  "bases": {
+   "sp": "https://raw.githubusercontent.com/sonic-pi-net/sonic-pi/d1393a06266f74dc216bfd8a7e9a8eb7135b4941/etc/samples/"
+  },
+  "downloads": {
+   "fp:SynthesizerPercussion-SFZ-20220718/samples/Clap01.wav": "5a469c1e1072b210426e14ca2b020f27f1f4ce459fe116b0af837e4413e47742",
+   "fp:SynthesizerPercussion-SFZ-20220718/samples/HighTom02-01.wav": "82873710c70f0d5d90ef78dde5d5558ba0a18317a5410889927e3014b3c080ab",
+   "fp:SynthesizerPercussion-SFZ-20220718/samples/Kick04.wav": "fe8bfae55a9838bfd71ab04685c8dcba7fda114bb85087acdb915641c39b390d",
+   "fp:SynthesizerPercussion-SFZ-20220718/samples/LowTom02-01.wav": "3a739daf27956f690e0aeb25e22257b96f5bda415cd31a6d27e679a9e0d49b4a",
+   "fp:SynthesizerPercussion-SFZ-20220718/samples/MidTom02-01.wav": "18a89a25aacb02e80f928ad630e713387c649c552d9e94fd6686ff5e49820fae",
+   "fp:SynthesizerPercussion-SFZ-20220718/samples/OpenHiHat02-01.wav": "a5558181f324b8cab6a0900c4aaa127c3ddd766163230d3aaa494a0b5e82768c",
+   "fp:SynthesizerPercussion-SFZ-20220718/samples/Shaker04.wav": "693079ea17e19f7bfbc6322571d68d151189c9e55e4e373ee8eed08086deceb8",
+   "fp:SynthesizerPercussion-SFZ-20220718/samples/Snare09.wav": "6d39ad1e54bb792a8bdfb47b98fffecc3d05d795e251116aaef310015ff82dca",
+   "sp:bd_fat.flac": "3c53f83cd05d8bf3f58542f1a510c31e755097cd0d727902f6199e725b42120c",
+   "sp:drum_cowbell.flac": "e2ee5f732b675858491e95a06ea419b98af512ebdc154afb2c27066303f0dd7f",
+   "sp:drum_splash_soft.flac": "30339472b3c399c68b6ca4971f8fddb2d0529468c5f4320fd77149c5e5c909fc",
+   "sp:elec_tick.flac": "ac3fa3c78f8af1509e4c90425e04173816cf7db968f1e31a34719c7e319312c5",
+   "sp:hat_snap.flac": "f2c1aa0febba2b8c9a5788d6913609c7314ebb4e33926fb039b6f580ed3df19c",
+   "sp:hat_tap.flac": "7007e5b02d8f86e161c78e7e72c96af99a9c6a5d99c1cf35703d419e6f867d8c",
+   "sp:perc_snap.flac": "09d5cc75cd9ef183e9464801c7e7b2e441ca8e12f99b2610cbc2d5168297a19d",
+   "sp:ride_via.flac": "1f1f8654e21b7fc6602783d3a57c72edfcc8668ee179e968a52b8af4b67a6a33",
+   "sp:sn_dub.flac": "165ddba961a14430ae6bbc0fad465d975c9b0b28a454c89076ab4d21b0f4613b",
+   "sp:vinyl_hiss.flac": "4e3fdaaff3399328e5a4ffc7e32292fba6ccbd3ba5353e0c8060b0ef1dc908f7"
+  },
+  "bits": 16,
+  "files": {
+   "kit/crash/sp:drum_splash_soft.wav": {
+    "in": [
+     [
+      "sp:drum_splash_soft.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 91972,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/ride/sp:ride_via.wav": {
+    "in": [
+     [
+      "sp:ride_via.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 250417,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/hat-open/OpenHiHat02-01.wav": {
+    "in": [
+     [
+      "fp:SynthesizerPercussion-SFZ-20220718/samples/OpenHiHat02-01.wav",
+      1,
+      1,
+      {
+       "rate": 42763.138
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 20115,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/hat-closed/sp:hat_tap.wav": {
+    "in": [
+     [
+      "sp:hat_tap.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 8513,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/tom-high/HighTom02-01.wav": {
+    "in": [
+     [
+      "fp:SynthesizerPercussion-SFZ-20220718/samples/HighTom02-01.wav",
+      1,
+      1,
+      {
+       "rate": 42763.138
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 26544,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/tom-mid/MidTom02-01.wav": {
+    "in": [
+     [
+      "fp:SynthesizerPercussion-SFZ-20220718/samples/MidTom02-01.wav",
+      1,
+      1,
+      {
+       "rate": 42763.138
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 26599,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/tom-low/LowTom02-01.wav": {
+    "in": [
+     [
+      "fp:SynthesizerPercussion-SFZ-20220718/samples/LowTom02-01.wav",
+      1,
+      1,
+      {
+       "rate": 42763.138
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 26473,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/hat-pedal/sp:hat_snap.wav": {
+    "in": [
+     [
+      "sp:hat_snap.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 8251,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/clap/Clap01.wav": {
+    "in": [
+     [
+      "fp:SynthesizerPercussion-SFZ-20220718/samples/Clap01.wav",
+      1,
+      1,
+      {
+       "rate": 42763.138
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 13230,
+    "rate": 44100
+   },
+   "kit/sidestick/sp:elec_tick.wav": {
+    "in": [
+     [
+      "sp:elec_tick.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 962,
+    "fadeIn": 0,
+    "fadeOut": 385,
+    "rate": 44100
+   },
+   "kit/snare/sp:sn_dub.wav": {
+    "in": [
+     [
+      "sp:sn_dub.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 13767,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/kick/sp:bd_fat.wav": {
+    "in": [
+     [
+      "sp:bd_fat.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 11495,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/snare-2/Snare09.wav": {
+    "in": [
+     [
+      "fp:SynthesizerPercussion-SFZ-20220718/samples/Snare09.wav",
+      1,
+      1,
+      {
+       "rate": 42763.138
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 10988,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/kick-2/Kick04.wav": {
+    "in": [
+     [
+      "fp:SynthesizerPercussion-SFZ-20220718/samples/Kick04.wav",
+      1,
+      1,
+      {
+       "rate": 42763.138
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 11198,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/cowbell/sp:drum_cowbell.wav": {
+    "in": [
+     [
+      "sp:drum_cowbell.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 17320,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/shaker/Shaker04.wav": {
+    "in": [
+     [
+      "fp:SynthesizerPercussion-SFZ-20220718/samples/Shaker04.wav",
+      1,
+      1,
+      {
+       "rate": 42763.138
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 2963,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/snap/sp:perc_snap.wav": {
+    "in": [
+     [
+      "sp:perc_snap.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 15245,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "rate": 44100
+   },
+   "kit/vinyl-hiss/sp:vinyl_hiss.wav": {
+    "in": [
+     [
+      "sp:vinyl_hiss.flac",
+      1,
+      1,
+      {
+       "rate": 39288.633
+      }
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 13230,
+    "rate": 44100
+   }
+  },
+  "archives": {
+   "fp": {
+    "url": "https://freepats.zenvoid.org/Percussion/SynthesizerPercussion/SynthesizerPercussion-SFZ-20220718.7z",
+    "sha256": "dbb2e5bb8268022fffa6dcc3d11a93368316038bf3ae81a965c58e9d490ed23b"
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "kit",
+   "title": "Lo-fi Beat Kit",
+   "category": "Drums",
+   "pitched": false,
+   "release": 0.08,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 28,
+   "polyphony": 64,
+   "notePolyphony": 3,
+   "offTime": 0.035,
+   "zones": [
+    {
+     "file": "kit/kick-2/Kick04.wav",
+     "root": 34,
+     "lo": 34,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 11198,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/kick/sp:bd_fat.wav",
+     "root": 35,
+     "lo": 35,
+     "hi": 35,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 11495,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/kick/sp:bd_fat.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 11495,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/sidestick/sp:elec_tick.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 962,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/snare/sp:sn_dub.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 13767,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/clap/Clap01.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/snare-2/Snare09.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 10988,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/tom-low/LowTom02-01.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 26473,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/hat-closed/sp:hat_tap.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 8513,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1
+    },
+    {
+     "file": "kit/hat-pedal/sp:hat_snap.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 8251,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1
+    },
+    {
+     "file": "kit/tom-mid/MidTom02-01.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 26599,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/hat-open/OpenHiHat02-01.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 20115,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1
+    },
+    {
+     "file": "kit/tom-high/HighTom02-01.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 26544,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/crash/sp:drum_splash_soft.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 91972,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/ride/sp:ride_via.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 250417,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/snap/sp:perc_snap.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 15245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/cowbell/sp:drum_cowbell.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 17320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/vinyl-hiss/sp:vinyl_hiss.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kit/shaker/Shaker04.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.52,
+     "start": 0,
+     "end": 2963,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 49,
+     "name": "Crash"
+    },
+    {
+     "key": 51,
+     "name": "Ride"
+    },
+    {
+     "key": 46,
+     "name": "Hi-hat open"
+    },
+    {
+     "key": 42,
+     "name": "Hi-hat closed"
+    },
+    {
+     "key": 48,
+     "name": "High tom"
+    },
+    {
+     "key": 45,
+     "name": "Mid tom"
+    },
+    {
+     "key": 41,
+     "name": "Low tom"
+    },
+    {
+     "key": 44,
+     "name": "Hi-hat pedal"
+    },
+    {
+     "key": 39,
+     "name": "Clap"
+    },
+    {
+     "key": 37,
+     "name": "Side stick"
+    },
+    {
+     "key": 38,
+     "name": "Snare"
+    },
+    {
+     "key": 36,
+     "name": "Kick"
+    },
+    {
+     "key": 40,
+     "name": "Snare 2"
+    },
+    {
+     "key": 34,
+     "name": "Kick 2"
+    },
+    {
+     "key": 56,
+     "name": "Cowbell"
+    },
+    {
+     "key": 70,
+     "name": "Shaker"
+    },
+    {
+     "key": 54,
+     "name": "Snap"
+    },
+    {
+     "key": 60,
+     "name": "Vinyl hiss"
+    }
+   ]
+  }
+ ]
+}

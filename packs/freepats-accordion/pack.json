@@ -1,0 +1,1046 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "freepats-accordion",
+ "name": "FreePats Button Accordion HN",
+ "license": "CC0-1.0",
+ "credit": "Button Accordion HN of the FreePats project (CC0): a Hohner button accordion.",
+ "bytes": 6713828,
+ "source": {
+  "kind": "mix",
+  "note": "The project's SFZ+FLAC download (7z), each note taken out and written as a WAV as it is.",
+  "bases": {},
+  "downloads": {
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN A4.flac": "9fa7cee44c82c3f0f8b3a30a950ade0449bf3b28231914b0df785064f200f001",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN A5.flac": "62ab39cbfd471b97ad0505231f72d9f2ae164eda75ecdb20b9c69efe3592e1c6",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN B3.flac": "11e244ea131b3080cacb2d88257720ed37e8b3140bf298661f10a7e295d1c48b",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN B4.flac": "743d7fc39df551de2ba320bcbeae28c8904a7a8767995f104fcdf2f26facf788",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN B5.flac": "a57a68c42ae1bfe59335d79944d35be3a9af0f52123035436f694c6bd08a61bb",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN C5.flac": "24f31789d716aac1a77d2e496989497510b0a7be9fcc234a83b1f62740c8e60d",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN C6.flac": "5ed816a960b2d9abc9dc6e18ec35105ec725055e882da1b16a1d9dc859a7fbea",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN D4.flac": "47a5c2e7cc5591980f5a5436a79ea0c6a39c60d6a1deecc7fca29601e07605ba",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN D5.flac": "c3a8c7305e61a8aacb310e99cb37c2cb42c89313e05687a833991a560e61180e",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN D6.flac": "20f3c0f9266f0ee7deb7e77f840557c659b7e764b0ca1523b0f0c4a7ecd6dfa7",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN E5.flac": "d250bec14ee45c881561df7bf243a97487bb7dc0184fc3603075ca0c8b932fd0",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN E6.flac": "b437ed39c9f7d7b485360b29df6c19dd5c664be77ceaba2733114677689903f4",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN F#4.flac": "c0579dc3b83a6045a4d7b7c20f5a0800cddcd3b0c8161922f7073379b03c6d0a",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN F#5.flac": "0c1acd40d37acaad3e69364173f684e69ac29dfb0d78c2d0cbe16e7303df1919",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN G4.flac": "836629ef91002eda695060221d4401fa1da6038d7c60a649ccfd1d4a44cba2e9",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN G5.flac": "5bd803db3e141a53b306490692981070681bc47c05db9e95aca411d7a320118e",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN G6.flac": "2e5875bf952fdacea75f6e62401c3968badd67bd3cc72903dfc9a401a32f015a",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN A4_rel.flac": "7b52128b98cb7448b652a88fa8ac8aca12d7dc264c90a53ce6c14e410405d8d1",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN A5_rel.flac": "6904f9cc0c7e3d904aff2de4bef9fca591e47b07307f3958799553fa119a375c",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN B3_rel.flac": "ef07e8f6bebae02a39c6a737e78b3840b8e571ed7062750badd9a9b3ecb58cb7",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN B4_rel.flac": "035064d1be7e375b5f444c5a7f91f9e1eec535ad2ac67dd85aa0a36c223a5a8e",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN B5_rel.flac": "4bbcf955f38509e6c3d4000da109b1fed81b40b98fd9d8b9f7ea578edc929d59",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN C5_rel.flac": "4fd667d1671975de4957d57e050075f6828499b0d779c82e51b5dca18c4edac1",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN C6_rel.flac": "4bbcf955f38509e6c3d4000da109b1fed81b40b98fd9d8b9f7ea578edc929d59",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN D4_rel.flac": "9128584e2c777d47ce7af2aa5b8e9e3732e3d065a7d9c2f8e5dd8ea99082cca0",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN D5_rel.flac": "36749b3e93dbc37cd1b62df50713af47f2b622ecb9021bf117167b4895d6f664",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN D6_rel.flac": "b4bfce92d2b7162a6ab4b4c99d93dbd3379c64a11aa37cd017700954456a5c9d",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN E5_rel.flac": "5fdd22462e8da0d97d2d55e5936d34c76282a9af2a1387ed4045ebdf0bbe202b",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN E6_rel.flac": "110784d1483ca0e00b79f9eb022bd9186cebad9d3b5436ead49054f9759644ac",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN F#4_rel.flac": "7545327783586b1cd1b317749de17635d00a41e57a5589a3b2cc992de736504f",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN F#5_rel.flac": "28fffd3bf73ca89e4c627e0c7ecd94ccf9a27a9bf32fa38246c020c246f4404f",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN G4_rel.flac": "e0a0efb5fe062448b7fbf070deed7c273328d6e8974dad0561978ea52dd88918",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN G5_rel.flac": "9abf6d4c7ad07f99d6cdf69f82d74129a0de2e3ed75811e8b0bb7f968ab4c918",
+   "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN G6_rel.flac": "7bd935a630c22b194213b517ceeb22a852e86f8a71befc6fdd382f3b4ef86c5c"
+  },
+  "bits": 16,
+  "files": {
+   "accordion/Button Accordion HN B3.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN B3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 62605,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN D4.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN D4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 69104,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN F#4.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN F#4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 79318,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN G4.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN G4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 93241,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN A4.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN A4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 74494,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN B4.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN B4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 91033,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN C5.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN C5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 86151,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN D5.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN D5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 86215,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN E5.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN E5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 83735,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN F#5.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN F#5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 94594,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN G5.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN G5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 97168,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN A5.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN A5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 93404,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN B5.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN B5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 82224,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN C6.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN C6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 108827,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN D6.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN D6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 59429,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN E6.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN E6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 93044,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN G6.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/Button Accordion HN G6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 50,
+    "frames": 63506,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "accordion/Button Accordion HN B3_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN B3_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 11677,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN D4_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN D4_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 2700,
+    "frames": 21976,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN F#4_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN F#4_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 1000,
+    "frames": 16418,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN G4_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN G4_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 7000,
+    "frames": 18273,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN A4_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN A4_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 2500,
+    "frames": 11673,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN B4_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN B4_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 1600,
+    "frames": 22428,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN C5_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN C5_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 9000,
+    "frames": 14999,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN D5_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN D5_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 3000,
+    "frames": 16136,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN E5_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN E5_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 1000,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN F#5_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN F#5_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 1500,
+    "frames": 12560,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN G5_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN G5_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 500,
+    "frames": 16088,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN A5_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN A5_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 3400,
+    "frames": 10211,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN B5_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN B5_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 4000,
+    "frames": 19320,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN C6_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN C6_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 5000,
+    "frames": 18320,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN D6_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN D6_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 1000,
+    "frames": 11100,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN E6_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN E6_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 2000,
+    "frames": 11797,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   },
+   "accordion/Button Accordion HN G6_rel.wav": {
+    "in": [
+     [
+      "hn:Button Accordion HN SFZ+FLAC-20240329/rel/Button Accordion HN G6_rel.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 500,
+    "frames": 11580,
+    "fadeIn": 0,
+    "fadeOut": 2205
+   }
+  },
+  "archives": {
+   "hn": {
+    "url": "https://github.com/freepats/button-accordion-HN/releases/download/2024-03-29/ButtonAccordionHN-SFZ+FLAC-20240329.7z",
+    "sha256": "e5326a8830f0358faa195609fd21d0c1dbab899e39bd7f44b1590ebf2ce5035e"
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "accordion",
+   "title": "Button Accordion",
+   "category": "Keys",
+   "pitched": true,
+   "release": 0.13,
+   "attack": 0.03,
+   "oneShot": false,
+   "velocityRange": 20,
+   "polyphony": 24,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "accordion/Button Accordion HN B3.wav",
+     "root": 47.34,
+     "lo": 0,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 62605,
+     "loopStart": 35968,
+     "loopEnd": 62605,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN D4.wav",
+     "root": 50.38,
+     "lo": 50,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 69104,
+     "loopStart": 49701,
+     "loopEnd": 69104,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN F#4.wav",
+     "root": 54.23,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 79318,
+     "loopStart": 46363,
+     "loopEnd": 79318,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN G4.wav",
+     "root": 55.3,
+     "lo": 55,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 93241,
+     "loopStart": 66493,
+     "loopEnd": 93241,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN A4.wav",
+     "root": 57.32,
+     "lo": 57,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 74494,
+     "loopStart": 60316,
+     "loopEnd": 74494,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN B4.wav",
+     "root": 59.19,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 91033,
+     "loopStart": 76086,
+     "loopEnd": 91033,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN C5.wav",
+     "root": 60.28,
+     "lo": 60,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 86151,
+     "loopStart": 72876,
+     "loopEnd": 86151,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN D5.wav",
+     "root": 62.26,
+     "lo": 62,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 86215,
+     "loopStart": 72958,
+     "loopEnd": 86215,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN E5.wav",
+     "root": 64.3,
+     "lo": 64,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 83735,
+     "loopStart": 65858,
+     "loopEnd": 83735,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN F#5.wav",
+     "root": 66.26,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 94594,
+     "loopStart": 84963,
+     "loopEnd": 94594,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN G5.wav",
+     "root": 67.29,
+     "lo": 67,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 97168,
+     "loopStart": 78683,
+     "loopEnd": 97168,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN A5.wav",
+     "root": 69.2,
+     "lo": 69,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 93404,
+     "loopStart": 85212,
+     "loopEnd": 93404,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN B5.wav",
+     "root": 71.07,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 82224,
+     "loopStart": 75283,
+     "loopEnd": 82224,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN C6.wav",
+     "root": 72.26,
+     "lo": 72,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 108827,
+     "loopStart": 101871,
+     "loopEnd": 108827,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN D6.wav",
+     "root": 74.16,
+     "lo": 74,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 59429,
+     "loopStart": 50538,
+     "loopEnd": 59429,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN E6.wav",
+     "root": 76.22,
+     "lo": 76,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 93044,
+     "loopStart": 86591,
+     "loopEnd": 93044,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN G6.wav",
+     "root": 79.1,
+     "lo": 79,
+     "hi": 127,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.97,
+     "start": 0,
+     "end": 63506,
+     "loopStart": 58608,
+     "loopEnd": 63506,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "accordion/Button Accordion HN B3_rel.wav",
+     "root": 47.34,
+     "lo": 0,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 11677,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN D4_rel.wav",
+     "root": 50.38,
+     "lo": 50,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 21976,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN F#4_rel.wav",
+     "root": 54.23,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 16418,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN G4_rel.wav",
+     "root": 55.3,
+     "lo": 55,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 18273,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN A4_rel.wav",
+     "root": 57.32,
+     "lo": 57,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 11673,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN B4_rel.wav",
+     "root": 59.19,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 22428,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN C5_rel.wav",
+     "root": 60.28,
+     "lo": 60,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 14999,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN D5_rel.wav",
+     "root": 62.26,
+     "lo": 62,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 16136,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN E5_rel.wav",
+     "root": 64.3,
+     "lo": 64,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN F#5_rel.wav",
+     "root": 66.26,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 12560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN G5_rel.wav",
+     "root": 67.29,
+     "lo": 67,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 16088,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN A5_rel.wav",
+     "root": 69.2,
+     "lo": 69,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 10211,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN B5_rel.wav",
+     "root": 71.07,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 19320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN C6_rel.wav",
+     "root": 71.34,
+     "lo": 72,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 18320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN D6_rel.wav",
+     "root": 74.16,
+     "lo": 74,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 11100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN E6_rel.wav",
+     "root": 76.22,
+     "lo": 76,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 11797,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    },
+    {
+     "file": "accordion/Button Accordion HN G6_rel.wav",
+     "root": 79.1,
+     "lo": 79,
+     "hi": 127,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -25.97,
+     "start": 0,
+     "end": 11580,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "trigger": "release"
+    }
+   ]
+  }
+ ]
+}

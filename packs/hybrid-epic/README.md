@@ -54,7 +54,7 @@ greyed out until then.
 | Cello Ostinato | [Cellos Spiccato](../vsco2/) | Compressor, Channel EQ | Epic Hall, −16 dB | +1 dB | Spiccato cellos for chugging ostinatos. |
 | Violin Ostinato | [Violins Spiccato](../vsco2/) | Compressor | Epic Hall, −16 dB | 0 dB | Spiccato violins: tight, bright repeated notes above the cellos. |
 | Cellos | [Cellos](../vsco2/) | — | Epic Hall, −12 dB | −5.5 dB | A cello section singing a long line. |
-| Solo Cello *(coming)* | `bigcat-cello/cello` | — | Epic Hall, −14 dB | 0 dB | One cello, close and expressive (coming with the Bigcat Cello pack). |
+| Solo Cello *(coming)* | [Solo Cello](../bigcat-cello/) | — | Epic Hall, −14 dB | 0 dB | One cello, close and expressive (coming with the Bigcat Cello pack). |
 
 ### Brass
 

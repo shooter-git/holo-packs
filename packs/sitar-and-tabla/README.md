@@ -59,11 +59,11 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Singing Bowls *(coming)* | `singing-bowls/bowls` | — | Wooden Hall, −10 dB | 0 dB | Struck and rubbed bowls, long and beating (coming with the Singing Bowls pack). |
+| Singing Bowls *(coming)* | [Singing Bowls](../singing-bowls/) | — | Wooden Hall, −10 dB | 0 dB | Struck and rubbed bowls, long and beating (coming with the Singing Bowls pack). |
 | Nepalese Bells *(coming)* | `vcsl/nepalese_bells` | — | Wooden Hall, −12 dB | 0 dB | Small hand bells (coming to the VCSL pack). |
 
 ### Drums and percussion
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Tabla *(coming)* | `tabla/tabla` | — | Wooden Hall, −16 dB | 0 dB | The pair of hand drums: the bright dayan and the deep bayan (coming with the Tabla pack). |
+| Tabla *(coming)* | [Tabla](../tabla/) | — | Wooden Hall, −16 dB | 0 dB | The pair of hand drums: the bright dayan and the deep bayan (coming with the Tabla pack). |

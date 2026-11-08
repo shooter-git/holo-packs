@@ -1,0 +1,517 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "java-gongs",
+ "name": "Javanese Gongs (OLPC)",
+ "license": "CC-BY-3.0",
+ "credit": "Javanese gong samples by Nils van Ottorloo for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/NilsVanOttorloo).",
+ "bytes": 7660960,
+ "source": {
+  "kind": "mix",
+  "note": "The 44.1 kHz WAVs of the published zip, fetched one by one, each kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "nils": "https://archive.org/download/NilsVanOttorloo/NilsVanOttorloo44.zip/NilsVanOttorloo44/"
+  },
+  "downloads": {
+   "nils:GongAgeng90.wav": "731ae8aa8fab2fd97b14763819574104f491ed2f37ff85b91aec2a9fb4fc7d76",
+   "nils:GongAgeng91.wav": "3c1ff4792feb4c4f85810187d277f660547bc1cea069a8f25dad76e3acb30359",
+   "nils:GongKemadhong90.wav": "c99e1a532a2e6644bb8ec90db95bd1c998c911a5684c9ec1fcba5bbfbb4c9023",
+   "nils:KempulGong6.wav": "1b6653d417bbe987112ebd19853a17219cf525ce1bd2e3f13df9cea75b4fa3ee",
+   "nils:KempulGong90.wav": "9ef26661a3a6841a695a590963107f77d6d44fd9db60c60009ab023c0b3e5fb2",
+   "nils:KempulGong91.wav": "86845cc181d478c0b7d4eb1b8a643ddcaeb63af659d7bf53d1a37ec061609b1e",
+   "nils:KempulGong92.wav": "04ebf2d4c3777d1ac1fd1a8b1c5c595883218673eec648a6350d2ee509b0b87e",
+   "nils:KempulGong93.wav": "6b9a38dfe4ec9d2e81c486a6e779a388121f886e020b530eb0b7ebdd93d7ad7d",
+   "nils:KempulGong94.wav": "d90cef6830bc2162909a717193cb7fa6d64a4cb886971b592e21659d3f90685d",
+   "nils:Kenong90.wav": "439fefaa6293bad23ea8ea23d3286098aa3de39c1d0b2a8fa2186591c2c0d0fd",
+   "nils:Kenong91.wav": "e63b9a4b8d29506d69ccdb977ad80887c621ee52ca7253c22b4771e250365491",
+   "nils:Kenong92.wav": "b54542df4bb8c73b80e81eeb5a5d9dba37e06bea04de281b183d38d0b93fa978",
+   "nils:Kenong93.wav": "7f7907083bb343d6777de17f5290919726ae250de9773cae1a9847ea7fb18d9a",
+   "nils:Kenong94.wav": "e0a3c2b4558e340fdbf95fad74c9812fb8da2b9c420c56ca915b3b2f6de5e1b8"
+  },
+  "bits": 16,
+  "files": {
+   "gongs/gong-ageng-1/nils:GongAgeng90.wav": {
+    "in": [
+     [
+      "nils:GongAgeng90.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 258896,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/gong-ageng-2/nils:GongAgeng91.wav": {
+    "in": [
+     [
+      "nils:GongAgeng91.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 668308,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/gong-kemodhong/nils:GongKemadhong90.wav": {
+    "in": [
+     [
+      "nils:GongKemadhong90.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 473000,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempul-1/nils:KempulGong90.wav": {
+    "in": [
+     [
+      "nils:KempulGong90.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 231117,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempul-2/nils:KempulGong91.wav": {
+    "in": [
+     [
+      "nils:KempulGong91.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 321227,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempul-3/nils:KempulGong92.wav": {
+    "in": [
+     [
+      "nils:KempulGong92.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 134754,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempul-4/nils:KempulGong93.wav": {
+    "in": [
+     [
+      "nils:KempulGong93.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 285051,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempul-5/nils:KempulGong94.wav": {
+    "in": [
+     [
+      "nils:KempulGong94.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 307806,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempul-6/nils:KempulGong6.wav": {
+    "in": [
+     [
+      "nils:KempulGong6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 214121,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kenong-1/nils:Kenong90.wav": {
+    "in": [
+     [
+      "nils:Kenong90.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 130095,
+    "fadeIn": 0,
+    "fadeOut": 52038,
+    "mono": true
+   },
+   "gongs/kenong-2/nils:Kenong91.wav": {
+    "in": [
+     [
+      "nils:Kenong91.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 154350,
+    "fadeIn": 0,
+    "fadeOut": 61740,
+    "mono": true
+   },
+   "gongs/kenong-3/nils:Kenong92.wav": {
+    "in": [
+     [
+      "nils:Kenong92.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 305072,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kenong-4/nils:Kenong93.wav": {
+    "in": [
+     [
+      "nils:Kenong93.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127890,
+    "fadeIn": 0,
+    "fadeOut": 51156,
+    "mono": true
+   },
+   "gongs/kenong-5/nils:Kenong94.wav": {
+    "in": [
+     [
+      "nils:Kenong94.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 218485,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "gongs",
+   "title": "Javanese Gongs",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 1,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.2,
+   "zones": [
+    {
+     "file": "gongs/gong-ageng-1/nils:GongAgeng90.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 258896,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/gong-ageng-2/nils:GongAgeng91.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 668308,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/gong-kemodhong/nils:GongKemadhong90.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 473000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempul-1/nils:KempulGong90.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 231117,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempul-2/nils:KempulGong91.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 321227,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempul-3/nils:KempulGong92.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 134754,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempul-4/nils:KempulGong93.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 285051,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempul-5/nils:KempulGong94.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 307806,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempul-6/nils:KempulGong6.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 214121,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kenong-1/nils:Kenong90.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 130095,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kenong-2/nils:Kenong91.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kenong-3/nils:Kenong92.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 305072,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kenong-4/nils:Kenong93.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kenong-5/nils:Kenong94.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.98,
+     "start": 0,
+     "end": 218485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Gong ageng 1"
+    },
+    {
+     "key": 37,
+     "name": "Gong ageng 2"
+    },
+    {
+     "key": 38,
+     "name": "Gong kemodhong"
+    },
+    {
+     "key": 39,
+     "name": "Kempul 1"
+    },
+    {
+     "key": 40,
+     "name": "Kempul 2"
+    },
+    {
+     "key": 41,
+     "name": "Kempul 3"
+    },
+    {
+     "key": 42,
+     "name": "Kempul 4"
+    },
+    {
+     "key": 43,
+     "name": "Kempul 5"
+    },
+    {
+     "key": 44,
+     "name": "Kempul 6"
+    },
+    {
+     "key": 45,
+     "name": "Kenong 1"
+    },
+    {
+     "key": 46,
+     "name": "Kenong 2"
+    },
+    {
+     "key": 47,
+     "name": "Kenong 3"
+    },
+    {
+     "key": 48,
+     "name": "Kenong 4"
+    },
+    {
+     "key": 49,
+     "name": "Kenong 5"
+    }
+   ]
+  }
+ ]
+}

@@ -25,13 +25,26 @@ const FAMILIES = [
   'Guitars and plucked strings',
   'Woodwinds',
   'Brass',
+  'Voices',
   'Other',
 ];
 
-const LICENCES = {
+/**
+ * The licences a pack may have (each lets anyone share the samples): its id in pack.json, its name and
+ * where it's written. A pack free without restriction says so in words ("Free to use without
+ * restriction (…)"); check.mjs refuses any other.
+ */
+export const LICENCES = {
+  'Artistic-2.0': ['Artistic License 2.0', 'https://opensource.org/license/artistic-2-0'],
   'CC0-1.0': ['CC0 1.0', 'https://creativecommons.org/publicdomain/zero/1.0/'],
+  'CC-BY-3.0': ['CC BY 3.0', 'https://creativecommons.org/licenses/by/3.0/'],
   'CC-BY-4.0': ['CC BY 4.0', 'https://creativecommons.org/licenses/by/4.0/'],
+  'Public-Domain': ['Public domain', 'https://creativecommons.org/publicdomain/mark/1.0/'],
+  Unlicense: ['The Unlicense', 'https://unlicense.org/'],
 };
+
+/** A licence in words that HO[LO] may ship: free to use without restriction (and whose it is). */
+export const FREE = /^Free to use without restriction \(.+\)$/;
 
 const NOTES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 /** A key's name, middle C (60) being C4. */
@@ -48,7 +61,7 @@ export function licence(pack, link = true) {
 
 /** Which family an instrument is found in. */
 export function family(i) {
-  if (i.pads?.length) return 'Drum kits';
+  if (i.pads?.length && i.category === 'Drums') return 'Drum kits';
   switch (i.category) {
     case 'Piano':
     case 'Keys':
@@ -67,6 +80,9 @@ export function family(i) {
       return 'Woodwinds';
     case 'Brass':
       return 'Brass';
+    case 'Voice':
+    case 'Choir':
+      return 'Voices';
     default:
       return 'Other';
   }
@@ -86,11 +102,14 @@ function layers(i) {
   return most;
 }
 
-/** How many takes of one note and velocity take turns (round robins), at most. */
+/**
+ * How many takes of one note and velocity take turns (round robins), at most (each microphone's own,
+ * in a kit that keeps them apart).
+ */
 function takes(i) {
   const n = new Map();
   for (const z of played(i)) {
-    const k = `${z.lo}-${z.hi}-${z.lovel}-${z.hivel}`;
+    const k = `${z.lo}-${z.hi}-${z.lovel}-${z.hivel}-${z.mic ?? ''}`;
     n.set(k, (n.get(k) ?? 0) + 1);
   }
   return Math.max(1, ...n.values());
@@ -113,7 +132,28 @@ function traits(i) {
   if (i.undamped) out.push(`undamped from ${note(i.undamped)}`);
   if (played(i).some((z) => z.loopEnd > 0)) out.push('looped sustains');
   if (played(i).some((z) => z.offBy)) out.push('chokes (a closed hi-hat stops the open one)');
+  if (i.mics?.length) out.push(`${i.mics.length} microphones, each with its own level`);
   return out.join(', ');
+}
+
+/** dB as the page shows it ("−14 dB", "off"). */
+const db = (x) => (x <= -60 ? 'off' : `${x < 0 ? '−' : ''}${Math.abs(Math.round(x * 10) / 10)} dB`);
+
+/** Where a mono microphone sits ("centre", "30% left"). */
+const place = (pan) => (!pan ? 'centre' : `${Math.round(Math.abs(pan) * 100)}% ${pan < 0 ? 'left' : 'right'}`);
+
+/** A multi-microphone instrument's microphones: their knobs' starting levels, and how each is recorded. */
+function micRows(pack, i) {
+  const files = pack.source?.kind === 'mix' ? pack.source.files : null;
+  return i.mics.map((m) => {
+    const zones = played(i).filter((z) => z.mic === m.id);
+    const mono = files ? zones.filter((z) => files[z.file]?.mono) : [];
+    const kinds = [];
+    if (mono.length)
+      kinds.push(`mono, ${mono.some((z) => z.pan !== undefined) ? 'each drum at its own place' : place(m.pan)}`);
+    if (files && mono.length < zones.length) kinds.push('stereo');
+    return `| ${cell(m.name)} | \`${m.id}\` | ${db(m.level ?? 0)} | ${kinds.join('; ')} |`;
+  });
 }
 
 /**
@@ -157,24 +197,36 @@ function source(pack, hasRecipe) {
   switch (s.kind) {
     case 'git': {
       const url = s.url.replace(/\.git$/, '');
-      return `Taken as published from [${url.replace('https://github.com/', '')}](${url}) at commit [\`${s.commit.slice(0, 7)}\`](${url}/tree/${s.commit}): an install checks out only the files this map plays.`;
+      return `Taken as published from [${url.replace('https://github.com/', '')}](${url}) at commit [\`${s.commit.slice(0, 7)}\`](${url}/tree/${s.commit}): an install checks out only the files this map plays.${recipe}`;
     }
     case 'mix': {
       const bases = Object.values(s.bases ?? {}).map((b) => {
         const m = /raw\.githubusercontent\.com\/([^/]+\/[^/]+)\/([0-9a-f]{40})\//.exec(b);
         return m ? `[${m[1]}](https://github.com/${m[1]}/tree/${m[2]}) at \`${m[2].slice(0, 7)}\`` : `<${encodeURI(b)}>`;
       });
+      const archives = Object.values(s.archives ?? {}).map(
+        (a) => `the archive <${encodeURI(a.url)}> (sha256 \`${a.sha256.slice(0, 12)}…\`)`,
+      );
+      const list = [...bases, ...archives].join(' and ');
+      const apart = pack.instruments.some((i) => i.mics?.length);
       return (
-        `Made from ${Object.keys(s.downloads ?? {}).length} recordings, fetched from ${bases.join(' and ')}. ` +
-        `Each file is made from its recordings by fixed arithmetic (a note trimmed and faded, a drum hit ` +
-        `mixed from its microphones), the same in every install, so every install makes the same bytes, ` +
+        `Made from ${Object.keys(s.downloads ?? {}).length} recordings, fetched from ${list}. ` +
+        `Each file is made from its recordings by fixed arithmetic (${
+          apart
+            ? 'a drum hit trimmed and faded, each of its microphones a file of its own'
+            : 'a note trimmed and faded, a drum hit mixed from its microphones'
+        }), the same in every install, so every install makes the same bytes, ` +
         `each checked against \`files.sha256\`.${recipe}`
       );
     }
     case 'cut':
       return `Cut from ${Object.keys(s.downloads ?? {}).length} downloads at <${encodeURI(s.base)}>: each note is cut from its run as it is, but for a ${Math.round((s.fade / s.rate) * 1000)} ms fade at each end.${recipe}`;
-    case 'archive':
-      return `Decoded from the published archive <${encodeURI(s.url)}> (sha256 \`${s.sha256.slice(0, 12)}…\`): each note from its FLAC, written as the WAV it was first made as.${recipe}`;
+    case 'archive': {
+      const flac = Object.values(s.entries ?? {}).some((e) => /\.flac$/i.test(e));
+      return `${flac ? 'Decoded from' : 'Taken out of'} the published archive <${encodeURI(s.url)}> (sha256 \`${s.sha256.slice(0, 12)}…\`): ${
+        flac ? 'each note from its FLAC, written as the WAV it was first made as' : 'each file as it is'
+      }.${recipe}`;
+    }
     default:
       return 'Taken from files you have (install it with `--from`).';
   }
@@ -321,9 +373,28 @@ export function packFacts(id, pack, packs = new Map()) {
     );
   }
   for (const i of pack.instruments.filter((x) => x.pads?.length)) {
-    lines.push('', `## ${i.title}'s pads`, '', 'Each key plays one piece of the kit. The kick, snare and hi-hats sit where General MIDI has them.', '');
+    lines.push(
+      '',
+      `## ${i.title}'s pads`,
+      '',
+      i.category === 'Drums'
+        ? 'Each key plays one piece of the kit. The kick, snare and hi-hats sit where General MIDI has them.'
+        : 'Each key plays one of its sounds.',
+      '',
+    );
     lines.push('| Key | Note | Pad |', '|---|---|---|');
     for (const p of [...i.pads].sort((a, b) => a.key - b.key)) lines.push(`| ${p.key} | ${note(p.key)} | ${cell(p.name)} |`);
+  }
+  for (const i of pack.instruments.filter((x) => x.mics?.length)) {
+    lines.push(
+      '',
+      `## ${i.title}'s microphones`,
+      '',
+      "Each hit sounds every microphone together. Each has a knob in the instrument's window, turned while it plays; " +
+        "they start where the library's own mixer has them.",
+      '',
+    );
+    lines.push('| Microphone | Id | Starts at | Recorded |', '|---|---|---|---|', ...micRows(pack, i));
   }
   return `${lines.join('\n')}\n`;
 }

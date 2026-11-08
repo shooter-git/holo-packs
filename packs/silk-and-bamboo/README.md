@@ -47,7 +47,7 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Erhu *(coming)* | `erhu/erhu` | — | Wooden Hall, −12 dB | 0 dB | The two-stringed bowed fiddle: a voice-like, sliding tone (coming with the Erhu pack). |
+| Erhu *(coming)* | [Erhu](../erhu/) | — | Wooden Hall, −12 dB | 0 dB | The two-stringed bowed fiddle: a voice-like, sliding tone (coming with the Erhu pack). |
 
 ### Woodwinds
 

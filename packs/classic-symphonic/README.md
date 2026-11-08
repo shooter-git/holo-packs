@@ -48,7 +48,7 @@ greyed out until then.
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
 | French Horns | [French Horns](../vsco2/) | — | Scoring Stage, −10 dB | −3.5 dB | The horn section, noble and round. |
-| Trumpets *(coming)* | `iowa-brass/trumpet` | — | Scoring Stage, −12 dB | 0 dB | Bright trumpets for fanfares (coming with the Iowa brass). |
+| Trumpets *(coming)* | [Trumpet](../iowa-brass/) | — | Scoring Stage, −12 dB | 0 dB | Bright trumpets for fanfares (coming with the Iowa brass). |
 | Trombones | [Trombones](../vsco2/) | — | Scoring Stage, −12 dB | −5.5 dB | Trombones for weight and chorales. |
 
 ### Woodwinds

@@ -1,0 +1,4134 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "erhu",
+ "name": "Erhu",
+ "license": "CC0-1.0",
+ "credit": "The erhu of the SFZ Instruments project (CC0): a two-string Chinese fiddle, close miked in stereo.",
+ "bytes": 45117312,
+ "source": {
+  "kind": "mix",
+  "note": "The library's WAVs at the pinned commit, each note kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "e": "https://raw.githubusercontent.com/sfzinstruments/aliexpress-erhu/6615047b2fd06126877483e97b8bb4af9d00b080/"
+  },
+  "downloads": {
+   "e:Samples/stac/erhu_a5_stac_rr1.wav": "3df80f10343c53547db9231bc3a22a97385e357fdee97987622b683bd8f77f10",
+   "e:Samples/stac/erhu_a5_stac_rr2.wav": "ff7441f0193d956398ff0cc3a08208cba2ec8927d772f2487fc11b9284211404",
+   "e:Samples/stac/erhu_a5_stac_rr3.wav": "12d9dd19c71fe80a71554a55ea4313c25f9cfe45ef469b69409dc9499053f9f3",
+   "e:Samples/stac/erhu_a5_stac_rr4.wav": "d8ffca5d3fc405bfc4e818dd2e96bb99841d3649e195722e1538a2efd62e6f3d",
+   "e:Samples/stac/erhu_a6_stac_rr1.wav": "8db1f4035f50567718795768a8ff938292ed6cd43b92d2a110462bd8a4a7763a",
+   "e:Samples/stac/erhu_a6_stac_rr2.wav": "f4639d7d5297ace0cfe7261eecd9f933842bdec35181f1791b0de5c3c4ccd084",
+   "e:Samples/stac/erhu_a6_stac_rr3.wav": "54b5cdf11cbd5c099e9dfdb1ebf219726124f2a77b9232f1fa15189dc312dd55",
+   "e:Samples/stac/erhu_a6_stac_rr4.wav": "ac7bfe9ac23f1eb8edb8dad8ab6d34e2c730961dbb1473b43055277fb0b9e62b",
+   "e:Samples/stac/erhu_ab5_stac_rr1.wav": "e2d076c89c887258ab3392c3e1d9c9040152c8ddf8b00844af60ee3a0f84b0a7",
+   "e:Samples/stac/erhu_ab5_stac_rr2.wav": "9e1011b6fd2b628af00981d49fe0c6431a91604fc13feff182fd862081f66173",
+   "e:Samples/stac/erhu_ab5_stac_rr3.wav": "8d8105c902f00e8232cf3e4e3f8145b50d006b88054c7ad16816327ac8a60dc0",
+   "e:Samples/stac/erhu_ab5_stac_rr4.wav": "2673c1f56d45897db7a0bc0fe62b8be31e26aa5c73707e99dcaec419d99357f8",
+   "e:Samples/stac/erhu_ab6_stac_rr1.wav": "eb3eb76eeb88c32eed209434e2c012e65710bddca37ed9e68ab6a60c8da2188e",
+   "e:Samples/stac/erhu_ab6_stac_rr2.wav": "2555a2a7444731511f197d4c76c4d4f7865c5397ef75941c9fe2f623e2b30bb6",
+   "e:Samples/stac/erhu_ab6_stac_rr3.wav": "ea84397a57e6bce7e39b347ffae6eedbe055d4d8cb573c448f96e98229eb7480",
+   "e:Samples/stac/erhu_ab6_stac_rr4.wav": "87a0434ea1c7aea292ecf666463461fd803b3557f78059e849d83ba7339525c0",
+   "e:Samples/stac/erhu_b5_stac_rr1.wav": "f9030d76b58817347eea0c8484d66c2633ad78a412810440b6368fd62c46a5bd",
+   "e:Samples/stac/erhu_b5_stac_rr2.wav": "e1458a34c18db64dec069ca0af8036bbf10f721c1c365f2e6dc1726de08c6834",
+   "e:Samples/stac/erhu_b5_stac_rr3.wav": "294ca26329e819a4df72de01f255d3f587a30a4329ca653e8a866ec469fdc4cf",
+   "e:Samples/stac/erhu_b5_stac_rr4.wav": "04d1fe763e4f7ce9bd227684f693647b98a2fc45b5ed2ad3c48cf43b70a26916",
+   "e:Samples/stac/erhu_bb5_stac_rr1.wav": "bbc1006ac95dfd65012536303bb78503e9b72d8fc02ac30ba944122dd077b119",
+   "e:Samples/stac/erhu_bb5_stac_rr2.wav": "a0a9bd25d72fcc13002991ffef88204cfe9a7b03d19f803d2848453bd9c11570",
+   "e:Samples/stac/erhu_bb5_stac_rr3.wav": "f127570975e5639c03fc116189773be43402f53bf776c413f9f34d1bd4398005",
+   "e:Samples/stac/erhu_bb5_stac_rr4.wav": "3ed292e5614c20cdb709d2a6490b16eb1544cc093b3db53ff3a7c95c6b2335d3",
+   "e:Samples/stac/erhu_c6_stac_rr1.wav": "23f874207e7565ffc4a260034097c1e0a38a539e16f400cccb0da9c2b3ceec84",
+   "e:Samples/stac/erhu_c6_stac_rr2.wav": "3cbc6971e7a21141945e3a97f0c9dc3f4d4669d736dd2e057d61aff829d42478",
+   "e:Samples/stac/erhu_c6_stac_rr3.wav": "d05cd647847625bf7ca9522592f9b814c392fa8b9a64a31a3bce3417d60c63d9",
+   "e:Samples/stac/erhu_c6_stac_rr4.wav": "fb0d45053dea1e0bd0b85f877b87de7057699651775656a73fe4f004fef1ac69",
+   "e:Samples/stac/erhu_d5_stac_rr1.wav": "42edd68265d63d4b30510ccef35cbfd332b2670a0acef663b1527ea414524054",
+   "e:Samples/stac/erhu_d5_stac_rr2.wav": "e8c4b0c872c61c5ccc5ae1a5910113703fc5d16ea40e52af5db51021d6570f91",
+   "e:Samples/stac/erhu_d5_stac_rr3.wav": "56da247cf26113f36d274c0cf095dfeca39d1f8985104ca591dcb39b40a88ab7",
+   "e:Samples/stac/erhu_d5_stac_rr4.wav": "30439b538f3b5324271c9022f6b52d156a2d58248919621944b2e7be30bcfb4c",
+   "e:Samples/stac/erhu_d6_stac_rr1.wav": "dfe625eaaac0b2a27f3aa13669aebf46065190f2209940173f88553f7d6b2beb",
+   "e:Samples/stac/erhu_d6_stac_rr2.wav": "cde1cd384b77c567b1bf416c54449769268cfa5222c4b7360b82e02524ca5dd1",
+   "e:Samples/stac/erhu_d6_stac_rr3.wav": "a80a07979cd6b9794ed91f14d1c9959ec4c246933235ce04218bd1597a107acc",
+   "e:Samples/stac/erhu_d6_stac_rr4.wav": "e37b96e279d907bcdc83e9e7d0e413def464796f7d3c52cd657d69206f6ef362",
+   "e:Samples/stac/erhu_db6_stac_rr1.wav": "a8b4609c25677098e682f3d75a3746d6d78f83312541694261c3227ed4734ba0",
+   "e:Samples/stac/erhu_db6_stac_rr2.wav": "cfe37e2f9a00dc45b56e6b4cbfcc5fbec413fe5c09368a3b567105eef9e87f14",
+   "e:Samples/stac/erhu_db6_stac_rr3.wav": "36a4f86a568673b5b4e667f60d4f5e9f417d66a437152505d157ff68c28b1afa",
+   "e:Samples/stac/erhu_db6_stac_rr4.wav": "e9233dbe317ecb0ca3f56ece4db075a9b5251af8c586736e600280d8c9efcb06",
+   "e:Samples/stac/erhu_e5_stac_rr1.wav": "4333b75c56fca3d33e815c454911e114a7e3023e23e6cf27a701969a9d3f90be",
+   "e:Samples/stac/erhu_e5_stac_rr2.wav": "14bafc5ff4d0b2bc2f7230f1b9bfcefcfa3ff6760d98bda70b96117738d5bb4b",
+   "e:Samples/stac/erhu_e5_stac_rr3.wav": "e7fd8b950a511a005769ec1412fbe4831bf6e46acc78e77d91b40983d6f86d53",
+   "e:Samples/stac/erhu_e5_stac_rr4.wav": "ae037e1c4407f56aac670e3160ceb60e396f110b013b0dce852a10654f053aed",
+   "e:Samples/stac/erhu_e6_stac_rr1.wav": "f0b797467cf881ab6b95f8490f32e8fed32b5b23581c48000a531d4a4c008e4d",
+   "e:Samples/stac/erhu_e6_stac_rr2.wav": "e9668deab0caad965305d4dda5c46a54b8917075527f8799546dc8b201d3b1aa",
+   "e:Samples/stac/erhu_e6_stac_rr3.wav": "a2d0f9ff8bd757f7ec83b47dade0485a712d5208990a1d0cdba1c0775e4b54d2",
+   "e:Samples/stac/erhu_e6_stac_rr4.wav": "6fad6ae31726d969fd645d6ff1647db7087ab11f703b12fc9f0008600f33cde7",
+   "e:Samples/stac/erhu_eb5_stac_rr1.wav": "a7891055965b9c9ccbbc41b579e3acbc1da0939d2fd79f246877bba248cd9057",
+   "e:Samples/stac/erhu_eb5_stac_rr2.wav": "5c4661511ca30620e5951918c99878c3a98d6c687a1a3ce7d68839d482c0590d",
+   "e:Samples/stac/erhu_eb5_stac_rr3.wav": "a56694a14b9fe898352ea121841cfbbad7d26156e12f67ebcbcea2e66b1fd1be",
+   "e:Samples/stac/erhu_eb5_stac_rr4.wav": "014ff76b8f2d7e65fbdfe37b37cd2e83904248aa5b531ffd3982ec8833beb506",
+   "e:Samples/stac/erhu_eb6_stac_rr1.wav": "6cf982940269f8474d7025ee573ac5fa3f6b06191554e4c25acfaa6edf6b4bce",
+   "e:Samples/stac/erhu_eb6_stac_rr2.wav": "9924a2c6f78992db98e81382638efdb6f516a0eb93e5c419d92213e1455bf23f",
+   "e:Samples/stac/erhu_eb6_stac_rr3.wav": "7a1154b19831512c6ba843c05bbff6bf4e5ded6e8891ef75261120dd49d85d3e",
+   "e:Samples/stac/erhu_eb6_stac_rr4.wav": "832a26caeee43a9ba507f7a8b9a2ae35fa80d29d5257d47be32234f22c7733fc",
+   "e:Samples/stac/erhu_f5_stac_rr1.wav": "35133364952fb5d24ec5b4345fba4f00d4418d5a24775f24b7bed9f28299584a",
+   "e:Samples/stac/erhu_f5_stac_rr2.wav": "7f3c072f9e2f9fb4ba71e7b72f94cce3308a8f97a1fdb5dcff25be68f5025a38",
+   "e:Samples/stac/erhu_f5_stac_rr3.wav": "c7a328f69ebec12e4c1064e08faefb762e3bb153cfde2e6b6fa014922fa0fa68",
+   "e:Samples/stac/erhu_f5_stac_rr4.wav": "3895a3939e3d8a2d8c5c16cff1f233583049d9847325db38ed8b50c2eee268b0",
+   "e:Samples/stac/erhu_f6_stac_rr1.wav": "dc7fe22ffafef5f5f143059adeab6dcb657aeebe7ddd867112af8a86a53e28d8",
+   "e:Samples/stac/erhu_f6_stac_rr2.wav": "2c7b3994d13428478329372fd8e26539b680d7214c98a29c73fd6820cc83a4b0",
+   "e:Samples/stac/erhu_f6_stac_rr3.wav": "89219e61a4e12cbaacb3775eb7fcd85e1c95f60cdf3c25b80f52acc0b9ccb2b8",
+   "e:Samples/stac/erhu_f6_stac_rr4.wav": "3733ac93ef4773ccf7eb8ffcfcaa826ca90bf442ff0418182e6f6b8c1a7b3203",
+   "e:Samples/stac/erhu_g5_stac_rr1.wav": "7d205004aaa47500adc85e1e0357d3c8eb5139ddd27e878ea3574c4fa99b32aa",
+   "e:Samples/stac/erhu_g5_stac_rr2.wav": "2d9cc64fef0f7807adb72ab7a32fa7076d6fb89751e7f35cd7f31eb30ef30072",
+   "e:Samples/stac/erhu_g5_stac_rr3.wav": "813d64536afb79aba77dd5ce4b93ba861d7d05fc9bc6fd4be2556f4230892fee",
+   "e:Samples/stac/erhu_g5_stac_rr4.wav": "78c5179a5b8693004abf13d0baaa60414680e1aa4c8bc51256b9da3f2cc8710b",
+   "e:Samples/stac/erhu_g6_stac_rr1.wav": "83f15152ba995efe2019ca392845d713afa83957da57352edd8fa46d1f18184c",
+   "e:Samples/stac/erhu_g6_stac_rr2.wav": "29cdc6e228ef4ad8b0e2cf1b24b9e27fdb242b022f073966a76ded7e777061f3",
+   "e:Samples/stac/erhu_g6_stac_rr3.wav": "eeb51cfd69fbf0a7c01501f2358058d23dcbba0c554fdc77b84170d1ce90ff80",
+   "e:Samples/stac/erhu_g6_stac_rr4.wav": "5d22ac2d97f7fd47d48dd634128cbc15134f1e849d4a87a0d050d868f940c8da",
+   "e:Samples/stac/erhu_gb5_stac_rr1.wav": "813767d1ffff28c8d1bb5e1a7b27c23b70af6f58f433f60fe2fd736fd2ec5955",
+   "e:Samples/stac/erhu_gb5_stac_rr2.wav": "caf1b10c0c9f731a61e3d3813d639a70179103c19deb1ba6d71a02c9be85e328",
+   "e:Samples/stac/erhu_gb5_stac_rr3.wav": "66aef581a7a335f28635fb7b93e3076eb23e2fc8a4757db29953de466ded52a2",
+   "e:Samples/stac/erhu_gb5_stac_rr4.wav": "de10aa26cff7dba17b910d7dc1b49d86e0fb2f611e1a3b5df623d1ba63b8c893",
+   "e:Samples/stac/erhu_gb6_stac_rr1.wav": "e9567daea949bb6d48552bcffeba56c4729aebf5662f56dacbe6c09d07fe2a40",
+   "e:Samples/stac/erhu_gb6_stac_rr2.wav": "c98e7cb927d15ad029152bc05697a8e48e521df8ed01190f7804eb8acc1fc492",
+   "e:Samples/stac/erhu_gb6_stac_rr3.wav": "6400f12495338acb2589adea5d60c58ca0d3a695fd2956d39b4b3d0852f31a7b",
+   "e:Samples/stac/erhu_gb6_stac_rr4.wav": "1c31620883744d25f73995e6d201aeb3fc6ba44fc228617ea4427df3e257971e",
+   "e:Samples/sus/erhu_a5_sus_rr1.wav": "8f632281ccea6c4855b1dcce61f00ae9635f551d701c09fe69123042d3ac1a15",
+   "e:Samples/sus/erhu_a5_sus_rr2.wav": "4a9d074744cfbfbb20904a29754b5432d8ac9b46fcd4366b6049fb4d081169cb",
+   "e:Samples/sus/erhu_a6_sus_rr1.wav": "946113da4500cf02967fbfc7329218dcd72b4c9dabfc3e5ad8f1b6b7bb2030cb",
+   "e:Samples/sus/erhu_a6_sus_rr2.wav": "f9f404c33ce11f5e255d9e486e021697a2c14a9ef20cbf9a9d271df288b462bf",
+   "e:Samples/sus/erhu_ab5_sus_rr1.wav": "b6392f26d3067aed5d4fdd3be79952d4fc1272e8a0bd2341f52a0d61636c8623",
+   "e:Samples/sus/erhu_ab5_sus_rr2.wav": "b32e60b17bee3688c2f445a7d81ab0bc2b4305ec1c8827672f361c9a01eb519b",
+   "e:Samples/sus/erhu_ab6_sus_rr1.wav": "cede78e8a1173030fda0137ec2708f01be611f696cb503e2f649c64078397e4f",
+   "e:Samples/sus/erhu_ab6_sus_rr2.wav": "fa2a45c5a3b77e0ee08ce676bd129516c3788138b45d67fd4b32ba7eac5e3d55",
+   "e:Samples/sus/erhu_b5_sus_rr1.wav": "a1233c366919478e866ff17f96b4bc62204a461aae0d9e5ca60ddf4207038092",
+   "e:Samples/sus/erhu_b5_sus_rr2.wav": "2fec850912356e1dad38d967397843cf0894922385141eaba22784a29eafaf42",
+   "e:Samples/sus/erhu_bb5_sus_rr1.wav": "739db725d1b6c06173af3d2df5a12ea998fb72ba094f683e2ed4538091ad2dba",
+   "e:Samples/sus/erhu_bb5_sus_rr2.wav": "6da7d5c4c851cf1adc7df128edd3fcbb941ae731d1641da11e3c7887c4357a0f",
+   "e:Samples/sus/erhu_c6_sus_rr1.wav": "de99454993ca46f1df0154441a1d59dc90f0ad2e56c6c0a900d586565ab2cf3a",
+   "e:Samples/sus/erhu_c6_sus_rr2.wav": "ffaa7f03913a24470353178fddf2fa43442b1064fb3fe7628bcc5fcf589bbed4",
+   "e:Samples/sus/erhu_d5_sus_rr1.wav": "dd7369c93c6d8ab2651049cfccf8eec56540029834981a64706bd55c55d711f6",
+   "e:Samples/sus/erhu_d5_sus_rr2.wav": "ebbb2fad4b46e935fad323bfd9271cc435ce00951dab0485b4023f8a82530800",
+   "e:Samples/sus/erhu_d6_sus_rr1.wav": "55d407bc3054d06f19cb668610d0888e16e968eba003a7f890dda8e262561c32",
+   "e:Samples/sus/erhu_d6_sus_rr2.wav": "d06fe4e1338bfd6473b508e00058bf0832468e8e83d26be1fbe57b4aa3595d2f",
+   "e:Samples/sus/erhu_db6_sus_rr1.wav": "425e5c81ef674561bcc4ac4073e601a8478e092f77725879ef18e702b32b94d1",
+   "e:Samples/sus/erhu_db6_sus_rr2.wav": "0c11fd824082b62f313f9bab35ce4767fcd180ef1a54ee677096149018aaef6a",
+   "e:Samples/sus/erhu_e5_sus_rr1.wav": "88a112f2e47d6af0d7b8692c4ec7a52e5d1d052cdc13c77cf430177003c203ae",
+   "e:Samples/sus/erhu_e5_sus_rr2.wav": "5af345110f071b6c10c974fe74aedf0bba6da7964721c322669c7e965f0fc3fa",
+   "e:Samples/sus/erhu_e6_sus_rr1.wav": "df88addf6787ea658ed5cf354886ae20317bcb59374ecbc5bf24a342d03fb4af",
+   "e:Samples/sus/erhu_e6_sus_rr2.wav": "1d08eb2ad5a0eeb44b3d053b84f4c667fcf71b617c03a90eab38ec413f1d0b0c",
+   "e:Samples/sus/erhu_eb5_sus_rr1.wav": "2c63e7e6ec25d15669b90883abd0b3bb719dcfd2dfa38eb3ebfcfc48b03c6869",
+   "e:Samples/sus/erhu_eb5_sus_rr2.wav": "e125c69f2f0954b97abc57a261ca4a31684df85b19fd1908d995238f2851962a",
+   "e:Samples/sus/erhu_eb6_sus_rr1.wav": "f63560ce10270be0776c22b66dadd257aabe9a9500f0b90533d1d3c7ea2b898d",
+   "e:Samples/sus/erhu_eb6_sus_rr2.wav": "0d2d019269aa900d6fd4ccc02ef333b5e3008465227c7306d96ae47e7f51a771",
+   "e:Samples/sus/erhu_f5_sus_rr1.wav": "a03941445662b2314b4e2575f49229f78f6385fc3876c65833c524648cf90b7f",
+   "e:Samples/sus/erhu_f5_sus_rr2.wav": "7cff60d9f2b5eb356ca3992b9ac73d200c36eba5afeda28498809f9ce07fc4a0",
+   "e:Samples/sus/erhu_f6_sus_rr1.wav": "63a97dfc215ac5b7f4a755e1a38c74549aeaadd5996d38ee11a3f08b047ae7e3",
+   "e:Samples/sus/erhu_f6_sus_rr2.wav": "bc7c9c5ed8ce1270ac62380f33ff6957929a70474013ab41d13fb0de5764e75a",
+   "e:Samples/sus/erhu_g5_sus_rr1.wav": "672a3caa8c698e55c9d1f9e29801ef2ab131aab84498235c2fc30d71557587da",
+   "e:Samples/sus/erhu_g5_sus_rr2.wav": "cda9b3419e7e3e316c7fee40355763f2bc3dc267e4c4440addac31cb29e1d962",
+   "e:Samples/sus/erhu_g6_sus_rr1.wav": "54208182f2097709d8428ec28726fff4f816dfe50a1b51da4c6de61aefae7e47",
+   "e:Samples/sus/erhu_g6_sus_rr2.wav": "0ba7dda97e0398668592c0f310ae4aeceb78bf861bcf61b377f360366900e644",
+   "e:Samples/sus/erhu_gb5_sus_rr1.wav": "01efdfcfc5bc72de6c9974af677b5020765dd9235370ffc3dafa8afc14678f0a",
+   "e:Samples/sus/erhu_gb5_sus_rr2.wav": "65c6b84f1d120c0054585ca9515ac0fee3d32d2434e893f3c54f58177f9383e5",
+   "e:Samples/sus/erhu_gb6_sus_rr1.wav": "0311aebd66847344f6f7f493f4107aa7d697ee79059c6aedba0bf3742c060112",
+   "e:Samples/sus/erhu_gb6_sus_rr2.wav": "a7dc958db9b641183a74e59cb8020e7a4cebed6d2b324af2bda9267fbb7b8013"
+  },
+  "bits": 24,
+  "files": {
+   "erhu/erhu_d5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_d5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127890,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_d5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_d5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 140330,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_eb5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_eb5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 131374,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_eb5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_eb5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 129997,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_e5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_e5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141120,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_e5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_e5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 138915,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_f5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_f5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 126857,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_f5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_f5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127890,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_gb5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_gb5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 129400,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_gb5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_gb5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 134408,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_g5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_g5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 118009,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_g5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_g5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 113516,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_ab5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_ab5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 121587,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_ab5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_ab5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 132300,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_a5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_a5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 113752,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_a5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_a5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 116542,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_bb5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_bb5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 104748,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_bb5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_bb5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 116865,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_b5_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_b5_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 111034,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_b5_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_b5_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 119070,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_c6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_c6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 112578,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_c6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_c6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127890,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_db6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_db6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 110250,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_db6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_db6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 108045,
+    "fadeIn": 0,
+    "fadeOut": 43218
+   },
+   "erhu/erhu_d6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_d6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 112439,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_d6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_d6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103635,
+    "fadeIn": 0,
+    "fadeOut": 41454
+   },
+   "erhu/erhu_eb6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_eb6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 86062,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_eb6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_eb6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 99225,
+    "fadeIn": 0,
+    "fadeOut": 39690
+   },
+   "erhu/erhu_e6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_e6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 95595,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_e6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_e6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103635,
+    "fadeIn": 0,
+    "fadeOut": 41454
+   },
+   "erhu/erhu_f6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_f6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 90405,
+    "fadeIn": 0,
+    "fadeOut": 36162
+   },
+   "erhu/erhu_f6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_f6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103635,
+    "fadeIn": 0,
+    "fadeOut": 41454
+   },
+   "erhu/erhu_gb6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_gb6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 114660,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_gb6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_gb6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 110767,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_g6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_g6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 110766,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_g6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_g6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 123480,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "erhu/erhu_ab6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_ab6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103048,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_ab6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_ab6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 100907,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_a6_sus_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_a6_sus_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 111005,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu/erhu_a6_sus_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/sus/erhu_a6_sus_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 95377,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_d5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_d5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_d5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_d5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_d5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_d5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_d5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_d5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_eb5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_eb5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 45457,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_eb5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_eb5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 43290,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_eb5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_eb5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_eb5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_eb5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_e5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_e5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_e5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_e5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_e5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_e5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_e5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_e5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_f5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_f5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_f5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_f5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_f5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_f5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_f5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_f5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_gb5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_gb5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_gb5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_gb5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_gb5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_gb5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_gb5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_gb5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34984,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_g5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_g5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33612,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_g5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_g5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35824,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_g5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_g5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33749,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_g5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_g5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 36131,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_ab5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_ab5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_ab5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_ab5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39646,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_ab5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_ab5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34946,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_ab5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_ab5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39495,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_a5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_a5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 36319,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_a5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_a5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33248,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_a5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_a5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33980,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_a5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_a5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_bb5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_bb5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_bb5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_bb5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_bb5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_bb5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_bb5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_bb5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_b5_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_b5_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37087,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_b5_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_b5_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 49551,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_b5_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_b5_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_b5_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_b5_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_c6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_c6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_c6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_c6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_c6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_c6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_c6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_c6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_db6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_db6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_db6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_db6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_db6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_db6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_db6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_db6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34577,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_d6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_d6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_d6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_d6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35787,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_d6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_d6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 38050,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_d6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_d6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 36458,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_eb6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_eb6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_eb6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_eb6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_eb6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_eb6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_eb6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_eb6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_e6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_e6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34492,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_e6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_e6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "erhu_stac/erhu_e6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_e6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41246,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_e6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_e6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 38443,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_f6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_f6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34044,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_f6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_f6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 38468,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_f6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_f6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39456,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_f6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_f6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30941,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_gb6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_gb6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33783,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_gb6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_gb6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35659,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_gb6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_gb6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29429,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_gb6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_gb6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 31992,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_g6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_g6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28135,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_g6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_g6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26457,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_g6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_g6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 27492,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_g6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_g6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 27099,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_ab6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_ab6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 25469,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_ab6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_ab6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32661,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_ab6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_ab6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29406,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_ab6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_ab6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 36866,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_a6_stac_rr1.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_a6_stac_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30787,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_a6_stac_rr2.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_a6_stac_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 31456,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_a6_stac_rr3.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_a6_stac_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32961,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "erhu_stac/erhu_a6_stac_rr4.wav": {
+    "in": [
+     [
+      "e:Samples/stac/erhu_a6_stac_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28181,
+    "fadeIn": 0,
+    "fadeOut": 441
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "erhu",
+   "title": "Erhu",
+   "category": "Strings",
+   "pitched": true,
+   "release": 0.25,
+   "attack": 0.01,
+   "oneShot": false,
+   "velocityRange": 24,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "erhu/erhu_d5_sus_rr1.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_eb5_sus_rr1.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 131374,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_d5_sus_rr2.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 140330,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_eb5_sus_rr2.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 129997,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_eb5_sus_rr1.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 131374,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_e5_sus_rr1.wav",
+     "root": 64,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 141120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_eb5_sus_rr2.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 129997,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_e5_sus_rr2.wav",
+     "root": 64,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 138915,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_e5_sus_rr1.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 141120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_f5_sus_rr1.wav",
+     "root": 65,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 126857,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_e5_sus_rr2.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 138915,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_f5_sus_rr2.wav",
+     "root": 65,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_f5_sus_rr1.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 126857,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_gb5_sus_rr1.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 129400,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_f5_sus_rr2.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_gb5_sus_rr2.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 134408,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_gb5_sus_rr1.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 129400,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_g5_sus_rr1.wav",
+     "root": 67,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 118009,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_gb5_sus_rr2.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 134408,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_g5_sus_rr2.wav",
+     "root": 67,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 113516,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_g5_sus_rr1.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 118009,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_ab5_sus_rr1.wav",
+     "root": 68,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 121587,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_g5_sus_rr2.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 113516,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_ab5_sus_rr2.wav",
+     "root": 68,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 132300,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_ab5_sus_rr1.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 121587,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_a5_sus_rr1.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 113752,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_ab5_sus_rr2.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 132300,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_a5_sus_rr2.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 116542,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_a5_sus_rr1.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 113752,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_bb5_sus_rr1.wav",
+     "root": 70,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 104748,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_a5_sus_rr2.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 116542,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_bb5_sus_rr2.wav",
+     "root": 70,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 116865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_bb5_sus_rr1.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 104748,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_b5_sus_rr1.wav",
+     "root": 71,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 111034,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_bb5_sus_rr2.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 116865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_b5_sus_rr2.wav",
+     "root": 71,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 119070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_b5_sus_rr1.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 111034,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_c6_sus_rr1.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 112578,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_b5_sus_rr2.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 119070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_c6_sus_rr2.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_c6_sus_rr1.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 112578,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_db6_sus_rr1.wav",
+     "root": 73,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 110250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_c6_sus_rr2.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_db6_sus_rr2.wav",
+     "root": 73,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 108045,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_db6_sus_rr1.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 110250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_d6_sus_rr1.wav",
+     "root": 74,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 112439,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_db6_sus_rr2.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 108045,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_d6_sus_rr2.wav",
+     "root": 74,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 103635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_d6_sus_rr1.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 112439,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_eb6_sus_rr1.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 86062,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_d6_sus_rr2.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 103635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_eb6_sus_rr2.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 99225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_eb6_sus_rr1.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 86062,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_e6_sus_rr1.wav",
+     "root": 76,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 95595,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_eb6_sus_rr2.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 99225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_e6_sus_rr2.wav",
+     "root": 76,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 103635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_e6_sus_rr1.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 95595,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_f6_sus_rr1.wav",
+     "root": 77,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_e6_sus_rr2.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 103635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_f6_sus_rr2.wav",
+     "root": 77,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 103635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_f6_sus_rr1.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_gb6_sus_rr1.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 114660,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_f6_sus_rr2.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 103635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_gb6_sus_rr2.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 110767,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_gb6_sus_rr1.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 114660,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_g6_sus_rr1.wav",
+     "root": 79,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 110766,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_gb6_sus_rr2.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 110767,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_g6_sus_rr2.wav",
+     "root": 79,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 123480,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_g6_sus_rr1.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 110766,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_ab6_sus_rr1.wav",
+     "root": 80,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 103048,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_g6_sus_rr2.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 123480,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_ab6_sus_rr2.wav",
+     "root": 80,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 100907,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_ab6_sus_rr1.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 103048,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_a6_sus_rr1.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 111005,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_ab6_sus_rr2.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 100907,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_a6_sus_rr2.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 95377,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_a6_sus_rr1.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 111005,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_g6_sus_rr1.wav",
+     "root": 79,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 110766,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu/erhu_a6_sus_rr2.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 95377,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu/erhu_g6_sus_rr2.wav",
+     "root": 79,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 5.34,
+     "start": 0,
+     "end": 123480,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    }
+   ]
+  },
+  {
+   "name": "erhu_stac",
+   "title": "Erhu (Short)",
+   "category": "Strings",
+   "pitched": true,
+   "release": 0.25,
+   "attack": 0.01,
+   "oneShot": false,
+   "velocityRange": 24,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "erhu_stac/erhu_d5_stac_rr1.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_d5_stac_rr2.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_d5_stac_rr3.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_d5_stac_rr4.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_eb5_stac_rr1.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 45457,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_eb5_stac_rr2.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 43290,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_eb5_stac_rr3.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_eb5_stac_rr4.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_e5_stac_rr1.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_e5_stac_rr2.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_e5_stac_rr3.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_e5_stac_rr4.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_f5_stac_rr1.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_f5_stac_rr2.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_f5_stac_rr3.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_f5_stac_rr4.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_gb5_stac_rr1.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_gb5_stac_rr2.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_gb5_stac_rr3.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_gb5_stac_rr4.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 34984,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_g5_stac_rr1.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 33612,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_g5_stac_rr2.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 35824,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_g5_stac_rr3.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 33749,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_g5_stac_rr4.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 36131,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_ab5_stac_rr1.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_ab5_stac_rr2.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39646,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_ab5_stac_rr3.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 34946,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_ab5_stac_rr4.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39495,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_a5_stac_rr1.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 36319,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_a5_stac_rr2.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 33248,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_a5_stac_rr3.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 33980,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_a5_stac_rr4.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_bb5_stac_rr1.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_bb5_stac_rr2.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_bb5_stac_rr3.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_bb5_stac_rr4.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_b5_stac_rr1.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37087,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_b5_stac_rr2.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 49551,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_b5_stac_rr3.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_b5_stac_rr4.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_c6_stac_rr1.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_c6_stac_rr2.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_c6_stac_rr3.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_c6_stac_rr4.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_db6_stac_rr1.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_db6_stac_rr2.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_db6_stac_rr3.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_db6_stac_rr4.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 34577,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_d6_stac_rr1.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_d6_stac_rr2.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 35787,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_d6_stac_rr3.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 38050,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_d6_stac_rr4.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 36458,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_eb6_stac_rr1.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_eb6_stac_rr2.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_eb6_stac_rr3.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_eb6_stac_rr4.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_e6_stac_rr1.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 34492,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_e6_stac_rr2.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_e6_stac_rr3.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 41246,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_e6_stac_rr4.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 38443,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_f6_stac_rr1.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 34044,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_f6_stac_rr2.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 38468,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_f6_stac_rr3.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 39456,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_f6_stac_rr4.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 30941,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_gb6_stac_rr1.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 33783,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_gb6_stac_rr2.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 35659,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_gb6_stac_rr3.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 29429,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_gb6_stac_rr4.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 31992,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_g6_stac_rr1.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 28135,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_g6_stac_rr2.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 26457,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_g6_stac_rr3.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 27492,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_g6_stac_rr4.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 27099,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_ab6_stac_rr1.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 25469,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_ab6_stac_rr2.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 32661,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_ab6_stac_rr3.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 29406,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_ab6_stac_rr4.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 36866,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "erhu_stac/erhu_a6_stac_rr1.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 30787,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "erhu_stac/erhu_a6_stac_rr2.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 31456,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "erhu_stac/erhu_a6_stac_rr3.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 32961,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "erhu_stac/erhu_a6_stac_rr4.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.06,
+     "start": 0,
+     "end": 28181,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    }
+   ]
+  }
+ ]
+}

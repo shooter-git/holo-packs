@@ -1,0 +1,140 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "nepal-bells",
+ "name": "Nepalese Hand Bells (VCSL)",
+ "license": "CC0-1.0",
+ "credit": "Nepalese hand bells from the Versilian Community Sample Library (CC0, Versilian Studios).",
+ "bytes": 899844,
+ "source": {
+  "kind": "mix",
+  "note": "VCSL's WAVs at the pinned commit, each kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "vcsl": "https://raw.githubusercontent.com/sgossner/VCSL/c1ea7bcc3c7309650ab0da9d15c9cd1fbc4a4c7e/Idiophones/Struck Idiophones/Hand Bells, Nepalese/"
+  },
+  "downloads": {
+   "vcsl:HB_1.wav": "46e19962db5cb9b339f22609f1c529cd187249c36f3bcd05d4002179c403c222",
+   "vcsl:HB_2.wav": "e201ef095eac406a1bd5a9ec774229b57f40407d633e6dbeed53c67ebb973d56",
+   "vcsl:HB_3.wav": "9824e5aafb07085913231fe4f574561e92b02ba44bcd4a105783b857c1ca2f71"
+  },
+  "bits": 24,
+  "files": {
+   "bells/bell-1/vcsl:HB_1.wav": {
+    "in": [
+     [
+      "vcsl:HB_1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52920,
+    "fadeIn": 0,
+    "fadeOut": 21168
+   },
+   "bells/bell-2/vcsl:HB_2.wav": {
+    "in": [
+     [
+      "vcsl:HB_2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 12348
+   },
+   "bells/bell-3/vcsl:HB_3.wav": {
+    "in": [
+     [
+      "vcsl:HB_3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66150,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "bells",
+   "title": "Nepalese Hand Bells",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.8,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 24,
+   "polyphony": 16,
+   "notePolyphony": 3,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "bells/bell-1/vcsl:HB_1.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 17.57,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bells/bell-2/vcsl:HB_2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 17.57,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bells/bell-3/vcsl:HB_3.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 17.57,
+     "start": 0,
+     "end": 66150,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Bell 1"
+    },
+    {
+     "key": 37,
+     "name": "Bell 2"
+    },
+    {
+     "key": 38,
+     "name": "Bell 3"
+    }
+   ]
+  }
+ ]
+}

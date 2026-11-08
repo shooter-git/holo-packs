@@ -1,0 +1,1546 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "gamelan-bali",
+ "name": "Balinese Gamelan (OLPC)",
+ "license": "CC-BY-3.0",
+ "credit": "Balinese gamelan samples by Akito van Troyer for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/AkitoVanTroyer).",
+ "bytes": 14365406,
+ "source": {
+  "kind": "mix",
+  "note": "The 44.1 kHz WAVs of the published zip, fetched one by one, each kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "akito": "https://archive.org/download/AkitoVanTroyer/AkitoVanTroyer44.zip/AkitoVanTroyer44/"
+  },
+  "downloads": {
+   "akito:calung1.wav": "a5b50c8b4378d410ef9e50b5c809e2f324c27319dedcc3bc40dc986c473dceb8",
+   "akito:calung2.wav": "19018f151c8ed2ad9c857339f8f3beedd4f559482b14056ff2ac64c0a23161a3",
+   "akito:calung3.wav": "97c3ab89c5dcb6feafac5bfe93cf3d67e2bbe0417f5a3b7af064465da0189cf6",
+   "akito:calung5.wav": "6b9f7fe4366aab91923aebc8336bfc094f9d4abc0fcb2eb395aa9481731f5ea3",
+   "akito:calung6.wav": "ace919269efd6f8f3671b24d69d6d77e6499100a7977f3327d47b5ccce70222a",
+   "akito:gangsahi1.wav": "044645520d9e7bca2f6df6ca531a4a1518f5462fe508c7e0e1be7646d0a22946",
+   "akito:gangsalo2.wav": "c910b607d338c22306bae19741abc3e1ac2b6486488774e892f0a140605cc4ba",
+   "akito:gangsalo3.wav": "8070a7dbe4b7ee6a08a3216284b107ed0e15e0f127e83cab56b7944740ae22ba",
+   "akito:gangsalo5.wav": "328bae641647822a4c82c12ab28b5e50c2b4949ebe8713a9d9ac14d7adad72ec",
+   "akito:gangsalo6.wav": "e44bb728cf4d1e9389463aea73b85a6fc8e532be30f93767c0785ec343b70a26",
+   "akito:gangsamid1.wav": "72ed9a5131fc7cd1265088a806267e1b5b0ea49fd16b10138180e4ad22bfc082",
+   "akito:gangsamid2.wav": "7826fecda2d25b19d7fd9ccf83f7640d198e7fa389b168830e3bbc71f3c93550",
+   "akito:gangsamid3.wav": "2c3bb42fd8b7fe714398f75085b03dcd204bb21ee07a52c822355c29d0b6e9a8",
+   "akito:gangsamid5.wav": "482d5fa27e20126962fd01e7cfdc4c12a468593f05578cd16f9827d6b36274d5",
+   "akito:gangsamid6.wav": "5af7f55543863d374f556a45339741abf84a9859170014a7eb7211a86052121b",
+   "akito:gong.wav": "9ba41af4ea60d6c930061e9f311dd5e61d06c9fc1d29e643d963be49434f5b6f",
+   "akito:higangsahi1.wav": "1ade2ed20ac2065e8d519f8912394ad4a606ab2c8edffd4ef9960909bcca33b0",
+   "akito:higangsalo2.wav": "5315f6264c14b20530b2af46294dd95e6c47d0600baad132919578b7ffe99e5b",
+   "akito:higangsalo3.wav": "e6b3a0531f34b19af81fdd8dc4288d013ad9594db6db8f56ccf2c1438b85e8ca",
+   "akito:higangsalo5.wav": "1b81e1bd3409737153f0ec39592b1b9f6061453154599a399d24175db25fa0c5",
+   "akito:higangsalo6.wav": "1791327f178f30c8742345c5639a3a867d0a52c174ba91be5ae4b7a2fceb866f",
+   "akito:higangsamid1.wav": "a689dd5f0effd4968c27c43befac2cce614b91423e9214817400d928688d2f7e",
+   "akito:higangsamid2.wav": "5d05d395f1c6644ab2a00aefc9b84fc50f6578fc8d6030863be4be5b11a7b1bb",
+   "akito:higangsamid3.wav": "1178643c12012f47a0c7cfeca1ac6a062965997c4a9903ab71aaab099c103cb6",
+   "akito:higangsamid5.wav": "8ab85b71a5b109a16580d5c2ce4521b2c51cdfa7ccacc3ddfb127232cb479726",
+   "akito:higangsamid6.wav": "777ca1bd9125240b74bc8f33f301d65f493e0496d6f7cc049d6a31e6b9b020e4",
+   "akito:jegogan1.wav": "265964214bed1c55c8dcbe81145ac38b0baf899073d6c9401594161917b876ad",
+   "akito:jegogan2.wav": "0c90b5a48a0291b1b24f08fde866e30044d19fecf050661ee252d4c23bf448ef",
+   "akito:jegogan3.wav": "4bf81068f89bd10fba0c92d3b87d8ab65d2a004dcfb823d71dd9a1a61e15aa75",
+   "akito:jegogan5.wav": "c09b3e5359900dccca9fc1bae8fac74fb03dbc6bbf8df8c150920ca0384ca123",
+   "akito:jegogan6.wav": "02c4941c4d5023eb6aec7a398230802a000638b058281d909d1fe6e52f0e749b",
+   "akito:kemong.wav": "d0c708db5d164694ff8b07e1b204c57c4a4b979de32362b703052ef8dd28a1db",
+   "akito:kempli.wav": "2a1b1b69867b823ccd5ad9c89e2186efed96df09f1232c5d12298c7955c6f5e6",
+   "akito:kempur.wav": "5c731594181aa57774914652568cf86b8991fe564365772dbb255fe64dd7b742",
+   "akito:kempur2.wav": "6bd854e058ea3c063a3858cae7fbaf8ced40973badaf5555f425925155833e8b",
+   "akito:reyonghi1.wav": "d0392ce4a73a10329c67fb3d6a8ea196a827a7099857ba9072539ed8da12bab3",
+   "akito:reyonghi2.wav": "47aa609b5f73a9df0850596737f9fd610d2578acbad38068ccf731e42d288121",
+   "akito:reyonghi3.wav": "f9fc248ebdcc2866be7efe6c915d133896d5116affe2665e497f16be44b38393",
+   "akito:reyonghi5.wav": "00c71e1fea2db4b4500d97497a348cfbd6687903c8b75735e33f4865790f0442",
+   "akito:reyonglo3.wav": "56d4ed02c1f618e7bc12d926b3692eaa9bffffa45ce4f3462d3e43111696e96c",
+   "akito:reyonglo5.wav": "f9ebefbdacc9737049cdfe2c6d683ac1fee8449c5dcb8fee46c8853ae8d6a49f",
+   "akito:reyonglo6.wav": "9815f88dac6dcb6666ba4610e17abaf906b7fa386149a5bc1ee03de0fb752532",
+   "akito:reyongmid1.wav": "47b7e659fcddb80988879064b1b98137c84a894b9e8bc9395b4d0ea895f5bda3",
+   "akito:reyongmid2.wav": "dc7b639e5814b6c83c648ed8685bdec0489b0a2a6e80702dda125d88843345a5",
+   "akito:reyongmid3.wav": "98056e4e837fa3fdfb7c2e901fee40fa17b9ba4e2d94f59a6b1027748ba823f6",
+   "akito:reyongmid5.wav": "8a1bc2f3e4ce439608a65bcf04d7cdfd1d049780a267081a2e34ba8ed7dea4ce",
+   "akito:reyongmid6.wav": "6b120dab873a8f47c3add33bcdbfa8c3682ac7699a307aacb60b10cd4fe935f9"
+  },
+  "bits": 16,
+  "files": {
+   "jegogan/jegogan1.wav": {
+    "in": [
+     [
+      "akito:jegogan1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 390675,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "jegogan/jegogan2.wav": {
+    "in": [
+     [
+      "akito:jegogan2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 441389,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "jegogan/jegogan3.wav": {
+    "in": [
+     [
+      "akito:jegogan3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 513075,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "jegogan/jegogan5.wav": {
+    "in": [
+     [
+      "akito:jegogan5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 352800,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "jegogan/jegogan6.wav": {
+    "in": [
+     [
+      "akito:jegogan6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 461629,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "calung/calung1.wav": {
+    "in": [
+     [
+      "akito:calung1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 407282,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "calung/calung2.wav": {
+    "in": [
+     [
+      "akito:calung2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 348185,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "calung/calung3.wav": {
+    "in": [
+     [
+      "akito:calung3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 367138,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "calung/calung5.wav": {
+    "in": [
+     [
+      "akito:calung5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 439334,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "calung/calung6.wav": {
+    "in": [
+     [
+      "akito:calung6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 409205,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsalo2.wav": {
+    "in": [
+     [
+      "akito:gangsalo2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 124515,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsalo3.wav": {
+    "in": [
+     [
+      "akito:gangsalo3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 90397,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsalo5.wav": {
+    "in": [
+     [
+      "akito:gangsalo5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 131186,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsalo6.wav": {
+    "in": [
+     [
+      "akito:gangsalo6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127446,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsamid1.wav": {
+    "in": [
+     [
+      "akito:gangsamid1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 123426,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsamid2.wav": {
+    "in": [
+     [
+      "akito:gangsamid2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 84883,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsamid3.wav": {
+    "in": [
+     [
+      "akito:gangsamid3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 79822,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsamid5.wav": {
+    "in": [
+     [
+      "akito:gangsamid5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 112103,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsamid6.wav": {
+    "in": [
+     [
+      "akito:gangsamid6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 97241,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gangsa/gangsahi1.wav": {
+    "in": [
+     [
+      "akito:gangsahi1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103469,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsalo2.wav": {
+    "in": [
+     [
+      "akito:higangsalo2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 76011,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsalo3.wav": {
+    "in": [
+     [
+      "akito:higangsalo3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 133813,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsalo5.wav": {
+    "in": [
+     [
+      "akito:higangsalo5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 50676,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsalo6.wav": {
+    "in": [
+     [
+      "akito:higangsalo6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 87928,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsamid1.wav": {
+    "in": [
+     [
+      "akito:higangsamid1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 74832,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsamid2.wav": {
+    "in": [
+     [
+      "akito:higangsamid2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 100712,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsamid3.wav": {
+    "in": [
+     [
+      "akito:higangsamid3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 70101,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsamid5.wav": {
+    "in": [
+     [
+      "akito:higangsamid5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 72566,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsamid6.wav": {
+    "in": [
+     [
+      "akito:higangsamid6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 56927,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kantilan/higangsahi1.wav": {
+    "in": [
+     [
+      "akito:higangsahi1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 53999,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyonglo3.wav": {
+    "in": [
+     [
+      "akito:reyonglo3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 23682,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyonglo5.wav": {
+    "in": [
+     [
+      "akito:reyonglo5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 20655,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyonglo6.wav": {
+    "in": [
+     [
+      "akito:reyonglo6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26350,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyongmid1.wav": {
+    "in": [
+     [
+      "akito:reyongmid1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 62483,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyongmid2.wav": {
+    "in": [
+     [
+      "akito:reyongmid2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 21991,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyongmid3.wav": {
+    "in": [
+     [
+      "akito:reyongmid3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32343,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyongmid5.wav": {
+    "in": [
+     [
+      "akito:reyongmid5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32468,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyongmid6.wav": {
+    "in": [
+     [
+      "akito:reyongmid6.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 36810,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyonghi1.wav": {
+    "in": [
+     [
+      "akito:reyonghi1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52221,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyonghi2.wav": {
+    "in": [
+     [
+      "akito:reyonghi2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 49077,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyonghi3.wav": {
+    "in": [
+     [
+      "akito:reyonghi3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 60447,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "reyong/reyonghi5.wav": {
+    "in": [
+     [
+      "akito:reyonghi5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 70802,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/gong/akito:gong.wav": {
+    "in": [
+     [
+      "akito:gong.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 209050,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempur/akito:kempur.wav": {
+    "in": [
+     [
+      "akito:kempur.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 279873,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempur-2/akito:kempur2.wav": {
+    "in": [
+     [
+      "akito:kempur2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 135633,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kemong/akito:kemong.wav": {
+    "in": [
+     [
+      "akito:kemong.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 69421,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "gongs/kempli/akito:kempli.wav": {
+    "in": [
+     [
+      "akito:kempli.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 15598,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "jegogan",
+   "title": "Jegogan",
+   "category": "Percussion",
+   "pitched": true,
+   "release": 0.8,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 48,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "jegogan/jegogan1.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -8.72,
+     "start": 0,
+     "end": 390675,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "jegogan/jegogan2.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -8.72,
+     "start": 0,
+     "end": 441389,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "jegogan/jegogan3.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -8.72,
+     "start": 0,
+     "end": 513075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "jegogan/jegogan5.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -8.72,
+     "start": 0,
+     "end": 352800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "jegogan/jegogan6.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -8.72,
+     "start": 0,
+     "end": 461629,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "calung",
+   "title": "Calung",
+   "category": "Percussion",
+   "pitched": true,
+   "release": 0.8,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 48,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "calung/calung1.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9.68,
+     "start": 0,
+     "end": 407282,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "calung/calung2.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9.68,
+     "start": 0,
+     "end": 348185,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "calung/calung3.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9.68,
+     "start": 0,
+     "end": 367138,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "calung/calung5.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9.68,
+     "start": 0,
+     "end": 439334,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "calung/calung6.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9.68,
+     "start": 0,
+     "end": 409205,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "gangsa-pemade",
+   "title": "Gangsa Pemade",
+   "category": "Percussion",
+   "pitched": true,
+   "release": 0.8,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 48,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "gangsa/gangsalo2.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 124515,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsalo3.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 90397,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsalo5.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 131186,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsalo6.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 127446,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsamid1.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 123426,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsamid2.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 84883,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsamid3.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 79822,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsamid5.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 112103,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsamid6.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 97241,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gangsa/gangsahi1.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.42,
+     "start": 0,
+     "end": 103469,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "gangsa-kantilan",
+   "title": "Gangsa Kantilan",
+   "category": "Percussion",
+   "pitched": true,
+   "release": 0.8,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 48,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "kantilan/higangsalo2.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 76011,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsalo3.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 133813,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsalo5.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 50676,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsalo6.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 87928,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsamid1.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 74832,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsamid2.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 100712,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsamid3.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 70101,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsamid5.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 72566,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsamid6.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 56927,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kantilan/higangsahi1.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.93,
+     "start": 0,
+     "end": 53999,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "reyong",
+   "title": "Reyong",
+   "category": "Percussion",
+   "pitched": true,
+   "release": 0.8,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 48,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "reyong/reyonglo3.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 23682,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyonglo5.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 20655,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyonglo6.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 26350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyongmid1.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 62483,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyongmid2.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 21991,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyongmid3.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 32343,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyongmid5.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 32468,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyongmid6.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 36810,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyonghi1.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 52221,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyonghi2.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 49077,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyonghi3.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 60447,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "reyong/reyonghi5.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.01,
+     "start": 0,
+     "end": 70802,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "gongs",
+   "title": "Gong, Kempur, Kemong, Kempli",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.8,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 48,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "gongs/gong/akito:gong.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.81,
+     "start": 0,
+     "end": 209050,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempur/akito:kempur.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.81,
+     "start": 0,
+     "end": 279873,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempur-2/akito:kempur2.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.81,
+     "start": 0,
+     "end": 135633,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kemong/akito:kemong.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.81,
+     "start": 0,
+     "end": 69421,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "gongs/kempli/akito:kempli.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.81,
+     "start": 0,
+     "end": 15598,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Gong"
+    },
+    {
+     "key": 37,
+     "name": "Kempur"
+    },
+    {
+     "key": 38,
+     "name": "Kempur 2"
+    },
+    {
+     "key": 39,
+     "name": "Kemong"
+    },
+    {
+     "key": 40,
+     "name": "Kempli"
+    }
+   ]
+  }
+ ]
+}

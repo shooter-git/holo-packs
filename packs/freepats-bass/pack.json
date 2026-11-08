@@ -1,0 +1,812 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "freepats-bass",
+ "name": "FreePats Bass Guitar YR",
+ "license": "CC0-1.0",
+ "credit": "Bass Guitar YR of the FreePats project (CC0): an electric bass, picked and played with the fingers.",
+ "bytes": 11616424,
+ "source": {
+  "kind": "mix",
+  "note": "The project's SFZ+FLAC downloads (7z), each note taken out, kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {},
+  "downloads": {
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/A#.flac": "561c1c7dacf11e30ad0170cf8dd2027deb81d90b8043fc7fa8935f6be371f0b8",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/A.flac": "c7efb91b6f7a668939b3237e8ca82955697cc7c6c59736768d02c535169dd7e2",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/B.flac": "a06bf84c78e0e001280c540561ff973756753eed2fc82edb8cf2f29efc69f286",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/C#.flac": "be3b898339dea26b5e7627e87dd353401d66273827599a0e7404017ff6b057fc",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/C.flac": "e612eaeec3e502fa6a90382c698b2c4fa41d9ca5ed8f775a9a207beb9609a6f9",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/D#.flac": "f0ed805d30d9db76b59152162ea8d33cf43866b41b270ee9049243b501dcbc22",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/D.flac": "bd93958974c455a09d9b887479285535374729a45fb544c8a4bff8206d8158ac",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/E.flac": "1e6ccfc378443626e2d581ea8ff7c8c455e55467fccdb85d8321344a43e26d46",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/F#.flac": "a314889f2f58f87c5db479b88fb19448d83fab6aa7023094d8ddfeb0a4dc3b36",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/F.flac": "1ae547465673989bc6d99a4a109fc39a06bad130f6bfb9e1142cb5cb7e1fbcbf",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/G#.flac": "0e3093804ce12bfeff996aa3dd5a304aa18e29e22bfd3dfa1b7b7edc4874910d",
+   "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/G.flac": "48c14de530c005366b51a534fd7d3179a8765a4fa3c12dd3194c0eab4f87bb51",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/A#.flac": "73687cb604b3f689f2556700b818f30f88008439c4183dd320229b99c411eedc",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/A.flac": "2addffa45abc40373e2e878d1385b4a06673b99c61e845f82d74571e4f77eb35",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/B.flac": "921526901e3a377ce20e05b391995788a09ea97100d00bbc79ed4626a0b4d31d",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/C#.flac": "6ac9dfefcda934527bf835c2436c3e9cef26a4ca5c8032514a35c35951065f1b",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/C.flac": "82401893346e48108ae217deead6cd228da1e305e74227ade91c1e7c2e0c0d95",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/D#.flac": "4a1ad4995f0a3b79c28355dde89a997b4564937d478045aab9bb31c9603ca2a1",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/D.flac": "2778406fe171395f4d44095dff80ed7a3cc2e85f4c8c6181e665cc4810d8ff18",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/E.flac": "64759164edef31bafe90920831ee40bb2d1c4ca3e5196ad6efa917ddcd5b5ed1",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/E2.flac": "7fc53bd65409dad7c18e8c6141a37f77f2cff744516d42e51768e3fafee59ae5",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/F#.flac": "cbf8ed46549ab215c3348d9ada87405df8b343b20973b04bf93e801bd31e518e",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/F.flac": "cbfc49150e357e79e0ffe7197979bf773de628cf495e38db468e243f8a9d1b13",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/G#.flac": "52a6c5963e0bd9b368a2ff1081809f792766d8e949ab7c73506dc627479f1b82",
+   "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/G.flac": "6839132e55073e6d69dee7c193dc80e2b453050748b799be4e5c22e98a750513"
+  },
+  "bits": 24,
+  "files": {
+   "picked/E.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/E.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 202400,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/F.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/F.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 172032,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/F#.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/F#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 173056,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/G.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/G.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 143272,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/G#.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/G#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 135672,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/A.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/A.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 153824,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/A#.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/A#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 133232,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/B.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/B.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 124324,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/C.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/C.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 115200,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/C#.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/C#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 120832,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/D.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/D.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 109466,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/D#.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/D#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 101080,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "picked/E2.wav": {
+    "in": [
+     [
+      "picked:PickedBassYR SFZ+FLAC-20190930/samples/pick/E2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 78208,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/E.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/E.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 253136,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/F.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/F.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 152832,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/F#.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/F#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 187648,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/G.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/G.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 208896,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/G#.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/G#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 180592,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/A.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/A.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 178575,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/A#.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/A#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 170496,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/B.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/B.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 157296,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/C.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/C.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 140368,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/C#.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/C#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 128096,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/D.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/D.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 113553,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "finger/D#.wav": {
+    "in": [
+     [
+      "finger:FingerBassYR SFZ+FLAC-20190930/samples/finger/D#.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 237488,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   }
+  },
+  "archives": {
+   "finger": {
+    "url": "https://github.com/freepats/electric-bass-YR/releases/download/2019-09-30/FingerBassYR-SFZ+FLAC-20190930.7z",
+    "sha256": "36f87ec9eb086ef25050312522aacf71213c582f46989e0c5a12681304596587"
+   },
+   "picked": {
+    "url": "https://github.com/freepats/electric-bass-YR/releases/download/2019-09-30/PickedBassYR-SFZ+FLAC-20190930.7z",
+    "sha256": "aa7650fc206a7ed83ecafa36a24572e1f4ea041938182b981bf111b99e1b8e85"
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "picked",
+   "title": "Electric Bass (Picked)",
+   "category": "Bass",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "picked/E.wav",
+     "root": 28,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 202400,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/F.wav",
+     "root": 29,
+     "lo": 29,
+     "hi": 29,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 172032,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/F#.wav",
+     "root": 30,
+     "lo": 30,
+     "hi": 30,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 173056,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/G.wav",
+     "root": 31,
+     "lo": 31,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 143272,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/G#.wav",
+     "root": 32,
+     "lo": 32,
+     "hi": 32,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 135672,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/A.wav",
+     "root": 33,
+     "lo": 33,
+     "hi": 33,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 153824,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/A#.wav",
+     "root": 34,
+     "lo": 34,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 133232,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/B.wav",
+     "root": 35,
+     "lo": 35,
+     "hi": 35,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 124324,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/C.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 115200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/C#.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 120832,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/D.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 109466,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/D#.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 101080,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "picked/E2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.89,
+     "start": 0,
+     "end": 78208,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  },
+  {
+   "name": "finger",
+   "title": "Electric Bass (Fingered)",
+   "category": "Bass",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "finger/E.wav",
+     "root": 28,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 253136,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/F.wav",
+     "root": 29,
+     "lo": 29,
+     "hi": 29,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 152832,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/F#.wav",
+     "root": 30,
+     "lo": 30,
+     "hi": 30,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 187648,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/G.wav",
+     "root": 31,
+     "lo": 31,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 208896,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/G#.wav",
+     "root": 32,
+     "lo": 32,
+     "hi": 32,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 180592,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/A.wav",
+     "root": 33,
+     "lo": 33,
+     "hi": 33,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 178575,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/A#.wav",
+     "root": 34,
+     "lo": 34,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 170496,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/B.wav",
+     "root": 35,
+     "lo": 35,
+     "hi": 35,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 157296,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/C.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 140368,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/C#.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 128096,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/D.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 113553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "finger/D#.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.25,
+     "start": 0,
+     "end": 237488,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  }
+ ]
+}
