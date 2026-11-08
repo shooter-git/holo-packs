@@ -15,18 +15,23 @@ const downloads = new Downloads(cache, { k: lib.base });
 const single = (r) => r.hicc94 !== undefined && Number(r.hicc94) <= 32;
 const voice = (program, shift) => programSamples(lib, `Programs/${program}.sfz`, { tag: 'k', keep: single, shift });
 const playing = { release: 0.2, attack: 0.005, oneShot: false, polyphony: 32, notePolyphony: 2, offTime: 0.05 };
-// each key plays the note it sounds: the library maps Ironface an octave over its recordings (its "a2"
-// sounds at 110 Hz), and Zinc's tone carries a whole sub-octave series (from its A2 up, as loud as the
-// note it's named for or louder), so each Zinc recording repeats an octave under its name
+// each key plays the note it sounds. The library maps Ironface an octave over its recordings (its "a2"
+// sounds at 110 Hz). Zinc's tone carries a sub-octave series that grows with its pitch: its recordings
+// under A2 sound as they're named, and from A2 up (the sub-octave as strong as the note, or stronger)
+// each repeats an octave under its name, so the two halves overlap. Zinc is played from its A2-up
+// recordings, each on the key it sounds, the lowest reaching down an octave as the library's lowest does.
+const zinc = (await voice('zinc_one_voice', -12)).filter((s) => s.root >= 33);
+const lowest = zinc.reduce((a, b) => (b.root < a.root ? b : a));
+lowest.lo = lowest.root - 12;
 const VOICES = [
-  ['zinc', 'Zinc', 'zinc_one_voice', -12],
-  ['blackheart', 'Blackheart', 'blackheart_one', 0],
-  ['ironface', 'Ironface', 'ironface_clean', -12],
-  ['ironface-distorted', 'Ironface (Distorted)', 'ironface_distorted', -12],
+  ['zinc', 'Zinc', zinc],
+  ['blackheart', 'Blackheart', await voice('blackheart_one', 0)],
+  ['ironface', 'Ironface', await voice('ironface_clean', -12)],
+  ['ironface-distorted', 'Ironface (Distorted)', await voice('ironface_distorted', -12)],
 ];
 const instruments = [];
-for (const [name, title, program, shift] of VOICES)
-  instruments.push({ name, title, category: 'Other', folder: name, samples: await voice(program, shift), fileLoops: true, playing });
+for (const [name, title, samples] of VOICES)
+  instruments.push({ name, title, category: 'Other', folder: name, samples, fileLoops: true, playing });
 
 await buildInstruments({
   id: 'string-cyborgs',

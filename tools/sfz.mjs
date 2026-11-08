@@ -42,8 +42,8 @@ export async function readSfz(path, read) {
       const line = raw.replace(/\/\/.*$/, '');
       const parts = line.split(/(?=#define\s|#include\s)/);
       for (const part of parts) {
-        // a define's value is one word, an include one quoted path: what follows on the line is
-        // opcodes ("#define $POS 1 seq_position=$POS", "#include "vel.txt" lovel=1")
+        // a variable's value is one word (as sfizz reads it); the rest of its line, and the rest of an
+        // include's, are opcodes ("#define $POS 1 seq_position=$POS", "#include "v1.txt" lovel=1")
         const def = /^#define\s+(\$[A-Za-z0-9_]+)\s+(\S*)(.*)$/.exec(part.trim());
         const inc = /^#include\s+"([^"]+)"(.*)$/.exec(part.trim());
         if (def) {
@@ -73,7 +73,6 @@ export async function readSfz(path, read) {
   // headers (<group>) and opcodes (name=value, a value running to the next opcode or header)
   const token = /<([a-z]+)>|([A-Za-z0-9_]+)=/g;
   const text = chunks.join('\n');
-  let m;
   let pending = null;
   const flush = (end) => {
     if (!pending) return;
@@ -82,7 +81,7 @@ export async function readSfz(path, read) {
     else if (levels[header]) levels[header][pending.name] = value;
     pending = null;
   };
-  while ((m = token.exec(text))) {
+  for (const m of text.matchAll(token)) {
     flush(m.index);
     if (m[1]) {
       header = m[1];

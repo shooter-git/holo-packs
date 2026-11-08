@@ -55,7 +55,7 @@ version…) are listed with it, and every pack links to its own page.
 | [Karoryfer Gogodze Phu (Bobobo Drums)](packs/gogodze-phu/) | Percussion | 1 | 8 MB | CC0 1.0 |
 | [Karoryfer Growlybass](packs/growlybass/) | Bass | 2 | 182 MB | CC0 1.0 |
 | [Karoryfer Meatbass](packs/meatbass/) | Bass | 1 | 116 MB | CC0 1.0 |
-| [Karoryfer String Cyborgs (Synth Voices)](packs/string-cyborgs/) | Other | 4 | 31 MB | CC0 1.0 |
+| [Karoryfer String Cyborgs (Synth Voices)](packs/string-cyborgs/) | Other | 4 | 26 MB | CC0 1.0 |
 | [Karoryfer War Tuba](packs/war-tuba/) | Brass | 2 | 49 MB | CC0 1.0 |
 | [Karoryfer Weresax](packs/weresax/) | Woodwinds | 1 | 101 MB | CC0 1.0 |
 | [Karoryfer x bigcat Cello](packs/bigcat-cello/) | Strings | 3 | 131 MB | CC0 1.0 |
@@ -359,6 +359,9 @@ clearly their authors' own, become packs. These were looked at and left out:
 | Splendid Grand Piano | Unclear provenance. |
 | Any Bösendorfer sample set | None has a licence that allows this. |
 | Freesound | A script gets only lossy previews: the original files need each user's own login. |
+
+**Not here yet:** DrumGizmo's MuldjordKit and DRSKit. Each is recorded through many microphones, so they
+wait for kits that keep their microphones apart.
 
 ## How HO[LO] Desk uses this
 
