@@ -1,0 +1,129 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "singing-bowls",
+ "name": "Singing Bowls (OLPC)",
+ "license": "CC-BY-3.0",
+ "credit": "Singing bowl samples by OpenPath Music for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/OpenPathMusic44V1).",
+ "bytes": 7938132,
+ "source": {
+  "kind": "mix",
+  "note": "The 44.1 kHz WAVs of the published zip, fetched one by one, each kept until it falls to -60 dB (30 s at most) and faded there, otherwise bit for bit.",
+  "bases": {
+   "open": "https://archive.org/download/OpenPathMusic44V1/OpenPathMusic44V1.zip/OpenPathMusic44V1/"
+  },
+  "downloads": {
+   "open:prayer bowl Bb.wav": "774712776c39084b3283402767a0c8e1f682f12f384d0ab0d9e2ff78f1e00110",
+   "open:prayer bowl Db.wav": "cfea4d5087c80c8e312bc7d889320e332f78eac1c09494590860ce40cc869a23",
+   "open:prayer bowl G.wav": "4d9c95ab2fbe6f7c615773befbb1ba5211f040f3c0d13aa608221d3f25ef77af"
+  },
+  "bits": 16,
+  "files": {
+   "bowls/prayer bowl Db.wav": {
+    "in": [
+     [
+      "open:prayer bowl Db.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 1323000,
+    "fadeIn": 0,
+    "fadeOut": 132300,
+    "mono": true
+   },
+   "bowls/prayer bowl G.wav": {
+    "in": [
+     [
+      "open:prayer bowl G.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 1323000,
+    "fadeIn": 0,
+    "fadeOut": 132300,
+    "mono": true
+   },
+   "bowls/prayer bowl Bb.wav": {
+    "in": [
+     [
+      "open:prayer bowl Bb.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 1323000,
+    "fadeIn": 0,
+    "fadeOut": 132300,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "bowls",
+   "title": "Singing Bowls",
+   "category": "Percussion",
+   "pitched": true,
+   "release": 2.5,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 24,
+   "notePolyphony": 3,
+   "offTime": 0.3,
+   "zones": [
+    {
+     "file": "bowls/prayer bowl Db.wav",
+     "root": 72.74,
+     "lo": 60,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0,
+     "start": 0,
+     "end": 1323000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bowls/prayer bowl G.wav",
+     "root": 79.11,
+     "lo": 76,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0,
+     "start": 0,
+     "end": 1323000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bowls/prayer bowl Bb.wav",
+     "root": 82.48,
+     "lo": 81,
+     "hi": 96,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0,
+     "start": 0,
+     "end": 1323000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  }
+ ]
+}

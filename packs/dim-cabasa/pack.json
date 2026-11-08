@@ -1,0 +1,7549 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "dim-cabasa",
+ "name": "Dim Cabasa",
+ "license": "CC-BY-4.0",
+ "credit": "Dim Cabasa by kinwie for the SFZ Instruments project (CC BY 4.0).",
+ "bytes": 21615420,
+ "source": {
+  "kind": "mix",
+  "note": "The library's FLACs at the pinned commit, written as WAVs as they are.",
+  "bases": {
+   "c": "https://raw.githubusercontent.com/sfzinstruments/kinwie.dim-cabasa/016457e51a3e6558ab49676789260b54ff52ff1b/"
+  },
+  "downloads": {
+   "c:Dim Cabasa Samples/bw_rr1_01.flac": "9ad49eb216c21c227be8aba72d356bbb6e785a44695b90df0df9fc8e10ae389b",
+   "c:Dim Cabasa Samples/bw_rr1_02.flac": "2d8610c05fe5d10c702258dee950ecb44851705c923f163e2dadb82ab42675a9",
+   "c:Dim Cabasa Samples/bw_rr1_03.flac": "3484eb91dc8959df0dcf3437450e771ad8faec1f8e0e3b52c2c7a4042882192b",
+   "c:Dim Cabasa Samples/bw_rr1_04.flac": "ac1b00ee179611b3aa03353764e076b0b800db01bbd29d00bc33c248df5949e8",
+   "c:Dim Cabasa Samples/bw_rr1_05.flac": "a9691b30c2caa913f8bbb524c46fc99191ac7504f09940b5c132cce652a235ae",
+   "c:Dim Cabasa Samples/bw_rr1_06.flac": "7f6b24ebf60c90b42825c76df00751e2c463c6db632831b82b82ef314ecb4ac1",
+   "c:Dim Cabasa Samples/bw_rr1_07.flac": "0672005f18310cc3ab67dcb95c97d794e83fbd56a9d5d4729b7d7070f0480d7f",
+   "c:Dim Cabasa Samples/bw_rr1_08.flac": "82d2827ad373a51126cb50221e4b60ebaff481d38a3d0092d12726255c26875d",
+   "c:Dim Cabasa Samples/bw_rr1_09.flac": "882103134f778c972bf9a1feaa1cdf728b4aa662d8f1d41c6220d01cce540253",
+   "c:Dim Cabasa Samples/bw_rr1_10.flac": "d3fa2001a5182d3dd158d827685847cd1f850994494d90e7d65c54910ce56d1f",
+   "c:Dim Cabasa Samples/bw_rr1_11.flac": "9648b5961d70f190eef9c3f3e8a1a667ff69635b0dac4bf5204c591f1443fa59",
+   "c:Dim Cabasa Samples/bw_rr1_12.flac": "fd69ee2a810d58a04027a57cc50d9713697c8fe6f9de42a255b094d584bed455",
+   "c:Dim Cabasa Samples/bw_rr1_13.flac": "b311b9d005ce9a1f4a25f563452b0cfa57e0f0321269eadcf4bca9617a6d97bf",
+   "c:Dim Cabasa Samples/bw_rr1_14.flac": "ef5c7144101812aefa0c0668168c9c3fd4060c486069129e8c81107efcc321ac",
+   "c:Dim Cabasa Samples/bw_rr1_15.flac": "62c1914e1d56dac445a7fd3858d9bbf6070d0428842429e94a90a4a030160293",
+   "c:Dim Cabasa Samples/bw_rr1_16.flac": "6526d6ea065e7b8199a384d7e4df91c690dc20a53d1d467a2f49737e1cf73442",
+   "c:Dim Cabasa Samples/bw_rr1_17.flac": "92786a6bddec217fc61bece0937a077fd07d06ed8d19ca5a247a78327fe92b53",
+   "c:Dim Cabasa Samples/bw_rr1_18.flac": "059090032cb5751846e9e37f0dd80d801fbd23b384483634eeded746a0c3700f",
+   "c:Dim Cabasa Samples/bw_rr1_19.flac": "6ee2ee3192edf393fdaa170372c54920d8599037a3c80c17af6dd88450ac7c17",
+   "c:Dim Cabasa Samples/bw_rr1_20.flac": "0bdc4b8ebf5fe872eeb42e44eab5383a1378be6ad886a2fe563db731de670228",
+   "c:Dim Cabasa Samples/bw_rr1_21.flac": "19fd7f008b9bb03056289d0cf080055c14c31b8bedf4bd1f959b4c3be078e5fa",
+   "c:Dim Cabasa Samples/bw_rr1_22.flac": "ce5581ed2123aa16deaaa16fa51ac4381b95f0ddbd99b375d4535d7894ee2ddb",
+   "c:Dim Cabasa Samples/bw_rr1_23.flac": "7d2e9b002d44df8e9bda0466bc1682f905ca2375c85709acec2348f1c73a3644",
+   "c:Dim Cabasa Samples/bw_rr1_24.flac": "45c92c975c2c3ae9795b66fca7ce2bdbefe79ee9fae387461c681c40a4197f7b",
+   "c:Dim Cabasa Samples/bw_rr1_25.flac": "48fd5d3af08ccacd8a3712ad2458d3aa84a31fbdc22efea26ebf071193916bb4",
+   "c:Dim Cabasa Samples/bw_rr2_01.flac": "e4c820efbccdb1fdd764a70730cace0cdb3aa5d74e1e3414ad1d2cab67f2749d",
+   "c:Dim Cabasa Samples/bw_rr2_02.flac": "4fb49e67d23089f03de5df3a09f3184dd27a64c457c3e7c2835cd13addcaf81a",
+   "c:Dim Cabasa Samples/bw_rr2_03.flac": "d49b5c056330ecc7ca1487ac53dc89a105e4e543de2cbfcd79385cd6530c157a",
+   "c:Dim Cabasa Samples/bw_rr2_04.flac": "5fd7dc97f5de549cabd06805bc0b16a9dd4fd58460846bf099165686a5eee66c",
+   "c:Dim Cabasa Samples/bw_rr2_05.flac": "9cf0d4fa7b33503e781dab020630b79020285bdc5e2595c819de9f7fdeed0dff",
+   "c:Dim Cabasa Samples/bw_rr2_06.flac": "c6563dad2a7b8fe402e633ba87cdfdba9ee2d9206763eca74b70110705426b19",
+   "c:Dim Cabasa Samples/bw_rr2_07.flac": "240d1a31ea52cef37686c1d93326caf49e4aab3da7db7038c192f20128b89d5a",
+   "c:Dim Cabasa Samples/bw_rr2_08.flac": "af3b3752dde934ef844463fba9a1e73e1a3151ac8c6956d885a8982e9c2349db",
+   "c:Dim Cabasa Samples/bw_rr2_09.flac": "908c8614a582005c3ab9b0aa02409ed01a88870d039432a37548edcab5a1197a",
+   "c:Dim Cabasa Samples/bw_rr2_10.flac": "fbdbb712a036aa9c00ac7afbd68e3bf65554a59a91eb9f322a89b0d78b2a486a",
+   "c:Dim Cabasa Samples/bw_rr2_11.flac": "34bff604400c26d088a685f6e0a034c68821c748ee1cbb434363c998b08fff55",
+   "c:Dim Cabasa Samples/bw_rr2_12.flac": "e6dc1fe08593bb118c8bf96797e56b161a56d17023b6fc06aa39d78a5318d3af",
+   "c:Dim Cabasa Samples/bw_rr2_13.flac": "729bc8a099acd73cc1c6fb01413b3fc9a607cb4fb2231a2342931c85b7e413fe",
+   "c:Dim Cabasa Samples/bw_rr2_14.flac": "9f276698fb02cf28b1833f46e17d3f055cac68e819610466ca591a045c6deb1a",
+   "c:Dim Cabasa Samples/bw_rr2_15.flac": "e471e14bb0223fcc0c2b1065d61a32d0a88e86ceabcd890df5dd89b8eb809a01",
+   "c:Dim Cabasa Samples/bw_rr2_16.flac": "01c6ac089a0a4690d67fa85c57740a15227a3c423bc798905817c2843f1e0174",
+   "c:Dim Cabasa Samples/bw_rr2_17.flac": "e07a75dc8206e9312c3eefd2d11dcf35f4b32d24492d07e7f824e2237eae6efc",
+   "c:Dim Cabasa Samples/bw_rr2_18.flac": "037807076ad76a4b3c25a58a1ead30756ac2da770a075078fea77b9e6f45b2af",
+   "c:Dim Cabasa Samples/bw_rr2_19.flac": "ead2da7070e9053fcdc737f6a6a3a98f9ba85d34307f6c09d5e089ef30eddc29",
+   "c:Dim Cabasa Samples/bw_rr2_20.flac": "19cc97d0f77dbbcc758ddfe5a19ab0ec501346394fc7c18988d55c6949939a71",
+   "c:Dim Cabasa Samples/bw_rr2_21.flac": "2a2d5067ffafbe347bdf77293ba479208159acca8a0ef1c771d5e9b6738a076d",
+   "c:Dim Cabasa Samples/bw_rr2_22.flac": "b2512515e74d13c1c7e93f8ca434ac1f599550fb5619025c999a8eba2952423c",
+   "c:Dim Cabasa Samples/bw_rr2_23.flac": "9a77d4a458e76fc6a18cdedbaea5234e151191de4fa21cfd5f292a49badb4d7c",
+   "c:Dim Cabasa Samples/bw_rr2_24.flac": "57f7c447f9c32d72b25612a4415bd01448121486f1bc0e66de469ff6edf180a1",
+   "c:Dim Cabasa Samples/bw_rr2_25.flac": "f8c33715198e5d13c25819e3c803245462504ea397de7291401d0f7e35a5881c",
+   "c:Dim Cabasa Samples/bw_rr3_01.flac": "2ace1885a8c2be4ffdcd2b810aac215f3ed46e5df0586acc63d07b987c3fb262",
+   "c:Dim Cabasa Samples/bw_rr3_02.flac": "9cd862c9f0bf9920f3b1be4f2d4454855b7da8563ee2832684ae644578685e95",
+   "c:Dim Cabasa Samples/bw_rr3_03.flac": "c053ba2eaf89edee65e4bb2cf6e80696e2db571f1acb38b25cfe3638c524f2d9",
+   "c:Dim Cabasa Samples/bw_rr3_04.flac": "33048f9775fa8db54e840fd67aa6bb0bc496245f22c810e973c2b0f0a655f0f3",
+   "c:Dim Cabasa Samples/bw_rr3_05.flac": "1667094a9277079f62564d5cbdd84ed73da568297ec36dcc7eb93a3939e70c7d",
+   "c:Dim Cabasa Samples/bw_rr3_06.flac": "b11c183088345b3d86e04fc390f1119387438251a01fb2f6ea5dab8d764651fe",
+   "c:Dim Cabasa Samples/bw_rr3_07.flac": "76ff84d31f2ec1fee9908d3f568a97d7fc85fbd0f1af1dc895e49c91efbd2868",
+   "c:Dim Cabasa Samples/bw_rr3_08.flac": "dca1bae2e12e067440fa9d6abb4c511ee987517abec2a86edfc39f0f313e7605",
+   "c:Dim Cabasa Samples/bw_rr3_09.flac": "b0ffe06e5f269d715b09ef60fc8b68761fc081dc1c957eee56d3b1f6eeea5632",
+   "c:Dim Cabasa Samples/bw_rr3_10.flac": "4578e5494dcd876d00a5d665e0e4f7e7259ab8a3dbf36c351844bde4bd3493cf",
+   "c:Dim Cabasa Samples/bw_rr3_11.flac": "21c8f1e473a7ab3f022b2f577590d874ff83a538694dc2a5b70dfdf98fd4e255",
+   "c:Dim Cabasa Samples/bw_rr3_12.flac": "270c837c39f60fc841e289c71487c410220ecfd9166a794af12e4e8caddbff73",
+   "c:Dim Cabasa Samples/bw_rr3_13.flac": "f4dbd4879671462925fa8495b42fccc4bcd479929a5504a7a2e3071b6b20d9cc",
+   "c:Dim Cabasa Samples/bw_rr3_14.flac": "af3f8ee89cb88ab0461ed2e9d85df798983c2793a3d3a90c372c60d1121f4396",
+   "c:Dim Cabasa Samples/bw_rr3_15.flac": "b3210fe993db37fd0858327dbe9334f8baf5d7ceab99135230a12dbb7448e63f",
+   "c:Dim Cabasa Samples/bw_rr3_16.flac": "08cb15116beed1de0a7d8cd947f963b980a193ca6594a21d34d1d9afb373cf45",
+   "c:Dim Cabasa Samples/bw_rr3_17.flac": "ff024f037ffaa547f45827489ab3be077bd6540c9181af3f9955d807998bfd65",
+   "c:Dim Cabasa Samples/bw_rr3_18.flac": "0d07e36c988a072683dc2ea6923a898903ad9afbc8296b56efdc0f09b47717c1",
+   "c:Dim Cabasa Samples/bw_rr3_19.flac": "5fa660cfd0b236addf81fd7006f133ab100e56d9f1f1875dd76ddf93ec59a194",
+   "c:Dim Cabasa Samples/bw_rr3_20.flac": "cbc0059251688fabe37bbbe707768b8c772c5a140cd71a7e65886c2771248ddc",
+   "c:Dim Cabasa Samples/bw_rr3_21.flac": "6602c8d9697548a8683435231873d61899a15da0d9d8512f86aafe61ccc26845",
+   "c:Dim Cabasa Samples/bw_rr3_22.flac": "1368b23624f19927e9715acf69f26266c30a208f28a9210a668533b5b48a7d29",
+   "c:Dim Cabasa Samples/bw_rr3_23.flac": "78df06fb3b502345b1da359cb2c0d3380f412b4d34a8310c6454a5a3a2801385",
+   "c:Dim Cabasa Samples/bw_rr3_24.flac": "8e89f058395c1a083c73f6dd741dad0026b9bbd423afbf15c080e713e6eee08c",
+   "c:Dim Cabasa Samples/bw_rr3_25.flac": "473ce77746983b2eef73be1a90bd04c8c0970bd71b83af5c35a3a05b7061e448",
+   "c:Dim Cabasa Samples/bw_rr4_01.flac": "81128d26b934c653cc6ae163378f5957fc9c55de158aa3707fc140738569711a",
+   "c:Dim Cabasa Samples/bw_rr4_02.flac": "945295f4ef2c284add138bc0be24f5e83a348bf1422391edb55fc4e2ffa5fbc5",
+   "c:Dim Cabasa Samples/bw_rr4_03.flac": "302bb03167905c3013fb0a9c5138cc5d62f4d636a65834b8185a44beb1299ee8",
+   "c:Dim Cabasa Samples/bw_rr4_04.flac": "7f137e3eb6c6a6fce6cdb4b6a8986a8446458b9d428e9d1181d82c63e5cc4d32",
+   "c:Dim Cabasa Samples/bw_rr4_05.flac": "86bb79caa4f537f3710e867afde66aad9ecfb80ca580e4a7828e40342a0c6745",
+   "c:Dim Cabasa Samples/bw_rr4_06.flac": "14c12d11f1872f4210b1fd0d09829a5a9a1d831caf66673c7b95621db96b6548",
+   "c:Dim Cabasa Samples/bw_rr4_07.flac": "5432c1e67b36db37c7f0ae1407396b96bdf71a153a1be0f5cf35bca16be0ddae",
+   "c:Dim Cabasa Samples/bw_rr4_08.flac": "3192645151d0b56610d7f2a0f8dcfe2a16659d89d909357739c59d8192fa866b",
+   "c:Dim Cabasa Samples/bw_rr4_09.flac": "db66aa5540a2b865b29fcd2efcb6f7b6ef398d51d447f842607b4dae21d80262",
+   "c:Dim Cabasa Samples/bw_rr4_10.flac": "58d11d9ae399746014c966255f91cec250b86efc3477e0b2644d8aef9252aa9e",
+   "c:Dim Cabasa Samples/bw_rr4_11.flac": "38fa6c59ff071ae2be606d9c388a7736accb75fb5bc0cdc500ac8f0de5de621a",
+   "c:Dim Cabasa Samples/bw_rr4_12.flac": "52c2df2a2de9f1e2e3e8021de8f393921ceb42ca154e907b019c0fe1fa891744",
+   "c:Dim Cabasa Samples/bw_rr4_13.flac": "3a2f1445f755da025de104cbf58fa5b7401d2f2cf3bfba3f7ef986e552466601",
+   "c:Dim Cabasa Samples/bw_rr4_14.flac": "f90a48ca0748908602e9913810044d6fb6a4b631ef4a7bf9a4d53cb8bbd8fe29",
+   "c:Dim Cabasa Samples/bw_rr4_15.flac": "ba635f0775bfe576db00ae5c06bde8820e90bc470bc9a1754c53c37f809229e9",
+   "c:Dim Cabasa Samples/bw_rr4_16.flac": "446033131b26d79afe85d1ef2a4ffcd94f522a10bc0a28d3e2326216c96deafe",
+   "c:Dim Cabasa Samples/bw_rr4_17.flac": "d53efa264460497701f92a8467a17e31da13b66c47a4d39360d09262c28428cd",
+   "c:Dim Cabasa Samples/bw_rr4_18.flac": "7bdbc9111edb2213337ed76c7c2cfc53e38b207049a4a31e62ed872e232da62b",
+   "c:Dim Cabasa Samples/bw_rr4_19.flac": "92e8439a772729240a941d67246243b0fef65ae7792bae24c526ab5343fbea68",
+   "c:Dim Cabasa Samples/bw_rr4_20.flac": "ec355a01d6eec050d18b55998c7bee7d4cd7189b97124a21550e77b359b7a871",
+   "c:Dim Cabasa Samples/bw_rr4_21.flac": "05454dc8c6e98f69e046676557714373b16787a981e4a547f1fbcd791dec6767",
+   "c:Dim Cabasa Samples/bw_rr4_22.flac": "c39f4064a6ee2961d6aeb727d532e212518a7c842826eeb2b4773e029a1fb8fc",
+   "c:Dim Cabasa Samples/bw_rr4_23.flac": "0d5e4c3fb2b5786639cec12021a83e10de90ed0750e2ed3ee912fbd0cb492f38",
+   "c:Dim Cabasa Samples/bw_rr4_24.flac": "0ea33ab6c9680e2093e89dd9bbe83250a047fadc5352d64a326e349680cce361",
+   "c:Dim Cabasa Samples/bw_rr4_25.flac": "31caf04c30c823b52f1e7fddacb1b6e74d47d82a9fd8156935b1a70d3d4e6ae5",
+   "c:Dim Cabasa Samples/bw_rr5_01.flac": "ad253e3f6b6e9b4fa9ca7c596453e27c07809cdb49d162dc5d6dfb27f91cde44",
+   "c:Dim Cabasa Samples/bw_rr5_02.flac": "ba8aab57497b5937b2cfad9055b0c580e4e165b8ca10eb7b02ffd24ad74b60d2",
+   "c:Dim Cabasa Samples/bw_rr5_03.flac": "b617f39709500be97c04aaf8f2ce920d2454e65db720fce6de7a53051a916256",
+   "c:Dim Cabasa Samples/bw_rr5_04.flac": "c1773bf26d70ff9f47c0ad2af4deca0dfebfbeb5ea482b5a220469cbdc24736c",
+   "c:Dim Cabasa Samples/bw_rr5_05.flac": "0173fdc1f63a1f959c709124febc56e2f895bf8a58e262b9cae851790809432a",
+   "c:Dim Cabasa Samples/bw_rr5_06.flac": "2abc2441d1b3f52cd37eeb1e40bedc8446f61ec589759b8d88158ebeb0ae2081",
+   "c:Dim Cabasa Samples/bw_rr5_07.flac": "3c49f7d6fc30e03db02dcf104be7a1980ab4702ee338bc74c1ae1d2ef07d19bb",
+   "c:Dim Cabasa Samples/bw_rr5_08.flac": "ea78afd72ecab014f15d56a8085301959fd8980bfa2832641409638bc0e13bb0",
+   "c:Dim Cabasa Samples/bw_rr5_09.flac": "c31e8ea7bcc90145d416cbf9fc06cd5900727bb2bbb422591dfee097a6f9ee09",
+   "c:Dim Cabasa Samples/bw_rr5_10.flac": "549fe88b4c7670872260ab8c86e793037062af009cb97ec4cd846ac9130a0cfd",
+   "c:Dim Cabasa Samples/bw_rr5_11.flac": "06944d13c2387d73929f54085da2b988ec61ec143d1f9cfeb4b43846a5d2cafd",
+   "c:Dim Cabasa Samples/bw_rr5_12.flac": "fb7e8fa37204736ae7cafc18cd8426029bfc5f02ce7c184c83847e6d3e7135c8",
+   "c:Dim Cabasa Samples/bw_rr5_13.flac": "0f809a2792b45016870f194b5527a7aaf0febc79d8d9380cdc96a79ee54374b2",
+   "c:Dim Cabasa Samples/bw_rr5_14.flac": "2ed3dbafb7fb735e3d769fc17d5c5745735ee01d68c9bcc81ee5ea3025a6e851",
+   "c:Dim Cabasa Samples/bw_rr5_15.flac": "a0a4f83bd297557d237683a2e04b0d03afd2390d612693d6b07391c0918bda92",
+   "c:Dim Cabasa Samples/bw_rr5_16.flac": "3ade9a053b0e0a6b8f0fe0ac163a82946cfd798af91dd8b21e2c8f65b93867bf",
+   "c:Dim Cabasa Samples/bw_rr5_17.flac": "141fb8620e646de4b17f21cbe26751a001a23cc626553a88531573c75745190b",
+   "c:Dim Cabasa Samples/bw_rr5_18.flac": "1dd6cc9bd6ca29f6dfdf76a1cf6c28c77fcdbc9a1ce9883c65c951c4bd2e9c28",
+   "c:Dim Cabasa Samples/bw_rr5_19.flac": "ff714a5859369e5e513fe41320da4fbcc9d077a4c8c7e4deefe5baf2d73747ce",
+   "c:Dim Cabasa Samples/bw_rr5_20.flac": "a6db95d521433197d7ac6e1d03385ba954620a9671d3dab3c37cf2714a506c98",
+   "c:Dim Cabasa Samples/bw_rr5_21.flac": "efda9566bde53d5e7014817278340652310e242904b09ba2c4a34d39d4f49f2a",
+   "c:Dim Cabasa Samples/bw_rr5_22.flac": "eb4f62080a2d3351e5928a83cfe79219e52874feb08e22c081287652d25bb06c",
+   "c:Dim Cabasa Samples/bw_rr5_23.flac": "647a3ed9e4e03ab863b1b1281d93b3db539f16d0830016ff57cc8653330b42a0",
+   "c:Dim Cabasa Samples/bw_rr5_24.flac": "e56177116451e564863aafcde5fa3a53b334f68d245b18b440d8c60a277818ee",
+   "c:Dim Cabasa Samples/bw_rr5_25.flac": "f0ef57459b14fbd5b3001cb5c8e7c397914c96df962b47ea0242f1b4ec6d226b",
+   "c:Dim Cabasa Samples/fw_rr1_01.flac": "105c61d2078670534be57515ad9743524494b0c83f90cf456ccf573b829fc145",
+   "c:Dim Cabasa Samples/fw_rr1_02.flac": "b7b470dba041b85e8eb6028e66fb5eb9d4bf27ca88727987f60f6f61b463da25",
+   "c:Dim Cabasa Samples/fw_rr1_03.flac": "cf07350c40b3de8ef74c5f444cc0e3005496aa7a75bb87ac3ae456a7a5154ab5",
+   "c:Dim Cabasa Samples/fw_rr1_04.flac": "c63f1983072a51a9e7e950f54669f8911a94aa6e1f8d2e77c85a2f1a41949325",
+   "c:Dim Cabasa Samples/fw_rr1_05.flac": "cec320d7aeab80753ce763d30a2ac884b5ddbfe9143a95b6b429c266a80ec689",
+   "c:Dim Cabasa Samples/fw_rr1_06.flac": "c356e4d0dd46f9e7cfce596434c0b72cc1728d4eac95d25555eef7f157ceee14",
+   "c:Dim Cabasa Samples/fw_rr1_07.flac": "803eb67b28f25584600956e85468309fb864013b4898527c29e18c20b4c70163",
+   "c:Dim Cabasa Samples/fw_rr1_08.flac": "dd735d4286a02fe461f44357e9fe79729380d4cbaf4c33b9d40dd18bf757ad90",
+   "c:Dim Cabasa Samples/fw_rr1_09.flac": "bb5d770b0bec4a6bd07ad9873ff4f58d6e6e892d7865f4642456ba5ad1852510",
+   "c:Dim Cabasa Samples/fw_rr1_10.flac": "4aeae8e6f46e11cb055af44cf88e8f838820c87d42f818df045a6249c920bb57",
+   "c:Dim Cabasa Samples/fw_rr1_11.flac": "cb96e90a41c5bea9e5a83fb4153083fd0af0eb5d57c08156d9c97f0d26713c68",
+   "c:Dim Cabasa Samples/fw_rr1_12.flac": "1af572cce6bfdeaacd400674fbc9cf2e667f35340913728d08181bfe2648468f",
+   "c:Dim Cabasa Samples/fw_rr1_13.flac": "7dfb7a11a9a632ae1c8a325c4027b6c44e3f46cd2628aa5a2f2d572e48357d01",
+   "c:Dim Cabasa Samples/fw_rr1_14.flac": "020a8b19d0950c6dafa71044be4789e4a67f30cb573437c5c50825206ecc9612",
+   "c:Dim Cabasa Samples/fw_rr1_15.flac": "97f67f662575499bd835bd76907a483fd7b77fd5ab4a371b7b209141fa2fb993",
+   "c:Dim Cabasa Samples/fw_rr1_16.flac": "2ea627e7b9f5948cc2ac56cdcf7fcefe78e5c9bc4c5b8064c247a3dfc1ffca5d",
+   "c:Dim Cabasa Samples/fw_rr1_17.flac": "9c1e96a33995e88eee8b020820f7f242a39ee42ab31b72996fc95819396939d0",
+   "c:Dim Cabasa Samples/fw_rr1_18.flac": "7e835e0ff7b52647c5a2cda1240d3839e1418da94eeaf2218a08fa050edb25e9",
+   "c:Dim Cabasa Samples/fw_rr1_19.flac": "efc1a4b5392efe1668b89bdf1da6133cd479871620995808d597cc978473114e",
+   "c:Dim Cabasa Samples/fw_rr1_20.flac": "69410db12297947c74dd868ca8ce89afa3ed119d7882a8b2c372466eaf67e284",
+   "c:Dim Cabasa Samples/fw_rr1_21.flac": "958b1388a281da519bd0798f53ce9ce6bc937780c198f88d013bb46bf2566cc0",
+   "c:Dim Cabasa Samples/fw_rr1_22.flac": "ee81b30314823e0e05f8e834fd5210049b4a181af83b65a7628a15cfcdc3cef0",
+   "c:Dim Cabasa Samples/fw_rr1_23.flac": "f3c27a0a20667d41728803c508415949f1d2e13cf66ab1d6273e4924b1e32823",
+   "c:Dim Cabasa Samples/fw_rr1_24.flac": "cec8ab0050fe11694e54541c90ddd9cefbad73c1f6bb70fc7a45e228233b5a17",
+   "c:Dim Cabasa Samples/fw_rr1_25.flac": "c4c7b366321ed5a49556cf058a4a9c8523df07f0a386aa34715d355a91128c9a",
+   "c:Dim Cabasa Samples/fw_rr2_01.flac": "c5cb1d56ca99e859c72ea17ff6ccfb6d936fecfe16631ea72d0bc2806c035e4b",
+   "c:Dim Cabasa Samples/fw_rr2_02.flac": "c52bc87a781ad88996dc3bacc159b967308651eed2e979400c9aa9688b056314",
+   "c:Dim Cabasa Samples/fw_rr2_03.flac": "26709b02defa97e2c3a3545328d7f64573b8854412ff219f12421b7f67024d15",
+   "c:Dim Cabasa Samples/fw_rr2_04.flac": "521119c42f7f985092f2539b91f32e04f16fc7bbfc39ab028396a3e1e55c9da6",
+   "c:Dim Cabasa Samples/fw_rr2_05.flac": "e762050d709139300a1b2e0e7dadae550e12f6fb8faf0f9410fcf2b01fd5f295",
+   "c:Dim Cabasa Samples/fw_rr2_06.flac": "248655b84417f009aa4eb5f943475f5fb8f2e826789473e386984e30e4afff49",
+   "c:Dim Cabasa Samples/fw_rr2_07.flac": "87d19ebb4e62298a74fd3aa6d8a2e03fc18c6c9dd89f058531f31bec8f3e5e7b",
+   "c:Dim Cabasa Samples/fw_rr2_08.flac": "a79bc6667d889a07628f02243f15e2a32966dedef9d137460f66050ed489c30f",
+   "c:Dim Cabasa Samples/fw_rr2_09.flac": "9ad2282f3a0e874123b377f940e9013966801e02ff5a862b71ca021108977627",
+   "c:Dim Cabasa Samples/fw_rr2_10.flac": "def52e6b2f442cdc62de43e8e7a84d7d6653e608467429c524179ccbe7714808",
+   "c:Dim Cabasa Samples/fw_rr2_11.flac": "2ab6438b7a4fb6b22c4029de8b83732aa0e49ec4a0b550fae525e99c8cc3563e",
+   "c:Dim Cabasa Samples/fw_rr2_12.flac": "ce9f522f1f4369ffb76fb7f3ec16741c195c88a61e4798ffcb300a99b35e7c77",
+   "c:Dim Cabasa Samples/fw_rr2_13.flac": "6a1ceadd48850a6f1a98d6f99fb2d0a537603c74ee06893b841498bf8b6b2393",
+   "c:Dim Cabasa Samples/fw_rr2_14.flac": "51265c7454f782ed8fc6e4f957bb30c58698a760a979d94b97759f15076dd7a4",
+   "c:Dim Cabasa Samples/fw_rr2_15.flac": "f2e16ac39ac733afcb68ae75c0efa71607cb84d661c82c875739e19b958edb29",
+   "c:Dim Cabasa Samples/fw_rr2_16.flac": "ae547ed6365fb724fdffd17548e01596983e8e56a702a5ec6b3f18b6bf8d35e9",
+   "c:Dim Cabasa Samples/fw_rr2_17.flac": "9621f800f688f0dbc9715f0aa6ae920f4b8bfebcc59abab175a7218e357d1716",
+   "c:Dim Cabasa Samples/fw_rr2_18.flac": "1c4e3b8f88d74dc517d4691e8874908ad415f13dc1f6149e7564509c390f6741",
+   "c:Dim Cabasa Samples/fw_rr2_19.flac": "38dd06cdb9973a51d6901f60c34dd89089fd454bdd16ad28e8575abc03c374c1",
+   "c:Dim Cabasa Samples/fw_rr2_20.flac": "94e97bcd664742026e5c4b2904a8d88792fa296f11482f8820d4108185923706",
+   "c:Dim Cabasa Samples/fw_rr2_21.flac": "97c46e79a8bdc889afb56eb798cefd9db8782b6db9e11c9a6fa5fabe59d58883",
+   "c:Dim Cabasa Samples/fw_rr2_22.flac": "1ceb7d56acb5e8978c525afe454d27a86e8c56e617a9e10b6d3069e6bd871217",
+   "c:Dim Cabasa Samples/fw_rr2_23.flac": "24b6758b9437189bec1d6c1f8a7e78882b61427f78ad65232f82e39cabbbcc6b",
+   "c:Dim Cabasa Samples/fw_rr2_24.flac": "a8e7e37f6fd98826d5a6dc4169dd68e94292ee4c9c0526be057d0dd6d2ca0ada",
+   "c:Dim Cabasa Samples/fw_rr2_25.flac": "5461775230c14625125caa4a2762854f32f55c4be02541943c513ba66fb70aa6",
+   "c:Dim Cabasa Samples/fw_rr3_01.flac": "c8b8b33208e35aedb8745dc29a38690ed23b29aa9618621595d06ce4f9a11e08",
+   "c:Dim Cabasa Samples/fw_rr3_02.flac": "e7fba5bb81a0027a9fea6a30cda579403057955f8feaf868af158b617fabf310",
+   "c:Dim Cabasa Samples/fw_rr3_03.flac": "89ca60520682384a062e98a9cd445323b71ac401c14b40bf2c52b00d261dbe20",
+   "c:Dim Cabasa Samples/fw_rr3_04.flac": "31a1761ecd36db5cb666a4b8a968f6c7c9ecc98345755ab380b69416a860a1e1",
+   "c:Dim Cabasa Samples/fw_rr3_05.flac": "4b5a47f3b937876bb6808d826b34014df81e9a9d7194ccf7f0aeb06af44b5eaf",
+   "c:Dim Cabasa Samples/fw_rr3_06.flac": "89dc5d7ad8554eea609de7500f2783e7769d15a236e4575847d757270fa2c6fa",
+   "c:Dim Cabasa Samples/fw_rr3_07.flac": "5ade4c2cb0c8586a16a3bf9d19c23c482e5efb848c708cccb186b91ffed4aaeb",
+   "c:Dim Cabasa Samples/fw_rr3_08.flac": "f8262389d3abb19f3d26738d91c0ec6323648c30a532e3ccbf20edd5091e6b08",
+   "c:Dim Cabasa Samples/fw_rr3_09.flac": "3f87fcb9226e9d289d4fc4a6b5bc8a482347b239d652d9c3c26b63d79a4db97a",
+   "c:Dim Cabasa Samples/fw_rr3_10.flac": "464d943279433a321694919ecd0ba01ddef60ec6418e6b4ac1eeaa9a12061ccf",
+   "c:Dim Cabasa Samples/fw_rr3_11.flac": "0798d9da56feaaa7573e30198334146163e389f0d0653f1ae0096193df93b06a",
+   "c:Dim Cabasa Samples/fw_rr3_12.flac": "96890e913e7b68bf40e279a79efd8cc825fe9229740d0dc11227b47de2c277c2",
+   "c:Dim Cabasa Samples/fw_rr3_13.flac": "bcbb18f489429c476d31b4d00cd9b608a5d6d92d0b905017ebea0b1323d7d7a2",
+   "c:Dim Cabasa Samples/fw_rr3_14.flac": "814c6e8bd261da2944ceda0087492faf7080c77112a7b23d7f402a8f53b02ad9",
+   "c:Dim Cabasa Samples/fw_rr3_15.flac": "a810bf5485234506e1891f2014984468ffa52bf2eb865ce72a4b643217bf965e",
+   "c:Dim Cabasa Samples/fw_rr3_16.flac": "ff585d2bd0aff97d06398a0df958fa2fc3a9ea5b93afc606accef4b8e27830a1",
+   "c:Dim Cabasa Samples/fw_rr3_17.flac": "17531d1c2f65796f1819308e1ba09d3caa7412cefe300ea2a2aa6621689dd919",
+   "c:Dim Cabasa Samples/fw_rr3_18.flac": "ce79a897a316e04ee3755e1efc57d0248ac55b32e82f632196277f550f4eb572",
+   "c:Dim Cabasa Samples/fw_rr3_19.flac": "5d4f7b4a2f7cc80be2bea35ac33fcbd0327f51d623f5d1c448dade6ac10e91f1",
+   "c:Dim Cabasa Samples/fw_rr3_20.flac": "fd6b4128baa6fdd28d34ffed3069a99d1ffb33ed1d982e963d0e81f39cac2ec8",
+   "c:Dim Cabasa Samples/fw_rr3_21.flac": "f914c6e4d1eeb2e7a9a1656135b41e44c906c234329068f52354efe36011407d",
+   "c:Dim Cabasa Samples/fw_rr3_22.flac": "d0bb107bf41b709bcb6a4680a2bb7468e438ecbe96475e441468ab939d6a80b9",
+   "c:Dim Cabasa Samples/fw_rr3_23.flac": "899f1873f83b6952e7f5f9a68e0e0691f5b4f1db443762cc5d442ead5b2a5743",
+   "c:Dim Cabasa Samples/fw_rr3_24.flac": "0ee8f9715215e7804f3d948cb47f9b9181b637ba2e4569fa3544b66c53a8fa43",
+   "c:Dim Cabasa Samples/fw_rr3_25.flac": "d8fe9bdb8c2552685a1a159b558266a987c4391715607e41c36a0f47774e82e9",
+   "c:Dim Cabasa Samples/fw_rr4_01.flac": "dcf76a2b6b832dec1dfae0edba25bdc2072cc441197fec560276a2a669f17522",
+   "c:Dim Cabasa Samples/fw_rr4_02.flac": "8604f99065ed34fa919d0bad4878f17022d10c7dbfc990701f34b35861241218",
+   "c:Dim Cabasa Samples/fw_rr4_03.flac": "1d45a0b7a5f9b9482c738a9a6169938f58fa8681133d3f47cc33ac58b6c6be70",
+   "c:Dim Cabasa Samples/fw_rr4_04.flac": "612604bebb796f203cd1c6cb8976d3014d5145c54caeb5d250f90c6d79ad41e0",
+   "c:Dim Cabasa Samples/fw_rr4_05.flac": "ba5594cb30a3515ca92512d29af17e7796d13e22db5588ada4ee067b1174233b",
+   "c:Dim Cabasa Samples/fw_rr4_06.flac": "cdd42fc4d0c8025e2b14020f78b5cddec2740599bb032c68d7d840b13ef4a605",
+   "c:Dim Cabasa Samples/fw_rr4_07.flac": "ccd91bba2a60bb717bfaa379e6e9bad6da51712284930a056add15b43bb01550",
+   "c:Dim Cabasa Samples/fw_rr4_08.flac": "81a37a38ce60544b12f1b31edb5defc26ceff4a961d6a40bb73ca2d242b765a3",
+   "c:Dim Cabasa Samples/fw_rr4_09.flac": "061984ee95ea59b8b68f337ab35ae249af68c67f28a4f1e9c1716e703b331a9a",
+   "c:Dim Cabasa Samples/fw_rr4_10.flac": "3b9eaf661ad24a7fd4be9441eb972f743d3ae5edb63c59aedb998d7871e5af8c",
+   "c:Dim Cabasa Samples/fw_rr4_11.flac": "1d0edfff0db4f006aa5a66e5efb8818d89bb9ac840b0d2e8f091c95d59233710",
+   "c:Dim Cabasa Samples/fw_rr4_12.flac": "3c934e068dd0a3f69cdd06693927ee0957f9a7fb99b5d33e247efe13a91f25da",
+   "c:Dim Cabasa Samples/fw_rr4_13.flac": "aaa4990966035bbc15c38eca9b51b93986880f75e06cc6df928425f1cbf06068",
+   "c:Dim Cabasa Samples/fw_rr4_14.flac": "f91c4220f1d8e5ad1b8342a252f288e5674ad2739755213d8df59f3c0e46e93e",
+   "c:Dim Cabasa Samples/fw_rr4_15.flac": "39a15cd3592f4ff6004d705feb1593e0657335981fdd72bc0b18de4012873173",
+   "c:Dim Cabasa Samples/fw_rr4_16.flac": "56e93a66263edb6cc84237e7d5858c69e8dcac9aa25821966c422f52b99fa140",
+   "c:Dim Cabasa Samples/fw_rr4_17.flac": "0beffb2830b1935618415006010093feeabb9a711f6a9a67d3097bdd85c3c738",
+   "c:Dim Cabasa Samples/fw_rr4_18.flac": "db82aa647241df1eceefc5eae54751b398a3ffbc231b46d5914813c71f38b850",
+   "c:Dim Cabasa Samples/fw_rr4_19.flac": "821f0ca858e39ce96257c41f149d3ad42e14f495a093df37e8a157088c5e27c3",
+   "c:Dim Cabasa Samples/fw_rr4_20.flac": "a2c1acf5ee9530010ef68337df6743619001a10bf8aebc82c4c2defe75c7285f",
+   "c:Dim Cabasa Samples/fw_rr4_21.flac": "0b95bd5702d621f8940cf9496e3d5b7be1518428159ecfe6d828d7658ac216ee",
+   "c:Dim Cabasa Samples/fw_rr4_22.flac": "93fb9ed60bd3f5b6312026456939a4d75d69feb0ac73bb35867786665f90be26",
+   "c:Dim Cabasa Samples/fw_rr4_23.flac": "576f444f7603f9af933c65cc532c2ad20f80cf679be3a6b622e793cbbc4feabd",
+   "c:Dim Cabasa Samples/fw_rr4_24.flac": "63dedcd99598f701cdccc897b65f38bad6ea519eb814f648c41496275b22d97d",
+   "c:Dim Cabasa Samples/fw_rr4_25.flac": "16926eaee3ee89897e4b7faeb4833e495fc94959a7ba0337d5fe67c90528f0dd",
+   "c:Dim Cabasa Samples/fw_rr5_01.flac": "ebfa18e16bf7a0fb164064a2c3a946221cefe57e2b152e14ee02c57376f0abc4",
+   "c:Dim Cabasa Samples/fw_rr5_02.flac": "e7eaf2209f05cf35d11b1dc39f8639385914a356cd2dc4814905848d9792f0a7",
+   "c:Dim Cabasa Samples/fw_rr5_03.flac": "c8a3b1192d85160ddcf09d926a17d67df77fee01964867db4f2a658fc582011d",
+   "c:Dim Cabasa Samples/fw_rr5_04.flac": "4e0eee8d29c29ed9e483b6e35271f5ebd894f3ff9e2d3c75928dff0db48e155e",
+   "c:Dim Cabasa Samples/fw_rr5_05.flac": "ed2370ee28bbe2754a01daf54a621aba0e28d1d54f86de5fc54413d8a4993ede",
+   "c:Dim Cabasa Samples/fw_rr5_06.flac": "8c332d9ac1a5ec3f09c0d38c4c17b2c065322fcea97e6e1f1aea49d56f2b28ed",
+   "c:Dim Cabasa Samples/fw_rr5_07.flac": "f8ef12e5ce04570ffad85cfabf43101ffac2e124b02748b9a8a4ab9cadd8c7e2",
+   "c:Dim Cabasa Samples/fw_rr5_08.flac": "ce41496e7464449c4497af67bf10e2367eca04e543c6877ff332ebd5a17e31e9",
+   "c:Dim Cabasa Samples/fw_rr5_09.flac": "e9847a897558ab831ab57544791dd0117d6677c5293b9e2ac7baa337a7973966",
+   "c:Dim Cabasa Samples/fw_rr5_10.flac": "a02d121815321040af56d9ac1717abde5346526829894480f7c3e0dbb5e4601f",
+   "c:Dim Cabasa Samples/fw_rr5_11.flac": "d3c17d0c1c67101a58482490426c2559bc5f2738d289366bcd6715e2028010f7",
+   "c:Dim Cabasa Samples/fw_rr5_12.flac": "620d4c3b5a8fba49aa9494673433e144e07b22351e57c6b674de3a874966b822",
+   "c:Dim Cabasa Samples/fw_rr5_13.flac": "2211fb6ad622c1caa447e539407b17646844faa7f889176a87e7d14ee273ecef",
+   "c:Dim Cabasa Samples/fw_rr5_14.flac": "54c01bc6f2ad5af6f418ea9c809e8a7ad886ea10f3a6cb34cbc250bc4a9d758a",
+   "c:Dim Cabasa Samples/fw_rr5_15.flac": "5789f4f60c7c276614865f33edcfe57d89b8d5800ccbafedf4756347c7b5cc06",
+   "c:Dim Cabasa Samples/fw_rr5_16.flac": "598e0be5b2b33a71f3090def488ca67b04e4a72a024f54ae36a4ce94126a0a13",
+   "c:Dim Cabasa Samples/fw_rr5_17.flac": "a8e6967a57a1b3783bac85ad0724327976454e6b268c6e38ccb5db9c9bf59e41",
+   "c:Dim Cabasa Samples/fw_rr5_18.flac": "05da6565bdcc338cd2f4794623d80b1bc072f40d03347b433d258e27399541da",
+   "c:Dim Cabasa Samples/fw_rr5_19.flac": "11d347c403406d69f252fd5bc7d0b9091009f53a96b48335e75502a709441740",
+   "c:Dim Cabasa Samples/fw_rr5_20.flac": "8cb501166f08a33b2aef049eebcca281b2ded3cad325b1c9b252e8dbdebeae94",
+   "c:Dim Cabasa Samples/fw_rr5_21.flac": "d5d44c9c6c518f6c8b1e09a79a2ea59506aea4ac7ea99270d675c6861b16f2d3",
+   "c:Dim Cabasa Samples/fw_rr5_22.flac": "cdd19f89a3d7003d14102804a876e02aab1f4251a97a2aa5f15891b23bec7b6a",
+   "c:Dim Cabasa Samples/fw_rr5_23.flac": "eab10e5d4a4d61ac63039b6570e3f62a1adffaba71db1fb12b630d8f83d43ce6",
+   "c:Dim Cabasa Samples/fw_rr5_24.flac": "bbef0fbc7ed7b121663bf5d7171b09d785787faf752624b98c4f8225210de7a2",
+   "c:Dim Cabasa Samples/fw_rr5_25.flac": "326a2241bdf1403bfde99b51936d17b894420eef58de0c526c725399605ae7ca"
+  },
+  "bits": 24,
+  "files": {
+   "cabasa/backward/bw_rr1_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28523,
+    "fadeIn": 0,
+    "fadeOut": 480,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28550,
+    "fadeIn": 0,
+    "fadeOut": 480,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr1_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr1_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr2_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr2_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr3_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr3_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr4_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr4_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/backward/bw_rr5_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/bw_rr5_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr1_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr1_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr2_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr2_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr3_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr3_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr4_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr4_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_01.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_01.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_02.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_02.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_03.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_03.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_04.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_04.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_05.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_05.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_06.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_06.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_07.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_07.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_08.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_08.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_09.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_09.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_10.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_10.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_11.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_11.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_12.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_12.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_13.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_13.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_14.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_14.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_15.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_15.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_16.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_16.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_17.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_17.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_18.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_18.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_19.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_19.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_20.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_20.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_21.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_22.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_22.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_23.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_23.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_24.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   },
+   "cabasa/forward/fw_rr5_25.wav": {
+    "in": [
+     [
+      "c:Dim Cabasa Samples/fw_rr5_25.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28800,
+    "fadeIn": 0,
+    "fadeOut": 4800,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "cabasa",
+   "title": "Cabasa",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.1,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 24,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.03,
+   "zones": [
+    {
+     "file": "cabasa/backward/bw_rr1_01.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 1
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_02.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 2
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_03.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 3
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_04.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 4
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_05.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 5
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_06.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 6
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_07.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28523,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 7
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_08.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 8
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_09.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 9
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_10.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 10
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_11.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 11
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_12.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 12
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_13.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 13
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_14.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 14
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_15.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 15
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_16.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 16
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_17.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 17
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_18.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 18
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_19.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28550,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 19
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_20.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 20
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_21.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 21
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_22.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 22
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_23.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 23
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_24.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 24
+    },
+    {
+     "file": "cabasa/backward/bw_rr1_25.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 25
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_01.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 26
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_02.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 27
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_03.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 28
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_04.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 29
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_05.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 30
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_06.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 31
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_07.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 32
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_08.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 33
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_09.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 34
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_10.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 35
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_11.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 36
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_12.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 37
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_13.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 38
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_14.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 39
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_15.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 40
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_16.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 41
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_17.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 42
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_18.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 43
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_19.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 44
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_20.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 45
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_21.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 46
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_22.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 47
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_23.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 48
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_24.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 49
+    },
+    {
+     "file": "cabasa/backward/bw_rr2_25.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 50
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_01.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 51
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_02.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 52
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_03.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 53
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_04.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 54
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_05.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 55
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_06.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 56
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_07.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 57
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_08.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 58
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_09.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 59
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_10.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 60
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_11.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 61
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_12.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 62
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_13.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 63
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_14.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 64
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_15.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 65
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_16.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 66
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_17.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 67
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_18.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 68
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_19.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 69
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_20.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 70
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_21.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 71
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_22.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 72
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_23.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 73
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_24.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 74
+    },
+    {
+     "file": "cabasa/backward/bw_rr3_25.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 75
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_01.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 76
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_02.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 77
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_03.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 78
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_04.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 79
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_05.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 80
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_06.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 81
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_07.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 82
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_08.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 83
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_09.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 84
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_10.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 85
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_11.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 86
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_12.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 87
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_13.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 88
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_14.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 89
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_15.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 90
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_16.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 91
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_17.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 92
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_18.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 93
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_19.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 94
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_20.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 95
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_21.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 96
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_22.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 97
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_23.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 98
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_24.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 99
+    },
+    {
+     "file": "cabasa/backward/bw_rr4_25.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 100
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_01.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 101
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_02.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 102
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_03.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 103
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_04.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 104
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_05.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 105
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_06.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 106
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_07.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 107
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_08.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 108
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_09.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 109
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_10.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 110
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_11.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 111
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_12.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 112
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_13.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 113
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_14.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 114
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_15.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 115
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_16.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 116
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_17.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 117
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_18.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 118
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_19.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 119
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_20.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 120
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_21.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 121
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_22.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 122
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_23.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 123
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_24.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 124
+    },
+    {
+     "file": "cabasa/backward/bw_rr5_25.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 125
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_01.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 1
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_02.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 2
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_03.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 3
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_04.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 4
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_05.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 5
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_06.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 6
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_07.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 7
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_08.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 8
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_09.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 9
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_10.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 10
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_11.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 11
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_12.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 12
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_13.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 13
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_14.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 14
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_15.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 15
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_16.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 16
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_17.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 17
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_18.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 18
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_19.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 19
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_20.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 20
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_21.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 21
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_22.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 22
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_23.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 23
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_24.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 24
+    },
+    {
+     "file": "cabasa/forward/fw_rr1_25.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 25
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_01.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 26
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_02.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 27
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_03.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 28
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_04.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 29
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_05.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 30
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_06.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 31
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_07.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 32
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_08.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 33
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_09.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 34
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_10.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 35
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_11.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 36
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_12.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 37
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_13.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 38
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_14.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 39
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_15.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 40
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_16.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 41
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_17.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 42
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_18.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 43
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_19.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 44
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_20.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 45
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_21.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 46
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_22.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 47
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_23.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 48
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_24.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 49
+    },
+    {
+     "file": "cabasa/forward/fw_rr2_25.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 50
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_01.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 51
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_02.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 52
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_03.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 53
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_04.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 54
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_05.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 55
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_06.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 56
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_07.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 57
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_08.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 58
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_09.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 59
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_10.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 60
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_11.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 61
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_12.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 62
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_13.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 63
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_14.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 64
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_15.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 65
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_16.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 66
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_17.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 67
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_18.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 68
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_19.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 69
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_20.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 70
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_21.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 71
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_22.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 72
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_23.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 73
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_24.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 74
+    },
+    {
+     "file": "cabasa/forward/fw_rr3_25.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 75
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_01.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 76
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_02.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 77
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_03.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 78
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_04.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 79
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_05.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 80
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_06.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 81
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_07.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 82
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_08.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 83
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_09.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 84
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_10.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 85
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_11.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 86
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_12.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 87
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_13.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 88
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_14.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 89
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_15.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 90
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_16.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 91
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_17.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 92
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_18.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 93
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_19.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 94
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_20.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 95
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_21.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 96
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_22.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 97
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_23.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 98
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_24.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 99
+    },
+    {
+     "file": "cabasa/forward/fw_rr4_25.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 100
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_01.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 101
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_02.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 102
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_03.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 103
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_04.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 104
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_05.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 105
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_06.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 106
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_07.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 107
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_08.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 108
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_09.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 109
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_10.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 110
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_11.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 111
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_12.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 112
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_13.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 113
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_14.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 114
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_15.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 115
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_16.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 116
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_17.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 117
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_18.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 118
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_19.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 119
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_20.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 120
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_21.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 121
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_22.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 122
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_23.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 123
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_24.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 124
+    },
+    {
+     "file": "cabasa/forward/fw_rr5_25.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 13.81,
+     "start": 0,
+     "end": 28800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 48000,
+     "rr": 125
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Cabasa backward"
+    },
+    {
+     "key": 37,
+     "name": "Cabasa forward"
+    }
+   ]
+  }
+ ]
+}

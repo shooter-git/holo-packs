@@ -34,6 +34,7 @@ const FAMILIES = [
  * restriction (…)"); check.mjs refuses any other.
  */
 export const LICENCES = {
+  'Artistic-2.0': ['Artistic License 2.0', 'https://opensource.org/license/artistic-2-0'],
   'CC0-1.0': ['CC0 1.0', 'https://creativecommons.org/publicdomain/zero/1.0/'],
   'CC-BY-3.0': ['CC BY 3.0', 'https://creativecommons.org/licenses/by/3.0/'],
   'CC-BY-4.0': ['CC BY 4.0', 'https://creativecommons.org/licenses/by/4.0/'],
@@ -59,7 +60,7 @@ export function licence(pack, link = true) {
 
 /** Which family an instrument is found in. */
 export function family(i) {
-  if (i.pads?.length) return 'Drum kits';
+  if (i.pads?.length) return i.category === 'Percussion' ? 'Percussion' : 'Drum kits';
   switch (i.category) {
     case 'Piano':
     case 'Keys':
@@ -236,7 +237,15 @@ export function packFacts(id, pack) {
     );
   }
   for (const i of pack.instruments.filter((x) => x.pads?.length)) {
-    lines.push('', `## ${i.title}'s pads`, '', 'Each key plays one piece of the kit. The kick, snare and hi-hats sit where General MIDI has them.', '');
+    lines.push(
+      '',
+      `## ${i.title}'s pads`,
+      '',
+      i.category === 'Percussion'
+        ? 'Each key plays one of its sounds.'
+        : 'Each key plays one piece of the kit. The kick, snare and hi-hats sit where General MIDI has them.',
+      '',
+    );
     lines.push('| Key | Note | Pad |', '|---|---|---|');
     for (const p of [...i.pads].sort((a, b) => a.key - b.key)) lines.push(`| ${p.key} | ${note(p.key)} | ${cell(p.name)} |`);
   }

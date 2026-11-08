@@ -148,7 +148,8 @@ function measure(downloads, s, opts = {}) {
   const body = ch.map((c) => c.subarray(from, to));
   const at = from + (opts.trim ? onset(body, opts.onsetBelow ?? 48) : 0);
   const start = opts.trim ? Math.max(from, at - Math.round((opts.preroll ?? 0.004) * rate)) : from;
-  const level = loudness(ch, rate, Math.max(start, from + onset(body, 40)), 0.4);
+  // its loudness over its first 0.4 s from the attack, or `window` seconds (a long texture's swell)
+  const level = loudness(ch, rate, Math.max(start, from + onset(body, 40)), opts.window ?? 0.4);
   const peak = peakDb(body);
   const pitch = opts.pitched === false ? null : measurePitch(body, rate);
   return { rate, frames: to, mono, start, at, level, peak, pitch, decoded: d };
@@ -276,7 +277,7 @@ export async function buildInstruments(spec) {
     offsets.set(inst.name, offset);
 
     // the samples' measured pitches against their roots: an octave off is a mapping to fix
-    if (inst.pitched !== false) {
+    if (inst.pitched !== false && inst.checkPitch !== false) {
       const off = struck
         .filter((s) => s.m.pitch !== null && Number.isFinite(s.m.pitch))
         .map((s) => s.m.pitch - s.root)
@@ -314,7 +315,8 @@ export async function buildInstruments(spec) {
         const folder = inst.folder ?? inst.name;
         const named = s.file ?? s.download ?? inputsOf(s)[0][0];
         const stem = basename(named.slice(named.indexOf(':') + 1), extname(named));
-        file = `${folder}/${stem}.wav`;
+        // `out`: the file's own path (a kit piece's folder names it on its pad)
+        file = s.out ?? `${folder}/${stem}.wav`;
         const recipe = {
           in: inputsOf(s),
           start: m.start,
@@ -529,4 +531,28 @@ export async function programSamples(lib, path, { tag, keep, base, shift } = {})
   const { readSfz } = await import('./sfz.mjs');
   const dir = base ?? (path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '');
   return sfzSamples(await readSfz(path, lib.read), { tag, dir, keep, shift });
+}
+
+/**
+ * A set of hand percussion on pads (a tabla's strokes, a gamelan's gongs): each piece on its own key
+ * from `first`, rows of four, its recordings made into `<folder>/<piece>/` so its pad's name is its
+ * piece's. `pieces`: [piece, title, takes], each take { download, layer, rr }.
+ */
+export function padSet(folder, pieces, first = 36) {
+  const samples = [];
+  const pads = [];
+  pieces.forEach(([piece, title, takes], i) => {
+    const key = first + i;
+    pads.push({ key, name: title });
+    takes.forEach((t, n) => {
+      const stem = t.download.slice(t.download.lastIndexOf('/') + 1).replace(/\.[^.]+$/, '');
+      samples.push({ ...t, out: `${folder}/${piece}/${stem}.wav`, root: key, lo: key, hi: key, layer: t.layer ?? 1, rr: t.rr ?? n + 1 });
+    });
+  });
+  return { samples, pads };
+}
+
+/** One sound on every key (played as recorded at middle C): its takes as layers and round robins. */
+export function oneSound(takes) {
+  return takes.map((t, n) => ({ ...t, root: 60, lo: 0, hi: 127, layer: t.layer ?? 1, rr: t.rr ?? n + 1 }));
 }

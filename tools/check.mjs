@@ -2,11 +2,12 @@
 //
 // - Its map parses, is a holo-pack map named after its folder, and says whose samples it plays and
 //   under what licence: one that lets anyone share them (CC0, CC BY 3.0 or 4.0, public domain, the
-//   Unlicense, or free to use without restriction).
+//   Unlicense, the Artistic License 2.0, or free to use without restriction).
 // - Every file its instruments and spaces name has a checksum (what an install and an experience's
 //   build check each sample against).
 // - A kit's pads each play the one piece their name says, every piece has one, and the kick, snare
-//   and hi-hats sit where General MIDI has them.
+//   and hi-hats sit where General MIDI has them. A set of hand percussion (category Percussion: a
+//   tabla's strokes) has pads too, each its own piece, without General MIDI's kit.
 // - Every other instrument is played by pitch, or is one sound whose one pad is named by it.
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -94,11 +95,15 @@ for (const id of readdirSync(packsDir).sort()) {
         const all = new Set(m.zones.filter((z) => !z.trigger).map((z) => z.file.replace(/\/[^/]*$/, '')));
         const unplayed = [...all].filter((x) => !pieces.includes(x));
         if (unplayed.length) fail(`${at} no pad plays ${unplayed.join(', ')}`);
+        // a drum kit has General MIDI's kick, snare and hi-hats; a set of hand percussion (a tabla's
+        // strokes, a kendhang's) has its own pieces, each on its pad
         const name = (key) => grid.pads.find((p) => p.note === key)?.name;
         const gm = [name(36), name(38), name(42), name(46)];
         const want = ['Kick', 'Snare', 'Hi-hat closed', 'Hi-hat open'];
-        if (gm.join('|') !== want.join('|')) fail(`${at} 36, 38, 42 and 46 are ${gm.join(', ')}, not ${want.join(', ')}`);
-        if (grid.cols !== 4 || grid.chromatic) fail(`${at} its pads aren't a 4-wide grid of hits`);
+        if (m.category !== 'Percussion' && gm.join('|') !== want.join('|'))
+          fail(`${at} 36, 38, 42 and 46 are ${gm.join(', ')}, not ${want.join(', ')}`);
+        const wide = m.category === 'Percussion' ? Math.min(4, m.pads.length) : 4;
+        if (grid.cols !== wide || grid.chromatic) fail(`${at} its pads aren't a ${wide}-wide grid of hits`);
         if (!playsHits(sampler, m)) fail(`${at} a kit that doesn't play each key as its own hit`);
       } else if (m.pitched === false) {
         if (grid.pads.length !== 1 || grid.pads[0].note !== 60 || grid.pads[0].name !== m.title)

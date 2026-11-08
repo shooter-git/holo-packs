@@ -42,11 +42,17 @@ export async function readSfz(path, read) {
       const line = raw.replace(/\/\/.*$/, '');
       const parts = line.split(/(?=#define\s|#include\s)/);
       for (const part of parts) {
-        const def = /^#define\s+(\$[A-Za-z0-9_]+)\s*(.*)$/.exec(part.trim());
-        const inc = /^#include\s+"([^"]+)"/.exec(part.trim());
-        if (def) defines.set(def[1], expand(def[2].trim()));
-        else if (inc) await load(joinPath(base, inc[1]), depth + 1);
-        else if (part.trim()) chunks.push(expand(part));
+        // a define's value is one word, an include one quoted path: what follows on the line is
+        // opcodes ("#define $POS 1 seq_position=$POS", "#include "vel.txt" lovel=1")
+        const def = /^#define\s+(\$[A-Za-z0-9_]+)\s+(\S*)(.*)$/.exec(part.trim());
+        const inc = /^#include\s+"([^"]+)"(.*)$/.exec(part.trim());
+        if (def) {
+          defines.set(def[1], expand(def[2]));
+          if (def[3].trim()) chunks.push(expand(def[3]));
+        } else if (inc) {
+          await load(joinPath(base, inc[1]), depth + 1);
+          if (inc[2].trim()) chunks.push(expand(inc[2]));
+        } else if (part.trim()) chunks.push(expand(part));
       }
     }
   };

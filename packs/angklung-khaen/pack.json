@@ -1,0 +1,219 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "angklung-khaen",
+ "name": "Angklung and Khaen (OLPC)",
+ "license": "CC-BY-3.0",
+ "credit": "Angklung and khaen samples by Berklee College of Music students for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/Berklee44v1).",
+ "bytes": 2851688,
+ "source": {
+  "kind": "mix",
+  "note": "The 44.1 kHz WAVs of the published zip, fetched one by one, each kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "berklee": "https://archive.org/download/Berklee44v1/Berklee44v1.zip/Berklee44v1/"
+  },
+  "downloads": {
+   "berklee:anklung_1.wav": "7e9b5fa30c0f4dd5e930f17ce57d44ddccbf119dfd2c681a6df0b9ba45fb9de6",
+   "berklee:anklung_2.wav": "7a2fbc3bdf652da56d3ab2b8528182dd7a7dc5bc66135b6e25e1922f9c3cb844",
+   "berklee:group_anklung_long_1.wav": "12755cc567e014fec25e7d619a0fa9ec8c4bc708b9f43156fe70682da400723f",
+   "berklee:khaen_lo_1.wav": "3321728c21da7a44453559c8bea5ba2dfefd446efc2f14ea0e0f7d0c64871a89",
+   "berklee:khaen_lo_2.wav": "a6b804faa795994727a631cadda773baf984b40d091dded3cc8479525008d116"
+  },
+  "bits": 16,
+  "files": {
+   "angklung/anklung_1.wav": {
+    "in": [
+     [
+      "berklee:anklung_1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 20798,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "angklung/anklung_2.wav": {
+    "in": [
+     [
+      "berklee:anklung_2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 18226,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "angklung_ensemble/group_anklung_long_1.wav": {
+    "in": [
+     [
+      "berklee:group_anklung_long_1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 1129423,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "khaen/khaen_lo_2.wav": {
+    "in": [
+     [
+      "berklee:khaen_lo_2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 128371,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "khaen/khaen_lo_1.wav": {
+    "in": [
+     [
+      "berklee:khaen_lo_1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 128916,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "angklung",
+   "title": "Angklung",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.4,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "angklung/anklung_1.wav",
+     "root": 60,
+     "lo": 0,
+     "hi": 127,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0,
+     "start": 0,
+     "end": 20798,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "angklung/anklung_2.wav",
+     "root": 60,
+     "lo": 0,
+     "hi": 127,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0,
+     "start": 0,
+     "end": 18226,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    }
+   ]
+  },
+  {
+   "name": "angklung_ensemble",
+   "title": "Angklung Ensemble",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 1.5,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "angklung_ensemble/group_anklung_long_1.wav",
+     "root": 60,
+     "lo": 0,
+     "hi": 127,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0,
+     "start": 0,
+     "end": 1129423,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "khaen",
+   "title": "Khaen",
+   "category": "Woodwinds",
+   "pitched": true,
+   "release": 0.25,
+   "attack": 0.03,
+   "oneShot": false,
+   "velocityRange": 20,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "khaen/khaen_lo_2.wav",
+     "root": 55.26,
+     "lo": 43,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.27,
+     "start": 0,
+     "end": 128371,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "khaen/khaen_lo_1.wav",
+     "root": 57.01,
+     "lo": 57,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.27,
+     "start": 0,
+     "end": 128916,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  }
+ ]
+}
