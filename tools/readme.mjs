@@ -27,10 +27,21 @@ const FAMILIES = [
   'Other',
 ];
 
-const LICENCES = {
+/**
+ * The licences a pack may have (each lets anyone share the samples): its id in pack.json, its name and
+ * where it's written. A pack free without restriction says so in words ("Free to use without
+ * restriction (…)"); check.mjs refuses any other.
+ */
+export const LICENCES = {
   'CC0-1.0': ['CC0 1.0', 'https://creativecommons.org/publicdomain/zero/1.0/'],
+  'CC-BY-3.0': ['CC BY 3.0', 'https://creativecommons.org/licenses/by/3.0/'],
   'CC-BY-4.0': ['CC BY 4.0', 'https://creativecommons.org/licenses/by/4.0/'],
+  'Public-Domain': ['Public domain', 'https://creativecommons.org/publicdomain/mark/1.0/'],
+  Unlicense: ['The Unlicense', 'https://unlicense.org/'],
 };
+
+/** A licence in words that HO[LO] may ship: free to use without restriction (and whose it is). */
+export const FREE = /^Free to use without restriction \(.+\)$/;
 
 const NOTES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 /** A key's name, middle C (60) being C4. */
@@ -156,15 +167,20 @@ function source(pack, hasRecipe) {
   switch (s.kind) {
     case 'git': {
       const url = s.url.replace(/\.git$/, '');
-      return `Taken as published from [${url.replace('https://github.com/', '')}](${url}) at commit [\`${s.commit.slice(0, 7)}\`](${url}/tree/${s.commit}): an install checks out only the files this map plays.`;
+      return `Taken as published from [${url.replace('https://github.com/', '')}](${url}) at commit [\`${s.commit.slice(0, 7)}\`](${url}/tree/${s.commit}): an install checks out only the files this map plays.${recipe}`;
     }
     case 'mix': {
       const bases = Object.values(s.bases ?? {}).map((b) => {
         const m = /raw\.githubusercontent\.com\/([^/]+\/[^/]+)\/([0-9a-f]{40})\//.exec(b);
         return m ? `[${m[1]}](https://github.com/${m[1]}/tree/${m[2]}) at \`${m[2].slice(0, 7)}\`` : `<${encodeURI(b)}>`;
       });
+      const archives = Object.values(s.archives ?? {}).map(
+        (a) => `the archive <${encodeURI(a.url)}> (sha256 \`${a.sha256.slice(0, 12)}…\`)`,
+      );
+      const from = [...bases, ...archives];
+      const list = from.join(' and ');
       return (
-        `Made from ${Object.keys(s.downloads ?? {}).length} recordings, fetched from ${bases.join(' and ')}. ` +
+        `Made from ${Object.keys(s.downloads ?? {}).length} recordings, fetched from ${list}. ` +
         `Each file is made from its recordings by fixed arithmetic (a note trimmed and faded, a drum hit ` +
         `mixed from its microphones), the same in every install, so every install makes the same bytes, ` +
         `each checked against \`files.sha256\`.${recipe}`
@@ -172,8 +188,12 @@ function source(pack, hasRecipe) {
     }
     case 'cut':
       return `Cut from ${Object.keys(s.downloads ?? {}).length} downloads at <${encodeURI(s.base)}>: each note is cut from its run as it is, but for a ${Math.round((s.fade / s.rate) * 1000)} ms fade at each end.${recipe}`;
-    case 'archive':
-      return `Decoded from the published archive <${encodeURI(s.url)}> (sha256 \`${s.sha256.slice(0, 12)}…\`): each note from its FLAC, written as the WAV it was first made as.${recipe}`;
+    case 'archive': {
+      const flac = Object.values(s.entries ?? {}).some((e) => /\.flac$/i.test(e));
+      return `${flac ? 'Decoded from' : 'Taken out of'} the published archive <${encodeURI(s.url)}> (sha256 \`${s.sha256.slice(0, 12)}…\`): ${
+        flac ? 'each note from its FLAC, written as the WAV it was first made as' : 'each file as it is'
+      }.${recipe}`;
+    }
     default:
       return 'Taken from files you have (install it with `--from`).';
   }

@@ -23,6 +23,13 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Prog Kit](packs/prog-kit/)'s snare (Frankensnare) | Karoryfer Samples | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.frankensnare> |
 | [Prog Kit](packs/prog-kit/)'s gong | Versilian Studios (VSCO 2 Community Edition) | CC0 1.0 | <https://github.com/sgossner/VSCO-2-CE> |
 | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) | Versilian Studios and Karoryfer Samples | CC0 1.0 | <https://github.com/sfzinstruments/virtuosity_drums> |
+| [Salamander Grand Piano](packs/salamander/) | Alexander Holm; mapped in FLAC by kinwie (SFZ Instruments) | Public domain (since 4 March 2022) | <https://github.com/sfzinstruments/SalamanderGrandPiano>, <https://rytmenpinne.wordpress.com/sounds-and-such/salamander-grandpiano/> |
+| [Headroom Piano](packs/headroom/) | Bengt Nilsson; mapped in FLAC by kinwie (SFZ Instruments) | CC BY 4.0 | <https://github.com/sfzinstruments/BengtNilsson.HeadroomPiano> |
+| [E-Pianos](packs/epianos/) (CP80, Pianet T, Wurlitzer EP200) | Greg Sullivan; mapped in FLAC by kinwie (SFZ Instruments) | CC BY 3.0 | <https://github.com/sfzinstruments/GregSullivan.E-Pianos>, <http://www.sullivang.net/> |
+| [Karoryfer x bigcat Cello](packs/bigcat-cello/) | Karoryfer Lecolds and bigcat instruments: played by Kamila Borowiak | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer-bigcat.cello> |
+| [War Tuba](packs/war-tuba/) | Karoryfer Lecolds: played by Jakub Lewicki, recorded and mapped by Drogomir Smolken | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.war-tuba> |
+| [Weresax](packs/weresax/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.weresax> |
+| [Bear Sax](packs/bear-sax/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.bear-sax> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.

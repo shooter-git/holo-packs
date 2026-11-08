@@ -1,7 +1,8 @@
 // `node tools/check.mjs [ID…]`: every pack checked with HO[LO] Desk's own code, as CI runs it.
 //
 // - Its map parses, is a holo-pack map named after its folder, and says whose samples it plays and
-//   under what licence.
+//   under what licence: one that lets anyone share them (CC0, CC BY 3.0 or 4.0, public domain, the
+//   Unlicense, or free to use without restriction).
 // - Every file its instruments and spaces name has a checksum (what an install and an experience's
 //   build check each sample against).
 // - A kit's pads each play the one piece their name says, every piece has one, and the kick, snare
@@ -10,6 +11,7 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { holo, repo } from './holo.mjs';
+import { FREE, LICENCES } from './readme.mjs';
 
 const { packPaths, parseChecksums, pinPack } = await holo('packages/music/src/packs.ts');
 const { padsFor, playsHits } = await holo('apps/web/src/ui/pads.ts');
@@ -44,6 +46,11 @@ for (const id of readdirSync(packsDir).sort()) {
     if (pack.format !== 'holo-pack' || pack.version !== 1) fail('pack.json is not a holo-pack map, version 1');
     if (pack.id !== id) fail(`its id is "${pack.id}", not its folder's "${id}"`);
     for (const key of ['name', 'license', 'credit']) if (!pack[key]) fail(`it has no ${key}`);
+    // only licences that let anyone share the samples
+    if (pack.license && !LICENCES[pack.license] && !FREE.test(pack.license))
+      fail(
+        `its licence "${pack.license}" isn't one HO[LO] may ship (${Object.keys(LICENCES).join(', ')}, or "Free to use without restriction (whose)")`,
+      );
     if (!Number.isInteger(pack.bytes) || pack.bytes <= 0)
       fail('it has no "bytes" (its samples\' size: node tools/checksums.mjs, or its recipe, writes it)');
     if (!KINDS.has(pack.source?.kind)) fail(`its source is "${pack.source?.kind}", not ${[...KINDS].join(', ')}`);
