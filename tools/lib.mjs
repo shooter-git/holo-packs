@@ -5,12 +5,15 @@
 // made from the downloads, and every made file's checksum (packs/<id>/files.sha256), made with the
 // same code HO[LO] Desk's `pnpm packs install` makes them with.
 import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { createReadStream, createWriteStream, existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
+import { Readable } from 'node:stream';
+import { pipeline } from 'node:stream/promises';
 import { holo, repo } from './holo.mjs';
 import { refusePrivate } from './private.mjs';
 
-const { decodeInput, mixExtension, mixFile, mixUrl } = await holo('packages/music/src/mix.ts');
+const { decodeInput, mixArchive, mixExtension, mixFile, mixUrl } = await holo('packages/music/src/mix.ts');
+const { archiveExtension, archiveFormat, archiveNames, unpack } = await holo('packages/music/src/archives.ts');
 const { formatChecksums } = await holo('packages/music/src/packs.ts');
 
 export const root = repo;
@@ -25,14 +28,42 @@ export function arg(name, fallback) {
 
 // ---- downloads ----
 
+/** A download written to a file as it comes (an archive may be gigabytes), a few tries. */
+async function fetchToFile(url, file) {
+  mkdirSync(dirname(file), { recursive: true });
+  for (let i = 0; ; i++) {
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(3_600_000) });
+      if (!res.ok || !res.body) throw new Error(`${url}: ${res.status}`);
+      await pipeline(Readable.fromWeb(res.body), createWriteStream(`${file}.part`));
+      renameSync(`${file}.part`, file);
+      return;
+    } catch (err) {
+      if (i === 3) throw err;
+      await new Promise((ok) => setTimeout(ok, 2000 * 2 ** i));
+    }
+  }
+}
+
+/** A file's sha256, read as a stream. */
+async function fileSha256(file) {
+  const h = createHash('sha256');
+  for await (const chunk of createReadStream(file)) h.update(chunk);
+  return h.digest('hex');
+}
+
 /**
  * The downloads a pack is made from, kept in a folder (by base name and path) so a second run needs
- * no network. Each is fetched from its base's address and checksummed.
+ * no network. Each is fetched from its base's address and checksummed. A download may instead be a
+ * file in an archive (`archives`: { name: { url, format? } }): the archive is fetched once, its
+ * sha256 kept, and the files wanted taken out of it (`unpacked`).
  */
 export class Downloads {
-  constructor(dir, bases) {
+  constructor(dir, bases, archives = {}) {
     this.dir = dir;
     this.bases = bases;
+    this.archives = archives;
+    this.archiveSums = {};
     this.sums = {};
   }
 
@@ -41,9 +72,50 @@ export class Downloads {
     return join(this.dir, name.slice(0, at), name.slice(at + 1));
   }
 
+  /** An archive's file on disk (fetched the first time), and its format. */
+  async archive(name) {
+    const a = this.archives[name];
+    if (!a) throw new Error(`No archive "${name}"`);
+    const format = archiveFormat(a.url, a.format);
+    const file = join(this.dir, '.archives', `${name}${archiveExtension(format)}`);
+    if (!existsSync(file)) {
+      console.log(`  fetching ${a.url}…`);
+      await fetchToFile(a.url, file);
+    }
+    if (!this.archiveSums[name]) this.archiveSums[name] = await fileSha256(file);
+    return { file, format };
+  }
+
+  /** Every file's name in an archive. */
+  async listArchive(name) {
+    const { file, format } = await this.archive(name);
+    return archiveNames(file, format);
+  }
+
+  /** Take the files wanted out of their archives (those not out already), into this folder. */
+  async unpacked(names) {
+    const byArchive = new Map();
+    for (const n of names) {
+      const where = mixArchive({ archives: this.archives }, n);
+      if (!where || existsSync(this.path(n))) continue;
+      if (!byArchive.has(where[0])) byArchive.set(where[0], new Map());
+      byArchive.get(where[0]).set(where[1], n);
+    }
+    for (const [archive, entries] of byArchive) {
+      const { file, format } = await this.archive(archive);
+      console.log(`  unpacking ${entries.size} file(s) from ${archive}…`);
+      await unpack(file, format, new Set(entries.keys()), (entry, data) => {
+        const out = this.path(entries.get(entry));
+        mkdirSync(dirname(out), { recursive: true });
+        writeFileSync(out, data);
+      });
+    }
+  }
+
   async get(name) {
     const file = this.path(name);
     let bytes;
+    if (!existsSync(file) && mixArchive({ archives: this.archives }, name)) await this.unpacked([name]);
     if (existsSync(file)) bytes = new Uint8Array(readFileSync(file));
     else {
       const url = mixUrl({ bases: this.bases }, name);
@@ -67,6 +139,7 @@ export class Downloads {
 
   /** Fetch many, a few at a time. */
   async all(names, parallel = 8) {
+    await this.unpacked(names);
     let next = 0;
     let done = 0;
     await Promise.all(
@@ -362,6 +435,24 @@ export async function makeFiles(pack, downloads, out) {
   // its samples' size on disk: what an install takes, shown before it
   pack.bytes = total;
   return sums;
+}
+
+/** The archives a recipe's downloads come out of, pinned by their checksums, for its source. */
+export function pinArchives(source, downloads) {
+  const used = new Set();
+  for (const r of Object.values(source.files))
+    for (const [name] of r.in) {
+      const where = mixArchive({ archives: downloads.archives }, name);
+      if (where) used.add(where[0]);
+    }
+  const out = {};
+  for (const name of [...used].sort()) {
+    const sum = downloads.archiveSums[name];
+    if (!sum) throw new Error(`The archive ${name} wasn't fetched`);
+    const { url, format } = downloads.archives[name];
+    out[name] = { url, sha256: sum, ...(format ? { format } : {}) };
+  }
+  return out;
 }
 
 /** The downloads a recipe uses, with their checksums, for its source. */

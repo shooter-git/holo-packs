@@ -1,0 +1,3879 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "weresax",
+ "name": "Karoryfer Weresax",
+ "license": "CC0-1.0",
+ "credit": "Weresax by Karoryfer Lecolds (CC0): an alto saxophone.",
+ "bytes": 100820640,
+ "source": {
+  "kind": "mix",
+  "note": "The library's WAVs at the pinned commit, each note kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "k": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.weresax/a4d756b21d2a573aca0d840cce7e71ba5effd4c6/"
+  },
+  "downloads": {
+   "k:Samples/alto/a2_f_rr1_cnd.wav": "ea4d9171ce96db3a0691f1312cb433215bc988c44f02518461a0c218a57e5ce5",
+   "k:Samples/alto/a2_f_rr2_cnd.wav": "d0f1b815f77b3af504e3593847b3d42246c40a63dee9d56b51df73f43c7f012f",
+   "k:Samples/alto/a2_p_rr1_cnd.wav": "f9767b5a8c8a493f0ed7c0aed7986d33cb1c015834c5f078784494963fc1f6c1",
+   "k:Samples/alto/a2_p_rr2_cnd.wav": "ae1e3e7f6c8fa3bcaa71c3a80a6e5e31f18b3a66a76bf76f1bf2f78f34b47427",
+   "k:Samples/alto/a3_f_rr1_cnd.wav": "b04f7b62ed658c92636b1ce930aaf5ab97d5ed30b497bae4807ab36e58bd99e3",
+   "k:Samples/alto/a3_f_rr2_cnd.wav": "69566bf898d495d67567eae6c9ef9f59edbfecd16b5c4953c35ea91396b3fa24",
+   "k:Samples/alto/a3_p_rr1_cnd.wav": "acf50ea6ee806da0e58fe3c4c715d1dbf63467f7e48e1268ee8cff94bcf7949d",
+   "k:Samples/alto/a3_p_rr2_cnd.wav": "db71b766abcefde8c06d028384c0f8c2d398ab58d63ebbce602571113a74584c",
+   "k:Samples/alto/ab2_f_rr1_cnd.wav": "af685f144fe94230a94ff23028994d651ae38de92e3e6f1dda79b8d81e106b4b",
+   "k:Samples/alto/ab2_f_rr2_cnd.wav": "37cb6a97ffbeb7e6b4d704790ca1fd23cd1431fdc827dfc06d265a928d01b212",
+   "k:Samples/alto/ab2_p_rr1_cnd.wav": "21dc8e81c17677009c3aefa03a6136095fe6d86c0f0062db8de1cedb5eb5ffbe",
+   "k:Samples/alto/ab2_p_rr2_cnd.wav": "d13ca0d7ca289baa86abe94de4923f1fa1f78e116c0cd3c9a7da9c9ee773e2b2",
+   "k:Samples/alto/ab3_f_rr1_cnd.wav": "937bdd38edb2c15bd70ce50f0620bf2413172d04eecf0e515be0b34f57ea92ef",
+   "k:Samples/alto/ab3_f_rr2_cnd.wav": "bea376e2268b1a8a0d59e0724f9d46d04b8eb0b33eaad369af528edfe6e7472a",
+   "k:Samples/alto/ab3_p_rr1_cnd.wav": "ff275ee2b0d2fab90ac827a11c04b6d782aa58b7b84573bda87a64a4688edd90",
+   "k:Samples/alto/ab3_p_rr2_cnd.wav": "f261cad7cba943f9b6d15c19a4f1f8d6fade846575132e98f363c2cc302c512f",
+   "k:Samples/alto/ab4_f_rr1_cnd.wav": "d5e4dc4650d887ec713402ef298bee7f639111f8098cdbd9cc55ff9f69ed0d55",
+   "k:Samples/alto/ab4_f_rr2_cnd.wav": "d9ec3cc4c3e77d744c721d97c9aa91cb740fe1fbb726eca1dfe1ee096f0ecb9a",
+   "k:Samples/alto/ab4_p_rr1_cnd.wav": "f124db253df1239a5d02816e9dcd3f07e75592bc0399d4e8b7d662528a0b9d86",
+   "k:Samples/alto/ab4_p_rr2_cnd.wav": "6d9a62cb865d757e93ea577c07eb6c1a993aaa7b3dc9a2db468e370ac1b26b11",
+   "k:Samples/alto/b2_f_rr1_cnd.wav": "3b6dacc6052ca931db958c4ffeb0cacaa96596422c97fb6d2ae8dc4479f1db55",
+   "k:Samples/alto/b2_f_rr2_cnd.wav": "6bd7d4229803da2638cb97677b51936d338de603d8cd6c09544756bab00e77f1",
+   "k:Samples/alto/b2_p_rr1_cnd.wav": "7e76fb83ee107b5a4b4ff5f509807c26243865d6c6572176427e64f3e91784ef",
+   "k:Samples/alto/b2_p_rr2_cnd.wav": "3684ef255f9a3d3405a8e6b313ff3008ba697c510d9be17165da5f95657f0412",
+   "k:Samples/alto/b3_f_rr1_cnd.wav": "c16d69fce397cb8bf9dd5c9cff54773ec1a397291db2768215ff7c7ad9740850",
+   "k:Samples/alto/b3_f_rr2_cnd.wav": "fd44e376afe2398a818eaebab9a10eeb87e877480b680ec4d2b4195ee9a62f1c",
+   "k:Samples/alto/b3_p_rr1_cnd.wav": "c2096d29363b68a8ff544e6bc0ab8084780e5e04f589a62afa18b482afea5d5e",
+   "k:Samples/alto/b3_p_rr2_cnd.wav": "e775fcd32e9cc0e0fedafbc243b0e8de270dcd45aba2ad86fce23c70117be905",
+   "k:Samples/alto/bb2_f_rr1_cnd.wav": "94158c0de56d1a2e0986e5482323fa43f6965f8addbf78293aa85c1bd3e508cd",
+   "k:Samples/alto/bb2_f_rr2_cnd.wav": "b2f45f3dc1be45ada3e96a02c8be469c2cc9f69ab4da1b9cbf525d87efc35da1",
+   "k:Samples/alto/bb2_p_rr1_cnd.wav": "0d8e5fbc78267c6cfd6dcdcfbb1c1eff6267950669c1c6119b3790056ab29040",
+   "k:Samples/alto/bb2_p_rr2_cnd.wav": "fb08f9521eba389e74f8c5bdb6bfb7efaf9e516498eae2881b0066750e8a95f4",
+   "k:Samples/alto/bb3_f_rr1_cnd.wav": "bffdd9efa9183f69103d1f272e0152adc33217268385dc918578ac511c4c14c0",
+   "k:Samples/alto/bb3_f_rr2_cnd.wav": "154a94c0eea783a150a3dfca0a5807982157af89a6c8dff852b16cf76b8603cc",
+   "k:Samples/alto/bb3_p_rr1_cnd.wav": "d174acd0fdfa23ea91b024974ff898614ea78026ccdd809e92c35bbe13db99e9",
+   "k:Samples/alto/bb3_p_rr2_cnd.wav": "97cb5755623b023c8c11b2ee0b44992280e89824bbb2048c58ce2593e2926a80",
+   "k:Samples/alto/c3_f_rr1_cnd.wav": "2e280b40af461bbcb31d7cb8609b100af06736af56851254017b8b3d210b59d2",
+   "k:Samples/alto/c3_f_rr2_cnd.wav": "60de48a5c6fcd182623f17f68cabccb08b2e4f5cd2923ece9c506a02ddcfdd74",
+   "k:Samples/alto/c3_p_rr1_cnd.wav": "03a948c74660d1725917245a39f202c71ee67facc345ffdfcacdc6dfbab3a733",
+   "k:Samples/alto/c3_p_rr2_cnd.wav": "515c7b15e84c5c654446e30da58d512d708625ad39ab49b15b833f17b79ad94b",
+   "k:Samples/alto/c4_f_rr1_cnd.wav": "95986bd6bd67ac1d795f4c04efca0774e35fd30f91645babe16dca0bdb596a69",
+   "k:Samples/alto/c4_f_rr2_cnd.wav": "353e5d6670b4a3c7f171589a2c68713c53b6ea76a1e1a8fe07b09458edc443b5",
+   "k:Samples/alto/c4_p_rr1_cnd.wav": "cfde9898fb96c29307a1f317b05d8bea00fabab3f4f4a223bd1054f53e8862cf",
+   "k:Samples/alto/c4_p_rr2_cnd.wav": "4c52664969256fa093859887e224f27fde193ad8efa21914061583f0e1a58437",
+   "k:Samples/alto/d2_f_rr1_cnd.wav": "f597518bccb06dc312747311b0b6d38d1ce069380e54d02d5d9e4775215dc388",
+   "k:Samples/alto/d2_f_rr2_cnd.wav": "5d14b2f6502885b55b1abd34217f0927ca1fc8aa120ee91a83672c15642f0ac0",
+   "k:Samples/alto/d2_p_rr1_cnd.wav": "753245303d7b4f9998a13a2ab30ac6881b9383201f825053ffa879e5dfaadb49",
+   "k:Samples/alto/d2_p_rr2_cnd.wav": "e24252c620dd20b8fcc972f8799598f603adaa7da0e8fc65774e55792fc5f3b8",
+   "k:Samples/alto/d3_f_rr1_cnd.wav": "2259e2aeb6f11f9178b58746141a977fa9acbd87d7145027811626c308158dbf",
+   "k:Samples/alto/d3_f_rr2_cnd.wav": "d53fc103f3667bc11b0cd20da8c4918aa29443948adc71f109c2c4de24686cc5",
+   "k:Samples/alto/d3_p_rr1_cnd.wav": "15dc73c49b87b8046361038f58172407287e41a7ff48f9c4f3af9d69d3e88f48",
+   "k:Samples/alto/d3_p_rr2_cnd.wav": "7e3062bf77211c123a53e88877300ca35f0a915f6d0d427a2f28286371fc916f",
+   "k:Samples/alto/d4_f_rr1_cnd.wav": "4cd740b93609457a2904e3637fb980c43fcff06280c204cdc2cdd4f267d050ff",
+   "k:Samples/alto/d4_f_rr2_cnd.wav": "92a1e577c46a3b28e7aef45f9ab72fee7713c9abd9bbb881e8ae20f16da3ee46",
+   "k:Samples/alto/d4_p_rr1_cnd.wav": "438924a9b7c6e50e355bab4f8068acfd610a1197964eb25ca7f694b9827e2b90",
+   "k:Samples/alto/d4_p_rr2_cnd.wav": "bcd43f84de3bf9d0f7e637a45d4c62b34384404998ef074132e217774e9e633d",
+   "k:Samples/alto/db2_f_rr1_cnd.wav": "d9a1b9f37e65ead1ebd1f3cab83dd95fbfd5f334209914834de7d80c3b3f88c9",
+   "k:Samples/alto/db2_f_rr2_cnd.wav": "f11ef560bab191b07b386021fb35c11f84cd41cd140373461b2a3dd5ccde3007",
+   "k:Samples/alto/db2_p_rr1_cnd.wav": "7028be98d04710ded6af254a4ac94f0709cbc3605e9c2a6da23e5621b3412b03",
+   "k:Samples/alto/db2_p_rr2_cnd.wav": "8a61015d5bd5c83dce0a9f305a6045fbb49fddcf6af963135c2014023f1b71e2",
+   "k:Samples/alto/db3_f_rr1_cnd.wav": "02b46a984b0bb0e4b96d36580164c0bd7516d1cde5f253280dba968ce7c4366f",
+   "k:Samples/alto/db3_f_rr2_cnd.wav": "b444cb981d897d228fae1d3bb5722a8f01e2db0f166c299647fade8d0bcbafc0",
+   "k:Samples/alto/db3_p_rr1_cnd.wav": "33116c801c22ded4a93b3ca8aa8b66b803ff137eaa70d9e3e74638572b6ae64d",
+   "k:Samples/alto/db3_p_rr2_cnd.wav": "9e83ede000be139cf447d14169042c61dfd69ded2123f0917078c81f6b668cb6",
+   "k:Samples/alto/db4_f_rr1_cnd.wav": "cc0fdb882855118baa79b5b6919c4c0e25e3f804fd2b62c9ac97f3d48cbe7513",
+   "k:Samples/alto/db4_f_rr2_cnd.wav": "9f6cbd4003982f3025ce2c0d77fcfcd0cb802cbf50864c0a48995f7129d17a02",
+   "k:Samples/alto/db4_p_rr1_cnd.wav": "24eed44f9c34ad63a3a44a05ead0e56794811fcd38a414cf4b326728c04edc07",
+   "k:Samples/alto/db4_p_rr2_cnd.wav": "85b6d8c27aded03e519482edb5511e82410b3f4555fec0376ae24365e6dabaf5",
+   "k:Samples/alto/e2_f_rr1_cnd.wav": "15fb342a4d22300c38865c966a15d97a38870ee817dc9d1001f3cb5b1721d5ce",
+   "k:Samples/alto/e2_f_rr2_cnd.wav": "69ee25406e29211e1d7b78f7e815fcae2e94fa92925ca9d5c01ab89408c56ad7",
+   "k:Samples/alto/e2_p_rr1_cnd.wav": "4b7780b85235767f8568e5ff57cd8a72ae03fe56ad69606e6bdd979d3841b55b",
+   "k:Samples/alto/e2_p_rr2_cnd.wav": "40e8e2f382a61686f05acf07a0fc17e600732eccd340885d8835ffe2f1fa0229",
+   "k:Samples/alto/e3_f_rr1_cnd.wav": "e05d2829c6862b56be98314e6f03ca81ddf20b19842a77ce623b7514cfca85a4",
+   "k:Samples/alto/e3_f_rr2_cnd.wav": "1223018c369e85847df8acffe42358aa75ac4e7e8253c02b5a629d15234fcedc",
+   "k:Samples/alto/e3_p_rr1_cnd.wav": "7986ab0d85a5e025535e8524a35b940665d3abe78df4dbf60a19aa91461e5088",
+   "k:Samples/alto/e3_p_rr2_cnd.wav": "2d7aa94a3ea37376123e90ad603d37b9dbcd717333213b83d8d786fb9136716d",
+   "k:Samples/alto/e4_f_rr1_cnd.wav": "9409f119af6a93c1dfcfab379d7f65c0739d88b5f484da1f1a8a9d3ae6029f95",
+   "k:Samples/alto/e4_f_rr2_cnd.wav": "e7ca30c989f869e5f5df0ee42f5300b259197fa00e8b43ce26c719a1ed30abe8",
+   "k:Samples/alto/e4_p_rr1_cnd.wav": "7d9163e3cef12c038747d2768244429eb49fe2eab66baa70e028c642f93341ff",
+   "k:Samples/alto/e4_p_rr2_cnd.wav": "5e75a44efddc2e311e115b5a148c3514f6457017142357e71828c180e84313b0",
+   "k:Samples/alto/eb2_f_rr1_cnd.wav": "c72f7faa8582ac56cec455295900391404bfb4afd1618a610800718f4a60a0e9",
+   "k:Samples/alto/eb2_f_rr2_cnd.wav": "90631b3172051ae6ca5319773b16ae0675dae02a60c97c346a95c92e17f1505d",
+   "k:Samples/alto/eb2_p_rr1_cnd.wav": "e5e7675d99dcb85d82c390fd248f4ed59c53d7ef1b593603c58c6fb7405e41b2",
+   "k:Samples/alto/eb2_p_rr2_cnd.wav": "da1ec606fcdfe906dd9c36e3ba1b70580961dcfabe85ea58b97b2c9c2681204f",
+   "k:Samples/alto/eb3_f_rr1_cnd.wav": "5757e6947ab37207bc25e205517d5d2c021185f892aef0962293f892c920c388",
+   "k:Samples/alto/eb3_f_rr2_cnd.wav": "229652cddab1033a178869b0d8cc8794b2fbbd5be2c2b19878b5a65fba0ca922",
+   "k:Samples/alto/eb3_p_rr1_cnd.wav": "9806cf3e354e5b1f2f044cb2fb435d2e34e5ba0ffd52471e170aacb3b873c1ae",
+   "k:Samples/alto/eb3_p_rr2_cnd.wav": "5ee48c75b74133586dc68ea7c8982a8fc833695b48bfb8ffe95a0e772600f00d",
+   "k:Samples/alto/eb4_f_rr1_cnd.wav": "ba6ec6475d631ce3615ee15c3a1e86dcdfb8ae7862fa6102bb9909a9d360f14c",
+   "k:Samples/alto/eb4_f_rr2_cnd.wav": "2875bd3aedf538ac78c360942efff97c3dc947d44979b33ce218d4db7745a3ae",
+   "k:Samples/alto/eb4_p_rr1_cnd.wav": "068e6a40339548961d565e398c0fb33f818025e34c86eb4f33b099b2ace4259b",
+   "k:Samples/alto/eb4_p_rr2_cnd.wav": "050ab13b04b5250c9906f2734de3a6e8352119e5e50093cbbeddea562033428b",
+   "k:Samples/alto/f2_f_rr1_cnd.wav": "ce392eb2edf1568e39126e6d0c390c6b784c17e4977bca1e04178cd4bfe86b22",
+   "k:Samples/alto/f2_f_rr2_cnd.wav": "5f7d8eb7c78d99d56303bd6b487decc24305d35ab5bf5ff8ff67c5f397e206bc",
+   "k:Samples/alto/f2_p_rr1_cnd.wav": "10e6e74fec1920811f4f5b6e5e4d8e7bf884b1043d5382f723fe60094e4be6c7",
+   "k:Samples/alto/f2_p_rr2_cnd.wav": "82e7c878062b314ad12d997e9ab3efdb916bf99957e21c10a8809cc718c8f9c4",
+   "k:Samples/alto/f3_f_rr1_cnd.wav": "7d708e2382d316886e9a5a175b82ea28d44ddbfe057bbeb9473ae14d224f804d",
+   "k:Samples/alto/f3_f_rr2_cnd.wav": "8064b53ca0c5cb8c84cc3ab7d4379e9e098b34869eb8e6c0ee9de5df45abc19f",
+   "k:Samples/alto/f3_p_rr1_cnd.wav": "ef082bd2aad895b3ff74acf5fd559013598f7d9735964ec095b79ecb3c46caf6",
+   "k:Samples/alto/f3_p_rr2_cnd.wav": "2a8430b1ac7706050297b6da44ba93df50119a4f013234e57e93df5193438556",
+   "k:Samples/alto/f4_f_rr1_cnd.wav": "76d59c51d4d7ba96307c697dd68ca5f8d197c400d6ce60ad2b0b2eb96efb794a",
+   "k:Samples/alto/f4_f_rr2_cnd.wav": "a612fa823eb39ce14fc854c56ebaec248931beaffd6ff4df214fd8baf9057476",
+   "k:Samples/alto/f4_p_rr1_cnd.wav": "2e4cca7dad08781824b39495cdf1cfc2c4ed1c00b28d5448f36d8092c97026ac",
+   "k:Samples/alto/f4_p_rr2_cnd.wav": "8d17ffedc5186694231d21c1e6304623cd8937fbc4acc41dfab158181d6f9e1a",
+   "k:Samples/alto/g2_f_rr1_cnd.wav": "46e810a5215344cb31458086958f9bd5d698224f5f9d11b77d0cbade2c4e8241",
+   "k:Samples/alto/g2_f_rr2_cnd.wav": "994f9e7c19662d9abe1fd657fbd9c10ddd1e1bffb62ed6796b8dfdae0255d265",
+   "k:Samples/alto/g2_p_rr1_cnd.wav": "6471310b34449df7f549586f5536403b0a192a30d8566417a5d313a7163a058d",
+   "k:Samples/alto/g2_p_rr2_cnd.wav": "e2cd509d5227b88d3581388d5271a1000129b12a33146c24349060cdf8aee477",
+   "k:Samples/alto/g3_f_rr1_cnd.wav": "4b50f3480db1028b08bb59f73cd1e36b88aa49c47837b63beddb5dbda5ef78dd",
+   "k:Samples/alto/g3_f_rr2_cnd.wav": "a0ade9d46882786ad9ed2e9eaab2a9fa64f2df38e03622bf83518a9855784604",
+   "k:Samples/alto/g3_p_rr1_cnd.wav": "41e8b08914dfcfa44df52546c80c501b749ccc170a04e113d5d5fabced9bdfa8",
+   "k:Samples/alto/g3_p_rr2_cnd.wav": "acb8808ae73590ff1f4494c2cbdebadcc8796bc265b2d27e501be7c83b109035",
+   "k:Samples/alto/g4_f_rr1_cnd.wav": "ad0fbe454532772d5234935ab670c4a41ec9645dea4f3d45ca265b43eddea787",
+   "k:Samples/alto/g4_f_rr2_cnd.wav": "de91951f1d7f69cf668e9718d49769d67c7c864943c9878cbed649b80bec6cc5",
+   "k:Samples/alto/g4_p_rr1_cnd.wav": "ce0074b1d6123c516d5316e055b4e27f72da0044ae7cff12fc5a0f90ecaf11fb",
+   "k:Samples/alto/g4_p_rr2_cnd.wav": "d8b3aa6a26596a40e801733369188ea5bf96feee620a8118c5b22737d25480a7",
+   "k:Samples/alto/gb2_f_rr1_cnd.wav": "48e14c85db37eecc3d9564ee46cca51f3b6a9821a8a1c5996cf32409d784fbb3",
+   "k:Samples/alto/gb2_f_rr2_cnd.wav": "7584d1d20f34eef6cbc614097d42fb69d6eed64008049d4c451187ca2aaefdfc",
+   "k:Samples/alto/gb2_p_rr1_cnd.wav": "c9d8e870ee69b62a9cd426e943c0762104d8e27138b259fd0ae0978f7029e21d",
+   "k:Samples/alto/gb2_p_rr2_cnd.wav": "fb55ef975e7f8ef28a06a4349291cb7c139ef7f842b8cc7e3fac038a135fcaab",
+   "k:Samples/alto/gb3_f_rr1_cnd.wav": "be97a973c78462637e370fa1c54a4f54425b65df60683637695ec898a69ca455",
+   "k:Samples/alto/gb3_f_rr2_cnd.wav": "61f43270c27ccf945a1ac4d52528c1fe001b960ccc56e88778f623fd04ba6f3e",
+   "k:Samples/alto/gb3_p_rr1_cnd.wav": "8220f0ce76c129e05723146167348d387e62e4a6c5a16c1f885d6a3e0076a670",
+   "k:Samples/alto/gb3_p_rr2_cnd.wav": "656a644f86d7dd7e9e74862d9fa0db82e91ef398730cec63e2f30740dd302a55",
+   "k:Samples/alto/gb4_f_rr1_cnd.wav": "af739c13811786f3ad39c66a6fff1f32ea5a67c263096f79e70ba8c120e35f89",
+   "k:Samples/alto/gb4_f_rr2_cnd.wav": "39e0bc94a304b7a5af03373d247191ce8bab5e6c5f8e3505d1b2e0e79768b88c",
+   "k:Samples/alto/gb4_p_rr1_cnd.wav": "ff7ce7a8f14147d9c48cb7970ea6bc61c2043c945d05a9d84bca483077778b43",
+   "k:Samples/alto/gb4_p_rr2_cnd.wav": "f81ccad9cee620343203d24726cfb633a7c2c257d0307339cf5fcbf821ed1a40"
+  },
+  "bits": 24,
+  "files": {
+   "alto-sax/db2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 371658,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 324550,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 230266,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 271390,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 286844,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 292779,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 308736,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 305596,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 308689,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 281348,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 272596,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 269236,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 249905,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 231540,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 278137,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 280825,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/a2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/a2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 242582,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/a2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/a2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264576,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/bb2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/bb2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 262328,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/bb2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/bb2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 246874,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/b2_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/b2_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 260920,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/b2_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/b2_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264644,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/c3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/c3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 241073,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/c3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/c3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 236941,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 196161,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 215248,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 271352,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 279288,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 269609,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 289088,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 208232,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 222424,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 246815,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 257338,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 222470,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 231546,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 238770,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 238293,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264650,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 242580,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/a3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/a3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 212415,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/a3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/a3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 243800,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/bb3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/bb3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 244300,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/bb3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/bb3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 286707,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/b3_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/b3_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264581,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/b3_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/b3_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 275658,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/c4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/c4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 299818,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/c4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/c4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 312774,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 217738,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 261951,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 234178,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 275643,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 231550,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 258590,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 246555,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 251081,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 256120,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264612,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 231571,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 258345,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264653,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 297685,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab4_p_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab4_p_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 199714,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab4_p_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab4_p_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 267404,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 273172,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 272584,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 219620,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 230120,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 255567,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 272320,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 220684,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 245701,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 223850,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 220516,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 234033,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 225427,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 197211,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 195311,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 294288,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 261261,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/a2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/a2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 256681,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/a2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/a2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 241786,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/bb2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/bb2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 238974,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/bb2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/bb2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 310807,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/b2_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/b2_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 316113,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/b2_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/b2_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 268187,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/c3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/c3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 273905,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/c3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/c3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 281124,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 294308,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 317031,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 300507,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 301928,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 253139,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 234757,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 302021,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 318420,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 286607,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 321402,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264595,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 273981,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 267179,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264485,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 308501,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 310514,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/a3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/a3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 275140,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/a3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/a3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 258089,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/bb3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/bb3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 234274,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/bb3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/bb3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 281282,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/b3_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/b3_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 280489,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/b3_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/b3_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 273575,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/c4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/c4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 262978,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/c4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/c4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 290563,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 276216,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/db4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/db4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 260217,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 295911,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/d4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/d4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 225983,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 234294,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/eb4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/eb4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 238761,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 253554,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/e4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/e4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 242527,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 263099,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/f4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/f4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 263288,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 267176,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/gb4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/gb4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 231664,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 290164,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/g4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/g4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 324754,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab4_f_rr1_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab4_f_rr1_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 256309,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "alto-sax/ab4_f_rr2_cnd.wav": {
+    "in": [
+     [
+      "k:Samples/alto/ab4_f_rr2_cnd.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 239696,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "alto-sax",
+   "title": "Alto Sax",
+   "category": "Woodwinds",
+   "pitched": true,
+   "release": 0.15,
+   "attack": 0.005,
+   "oneShot": false,
+   "velocityRange": 20,
+   "polyphony": 16,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "alto-sax/db2_p_rr1_cnd.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 371658,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/db2_p_rr2_cnd.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 324550,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/db2_f_rr1_cnd.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 273172,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/db2_f_rr2_cnd.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 272584,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/d2_p_rr1_cnd.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 230266,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/d2_p_rr2_cnd.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 271390,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/d2_f_rr1_cnd.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 219620,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/d2_f_rr2_cnd.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 230120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/eb2_p_rr1_cnd.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 286844,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/eb2_p_rr2_cnd.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 292779,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/eb2_f_rr1_cnd.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 255567,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/eb2_f_rr2_cnd.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 272320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/e2_p_rr1_cnd.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 308736,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/e2_p_rr2_cnd.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 305596,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/e2_f_rr1_cnd.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 220684,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/e2_f_rr2_cnd.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 245701,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/f2_p_rr1_cnd.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 308689,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/f2_p_rr2_cnd.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 281348,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/f2_f_rr1_cnd.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 223850,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/f2_f_rr2_cnd.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 220516,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/gb2_p_rr1_cnd.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 272596,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/gb2_p_rr2_cnd.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 269236,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/gb2_f_rr1_cnd.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 234033,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/gb2_f_rr2_cnd.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 225427,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/g2_p_rr1_cnd.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 249905,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/g2_p_rr2_cnd.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 231540,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/g2_f_rr1_cnd.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 197211,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/g2_f_rr2_cnd.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 195311,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/ab2_p_rr1_cnd.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 278137,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/ab2_p_rr2_cnd.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 280825,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/ab2_f_rr1_cnd.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 294288,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/ab2_f_rr2_cnd.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 261261,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/a2_p_rr1_cnd.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 242582,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/a2_p_rr2_cnd.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 264576,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/a2_f_rr1_cnd.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 256681,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/a2_f_rr2_cnd.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 241786,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/bb2_p_rr1_cnd.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 262328,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/bb2_p_rr2_cnd.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 246874,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/bb2_f_rr1_cnd.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 238974,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/bb2_f_rr2_cnd.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 310807,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/b2_p_rr1_cnd.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 260920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/b2_p_rr2_cnd.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 264644,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/b2_f_rr1_cnd.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 316113,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/b2_f_rr2_cnd.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 268187,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/c3_p_rr1_cnd.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 241073,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/c3_p_rr2_cnd.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 236941,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/c3_f_rr1_cnd.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 273905,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/c3_f_rr2_cnd.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 281124,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/db3_p_rr1_cnd.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 196161,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/db3_p_rr2_cnd.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 215248,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/db3_f_rr1_cnd.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 294308,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/db3_f_rr2_cnd.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 317031,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/d3_p_rr1_cnd.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 271352,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/d3_p_rr2_cnd.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 279288,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/d3_f_rr1_cnd.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 300507,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/d3_f_rr2_cnd.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 301928,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/eb3_p_rr1_cnd.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 269609,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/eb3_p_rr2_cnd.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 289088,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/eb3_f_rr1_cnd.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 253139,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/eb3_f_rr2_cnd.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 234757,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/e3_p_rr1_cnd.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 208232,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/e3_p_rr2_cnd.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 222424,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/e3_f_rr1_cnd.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 302021,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/e3_f_rr2_cnd.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 318420,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/f3_p_rr1_cnd.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 246815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/f3_p_rr2_cnd.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 257338,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/f3_f_rr1_cnd.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 286607,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/f3_f_rr2_cnd.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 321402,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/gb3_p_rr1_cnd.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 222470,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/gb3_p_rr2_cnd.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 231546,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/gb3_f_rr1_cnd.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 264595,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/gb3_f_rr2_cnd.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 273981,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/g3_p_rr1_cnd.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 238770,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/g3_p_rr2_cnd.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 238293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/g3_f_rr1_cnd.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 267179,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/g3_f_rr2_cnd.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 264485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/ab3_p_rr1_cnd.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 264650,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/ab3_p_rr2_cnd.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 242580,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/ab3_f_rr1_cnd.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 308501,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/ab3_f_rr2_cnd.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 310514,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/a3_p_rr1_cnd.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 212415,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/a3_p_rr2_cnd.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 243800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/a3_f_rr1_cnd.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 275140,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/a3_f_rr2_cnd.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 258089,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/bb3_p_rr1_cnd.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 244300,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/bb3_p_rr2_cnd.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 286707,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/bb3_f_rr1_cnd.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 234274,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/bb3_f_rr2_cnd.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 281282,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/b3_p_rr1_cnd.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 264581,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/b3_p_rr2_cnd.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 275658,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/b3_f_rr1_cnd.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 280489,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/b3_f_rr2_cnd.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 273575,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/c4_p_rr1_cnd.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 299818,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/c4_p_rr2_cnd.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 312774,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/c4_f_rr1_cnd.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 262978,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/c4_f_rr2_cnd.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 290563,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/db4_p_rr1_cnd.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 217738,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/db4_p_rr2_cnd.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 261951,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/db4_f_rr1_cnd.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 276216,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/db4_f_rr2_cnd.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 260217,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/d4_p_rr1_cnd.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 234178,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/d4_p_rr2_cnd.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 275643,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/d4_f_rr1_cnd.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 295911,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/d4_f_rr2_cnd.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 225983,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/eb4_p_rr1_cnd.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 231550,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/eb4_p_rr2_cnd.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 258590,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/eb4_f_rr1_cnd.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 234294,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/eb4_f_rr2_cnd.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 238761,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/e4_p_rr1_cnd.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 246555,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/e4_p_rr2_cnd.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 251081,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/e4_f_rr1_cnd.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 253554,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/e4_f_rr2_cnd.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 242527,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/f4_p_rr1_cnd.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 256120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/f4_p_rr2_cnd.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 264612,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/f4_f_rr1_cnd.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 263099,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/f4_f_rr2_cnd.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 263288,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/gb4_p_rr1_cnd.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 231571,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/gb4_p_rr2_cnd.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 258345,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/gb4_f_rr1_cnd.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 267176,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/gb4_f_rr2_cnd.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 231664,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/g4_p_rr1_cnd.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 264653,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/g4_p_rr2_cnd.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 297685,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/g4_f_rr1_cnd.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 290164,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/g4_f_rr2_cnd.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 324754,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/ab4_p_rr1_cnd.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 199714,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/ab4_p_rr2_cnd.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": 0.74,
+     "start": 0,
+     "end": 267404,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "alto-sax/ab4_f_rr1_cnd.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 256309,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "alto-sax/ab4_f_rr2_cnd.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 239696,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    }
+   ]
+  }
+ ]
+}
