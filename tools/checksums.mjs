@@ -28,6 +28,10 @@ for (const id of readdirSync(packs).sort()) {
   const mapFile = join(packs, id, 'pack.json');
   if (!existsSync(mapFile) || (args.length && !args.includes(id))) continue;
   const pack = JSON.parse(readFileSync(mapFile, 'utf8'));
+  if (!packPaths(pack).length) {
+    console.log(`${pack.id}: no files of its own (a palette): its files.sha256 is only its comment`);
+    continue;
+  }
   const dir = join(data, 'packs', pack.id, pack.root || 'samples');
   if (!existsSync(dir)) {
     console.log(`${pack.id}: not installed in ${data} (skipped)`);

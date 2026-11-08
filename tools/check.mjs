@@ -3,7 +3,8 @@
 // - Its map parses, is a holo-pack map named after its folder, and says whose samples it plays and
 //   under what licence.
 // - Every file its instruments and spaces name has a checksum (what an install and an experience's
-//   build check each sample against). A palette has no files: an empty files.sha256 and source "none".
+//   build check each sample against). A palette has no files: source "none", and a files.sha256 of one
+//   comment line (GitHub's raw host can refuse an empty file).
 // - A kit's pads each play the one piece their name says, every piece has one, and the kick, snare
 //   and hi-hats sit where General MIDI has them.
 // - Every other instrument is played by pitch, or is one sound whose one pad is named by it.
@@ -78,6 +79,8 @@ for (const id of readdirSync(packsDir).sort()) {
       // a palette: its sounds play other packs and HO[LO]'s synths
       if (pack.source?.kind !== 'none') fail('it has no files, so its source is "none"');
       if (pack.bytes) fail('it has no files, so no "bytes"');
+      if (existsSync(sumsFile) && !readFileSync(sumsFile, 'utf8').trim())
+        fail('its files.sha256 is empty: give it a comment line saying why (GitHub\'s raw host can refuse an empty file)');
     }
     if (!pack.instruments?.length && !pack.impulses?.length && !pack.sounds?.length)
       fail('it has no instruments, no spaces and no sounds');
