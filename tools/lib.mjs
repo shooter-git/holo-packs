@@ -10,6 +10,7 @@ import { dirname, join } from 'node:path';
 import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
 import { holo, repo } from './holo.mjs';
+import { refusePrivate } from './private.mjs';
 
 const { decodeInput, mixArchive, mixExtension, mixFile, mixUrl } = await holo('packages/music/src/mix.ts');
 const { archiveExtension, archiveFormat, archiveNames, unpack } = await holo('packages/music/src/archives.ts');
@@ -389,6 +390,7 @@ export function widestRange(levelSets) {
 
 /** The pack's map, written as the others are (one space indent, its size after its credit). */
 export function writeManifest(pack) {
+  refusePrivate(pack, 'writing the map of');
   const file = join(root, 'packs', pack.id, 'pack.json');
   mkdirSync(dirname(file), { recursive: true });
   const { format, version, id, name, license, credit, bytes, ...rest } = pack;
@@ -403,6 +405,7 @@ export function writeManifest(pack) {
  * write their checksums.
  */
 export async function makeFiles(pack, downloads, out) {
+  refusePrivate(pack, 'making the files of');
   const source = pack.source;
   const sums = {};
   const paths = Object.keys(source.files).sort();
@@ -465,11 +468,19 @@ export function pinDownloads(source, downloads) {
   return out;
 }
 
-/** Decoded size in megabytes of an instrument's samples at 48 kHz stereo float (what a device holds). */
-export function memoryMb(zones, rates) {
+/**
+ * Decoded size in megabytes of an instrument's samples at 48 kHz float (what a device holds): stereo,
+ * but for the files `mono` names (a set of paths), at half that.
+ */
+export function memoryMb(zones, rates, mono) {
   let frames = 0;
-  for (const z of zones) frames += ((z.end - z.start) * 48000) / (rates?.[z.file] ?? z.rate);
-  return (frames * 8) / 1048576;
+  let monoFrames = 0;
+  for (const z of zones) {
+    const f = ((z.end - z.start) * 48000) / (rates?.[z.file] ?? z.rate);
+    if (mono?.has(z.file)) monoFrames += f;
+    else frames += f;
+  }
+  return (frames * 8 + monoFrames * 4) / 1048576;
 }
 
 export { mixExtension };
