@@ -4,12 +4,16 @@
 //   under what licence: one that lets anyone share them (CC0, CC BY 3.0 or 4.0, public domain, the
 //   Unlicense, the Artistic License 2.0, or free to use without restriction).
 // - Every file its instruments and spaces name has a checksum (what an install and an experience's
-//   build check each sample against).
+//   build check each sample against). A palette has no files: source "none", and a files.sha256 of one
+//   comment line (GitHub's raw host can refuse an empty file).
 // - A kit's pads each play the one piece their name says, every piece has one, and the kick, snare
 //   and hi-hats sit where General MIDI has them. Any other set of sounds on pads (a tabla's strokes,
 //   a collection's hits: a category other than Drums) has pads too, each its own piece, without
 //   General MIDI's kit.
 // - Every other instrument is played by pitch, or is one sound whose one pad is named by it.
+// - A palette's sounds each play a synth or an effect HO[LO] Desk has, with knobs it has, set within
+//   their ranges, and an instrument of a pack it requires (which must be here). A sound waiting for a
+//   piece that isn't in HO[LO] Desk or here yet is marked "coming".
 // - A multi-microphone instrument's microphones are well formed, and every hit has one zone a
 //   microphone, all of them alike but for their file, microphone and pan (they sound as one hit).
 // - No pack is someone's own (imported from their files, or made from files only they have).
@@ -19,13 +23,28 @@ import { holo, repo } from './holo.mjs';
 import { privateReason } from './private.mjs';
 import { FREE, LICENCES } from './readme.mjs';
 
-const { packPaths, parseChecksums, pinPack } = await holo('packages/music/src/packs.ts');
+const { packPaths, parseChecksums, pinPack, withRequired } = await holo('packages/music/src/packs.ts');
+const { checkSound, soundPacks, soundSampler } = await holo('packages/session/src/palettes.ts');
 const { padsFor, playsHits } = await holo('apps/web/src/ui/pads.ts');
 
 const only = process.argv.slice(2);
 const packsDir = join(repo, 'packs');
 const opts = { wide: false, octave: 3, middleC: 'C4' };
 const KINDS = new Set(['git', 'cut', 'archive', 'mix']);
+const ids = readdirSync(packsDir)
+  .filter((x) => existsSync(join(packsDir, x, 'pack.json')))
+  .sort();
+/** Every pack's map, for a palette's sounds to be checked against (null when one doesn't parse). */
+const maps = new Map(
+  ids.map((x) => {
+    try {
+      return [x, JSON.parse(readFileSync(join(packsDir, x, 'pack.json'), 'utf8'))];
+    } catch {
+      return [x, null];
+    }
+  }),
+);
+const notes = [];
 // a piece's folder words that its pad's name must have (by letters and digits)
 const WORDS = { 'hat-three-quarter': ['hat', '¾'] };
 const flat = (s) => s.toLowerCase().replace(/[^a-z0-9¾]/g, '');
@@ -110,15 +129,33 @@ for (const id of readdirSync(packsDir).sort()) {
     const mine = privateReason(pack);
     if (mine) fail(`${mine}`);
     for (const key of ['name', 'license', 'credit']) if (!pack[key]) fail(`it has no ${key}`);
+    if (!Array.isArray(pack.instruments)) fail('it has no "instruments" (a palette has an empty list)');
     // only licences that let anyone share the samples
     if (pack.license && !LICENCES[pack.license] && !FREE.test(pack.license))
       fail(
         `its licence "${pack.license}" isn't one HO[LO] may ship (${Object.keys(LICENCES).join(', ')}, or "Free to use without restriction (whose)")`,
       );
-    if (!Number.isInteger(pack.bytes) || pack.bytes <= 0)
-      fail('it has no "bytes" (its samples\' size: node tools/checksums.mjs, or its recipe, writes it)');
-    if (!KINDS.has(pack.source?.kind)) fail(`its source is "${pack.source?.kind}", not ${[...KINDS].join(', ')}`);
-    if (!pack.instruments?.length && !pack.impulses?.length) fail('it has no instruments and no spaces');
+    const files = (() => {
+      try {
+        return packPaths({ instruments: pack.instruments ?? [], impulses: pack.impulses }).length;
+      } catch {
+        return 0;
+      }
+    })();
+    if (files) {
+      if (!Number.isInteger(pack.bytes) || pack.bytes <= 0)
+        fail('it has no "bytes" (its samples\' size: node tools/checksums.mjs, or its recipe, writes it)');
+      if (!KINDS.has(pack.source?.kind)) fail(`its source is "${pack.source?.kind}", not ${[...KINDS].join(', ')}`);
+    } else {
+      // a palette: its sounds play other packs and HO[LO]'s synths
+      if (pack.source?.kind !== 'none') fail('it has no files, so its source is "none"');
+      if (pack.bytes) fail('it has no files, so no "bytes"');
+      if (existsSync(sumsFile) && !readFileSync(sumsFile, 'utf8').trim())
+        fail('its files.sha256 is empty: give it a comment line saying why (GitHub\'s raw host can refuse an empty file)');
+    }
+    if (!pack.instruments?.length && !pack.impulses?.length && !pack.sounds?.length)
+      fail('it has no instruments, no spaces and no sounds');
+    await checkPalette(id, pack, fail);
 
     // every file it names, pinned by checksum
     try {
@@ -185,11 +222,66 @@ for (const id of readdirSync(packsDir).sort()) {
     for (const p of problems) console.error(`    ${p}`);
   } else {
     const files = packPaths(pack).length;
-    console.log(`✓ ${id}: ${pack.instruments?.length ?? 0} instrument(s), ${files} files`);
+    const sounds = pack.sounds?.length ? `, ${pack.sounds.length} sound(s)` : '';
+    console.log(`✓ ${id}: ${pack.instruments?.length ?? 0} instrument(s), ${files} files${sounds}`);
   }
 }
+
+for (const n of notes) console.log(`  note: ${n}`);
 
 if (failed) {
   console.error(`\n${failed} pack(s) failed`);
   process.exit(1);
+}
+
+/** A palette's requires and sounds, against HO[LO] Desk's synths and effects and the packs here. */
+async function checkPalette(id, pack, fail) {
+  const requires = pack.requires ?? [];
+  if (!Array.isArray(requires) || requires.some((r) => typeof r !== 'string')) {
+    fail('its "requires" is not a list of pack ids');
+    return;
+  }
+  for (const r of requires) {
+    if (r === id) fail('it requires itself');
+    else if (!maps.has(r)) fail(`it requires "${r}", which isn't a pack here`);
+  }
+  if (new Set(requires).size !== requires.length) fail('it requires a pack twice');
+  try {
+    // packs that require each other would never install
+    await withRequired([id], (x) => (x === id ? requires : (maps.get(x)?.requires ?? [])));
+  } catch (err) {
+    fail(err.message);
+  }
+  const sounds = pack.sounds;
+  if (sounds === undefined) return;
+  if (!Array.isArray(sounds) || !sounds.length) {
+    fail('its "sounds" is not a list of sounds');
+    return;
+  }
+  if (!pack.description) fail('it has sounds but no "description" (what it is, in a line)');
+  const names = new Set();
+  for (const s of sounds) {
+    const at = `sound "${s?.name}":`;
+    if (names.has(s?.name)) fail(`${at} two sounds have that name`);
+    names.add(s?.name);
+    if (!s?.note) fail(`${at} it has no note (what it is, in a line)`);
+    const { missing, problems } = checkSound(s);
+    for (const p of problems) fail(`${at} ${p}`);
+    const absent = [...missing];
+    for (const p of soundPacks(s)) {
+      if (p === id) continue;
+      const map = maps.get(p);
+      if (!map) {
+        absent.push(`the "${p}" pack`);
+        continue;
+      }
+      if (!requires.includes(p)) fail(`${at} it plays "${p}", which the palette doesn't require`);
+      const sampler = soundSampler(s);
+      if (sampler?.pack === p && !map.instruments?.some((i) => i.name === sampler.name))
+        absent.push(`${p}/${sampler.name}`);
+    }
+    if (absent.length && !s.coming)
+      fail(`${at} it needs ${absent.join(' and ')}, which isn't here: mark it "coming" if it's on its way`);
+    if (!absent.length && s.coming) notes.push(`${id}: "${s.name}" has everything it needs now: drop its "coming"`);
+  }
 }

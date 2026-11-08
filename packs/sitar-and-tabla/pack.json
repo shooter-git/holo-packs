@@ -1,0 +1,183 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "sitar-and-tabla",
+ "name": "Sitar and Tabla",
+ "description": "North Indian classical instruments: sitar and tanpura, bansuri and harmonium, tabla, with singing bowls and Nepalese bells.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), tabla bols by Mihir Sarkar for the One Laptop per Child sound library (CC BY 3.0), singing bowls by OpenPath Music for the One Laptop per Child sound library (CC BY 3.0). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "nepal-bells",
+  "singing-bowls",
+  "tabla"
+ ],
+ "sounds": [
+  {
+   "name": "Sitar",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Sitar",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -1.5,
+   "note": "Strings buzzing on the wide bridge (jawari), sympathetic strings ringing along."
+  },
+  {
+   "name": "Tanpura",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Tanpura",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -10
+   },
+   "volume": -2.5,
+   "note": "Hold Sa: the drone plays Pa, Sa, Sa and the low Sa, round and round."
+  },
+  {
+   "name": "Bansuri",
+   "family": "Woodwinds",
+   "instrument": {
+    "synth": "Bansuri",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -10
+   },
+   "volume": -5.5,
+   "note": "The side-blown bamboo flute: sweet, with a wide gentle vibrato."
+  },
+  {
+   "name": "Harmonium",
+   "family": "Organs",
+   "instrument": {
+    "synth": "Harmonium",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -3.5,
+   "note": "Hand-pumped reeds, breathing with the bellows."
+  },
+  {
+   "name": "Tabla",
+   "family": "Drums and percussion",
+   "instrument": {
+    "pack": "tabla",
+    "name": "tabla"
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -16
+   },
+   "note": "The pair of hand drums, a bol on each key: Dha, Dhin, Ge, Ke, Na and more.",
+   "volume": -1.5
+  },
+  {
+   "name": "Singing Bowls",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "singing-bowls",
+    "name": "bowls"
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -10
+   },
+   "note": "Struck and rubbed bowls, long and beating.",
+   "volume": -3.5
+  },
+  {
+   "name": "Nepalese Bells",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "nepal-bells",
+    "name": "bells"
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "note": "Small hand bells, three on three keys.",
+   "volume": 3
+  }
+ ]
+}

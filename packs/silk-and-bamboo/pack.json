@@ -1,0 +1,209 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "silk-and-bamboo",
+ "name": "Silk and Bamboo",
+ "description": "Chinese instruments of silk strings and bamboo pipes: erhu, guzheng and pipa, dizi and sheng, with Peking opera gongs and the temple block.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), the erhu of the SFZ Instruments project (CC0). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "erhu",
+  "vcsl"
+ ],
+ "sounds": [
+  {
+   "name": "Erhu",
+   "family": "Strings",
+   "instrument": {
+    "pack": "erhu",
+    "name": "erhu"
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "note": "The two-stringed bowed fiddle: a voice-like, sliding tone.",
+   "volume": -4.5
+  },
+  {
+   "name": "Guzheng",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Guzheng",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -2,
+   "note": "The many-stringed zither: shimmering plucks, lovely for glissandi."
+  },
+  {
+   "name": "Guzheng, Pressed",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Guzheng",
+    "params": {
+     "vibrato": 0.7,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -2.5,
+   "note": "The guzheng with a deep left-hand vibrato pressed into each note."
+  },
+  {
+   "name": "Pipa",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Pipa",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": 0,
+   "note": "The pear-shaped lute: held notes become a fast tremolo."
+  },
+  {
+   "name": "Dizi",
+   "family": "Woodwinds",
+   "instrument": {
+    "synth": "Dizi",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -3,
+   "note": "The bamboo flute with a buzzing membrane: bright and reedy."
+  },
+  {
+   "name": "Sheng",
+   "family": "Organs",
+   "instrument": {
+    "synth": "Sheng",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -3.5,
+   "note": "The mouth organ of bamboo pipes: each note with its fifth and octave."
+  },
+  {
+   "name": "Opera Gongs",
+   "family": "Drums and percussion",
+   "instrument": {
+    "synth": "Opera Gongs",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -4.5,
+   "note": "Peking opera hand gongs: the pitch slides down on low notes and up on high ones."
+  },
+  {
+   "name": "Temple Block",
+   "family": "Drums and percussion",
+   "instrument": {
+    "pack": "vcsl",
+    "name": "woodblock"
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -14
+   },
+   "volume": -2.5,
+   "note": "The hollow wooden block that keeps time."
+  }
+ ]
+}

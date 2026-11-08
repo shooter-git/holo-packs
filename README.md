@@ -12,6 +12,10 @@ checks every file against these checksums. So everyone's copy is the same, bit f
 - **Find a pack:** browse by family under [Instruments](#instruments), or see [Every pack](#every-pack)
   at a glance. Each pack's page says where its sounds come from, what's in it, its licence, its size
   and its kit pads.
+- **Palettes** are sets of ready-made sounds for a style of music: each sound an instrument with its
+  effects, its room and its level, one click from a track in the studio. A palette has no audio of
+  its own: its sounds play the packs here and HO[LO] Desk's built-in synths, and a click installs the
+  packs a sound plays. See [Palettes](#palettes).
 - **Install or remove one:** in the studio's Library, use **More packs → Install**, or **Remove** on
   an installed pack to free the disk it takes. On the command line, `pnpm packs install <id>` and
   `pnpm packs remove <id>` do the same.
@@ -83,6 +87,25 @@ version…) are listed with it, and every pack links to its own page.
 | [Versilian Community Sample Library](packs/vcsl/) | Percussion, Tuned percussion, Guitars and plucked strings, Woodwinds | 22 | 198 MB | CC0 1.0 |
 | [Vintage Keys (Greg Sullivan, FreePats)](packs/vintage-keys/) | Pianos and keys | 3 | 149 MB | CC BY 3.0 |
 | [VSCO 2 Community Edition](packs/vsco2/) | Pianos and keys, Percussion, Tuned percussion, Strings, Woodwinds, Brass | 57 | 1.5 GB | CC0 1.0 |
+
+### Palettes
+
+| Palette | Sounds | Plays |
+|---|---|---|
+| [Breath and Pipes](packs/breath-and-pipes/) | 12 | Steinway Model D (bitKlavier Grand), VSCO 2 Community Edition, built-in synths |
+| [Classic Symphonic](packs/classic-symphonic/) | 16 | University of Iowa MIS: Brass, VSCO 2 Community Edition, built-in synths |
+| [Crystal Pulse](packs/crystal-pulse/) | 13 | Versilian Community Sample Library, VSCO 2 Community Edition, built-in synths |
+| [Felt and Strings](packs/felt-and-strings/) | 11 | VSCO 2 Community Edition, built-in synths |
+| [Gamelan](packs/gamelan/) | 8 | Balinese Gamelan (OLPC), Javanese Gamelan (Casa da Música) |
+| [Heroic Orchestra](packs/heroic-orchestra/) | 14 | VSCO 2 Community Edition, built-in synths |
+| [Hybrid Epic](packs/hybrid-epic/) | 14 | Karoryfer x bigcat Cello, VSCO 2 Community Edition, built-in synths |
+| [Korean](packs/korean/) | 3 | built-in synths |
+| [Koto and Taiko](packs/koto-and-taiko/) | 7 | built-in synths |
+| [Minimal Ensemble](packs/minimal-ensemble/) | 14 | University of Iowa MIS: Clarinet and Bassoon, MTG Solo Saxophones, Steinway Model D (bitKlavier Grand), VSCO 2 Community Edition, built-in synths |
+| [Silk and Bamboo](packs/silk-and-bamboo/) | 8 | Erhu, Versilian Community Sample Library, built-in synths |
+| [Sitar and Tabla](packs/sitar-and-tabla/) | 7 | Nepalese Hand Bells (VCSL), Singing Bowls (OLPC), Tabla (OLPC, Sonic Pi), built-in synths |
+| [Southeast Asian](packs/southeast-asian/) | 6 | Angklung and Khaen (OLPC), University of Iowa MIS: Percussion and Thai Gongs, Versilian Community Sample Library |
+| [Viennese Grand](packs/viennese-grand/) | 3 | Steinway Model D (bitKlavier Grand) |
 
 ### Pianos and keys
 
@@ -359,7 +382,7 @@ clearly their authors' own, become packs. These were looked at and left out:
 | "Public domain" 808 and 909 sample sets | Recordings of commercial machines' sounds whose provenance can't be shown. |
 | SM Drums | Unclear provenance. |
 | Splendid Grand Piano | Unclear provenance. |
-| Any Bösendorfer sample set | None has a licence that allows this. |
+| Other concert grands for a Viennese sound | None we found has a licence that allows this, so the [Viennese Grand](packs/viennese-grand/) voices the Steinway D instead. |
 | Freesound | A script gets only lossy previews: the original files need each user's own login. |
 
 **Not here yet:** DrumGizmo's MuldjordKit and DRSKit. Each is recorded through many microphones, so they

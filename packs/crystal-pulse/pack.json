@@ -1,0 +1,516 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "crystal-pulse",
+ "name": "Crystal Pulse",
+ "description": "Cold, glassy and pulsing: glass harmonica and crystal rods, bowed metal, mallets echoing through tape delays, soft analog pulses and arpeggios over frozen pads.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the Versilian Community Sample Library by Versilian Studios (CC0). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "vcsl",
+  "vsco2"
+ ],
+ "sounds": [
+  {
+   "name": "Glass Harmonica",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "Glass Harmonica",
+    "params": {
+     "tone": 0.55,
+     "swell": 0.3,
+     "detune": 0.4,
+     "release": 3,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -12
+   },
+   "volume": -2.5,
+   "note": "Rubbed glass bowls: pure tones that swell in and shimmer as they ring."
+  },
+  {
+   "name": "Crystal Rods",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "FM Bells",
+    "params": {
+     "brightness": 0.7,
+     "ratio": 8,
+     "feedback": 0,
+     "decay": 7,
+     "release": 3
+    }
+   },
+   "inserts": [
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 2,
+      "feedback": 38,
+      "pingpong": 1,
+      "lowcut": 300,
+      "highcut": 7000,
+      "mix": 20
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -14
+   },
+   "volume": -2.5,
+   "note": "Struck glass rods: clear, inharmonic and long, with a dotted echo."
+  },
+  {
+   "name": "Steel Pan Tones",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "FM Pluck",
+    "params": {
+     "brightness": 0.75,
+     "ratio": 3,
+     "feedback": 0.05,
+     "decay": 1.4,
+     "release": 0.5
+    }
+   },
+   "inserts": [
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 4,
+      "feedback": 30,
+      "pingpong": 1,
+      "highcut": 6000,
+      "mix": 18
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -16
+   },
+   "volume": 0.5,
+   "note": "FM voiced like a steel pan: sweet, bright and quick to fade, echoing softly."
+  },
+  {
+   "name": "Bowed Vibes",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "vcsl",
+    "name": "vibes_bowed"
+   },
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -10
+   },
+   "volume": 10,
+   "note": "Vibraphone bars bowed: a pure tone that swells and hangs."
+  },
+  {
+   "name": "Vibes in Echo",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "vcsl",
+    "name": "vibes"
+   },
+   "inserts": [
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 4,
+      "feedback": 45,
+      "pingpong": 1,
+      "lowcut": 250,
+      "highcut": 5500,
+      "mix": 28
+     }
+    },
+    {
+     "type": "wow",
+     "params": {
+      "wow": 0.05,
+      "flutter": 0.015
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -16
+   },
+   "volume": -1,
+   "note": "Vibraphone through a ping-pong tape delay, a little warble on it."
+  },
+  {
+   "name": "Marimba Pulse",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "marimba"
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 120,
+      "hsGain": -2
+     }
+    },
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 3,
+      "feedback": 50,
+      "pingpong": 1,
+      "highcut": 5000,
+      "mix": 30
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -18
+   },
+   "volume": -0.5,
+   "note": "Soft marimba notes repeating in eighths through a tape delay."
+  },
+  {
+   "name": "Glockenspiel Echo",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "glock"
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hsFreq": 6000,
+      "hsGain": -4
+     }
+    },
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 2,
+      "feedback": 35,
+      "highcut": 8000,
+      "mix": 22
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -14
+   },
+   "volume": 2.5,
+   "note": "Glockenspiel, its edge taken off, with a dotted-quarter echo."
+  },
+  {
+   "name": "Soft Pulse",
+   "family": "Synths",
+   "instrument": {
+    "synth": "Fat Poly",
+    "params": {
+     "cutoff": 900,
+     "emphasis": 0.15,
+     "contour": 0.25,
+     "decay": 0.22,
+     "glide": 0,
+     "drive": 0.1
+    }
+   },
+   "inserts": [
+    {
+     "type": "arpeggiator",
+     "params": {
+      "mode": 5,
+      "rate": 3,
+      "octaves": 1,
+      "gate": 45
+     }
+    },
+    {
+     "type": "chorus",
+     "params": {
+      "rate": 0.3,
+      "depth": 30,
+      "mix": 30
+     }
+    },
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 3,
+      "feedback": 25,
+      "highcut": 5000,
+      "mix": 15
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -18
+   },
+   "volume": 8,
+   "note": "Held chords throb in sixteenths: a soft, filtered analog pulse."
+  },
+  {
+   "name": "Analog Arp",
+   "family": "Synths",
+   "instrument": {
+    "synth": "Fat Mono",
+    "params": {
+     "cutoff": 1400,
+     "emphasis": 0.3,
+     "contour": 0.45,
+     "decay": 0.18,
+     "glide": 0,
+     "drive": 0.2
+    }
+   },
+   "inserts": [
+    {
+     "type": "arpeggiator",
+     "params": {
+      "mode": 0,
+      "rate": 3,
+      "octaves": 2,
+      "gate": 60
+     }
+    },
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 4,
+      "feedback": 40,
+      "pingpong": 1,
+      "highcut": 6000,
+      "mix": 22
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -18
+   },
+   "volume": -3.5,
+   "note": "Hold a chord: it rises in sixteenths over two octaves, echoing in dotted eighths."
+  },
+  {
+   "name": "Pulse Bass",
+   "family": "Bass",
+   "instrument": {
+    "synth": "Fat Mono",
+    "params": {
+     "cutoff": 380,
+     "emphasis": 0.2,
+     "contour": 0.35,
+     "decay": 0.2,
+     "glide": 0,
+     "drive": 0.25
+    }
+   },
+   "inserts": [
+    {
+     "type": "arpeggiator",
+     "params": {
+      "mode": 5,
+      "rate": 1,
+      "octaves": 1,
+      "gate": 55
+     }
+    }
+   ],
+   "space": null,
+   "volume": -3,
+   "note": "A dark analog bass that pulses in eighths while a note is held."
+  },
+  {
+   "name": "Cold Pad",
+   "family": "Pads",
+   "instrument": {
+    "synth": "Morph Pad",
+    "params": {
+     "morph": 0.65,
+     "brightness": 3200,
+     "motion": 0.3,
+     "texture": 0.3,
+     "release": 4,
+     "space": 0.1
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 180,
+      "b1Freq": 300,
+      "b1Gain": -2
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -10
+   },
+   "volume": -4,
+   "note": "A glassy wavetable pad, thin in the lows and cold on top."
+  },
+  {
+   "name": "Bowed Metal",
+   "family": "Textures",
+   "instrument": {
+    "synth": "Drone Metal",
+    "params": {
+     "tone": 0.5,
+     "motion": 0.45,
+     "density": 0.1,
+     "swell": 2.5,
+     "width": 0.8,
+     "space": 0.15
+    }
+   },
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -10
+   },
+   "volume": -6.5,
+   "note": "The sustained, slowly shifting ring of bowed metal bars."
+  },
+  {
+   "name": "Frozen Air",
+   "family": "Textures",
+   "instrument": {
+    "synth": "Drone Glass",
+    "params": {
+     "tone": 0.65,
+     "motion": 0.4,
+     "density": 0.45,
+     "swell": 3,
+     "width": 0.9,
+     "space": 0.15
+    }
+   },
+   "space": {
+    "name": "Glass Sky",
+    "type": "space",
+    "params": {
+     "space": 12,
+     "decay": 1.1,
+     "predelay": 30,
+     "lowcut": 200,
+     "highcut": 14000
+    },
+    "send": -8
+   },
+   "volume": -9,
+   "note": "High glassy partials glinting in and out: frost in the air."
+  }
+ ]
+}

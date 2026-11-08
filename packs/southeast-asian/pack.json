@@ -1,0 +1,153 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "southeast-asian",
+ "name": "Southeast Asian",
+ "description": "Instruments of Vietnam, Indonesia, Laos and Thailand: the đàn tranh zither, angklung, khaen and Thai gongs.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), angklung and khaen by Berklee College of Music students for the One Laptop per Child sound library (CC BY 3.0), the University of Iowa Musical Instrument Samples (free to use without restriction). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "angklung-khaen",
+  "iowa-percussion",
+  "vcsl"
+ ],
+ "sounds": [
+  {
+   "name": "Đàn Tranh",
+   "family": "Plucked",
+   "instrument": {
+    "pack": "vcsl",
+    "name": "zither"
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -4,
+   "note": "The Vietnamese zither: bright plucks with bent, sliding notes."
+  },
+  {
+   "name": "Đàn Tranh Tremolo",
+   "family": "Plucked",
+   "instrument": {
+    "pack": "vcsl",
+    "name": "zither_trem"
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -8,
+   "note": "Đàn tranh notes played as a fast tremolo."
+  },
+  {
+   "name": "Đàn Tranh Glissando",
+   "family": "Plucked",
+   "instrument": {
+    "pack": "vcsl",
+    "name": "zither_gliss_up"
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -8,
+   "note": "A sweep up the strings."
+  },
+  {
+   "name": "Angklung",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "angklung-khaen",
+    "name": "angklung"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Sundanese bamboo tubes shaken in a frame: a soft, rattling tone.",
+   "volume": -0.5
+  },
+  {
+   "name": "Khaen",
+   "family": "Organs",
+   "instrument": {
+    "pack": "angklung-khaen",
+    "name": "khaen"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "The Lao bamboo mouth organ, chords over a drone.",
+   "volume": -5.5
+  },
+  {
+   "name": "Thai Gongs",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "iowa-percussion",
+    "name": "thai-gongs"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Tuned bossed gongs.",
+   "volume": -1.5
+  }
+ ]
+}

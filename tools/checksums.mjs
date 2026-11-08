@@ -36,6 +36,10 @@ for (const id of readdirSync(packs).sort()) {
     process.exitCode = 1;
     continue;
   }
+  if (!packPaths(pack).length) {
+    console.log(`${pack.id}: no files of its own (a palette): its files.sha256 is only its comment`);
+    continue;
+  }
   const dir = join(data, 'packs', pack.id, pack.root || 'samples');
   if (!existsSync(dir)) {
     console.log(`${pack.id}: not installed in ${data} (skipped)`);

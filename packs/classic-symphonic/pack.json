@@ -1,0 +1,392 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "classic-symphonic",
+ "name": "Classic Symphonic",
+ "description": "The full symphony orchestra on a scoring stage: horns and trumpets, strings, woodwinds, harp, celesta, glockenspiel, timpani, snare and choir.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the University of Iowa Musical Instrument Samples (free to use without restriction). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "iowa-brass",
+  "vsco2"
+ ],
+ "sounds": [
+  {
+   "name": "French Horns",
+   "family": "Brass",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "horns"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -10
+   },
+   "volume": -3.5,
+   "note": "The horn section, noble and round."
+  },
+  {
+   "name": "Trumpets",
+   "family": "Brass",
+   "instrument": {
+    "pack": "iowa-brass",
+    "name": "trumpet"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "note": "Bright trumpets for fanfares.",
+   "volume": -0.5
+  },
+  {
+   "name": "Trombones",
+   "family": "Brass",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "trombones"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": -5.5,
+   "note": "Trombones for weight and chorales."
+  },
+  {
+   "name": "Violins",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "violins"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -10
+   },
+   "volume": -9,
+   "note": "The violin section, sustained."
+  },
+  {
+   "name": "Cellos",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "cellos"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -10
+   },
+   "volume": -6.5,
+   "note": "The cello section, sustained."
+  },
+  {
+   "name": "Pizzicato Strings",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "violins_pizz"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": -3,
+   "note": "Plucked violins."
+  },
+  {
+   "name": "Flute",
+   "family": "Woodwinds",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "flute"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": 5.5,
+   "note": "Concert flute, with vibrato."
+  },
+  {
+   "name": "Oboe",
+   "family": "Woodwinds",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "oboe"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": -5,
+   "note": "Oboe: reedy and singing."
+  },
+  {
+   "name": "Clarinet",
+   "family": "Woodwinds",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "clarinet"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": -5.5,
+   "note": "Clarinet: warm and agile."
+  },
+  {
+   "name": "Bassoon",
+   "family": "Woodwinds",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "bassoon"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": -4.5,
+   "note": "Bassoon for the low woodwind line."
+  },
+  {
+   "name": "Harp",
+   "family": "Plucked",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "harp"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": -4.5,
+   "note": "Concert harp."
+  },
+  {
+   "name": "Celesta Bells",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "FM Keys",
+    "params": {
+     "brightness": 0.6,
+     "ratio": 10,
+     "feedback": 0,
+     "decay": 1.6,
+     "release": 0.5
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 300
+     }
+    }
+   ],
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": 1,
+   "note": "FM tines voiced like a celesta: small, sweet bells (no free celesta recording yet). Play high."
+  },
+  {
+   "name": "Glockenspiel",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "glock"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -14
+   },
+   "volume": 0.5,
+   "note": "Glockenspiel, bright and clear."
+  },
+  {
+   "name": "Timpani",
+   "family": "Drums and percussion",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "timpani"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -12
+   },
+   "volume": -6,
+   "note": "Timpani, from soft taps to big strokes."
+  },
+  {
+   "name": "Snare Drum",
+   "family": "Drums and percussion",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "snare"
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -14
+   },
+   "volume": 5,
+   "note": "Concert snare drum."
+  },
+  {
+   "name": "Choir",
+   "family": "Voices",
+   "instrument": {
+    "synth": "Choir Ahh",
+    "params": {
+     "vowel": 0.05,
+     "vibrato": 0.4,
+     "ensemble": 0.75,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Scoring Stage",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "decay": 1,
+     "predelay": 12,
+     "lowcut": 40,
+     "highcut": 16000
+    },
+    "send": -10
+   },
+   "volume": -7,
+   "note": "A wordless mixed choir on “ah”."
+  }
+ ]
+}

@@ -1,0 +1,391 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "minimal-ensemble",
+ "name": "Minimal Ensemble",
+ "description": "A small amplified ensemble for repeating, interlocking patterns: electric and pipe organ, arpeggiating synths, piano, strings, flute, clarinet, sax and wordless voices.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0), the University of Iowa Musical Instrument Samples (free to use without restriction), MTG Solo Saxophones by the Music Technology Group, Universitat Pompeu Fabra, mapped for the SFZ Instruments project (CC BY 4.0). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "iowa",
+  "mtg-sax",
+  "steinway",
+  "vsco2"
+ ],
+ "sounds": [
+  {
+   "name": "Electric Organ",
+   "family": "Organs",
+   "instrument": {
+    "synth": "Tonewheel Ballad",
+    "params": {
+     "drawbars": 8,
+     "percussion": 0,
+     "click": 0.15,
+     "vibrato": 0,
+     "rotor": 0,
+     "drive": 0.05
+    }
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -18
+   },
+   "volume": -5.5,
+   "note": "A plain, steady electric organ: no rotor, no vibrato, for long patterns."
+  },
+  {
+   "name": "Organ Arpeggio",
+   "family": "Organs",
+   "instrument": {
+    "synth": "Tonewheel Ballad",
+    "params": {
+     "drawbars": 8,
+     "percussion": 0,
+     "click": 0.15,
+     "vibrato": 0,
+     "rotor": 0,
+     "drive": 0.05
+    }
+   },
+   "inserts": [
+    {
+     "type": "arpeggiator",
+     "params": {
+      "mode": 2,
+      "rate": 1,
+      "octaves": 2,
+      "gate": 85
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -18
+   },
+   "volume": -4,
+   "note": "The electric organ arpeggiating a held chord up and down in eighths."
+  },
+  {
+   "name": "Pipe Organ",
+   "family": "Organs",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "organ_soft"
+   },
+   "space": {
+    "name": "Concert Hall",
+    "type": "space",
+    "params": {
+     "space": 4,
+     "decay": 1,
+     "predelay": 18,
+     "lowcut": 30
+    },
+    "send": -10
+   },
+   "volume": -8.5,
+   "note": "A soft pipe organ registration."
+  },
+  {
+   "name": "Arp Synth",
+   "family": "Synths",
+   "instrument": {
+    "synth": "Morph Pluck",
+    "params": {
+     "morph": 0.3,
+     "brightness": 1800,
+     "motion": 0.1,
+     "texture": 0.05,
+     "release": 0.3,
+     "space": 0
+    }
+   },
+   "inserts": [
+    {
+     "type": "arpeggiator",
+     "params": {
+      "mode": 0,
+      "rate": 3,
+      "octaves": 2,
+      "gate": 70
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -16
+   },
+   "volume": -0.5,
+   "note": "A clean pluck arpeggiating a held chord in sixteenths over two octaves."
+  },
+  {
+   "name": "Pulse Synth",
+   "family": "Synths",
+   "instrument": {
+    "synth": "FM Pluck",
+    "params": {
+     "brightness": 0.7,
+     "decay": 0.6
+    }
+   },
+   "inserts": [
+    {
+     "type": "arpeggiator",
+     "params": {
+      "mode": 5,
+      "rate": 1,
+      "octaves": 1,
+      "gate": 50
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -16
+   },
+   "volume": -1,
+   "note": "Held chords repeated in steady eighths."
+  },
+  {
+   "name": "Piano",
+   "family": "Keys",
+   "instrument": {
+    "pack": "steinway",
+    "name": "grand-close"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -16
+   },
+   "volume": 5,
+   "note": "The grand, close and clear."
+  },
+  {
+   "name": "Piano Broken Chords",
+   "family": "Keys",
+   "instrument": {
+    "pack": "steinway",
+    "name": "grand-close"
+   },
+   "inserts": [
+    {
+     "type": "arpeggiator",
+     "params": {
+      "mode": 2,
+      "rate": 1,
+      "octaves": 1,
+      "gate": 95
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -16
+   },
+   "volume": 3,
+   "note": "Hold a chord: the piano breaks it up and down in eighths."
+  },
+  {
+   "name": "Solo Violin",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "solo_violin"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -14
+   },
+   "volume": -6,
+   "note": "One violin."
+  },
+  {
+   "name": "Violas",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "violas"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -14
+   },
+   "volume": -5,
+   "note": "Violas for the middle voices."
+  },
+  {
+   "name": "Cellos",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "cellos"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -14
+   },
+   "volume": -5.5,
+   "note": "Cellos for the bass line."
+  },
+  {
+   "name": "Flute",
+   "family": "Woodwinds",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "flute_nv"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -14
+   },
+   "volume": -5,
+   "note": "Flute without vibrato: plain and even."
+  },
+  {
+   "name": "Clarinet",
+   "family": "Woodwinds",
+   "instrument": {
+    "pack": "iowa",
+    "name": "clarinet_iowa"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -14
+   },
+   "volume": -3,
+   "note": "Clarinet, even and warm."
+  },
+  {
+   "name": "Soprano Sax",
+   "family": "Woodwinds",
+   "instrument": {
+    "pack": "mtg-sax",
+    "name": "soprano-sax"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -14
+   },
+   "note": "Saxophone for the patterns.",
+   "volume": -5.5
+  },
+  {
+   "name": "Wordless Voices",
+   "family": "Voices",
+   "instrument": {
+    "synth": "Choir Ahh",
+    "params": {
+     "vowel": 0,
+     "breath": 0.2,
+     "vibrato": 0.1,
+     "ensemble": 0.5,
+     "release": 1,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -14
+   },
+   "volume": -5,
+   "note": "Straight-toned voices on “ah”, singing the patterns with the band."
+  }
+ ]
+}

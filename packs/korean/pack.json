@@ -1,0 +1,93 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "korean",
+ "name": "Korean",
+ "description": "The gayageum, the Korean twelve-stringed zither, plucked with the fingers.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects. Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [],
+ "sounds": [
+  {
+   "name": "Gayageum",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Gayageum",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -1.5,
+   "note": "Warm and round, with a deep, slow vibrato."
+  },
+  {
+   "name": "Gayageum, Deep Vibrato",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Gayageum",
+    "params": {
+     "vibrato": 0.85,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -1.5,
+   "note": "The left hand pressing and shaking the string (nonghyeon), wide and slow."
+  },
+  {
+   "name": "Gayageum, Bright",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Gayageum",
+    "params": {
+     "tone": 0.65,
+     "body": 0.45,
+     "vibrato": 0.35,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "volume": -2,
+   "note": "A brighter pluck with less vibrato, for quick figures."
+  }
+ ]
+}

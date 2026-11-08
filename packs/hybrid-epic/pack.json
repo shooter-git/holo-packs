@@ -1,0 +1,469 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "hybrid-epic",
+ "name": "Hybrid Epic",
+ "description": "A big modern score: massed low brass, driving string ostinatos, war drums and an analog sub, with risers, a cathedral organ, a felt piano and a solo cello.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the Karoryfer x bigcat cello by Karoryfer Lecolds and bigcat instruments (CC0). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "bigcat-cello",
+  "vsco2"
+ ],
+ "sounds": [
+  {
+   "name": "Massed Low Brass",
+   "family": "Brass",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "trombones"
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "lsFreq": 140,
+      "lsGain": 3,
+      "b3Freq": 3500,
+      "b3Gain": 1.5
+     }
+    },
+    {
+     "type": "saturator",
+     "params": {
+      "drive": 5,
+      "tone": 9000,
+      "mix": 60
+     }
+    }
+   ],
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "volume": -9.5,
+   "note": "Trombones massed and pushed: a broad, heavy wall of low brass."
+  },
+  {
+   "name": "Brass Stabs",
+   "family": "Brass",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "trombones_stac"
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "lsFreq": 140,
+      "lsGain": 3,
+      "b3Freq": 3500,
+      "b3Gain": 1.5
+     }
+    },
+    {
+     "type": "saturator",
+     "params": {
+      "drive": 5,
+      "tone": 9000,
+      "mix": 60
+     }
+    }
+   ],
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "volume": -4,
+   "note": "Short, hard trombone hits for driving rhythms."
+  },
+  {
+   "name": "Horns",
+   "family": "Brass",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "horns"
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "b1Freq": 300,
+      "b1Gain": 1.5
+     }
+    }
+   ],
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -10
+   },
+   "volume": -4,
+   "note": "French horns, warm and heroic, set back in the hall."
+  },
+  {
+   "name": "Cello Ostinato",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "cellos_spic"
+   },
+   "inserts": [
+    {
+     "type": "compressor",
+     "params": {
+      "threshold": -20,
+      "ratio": 3,
+      "attack": 5,
+      "release": 80
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "lsGain": 2
+     }
+    }
+   ],
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -16
+   },
+   "volume": 1,
+   "note": "Spiccato cellos for chugging ostinatos."
+  },
+  {
+   "name": "Violin Ostinato",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "violins_spic"
+   },
+   "inserts": [
+    {
+     "type": "compressor",
+     "params": {
+      "threshold": -20,
+      "ratio": 3,
+      "attack": 5,
+      "release": 80
+     }
+    }
+   ],
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -16
+   },
+   "volume": 0,
+   "note": "Spiccato violins: tight, bright repeated notes above the cellos."
+  },
+  {
+   "name": "Cellos",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "cellos"
+   },
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "volume": -5.5,
+   "note": "A cello section singing a long line."
+  },
+  {
+   "name": "Solo Cello",
+   "family": "Strings",
+   "instrument": {
+    "pack": "bigcat-cello",
+    "name": "cello"
+   },
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -14
+   },
+   "note": "One cello, close and expressive.",
+   "volume": -4
+  },
+  {
+   "name": "War Drums",
+   "family": "Drums and percussion",
+   "instrument": {
+    "synth": "War Drums",
+    "params": {
+     "decay": 1.2,
+     "hardness": 0.5,
+     "tone": 0.4,
+     "ensemble": 0.8,
+     "space": 0.1
+    }
+   },
+   "inserts": [
+    {
+     "type": "compressor",
+     "params": {
+      "threshold": -16,
+      "ratio": 4,
+      "attack": 15,
+      "release": 150
+     }
+    }
+   ],
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -10
+   },
+   "volume": 1,
+   "note": "Several big drums struck together: a massed, rolling thunder. Play low."
+  },
+  {
+   "name": "Taiko Hits",
+   "family": "Drums and percussion",
+   "instrument": {
+    "synth": "Taiko",
+    "params": {
+     "decay": 1.1,
+     "hardness": 0.6,
+     "tone": 0.45,
+     "ensemble": 0.2,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "volume": 6,
+   "note": "One deep barrel drum: the boom and the stick’s slap. Play low."
+  },
+  {
+   "name": "Analog Sub",
+   "family": "Bass",
+   "instrument": {
+    "synth": "Fat Mono",
+    "params": {
+     "cutoff": 220,
+     "emphasis": 0.05,
+     "contour": 0.15,
+     "decay": 2,
+     "glide": 0.02,
+     "drive": 0.3
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 25,
+      "lpOn": 1,
+      "lpFreq": 2000
+     }
+    }
+   ],
+   "space": null,
+   "volume": -2.5,
+   "note": "A deep, steady analog sub to sit under the low brass."
+  },
+  {
+   "name": "Cymbal Riser",
+   "family": "Drums and percussion",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "cymbal_swell_long"
+   },
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -10
+   },
+   "volume": 1,
+   "note": "A long cymbal swell rising into the downbeat."
+  },
+  {
+   "name": "Rising Air",
+   "family": "Textures",
+   "instrument": {
+    "synth": "Drone Breath",
+    "params": {
+     "tone": 0.55,
+     "motion": 0.6,
+     "density": 0,
+     "swell": 8,
+     "width": 0.8,
+     "space": 0.15
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 150
+     }
+    }
+   ],
+   "space": {
+    "name": "Epic Hall",
+    "type": "space",
+    "params": {
+     "space": 5,
+     "decay": 1,
+     "predelay": 20,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -10
+   },
+   "volume": 0,
+   "note": "Breath and noise swelling slowly over a held chord: a riser you can pitch."
+  },
+  {
+   "name": "Cathedral Organ",
+   "family": "Organs",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "organ"
+   },
+   "space": {
+    "name": "Cathedral",
+    "type": "space",
+    "params": {
+     "space": 6,
+     "decay": 1,
+     "predelay": 28,
+     "lowcut": 50
+    },
+    "send": -6
+   },
+   "volume": -7.5,
+   "note": "Pipe organ in a cathedral: full, slow and enormous."
+  },
+  {
+   "name": "Felt Piano",
+   "family": "Keys",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "piano"
+   },
+   "inserts": [
+    {
+     "type": "softener",
+     "params": {
+      "amount": 75,
+      "fast": 0.6,
+      "slow": 15,
+      "release": 40
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "b1Freq": 220,
+      "b1Gain": 1.5,
+      "hsFreq": 3000,
+      "hsGain": -4,
+      "lpOn": 1,
+      "lpFreq": 3800
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -14
+   },
+   "volume": -4.5,
+   "note": "Upright piano with the felt down: soft hammers, a muffled top, close."
+  }
+ ]
+}
