@@ -1,7 +1,8 @@
 // `node tools/readme.mjs [--check]`: the parts of the READMEs that come from the packs' maps, written
-// from them: each pack's facts (size, source, its instruments, a kit's pads) below the words written
-// for it in packs/<id>/README.md, and the catalog in README.md (every instrument by family, every pack
-// at a glance). --check changes nothing and fails if any is out of date (CI runs it).
+// from them: each pack's facts (size, source, its instruments, a kit's pads; a palette's sounds by
+// family) below the words written for it in packs/<id>/README.md, and the catalog in README.md (every
+// instrument by family, every pack and palette at a glance). --check changes nothing and fails if any
+// is out of date (CI runs it).
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
@@ -179,8 +180,116 @@ function source(pack, hasRecipe) {
   }
 }
 
+/** The families a palette's sounds are listed by (HO[LO] Desk's SOUND_FAMILIES), in order. */
+const SOUND_FAMILIES = [
+  'Keys',
+  'Organs',
+  'Strings',
+  'Brass',
+  'Woodwinds',
+  'Voices',
+  'Plucked',
+  'Mallets and bells',
+  'Drums and percussion',
+  'Bass',
+  'Synths',
+  'Pads',
+  'Textures',
+];
+
+/** HO[LO] Desk's effects by type, as its mixer names them (a type not here is shown as it is). */
+const EFFECTS = {
+  eq: 'Channel EQ',
+  peq: 'Parametric EQ',
+  compressor: 'Compressor',
+  gate: 'Noise Gate',
+  softener: 'Transient Softener',
+  limiter: 'Limiter',
+  reverb: 'Space Reverb',
+  space: 'Space Designer',
+  shimmer: 'Shimmer',
+  delay: 'Tape Delay',
+  chorus: 'Chorus',
+  wow: 'Wow & Flutter',
+  width: 'Stereo Width',
+  tape: 'Tape Warmth',
+  saturator: 'Saturation',
+  arpeggiator: 'Arpeggiator',
+  harmonizer: 'Harmonizer',
+  scale: 'Scale Quantizer',
+  velocity: 'Velocity Processor',
+  rotary: 'Rotary Speaker',
+  phaser: 'Phaser',
+  tremolo: 'Tremolo',
+  lofi: 'Lo-fi',
+  resonance: 'String Resonance',
+};
+
+/** Whether a pack is a palette with nothing of its own to install (sounds, no instruments or spaces). */
+export const isPalette = (pack) => !!pack.sounds?.length && !pack.instruments?.length && !pack.impulses?.length;
+
+const dB = (v) => `${v > 0 ? '+' : v < 0 ? '−' : ''}${Math.abs(v).toFixed(1).replace(/\.0$/, '')} dB`;
+
+/** What a sound plays, with a link to the pack page (or the synth's name). */
+function plays(sound, packs) {
+  const i = sound.instrument;
+  if (i.synth) return `${i.synth} synth`;
+  const map = packs.get(i.pack);
+  const inst = map?.instruments.find((x) => x.name === i.name);
+  return inst ? `[${cell(inst.title)}](../${i.pack}/)` : `\`${i.pack}/${i.name}\``;
+}
+
+/** A palette's page: what it plays, then its sounds by family. */
+function paletteFacts(id, pack, packs) {
+  const coming = pack.sounds.filter((s) => s.coming).length;
+  const synths = pack.sounds.some((s) => s.instrument.synth);
+  const using = [
+    ...(pack.requires ?? []).map((r) => `[${cell(packs.get(r)?.name ?? r)}](../${r}/)`),
+    ...(synths ? ["HO[LO] Desk's built-in synths"] : []),
+  ];
+  const lines = [
+    MARK,
+    '',
+    '## At a glance',
+    '',
+    '| | |',
+    '|---|---|',
+    `| Id | \`${id}\` |`,
+    `| Palette | ${cell(pack.description)} |`,
+    `| Sounds | ${pack.sounds.length}${coming ? ` (${coming} coming)` : ''} |`,
+    `| Plays | ${using.join(', ') || 'packs that are still to come (below)'} |`,
+    `| Licence | ${licence(pack)} |`,
+    `| Credit | ${cell(pack.credit)} |`,
+    `| Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → ${cell(pack.name)}**: a click on a sound installs the packs it plays, then adds it as a track. \`pnpm packs install ${id}\` installs every pack it plays. |`,
+    '',
+    '## Sounds',
+    '',
+    'Each sound is a track ready to play: its instrument, its effects, the room it sends to and its level.',
+    'Levels are measured with `node tools/levels.mjs`: the same phrase from every sound measures −20 LUFS',
+    '(pads and textures −23), unless its peak would pass −4 dBFS. A sound marked *coming* waits for a',
+    'synth, an effect or a pack that HO[LO] Desk or this repository doesn\'t have yet; the Library shows it',
+    'greyed out until then.',
+  ];
+  const families = [
+    ...SOUND_FAMILIES.filter((f) => pack.sounds.some((s) => s.family === f)),
+    ...new Set(pack.sounds.map((s) => s.family).filter((f) => !SOUND_FAMILIES.includes(f))),
+  ];
+  for (const f of families) {
+    lines.push('', `### ${f}`, '', '| Sound | Plays | Through | Room | Level | |', '|---|---|---|---|---|---|');
+    for (const s of pack.sounds.filter((x) => x.family === f)) {
+      const through = (s.inserts ?? []).map((x) => EFFECTS[x.type] ?? x.type).join(', ') || '—';
+      const room = s.space ? `${cell(s.space.name)}, ${dB(s.space.send)}` : s.space === null ? 'dry' : 'the song’s reverb';
+      lines.push(
+        `| ${cell(s.name)}${s.coming ? ' *(coming)*' : ''} | ${plays(s, packs)} | ${through} | ${room} | ${dB(s.volume ?? 0)} | ${cell(s.note ?? '')} |`,
+      );
+    }
+  }
+  return `${lines.join('\n')}\n`;
+}
+
 /** The part of a pack's README this writes. */
-export function packFacts(id, pack) {
+export function packFacts(id, pack, packs = new Map()) {
+  if (isPalette(pack)) return paletteFacts(id, pack, packs);
   const hasRecipe = existsSync(join(packsDir, id, 'recipe.mjs'));
   const files = new Set(pack.instruments.flatMap((i) => i.zones.map((z) => z.file))).size;
   const lines = [
@@ -223,11 +332,24 @@ export function packFacts(id, pack) {
 export function catalog(packs) {
   const lines = [BEGIN, '', '### Every pack', ''];
   lines.push('| Pack | Families | Instruments | Size | Licence |', '|---|---|---|---|---|');
-  for (const [id, pack] of [...packs].sort((a, b) => a[1].name.localeCompare(b[1].name))) {
+  for (const [id, pack] of [...packs].filter(([, p]) => !isPalette(p)).sort((a, b) => a[1].name.localeCompare(b[1].name))) {
     const fams = FAMILIES.filter((f) => pack.instruments.some((i) => family(i) === f));
     lines.push(
       `| [${cell(pack.name)}](packs/${id}/) | ${fams.join(', ')} | ${pack.instruments.length} | ${mb(pack.bytes)} | ${licence(pack, false)} |`,
     );
+  }
+  const palettes = [...packs].filter(([, p]) => isPalette(p)).sort((a, b) => a[1].name.localeCompare(b[1].name));
+  if (palettes.length) {
+    lines.push('', '### Palettes', '', '| Palette | Sounds | Plays |', '|---|---|---|');
+    for (const [id, pack] of palettes) {
+      const coming = pack.sounds.filter((s) => s.coming).length;
+      const names = new Map(packs);
+      const using = (pack.requires ?? []).map((r) => names.get(r)?.name ?? r);
+      if (pack.sounds.some((s) => s.instrument.synth)) using.push('built-in synths');
+      lines.push(
+        `| [${cell(pack.name)}](packs/${id}/) | ${pack.sounds.length}${coming ? ` (${coming} coming)` : ''} | ${cell(using.join(', ') || 'packs still to come')} |`,
+      );
+    }
   }
   for (const f of FAMILIES) {
     const rows = [];
@@ -254,7 +376,7 @@ export function readmes() {
     const file = join(packsDir, id, 'README.md');
     const had = existsSync(file) ? readFileSync(file, 'utf8') : `# ${pack.name}\n\n`;
     const own = had.includes(MARK) ? had.slice(0, had.indexOf(MARK)) : `${had.trimEnd()}\n\n`;
-    out.push([file, `${own}${packFacts(id, pack)}`]);
+    out.push([file, `${own}${packFacts(id, pack, new Map(packs))}`]);
   }
   const top = join(repo, 'README.md');
   const text = readFileSync(top, 'utf8');

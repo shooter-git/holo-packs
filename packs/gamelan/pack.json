@@ -1,0 +1,193 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "gamelan",
+ "name": "Gamelan",
+ "description": "The bronze orchestras of Java and Bali: metallophones, gong-chimes and hanging gongs in their own pelog and slendro tunings.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects. Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [],
+ "sounds": [
+  {
+   "name": "Saron, Pelog",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "gamelan-javanese",
+    "name": "saron_pelog"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Javanese saron in pelog: bronze keys struck with a mallet, carrying the melody.",
+   "coming": true
+  },
+  {
+   "name": "Saron, Slendro",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "gamelan-javanese",
+    "name": "saron_slendro"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Javanese saron in slendro, the five-note tuning.",
+   "coming": true
+  },
+  {
+   "name": "Bonang",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "gamelan-javanese",
+    "name": "bonang_pelog"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Javanese bonang: small kettle gongs in rows, for interlocking figures.",
+   "coming": true
+  },
+  {
+   "name": "Gendèr",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "gamelan-javanese",
+    "name": "gender_slendro"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Javanese gendèr: thin bronze keys over tube resonators, soft and ringing.",
+   "coming": true
+  },
+  {
+   "name": "Gong Ageng",
+   "family": "Drums and percussion",
+   "instrument": {
+    "pack": "javanese-gongs",
+    "name": "gong_ageng"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -10
+   },
+   "note": "The great hanging gong that closes each cycle.",
+   "coming": true
+  },
+  {
+   "name": "Kempul",
+   "family": "Drums and percussion",
+   "instrument": {
+    "pack": "javanese-gongs",
+    "name": "kempul"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Smaller hanging gongs that mark the cycle within.",
+   "coming": true
+  },
+  {
+   "name": "Gangsa",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "gamelan-balinese",
+    "name": "gangsa"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Balinese gangsa: bright metallophones, tuned in pairs that beat against each other.",
+   "coming": true
+  },
+  {
+   "name": "Reyong",
+   "family": "Mallets and bells",
+   "instrument": {
+    "pack": "gamelan-balinese",
+    "name": "reyong"
+   },
+   "space": {
+    "name": "Open Pavilion",
+    "type": "space",
+    "params": {
+     "space": 10,
+     "decay": 1,
+     "predelay": 8,
+     "lowcut": 60,
+     "highcut": 12000
+    },
+    "send": -12
+   },
+   "note": "Balinese reyong: a row of small gongs played by several players at once.",
+   "coming": true
+  }
+ ]
+}

@@ -1,0 +1,439 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "felt-and-strings",
+ "name": "Felt and Strings",
+ "description": "Intimate and fragile: a felt upright close and muffled, chamber strings, soft pads, tape warble and sparse textures.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "vsco2"
+ ],
+ "sounds": [
+  {
+   "name": "Felt Upright",
+   "family": "Keys",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "piano"
+   },
+   "inserts": [
+    {
+     "type": "softener",
+     "params": {
+      "amount": 85,
+      "fast": 0.8,
+      "slow": 20,
+      "release": 50
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "b1Freq": 200,
+      "b1Gain": 2,
+      "b2Freq": 1200,
+      "b2Gain": -1.5,
+      "hsFreq": 2500,
+      "hsGain": -6,
+      "lpOn": 1,
+      "lpFreq": 2800
+     }
+    },
+    {
+     "type": "wow",
+     "params": {
+      "wow": 0.06,
+      "flutter": 0.015
+     }
+    }
+   ],
+   "space": {
+    "name": "Small Room",
+    "type": "space",
+    "params": {
+     "space": 0,
+     "decay": 0.8,
+     "predelay": 2,
+     "lowcut": 80,
+     "highcut": 9000
+    },
+    "send": -14
+   },
+   "note": "An upright with felt on the strings: soft, muffled and close, a gentle warble."
+  },
+  {
+   "name": "Felt Upright, Worn Tape",
+   "family": "Keys",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "piano"
+   },
+   "inserts": [
+    {
+     "type": "softener",
+     "params": {
+      "amount": 85,
+      "fast": 0.8,
+      "slow": 20,
+      "release": 50
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "b1Freq": 200,
+      "b1Gain": 2,
+      "b2Freq": 1200,
+      "b2Gain": -1.5,
+      "hsFreq": 2500,
+      "hsGain": -6,
+      "lpOn": 1,
+      "lpFreq": 2800
+     }
+    },
+    {
+     "type": "wow",
+     "params": {
+      "wow": 0.16,
+      "flutter": 0.04,
+      "wowRate": 0.4
+     }
+    },
+    {
+     "type": "tape",
+     "params": {
+      "drive": 2,
+      "top": -3
+     }
+    }
+   ],
+   "space": {
+    "name": "Small Room",
+    "type": "space",
+    "params": {
+     "space": 0,
+     "decay": 0.8,
+     "predelay": 2,
+     "lowcut": 80,
+     "highcut": 9000
+    },
+    "send": -14
+   },
+   "note": "The felt upright on old tape: deeper wow, saturated and dark."
+  },
+  {
+   "name": "Felt Upright, Cassette",
+   "family": "Keys",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "piano"
+   },
+   "inserts": [
+    {
+     "type": "softener",
+     "params": {
+      "amount": 85,
+      "fast": 0.8,
+      "slow": 20,
+      "release": 50
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "b1Freq": 200,
+      "b1Gain": 2,
+      "b2Freq": 1200,
+      "b2Gain": -1.5,
+      "hsFreq": 2500,
+      "hsGain": -6,
+      "lpOn": 1,
+      "lpFreq": 2800
+     }
+    },
+    {
+     "type": "wow",
+     "params": {
+      "wow": 0.12,
+      "flutter": 0.05
+     }
+    },
+    {
+     "type": "lofi",
+     "params": {
+      "bits": 12,
+      "rate": 22050,
+      "noise": -54,
+      "mix": 100
+     }
+    }
+   ],
+   "space": {
+    "name": "Small Room",
+    "type": "space",
+    "params": {
+     "space": 0,
+     "decay": 0.8,
+     "predelay": 2,
+     "lowcut": 80,
+     "highcut": 9000
+    },
+    "send": -14
+   },
+   "note": "The felt upright with a cassette’s hiss and grain (coming with the Lo-fi effect).",
+   "coming": true
+  },
+  {
+   "name": "Chamber Violins",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "violins"
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hsFreq": 8000,
+      "hsGain": -2
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -12
+   },
+   "note": "Violins, soft and near."
+  },
+  {
+   "name": "Chamber Cellos",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "cellos"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -12
+   },
+   "note": "Cellos, soft and near."
+  },
+  {
+   "name": "Solo Violin",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "solo_violin"
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -12
+   },
+   "note": "One violin, close."
+  },
+  {
+   "name": "Tremolo Strings",
+   "family": "Strings",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "violins_trem"
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hsFreq": 6000,
+      "hsGain": -4
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -10
+   },
+   "note": "Trembling violins, kept low: a shimmer under the piano."
+  },
+  {
+   "name": "Soft Pad",
+   "family": "Pads",
+   "instrument": {
+    "synth": "Morph Pad",
+    "params": {
+     "morph": 0.2,
+     "brightness": 1200,
+     "motion": 0.25,
+     "texture": 0.25,
+     "release": 5,
+     "space": 0.1
+    }
+   },
+   "inserts": [
+    {
+     "type": "wow",
+     "params": {
+      "wow": 0.05,
+      "flutter": 0.01
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -10
+   },
+   "note": "A soft, dark wavetable pad with a touch of tape drift."
+  },
+  {
+   "name": "Tape Pad",
+   "family": "Pads",
+   "instrument": {
+    "synth": "Ethereal Pad",
+    "params": {
+     "brightness": 1400,
+     "bloom": 2.5,
+     "release": 6,
+     "motion": 0.4,
+     "shimmer": 0.2,
+     "space": 0.2
+    }
+   },
+   "inserts": [
+    {
+     "type": "wow",
+     "params": {
+      "wow": 0.12,
+      "flutter": 0.03
+     }
+    },
+    {
+     "type": "tape",
+     "params": {
+      "drive": 1.6,
+      "top": -2
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -12
+   },
+   "note": "A blooming pad through warbling tape."
+  },
+  {
+   "name": "Dust and Air",
+   "family": "Textures",
+   "instrument": {
+    "synth": "Drone Breath",
+    "params": {
+     "tone": 0.35,
+     "motion": 0.5,
+     "swell": 4,
+     "width": 0.7,
+     "space": 0.2
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 200
+     }
+    },
+    {
+     "type": "wow",
+     "params": {
+      "wow": 0.08,
+      "flutter": 0.02
+     }
+    }
+   ],
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -10
+   },
+   "note": "Breathy air drifting in slowly: hold one note and leave space around it."
+  },
+  {
+   "name": "Distant Glass",
+   "family": "Textures",
+   "instrument": {
+    "synth": "Drone Glass",
+    "params": {
+     "tone": 0.5,
+     "motion": 0.4,
+     "density": 0.15,
+     "swell": 3,
+     "width": 0.8,
+     "space": 0.3
+    }
+   },
+   "space": {
+    "name": "Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "decay": 1,
+     "predelay": 6,
+     "lowcut": 60
+    },
+    "send": -8
+   },
+   "note": "Sparse glints of high glass, far away."
+  }
+ ]
+}

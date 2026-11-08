@@ -1,0 +1,167 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "viennese-grand",
+ "name": "Viennese Grand",
+ "description": "A concert grand voiced darker and rounder: soft hammers, a singing treble, full low-mids and a warm hall.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0). Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "steinway"
+ ],
+ "sounds": [
+  {
+   "name": "Viennese Grand",
+   "family": "Keys",
+   "instrument": {
+    "pack": "steinway",
+    "name": "grand"
+   },
+   "inserts": [
+    {
+     "type": "softener",
+     "params": {
+      "amount": 45,
+      "fast": 0.5,
+      "slow": 12,
+      "release": 35
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "b1Freq": 220,
+      "b1Gain": 2,
+      "b1Q": 0.8,
+      "b3Freq": 3200,
+      "b3Gain": -2.5,
+      "b3Q": 0.7,
+      "hsFreq": 7000,
+      "hsGain": -3.5
+     }
+    }
+   ],
+   "space": {
+    "name": "Warm Hall",
+    "type": "space",
+    "params": {
+     "space": 4,
+     "decay": 1.15,
+     "predelay": 24,
+     "lowcut": 35,
+     "highcut": 6500,
+     "cross": 60
+    },
+    "send": -12
+   },
+   "note": "The grand voiced darker and rounder, in a warm hall."
+  },
+  {
+   "name": "Viennese Grand, Close",
+   "family": "Keys",
+   "instrument": {
+    "pack": "steinway",
+    "name": "grand-close"
+   },
+   "inserts": [
+    {
+     "type": "softener",
+     "params": {
+      "amount": 50,
+      "fast": 0.5,
+      "slow": 12,
+      "release": 35
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "b1Freq": 220,
+      "b1Gain": 2,
+      "b1Q": 0.8,
+      "b3Freq": 3200,
+      "b3Gain": -2.5,
+      "b3Q": 0.7,
+      "hsFreq": 7000,
+      "hsGain": -3.5
+     }
+    }
+   ],
+   "space": {
+    "name": "Warm Hall",
+    "type": "space",
+    "params": {
+     "space": 4,
+     "decay": 1.15,
+     "predelay": 24,
+     "lowcut": 35,
+     "highcut": 6500,
+     "cross": 60
+    },
+    "send": -18
+   },
+   "note": "Close to the strings: more detail, the same round, singing voice."
+  },
+  {
+   "name": "Viennese Grand, Resonant",
+   "family": "Keys",
+   "instrument": {
+    "pack": "steinway",
+    "name": "grand"
+   },
+   "inserts": [
+    {
+     "type": "softener",
+     "params": {
+      "amount": 45,
+      "fast": 0.5,
+      "slow": 12,
+      "release": 35
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "b1Freq": 220,
+      "b1Gain": 2,
+      "b1Q": 0.8,
+      "b3Freq": 3200,
+      "b3Gain": -2.5,
+      "b3Q": 0.7,
+      "hsFreq": 7000,
+      "hsGain": -3.5
+     }
+    },
+    {
+     "type": "resonance",
+     "params": {
+      "amount": 35,
+      "damping": 35,
+      "brightness": 40,
+      "bass": 9
+     }
+    }
+   ],
+   "space": {
+    "name": "Warm Hall",
+    "type": "space",
+    "params": {
+     "space": 4,
+     "decay": 1.15,
+     "predelay": 24,
+     "lowcut": 35,
+     "highcut": 6500,
+     "cross": 60
+    },
+    "send": -12
+   },
+   "note": "With sympathetic ringing from extra bass strings (coming with String Resonance).",
+   "coming": true
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "koto-and-taiko",
+ "name": "Koto and Taiko",
+ "description": "Japanese instruments: the koto and shamisen, the shakuhachi flute and taiko drums.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects. Each pack keeps its own licence and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [],
+ "sounds": [
+  {
+   "name": "Koto",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Koto",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "note": "The long zither, plucked with picks: clean and bright."
+  },
+  {
+   "name": "Koto, Pressed",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Koto",
+    "params": {
+     "vibrato": 0.55,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "note": "The koto with the left hand pressing the string after each pluck."
+  },
+  {
+   "name": "Shamisen",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Shamisen",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -14
+   },
+   "note": "The three-stringed lute struck with a large plectrum: sharp and buzzing."
+  },
+  {
+   "name": "Shakuhachi",
+   "family": "Woodwinds",
+   "instrument": {
+    "synth": "Shakuhachi",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -10
+   },
+   "note": "The end-blown bamboo flute: hollow, breathy, each note scooping up."
+  },
+  {
+   "name": "Shakuhachi, Breathy",
+   "family": "Woodwinds",
+   "instrument": {
+    "synth": "Shakuhachi",
+    "params": {
+     "breath": 0.85,
+     "overblow": 0.2,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -10
+   },
+   "note": "More air and overblowing, for the rougher, wind-like tones."
+  },
+  {
+   "name": "Taiko",
+   "family": "Drums and percussion",
+   "instrument": {
+    "synth": "Taiko",
+    "params": {
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "note": "A deep barrel drum: boom and stick. Play low."
+  },
+  {
+   "name": "Taiko Ensemble",
+   "family": "Drums and percussion",
+   "instrument": {
+    "synth": "Taiko",
+    "params": {
+     "ensemble": 0.7,
+     "space": 0.1
+    }
+   },
+   "space": {
+    "name": "Wooden Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "decay": 0.9,
+     "predelay": 14,
+     "lowcut": 60,
+     "highcut": 10000
+    },
+    "send": -12
+   },
+   "note": "Several taiko struck together, a little apart."
+  }
+ ]
+}
