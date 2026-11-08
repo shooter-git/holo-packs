@@ -1,0 +1,6771 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "harp",
+ "name": "Etherealwinds Harp II CE",
+ "license": "CC-BY-4.0",
+ "credit": "Etherealwinds Harp II: Community Edition by Jordi Francis (etherealwinds) and Versilian Studios (CC BY 4.0): a 34-string Iona Celtic harp, sampled chromatically.",
+ "bytes": 179100308,
+ "source": {
+  "kind": "mix",
+  "note": "The harp's WAVs, taken out of the published zip, each kept until it falls to -60 dB (12 s at most) and faded there, otherwise bit for bit.",
+  "bases": {},
+  "downloads": {
+   "harp:Samples/EWHarp_Normal_A#1_v2_RR1.wav": "0d5ccbfc71b85e5724106f711be54e24315298f79a104bef4d494f1737edc287",
+   "harp:Samples/EWHarp_Normal_A#1_v2_RR2.wav": "feb6f0def148ebb28f2d110328f615529b498379b742c5f4db654b982eb14d0c",
+   "harp:Samples/EWHarp_Normal_A#1_v3_RR1.wav": "58ec00782be27a6eb18304a498249878ba239ac3c1d6b9165c51eb837d73213e",
+   "harp:Samples/EWHarp_Normal_A#1_v3_RR2.wav": "67abb7fc76779577cddc9b07f3fce06db7f37776053656a6aaaadf881be1898e",
+   "harp:Samples/EWHarp_Normal_A#2_v2_RR1.wav": "cd8f81c7991dd71dae19d701f9dc69bd52e33f497114ce95b61dbfbb63a8db29",
+   "harp:Samples/EWHarp_Normal_A#2_v2_RR2.wav": "2570fc0906fdc030c36a11c30d54be11d33e926e145bd561d914ee6e0cbf67ef",
+   "harp:Samples/EWHarp_Normal_A#2_v3_RR1.wav": "9ec236a75152489d80d341083f3a23ddc5b6e2e433f7c1711282346d99bd9a80",
+   "harp:Samples/EWHarp_Normal_A#2_v3_RR2.wav": "dfad4c57e18448fbc52d57d528af17c9fcdcadf28924cf665ead2b810995c064",
+   "harp:Samples/EWHarp_Normal_A#3_v2_RR1.wav": "2f10237e6926a8b4726046020abe14c80969d705fb0db66e83c6d0ac22d978f8",
+   "harp:Samples/EWHarp_Normal_A#3_v2_RR2.wav": "f6a13d7afbb4a17c8e21392d1970c9b1eb7cdfac6722c14058c67b71760125e7",
+   "harp:Samples/EWHarp_Normal_A#3_v3_RR1.wav": "8d3a89b6361bc2d21d54fad291cf1babfe1df4ff6ddf9b9233cc6b9a42e26741",
+   "harp:Samples/EWHarp_Normal_A#3_v3_RR2.wav": "1d03baa94917c8553b3e101aa5406b1bee0ac3014b50a877d85d2948247b94e6",
+   "harp:Samples/EWHarp_Normal_A#4_v2_RR1.wav": "1a1e41eed114648f4950ff2638475aedc85dea31ea0c924f4d392658dee78ee4",
+   "harp:Samples/EWHarp_Normal_A#4_v2_RR2.wav": "61d9c281c3c428b5edb40b3bcfe8115473e23be60925de75b909206290b74a16",
+   "harp:Samples/EWHarp_Normal_A#4_v3_RR1.wav": "7be7994c38110106950c535879ac77cfc261db92a7ae2c7a595d2bdb87589a68",
+   "harp:Samples/EWHarp_Normal_A#4_v3_RR2.wav": "ebd4c2280c71d6e2011d8158eb229a7f771705677de482df5d00ff9cdefc9102",
+   "harp:Samples/EWHarp_Normal_A1_v2_RR1.wav": "8b3d41beee8a062e37687978b6a4e65c40051fd5984b90775de67795a67f93f4",
+   "harp:Samples/EWHarp_Normal_A1_v2_RR2.wav": "65fa93fe0712d0ff94eacd964a92bc9625b114729c920a306bd42bd9a2f828cd",
+   "harp:Samples/EWHarp_Normal_A1_v3_RR1.wav": "b9e0d9640d476693b0299ae70550530f9ea6a69fa12e470acc0791256322ca20",
+   "harp:Samples/EWHarp_Normal_A1_v3_RR2.wav": "5614dc9dc10037d5d927feef70d00b2266158b3250c63a8e299ac4930c775440",
+   "harp:Samples/EWHarp_Normal_A2_v2_RR1.wav": "1e8140d1e2075f124dc16280a74e0804834695be84a22782e0e595ea0a7d8686",
+   "harp:Samples/EWHarp_Normal_A2_v2_RR2.wav": "6c46b1fb399577cdb5d296b3f21804dfe4dd7f9c3db05f49f7b1f0ce6aacdb14",
+   "harp:Samples/EWHarp_Normal_A2_v3_RR1.wav": "0173ac77d937caf8c24e68eb6d3a0d82d9e70610f573c7c41dfe7446da4e9fbd",
+   "harp:Samples/EWHarp_Normal_A2_v3_RR2.wav": "a8bd9821ddcf5ec9bf186b922be41c704cc61b53983c90dca236cfa831395430",
+   "harp:Samples/EWHarp_Normal_A3_v2_RR1.wav": "1081f3636634221b2a44d3bb0895c013ae5f8e4edffd487feb71aff9529552d8",
+   "harp:Samples/EWHarp_Normal_A3_v2_RR2.wav": "b235294d2ab7e42f83e201e31cf7d6a99a6db7f20640d2944c6d89b1c3d57863",
+   "harp:Samples/EWHarp_Normal_A3_v3_RR1.wav": "2816764cd21f9aeaa298c4e011bb37c00b958296359328e2ef9cad619ac1a28f",
+   "harp:Samples/EWHarp_Normal_A3_v3_RR2.wav": "2dc479516ea75824f5589fcb7cc4f114829f683464b688eaf7853df7f8ef2650",
+   "harp:Samples/EWHarp_Normal_A4_v2_RR1.wav": "b08715a98c128d8c9cb95cff9a8b0c15a82743cdc97fe14c714e651d4777b757",
+   "harp:Samples/EWHarp_Normal_A4_v2_RR2.wav": "7064beaceef605aced56fc8f8b8268bdc38d2398d07a3735857f3b3672368882",
+   "harp:Samples/EWHarp_Normal_A4_v3_RR1.wav": "5111a4b6b3fa25fddc6a39b0dc14f02ae4f9e5c34f82b7e28e054e1a9b2a8ae7",
+   "harp:Samples/EWHarp_Normal_A4_v3_RR2.wav": "1cc490d55348d40ba61da215e1dee29ad7f08ad42c4ae1c415de96e70190fb28",
+   "harp:Samples/EWHarp_Normal_A5_v2_RR1.wav": "4cd79b141ac14e269863ca66ba7becb91369aed2950ff86e46122b2f14d362c1",
+   "harp:Samples/EWHarp_Normal_A5_v2_RR2.wav": "39ec67e03639ee11797c292996b7a8d33b5ddadfa504524aa63806fe708ef400",
+   "harp:Samples/EWHarp_Normal_A5_v3_RR1.wav": "efe6332c87366f0b281d5010a3fbc1bab1019e13aa12c09f3fb34bf1c982f6cc",
+   "harp:Samples/EWHarp_Normal_A5_v3_RR2.wav": "690198d013bd6f4abb601717fa2188d857d792bd878a906fcae7dec8a8d3dd96",
+   "harp:Samples/EWHarp_Normal_B1_v2_RR1.wav": "d52dd9c37bd15c20e34c2ecb334efea304149b5fbd3e9853799943da18b97dd5",
+   "harp:Samples/EWHarp_Normal_B1_v2_RR2.wav": "f39f6b8445b643f6b50cc29bceb53851341de12fba7f7097e6e20f569b8ef330",
+   "harp:Samples/EWHarp_Normal_B1_v3_RR1.wav": "beea98f649004b539bb5555cfdc0cace709400fdc3a3835ba68131e4a425f419",
+   "harp:Samples/EWHarp_Normal_B1_v3_RR2.wav": "cf20550be44378b32a2d94b8a093fb62b8a6f605aeeefa781b2bf610d9969f38",
+   "harp:Samples/EWHarp_Normal_B2_v2_RR1.wav": "46d3135940c33f40a7d743c2edcbafc6dbd7a80126b1b4c83b42f269a1ec8b60",
+   "harp:Samples/EWHarp_Normal_B2_v2_RR2.wav": "689f472c794a592a5f0342b55a205d20ed79abe834614c0481be674d876be760",
+   "harp:Samples/EWHarp_Normal_B2_v3_RR1.wav": "606a51b3d119bd75d83da0920f386a0d656be09b86144fb5203a1beade0f5f78",
+   "harp:Samples/EWHarp_Normal_B2_v3_RR2.wav": "7517ece4cc492b3bae3ffb0ddd57673b8db07dce1c144529b0c72f32340451b1",
+   "harp:Samples/EWHarp_Normal_B3_v2_RR1.wav": "764e5152a68278f752542faef82a0fa19108b0beba0bbece949f18a9f1697d6e",
+   "harp:Samples/EWHarp_Normal_B3_v2_RR2.wav": "105c489fbd1993655298b1fb3128c3e7a8ec564c346b5cc04610850230fddb02",
+   "harp:Samples/EWHarp_Normal_B3_v3_RR1.wav": "7089b3c22e1b2bb8bb07bd1c9a5c7a41b58c9a249518c4f53459c97773628195",
+   "harp:Samples/EWHarp_Normal_B3_v3_RR2.wav": "6582a68d4a55081cebae201e679ec10640baff0adf01a76bfc0e6dfcc09e053f",
+   "harp:Samples/EWHarp_Normal_B4_v2_RR1.wav": "8617fc5f2b086583e145289a0e32043597ba0bd13074f96f9acede2c33379ed1",
+   "harp:Samples/EWHarp_Normal_B4_v2_RR2.wav": "e1586f44ba023a7cae1efdd1c83291ec05e4e5a02f7cf110409c5b0e9d6b359b",
+   "harp:Samples/EWHarp_Normal_B4_v3_RR1.wav": "00077e6d27cf581cf494c0dd0dc85caa6af8931593d24504c4a09c38c5d4c2c7",
+   "harp:Samples/EWHarp_Normal_B4_v3_RR2.wav": "7e17411e579cbc34635a65ed206cd3eb72aa6cbf06cd1975e374eb77265377d1",
+   "harp:Samples/EWHarp_Normal_C#1_v2_RR1.wav": "c72913ceb6e8bf33c47f5f9f0b84c3c768f7efd1c1592ec9f3041b990b73d40f",
+   "harp:Samples/EWHarp_Normal_C#1_v2_RR2.wav": "2d80ec02b61e42f772a0c8c42620ddaafaa637948ba6347959adf49bbe4b404a",
+   "harp:Samples/EWHarp_Normal_C#1_v3_RR1.wav": "bbb3b3f1f8155fb5edb5cc780353b490dd3a347e21f2d8b3b11fba6b372eab5e",
+   "harp:Samples/EWHarp_Normal_C#1_v3_RR2.wav": "ac67ecf91c32dca4501828917af509427db4515ac696df153f2078f1c41fc422",
+   "harp:Samples/EWHarp_Normal_C#2_v2_RR1.wav": "4896f65d194498e049a7b942fd7dc2c2ab819d7ef532c21538d0f809d35f2bb2",
+   "harp:Samples/EWHarp_Normal_C#2_v2_RR2.wav": "a5342b4bf868319a1540463ad64a8b99c810d9f383c775e0a4167de372d83455",
+   "harp:Samples/EWHarp_Normal_C#2_v3_RR1.wav": "cf2594b9a00e70762cd1c94702aac62e2c7b9cfcc7ca3297434d96c473db1c0c",
+   "harp:Samples/EWHarp_Normal_C#2_v3_RR2.wav": "b2af47c8a86518db2a15890d30d0e4f26704be5ec41573d8d4a5cf2874454b42",
+   "harp:Samples/EWHarp_Normal_C#3_v2_RR1.wav": "27dfc6be3bad89d2c70b4a5250b4c7e6c3a0589def8ffdcbb3e3e7ac98762def",
+   "harp:Samples/EWHarp_Normal_C#3_v2_RR2.wav": "02424386b4b69485cd4ffceac2a8ee7187f48d88c0ece91c745817790c4d83b8",
+   "harp:Samples/EWHarp_Normal_C#3_v3_RR1.wav": "1ef836a6352b8c4d15667bb0c8a55f165146f0090149dc845137da53e8253642",
+   "harp:Samples/EWHarp_Normal_C#3_v3_RR2.wav": "a83baf53b1ea655e552d178d8eb98f028f05a2a2df0810d24921f6d12cdc368b",
+   "harp:Samples/EWHarp_Normal_C#4_v2_RR1.wav": "af64787b4638f5e75a7887f2f99f0791ef4e36fd1ac80c0e1e43aa01a08d3246",
+   "harp:Samples/EWHarp_Normal_C#4_v2_RR2.wav": "0ad9b99b63d455e3c7c3c7c27f3c7c0270c690aa9bc73b6fb5b7c69c47471b5a",
+   "harp:Samples/EWHarp_Normal_C#4_v3_RR1.wav": "a321a31111309cae1a62ea1982ef92882d0e596f37e0249a9366f1332eeb12e2",
+   "harp:Samples/EWHarp_Normal_C#4_v3_RR2.wav": "13806edc884cda8e50e45701a226ac85e66e0e0eb9c081904c09d9ee07bb6950",
+   "harp:Samples/EWHarp_Normal_C#5_v2_RR1.wav": "3a8d5f515c0d944b698120bef838f29cf5ea267034861398c4e75044467ca82f",
+   "harp:Samples/EWHarp_Normal_C#5_v2_RR2.wav": "b2e35e922d2357df70b4f7ece67251a0ce8a80870f7b015b2a6cc92603b0c514",
+   "harp:Samples/EWHarp_Normal_C#5_v3_RR1.wav": "82eea96c6b6146175befed06fda49eaced8308a95a8f34b212c25e70b830754a",
+   "harp:Samples/EWHarp_Normal_C#5_v3_RR2.wav": "d138ccd3425229729ff695f2b1029b4d812109087895a5b5fdd7e72901913943",
+   "harp:Samples/EWHarp_Normal_C1_v2_RR1.wav": "c0a493380a5c12bff2e114882d90bd0844e14b9255ba2a4d1420475b75299fa8",
+   "harp:Samples/EWHarp_Normal_C1_v2_RR2.wav": "c2ac30faa10b3a2180c80c3ef02495883892e7560f3950305989ca129db22f06",
+   "harp:Samples/EWHarp_Normal_C1_v3_RR1.wav": "7237e03c627b9fd25ce8554c89391ca10ac81ed86dc01430ab89f8df0964319b",
+   "harp:Samples/EWHarp_Normal_C1_v3_RR2.wav": "75cf0c7b91ce7eb58beae12b8b3e43d7b3fb016647d7eecbc522bb5b4ea3368b",
+   "harp:Samples/EWHarp_Normal_C2_v2_RR1.wav": "086c0b5fcc3e41bee173e53620d38f21a7dee4f59dfd75d8c8bbdf409ecbc5ee",
+   "harp:Samples/EWHarp_Normal_C2_v2_RR2.wav": "0c55504e51db7ed1179ab4477fefc5889236cda623a7e7f16f5336731b989ea0",
+   "harp:Samples/EWHarp_Normal_C2_v3_RR1.wav": "c09832e4c32664e05e69b62c8b5baf378a8959708cd8f81c6ba0ee4e52414e89",
+   "harp:Samples/EWHarp_Normal_C2_v3_RR2.wav": "b81cd9af59c9eb5d6a14dc1ef667663bd2acea880b0d9c48a308e496d9d97d84",
+   "harp:Samples/EWHarp_Normal_C3_v2_RR1.wav": "bfc5a2cae93793ac46bfe50c1b71d1e64e29eba34e71164c47c29e67488abd96",
+   "harp:Samples/EWHarp_Normal_C3_v2_RR2.wav": "9a3163388aac2e903442dcaa90675d7d9f9fc4932a64c09ed56e054a3b1e1015",
+   "harp:Samples/EWHarp_Normal_C3_v3_RR1.wav": "f5263188078d1e297d6c8500e9238b61dbe0b9ac848da901880c408c38b1d37b",
+   "harp:Samples/EWHarp_Normal_C3_v3_RR2.wav": "79315a547c5328e035cd01d3aee5fc7cb1ac458c1129ca17868e55891bdf0d08",
+   "harp:Samples/EWHarp_Normal_C4_v2_RR1.wav": "79774644727f61bd535e4b49f7eae0c31b0cac4d2714d33d8f6cd84e5db081d3",
+   "harp:Samples/EWHarp_Normal_C4_v2_RR2.wav": "5adbe649e936983ad848160ccd4f3c519ead35e9b1b05c7d4a2a9d2cb4f1d46e",
+   "harp:Samples/EWHarp_Normal_C4_v3_RR1.wav": "acfaa686ee6ca4c85f2bb537f753ab4ed4d9244972d51ac8bdfb678d05375e66",
+   "harp:Samples/EWHarp_Normal_C4_v3_RR2.wav": "3a6a2a98f489983807f65a82b48feca3de96d5fec714d4e4621699e979deeafb",
+   "harp:Samples/EWHarp_Normal_C5_v2_RR1.wav": "75ce02fddc09d6c8c258a5c1ff79a901c5c60e434eaadc98b9dc67a741105c55",
+   "harp:Samples/EWHarp_Normal_C5_v2_RR2.wav": "c0eec295e4692f1a47cd473f9a143ae4ef252c154f3cc6ffea2a926b8a5a9956",
+   "harp:Samples/EWHarp_Normal_C5_v3_RR1.wav": "2fe2392574397fda7f834b98c8fbe6a4271ceb75d525d74c3583788bd4f0a0e4",
+   "harp:Samples/EWHarp_Normal_C5_v3_RR2.wav": "88e3bddfd23f86c6036964c724a7961f0df885a118c7d05065688e5539625089",
+   "harp:Samples/EWHarp_Normal_D#1_v2_RR1.wav": "8727f049caad01a6869b8dcd261c6b1f3d349ee20c51fa51b090348c00a12d7e",
+   "harp:Samples/EWHarp_Normal_D#1_v2_RR2.wav": "d686ba2a4c28ef72cd4348d819103832d2de4390bb79b7fb86f50f42ac6b5a56",
+   "harp:Samples/EWHarp_Normal_D#1_v3_RR1.wav": "757ec4f59a5d187c4bdbe7ae6c03fe2c5121871ede37a70608e30a9ca64e3e0b",
+   "harp:Samples/EWHarp_Normal_D#1_v3_RR2.wav": "5c5e6850fcabcd827915fe841a461e827db46661c70c6acd1363503e9eac0075",
+   "harp:Samples/EWHarp_Normal_D#2_v2_RR1.wav": "8fcd588c506dcc746492cce0b2f2d6ad43ac1cf0d0e21295c2cfed9cb143ab8b",
+   "harp:Samples/EWHarp_Normal_D#2_v2_RR2.wav": "5dc06763c4755db3e94f76fb775293f47274c71b79cc44830b8c9e98e69477ef",
+   "harp:Samples/EWHarp_Normal_D#2_v3_RR1.wav": "36e08e96ae5c3899cb23d9192c48a4b4b91e5c8a102ad3c5996f575f0835e393",
+   "harp:Samples/EWHarp_Normal_D#2_v3_RR2.wav": "2ab2251ea2c30fcb95acaa18c42a4ad57e66ed44c06a3357c059560ef7da1ee5",
+   "harp:Samples/EWHarp_Normal_D#3_v2_RR1.wav": "a7fefc257d74c679032807004ef3408901015c3662f35cad9fc3477ed58c011a",
+   "harp:Samples/EWHarp_Normal_D#3_v2_RR2.wav": "0ab646abd42c05883bad8a066c5a42a9b2d34849c68c0c8dec2089374f56ad86",
+   "harp:Samples/EWHarp_Normal_D#3_v3_RR1.wav": "134f500757ca44c05e05b712e78d88b425f630b0d31887d4bda563fc23f02c3c",
+   "harp:Samples/EWHarp_Normal_D#3_v3_RR2.wav": "f416696ae9c679153b52d0f5b2973c937049f19ad6ca953374c513be4d429c9f",
+   "harp:Samples/EWHarp_Normal_D#4_v2_RR1.wav": "a2baaabb9dd6c15f02e5891002d189c435429681cbb75281cdb3c5cf75d66620",
+   "harp:Samples/EWHarp_Normal_D#4_v2_RR2.wav": "9abf80d58e2001f490f4015b94eb7f49a129e99ef901ecf6fb96004a4ee9e500",
+   "harp:Samples/EWHarp_Normal_D#4_v3_RR1.wav": "6b4567cba436e385d566c0634b6a9b07b5bd04a0a52199544630e3b2f2e4c198",
+   "harp:Samples/EWHarp_Normal_D#4_v3_RR2.wav": "44ef06ac6e87174ee383adeabb27d8a9c39dbbfbde1a11a4fcc57251278ecd3c",
+   "harp:Samples/EWHarp_Normal_D#5_v2_RR1.wav": "8c3596441a308ce207d9821ddf46644dd5b4718c0d5dbe08b526c5a1bb2f8c45",
+   "harp:Samples/EWHarp_Normal_D#5_v2_RR2.wav": "a07a962eb0f515eac5f99323ca9c26fb9f7023ad6904519b0099a0e134d37f85",
+   "harp:Samples/EWHarp_Normal_D#5_v3_RR1.wav": "87d0936c079c9f79d479cb68b8c1957cf770f99a6bf46e756c766730878194a1",
+   "harp:Samples/EWHarp_Normal_D#5_v3_RR2.wav": "1b25464c3849b9df3bd3da340d6f13734c9d91636e08f40a808ca9c08f9e9ccb",
+   "harp:Samples/EWHarp_Normal_D1_v2_RR1.wav": "2ec64ce4e72ae5bdd9af11b4bb4dc01b93a451c5fc9d4236af747560a3bde5ec",
+   "harp:Samples/EWHarp_Normal_D1_v2_RR2.wav": "3db1157aef26d9c0f20c168dc9e54bdb7f9eef9004add2c23418bda1f62c3350",
+   "harp:Samples/EWHarp_Normal_D1_v3_RR1.wav": "53fd5d396f62f08bd1a1fa3dce34f2ea0da0a5c461a3d5ff3b4f9dcc2e2025e3",
+   "harp:Samples/EWHarp_Normal_D1_v3_RR2.wav": "fb808b1b06db7350d3ea26e4b6d220dcd9868f7abc191791daf9d532b492dfeb",
+   "harp:Samples/EWHarp_Normal_D2_v2_RR1.wav": "e1c5d39e0b41430df0d277249be01f2a5d4ffc58ac70508a7a14097b8a39808d",
+   "harp:Samples/EWHarp_Normal_D2_v2_RR2.wav": "bf6916ba0477a5e7c51a1642dd233e06b242e1ff8accd9c7a7d6fa617519feda",
+   "harp:Samples/EWHarp_Normal_D2_v3_RR1.wav": "9446554126ab4c499669c108ed5a7b183ed341b95c8595f1426ea7dccdaffbfa",
+   "harp:Samples/EWHarp_Normal_D2_v3_RR2.wav": "bdaf9b3db77703207545ebcc087562ecec040cf39e938de02d7313b327a329d5",
+   "harp:Samples/EWHarp_Normal_D3_v2_RR1.wav": "362b3e4c876a6723501f7176ebce88e6eadcfad7471bd1cf2fdd0039bc789416",
+   "harp:Samples/EWHarp_Normal_D3_v2_RR2.wav": "54dab10b933ac19b54839a472876bb373f36e900c0c2d88d6fa32050f9036b58",
+   "harp:Samples/EWHarp_Normal_D3_v3_RR1.wav": "e13712a407795367a9a2840b706ce804deb47875e3db5490440026c491f758cd",
+   "harp:Samples/EWHarp_Normal_D3_v3_RR2.wav": "5aa664a13f17a004e51a1cea0516c1205504b43781072bab938bc389c06373bb",
+   "harp:Samples/EWHarp_Normal_D4_v2_RR1.wav": "9ee0b906221272c8a51389742048158306da5f69573e57962eb62ee3c1a6ae5a",
+   "harp:Samples/EWHarp_Normal_D4_v2_RR2.wav": "bc71b84f908478d92b771015c5dcd11bacb2a9dc0bd1dacf6ab574c45efce7ee",
+   "harp:Samples/EWHarp_Normal_D4_v3_RR1.wav": "ab8eb5df96cdf61c92b473911b9be4a991f9b1e87f17d8beba8f33ade04c30cb",
+   "harp:Samples/EWHarp_Normal_D4_v3_RR2.wav": "e8a2a6bd81ea5f5ac277d826aed60a5f484c638d34783f1d84cc679b9e144942",
+   "harp:Samples/EWHarp_Normal_D5_v2_RR1.wav": "42ecde4166669c643fb6939572e18ec3898af139c9966de3833bbd5e839454f1",
+   "harp:Samples/EWHarp_Normal_D5_v2_RR2.wav": "35cbbaba63b74a3e497db59fac7ecb9ac983fdcd0efd79ab93e7689d12b6fafc",
+   "harp:Samples/EWHarp_Normal_D5_v3_RR1.wav": "be52d046557971e4ac5db3b93b36f842d3d50255eb82bb77f34a18bcc8db805f",
+   "harp:Samples/EWHarp_Normal_D5_v3_RR2.wav": "d98d7e1e7a894065f4aa3946d00de7420634ee3e1099aa17fb7e5d1a63cc84d4",
+   "harp:Samples/EWHarp_Normal_E1_v2_RR1.wav": "6f31f10f306049ce09246d51217577161518a4d850e2a738032969c6b5ccb4e3",
+   "harp:Samples/EWHarp_Normal_E1_v2_RR2.wav": "f495636eadfa2a11f4606964a4cd97602f07f2354111752e723ecc467a37515b",
+   "harp:Samples/EWHarp_Normal_E1_v3_RR1.wav": "12f75b69b1e3ffb5bc3bf66f135a7c8017d57a2d745467551e2f5ca3d3803c14",
+   "harp:Samples/EWHarp_Normal_E1_v3_RR2.wav": "942767ada02a5f688528b4968841c00fae8330a6e105caf0ad8d0196ed6bcb55",
+   "harp:Samples/EWHarp_Normal_E2_v2_RR1.wav": "b5ec62efd11ef2d3c1dab1bc54f24ad57dc0c61e0113a7d5cff639c6a90728b5",
+   "harp:Samples/EWHarp_Normal_E2_v2_RR2.wav": "a0bb8ce10845cd84e71e9febfa2d99b95a72f9dd4884a7035c4c2c239740889c",
+   "harp:Samples/EWHarp_Normal_E2_v3_RR1.wav": "c924c04712d32447e8af11ef2485987594d91c106c3edf36bf381b97d5060667",
+   "harp:Samples/EWHarp_Normal_E2_v3_RR2.wav": "eb127eecf0811ff7caaba7630cb703d3457b2fe5bafe4a0d12ad73f838a285eb",
+   "harp:Samples/EWHarp_Normal_E3_v2_RR1.wav": "ed514f90376b971b75d7ff605e6b97a1767599d312ef60bf18e91f2d6c9b43c3",
+   "harp:Samples/EWHarp_Normal_E3_v2_RR2.wav": "4686c5429486922873ebe6f444f041d7de369ff1dfe6ed6146e65ead4acf178f",
+   "harp:Samples/EWHarp_Normal_E3_v3_RR1.wav": "63994faec3fc7c041943babed92ac36c43dbbed56946a356eafb39b2389dcf15",
+   "harp:Samples/EWHarp_Normal_E3_v3_RR2.wav": "a779295e179cab2631db1f3494e3a421f64b358ccce4c123802d3953c3f41c21",
+   "harp:Samples/EWHarp_Normal_E4_v2_RR1.wav": "42cddd3ab551907e72893de8493b9a5aab1617dc43c3210bfed9335a5b1992e5",
+   "harp:Samples/EWHarp_Normal_E4_v2_RR2.wav": "cf4fcc99c9421f5bbdf69232f9a9c479ab58ac45df99b1c322528ef08a0df1fa",
+   "harp:Samples/EWHarp_Normal_E4_v3_RR1.wav": "ecd0adbb8f5f98563bcc11dbf841d7815a069804116a6f9b9874962f92c792eb",
+   "harp:Samples/EWHarp_Normal_E4_v3_RR2.wav": "ce90ff6ab3d42a840924a05e80fe036119c9fdf473c057a2c79498e038de24ed",
+   "harp:Samples/EWHarp_Normal_E5_v2_RR1.wav": "1d9c5aa6b2f15c14b2582591c3d7384f9352686a1fed44ab70ba655a31b702ce",
+   "harp:Samples/EWHarp_Normal_E5_v2_RR2.wav": "cd19ddbd29b50132b6dfb68e9595cc623b711664e39d4e1085b981c6bf7ade02",
+   "harp:Samples/EWHarp_Normal_E5_v3_RR1.wav": "dabf113a1c2b1ea9faa9c24db256ab24ac3a803437b7c16cdb8c02007d99bf0d",
+   "harp:Samples/EWHarp_Normal_E5_v3_RR2.wav": "9cf7fe0cba578794cac21bb022f356b1fcc4b0af27776b5a0a35ac3b1b3bc9ad",
+   "harp:Samples/EWHarp_Normal_F#1_v2_RR1.wav": "4d1274e275ea90a367e446da44c73eee7df517430c03121f318d4a3e309d18d1",
+   "harp:Samples/EWHarp_Normal_F#1_v2_RR2.wav": "2cfd097762c4eee65e43b00dedb9d597887ac98a3cdc3d4959b5775c367324a7",
+   "harp:Samples/EWHarp_Normal_F#1_v3_RR1.wav": "697a37fdfca90a00f4ea77e5048d5fb984b16fb61b0f3e179c050aff0c2d46a9",
+   "harp:Samples/EWHarp_Normal_F#1_v3_RR2.wav": "65332682ba3d1a7141a82a86453fee50fb5d3c208ee99b687f7c762afc33c734",
+   "harp:Samples/EWHarp_Normal_F#2_v2_RR1.wav": "c872acf29a7863663a8bcdb6e4511fdfb53117e2793a5effcae2f5a264c33615",
+   "harp:Samples/EWHarp_Normal_F#2_v2_RR2.wav": "ae96282184eb7f91d731a3d54770c1d830d386e6fa4011bd98f55fddbf2e623d",
+   "harp:Samples/EWHarp_Normal_F#2_v3_RR1.wav": "3176bdfe956457b5502686ef785f98ad5182186382697b6214b34e624cf0c883",
+   "harp:Samples/EWHarp_Normal_F#2_v3_RR2.wav": "22c5447f8feae36ad3a4bbc9100e3427e10d2a57aaaa6b93ec2ed6ae90a890e6",
+   "harp:Samples/EWHarp_Normal_F#3_v2_RR1.wav": "4a6ed3a36a0dcefb0ddd1b8b9543a7034d0bb9b6cc01fdebcda0f010cdd4733e",
+   "harp:Samples/EWHarp_Normal_F#3_v2_RR2.wav": "d17938f1198447c3284a08abb3370ae41a01b1a460c84906d69dcb804e3fb263",
+   "harp:Samples/EWHarp_Normal_F#3_v3_RR1.wav": "a8c00777b28e3bb7d5841d6585a8cdf56c3003bba2304c9df8ddbb3a796492c6",
+   "harp:Samples/EWHarp_Normal_F#3_v3_RR2.wav": "326a64ec4ab9837950cad5ed06737d02f44c8361d2d9d719e6b4e1b20d187d37",
+   "harp:Samples/EWHarp_Normal_F#4_v2_RR1.wav": "fe09d1ff1d6da6a77904e84b2edc9e17c80bdbb46e3648ed19eb63b745adf14d",
+   "harp:Samples/EWHarp_Normal_F#4_v2_RR2.wav": "27aa2e5d13bf37a3aa74228315e7e9d5f2a8f54209b4645c549770155d442cf8",
+   "harp:Samples/EWHarp_Normal_F#4_v3_RR1.wav": "0bd3f62e130a9a51c97a4ca89dde54e63f3975c648fea39023794d8b912266ef",
+   "harp:Samples/EWHarp_Normal_F#4_v3_RR2.wav": "30134b21490aa3823d031d2827deca4305c87b72dac9bbe9c9d4d79b82e9b845",
+   "harp:Samples/EWHarp_Normal_F#5_v2_RR1.wav": "d66634ede6b512a90457f2b0b15585772af3768c22a776f55f3862f540c8e948",
+   "harp:Samples/EWHarp_Normal_F#5_v2_RR2.wav": "18ab912a3e462101ec0e3d50e5870a53f288edeb38cf0e799fd678d51da9ee1f",
+   "harp:Samples/EWHarp_Normal_F#5_v3_RR1.wav": "431efd5406e57f52319d41c24c03f7027ff1f1b5db7e6d525c06236060dc9422",
+   "harp:Samples/EWHarp_Normal_F#5_v3_RR2.wav": "43fe7e69c040194947c80e4e2359efba9d00e5ddbed7950acd1889e2a92fedcb",
+   "harp:Samples/EWHarp_Normal_F1_v2_RR1.wav": "1133c0efe1fa13fdbe00d7f24ee79bef2a0727b7ce6c2f899de11bfeedbefea5",
+   "harp:Samples/EWHarp_Normal_F1_v2_RR2.wav": "97b9202f6f27daafe606d31caaef9cd08dc8822049d45001635673ab6fad88d9",
+   "harp:Samples/EWHarp_Normal_F1_v3_RR1.wav": "d22c49bbe44a0c06e7b7bbebce645630a99f60b67dbed7e70807dc554bbda83d",
+   "harp:Samples/EWHarp_Normal_F1_v3_RR2.wav": "e47d4f531bf33eb7aad4f3fb75aff70579be8c47e47713131505621606cbecc9",
+   "harp:Samples/EWHarp_Normal_F2_v2_RR1.wav": "bda0de968962e7a41dea4c2562ae62774744353fd294a1eaf8d3cce38a00458e",
+   "harp:Samples/EWHarp_Normal_F2_v2_RR2.wav": "df4c4f5ddd347964123b4d094ac11c74d336821b9ba069b30580554a9ea8659e",
+   "harp:Samples/EWHarp_Normal_F2_v3_RR1.wav": "9807d8bd89095f81b781920e02f813dac166417cc48ffcf65bebb2aae7bdcce7",
+   "harp:Samples/EWHarp_Normal_F2_v3_RR2.wav": "8f2772131266836b3c60effaff14b6643dab09d073783997e2b7c5806f70a080",
+   "harp:Samples/EWHarp_Normal_F3_v2_RR1.wav": "c834e3fe26ce241c6998acd4152574d7fe2f8be36e6d65cbbf93d3f1523bc922",
+   "harp:Samples/EWHarp_Normal_F3_v2_RR2.wav": "dfac80eff4eba8656a57c721ba2ceed4eb0579e0e33da08b14c397f30fbbc2b8",
+   "harp:Samples/EWHarp_Normal_F3_v3_RR1.wav": "08f396afebc611d7ee85a9833547f0193110d1a8c30dc60f63998e3ad594e5ad",
+   "harp:Samples/EWHarp_Normal_F3_v3_RR2.wav": "c359d40cc64edc532e08e770c584f1c5806b2b3a88d0bd87cc44d23a4446202c",
+   "harp:Samples/EWHarp_Normal_F4_v2_RR1.wav": "27103a8b2a912c34c7378bc299d3c9bbd3288cfed5be50f4c71cb901cb38a2a1",
+   "harp:Samples/EWHarp_Normal_F4_v2_RR2.wav": "7cc5c371e0dd02550efd3996f1ea135faa13e3db04eb148bf6cbb619f18409df",
+   "harp:Samples/EWHarp_Normal_F4_v3_RR1.wav": "7ffa909e509c83fd05eaa95decdd68abb624f0cb749b2b5c6e4cd967f516ce6d",
+   "harp:Samples/EWHarp_Normal_F4_v3_RR2.wav": "027294aaa3dcb71b85e9b64a0006eb4adf6d92973ce65b0e23f411106b3adb38",
+   "harp:Samples/EWHarp_Normal_F5_v2_RR1.wav": "49498aac17af6a82e042e3109afa24e5a4316d92caef2ef2f34cfc4ba214ea8f",
+   "harp:Samples/EWHarp_Normal_F5_v2_RR2.wav": "380892b12add96a7a9d1a4d7de1e381cdfedcba4c95b0f25c4364d7d08c9b4d0",
+   "harp:Samples/EWHarp_Normal_F5_v3_RR1.wav": "873301247fbee036ab21b281cffd2d135b4252d34b010ec1d5e64c3bb404b479",
+   "harp:Samples/EWHarp_Normal_F5_v3_RR2.wav": "c23d7b22724e24bb7c6acbe111b53d1a008c77146dffce9ac03ab6ed6709e4f5",
+   "harp:Samples/EWHarp_Normal_G#1_v2_RR1.wav": "a4695f91324e87e41929503f76f1d70aedaf2fd200dba7a66ad3b0bb7c74ea42",
+   "harp:Samples/EWHarp_Normal_G#1_v2_RR2.wav": "116319b00fb5061639190c1031fe0f8b3f628cf6e95f2aceeff008498302006b",
+   "harp:Samples/EWHarp_Normal_G#1_v3_RR1.wav": "b2de23394daa06c1204e5a01030f264ffdba820c84d26c910d4911199fb9d638",
+   "harp:Samples/EWHarp_Normal_G#1_v3_RR2.wav": "52d0fd7c07b7991e8860276322feace7c2df7f3d54f1d136fa7e0b130aa2d0d9",
+   "harp:Samples/EWHarp_Normal_G#2_v2_RR1.wav": "46efdad2a05dcfa4226ad8d8b5438979f6778d20d14647e732faf369eb6d17e3",
+   "harp:Samples/EWHarp_Normal_G#2_v2_RR2.wav": "be65df3cbd0359827a4566fd353d47833980eea4fa634fb2234049c280a7d076",
+   "harp:Samples/EWHarp_Normal_G#2_v3_RR1.wav": "73e291d511bfe7825cb9fcb63449315a3de5655c00aa9531ca07136036bcef21",
+   "harp:Samples/EWHarp_Normal_G#2_v3_RR2.wav": "4f7b0df94a89b87e30e8864dfe1eb90e85fea9559ced0a6f4d3830d8f1231313",
+   "harp:Samples/EWHarp_Normal_G#3_v2_RR1.wav": "48b5d5e32c5504ed0c47d0645c01e6722773d0af6360bcdfd94f3d9250d690ef",
+   "harp:Samples/EWHarp_Normal_G#3_v2_RR2.wav": "4200f56bb7b0a52278001348f1812cbc987af9c03c87c96f6a97c60b9e9927e1",
+   "harp:Samples/EWHarp_Normal_G#3_v3_RR1.wav": "115fd745e91b8116336b67f61a3af696514d0d0ed060c0b11c677a96c0e34f86",
+   "harp:Samples/EWHarp_Normal_G#3_v3_RR2.wav": "7c56274a22162d501c9b6d423b04d66dd9c8c3594dad0e9073988e4db799e505",
+   "harp:Samples/EWHarp_Normal_G#4_v2_RR1.wav": "bd48c4e67fc45ca92f3a29b7ac8727f8e2f53bf079dac553c6fce0768e19ce11",
+   "harp:Samples/EWHarp_Normal_G#4_v2_RR2.wav": "4dccd825e736ac52fd6c081c06a7cffe15904c8ae71734b5a58dbebca45d7daa",
+   "harp:Samples/EWHarp_Normal_G#4_v3_RR1.wav": "9d3224127d429ca446b7e6478bd76a55d4c6d24aa5de90022d20842bea577694",
+   "harp:Samples/EWHarp_Normal_G#4_v3_RR2.wav": "4782a162ef8f966f069825a93f13665bdd192309626901d830b9ad2ccc6a4d3f",
+   "harp:Samples/EWHarp_Normal_G#5_v2_RR1.wav": "b5ef446bef963ccf197162fcf40a940dfb84619005845061d6eefc91c0c5833e",
+   "harp:Samples/EWHarp_Normal_G#5_v2_RR2.wav": "8761494ef952d11dc34ad0440cbd740bfbca8abcc63316478629bf945b1de6fa",
+   "harp:Samples/EWHarp_Normal_G#5_v3_RR1.wav": "0433bfd6ec96e85743cfcf404d1239c2fe6582d969051270d92f612e9cfab1a8",
+   "harp:Samples/EWHarp_Normal_G#5_v3_RR2.wav": "19c96a2e6ec19dc8e2d8ca1051e211800712681b3e47789da3296355a58b9647",
+   "harp:Samples/EWHarp_Normal_G1_v2_RR1.wav": "a7aa3a21d9b0bee64b7df7c60525c55e3867ccaeca55e5d92c23a507588fbc26",
+   "harp:Samples/EWHarp_Normal_G1_v2_RR2.wav": "d7c010256b90f34c67dbea9450e4d32d7482d1adfaf7a45c19313c444090cedb",
+   "harp:Samples/EWHarp_Normal_G1_v3_RR1.wav": "dfac914ab3a7791404bc303ea1997cb58cbdc88875540ed399d5cff80d30eb60",
+   "harp:Samples/EWHarp_Normal_G1_v3_RR2.wav": "70c00aa7fe66530af1a5ce7e117b07a3e075dfc54f3c3728f809cec889262120",
+   "harp:Samples/EWHarp_Normal_G2_v2_RR1.wav": "d9d8c694d81b1f16c71cf8a4ad95998c58094fe7d92c4ecf7e9c701c92a59aed",
+   "harp:Samples/EWHarp_Normal_G2_v2_RR2.wav": "f16e49a2be4026dbdd9519e7217f14efbe7b3fc5146f2e24b1b43497fd526d79",
+   "harp:Samples/EWHarp_Normal_G2_v3_RR1.wav": "046ef8c7a5a62e300bf6fe10aa3aae37ab8967617d7fa2b6541fa88e1c8f5224",
+   "harp:Samples/EWHarp_Normal_G2_v3_RR2.wav": "4ec3c33c853d43b961e97f8da49e37b6c5cf9bb5efa3fd5f904b829a5cb23149",
+   "harp:Samples/EWHarp_Normal_G3_v2_RR1.wav": "7d9057da9dcf57f8a04a0a26846f9df409eca2ffaab3c5445386ee4b7042cb3a",
+   "harp:Samples/EWHarp_Normal_G3_v2_RR2.wav": "d6b61744bab3a9a04812f618bf6d4b6e4b56cc55f664ab36d1236f966d8e1e5b",
+   "harp:Samples/EWHarp_Normal_G3_v3_RR1.wav": "383453b22d8bf97e67b87db60cf54b98dcc0021a5ebc2f847afdad1580ba9194",
+   "harp:Samples/EWHarp_Normal_G3_v3_RR2.wav": "b469721514789f94bd7acbd17a035157d815ab1e36a00a46f05571c683a5c240",
+   "harp:Samples/EWHarp_Normal_G4_v2_RR1.wav": "39560d740e64028769f917b2e73abacbf478cf668091c6c915f325df2be134f6",
+   "harp:Samples/EWHarp_Normal_G4_v2_RR2.wav": "66fa6ea78934af0791a01ce99908f6e60ac42811b193c8b6d44b3bd95a2d15c9",
+   "harp:Samples/EWHarp_Normal_G4_v3_RR1.wav": "ebe44e47f2590ed5eddf6f71916ff775151f29202cfacfbf3428c2da70c7cdfc",
+   "harp:Samples/EWHarp_Normal_G4_v3_RR2.wav": "4c2ee6983075ce45880388fc57d466eaa865d1fd63b22003a368923975571f9d",
+   "harp:Samples/EWHarp_Normal_G5_v2_RR1.wav": "78e3b206bd05fd26b4c387ba3218e2989dae36df03a2ca754b08e18afcc96305",
+   "harp:Samples/EWHarp_Normal_G5_v2_RR2.wav": "8f38ea666047bd981ed560961507e5946acf891ffedc6f91953a12b4818ee528",
+   "harp:Samples/EWHarp_Normal_G5_v3_RR1.wav": "05bc24b82e8104e0f4a3d3f81ed175c2e3ecc1d643ff373410d32fe3b9bfc2ad",
+   "harp:Samples/EWHarp_Normal_G5_v3_RR2.wav": "dac474695dde5cd3fd60e26b00ac71533dea58f7dfd836e9e396710bf85b201c"
+  },
+  "bits": 16,
+  "files": {
+   "harp/EWHarp_Normal_A#1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 202860,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 183015,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 110250,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 50715,
+    "fadeIn": 0,
+    "fadeOut": 20286
+   },
+   "harp/EWHarp_Normal_A1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 348390,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 218295,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55125,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "harp/EWHarp_Normal_A5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 14994
+   },
+   "harp/EWHarp_Normal_B1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141120,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 136710,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 90405,
+    "fadeIn": 0,
+    "fadeOut": 36162
+   },
+   "harp/EWHarp_Normal_B4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66150,
+    "fadeIn": 0,
+    "fadeOut": 26460
+   },
+   "harp/EWHarp_Normal_C#1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 313110,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 154350,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127890,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   },
+   "harp/EWHarp_Normal_C#5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 11466
+   },
+   "harp/EWHarp_Normal_C1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 295470,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 240345,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 88200,
+    "fadeIn": 0,
+    "fadeOut": 35280
+   },
+   "harp/EWHarp_Normal_C5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   },
+   "harp/EWHarp_Normal_D#1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 524790,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 152145,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 174195,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 72765,
+    "fadeIn": 0,
+    "fadeOut": 29106
+   },
+   "harp/EWHarp_Normal_D#5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 16758
+   },
+   "harp/EWHarp_Normal_D1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 480690,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 163170,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 167580,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 97020,
+    "fadeIn": 0,
+    "fadeOut": 38808
+   },
+   "harp/EWHarp_Normal_D5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   },
+   "harp/EWHarp_Normal_E1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 366030,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 196245,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 220500,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 63945,
+    "fadeIn": 0,
+    "fadeOut": 25578
+   },
+   "harp/EWHarp_Normal_E5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39690,
+    "fadeIn": 0,
+    "fadeOut": 15876
+   },
+   "harp/EWHarp_Normal_F#1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 200655,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 220500,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 116865,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 63945,
+    "fadeIn": 0,
+    "fadeOut": 25578
+   },
+   "harp/EWHarp_Normal_F#5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 16758
+   },
+   "harp/EWHarp_Normal_F1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 357210,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 235935,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 183015,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 68355,
+    "fadeIn": 0,
+    "fadeOut": 27342
+   },
+   "harp/EWHarp_Normal_F5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 16758
+   },
+   "harp/EWHarp_Normal_G#1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 500535,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 227115,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 99225,
+    "fadeIn": 0,
+    "fadeOut": 39690
+   },
+   "harp/EWHarp_Normal_G#4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 59535,
+    "fadeIn": 0,
+    "fadeOut": 23814
+   },
+   "harp/EWHarp_Normal_G#5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 14112
+   },
+   "harp/EWHarp_Normal_G1_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G1_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 374850,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G2_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G2_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 207270,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G3_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G3_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 101430,
+    "fadeIn": 0,
+    "fadeOut": 40572
+   },
+   "harp/EWHarp_Normal_G4_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G4_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_G5_v2_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G5_v2_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 14994
+   },
+   "harp/EWHarp_Normal_A#1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 299880,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 213885,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 130095,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55125,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "harp/EWHarp_Normal_A1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 337365,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 293265,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 74970,
+    "fadeIn": 0,
+    "fadeOut": 29988
+   },
+   "harp/EWHarp_Normal_A5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 16758
+   },
+   "harp/EWHarp_Normal_B1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 266805,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 235935,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 119070,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 99225,
+    "fadeIn": 0,
+    "fadeOut": 39690
+   },
+   "harp/EWHarp_Normal_C#1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 163170,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 169785,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 94815,
+    "fadeIn": 0,
+    "fadeOut": 37926
+   },
+   "harp/EWHarp_Normal_C#5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52920,
+    "fadeIn": 0,
+    "fadeOut": 21168
+   },
+   "harp/EWHarp_Normal_C1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 399105,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 271215,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 63945,
+    "fadeIn": 0,
+    "fadeOut": 25578
+   },
+   "harp/EWHarp_Normal_D#1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 496125,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 171990,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 231525,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 92610,
+    "fadeIn": 0,
+    "fadeOut": 37044
+   },
+   "harp/EWHarp_Normal_D#5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_D1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 284445,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 260190,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 196245,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55125,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "harp/EWHarp_Normal_E1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 407925,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 235935,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 229320,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 149940,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 50715,
+    "fadeIn": 0,
+    "fadeOut": 20286
+   },
+   "harp/EWHarp_Normal_F#1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 421155,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 242550,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 180810,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 85995,
+    "fadeIn": 0,
+    "fadeOut": 34398
+   },
+   "harp/EWHarp_Normal_F#5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_F1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 401310,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 207270,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 273420,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 74970,
+    "fadeIn": 0,
+    "fadeOut": 29988
+   },
+   "harp/EWHarp_Normal_F5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_G#1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 233730,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 116865,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 72765,
+    "fadeIn": 0,
+    "fadeOut": 29106
+   },
+   "harp/EWHarp_Normal_G#5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_G1_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G1_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G2_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G2_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 251370,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G3_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G3_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 114660,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G4_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G4_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 0,
+    "fadeOut": 28224
+   },
+   "harp/EWHarp_Normal_G5_v3_RR1.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G5_v3_RR1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   },
+   "harp/EWHarp_Normal_A#1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 216090,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 183015,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 110250,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   },
+   "harp/EWHarp_Normal_A1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 332955,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 218295,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 59535,
+    "fadeIn": 0,
+    "fadeOut": 23814
+   },
+   "harp/EWHarp_Normal_A5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 16758
+   },
+   "harp/EWHarp_Normal_B1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141120,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 136710,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 101430,
+    "fadeIn": 0,
+    "fadeOut": 40572
+   },
+   "harp/EWHarp_Normal_B4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55125,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "harp/EWHarp_Normal_C#1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 346185,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 154350,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127890,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 68355,
+    "fadeIn": 0,
+    "fadeOut": 27342
+   },
+   "harp/EWHarp_Normal_C#5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "harp/EWHarp_Normal_C1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 295470,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 240345,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 88200,
+    "fadeIn": 0,
+    "fadeOut": 35280
+   },
+   "harp/EWHarp_Normal_C5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52920,
+    "fadeIn": 0,
+    "fadeOut": 21168
+   },
+   "harp/EWHarp_Normal_D#1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 515970,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 152145,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 174195,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 77175,
+    "fadeIn": 0,
+    "fadeOut": 30870
+   },
+   "harp/EWHarp_Normal_D#5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 16758
+   },
+   "harp/EWHarp_Normal_D1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 480690,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 163170,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 167580,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 97020,
+    "fadeIn": 0,
+    "fadeOut": 38808
+   },
+   "harp/EWHarp_Normal_D5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   },
+   "harp/EWHarp_Normal_E1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 366030,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 196245,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 220500,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 72765,
+    "fadeIn": 0,
+    "fadeOut": 29106
+   },
+   "harp/EWHarp_Normal_E5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 14994
+   },
+   "harp/EWHarp_Normal_F#1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 213885,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 220500,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 116865,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 77175,
+    "fadeIn": 0,
+    "fadeOut": 30870
+   },
+   "harp/EWHarp_Normal_F#5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 44100,
+    "fadeIn": 0,
+    "fadeOut": 17640
+   },
+   "harp/EWHarp_Normal_F1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 332955,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 235935,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 180810,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55125,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "harp/EWHarp_Normal_F5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 16758
+   },
+   "harp/EWHarp_Normal_G#1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 500535,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 227115,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 99225,
+    "fadeIn": 0,
+    "fadeOut": 39690
+   },
+   "harp/EWHarp_Normal_G#4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 57330,
+    "fadeIn": 0,
+    "fadeOut": 22932
+   },
+   "harp/EWHarp_Normal_G#5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 14112
+   },
+   "harp/EWHarp_Normal_G1_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G1_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 374850,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G2_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G2_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 207270,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G3_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G3_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 101430,
+    "fadeIn": 0,
+    "fadeOut": 40572
+   },
+   "harp/EWHarp_Normal_G4_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G4_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_G5_v2_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G5_v2_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 14112
+   },
+   "harp/EWHarp_Normal_A#1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 295470,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 216090,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 130095,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A#4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A#4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55125,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "harp/EWHarp_Normal_A1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 337365,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 293265,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_A4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 83790,
+    "fadeIn": 0,
+    "fadeOut": 33516
+   },
+   "harp/EWHarp_Normal_A5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_A5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 44100,
+    "fadeIn": 0,
+    "fadeOut": 17640
+   },
+   "harp/EWHarp_Normal_B1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 266805,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 235935,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 119070,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_B4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_B4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 99225,
+    "fadeIn": 0,
+    "fadeOut": 39690
+   },
+   "harp/EWHarp_Normal_C#1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 147735,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 171990,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C#4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 94815,
+    "fadeIn": 0,
+    "fadeOut": 37926
+   },
+   "harp/EWHarp_Normal_C#5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C#5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52920,
+    "fadeIn": 0,
+    "fadeOut": 21168
+   },
+   "harp/EWHarp_Normal_C1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 414540,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 271215,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 196245,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_C5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_C5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 59535,
+    "fadeIn": 0,
+    "fadeOut": 23814
+   },
+   "harp/EWHarp_Normal_D#1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 496125,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 174195,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 231525,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D#4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 92610,
+    "fadeIn": 0,
+    "fadeOut": 37044
+   },
+   "harp/EWHarp_Normal_D#5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D#5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_D1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 284445,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 260190,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 196245,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_D5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_D5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52920,
+    "fadeIn": 0,
+    "fadeOut": 21168
+   },
+   "harp/EWHarp_Normal_E1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 407925,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 235935,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 229320,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 149940,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_E5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_E5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_F#1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 423360,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 242550,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 180810,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F#4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 85995,
+    "fadeIn": 0,
+    "fadeOut": 34398
+   },
+   "harp/EWHarp_Normal_F#5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F#5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   },
+   "harp/EWHarp_Normal_F1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 401310,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 207270,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 273420,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_F4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 81585,
+    "fadeIn": 0,
+    "fadeOut": 32634
+   },
+   "harp/EWHarp_Normal_F5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_F5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   },
+   "harp/EWHarp_Normal_G#1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 233730,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 116865,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G#4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 72765,
+    "fadeIn": 0,
+    "fadeOut": 29106
+   },
+   "harp/EWHarp_Normal_G#5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G#5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "harp/EWHarp_Normal_G1_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G1_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 529200,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G2_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G2_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 251370,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G3_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G3_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 138915,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "harp/EWHarp_Normal_G4_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G4_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 0,
+    "fadeOut": 28224
+   },
+   "harp/EWHarp_Normal_G5_v3_RR2.wav": {
+    "in": [
+     [
+      "harp:Samples/EWHarp_Normal_G5_v3_RR2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 19404
+   }
+  },
+  "archives": {
+   "harp": {
+    "url": "https://versilian-studios.com/Distro/EWHarp2CE_SFZ-Raw.zip",
+    "sha256": "18b78e3c309f5fb6097e1af04482f61a86bab5d9c4d2403f4adfa8bc684af578"
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "harp",
+   "title": "Celtic Harp",
+   "category": "Strings",
+   "pitched": true,
+   "release": 1.2,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 28,
+   "polyphony": 64,
+   "notePolyphony": 2,
+   "offTime": 0.2,
+   "zones": [
+    {
+     "file": "harp/EWHarp_Normal_C1_v2_RR1.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C1_v2_RR2.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C1_v3_RR1.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C1_v3_RR2.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#1_v2_RR1.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 313110,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#1_v2_RR2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 346185,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#1_v3_RR1.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#1_v3_RR2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D1_v2_RR1.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 480690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D1_v2_RR2.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 480690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D1_v3_RR1.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D1_v3_RR2.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#1_v2_RR1.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 524790,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#1_v2_RR2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 515970,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#1_v3_RR1.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 496125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#1_v3_RR2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 496125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E1_v2_RR1.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 366030,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E1_v2_RR2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 366030,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E1_v3_RR1.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 407925,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E1_v3_RR2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 407925,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F1_v2_RR1.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 357210,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F1_v2_RR2.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 332955,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F1_v3_RR1.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 401310,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F1_v3_RR2.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 401310,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#1_v2_RR1.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 200655,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#1_v2_RR2.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 213885,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#1_v3_RR1.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 421155,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#1_v3_RR2.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 423360,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G1_v2_RR1.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 374850,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G1_v2_RR2.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 374850,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G1_v3_RR1.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G1_v3_RR2.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#1_v2_RR1.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 500535,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#1_v2_RR2.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 500535,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#1_v3_RR1.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#1_v3_RR2.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A1_v2_RR1.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 348390,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A1_v2_RR2.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 332955,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A1_v3_RR1.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A1_v3_RR2.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 529200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#1_v2_RR1.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 202860,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#1_v2_RR2.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 216090,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#1_v3_RR1.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 299880,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#1_v3_RR2.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 295470,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_B1_v2_RR1.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 141120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_B1_v2_RR2.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 141120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_B1_v3_RR1.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 266805,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_B1_v3_RR2.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 266805,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C2_v2_RR1.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 295470,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C2_v2_RR2.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 295470,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C2_v3_RR1.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 399105,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C2_v3_RR2.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 414540,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#2_v2_RR1.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#2_v2_RR2.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#2_v3_RR1.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 163170,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#2_v3_RR2.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 147735,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D2_v2_RR1.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 163170,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D2_v2_RR2.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 163170,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D2_v3_RR1.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 284445,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D2_v3_RR2.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 284445,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#2_v2_RR1.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 152145,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#2_v2_RR2.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 152145,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#2_v3_RR1.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 171990,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#2_v3_RR2.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 174195,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E2_v2_RR1.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E2_v2_RR2.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E2_v3_RR1.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 235935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E2_v3_RR2.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 235935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F2_v2_RR1.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 235935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F2_v2_RR2.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 235935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F2_v3_RR1.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 207270,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F2_v3_RR2.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 207270,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#2_v2_RR1.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#2_v2_RR2.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#2_v3_RR1.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 242550,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#2_v3_RR2.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 242550,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G2_v2_RR1.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 207270,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G2_v2_RR2.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 207270,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G2_v3_RR1.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 251370,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G2_v3_RR2.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 251370,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#2_v2_RR1.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 227115,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#2_v2_RR2.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 227115,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#2_v3_RR1.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 233730,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#2_v3_RR2.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 233730,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A2_v2_RR1.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A2_v2_RR2.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A2_v3_RR1.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 337365,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A2_v3_RR2.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 337365,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#2_v2_RR1.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 183015,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#2_v2_RR2.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 183015,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#2_v3_RR1.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 213885,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#2_v3_RR2.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 216090,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_B2_v2_RR1.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 136710,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_B2_v2_RR2.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 136710,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_B2_v3_RR1.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 235935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_B2_v3_RR2.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 235935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C3_v2_RR1.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 240345,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C3_v2_RR2.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 240345,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C3_v3_RR1.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 271215,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C3_v3_RR2.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 271215,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#3_v2_RR1.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#3_v2_RR2.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#3_v3_RR1.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 169785,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#3_v3_RR2.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 171990,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D3_v2_RR1.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 167580,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D3_v2_RR2.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 167580,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D3_v3_RR1.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 260190,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D3_v3_RR2.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 260190,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#3_v2_RR1.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 174195,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#3_v2_RR2.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 174195,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#3_v3_RR1.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 231525,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#3_v3_RR2.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 231525,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E3_v2_RR1.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E3_v2_RR2.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E3_v3_RR1.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 229320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E3_v3_RR2.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 229320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F3_v2_RR1.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 183015,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F3_v2_RR2.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 180810,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F3_v3_RR1.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 273420,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F3_v3_RR2.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 273420,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#3_v2_RR1.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 116865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#3_v2_RR2.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 116865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#3_v3_RR1.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 180810,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#3_v3_RR2.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 180810,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G3_v2_RR1.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 101430,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G3_v2_RR2.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 101430,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G3_v3_RR1.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 114660,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G3_v3_RR2.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 138915,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#3_v2_RR1.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 99225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#3_v2_RR2.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 99225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#3_v3_RR1.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 116865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#3_v3_RR2.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 116865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A3_v2_RR1.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 218295,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A3_v2_RR2.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 218295,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A3_v3_RR1.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 293265,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A3_v3_RR2.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 293265,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#3_v2_RR1.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 110250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#3_v2_RR2.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 110250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#3_v3_RR1.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 130095,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#3_v3_RR2.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 130095,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_B3_v2_RR1.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_B3_v2_RR2.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 101430,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_B3_v3_RR1.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 119070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_B3_v3_RR2.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 119070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C4_v2_RR1.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 88200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C4_v2_RR2.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 88200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C4_v3_RR1.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C4_v3_RR2.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#4_v2_RR1.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#4_v2_RR2.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 68355,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#4_v3_RR1.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 94815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#4_v3_RR2.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 94815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D4_v2_RR1.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D4_v2_RR2.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D4_v3_RR1.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D4_v3_RR2.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#4_v2_RR1.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 72765,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#4_v2_RR2.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 77175,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#4_v3_RR1.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 92610,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#4_v3_RR2.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 92610,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E4_v2_RR1.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 63945,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E4_v2_RR2.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 72765,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E4_v3_RR1.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 149940,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E4_v3_RR2.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 149940,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F4_v2_RR1.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 68355,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F4_v2_RR2.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 55125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F4_v3_RR1.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 74970,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F4_v3_RR2.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 81585,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#4_v2_RR1.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 63945,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#4_v2_RR2.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 77175,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#4_v3_RR1.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 85995,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#4_v3_RR2.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 85995,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G4_v2_RR1.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G4_v2_RR2.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G4_v3_RR1.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G4_v3_RR2.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#4_v2_RR1.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 59535,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#4_v2_RR2.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 57330,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#4_v3_RR1.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 72765,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#4_v3_RR2.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 72765,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A4_v2_RR1.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 55125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A4_v2_RR2.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 59535,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A4_v3_RR1.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 74970,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A4_v3_RR2.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 83790,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#4_v2_RR1.wav",
+     "root": 82,
+     "lo": 82,
+     "hi": 82,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 50715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#4_v2_RR2.wav",
+     "root": 82,
+     "lo": 82,
+     "hi": 82,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#4_v3_RR1.wav",
+     "root": 82,
+     "lo": 82,
+     "hi": 82,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 55125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A#4_v3_RR2.wav",
+     "root": 82,
+     "lo": 82,
+     "hi": 82,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 55125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_B4_v2_RR1.wav",
+     "root": 83,
+     "lo": 83,
+     "hi": 83,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 66150,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_B4_v2_RR2.wav",
+     "root": 83,
+     "lo": 83,
+     "hi": 83,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 55125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_B4_v3_RR1.wav",
+     "root": 83,
+     "lo": 83,
+     "hi": 83,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 99225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_B4_v3_RR2.wav",
+     "root": 83,
+     "lo": 83,
+     "hi": 83,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 99225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C5_v2_RR1.wav",
+     "root": 84,
+     "lo": 84,
+     "hi": 84,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C5_v2_RR2.wav",
+     "root": 84,
+     "lo": 84,
+     "hi": 84,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C5_v3_RR1.wav",
+     "root": 84,
+     "lo": 84,
+     "hi": 84,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 63945,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C5_v3_RR2.wav",
+     "root": 84,
+     "lo": 84,
+     "hi": 84,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 59535,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#5_v2_RR1.wav",
+     "root": 85,
+     "lo": 85,
+     "hi": 85,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#5_v2_RR2.wav",
+     "root": 85,
+     "lo": 85,
+     "hi": 85,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#5_v3_RR1.wav",
+     "root": 85,
+     "lo": 85,
+     "hi": 85,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_C#5_v3_RR2.wav",
+     "root": 85,
+     "lo": 85,
+     "hi": 85,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D5_v2_RR1.wav",
+     "root": 86,
+     "lo": 86,
+     "hi": 86,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D5_v2_RR2.wav",
+     "root": 86,
+     "lo": 86,
+     "hi": 86,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D5_v3_RR1.wav",
+     "root": 86,
+     "lo": 86,
+     "hi": 86,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 55125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D5_v3_RR2.wav",
+     "root": 86,
+     "lo": 86,
+     "hi": 86,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#5_v2_RR1.wav",
+     "root": 87,
+     "lo": 87,
+     "hi": 87,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#5_v2_RR2.wav",
+     "root": 87,
+     "lo": 87,
+     "hi": 87,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#5_v3_RR1.wav",
+     "root": 87,
+     "lo": 87,
+     "hi": 87,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_D#5_v3_RR2.wav",
+     "root": 87,
+     "lo": 87,
+     "hi": 87,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E5_v2_RR1.wav",
+     "root": 88,
+     "lo": 88,
+     "hi": 88,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E5_v2_RR2.wav",
+     "root": 88,
+     "lo": 88,
+     "hi": 88,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_E5_v3_RR1.wav",
+     "root": 88,
+     "lo": 88,
+     "hi": 88,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 50715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_E5_v3_RR2.wav",
+     "root": 88,
+     "lo": 88,
+     "hi": 88,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F5_v2_RR1.wav",
+     "root": 89,
+     "lo": 89,
+     "hi": 89,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F5_v2_RR2.wav",
+     "root": 89,
+     "lo": 89,
+     "hi": 89,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F5_v3_RR1.wav",
+     "root": 89,
+     "lo": 89,
+     "hi": 89,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F5_v3_RR2.wav",
+     "root": 89,
+     "lo": 89,
+     "hi": 89,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#5_v2_RR1.wav",
+     "root": 90,
+     "lo": 90,
+     "hi": 90,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#5_v2_RR2.wav",
+     "root": 90,
+     "lo": 90,
+     "hi": 90,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 44100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#5_v3_RR1.wav",
+     "root": 90,
+     "lo": 90,
+     "hi": 90,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_F#5_v3_RR2.wav",
+     "root": 90,
+     "lo": 90,
+     "hi": 90,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G5_v2_RR1.wav",
+     "root": 91,
+     "lo": 91,
+     "hi": 91,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G5_v2_RR2.wav",
+     "root": 91,
+     "lo": 91,
+     "hi": 91,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G5_v3_RR1.wav",
+     "root": 91,
+     "lo": 91,
+     "hi": 91,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G5_v3_RR2.wav",
+     "root": 91,
+     "lo": 91,
+     "hi": 91,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#5_v2_RR1.wav",
+     "root": 92,
+     "lo": 92,
+     "hi": 92,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#5_v2_RR2.wav",
+     "root": 92,
+     "lo": 92,
+     "hi": 92,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#5_v3_RR1.wav",
+     "root": 92,
+     "lo": 92,
+     "hi": 92,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_G#5_v3_RR2.wav",
+     "root": 92,
+     "lo": 92,
+     "hi": 92,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A5_v2_RR1.wav",
+     "root": 93,
+     "lo": 93,
+     "hi": 93,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A5_v2_RR2.wav",
+     "root": 93,
+     "lo": 93,
+     "hi": 93,
+     "lovel": 0,
+     "hivel": 80,
+     "gain": 12.12,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "harp/EWHarp_Normal_A5_v3_RR1.wav",
+     "root": 93,
+     "lo": 93,
+     "hi": 93,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "harp/EWHarp_Normal_A5_v3_RR2.wav",
+     "root": 93,
+     "lo": 93,
+     "hi": 93,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 44100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    }
+   ]
+  }
+ ]
+}

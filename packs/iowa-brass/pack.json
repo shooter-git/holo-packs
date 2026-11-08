@@ -1,0 +1,6262 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "iowa-brass",
+ "name": "University of Iowa MIS: Brass",
+ "license": "Free to use without restriction (University of Iowa Electronic Music Studios)",
+ "credit": "University of Iowa Musical Instrument Samples (Electronic Music Studios, University of Iowa): free to use for any project, without restriction.",
+ "bytes": 169643686,
+ "source": {
+  "kind": "mix",
+  "note": "Iowa's 2012 single notes (stereo AIFF), each from just before its attack until it falls to -60 dB, faded there, otherwise bit for bit.",
+  "bases": {
+   "iowa": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/"
+  },
+  "downloads": {
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.A1.stereo.aif": "c082ce9f617940f11cf115ffdcdb5b05c974de48454ef49a1d14b3e303bd66b7",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.A2.stereo.aif": "9034746da8fd105ccb67c981162bcab60507b4e12fa32688e77fee241e2d6458",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Ab1.stereo.aif": "53983b759167fec34a76e61aa34c5101740c9e6f31ebaca45e6ba1a9833e2cdf",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Ab2.stereo.aif": "ec4040844f3b19390da7d2b79b81efb51a92fd211fd1ab3c0015c5205446210b",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.B1.stereo.aif": "c48e8f7119de34c26f5c2629b4fd57af2de697716433ffcd9ef4cd253d9a8883",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.B2.stereo.aif": "8b893a812a5e8ceda67aaf1c865429b8964aceade7e176ca3860f25295e9d356",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Bb1.stereo.aif": "0350ff8788d4d7f151704c94b23fdce9ff2581a7992e4af58e87b9722e54119b",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Bb2.stereo.aif": "b0cc1f037ceaaa14b80c49fc5f9549bf946661d3a6d97d1c6e3e93d33f297d5e",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.C2.stereo.aif": "ad036243c62cd92238840440efc8ab942fb88af06b4989c8426fd40b5366040d",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.C3.stereo.aif": "c5b8570bfd47baf8ca36e24f57860c15ced4eb500a6fc65ba7f6ca11aa59e0d6",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.D1.stereo.aif": "2b1d856de67abf02b0efffaacaad0db5255b4a441f0923cc3c0999d11f34a049",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.D2.stereo.aif": "b730e1bbdf19b0c472735a5193d3727ece075c1b1bb851bdbd0dfac7e18fdb9b",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.D3.stereo.aif": "53987e672d0298c19c01b454473b0bc12456670ce37d5cf2e303d6516941de00",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Db1.stereo.aif": "0cb80c4fe3f07ff2847f8bedb8bec1c67c720640760491c19c9b6655d5a33e4f",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Db2.stereo.aif": "0bee47e05a213b2df0861dfa31cf5299783d8b3bdb11bf718b8e743fdd646844",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Db3.stereo.aif": "e147258dc2b4476c7d7b4cadb06e4f4dab6009aabab0b2c00bbe4441fd8c2c07",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.E1.stereo.aif": "9ee4ef6b57c1ea900d4ed27a4dc2839f4f99983d114e88f37139b7c8d7923b3e",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.E2.stereo.aif": "97edb69ca696d8e7145a649e6160b1ae077a5a8f835e509b8cd98d6595903058",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Eb1.stereo.aif": "9a14360f80c8ab238389bcfb2a6c516453f13d70914a2b5b9b9c188d3ab88dd4",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Eb2.stereo.aif": "4ca90af270261651dc0ce259e84b3cfc68a496bf51e572b9f0407aa6862092c0",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Eb3.stereo.aif": "90bd6650261d23023ac366f0e1d2d9f31bba0c67f6731e560053c94861d71697",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.F1.stereo.aif": "2ca267e0d4def0ea91b38c0310b119bd4df574f6a591de4bcec2630e522f2960",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.F2.stereo.aif": "6be0d95362ca178f1efe3302bed32cfec399b3727c7e4b56d7fe1bff68b6ff43",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.G1.stereo.aif": "ec39c0f4e9bb7749e9466e80f5aca38af067cd6788cb7d4ea494a609c125ecd9",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.G2.stereo.aif": "3a007002e2165508e12dc6ea0bce9ea63db9517155c357a9d79240eaab55b5f8",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Gb1.stereo.aif": "847376a3f2286c4d3de43ec1799fb1e6df11e241ff03aa555711309992215e24",
+   "iowa:Brass/Bass Trombone/BassTrombone.ff.Gb2.stereo.aif": "5c14de741117dcde079b97386a9a5f7b01679c6fe1e6365400c6eea995767bd1",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.A3.stereo.aif": "a6ae0c954b5cb6c220578056f31fb70542bdf80f145526ed273c83951469d59f",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.A4.stereo.aif": "d756c2da414500f4631f9e14c08d9448aa719d5c6ef931419d8ae02bf942760e",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.A5.stereo.aif": "148224ef9fd3be68aa4d30556ef85f664097191cefd2dd759a274a5a6af69af2",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Ab3.stereo.aif": "eab2fb0998da7cc55fadc9325746d72102dee332296b1802e1a86071e03172eb",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Ab4.stereo.aif": "21eec8bf97b60d9876c0ce28bdc399c672890e7a08a7a233b88c64ac27f0ecef",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Ab5.stereo.aif": "a1319e1697bf2842c7c61bd6618348e242bb8b57237b2d81b3ac78ce381af259",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.B3.stereo.aif": "3c63cad0668ebbba58f24c6e97cb1443ab2c7a505bd8a5fa897a286686102ba5",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.B4.stereo.aif": "04eaa088dc114bb41023ff527911ff9da548404bc7eda2f28e248e606f0fdad3",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.B5.stereo.aif": "93ec7183b5db35c01682636bd85d31203585a6b5be8ad69ff60c69f3088ed661",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Bb3.stereo.aif": "cd7a3038374d696f009380924a9e39a1eadb82c561a899b05f8941beab3bdd59",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Bb4.stereo.aif": "49b306690c5a8197afe59de106b57186bfa37e8014016a9255b0514e801e2f4e",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Bb5.stereo.aif": "4b29f7767aa112440036ed60fe148af063d53afd75fcbf96821c34d48de448c0",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.C4.stereo.aif": "3dde2f8b6b8c0d1e753a1a18441377b09675e47f0a9d5412bb067ff60c76f7cd",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.C5.stereo.aif": "286ea358ebe3d115edf4f1a8f560779c64c79766d73623049cfdb2e1c4abfb15",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.C6.stereo.aif": "08fce8fc1a70c706bc1edde4131fcba7e6ba18963b9369de957f4721d4e0bdbb",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.D4.stereo.aif": "3db51c05c29cb2a7ebeabed45437800c9e37e3ffa2f711d815cb346a6ba61918",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.D5.stereo.aif": "0e378b0d6157f585c0157e0472d594a877ceae85a8f074ee05242fb716e23eb7",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.D6.stereo.aif": "e0cb33ebc9e1a540f5787ba2b4f89b27c28d3711eb25419a7198150c1182599d",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Db4.stereo.aif": "69ce12e2692d4e2419dad1daba41e1221804c92f3089eec0e02e48f23025984d",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Db5.stereo.aif": "6d10153dccb3ec2223bc93d1562a4d5a2bb9e4b7eaedcbb0f92aaa35d67a6928",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Db6.stereo.aif": "b117f1596dfac1cd053c855f3a42a5feb690ab1f5e801e6afb6f480f471c47b0",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.E3.stereo.aif": "563f2926003ac26b97762e440a55e5a8bcea321a7007be804b842aa3b6f56444",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.E4.stereo.aif": "0071a8b7ff18acae688007a24005c35b0126a2a0f6bbf1ffba17f460cc6f0b85",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.E5.stereo.aif": "bf85d362c614ce4055dd5faba61bae6b1351f355db8c12ffcaffbc896a983e09",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Eb4.stereo.aif": "da42eda550e675455af11f533fed3d2e07d833c22f8776c9b8b7d9d751f18b47",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Eb5.stereo.aif": "f597a67e20c46ae5dafe8b6c074f3442a9c120ba35ad845fa9f901afce0899cb",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Eb6.stereo.aif": "e2dd242e39d278c756ba7b7d0fb236eb39eea88c4a1876a18c65f29cf0ac1dbd",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.F3.stereo.aif": "d622fed268ef2ff4d4dcec245b15289e5b2099399039a47de044f76beebba0af",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.F4.stereo.aif": "16d8a921e58069e654091992eafcbf04f1b252efbc65aca4173e81ad24c934d8",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.F5.stereo.aif": "103d23289af7475181e74dd15c0523875510b897b936c6619d62bb610733c9bc",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.G3.stereo.aif": "44423a04adb3d03daf31a175eb8af779c19bfc941ba50fefe8f09f120169e6da",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.G4.stereo.aif": "2fd50d07a7e2d03607485d6246057bbea7a6c19afe9e7749dc516826b0f54f05",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.G5.stereo.aif": "ddc7ec747cd01482529ed13aa9c86c4e0d052d71b2c14a267ba75165716d2d39",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Gb3.stereo.aif": "2611fcf3c91a49af4f7b6a86eae2b22a0a29ca3f1c25a33d07f291a6de42ab8a",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Gb4.stereo.aif": "bc0aa5872fadd5dbbf60b9adccba623f2febdc25781d60dda9b9932661c5abdd",
+   "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Gb5.stereo.aif": "cd8a4813d4dcdc23fc6bb3d2b25ccca2e319ba29b7eb390a9ad4d867dc391a88",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.A3.stereo.aif": "50dd5e81be919f56a96d3b3e10710b2b7db71a70a76e80f5fd54ec54b9ae1cfb",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.A4.stereo.aif": "8fca3fe6ecbd1ddcb8f9f588798694d0079f54c74e51309ff9c23b52105da80e",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.A5.stereo.aif": "92b8f3355c3fd15e22372c0e715a2304d83ec415e38d31b163f547d0d3c470f1",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Ab3.stereo.aif": "24cd7a2b2c1ac336554484622526add0cde1438d52e57d33bfc72c564fa04870",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Ab4.stereo.aif": "c31fc6cb14d7357892f87b86f0d6f38c01756eb60793e804474a3dadf2b17d33",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Ab5.stereo.aif": "980496df316a907939b0d837553c5f7e38e7fe63b61a09ee01f08d14ade8aa54",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.B3.stereo.aif": "3154ed2dc76e4890436bd9967e4f8e3295f2d5bde7ac7cf3ebd081261f103bff",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.B4.stereo.aif": "84b9f88bddc65e1e076d8b1052b26d35d79af5e7fb4a7070b2582bfb9c682e31",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.B5.stereo.aif": "6c4b7f04035abb4747218e8e81f579c97926e0cd4bdab2c6e9bbd05437bb567c",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Bb3.stereo.aif": "29c23e76ec4d7b36df9a74295055c522ab4487c8eb5a644b57f67b9609b7b16d",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Bb4.stereo.aif": "f04cf7cf174d3b26240fd57bd5d7bd81df1bd15ad38ed1930e68c42a24a8c685",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Bb5.stereo.aif": "e012c894178e0118f866f883b4482adfb1c6b84d7f79df0995efde99ee7f255c",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.C4.stereo.aif": "d4192f99a912d4985c0498722ba22aca8b44bed8c178717618502ecd8ec14794",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.C5.stereo.aif": "a44926e9179e9c9289f84fa79838dc5c38a083310fc04e6ce11d97c566af40df",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.C6.stereo.aif": "26954e69cddd2f8b178dcb6919b39b64dd27aaee9599778b281733573582e902",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.D4.stereo.aif": "cb9b8ab8261d721e8f1a58aeb82fce1805f28b3de16fd90d25b4133eef7d51b7",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.D5.stereo.aif": "8f0741719f8049eb2b63e31a41b2f70f9d7ace333ecce2431ff00c6526cccfd7",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.D6.stereo.aif": "ffcf7f9ead05e11e9b495aeadac0b3678ae1965ce5f65676f27aa8d4dd4d03f9",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Db4.stereo.aif": "db5cdd3de3b1a1109eacc3962129430ce74ab4959cfa8627e78f57100050cf3d",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Db5.stereo.aif": "3bb6626bac108cffac20077206d027c089fd9a381a4e5c1625bb3e398fac11d1",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Db6.stereo.aif": "cbc2a9fdc71d615cf26501c4a3c072f428eb1cc9fa304644707adbfcef36841f",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.E3.stereo.aif": "6439d2f96c72e0dc87f2dc5eb7c43cb1685c2c9d51a64075d606b3e5de7e4355",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.E4.stereo.aif": "7da858b9383a1e6d2acab5593ce9f4c0e89908e2d3e5f97e38e464e34f665510",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.E5.stereo.aif": "83cdfbdf2dba37f65435168262d5f6a514663e9fe74903e7605162d605884864",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Eb4.stereo.aif": "d805cc6c27bda6c810123308f2872699017b5124a1c9e2a3e40d0324ef0f5847",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Eb5.stereo.aif": "90f7485ea821761e555af47f626cdda59933f7dd553c1730f05fc3cccc7ed35c",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.F3.stereo.aif": "6d4c187831e904ce8cd9943c512712684d35a4b3d79461bbb96eaa0030fcec60",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.F4.stereo.aif": "a53767088881803660d89b9517fc9d3e829efcdcc712637d74d272703ddf6798",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.F5.stereo.aif": "1fbb9db1e31aefcb4b3bf50625a0f5c073e492960e7b50097f8438081b1287ae",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.G3.stereo.aif": "294ea9ed4f8656da4bf7796eaa31c702128c633fab688379352526eabeba36a6",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.G4.stereo.aif": "66c12210b336bcc1614c2a5329daf0bdb79230cb5670006d9bd571af1f2c42c3",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.G5.stereo.aif": "28b8bd51a5f42130fe42709b25a3b65c0c5fdd72372b012ae6838823509d153a",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Gb3.stereo.aif": "02b86bb57fd26bad1dc7775936f017b13c5a2cdcc778e74726bb725e7f510a96",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Gb4.stereo.aif": "4650674294408f17d5e52ed6e4f0042188b767a1cb7fddd3b6678cf9313a21d3",
+   "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Gb5.stereo.aif": "d03239ed98ccf64376b51c873619502cc8a3f0b41fedb9593d49678fa2f885cf",
+   "iowa:Brass/Horn/Horn.ff.A2.stereo.aif": "cff68c70d663c449cb9f4b3a1eddc3642d97604aee7620d23429ea201df88867",
+   "iowa:Brass/Horn/Horn.ff.A3.stereo.aif": "f76e8c2f36769c9f5041ed9c870ab4acb92d35631bc66e1b43af054cf183ddc8",
+   "iowa:Brass/Horn/Horn.ff.A4.stereo.aif": "8c1132e42f0943df33ba717b6f8dde8830e956ba6ae88bc45fb21cdf93e4d976",
+   "iowa:Brass/Horn/Horn.ff.Ab2.stereo.aif": "6f433838ae146a655ab74010925772b2e2375507aa7a3b2d345b353ce96369aa",
+   "iowa:Brass/Horn/Horn.ff.Ab3.stereo.aif": "568746c757de2c9fa7290f9979f8685a243f889cc20f08954906ceb05f1c1db1",
+   "iowa:Brass/Horn/Horn.ff.Ab4.stereo.aif": "e8ddaa10421a776440814d027169e927f2516ae4a423f320bfcbea724355d5e7",
+   "iowa:Brass/Horn/Horn.ff.B1.stereo.aif": "fb6fd034ce9b8ea3392e940c368afbc1ccfb3f870b13c49935d4f98d91f18eda",
+   "iowa:Brass/Horn/Horn.ff.B2.stereo.aif": "eaac8701895e5f3558e9c8c2f9b3d9f3dfb665be4f8149a2ce7ee22dc27b756f",
+   "iowa:Brass/Horn/Horn.ff.B3.stereo.aif": "32902b0c9b9c237475d47ee5b4915efd26a782e3faab2003801a2ec7da03ff44",
+   "iowa:Brass/Horn/Horn.ff.B4.stereo.aif": "7ecb42b6da3a78ab4f3b0911f7136cc3419fccf573d379ce7d686ee58778cc43",
+   "iowa:Brass/Horn/Horn.ff.Bb1.stereo.aif": "ee8ef3115ca7b3e3accb6eb2b07bee071f2c5a9da923eff22376b3e46e7be3eb",
+   "iowa:Brass/Horn/Horn.ff.Bb2.stereo.aif": "2c2de9e740cec1ac3db44b4e024fcc2ab7576845c517256f2f91386ee4b5d58e",
+   "iowa:Brass/Horn/Horn.ff.Bb3.stereo.aif": "b8bd43a18be0ad9452f366329ada5adbec589a4f527cad2f974add942fae80a9",
+   "iowa:Brass/Horn/Horn.ff.Bb4.stereo.aif": "01956c4ccac234675b6c01f82bbdb04c745375c740af9387d756c3ae96140928",
+   "iowa:Brass/Horn/Horn.ff.C2.stereo.aif": "5c2b772f6586fddc3ed0c51833a495d8fcc3a5a45e6b3d5883a1720434bff548",
+   "iowa:Brass/Horn/Horn.ff.C3.stereo.aif": "f379032972ea99a6dc828a2ec0685012ccaf07f945b6282a70588b64dbf8f2ce",
+   "iowa:Brass/Horn/Horn.ff.C4.stereo.aif": "f67135ff89af7497abba9454a8442500879566459cc60780bdc67fe95ce1b23b",
+   "iowa:Brass/Horn/Horn.ff.C5.stereo.aif": "f962550935bb33c25a34bf64e6126162ff75ffd45770dbc161431790334936b5",
+   "iowa:Brass/Horn/Horn.ff.D2.stereo.aif": "449251c0c6c44d86d076793152bb50369c6a20e2614622d3d686114d7172e6b3",
+   "iowa:Brass/Horn/Horn.ff.D3.stereo.aif": "4eb3c6f4dddacdbb4bfa20f5f4fc60f53aece098c32dbf9b661fa0e49517e201",
+   "iowa:Brass/Horn/Horn.ff.D4.stereo.aif": "7404168e8278f288562b5c05e792e7253373be7f23875b1d686a465e9feb7fa4",
+   "iowa:Brass/Horn/Horn.ff.D5.stereo.aif": "b7bf2b72fd0b8959650b3ab9c3a9b8da49e642dc9cca2e4d3a4a1b2f45c77a2f",
+   "iowa:Brass/Horn/Horn.ff.Db2.stereo.aif": "c61b825393e04a619e679118779b0d07fb112490660b3483fd02792682e924ae",
+   "iowa:Brass/Horn/Horn.ff.Db3.stereo.aif": "74857493bb2695ed8432b779b9f28982af5aa682a10ea32a66013bc4ae00a431",
+   "iowa:Brass/Horn/Horn.ff.Db4.stereo.aif": "470967d76860ebf6237d4242be2ec7a2db2be7b50e25abb69785cf3b2ed87d7b",
+   "iowa:Brass/Horn/Horn.ff.Db5.stereo.aif": "682e49e3ad6cb4d9055b0015e2918be6096ec6ab846be1300576fb01cc8a14ef",
+   "iowa:Brass/Horn/Horn.ff.E2.stereo.aif": "a2e02b0c705823887e31b649fe9d304173053b70ade817a3ac50318c6cd81502",
+   "iowa:Brass/Horn/Horn.ff.E3.stereo.aif": "00b20662bb78ecb32889bf7e6e048153a36cf285d5496b048f6af633c86bdbe8",
+   "iowa:Brass/Horn/Horn.ff.E4.stereo.aif": "ae380235ffd4823bbb7606e9d8c0be95a7a91576d992e4449114a340b1c4c6a5",
+   "iowa:Brass/Horn/Horn.ff.E5.stereo.aif": "203c77a513006a61ee84abada1116f05008b96da59767215b911ac385061b330",
+   "iowa:Brass/Horn/Horn.ff.Eb2.stereo.aif": "dd3a5b975776f9245fb035ff22edcacc0b5e63c30063795e2160e701958c6913",
+   "iowa:Brass/Horn/Horn.ff.Eb3.stereo.aif": "5ac73b4c70f3f7553306a07a4b1490a31323d4ae90eaf2f91ec790f73caf62c6",
+   "iowa:Brass/Horn/Horn.ff.Eb4.stereo.aif": "0e21099278a974fb40a22bb9e2ddd15cccf3fb74c0c98e4777902d610d16402d",
+   "iowa:Brass/Horn/Horn.ff.Eb5.stereo.aif": "cf863d0f0dd14b456f636f552e237ad5b8d1558192aca8365fab732d02a50c97",
+   "iowa:Brass/Horn/Horn.ff.F2.stereo.aif": "653af2e372b8992d2b0dbf94c5958850f5bbc5cbdc0e4230bedb20c3b868f2d7",
+   "iowa:Brass/Horn/Horn.ff.F3.stereo.aif": "38ecc7c44c974b8c8fa704f3a4faec8fa5b6cd6ea6bac6d015a2fa84052ee145",
+   "iowa:Brass/Horn/Horn.ff.F4.stereo.aif": "895d69904bc5ce04d26f95946bd679f2905d732f195ebe4b85fb77f067801c0b",
+   "iowa:Brass/Horn/Horn.ff.F5.stereo.aif": "b07ebf7906973e36998d7e3bddad72d8c0c9ad00855c2e779ff4575961a6378b",
+   "iowa:Brass/Horn/Horn.ff.G2.stereo.aif": "58dbf9cca15bf32c79470f05252857cf4a6bde9389763b6a4dd818d9e5b0692e",
+   "iowa:Brass/Horn/Horn.ff.G3.stereo.aif": "4269789e33b0aeac473ac3af967748a91e9c9b8cbc8f3d7a1ec699e768dc1cab",
+   "iowa:Brass/Horn/Horn.ff.G4.stereo.aif": "3cf06b3ad316cbff3c1b1949ac9e98c7c9a03f9890c664b6d189a955391c64b0",
+   "iowa:Brass/Horn/Horn.ff.Gb2.stereo.aif": "83f2abe7a53af73c06ec619e6becf9e5b643f05ae3fa99d94a80f99b92025376",
+   "iowa:Brass/Horn/Horn.ff.Gb3.stereo.aif": "c6a9b5b8e52922abb369d3213fcd7a996198e5e9134930623cd55b1a83ceb413",
+   "iowa:Brass/Horn/Horn.ff.Gb4.stereo.aif": "8b18db9b080d346e2ecf9ecb547104946cb4a115dc3520447f0a6580e7f36638",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.A2.stereo.aif": "577527580c6ceca5c07cea5a81021fd5391986fef1cdd13e9ecf443f3e323a3a",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.A3.stereo.aif": "d191440e13646f05de64e55abfbfb9fc34e14f9c5ad6f296753360863d41750e",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.A4.stereo.aif": "a733e4c313c262e39fe2d46d61fe2e9dc3f12ac1f7c12ebaa28d7564334a4bd6",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Ab2.stereo.aif": "56033a988c492e3c9d045f2b17c862e2804fc035d5a3d865ad4bbfd71e19f3cf",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Ab3.stereo.aif": "1dfab0bb83e6de2b71fe65bc9eb61aa250a0c0690df674a8b4f4b6a329bb5b2d",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Ab4.stereo.aif": "400ef03fddea5028f4e2e4a50a62aa9225bcd530f783c655017afd6ccf6da361",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.B2.stereo.aif": "e75d28ae7fe598995ac6feb699b9047ea80447f8ed4605ebfcb74ac76868f1ae",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.B3.stereo.aif": "e6f4c88f2b15366cef2d553982c38eabba865e0b134baa554f75d0e77cab750b",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.B4.stereo.aif": "fd8b01cfb7a18a221d71a8e6564601c3ba7c3769c596329f672430b33b4dff50",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Bb2.stereo.aif": "9998d937204f8ecfd166745333f254091f4ffd59f1c5265927cfdb3c22751cf9",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Bb3.stereo.aif": "6fd60183201dd769467b513727643c7fc05c8326a87788ac35a27744043cdcd8",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Bb4.stereo.aif": "124e52418e806c9c106ce4a9685560cfb566c3be3d17109e72d406eefb1edfb0",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.C3.stereo.aif": "6339d1f872bdffa4294a947e46af0ecbc534be9d44cb4d7c33f2a326b404ffe6",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.C4.stereo.aif": "46ca1fa74064a0fa6aca5ff9e09718e130ae1ad2341791872542840f1fdeea9d",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.C5.stereo.aif": "12230c4c3273f81a5f52f6c73ffe9727c7f7b7fdd14ba99c6ee5ed980255bce0",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.D3.stereo.aif": "211b1e2a0483cfcfbba371dcd60158e80a28fe7754ffef6ba290bcf51eb5dc8a",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.D4.stereo.aif": "b68e77adaadb8c2832d330ac756a8bdb540f05f9a4524db79b6e85278c5a604b",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Db3.stereo.aif": "3581ac44b3bef7f48578771752480f6744f1ae0e492ab9567fff68816cb8435b",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Db4.stereo.aif": "103c4c3299cee91f42b43ce4a01f44336cb1ec6edb3dd6cfb6cf45795d38d1ae",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.E2.stereo.aif": "23a6d61c3dd85ff44efc431a93a835bed59f46cd5d99dfcb3508254ad04cdc1d",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.E3.stereo.aif": "594227f710ca1c03e37ca20605772d554d9e89bf57a07b150dc589be30817758",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.E4.stereo.aif": "b48427c66b57e3077c5246b78e6acaa25de8efc7974fc4bcafe5bcecc0d95004",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Eb3.stereo.aif": "8f0e53d14c0d97e8bea4a52a848c7bba77a93e32cf8a5bd95397bcdfb58699ee",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Eb4.stereo.aif": "8357c21eb02948b35f0053e69b00d1c75c91474c67975f95341a973279ce9535",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.F2.stereo.aif": "a39850914862f0397765a1145bbb5504bfcd4e39a7a06959d9272c4b07e051a8",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.F3.stereo.aif": "a15da9d50c4b4314dd154ca113a33c09f80df0738ca26b6b73b103179c3877e2",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.F4.stereo.aif": "e1fe671effeaf2e44768aa62b939b0cb2cecb32662a36ce62ff98bd6bf19c666",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.G2.stereo.aif": "c241fb2e416b287e897f7ce301ed6ccac4e0c2f0abaf973cc459e46cfb166f54",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.G3.stereo.aif": "4e7bf1afcc19d751a75b9214c2ec274543892972f3ccefc7064a94622a0346f4",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.G4.stereo.aif": "0b3673389b8b4c844ec8b77e478ff4dfad22dc1743b25e83091241f368ca55e4",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Gb2.stereo.aif": "7365061814cac5007e95958d0f647277293a2bb04571babbbfcaa50352d88af8",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Gb3.stereo.aif": "a3a010213fd280245ba6057af602e0cb8dbc823d20fb1c129658e4146d4a0032",
+   "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Gb4.stereo.aif": "84ff9b323da45f929135f5700bbe174e3adc54898d34c85fce25944ccdf9ee33",
+   "iowa:Brass/Tuba/Tuba.ff.A1.stereo.aif": "69e48b01f75bf7f5f85aa06de2d77ecb64ea9a38f2a6f325137526d702d18957",
+   "iowa:Brass/Tuba/Tuba.ff.A2.stereo.aif": "14c98f12601789060e4b6fd3d78ce435f53fb53b22f8e6d8aa5becae95220e7d",
+   "iowa:Brass/Tuba/Tuba.ff.A3.stereo.aif": "1bde741d660a74c5bb67ad9c85681c1aa6d670c243c2a0647b5f6e62c46b706d",
+   "iowa:Brass/Tuba/Tuba.ff.Ab1.stereo.aif": "f92adc06bd19fffb421fde06845cbecb0d7e9229be6805f15a29487572b1b952",
+   "iowa:Brass/Tuba/Tuba.ff.Ab2.stereo.aif": "24d29a581ec7def72ace91ec11e0f5078d79fb1743ce4af6fa91938f12796dc4",
+   "iowa:Brass/Tuba/Tuba.ff.Ab3.stereo.aif": "ec2b6df6181804445c5c5212ea9ab55f2c2536be27d3a6230295c68fa49ccf82",
+   "iowa:Brass/Tuba/Tuba.ff.B1.stereo.aif": "a92a7fef31980eee623e2ddb278d77f3b086c3f034bbce1f734956ada8a929c8",
+   "iowa:Brass/Tuba/Tuba.ff.B2.stereo.aif": "4ff4828038f312e665a65ee659a75c563614071aff92db2ce8cca599ea104edf",
+   "iowa:Brass/Tuba/Tuba.ff.B3.stereo.aif": "de83646a1b62f557675b49520e516364478678de45a76dacec8ca53422f1db97",
+   "iowa:Brass/Tuba/Tuba.ff.Bb1.stereo.aif": "c991f463cb98b04c18c48b07e4a326b740369f9a5e5804b26540134f5522e3fc",
+   "iowa:Brass/Tuba/Tuba.ff.Bb2.stereo.aif": "8056b9c49e1dd51d103b214fc2c6c6caebd175ef20cf059a4ecf2a85bf60999f",
+   "iowa:Brass/Tuba/Tuba.ff.Bb3.stereo.aif": "4ec60e48bc6df83dcc050d80194669212c8a1afbb71c74fd9f85424b3c507979",
+   "iowa:Brass/Tuba/Tuba.ff.C1.stereo.aif": "2e8a1352fa5b2da8da56250081437dbcf482c527845b24d7161daa4c4ff649ce",
+   "iowa:Brass/Tuba/Tuba.ff.C2.stereo.aif": "af51c37abab6866c1ada54b1de776c8169e5868fbdfe2aece7b222b8444d144f",
+   "iowa:Brass/Tuba/Tuba.ff.C3.stereo.aif": "c8128c624dd162b6cbd51d8ceda62d8f72003c13c85dae0fe57f64f8dbe926dc",
+   "iowa:Brass/Tuba/Tuba.ff.C4.stereo.aif": "847adc8f648f3725aaf6b911bda353a3cbefc5876069475f44d2f694485c031b",
+   "iowa:Brass/Tuba/Tuba.ff.D1.stereo.aif": "73ce4b778fa78b9238039e864736f0e8822a6954f41125db3527caa335ca917f",
+   "iowa:Brass/Tuba/Tuba.ff.D2.stereo.aif": "0ca9a4f965fdc74cf643b03f7a7f9ce75acc168364530923158d53e8cd184353",
+   "iowa:Brass/Tuba/Tuba.ff.D3.stereo.aif": "b019c0b2f79dec958a575975c2ef99b777d046952bf2746415c3bd93c5d0643b",
+   "iowa:Brass/Tuba/Tuba.ff.Db1.stereo.aif": "6fbe8d96f81ed88e9fd29937416967edcd67e9b271e49bae018fffd3be42e88d",
+   "iowa:Brass/Tuba/Tuba.ff.Db2.stereo.aif": "86e0d4cb4362589403b652574d28af72f488e15666a443bd12da4e8ec6e84f72",
+   "iowa:Brass/Tuba/Tuba.ff.Db3.stereo.aif": "d321b04f09c63327a32a93b88f9234bfd9a947d33c328df39facaacdf6545f56",
+   "iowa:Brass/Tuba/Tuba.ff.E1.stereo.aif": "07bf393e1b4714e3560c00a0c39ec77031ca2f0fe848cc2826b785ba40bdcf45",
+   "iowa:Brass/Tuba/Tuba.ff.E2.stereo.aif": "17ec6c6efd4fb8e26f0d48f5da3a1c2a95a6aa433e3614807bbad25ad0ffdb56",
+   "iowa:Brass/Tuba/Tuba.ff.E3.stereo.aif": "f3e942a87baabafd4ba3b7fd74d003c6c1df20c771709123e496ceb604397a96",
+   "iowa:Brass/Tuba/Tuba.ff.Eb1.stereo.aif": "90e882366510ae13b69a94a574f75b9f093b8e4644243e1ceda0426ed4213cab",
+   "iowa:Brass/Tuba/Tuba.ff.Eb2.stereo.aif": "26bfb9d60912b84d2ebc68bc00e5077f28afe183b1f23edec590b831079d14b6",
+   "iowa:Brass/Tuba/Tuba.ff.Eb3.stereo.aif": "ec8872d776a618326d79119132fa6d2003143e75fa769e59d3db01d4c9a64eff",
+   "iowa:Brass/Tuba/Tuba.ff.F1.stereo.aif": "2339447721daf029920b744e6326e6baec57b805cf4bb93ec860af2ae9a747c6",
+   "iowa:Brass/Tuba/Tuba.ff.F2.stereo.aif": "3f23cc03594ea47227b1b27db0dc6cd4f6c874e50e0828abb74cc2fc582d9ab1",
+   "iowa:Brass/Tuba/Tuba.ff.F3.stereo.aif": "bb327774c176ffb36dec6a4c51ff9bd89ffda09e9e2f9160311f489ce3dfd49d",
+   "iowa:Brass/Tuba/Tuba.ff.G1.stereo.aif": "3a8d41c24e3c98d7acc1b3d934d90e284ac6b10be5e74750fe5dc661d7ce5b40",
+   "iowa:Brass/Tuba/Tuba.ff.G2.stereo.aif": "643122d8b7f0578958ad0e22d8ecabcc79a3256b2be1ff00eb88f7b1fa341df6",
+   "iowa:Brass/Tuba/Tuba.ff.G3.stereo.aif": "6bfb56de5f69a00970d3b9cacfa63c299d2d65249095d7adc4a6ec2949f97184",
+   "iowa:Brass/Tuba/Tuba.ff.Gb1.stereo.aif": "9873596c18157780ea5bf3ef0ca0edc172177fb148813d24e426fc707e0b2b9a",
+   "iowa:Brass/Tuba/Tuba.ff.Gb2.stereo.aif": "bc0c3c9f33f1ef59299f9e6b0b721d4e01e0a27c0abe55025dbd9e6c79ba5783",
+   "iowa:Brass/Tuba/Tuba.ff.Gb3.stereo.aif": "846bb1dbf78128448236e74f572061fb2574fdc43632ecf064efde25762a84bb"
+  },
+  "bits": 24,
+  "files": {
+   "horn/Horn.ff.Bb1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Bb1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 599,
+    "frames": 111034,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.B1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.B1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 807,
+    "frames": 124210,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.C2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.C2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 541,
+    "frames": 117367,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Db2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Db2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 422,
+    "frames": 125087,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.D2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.D2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 229,
+    "frames": 125811,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Eb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Eb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 301,
+    "frames": 121673,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.E2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.E2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 928,
+    "frames": 122283,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.F2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.F2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 559,
+    "frames": 119117,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Gb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Gb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 340,
+    "frames": 123755,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.G2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.G2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 756,
+    "frames": 122102,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Ab2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Ab2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1167,
+    "frames": 122222,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.A2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.A2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 993,
+    "frames": 124693,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Bb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Bb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 615,
+    "frames": 125425,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.B2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.B2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 816,
+    "frames": 121787,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.C3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.C3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127807,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Db3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Db3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 596,
+    "frames": 123853,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.D3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.D3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 389,
+    "frames": 127684,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Eb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Eb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 586,
+    "frames": 127133,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.E3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.E3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 633,
+    "frames": 122579,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.F3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.F3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 526,
+    "frames": 118796,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Gb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Gb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 604,
+    "frames": 114917,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.G3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.G3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 746,
+    "frames": 120167,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Ab3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Ab3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 308,
+    "frames": 133422,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.A3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.A3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 555,
+    "frames": 132291,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Bb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Bb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 637,
+    "frames": 130176,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.B3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.B3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 927,
+    "frames": 109442,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.C4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.C4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 572,
+    "frames": 105581,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Db4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Db4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 579,
+    "frames": 114766,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.D4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.D4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 771,
+    "frames": 107326,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Eb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Eb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 620,
+    "frames": 108980,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.E4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.E4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 642,
+    "frames": 117885,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.F4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.F4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 863,
+    "frames": 121464,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Gb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Gb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 707,
+    "frames": 104208,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.G4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.G4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 720,
+    "frames": 104018,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Ab4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Ab4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 696,
+    "frames": 96707,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.A4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.A4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 689,
+    "frames": 99984,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Bb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Bb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 961,
+    "frames": 99270,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.B4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.B4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 598,
+    "frames": 101600,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.C5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.C5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 830,
+    "frames": 100639,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Db5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Db5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 659,
+    "frames": 99925,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.D5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.D5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 795,
+    "frames": 101645,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.Eb5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.Eb5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 443,
+    "frames": 99788,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.E5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.E5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 705,
+    "frames": 101913,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "horn/Horn.ff.F5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Horn/Horn.ff.F5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 618,
+    "frames": 96306,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.E3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.E3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2547,
+    "frames": 167510,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.F3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.F3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4112,
+    "frames": 187511,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Gb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Gb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2544,
+    "frames": 187665,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.G3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.G3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3084,
+    "frames": 190307,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Ab3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Ab3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2296,
+    "frames": 185792,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.A3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.A3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2957,
+    "frames": 199626,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Bb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Bb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2692,
+    "frames": 183981,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.B3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.B3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2796,
+    "frames": 179635,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.C4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.C4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3107,
+    "frames": 190284,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Db4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Db4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2444,
+    "frames": 199785,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.D4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.D4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2920,
+    "frames": 201784,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Eb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Eb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3564,
+    "frames": 193715,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.E4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.E4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3405,
+    "frames": 203774,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.F4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.F4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3528,
+    "frames": 201883,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Gb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Gb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2622,
+    "frames": 201022,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.G4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.G4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4020,
+    "frames": 197149,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Ab4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Ab4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2722,
+    "frames": 191022,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.A4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.A4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3060,
+    "frames": 202351,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Bb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Bb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2495,
+    "frames": 208573,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.B4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.B4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3036,
+    "frames": 221113,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.C5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.C5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2824,
+    "frames": 217790,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Db5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Db5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3092,
+    "frames": 213987,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.D5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.D5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2311,
+    "frames": 227849,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Eb5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Eb5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3379,
+    "frames": 227841,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.E5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.E5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3239,
+    "frames": 230809,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.F5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.F5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3174,
+    "frames": 220622,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Gb5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Gb5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3620,
+    "frames": 219115,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.G5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.G5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2968,
+    "frames": 204564,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Ab5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Ab5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2499,
+    "frames": 192659,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.A5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.A5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3645,
+    "frames": 217323,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Bb5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Bb5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2794,
+    "frames": 225951,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.B5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.B5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3106,
+    "frames": 222104,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.C6.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.C6.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4409,
+    "frames": 221508,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.Db6.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.Db6.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3685,
+    "frames": 210919,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet/Trumpet.vib.ff.D6.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.vib.ff.D6.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4738,
+    "frames": 220472,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.E3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.E3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1218,
+    "frames": 185278,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.F3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.F3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1317,
+    "frames": 173689,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Gb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Gb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1298,
+    "frames": 188734,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.G3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.G3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1445,
+    "frames": 192475,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Ab3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Ab3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1250,
+    "frames": 189489,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.A3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.A3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1001,
+    "frames": 183905,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Bb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Bb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1570,
+    "frames": 196770,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.B3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.B3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2001,
+    "frames": 188384,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.C4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.C4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1096,
+    "frames": 189643,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Db4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Db4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1681,
+    "frames": 183224,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.D4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.D4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1057,
+    "frames": 184379,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Eb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Eb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1372,
+    "frames": 183710,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.E4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.E4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1018,
+    "frames": 193964,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.F4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.F4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1142,
+    "frames": 192072,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Gb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Gb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1604,
+    "frames": 188959,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.G4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.G4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1497,
+    "frames": 191894,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Ab4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Ab4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1246,
+    "frames": 179770,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.A4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.A4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1418,
+    "frames": 195685,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Bb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Bb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1407,
+    "frames": 191807,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.B4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.B4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1200,
+    "frames": 190246,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.C5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.C5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 931,
+    "frames": 190516,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Db5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Db5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 655,
+    "frames": 188051,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.D5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.D5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1054,
+    "frames": 195165,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Eb5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Eb5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1252,
+    "frames": 200270,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.E5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.E5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 703,
+    "frames": 199052,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.F5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.F5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 960,
+    "frames": 196320,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Gb5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Gb5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1012,
+    "frames": 210409,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.G5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.G5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1302,
+    "frames": 198629,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Ab5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Ab5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1217,
+    "frames": 193941,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.A5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.A5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 991,
+    "frames": 195582,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Bb5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Bb5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1283,
+    "frames": 191224,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.B5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.B5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1850,
+    "frames": 192247,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.C6.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.C6.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2869,
+    "frames": 185572,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Db6.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Db6.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2016,
+    "frames": 200036,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.D6.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.D6.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2128,
+    "frames": 199040,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trumpet_novib/Trumpet.novib.ff.Eb6.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/BbTrumpet/Trumpet.novib.ff.Eb6.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 5279,
+    "frames": 151166,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.E2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.E2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 734,
+    "frames": 89067,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.F2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.F2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1106,
+    "frames": 100362,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Gb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Gb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 771,
+    "frames": 102465,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.G2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.G2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 955,
+    "frames": 109528,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Ab2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Ab2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1124,
+    "frames": 98223,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.A2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.A2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 963,
+    "frames": 101742,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Bb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Bb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 791,
+    "frames": 111460,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.B2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.B2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1001,
+    "frames": 106124,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.C3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.C3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1191,
+    "frames": 106464,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Db3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Db3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 526,
+    "frames": 109604,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.D3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.D3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 529,
+    "frames": 101823,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Eb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Eb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 580,
+    "frames": 92227,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.E3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.E3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 866,
+    "frames": 105729,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.F3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.F3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 538,
+    "frames": 105703,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Gb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Gb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 716,
+    "frames": 106233,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.G3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.G3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 732,
+    "frames": 102858,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Ab3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Ab3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1036,
+    "frames": 103084,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.A3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.A3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 899,
+    "frames": 107641,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Bb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Bb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 945,
+    "frames": 109362,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.B3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.B3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 697,
+    "frames": 106605,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.C4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.C4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 606,
+    "frames": 104928,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Db4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Db4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1097,
+    "frames": 110624,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.D4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.D4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 802,
+    "frames": 112687,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Eb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Eb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 959,
+    "frames": 115004,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.E4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.E4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 317,
+    "frames": 119448,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.F4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.F4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1037,
+    "frames": 120230,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Gb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Gb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1132,
+    "frames": 119251,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.G4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.G4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 911,
+    "frames": 123184,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Ab4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Ab4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1096,
+    "frames": 124767,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.A4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.A4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1185,
+    "frames": 132633,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.Bb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.Bb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1515,
+    "frames": 126646,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.B4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.B4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1139,
+    "frames": 126846,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "trombone/TenorTrombone.ff.C5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tenor Trombone/TenorTrombone.ff.C5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1412,
+    "frames": 130461,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Db1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Db1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 122681,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.D1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.D1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1675,
+    "frames": 112521,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Eb1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Eb1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2454,
+    "frames": 101489,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.E1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.E1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2492,
+    "frames": 104279,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.F1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.F1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2469,
+    "frames": 107131,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Gb1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Gb1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1135,
+    "frames": 87606,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.G1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.G1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2033,
+    "frames": 104385,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Ab1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Ab1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2396,
+    "frames": 100486,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.A1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.A1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1339,
+    "frames": 106493,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Bb1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Bb1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1637,
+    "frames": 105841,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.B1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.B1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1971,
+    "frames": 94685,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.C2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.C2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2597,
+    "frames": 93568,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Db2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Db2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1411,
+    "frames": 100057,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.D2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.D2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1700,
+    "frames": 112496,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Eb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Eb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1668,
+    "frames": 105104,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.E2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.E2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2373,
+    "frames": 103691,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.F2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.F2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1952,
+    "frames": 104819,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Gb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Gb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1823,
+    "frames": 98231,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.G2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.G2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1757,
+    "frames": 95115,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Ab2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Ab2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1075,
+    "frames": 99333,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.A2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.A2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1879,
+    "frames": 94993,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Bb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Bb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1765,
+    "frames": 90865,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.B2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.B2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1977,
+    "frames": 96735,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.C3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.C3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2189,
+    "frames": 102815,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Db3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Db3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2612,
+    "frames": 100624,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.D3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.D3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2169,
+    "frames": 95057,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "bass-trombone/BassTrombone.ff.Eb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Bass Trombone/BassTrombone.ff.Eb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1789,
+    "frames": 96851,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.C1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.C1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1428,
+    "frames": 80065,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Db1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Db1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1737,
+    "frames": 87004,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.D1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.D1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2682,
+    "frames": 87650,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Eb1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Eb1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1782,
+    "frames": 86958,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.E1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.E1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1562,
+    "frames": 83289,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.F1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.F1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2161,
+    "frames": 85342,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Gb1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Gb1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 928,
+    "frames": 78266,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.G1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.G1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1777,
+    "frames": 80247,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Ab1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Ab1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1876,
+    "frames": 80500,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.A1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.A1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2029,
+    "frames": 75045,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Bb1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Bb1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1856,
+    "frames": 78929,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.B1.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.B1.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1982,
+    "frames": 78273,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.C2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.C2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2448,
+    "frames": 76570,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Db2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Db2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2269,
+    "frames": 74097,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.D2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.D2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1448,
+    "frames": 74918,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Eb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Eb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1444,
+    "frames": 71033,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.E2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.E2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1358,
+    "frames": 74125,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.F2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.F2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1892,
+    "frames": 72884,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Gb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Gb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1429,
+    "frames": 69634,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.G2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.G2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1553,
+    "frames": 73575,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Ab2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Ab2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1786,
+    "frames": 67156,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.A2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.A2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1146,
+    "frames": 70448,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Bb2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Bb2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2219,
+    "frames": 72026,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.B2.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.B2.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1267,
+    "frames": 73331,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.C3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.C3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1639,
+    "frames": 69424,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Db3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Db3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1799,
+    "frames": 71385,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.D3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.D3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1133,
+    "frames": 70637,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Eb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Eb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1571,
+    "frames": 74972,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.E3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.E3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1737,
+    "frames": 73038,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.F3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.F3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1105,
+    "frames": 71019,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Gb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Gb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2000,
+    "frames": 66942,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.G3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.G3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1873,
+    "frames": 68483,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Ab3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Ab3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1639,
+    "frames": 75611,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.A3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.A3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1751,
+    "frames": 68251,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.Bb3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.Bb3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1919,
+    "frames": 74448,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.B3.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.B3.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1570,
+    "frames": 76034,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tuba/Tuba.ff.C4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Brass/Tuba/Tuba.ff.C4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1833,
+    "frames": 82842,
+    "fadeIn": 32,
+    "fadeOut": 441
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "horn",
+   "title": "French Horn",
+   "category": "Brass",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.01,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 24,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "horn/Horn.ff.Bb1.stereo.wav",
+     "root": 34,
+     "lo": 31,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 111034,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.B1.stereo.wav",
+     "root": 35,
+     "lo": 35,
+     "hi": 35,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 124210,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.C2.stereo.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 117367,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Db2.stereo.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 125087,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.D2.stereo.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 125811,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Eb2.stereo.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 121673,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.E2.stereo.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 122283,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.F2.stereo.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 119117,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Gb2.stereo.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 123755,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.G2.stereo.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 122102,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Ab2.stereo.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 122222,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.A2.stereo.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 124693,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Bb2.stereo.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 125425,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.B2.stereo.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 121787,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.C3.stereo.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 127807,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Db3.stereo.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 123853,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.D3.stereo.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 127684,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Eb3.stereo.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 127133,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.E3.stereo.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 122579,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.F3.stereo.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 118796,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Gb3.stereo.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 114917,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.G3.stereo.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 120167,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Ab3.stereo.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 133422,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.A3.stereo.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 132291,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Bb3.stereo.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 130176,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.B3.stereo.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 109442,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.C4.stereo.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 105581,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Db4.stereo.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 114766,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.D4.stereo.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 107326,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Eb4.stereo.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 108980,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.E4.stereo.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 117885,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.F4.stereo.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 121464,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Gb4.stereo.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 104208,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.G4.stereo.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 104018,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Ab4.stereo.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 96707,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.A4.stereo.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 99984,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Bb4.stereo.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 99270,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.B4.stereo.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 101600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.C5.stereo.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 100639,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Db5.stereo.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 99925,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.D5.stereo.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 101645,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.Eb5.stereo.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 99788,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.E5.stereo.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 101913,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "horn/Horn.ff.F5.stereo.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.15,
+     "start": 0,
+     "end": 96306,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "trumpet",
+   "title": "Trumpet",
+   "category": "Brass",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.01,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 24,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "trumpet/Trumpet.vib.ff.E3.stereo.wav",
+     "root": 52,
+     "lo": 49,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 167510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.F3.stereo.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 187511,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Gb3.stereo.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 187665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.G3.stereo.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 190307,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Ab3.stereo.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 185792,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.A3.stereo.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 199626,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Bb3.stereo.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 183981,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.B3.stereo.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 179635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.C4.stereo.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 190284,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Db4.stereo.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 199785,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.D4.stereo.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 201784,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Eb4.stereo.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 193715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.E4.stereo.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 203774,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.F4.stereo.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 201883,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Gb4.stereo.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 201022,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.G4.stereo.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 197149,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Ab4.stereo.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 191022,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.A4.stereo.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 202351,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Bb4.stereo.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 208573,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.B4.stereo.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 221113,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.C5.stereo.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 217790,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Db5.stereo.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 213987,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.D5.stereo.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 227849,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Eb5.stereo.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 227841,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.E5.stereo.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 230809,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.F5.stereo.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 220622,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Gb5.stereo.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 219115,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.G5.stereo.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 204564,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Ab5.stereo.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 192659,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.A5.stereo.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 217323,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Bb5.stereo.wav",
+     "root": 82,
+     "lo": 82,
+     "hi": 82,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 225951,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.B5.stereo.wav",
+     "root": 83,
+     "lo": 83,
+     "hi": 83,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 222104,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.C6.stereo.wav",
+     "root": 84,
+     "lo": 84,
+     "hi": 84,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 221508,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.Db6.stereo.wav",
+     "root": 85,
+     "lo": 85,
+     "hi": 85,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 210919,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet/Trumpet.vib.ff.D6.stereo.wav",
+     "root": 86,
+     "lo": 86,
+     "hi": 89,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.66,
+     "start": 0,
+     "end": 220472,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "trumpet_novib",
+   "title": "Trumpet (No Vibrato)",
+   "category": "Brass",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.01,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 24,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.E3.stereo.wav",
+     "root": 52,
+     "lo": 49,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 185278,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.F3.stereo.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 173689,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Gb3.stereo.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 188734,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.G3.stereo.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 192475,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Ab3.stereo.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 189489,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.A3.stereo.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 183905,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Bb3.stereo.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 196770,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.B3.stereo.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 188384,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.C4.stereo.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 189643,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Db4.stereo.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 183224,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.D4.stereo.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 184379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Eb4.stereo.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 183710,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.E4.stereo.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 193964,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.F4.stereo.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 192072,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Gb4.stereo.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 188959,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.G4.stereo.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 191894,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Ab4.stereo.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 179770,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.A4.stereo.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 195685,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Bb4.stereo.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 191807,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.B4.stereo.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 190246,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.C5.stereo.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 190516,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Db5.stereo.wav",
+     "root": 73,
+     "lo": 73,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 188051,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.D5.stereo.wav",
+     "root": 74,
+     "lo": 74,
+     "hi": 74,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 195165,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Eb5.stereo.wav",
+     "root": 75,
+     "lo": 75,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 200270,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.E5.stereo.wav",
+     "root": 76,
+     "lo": 76,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 199052,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.F5.stereo.wav",
+     "root": 77,
+     "lo": 77,
+     "hi": 77,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 196320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Gb5.stereo.wav",
+     "root": 78,
+     "lo": 78,
+     "hi": 78,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 210409,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.G5.stereo.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 198629,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Ab5.stereo.wav",
+     "root": 80,
+     "lo": 80,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 193941,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.A5.stereo.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 81,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 195582,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Bb5.stereo.wav",
+     "root": 82,
+     "lo": 82,
+     "hi": 82,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 191224,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.B5.stereo.wav",
+     "root": 83,
+     "lo": 83,
+     "hi": 83,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 192247,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.C6.stereo.wav",
+     "root": 84,
+     "lo": 84,
+     "hi": 84,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 185572,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Db6.stereo.wav",
+     "root": 85,
+     "lo": 85,
+     "hi": 85,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 200036,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.D6.stereo.wav",
+     "root": 86,
+     "lo": 86,
+     "hi": 86,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 199040,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trumpet_novib/Trumpet.novib.ff.Eb6.stereo.wav",
+     "root": 87,
+     "lo": 87,
+     "hi": 90,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 4.1,
+     "start": 0,
+     "end": 151166,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "trombone",
+   "title": "Tenor Trombone",
+   "category": "Brass",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.01,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 24,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "trombone/TenorTrombone.ff.E2.stereo.wav",
+     "root": 40,
+     "lo": 37,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 89067,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.F2.stereo.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 100362,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Gb2.stereo.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 102465,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.G2.stereo.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 109528,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Ab2.stereo.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 98223,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.A2.stereo.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 101742,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Bb2.stereo.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 111460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.B2.stereo.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 106124,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.C3.stereo.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 106464,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Db3.stereo.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 109604,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.D3.stereo.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 101823,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Eb3.stereo.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 92227,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.E3.stereo.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 105729,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.F3.stereo.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 105703,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Gb3.stereo.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 106233,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.G3.stereo.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 102858,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Ab3.stereo.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 103084,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.A3.stereo.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 107641,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Bb3.stereo.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 109362,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.B3.stereo.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 106605,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.C4.stereo.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 104928,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Db4.stereo.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 110624,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.D4.stereo.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 112687,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Eb4.stereo.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 115004,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.E4.stereo.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 119448,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.F4.stereo.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 120230,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Gb4.stereo.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 119251,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.G4.stereo.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 123184,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Ab4.stereo.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 124767,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.A4.stereo.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 132633,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.Bb4.stereo.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 126646,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.B4.stereo.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 126846,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "trombone/TenorTrombone.ff.C5.stereo.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 10.69,
+     "start": 0,
+     "end": 130461,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "bass-trombone",
+   "title": "Bass Trombone",
+   "category": "Brass",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.01,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 24,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "bass-trombone/BassTrombone.ff.Db1.stereo.wav",
+     "root": 25,
+     "lo": 22,
+     "hi": 25,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 122681,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.D1.stereo.wav",
+     "root": 26,
+     "lo": 26,
+     "hi": 26,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 112521,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Eb1.stereo.wav",
+     "root": 27,
+     "lo": 27,
+     "hi": 27,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 101489,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.E1.stereo.wav",
+     "root": 28,
+     "lo": 28,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 104279,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.F1.stereo.wav",
+     "root": 29,
+     "lo": 29,
+     "hi": 29,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 107131,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Gb1.stereo.wav",
+     "root": 30,
+     "lo": 30,
+     "hi": 30,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 87606,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.G1.stereo.wav",
+     "root": 31,
+     "lo": 31,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 104385,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Ab1.stereo.wav",
+     "root": 32,
+     "lo": 32,
+     "hi": 32,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 100486,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.A1.stereo.wav",
+     "root": 33,
+     "lo": 33,
+     "hi": 33,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 106493,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Bb1.stereo.wav",
+     "root": 34,
+     "lo": 34,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 105841,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.B1.stereo.wav",
+     "root": 35,
+     "lo": 35,
+     "hi": 35,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 94685,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.C2.stereo.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 93568,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Db2.stereo.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 100057,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.D2.stereo.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 112496,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Eb2.stereo.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 105104,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.E2.stereo.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 103691,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.F2.stereo.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 104819,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Gb2.stereo.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 98231,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.G2.stereo.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 95115,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Ab2.stereo.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 99333,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.A2.stereo.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 94993,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Bb2.stereo.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 90865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.B2.stereo.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 96735,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.C3.stereo.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 102815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Db3.stereo.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 100624,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.D3.stereo.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 95057,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass-trombone/BassTrombone.ff.Eb3.stereo.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 11.53,
+     "start": 0,
+     "end": 96851,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "tuba",
+   "title": "Tuba",
+   "category": "Brass",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.01,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 24,
+   "notePolyphony": 2,
+   "offTime": 0.08,
+   "zones": [
+    {
+     "file": "tuba/Tuba.ff.C1.stereo.wav",
+     "root": 24,
+     "lo": 21,
+     "hi": 24,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 80065,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Db1.stereo.wav",
+     "root": 25,
+     "lo": 25,
+     "hi": 25,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 87004,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.D1.stereo.wav",
+     "root": 26,
+     "lo": 26,
+     "hi": 26,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 87650,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Eb1.stereo.wav",
+     "root": 27,
+     "lo": 27,
+     "hi": 27,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 86958,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.E1.stereo.wav",
+     "root": 28,
+     "lo": 28,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 83289,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.F1.stereo.wav",
+     "root": 29,
+     "lo": 29,
+     "hi": 29,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 85342,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Gb1.stereo.wav",
+     "root": 30,
+     "lo": 30,
+     "hi": 30,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 78266,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.G1.stereo.wav",
+     "root": 31,
+     "lo": 31,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 80247,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Ab1.stereo.wav",
+     "root": 32,
+     "lo": 32,
+     "hi": 32,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 80500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.A1.stereo.wav",
+     "root": 33,
+     "lo": 33,
+     "hi": 33,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 75045,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Bb1.stereo.wav",
+     "root": 34,
+     "lo": 34,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 78929,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.B1.stereo.wav",
+     "root": 35,
+     "lo": 35,
+     "hi": 35,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 78273,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.C2.stereo.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 76570,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Db2.stereo.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 74097,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.D2.stereo.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 74918,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Eb2.stereo.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 71033,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.E2.stereo.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 74125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.F2.stereo.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 72884,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Gb2.stereo.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 69634,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.G2.stereo.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 73575,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Ab2.stereo.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 67156,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.A2.stereo.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 70448,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Bb2.stereo.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 72026,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.B2.stereo.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 73331,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.C3.stereo.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 69424,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Db3.stereo.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 71385,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.D3.stereo.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 70637,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Eb3.stereo.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 74972,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.E3.stereo.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 73038,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.F3.stereo.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 71019,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Gb3.stereo.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 66942,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.G3.stereo.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 68483,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Ab3.stereo.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 75611,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.A3.stereo.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 68251,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.Bb3.stereo.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 74448,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.B3.stereo.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 76034,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tuba/Tuba.ff.C4.stereo.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.38,
+     "start": 0,
+     "end": 82842,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  }
+ ]
+}
