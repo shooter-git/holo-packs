@@ -5,20 +5,23 @@
  "name": "Gamelan",
  "description": "The bronze orchestras of Java and Bali: metallophones, gong-chimes and hanging gongs in their own pelog and slendro tunings.",
  "license": "CC0-1.0",
- "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects. Each pack keeps its own licence and credit.",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and Casa da Música's Virtual Gamelan by Digitópia, Casa da Música, Porto (Artistic License 2.0), Balinese gamelan by Akito van Troyer for the One Laptop per Child sound library (CC BY 3.0). Each pack keeps its own licence and credit.",
  "source": {
   "kind": "none",
   "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
  },
  "instruments": [],
- "requires": [],
+ "requires": [
+  "gamelan-bali",
+  "gamelan-java"
+ ],
  "sounds": [
   {
    "name": "Saron, Pelog",
    "family": "Mallets and bells",
    "instrument": {
-    "pack": "gamelan-javanese",
-    "name": "saron_pelog"
+    "pack": "gamelan-java",
+    "name": "saron-barung-pelog"
    },
    "space": {
     "name": "Open Pavilion",
@@ -33,14 +36,14 @@
     "send": -12
    },
    "note": "Javanese saron in pelog: bronze keys struck with a mallet, carrying the melody.",
-   "coming": true
+   "volume": 1.5
   },
   {
    "name": "Saron, Slendro",
    "family": "Mallets and bells",
    "instrument": {
-    "pack": "gamelan-javanese",
-    "name": "saron_slendro"
+    "pack": "gamelan-java",
+    "name": "saron-barung-slendro"
    },
    "space": {
     "name": "Open Pavilion",
@@ -55,14 +58,14 @@
     "send": -12
    },
    "note": "Javanese saron in slendro, the five-note tuning.",
-   "coming": true
+   "volume": 3
   },
   {
    "name": "Bonang",
    "family": "Mallets and bells",
    "instrument": {
-    "pack": "gamelan-javanese",
-    "name": "bonang_pelog"
+    "pack": "gamelan-java",
+    "name": "bonang-barung-pelog"
    },
    "space": {
     "name": "Open Pavilion",
@@ -77,14 +80,14 @@
     "send": -12
    },
    "note": "Javanese bonang: small kettle gongs in rows, for interlocking figures.",
-   "coming": true
+   "volume": -3
   },
   {
    "name": "Gendèr",
    "family": "Mallets and bells",
    "instrument": {
-    "pack": "gamelan-javanese",
-    "name": "gender_slendro"
+    "pack": "gamelan-java",
+    "name": "gender-barung-slendro"
    },
    "space": {
     "name": "Open Pavilion",
@@ -99,14 +102,14 @@
     "send": -12
    },
    "note": "Javanese gendèr: thin bronze keys over tube resonators, soft and ringing.",
-   "coming": true
+   "volume": -4
   },
   {
    "name": "Gong Ageng",
    "family": "Drums and percussion",
    "instrument": {
-    "pack": "javanese-gongs",
-    "name": "gong_ageng"
+    "pack": "gamelan-java",
+    "name": "gongs"
    },
    "space": {
     "name": "Open Pavilion",
@@ -120,15 +123,15 @@
     },
     "send": -10
    },
-   "note": "The great hanging gong that closes each cycle.",
-   "coming": true
+   "note": "The great hanging gong that closes each cycle, with the smaller gong suwukan on the key above.",
+   "volume": 0
   },
   {
    "name": "Kempul",
    "family": "Drums and percussion",
    "instrument": {
-    "pack": "javanese-gongs",
-    "name": "kempul"
+    "pack": "gamelan-java",
+    "name": "kempul-pelog"
    },
    "space": {
     "name": "Open Pavilion",
@@ -143,14 +146,14 @@
     "send": -12
    },
    "note": "Smaller hanging gongs that mark the cycle within.",
-   "coming": true
+   "volume": 2.5
   },
   {
    "name": "Gangsa",
    "family": "Mallets and bells",
    "instrument": {
-    "pack": "gamelan-balinese",
-    "name": "gangsa"
+    "pack": "gamelan-bali",
+    "name": "gangsa-pemade"
    },
    "space": {
     "name": "Open Pavilion",
@@ -164,14 +167,14 @@
     },
     "send": -12
    },
-   "note": "Balinese gangsa: bright metallophones, tuned in pairs that beat against each other.",
-   "coming": true
+   "note": "Balinese gangsa: bright metallophones for fast interlocking figures.",
+   "volume": -7
   },
   {
    "name": "Reyong",
    "family": "Mallets and bells",
    "instrument": {
-    "pack": "gamelan-balinese",
+    "pack": "gamelan-bali",
     "name": "reyong"
    },
    "space": {
@@ -187,7 +190,7 @@
     "send": -12
    },
    "note": "Balinese reyong: a row of small gongs played by several players at once.",
-   "coming": true
+   "volume": -4.5
   }
  ]
 }

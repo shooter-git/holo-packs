@@ -5,13 +5,14 @@
  "name": "Silk and Bamboo",
  "description": "Chinese instruments of silk strings and bamboo pipes: erhu, guzheng and pipa, dizi and sheng, with Peking opera gongs and the temple block.",
  "license": "CC0-1.0",
- "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0). Each pack keeps its own licence and credit.",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), the erhu of the SFZ Instruments project (CC0). Each pack keeps its own licence and credit.",
  "source": {
   "kind": "none",
   "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
  },
  "instruments": [],
  "requires": [
+  "erhu",
   "vcsl"
  ],
  "sounds": [
@@ -34,8 +35,8 @@
     },
     "send": -12
    },
-   "note": "The two-stringed bowed fiddle: a voice-like, sliding tone (coming with the Erhu pack).",
-   "coming": true
+   "note": "The two-stringed bowed fiddle: a voice-like, sliding tone.",
+   "volume": -4.5
   },
   {
    "name": "Guzheng",

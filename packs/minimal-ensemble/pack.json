@@ -5,7 +5,7 @@
  "name": "Minimal Ensemble",
  "description": "A small amplified ensemble for repeating, interlocking patterns: electric and pipe organ, arpeggiating synths, piano, strings, flute, clarinet, sax and wordless voices.",
  "license": "CC0-1.0",
- "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0), the University of Iowa Musical Instrument Samples (free to use without restriction). Each pack keeps its own licence and credit.",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0), the University of Iowa Musical Instrument Samples (free to use without restriction), MTG Solo Saxophones by the Music Technology Group, Universitat Pompeu Fabra, mapped for the SFZ Instruments project (CC BY 4.0). Each pack keeps its own licence and credit.",
  "source": {
   "kind": "none",
   "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
@@ -13,6 +13,7 @@
  "instruments": [],
  "requires": [
   "iowa",
+  "mtg-sax",
   "steinway",
   "vsco2"
  ],
@@ -342,7 +343,7 @@
    "family": "Woodwinds",
    "instrument": {
     "pack": "mtg-sax",
-    "name": "soprano"
+    "name": "soprano-sax"
    },
    "space": {
     "name": "Chamber",
@@ -355,8 +356,8 @@
     },
     "send": -14
    },
-   "note": "Saxophone for the patterns (coming with the MTG sax pack).",
-   "coming": true
+   "note": "Saxophone for the patterns.",
+   "volume": -5.5
   },
   {
    "name": "Wordless Voices",

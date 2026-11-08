@@ -93,18 +93,18 @@ version…) are listed with it, and every pack links to its own page.
 | Palette | Sounds | Plays |
 |---|---|---|
 | [Breath and Pipes](packs/breath-and-pipes/) | 12 | Steinway Model D (bitKlavier Grand), VSCO 2 Community Edition, built-in synths |
-| [Classic Symphonic](packs/classic-symphonic/) | 16 (1 coming) | VSCO 2 Community Edition, built-in synths |
+| [Classic Symphonic](packs/classic-symphonic/) | 16 | University of Iowa MIS: Brass, VSCO 2 Community Edition, built-in synths |
 | [Crystal Pulse](packs/crystal-pulse/) | 13 | Versilian Community Sample Library, VSCO 2 Community Edition, built-in synths |
 | [Felt and Strings](packs/felt-and-strings/) | 11 | VSCO 2 Community Edition, built-in synths |
-| [Gamelan](packs/gamelan/) | 8 (8 coming) | packs still to come |
+| [Gamelan](packs/gamelan/) | 8 | Balinese Gamelan (OLPC), Javanese Gamelan (Casa da Música) |
 | [Heroic Orchestra](packs/heroic-orchestra/) | 14 | VSCO 2 Community Edition, built-in synths |
-| [Hybrid Epic](packs/hybrid-epic/) | 14 (1 coming) | VSCO 2 Community Edition, built-in synths |
+| [Hybrid Epic](packs/hybrid-epic/) | 14 | Karoryfer x bigcat Cello, VSCO 2 Community Edition, built-in synths |
 | [Korean](packs/korean/) | 3 | built-in synths |
 | [Koto and Taiko](packs/koto-and-taiko/) | 7 | built-in synths |
-| [Minimal Ensemble](packs/minimal-ensemble/) | 14 (1 coming) | University of Iowa MIS: Clarinet and Bassoon, Steinway Model D (bitKlavier Grand), VSCO 2 Community Edition, built-in synths |
-| [Silk and Bamboo](packs/silk-and-bamboo/) | 8 (1 coming) | Versilian Community Sample Library, built-in synths |
-| [Sitar and Tabla](packs/sitar-and-tabla/) | 7 (3 coming) | Versilian Community Sample Library, built-in synths |
-| [Southeast Asian](packs/southeast-asian/) | 6 (3 coming) | Versilian Community Sample Library |
+| [Minimal Ensemble](packs/minimal-ensemble/) | 14 | University of Iowa MIS: Clarinet and Bassoon, MTG Solo Saxophones, Steinway Model D (bitKlavier Grand), VSCO 2 Community Edition, built-in synths |
+| [Silk and Bamboo](packs/silk-and-bamboo/) | 8 | Erhu, Versilian Community Sample Library, built-in synths |
+| [Sitar and Tabla](packs/sitar-and-tabla/) | 7 | Nepalese Hand Bells (VCSL), Singing Bowls (OLPC), Tabla (OLPC, Sonic Pi), built-in synths |
+| [Southeast Asian](packs/southeast-asian/) | 6 | Angklung and Khaen (OLPC), University of Iowa MIS: Percussion and Thai Gongs, Versilian Community Sample Library |
 | [Viennese Grand](packs/viennese-grand/) | 3 | Steinway Model D (bitKlavier Grand) |
 
 ### Pianos and keys

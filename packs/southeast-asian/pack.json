@@ -5,13 +5,15 @@
  "name": "Southeast Asian",
  "description": "Instruments of Vietnam, Indonesia, Laos and Thailand: the đàn tranh zither, angklung, khaen and Thai gongs.",
  "license": "CC0-1.0",
- "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0). Each pack keeps its own licence and credit.",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), angklung and khaen by Berklee College of Music students for the One Laptop per Child sound library (CC BY 3.0), the University of Iowa Musical Instrument Samples (free to use without restriction). Each pack keeps its own licence and credit.",
  "source": {
   "kind": "none",
   "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
  },
  "instruments": [],
  "requires": [
+  "angklung-khaen",
+  "iowa-percussion",
   "vcsl"
  ],
  "sounds": [
@@ -85,7 +87,7 @@
    "name": "Angklung",
    "family": "Mallets and bells",
    "instrument": {
-    "pack": "angklung",
+    "pack": "angklung-khaen",
     "name": "angklung"
    },
    "space": {
@@ -100,14 +102,14 @@
     },
     "send": -12
    },
-   "note": "Sundanese bamboo tubes shaken in a frame: a soft, rattling tone (coming with the Angklung pack).",
-   "coming": true
+   "note": "Sundanese bamboo tubes shaken in a frame: a soft, rattling tone.",
+   "volume": -0.5
   },
   {
    "name": "Khaen",
    "family": "Organs",
    "instrument": {
-    "pack": "khaen",
+    "pack": "angklung-khaen",
     "name": "khaen"
    },
    "space": {
@@ -122,15 +124,15 @@
     },
     "send": -12
    },
-   "note": "The Lao bamboo mouth organ, chords over a drone (coming with the Khaen pack).",
-   "coming": true
+   "note": "The Lao bamboo mouth organ, chords over a drone.",
+   "volume": -5.5
   },
   {
    "name": "Thai Gongs",
    "family": "Mallets and bells",
    "instrument": {
     "pack": "iowa-percussion",
-    "name": "thai_gongs"
+    "name": "thai-gongs"
    },
    "space": {
     "name": "Open Pavilion",
@@ -144,8 +146,8 @@
     },
     "send": -12
    },
-   "note": "Tuned bossed gongs (coming with the Iowa percussion).",
-   "coming": true
+   "note": "Tuned bossed gongs.",
+   "volume": -1.5
   }
  ]
 }

@@ -11,7 +11,7 @@ strings first, then colour with harp, celesta and glockenspiel.
 **Celesta Bells** is an FM sound voiced like a celesta, as no free celesta recording is in these
 packs yet.
 
-**Coming:** **Trumpets**, once the University of Iowa brass recordings are here.
+**Trumpets** are the University of Iowa brass recordings; the rest of the orchestra is VSCO 2.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
 
@@ -21,10 +21,10 @@ packs yet.
 |---|---|
 | Id | `classic-symphonic` |
 | Palette | The full symphony orchestra on a scoring stage: horns and trumpets, strings, woodwinds, harp, celesta, glockenspiel, timpani, snare and choir. |
-| Sounds | 16 (1 coming) |
-| Plays | [VSCO 2 Community Edition](../vsco2/), HO[LO] Desk's built-in synths |
+| Sounds | 16 |
+| Plays | [University of Iowa MIS: Brass](../iowa-brass/), [VSCO 2 Community Edition](../vsco2/), HO[LO] Desk's built-in synths |
 | Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0). Each pack keeps its own licence and credit. |
+| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the University of Iowa Musical Instrument Samples (free to use without restriction). Each pack keeps its own licence and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Classic Symphonic**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install classic-symphonic` installs every pack it plays. |
 
 ## Sounds
@@ -48,7 +48,7 @@ greyed out until then.
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
 | French Horns | [French Horns](../vsco2/) | — | Scoring Stage, −10 dB | −3.5 dB | The horn section, noble and round. |
-| Trumpets *(coming)* | [Trumpet](../iowa-brass/) | — | Scoring Stage, −12 dB | 0 dB | Bright trumpets for fanfares (coming with the Iowa brass). |
+| Trumpets | [Trumpet](../iowa-brass/) | — | Scoring Stage, −12 dB | −0.5 dB | Bright trumpets for fanfares. |
 | Trombones | [Trombones](../vsco2/) | — | Scoring Stage, −12 dB | −5.5 dB | Trombones for weight and chorales. |
 
 ### Woodwinds

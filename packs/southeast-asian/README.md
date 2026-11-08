@@ -4,10 +4,9 @@ Instruments of mainland and island Southeast Asia: the Vietnamese đàn tranh (a
 whose notes bend and slide), the Sundanese angklung (tuned bamboo tubes shaken in a frame), the Lao
 khaen (a mouth organ of bamboo pipes) and Thai gongs.
 
-**Sources:** the đàn tranh is from the Versilian Community Sample Library (CC0).
-
-**Coming:** the **Angklung** and **Khaen** from the One Laptop per Child sound library (CC BY 3.0),
-and the **Thai Gongs** from the University of Iowa recordings, once each is mapped.
+**Sources:** the đàn tranh is from the Versilian Community Sample Library (CC0); the angklung and
+khaen from the One Laptop per Child sound library (CC BY 3.0), recorded by Berklee College of Music
+students; and the Thai gongs from the University of Iowa recordings.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
 
@@ -17,10 +16,10 @@ and the **Thai Gongs** from the University of Iowa recordings, once each is mapp
 |---|---|
 | Id | `southeast-asian` |
 | Palette | Instruments of Vietnam, Indonesia, Laos and Thailand: the đàn tranh zither, angklung, khaen and Thai gongs. |
-| Sounds | 6 (3 coming) |
-| Plays | [Versilian Community Sample Library](../vcsl/) |
+| Sounds | 6 |
+| Plays | [Angklung and Khaen (OLPC)](../angklung-khaen/), [University of Iowa MIS: Percussion and Thai Gongs](../iowa-percussion/), [Versilian Community Sample Library](../vcsl/) |
 | Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0). Each pack keeps its own licence and credit. |
+| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), angklung and khaen by Berklee College of Music students for the One Laptop per Child sound library (CC BY 3.0), the University of Iowa Musical Instrument Samples (free to use without restriction). Each pack keeps its own licence and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Southeast Asian**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install southeast-asian` installs every pack it plays. |
 
 ## Sounds
@@ -35,7 +34,7 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Khaen *(coming)* | `khaen/khaen` | — | Open Pavilion, −12 dB | 0 dB | The Lao bamboo mouth organ, chords over a drone (coming with the Khaen pack). |
+| Khaen | [Khaen](../angklung-khaen/) | — | Open Pavilion, −12 dB | −5.5 dB | The Lao bamboo mouth organ, chords over a drone. |
 
 ### Plucked
 
@@ -49,5 +48,5 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Angklung *(coming)* | `angklung/angklung` | — | Open Pavilion, −12 dB | 0 dB | Sundanese bamboo tubes shaken in a frame: a soft, rattling tone (coming with the Angklung pack). |
-| Thai Gongs *(coming)* | `iowa-percussion/thai_gongs` | — | Open Pavilion, −12 dB | 0 dB | Tuned bossed gongs (coming with the Iowa percussion). |
+| Angklung | [Angklung](../angklung-khaen/) | — | Open Pavilion, −12 dB | −0.5 dB | Sundanese bamboo tubes shaken in a frame: a soft, rattling tone. |
+| Thai Gongs | [Thai Gongs](../iowa-percussion/) | — | Open Pavilion, −12 dB | −1.5 dB | Tuned bossed gongs. |

@@ -5,14 +5,16 @@
  "name": "Sitar and Tabla",
  "description": "North Indian classical instruments: sitar and tanpura, bansuri and harmonium, tabla, with singing bowls and Nepalese bells.",
  "license": "CC0-1.0",
- "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0). Each pack keeps its own licence and credit.",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), tabla bols by Mihir Sarkar for the One Laptop per Child sound library (CC BY 3.0), singing bowls by OpenPath Music for the One Laptop per Child sound library (CC BY 3.0). Each pack keeps its own licence and credit.",
  "source": {
   "kind": "none",
   "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
  },
  "instruments": [],
  "requires": [
-  "vcsl"
+  "nepal-bells",
+  "singing-bowls",
+  "tabla"
  ],
  "sounds": [
   {
@@ -130,8 +132,8 @@
     },
     "send": -16
    },
-   "note": "The pair of hand drums: the bright dayan and the deep bayan (coming with the Tabla pack).",
-   "coming": true
+   "note": "The pair of hand drums, a bol on each key: Dha, Dhin, Ge, Ke, Na and more.",
+   "volume": -1.5
   },
   {
    "name": "Singing Bowls",
@@ -152,15 +154,15 @@
     },
     "send": -10
    },
-   "note": "Struck and rubbed bowls, long and beating (coming with the Singing Bowls pack).",
-   "coming": true
+   "note": "Struck and rubbed bowls, long and beating.",
+   "volume": -3.5
   },
   {
    "name": "Nepalese Bells",
    "family": "Mallets and bells",
    "instrument": {
-    "pack": "vcsl",
-    "name": "nepalese_bells"
+    "pack": "nepal-bells",
+    "name": "bells"
    },
    "space": {
     "name": "Wooden Hall",
@@ -174,8 +176,8 @@
     },
     "send": -12
    },
-   "note": "Small hand bells (coming to the VCSL pack).",
-   "coming": true
+   "note": "Small hand bells, three on three keys.",
+   "volume": 3
   }
  ]
 }

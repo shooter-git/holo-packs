@@ -10,8 +10,7 @@ to build into the downbeat, a cathedral organ, a felt piano for the quiet moment
 - **Analog Sub** is dry (no reverb) so the low end stays tight under the brass.
 - **Rising Air** is a riser you play like an instrument: hold a chord and it swells for several bars.
 
-**Coming:** the **Solo Cello** plays the Bigcat Cello (a CC0 solo cello) once that pack is here. Until
-then, **Cellos** is the section.
+**Solo Cello** is one player, close up (the Karoryfer x bigcat cello, CC0); **Cellos** is the section.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
 
@@ -21,10 +20,10 @@ then, **Cellos** is the section.
 |---|---|
 | Id | `hybrid-epic` |
 | Palette | A big modern score: massed low brass, driving string ostinatos, war drums and an analog sub, with risers, a cathedral organ, a felt piano and a solo cello. |
-| Sounds | 14 (1 coming) |
-| Plays | [VSCO 2 Community Edition](../vsco2/), HO[LO] Desk's built-in synths |
+| Sounds | 14 |
+| Plays | [Karoryfer x bigcat Cello](../bigcat-cello/), [VSCO 2 Community Edition](../vsco2/), HO[LO] Desk's built-in synths |
 | Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0). Each pack keeps its own licence and credit. |
+| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the Karoryfer x bigcat cello by Karoryfer Lecolds and bigcat instruments (CC0). Each pack keeps its own licence and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Hybrid Epic**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install hybrid-epic` installs every pack it plays. |
 
 ## Sounds
@@ -54,7 +53,7 @@ greyed out until then.
 | Cello Ostinato | [Cellos Spiccato](../vsco2/) | Compressor, Channel EQ | Epic Hall, −16 dB | +1 dB | Spiccato cellos for chugging ostinatos. |
 | Violin Ostinato | [Violins Spiccato](../vsco2/) | Compressor | Epic Hall, −16 dB | 0 dB | Spiccato violins: tight, bright repeated notes above the cellos. |
 | Cellos | [Cellos](../vsco2/) | — | Epic Hall, −12 dB | −5.5 dB | A cello section singing a long line. |
-| Solo Cello *(coming)* | [Solo Cello](../bigcat-cello/) | — | Epic Hall, −14 dB | 0 dB | One cello, close and expressive (coming with the Bigcat Cello pack). |
+| Solo Cello | [Solo Cello](../bigcat-cello/) | — | Epic Hall, −14 dB | −4 dB | One cello, close and expressive. |
 
 ### Brass
 

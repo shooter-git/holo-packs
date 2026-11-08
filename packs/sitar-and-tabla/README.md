@@ -9,10 +9,11 @@ tabla, the pair of hand drums. Singing bowls and Nepalese bells from the Himalay
 below), Sa twice, then the low Sa. Hold your Sa, the tonic of the raga, and play the sitar or bansuri
 over it.
 
-**Sources:** sitar, tanpura, bansuri and harmonium are modelled by HO[LO] Desk's synths.
+**The tabla** has a bol on each pad: Dha, Dhin, Ge, Ke, Na, Re, Ta, Te, Tin and Tu.
 
-**Coming:** the **Tabla** (CC0 and CC BY 3.0 recordings), the **Singing Bowls** (CC BY 3.0) and the
-**Nepalese Bells** from the Versilian Community Sample Library, once each is mapped.
+**Sources:** sitar, tanpura, bansuri and harmonium are modelled by HO[LO] Desk's synths. The tabla
+(bols recorded by Mihir Sarkar) and the singing bowls are from the One Laptop per Child sound library
+(CC BY 3.0), and the Nepalese bells from the Versilian Community Sample Library (CC0).
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
 
@@ -22,10 +23,10 @@ over it.
 |---|---|
 | Id | `sitar-and-tabla` |
 | Palette | North Indian classical instruments: sitar and tanpura, bansuri and harmonium, tabla, with singing bowls and Nepalese bells. |
-| Sounds | 7 (3 coming) |
-| Plays | [Versilian Community Sample Library](../vcsl/), HO[LO] Desk's built-in synths |
+| Sounds | 7 |
+| Plays | [Nepalese Hand Bells (VCSL)](../nepal-bells/), [Singing Bowls (OLPC)](../singing-bowls/), [Tabla (OLPC, Sonic Pi)](../tabla/), HO[LO] Desk's built-in synths |
 | Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0). Each pack keeps its own licence and credit. |
+| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), tabla bols by Mihir Sarkar for the One Laptop per Child sound library (CC BY 3.0), singing bowls by OpenPath Music for the One Laptop per Child sound library (CC BY 3.0). Each pack keeps its own licence and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Sitar and Tabla**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install sitar-and-tabla` installs every pack it plays. |
 
 ## Sounds
@@ -59,11 +60,11 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Singing Bowls *(coming)* | [Singing Bowls](../singing-bowls/) | — | Wooden Hall, −10 dB | 0 dB | Struck and rubbed bowls, long and beating (coming with the Singing Bowls pack). |
-| Nepalese Bells *(coming)* | `vcsl/nepalese_bells` | — | Wooden Hall, −12 dB | 0 dB | Small hand bells (coming to the VCSL pack). |
+| Singing Bowls | [Singing Bowls](../singing-bowls/) | — | Wooden Hall, −10 dB | −3.5 dB | Struck and rubbed bowls, long and beating. |
+| Nepalese Bells | [Nepalese Hand Bells](../nepal-bells/) | — | Wooden Hall, −12 dB | +3 dB | Small hand bells, three on three keys. |
 
 ### Drums and percussion
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Tabla *(coming)* | [Tabla](../tabla/) | — | Wooden Hall, −16 dB | 0 dB | The pair of hand drums: the bright dayan and the deep bayan (coming with the Tabla pack). |
+| Tabla | [Tabla](../tabla/) | — | Wooden Hall, −16 dB | −1.5 dB | The pair of hand drums, a bol on each key: Dha, Dhin, Ge, Ke, Na and more. |

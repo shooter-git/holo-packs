@@ -11,9 +11,8 @@ Desk's Scale Quantizer). Slide into notes on the guzheng with the pitch wheel, o
 Pressed** for the deep left-hand vibrato.
 
 **Sources:** guzheng, pipa, dizi, sheng and the opera gongs are modelled by HO[LO] Desk's synths; the
-temple block is from the Versilian Community Sample Library.
-
-**Coming:** the **Erhu**, from a CC0 recording, once it's mapped.
+temple block is from the Versilian Community Sample Library; the erhu is a CC0 recording from the SFZ
+Instruments project.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
 
@@ -23,10 +22,10 @@ temple block is from the Versilian Community Sample Library.
 |---|---|
 | Id | `silk-and-bamboo` |
 | Palette | Chinese instruments of silk strings and bamboo pipes: erhu, guzheng and pipa, dizi and sheng, with Peking opera gongs and the temple block. |
-| Sounds | 8 (1 coming) |
-| Plays | [Versilian Community Sample Library](../vcsl/), HO[LO] Desk's built-in synths |
+| Sounds | 8 |
+| Plays | [Erhu](../erhu/), [Versilian Community Sample Library](../vcsl/), HO[LO] Desk's built-in synths |
 | Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0). Each pack keeps its own licence and credit. |
+| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), the erhu of the SFZ Instruments project (CC0). Each pack keeps its own licence and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Silk and Bamboo**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install silk-and-bamboo` installs every pack it plays. |
 
 ## Sounds
@@ -47,7 +46,7 @@ greyed out until then.
 
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
-| Erhu *(coming)* | [Erhu](../erhu/) | — | Wooden Hall, −12 dB | 0 dB | The two-stringed bowed fiddle: a voice-like, sliding tone (coming with the Erhu pack). |
+| Erhu | [Erhu](../erhu/) | — | Wooden Hall, −12 dB | −4.5 dB | The two-stringed bowed fiddle: a voice-like, sliding tone. |
 
 ### Woodwinds
 

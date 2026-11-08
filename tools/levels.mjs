@@ -126,7 +126,10 @@ export function phrase(sound) {
   const sampler = S.soundSampler(sound);
   const inst = sampler ? installed.get(sampler.pack)?.instruments.find((i) => i.name === sampler.name) : null;
   const preset = sampler ? null : sound.instrument.synth;
-  const hits = (key) => Array.from({ length: 8 }, (_, i) => n(i / 2, key, 0.4, i % 2 ? VELOCITY - 16 : VELOCITY));
+  const hits = (...keys) =>
+    Array.from({ length: 8 }, (_, i) => n(i / 2, keys[i % keys.length], 0.4, i % 2 ? VELOCITY - 16 : VELOCITY));
+  // an instrument on pads (a tabla's bols, a pair of gongs): a bar striking each pad in turn
+  if (inst?.pads?.length) return hits(...inst.pads.map((p) => p.key));
   if (inst?.pitched === false) return hits(60);
   if (preset && STRUCK[preset] !== undefined) return hits(STRUCK[preset]);
   if (preset && S.DRUM_PRESETS?.includes(preset))

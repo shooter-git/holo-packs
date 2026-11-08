@@ -5,13 +5,14 @@
  "name": "Classic Symphonic",
  "description": "The full symphony orchestra on a scoring stage: horns and trumpets, strings, woodwinds, harp, celesta, glockenspiel, timpani, snare and choir.",
  "license": "CC0-1.0",
- "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0). Each pack keeps its own licence and credit.",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the University of Iowa Musical Instrument Samples (free to use without restriction). Each pack keeps its own licence and credit.",
  "source": {
   "kind": "none",
   "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
  },
  "instruments": [],
  "requires": [
+  "iowa-brass",
   "vsco2"
  ],
  "sounds": [
@@ -56,8 +57,8 @@
     },
     "send": -12
    },
-   "note": "Bright trumpets for fanfares (coming with the Iowa brass).",
-   "coming": true
+   "note": "Bright trumpets for fanfares.",
+   "volume": -0.5
   },
   {
    "name": "Trombones",
