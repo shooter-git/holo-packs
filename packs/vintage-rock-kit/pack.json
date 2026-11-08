@@ -1,0 +1,4227 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "vintage-rock-kit",
+ "name": "Vintage Rock Kit",
+ "license": "CC-BY-SA-3.0",
+ "credit": "Made from AVL Drumkits by Glen MacArthur (CC BY-SA 3.0; music made with it can be licensed freely): its Red Zeppelin kit, a Ludwig kit with a 26\" kick, 14\" snare, 14/16\" toms, Sabian, Zildjian, Paiste and Wuhan cymbals. Placed for HO[LO] at the library's own pans.",
+ "bytes": 60829198,
+ "source": {
+  "kind": "mix",
+  "note": "AVL Drumkits' Red Zeppelin (2023 repack), one mono WAV a hit, each placed at the library's pan.",
+  "bases": {},
+  "downloads": {
+   "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-1.wav": "93fd775073286235f620de28ee09bc4a5e819ee2415fd066cf51eabaa41c3881",
+   "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-2.wav": "d51182d4a314458191190ac2f8d3c8fe794256c212ebd877190800dc6cdc0d52",
+   "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-3.wav": "83d0f4bd52e7d84bd9e735231f7a0f85d273fc9127dd3a60cc3431e9e74e66e3",
+   "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-4.wav": "9f977de2890b9574061420bc2dbf81c70ef3ca329efae0b06a35a822b5a23f94",
+   "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-5.wav": "fafe76627d9a4e4a6c344944bf9786f686fbe29686164158e1eb5b03668231c7",
+   "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-1.wav": "9f6ccf23ef1ccc0b368969bdb479bd7bf3676b549560a489a297526a1ec922d1",
+   "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-2.wav": "985a428fdbe43f48f441fc14e96992035f93e75c87055e626586aa3041a91103",
+   "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-3.wav": "2d55867de7864d5c47da9fbd8da1043f0ca0981366cc21978b65297629118ad6",
+   "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-4.wav": "f00dfc75df56d64dd69fd5d351888d171b4046dc626e5c145c447077bc13dae0",
+   "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-5.wav": "52ee18bd0867cc571c5d8bb20b38aa42b589ac25ee887133f9426fa6fe7becda",
+   "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-1.wav": "865a98e0ad05d70ffbe9b7bc1ed39818b6db4542f7925c83a04913b0c0467030",
+   "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-2.wav": "4a317df77e1524223c0fac7043e0a6c7453b932cb132abb09f14ee5b10708dda",
+   "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-3.wav": "22ef89ae6a50eb10066edfb6998c35409009e136e20b8af2ed8055c6c95a171c",
+   "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-4.wav": "5d28ed20ed9e70f1feb631a15961d02d82ef0e9335ed3529166d0ee851f39eec",
+   "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-5.wav": "1501fece3df6d98b35aa2101da62c876a2d8ad90968646a49adda6fb609cc8be",
+   "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-1.wav": "22bf42dc182e69c7829a8407a3aad09b8a48f03295d9f0d92d80759a81ddcee1",
+   "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-2.wav": "ba0762371cf20c7012e7bf72a07a6e3cf67b3d3f6f3532fb7dbe535e9384ba00",
+   "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-3.wav": "9c2c6422cdc3cedf94aed44a3d071e0a5598a8a1eb22439fca73be9101524e1f",
+   "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-4.wav": "33defd3586eb71fbb156f7f746f708154f53892f397c1ba5d30f5fb77cd899ce",
+   "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-5.wav": "4374a74f1cb2f04464e55b31b678325f3b251a20091d30db87c97c7ba0f1c313",
+   "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-1.wav": "e91bbf6a31ce50944765ca04825966a1b9536301116a22be286a405d2c3bcf3b",
+   "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-2.wav": "26ffbd41f9b6f62b61e79b1ab8cd44d5ab0f13bc3366cfa3e88c1c9009590f37",
+   "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-3.wav": "96583fe7c10fa5bc013f8940b2f5fec25fbd01c49cfaabbda6e46808d40590dc",
+   "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-4.wav": "9ef1e8084b8fc738d8792a65c4537dc0568988da53a8112c913dcde67bff0670",
+   "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-5.wav": "cdf72c920f5999f4e8cdc3798b844ff13c4b249b3ce89ee840582a38d11c9829",
+   "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-1.wav": "8f4cf9e948887b2ec13caa1c96adf2517046a11f91ab315247f96b2488defa9d",
+   "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-2.wav": "a4379f5fd210b31455da88c7c4b72cc6c912de723542f6294307baa2f479e15a",
+   "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-3.wav": "160541b46536a689a95586178fc490bc27e028eb738a28b106d0fb4bf6c6ce31",
+   "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-4.wav": "f05c20e12e883c992843e5a51f2ddaaf554bdc49a0ab3ed864ba96b1775c02f9",
+   "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-5.wav": "044faa7ae6628fdfb63c6781c22ebd191e63e3151adc954a40dfaa11850fe2f1",
+   "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-1.wav": "b9f2bed8903426396ca8837443a72e162984970243da916c7458b53ea3f6972c",
+   "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-2.wav": "273a08309f998d166b3a03967357d70105a5e754d06e4df07695f6a4c13b9e5c",
+   "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-3.wav": "c48eae017e9233ee730b8b270e526c37cff17888fa3482a7caed0ab8004c0ab2",
+   "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-4.wav": "0374de55c2cac9368e7598eab5f5e8fcf76e2cff4980f6bb65f9f7c1818b57d0",
+   "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-5.wav": "e49572a084732d34c85f92b824a5aa2df19cbf7ec11397549767cacb8365d61e",
+   "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-1.wav": "8fbc750154ba7a01526d9950b2355f3528e27c4bc12a8e5eb7c7d63abd459508",
+   "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-2.wav": "95aa93cd7fedf52c4fe7da1666289be6579eaa7794db1138224b9330e81ec7d8",
+   "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-3.wav": "8cfe6acf4be195fda6be2ea5f0d78f11bc8070073a2174861aa033579ddbe517",
+   "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-4.wav": "2c9ca9a9bb894a86582f396a3821745a446a29118fa734ecc934c799534e0577",
+   "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-5.wav": "0e761f06c04acdd2f3939c658b30b933336de3a975a8170b6967419674effe2f",
+   "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-1.wav": "7991cab88d51524b0d293f752b67dd5cb62cdc379bc20d273928c977978901ce",
+   "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-2.wav": "2cf74529a82caeed1a2e8523663e92095d6869c6d7c1aa3d3b7c202e6e90f8be",
+   "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-3.wav": "34d6c995456d2598aa3ecaf3166596638216f6bdb76d61d73f172b27e53e6fd8",
+   "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-4.wav": "51fea12a900189b1ea4f04f8279605aebd2803992fc92a6078b748a086d4420d",
+   "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-5.wav": "7571b5846723eeef0f6d251eaccf1ffcac391352bf2d184b04bf68ad4b2320c3",
+   "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-1.wav": "61c2fcd2b7657162688d3fc57bc5df3e47af917a29c73f2142c876180942f018",
+   "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-2.wav": "2be7830af83e8ae4c6873c2aae7d22b421490a4a4e8021e002de56ac5b43444c",
+   "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-3.wav": "27789e5e1163bfa27e3cb54639bcf194def8ec6d521c5b00b36cf72945dba42a",
+   "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-4.wav": "0bacaaa39cc6c5de87e9ccee50b52b2b370e0a40a474d22965edd73ada7b6106",
+   "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-5.wav": "6e6cc29446a3724abcf1037bb32da7770f8d83ac5f2283fca4f165728e23c387",
+   "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-1.wav": "96370d11afe43a6ac682a45292ad9fcb8f5295a840c12eb57fcb3a1755153f8a",
+   "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-2.wav": "61b9dff4bccf9005cfd23bcfe7f387b84e598255813058818002f758e62fe0d6",
+   "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-3.wav": "0827b451bacb1fbf040e5ef1b4c8f8b944ff4499be2497feb4b4b9a72899c1be",
+   "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-4.wav": "a531e3ac73902cd5a2009caf5449e4d00764ff62dbce20edd266728b73f7cdc0",
+   "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-5.wav": "7e6b225d268ec0f371ef0ac61b2aba169e05013c5026e599ff63c96f6d850059",
+   "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-1.wav": "43804376c647c5977e3d25f50ff82eb92506193fed88425408df7ec209feca79",
+   "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-2.wav": "0fe9cdcbfcd577e9ba310d2182a01cc6892c006c0333ff3691317a167278df13",
+   "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-3.wav": "442a4a911b257a5dcb39a943e1945ce9285ae9e6d1191dec6791fe74fc15e065",
+   "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-4.wav": "d2ac1b268687ae73c9ade586476354ad486a0b5b3fe51f9db8a89b38a2e62a4c",
+   "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-5.wav": "84ee10a52ad8e09650972ebb952e24ae324b6af18e452a28a030664313165ecd",
+   "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-1.wav": "dc3f724fb456af2ec7c16ca72ec573cd55167d74ae3dcd7a7bc15c40f3a0d6bb",
+   "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-2.wav": "3a89710c30ca7d0c0a2a74d07c7af78b3f2a3f31eb72e8a0aef11bff3486beed",
+   "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-3.wav": "f3ccc0bf14aabb1203096e4450bb76fc545f00a01651520dfb131d87b1a5f099",
+   "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-4.wav": "e149ce4cbfe6f7a2b3dc62425f8806895ae0c04a4a19d78cc3d3ad74b5633542",
+   "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-5.wav": "67b4d696a396f71c4217234245dc8c2b0b561428952f314dcebebb972be4fb40",
+   "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-1.wav": "dcb4edeb786b24b25cc0cdc1808d49768d71b0babc5aa4b9ac2ad915525587ee",
+   "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-2.wav": "65cfda32d56269efdaa2a519ab3a912e8774764f6766891da89315e01fed71ee",
+   "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-3.wav": "895d853daa89f03cb4d8f704c5ae30e2214ec6ad2ee4f6ad826f9d3a0d4aeda4",
+   "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-4.wav": "bb8650c62e925d68eaa7f313fc33831c970e1c0cb1915bf1b7776a510f2d7d35",
+   "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-5.wav": "021ffc3ea2a200631da373eb7681fabd806ab9c949e936eb51f733e4abb333e5",
+   "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-1.wav": "a680c2c3c5100fc573128dcc164b68078aa6f91bfd4503ed24bb63c7b71ec7aa",
+   "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-2.wav": "ff9626b9992365699a6d5dfe30f1b2b15c8fcb7294a777838c6754024ff4d904",
+   "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-3.wav": "558c98e23df0e57c8db770ad75001205f93e71ed6a3613c5dbdea56c929dc073",
+   "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-4.wav": "4b00a5a9bdb6b4744f66fd4d1383eb339517ae91054d6724d478fa492a356f8e",
+   "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-5.wav": "15cfa4e03bb0a2c8c048fd064a35597986dceef4441bde860c3dab50a347fa94",
+   "ludwig:RED_ZEPPELIN_2023_repack/50-Zildjian-20-CrashChoke.wav": "dc41eeebefe6b34a87420807e720885da0127addbaef182900b95cb34ff30d3c",
+   "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-1.wav": "4ecb83455fc7c9e6a81d0f484d30db0a18b68323e0513dfcf1ebd5ce3bcd5858",
+   "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-2.wav": "cd4a1fc52f5932cc9a74888a40aa17077144adf54e4a7f1b85a353e6377ba5a3",
+   "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-3.wav": "f6c06d22d899dc569208604662fde8cfbdcf17bc46f6a217f3c43e8ca97de876",
+   "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-4.wav": "5b7224b7921b1853d5770ddc02881735abaa4f9566ae4c13143f33b9c9d1a3b7",
+   "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-5.wav": "df60547373c1db023d27866e7850b409e696c9420fc6912024e24ff5c7a49068",
+   "ludwig:RED_ZEPPELIN_2023_repack/52-Zildjian-24-RideChoke.wav": "59e77a49115acbfb31bb127461457c7a097b5ea2f06feab17a3d669b15be28e4",
+   "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-1.wav": "82bd65eb4741406fa9be543a2bb91b5f8566044632e018d5561e5e740426e9a9",
+   "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-2.wav": "58d7597bd3f7628a682f6a4699cbfb62baf87a58b42c78c69da9854e1aca377d",
+   "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-3.wav": "051c66c2ea11bd57f1bd1405ee0f4869ddc3c8d6c8d93b58f41a5edf1fb13204",
+   "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-4.wav": "dca66ee96c23c4d64850af70390ce182d2be9e4606fea3df5822993b39a67be4",
+   "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-5.wav": "d730f68dba894105d6bdebd12434c3535cf4bd5036aad08214aac825956dde0c",
+   "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-1.wav": "387385e89332f2af0211b24542c7e277bdeee3295cfc9fcfac8bad6b79530936",
+   "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-2.wav": "b71366479c2cdc0438edfaf829493b8cabf07425b2876fdbb0f884b1b1e5dccd",
+   "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-3.wav": "d6d32235612946f65968bc17364322cffa2a352c780d7c7cfa01a89e155c6927",
+   "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-4.wav": "bcede7e7762839b749b7b98ba1565a4c555d6d9aebf11e81dac5c1f65e931329",
+   "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-5.wav": "dd88203f9aaaa1b60f03c13e315df5acff48243bb014bb8e3a90b06f55cac697",
+   "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-1.wav": "59e425135caafe5e041bdf9c5ce3cd3d186a0e30840ed7ac115251752fded348",
+   "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-2.wav": "1b3b36ffb7359381b846f2560090038bbba1d5f4a9035db189c40b4350e2b61f",
+   "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-3.wav": "f562f31ca7416fe55dce958c6174b3b100b5e8ddbc6ed2befcb8d44e6b833089",
+   "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-4.wav": "06f2b48814c8a6cda2313dbff094831fc1a4db188ab549f9f26714ef232c2d21",
+   "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-5.wav": "46fc8f486ebcfa99bec595cbca04979f2578865e90aac97b9dfac3edf041dd17",
+   "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-1.wav": "d209f4d5052f6f60c07dd13b4ed7d620d73c8eaf84f4fd2ba4ebcf718272e05e",
+   "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-2.wav": "b68934a50d655a0c8baea386b5432b49c1532d58fba573e0629d49ad762f7f0d",
+   "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-3.wav": "1cf358b9225bc338d8c5269c17a6448b9f1dd2eb7e3f858f350af23f6a5d0f7f",
+   "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-4.wav": "e5cd051385748a626894cb16a10317207660ec98e63a8d32218c4541a364ef5a",
+   "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-5.wav": "ab9a6a0df01b6708258e066bdb112b62bfbe5d592f7b1602eea5fd58060cb5fe",
+   "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-1.wav": "3c2a7f5d816e5457ffe51cd352dccd93e93894407a7ebdffb9b8104787940f29",
+   "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-2.wav": "874fe7a647ab52db9bb0c79d5f2077a634a959093f80de518141919f6bd4e570",
+   "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-3.wav": "1e41ffe4c8f405bcbc63b9ec3009ca462bb66530f42cfdf05435a5638314a63e",
+   "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-4.wav": "652bab7442f40d658f2942be21c6986c03b2cfee7c55995af40611b07cf3943e",
+   "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-5.wav": "617057a24c3ec1bdc7c01832da08282edd724a66e34daa955ee6beebd60b29db",
+   "ludwig:RED_ZEPPELIN_2023_repack/58-Zildjian-17-CrashChoke.wav": "99a092e1d390d7521d777e01c32c7fb739d3b1460629a326720484b960b237c3",
+   "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-1.wav": "3149d24cd7dd46c0f74443168a09fedfe12177c54e3cd06e3a882e52a0391e42",
+   "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-2.wav": "2a24d800b7cd54237161267cf979085ead794f683ab4cd3809d3bf61e633d54d",
+   "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-3.wav": "e81b853fca029d039c417ec6c5c3fdc23f4c86a02a8d667e8094190747a7596d",
+   "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-4.wav": "a47693a975b58d01d94889874bf6837b8b38a6f80bdc5a3abef23474a938a119",
+   "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-5.wav": "79d0352d11a71ec951b25f9ea474769b5cdebfd24be6fba47ef9a9459f4f93e4",
+   "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-1.wav": "ae977adda66222d07b27a71aace67191e4b7fcb1ae2ebeccf1a0c29d9c93cbad",
+   "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-2.wav": "4242c4ea88f3d392ebcd7a4f0735ff52d107c6528bf3ca769eb55b7467e021fc",
+   "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-3.wav": "32a0d2e6537439ffaf8df1902259a5bcadd3d3178be149c47e4f403e368f4a89",
+   "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-4.wav": "0727ae1121fa424d245adb3d31c1e6064c0a9a1c9ce37580eb28a3c493f13983",
+   "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-5.wav": "2b34cfc4fc270707713be5923289e7a31f1c13fde7656bba628e00ba8c292600",
+   "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-1.wav": "5dfa0fdeeabb921110a873257f20ff3831bc19dbe97943fbfbbe1dd79abc2af9",
+   "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-2.wav": "2e811f18937a12ca9df87d011a21b56807c8ca5c7f6d42408e56d1c00cb467d6",
+   "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-3.wav": "e9c5a549e93e579305d7c8f2cc28c5790d13f1de973ba9e45f6bfdf58df8aece",
+   "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-4.wav": "eaec8ce14868bea5792021925b9c28cafb4a14b4219b7e3f4f24d7f6d62c3e84",
+   "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-5.wav": "bbe5b90943ed7734f2e3c3469dab7548dcfa2621fa03e1e83c86297329016509",
+   "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-1.wav": "a9c281c00a3c4117bbac78ec1a07e0a45346631dca21f84fae42f50ee8a2961d",
+   "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-2.wav": "a66661cf0b1a52bac81919c4ebe263226d221576774e515a09f3953ae9fc9daa",
+   "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-3.wav": "1e40b61042b0ecb486cfd1b8fd4fe966130701492fa749418f543a8882b5e7bc",
+   "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-4.wav": "6c10fbeca4cd07af33eeea6a926c77dc3d1d611a0fb10c13411f2fc61c4d8a76",
+   "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-5.wav": "5134aa53f19056dbf7596caa62eff2295b885a55d40db88ef1444f0346f942e1"
+  },
+  "bits": 24,
+  "files": {
+   "vintage-rock/stick-click/stick-click_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-1.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 8379,
+    "fadeIn": 0,
+    "fadeOut": 3352
+   },
+   "vintage-rock/stick-click/stick-click_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-2.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 0,
+    "fadeOut": 4057
+   },
+   "vintage-rock/stick-click/stick-click_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-3.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 11025,
+    "fadeIn": 0,
+    "fadeOut": 4410
+   },
+   "vintage-rock/stick-click/stick-click_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-4.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "vintage-rock/stick-click/stick-click_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/35-JojoMayer-2-StickClick-5.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "vintage-rock/kick/kick_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-1.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 27,
+    "fadeOut": 15435
+   },
+   "vintage-rock/kick/kick_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-2.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 0,
+    "fadeOut": 15435
+   },
+   "vintage-rock/kick/kick_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-3.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "vintage-rock/kick/kick_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-4.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 31,
+    "fadeOut": 15435
+   },
+   "vintage-rock/kick/kick_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/36-Ludwig-26-Kick-5.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 13,
+    "fadeOut": 15435
+   },
+   "vintage-rock/sidestick/sidestick_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-1.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 28,
+    "fadeOut": 6174
+   },
+   "vintage-rock/sidestick/sidestick_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-2.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 21,
+    "fadeOut": 6527
+   },
+   "vintage-rock/sidestick/sidestick_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-3.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 17199,
+    "fadeIn": 21,
+    "fadeOut": 6880
+   },
+   "vintage-rock/sidestick/sidestick_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-4.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 19845,
+    "fadeIn": 32,
+    "fadeOut": 7938
+   },
+   "vintage-rock/sidestick/sidestick_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/37-Ludwig-14-SideStick-5.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 19845,
+    "fadeIn": 16,
+    "fadeOut": 7938
+   },
+   "vintage-rock/snare/snare_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-1.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 18963,
+    "fadeIn": 32,
+    "fadeOut": 7585
+   },
+   "vintage-rock/snare/snare_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-2.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 23373,
+    "fadeIn": 13,
+    "fadeOut": 9349
+   },
+   "vintage-rock/snare/snare_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-3.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 23373,
+    "fadeIn": 5,
+    "fadeOut": 9349
+   },
+   "vintage-rock/snare/snare_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-4.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 26901,
+    "fadeIn": 32,
+    "fadeOut": 10760
+   },
+   "vintage-rock/snare/snare_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/38-Ludwig-14-Snare-5.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 23,
+    "frames": 28642,
+    "fadeIn": 32,
+    "fadeOut": 11457
+   },
+   "vintage-rock/clap/clap_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-1.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 11907,
+    "fadeIn": 0,
+    "fadeOut": 4763
+   },
+   "vintage-rock/clap/clap_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-2.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "vintage-rock/clap/clap_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-3.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "vintage-rock/clap/clap_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-4.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "vintage-rock/clap/clap_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/39-HandClap-5.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "vintage-rock/snare-edge/snare-edge_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-1.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 17199,
+    "fadeIn": 8,
+    "fadeOut": 6880
+   },
+   "vintage-rock/snare-edge/snare-edge_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-2.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 19845,
+    "fadeIn": 16,
+    "fadeOut": 7938
+   },
+   "vintage-rock/snare-edge/snare-edge_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-3.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 26901,
+    "fadeIn": 14,
+    "fadeOut": 10760
+   },
+   "vintage-rock/snare-edge/snare-edge_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-4.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 33957,
+    "fadeIn": 13,
+    "fadeOut": 13230
+   },
+   "vintage-rock/snare-edge/snare-edge_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/40-Ludwig-14-SnareEdge-5.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 46,
+    "frames": 33911,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "vintage-rock/tom-16/tom-16_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-1.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 87759,
+    "fadeIn": 16,
+    "fadeOut": 26460
+   },
+   "vintage-rock/tom-16/tom-16_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-2.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 84231,
+    "fadeIn": 18,
+    "fadeOut": 26460
+   },
+   "vintage-rock/tom-16/tom-16_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-3.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 86877,
+    "fadeIn": 19,
+    "fadeOut": 26460
+   },
+   "vintage-rock/tom-16/tom-16_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-4.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 90405,
+    "fadeIn": 18,
+    "fadeOut": 26460
+   },
+   "vintage-rock/tom-16/tom-16_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/41-Ludwig-16-FloorTom-5.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 94815,
+    "fadeIn": 18,
+    "fadeOut": 26460
+   },
+   "vintage-rock/hat-closed/hat-closed_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-1.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 10930,
+    "fadeIn": 23,
+    "fadeOut": 4372
+   },
+   "vintage-rock/hat-closed/hat-closed_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-2.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 21,
+    "fadeOut": 5116
+   },
+   "vintage-rock/hat-closed/hat-closed_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-3.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 15367,
+    "fadeIn": 19,
+    "fadeOut": 6147
+   },
+   "vintage-rock/hat-closed/hat-closed_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-4.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 20,
+    "fadeOut": 5468
+   },
+   "vintage-rock/hat-closed/hat-closed_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/42-Sabian-13-HatClosed-5.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 15283,
+    "fadeIn": 23,
+    "fadeOut": 6113
+   },
+   "vintage-rock/tom-16-edge/tom-16-edge_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-1.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 79821,
+    "fadeIn": 19,
+    "fadeOut": 26460
+   },
+   "vintage-rock/tom-16-edge/tom-16-edge_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-2.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 81585,
+    "fadeIn": 20,
+    "fadeOut": 26460
+   },
+   "vintage-rock/tom-16-edge/tom-16-edge_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-3.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 90405,
+    "fadeIn": 19,
+    "fadeOut": 26460
+   },
+   "vintage-rock/tom-16-edge/tom-16-edge_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-4.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 86877,
+    "fadeIn": 20,
+    "fadeOut": 26460
+   },
+   "vintage-rock/tom-16-edge/tom-16-edge_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/43-Ludwig-16-FloorTomEdge-5.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 84231,
+    "fadeIn": 20,
+    "fadeOut": 26460
+   },
+   "vintage-rock/hat-pedal/hat-pedal_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-1.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 15391,
+    "fadeIn": 32,
+    "fadeOut": 6156
+   },
+   "vintage-rock/hat-pedal/hat-pedal_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-2.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 28,
+    "frames": 15358,
+    "fadeIn": 32,
+    "fadeOut": 6143
+   },
+   "vintage-rock/hat-pedal/hat-pedal_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-3.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 29,
+    "frames": 15423,
+    "fadeIn": 32,
+    "fadeOut": 6169
+   },
+   "vintage-rock/hat-pedal/hat-pedal_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-4.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 26,
+    "frames": 15281,
+    "fadeIn": 32,
+    "fadeOut": 6112
+   },
+   "vintage-rock/hat-pedal/hat-pedal_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/44-Sabian-13-HatPedal-5.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 26,
+    "frames": 15281,
+    "fadeIn": 32,
+    "fadeOut": 6112
+   },
+   "vintage-rock/tom-14/tom-14_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-1.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 20,
+    "fadeOut": 16758
+   },
+   "vintage-rock/tom-14/tom-14_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-2.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 20,
+    "fadeOut": 18522
+   },
+   "vintage-rock/tom-14/tom-14_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-3.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 44541,
+    "fadeIn": 19,
+    "fadeOut": 17816
+   },
+   "vintage-rock/tom-14/tom-14_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-4.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 43659,
+    "fadeIn": 19,
+    "fadeOut": 17464
+   },
+   "vintage-rock/tom-14/tom-14_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/45-Ludwig-14-Tom-5.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 47187,
+    "fadeIn": 19,
+    "fadeOut": 18875
+   },
+   "vintage-rock/hat-open/hat-open_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-1.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 17587,
+    "fadeIn": 20,
+    "fadeOut": 7035
+   },
+   "vintage-rock/hat-open/hat-open_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-2.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 22033,
+    "fadeIn": 1,
+    "fadeOut": 8813
+   },
+   "vintage-rock/hat-open/hat-open_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-3.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 24236,
+    "fadeIn": 0,
+    "fadeOut": 9694
+   },
+   "vintage-rock/hat-open/hat-open_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-4.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 26433,
+    "fadeIn": 0,
+    "fadeOut": 10573
+   },
+   "vintage-rock/hat-open/hat-open_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/46-Sabian-13-HatSemi-5.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 26464,
+    "fadeIn": 0,
+    "fadeOut": 10586
+   },
+   "vintage-rock/tom-14-edge/tom-14-edge_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-1.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 55125,
+    "fadeIn": 13,
+    "fadeOut": 22050
+   },
+   "vintage-rock/tom-14-edge/tom-14-edge_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-2.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 54243,
+    "fadeIn": 19,
+    "fadeOut": 21697
+   },
+   "vintage-rock/tom-14-edge/tom-14-edge_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-3.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 52479,
+    "fadeIn": 20,
+    "fadeOut": 20992
+   },
+   "vintage-rock/tom-14-edge/tom-14-edge_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-4.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 48069,
+    "fadeIn": 20,
+    "fadeOut": 19228
+   },
+   "vintage-rock/tom-14-edge/tom-14-edge_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/47-Ludwig-14-TomEdge-5.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 52479,
+    "fadeIn": 17,
+    "fadeOut": 20992
+   },
+   "vintage-rock/hat-swish/hat-swish_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-1.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 30646,
+    "fadeIn": 21,
+    "fadeOut": 12258
+   },
+   "vintage-rock/hat-swish/hat-swish_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-2.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 30429,
+    "fadeIn": 25,
+    "fadeOut": 12172
+   },
+   "vintage-rock/hat-swish/hat-swish_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-3.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 30678,
+    "fadeIn": 25,
+    "fadeOut": 12271
+   },
+   "vintage-rock/hat-swish/hat-swish_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-4.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 29398,
+    "fadeIn": 23,
+    "fadeOut": 11759
+   },
+   "vintage-rock/hat-swish/hat-swish_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/48-Sabian-13-HatSwish-5.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 29394,
+    "fadeIn": 19,
+    "fadeOut": 11758
+   },
+   "vintage-rock/crash/crash_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-1.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 19,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash/crash_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-2.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 21,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash/crash_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-3.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 19,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash/crash_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-4.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 20,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash/crash_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/49-Zildjian-20-Crash-5.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 23,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-choke/crash-choke_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/50-Zildjian-20-CrashChoke.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 44100,
+    "fadeIn": 23,
+    "fadeOut": 11025
+   },
+   "vintage-rock/ride/ride_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-1.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 144207,
+    "fadeIn": 19,
+    "fadeOut": 57683
+   },
+   "vintage-rock/ride/ride_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-2.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 4,
+    "fadeOut": 61740
+   },
+   "vintage-rock/ride/ride_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-3.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 19,
+    "fadeOut": 61740
+   },
+   "vintage-rock/ride/ride_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-4.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 19,
+    "fadeOut": 61740
+   },
+   "vintage-rock/ride/ride_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/51-Zildjian-24-Ride-5.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 20,
+    "fadeOut": 61740
+   },
+   "vintage-rock/ride-choke/ride-choke_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/52-Zildjian-24-RideChoke.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 44100,
+    "fadeIn": 7,
+    "fadeOut": 11025
+   },
+   "vintage-rock/ride-bell/ride-bell_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-1.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 93051,
+    "fadeIn": 19,
+    "fadeOut": 37220
+   },
+   "vintage-rock/ride-bell/ride-bell_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-2.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 109809,
+    "fadeIn": 20,
+    "fadeOut": 43924
+   },
+   "vintage-rock/ride-bell/ride-bell_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-3.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 107163,
+    "fadeIn": 19,
+    "fadeOut": 42865
+   },
+   "vintage-rock/ride-bell/ride-bell_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-4.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 149499,
+    "fadeIn": 20,
+    "fadeOut": 59800
+   },
+   "vintage-rock/ride-bell/ride-bell_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/53-Zildjian-24-RideBell-5.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 182133,
+    "fadeIn": 20,
+    "fadeOut": 61740
+   },
+   "vintage-rock/tambourine/tambourine_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-1.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 0,
+    "fadeOut": 5468
+   },
+   "vintage-rock/tambourine/tambourine_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-2.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "vintage-rock/tambourine/tambourine_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-3.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "vintage-rock/tambourine/tambourine_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-4.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "vintage-rock/tambourine/tambourine_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/54-Tambourine-5.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "vintage-rock/splash/splash_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-1.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 88048,
+    "fadeIn": 17,
+    "fadeOut": 35219
+   },
+   "vintage-rock/splash/splash_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-2.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 87725,
+    "fadeIn": 19,
+    "fadeOut": 35090
+   },
+   "vintage-rock/splash/splash_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-3.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 94815,
+    "fadeIn": 19,
+    "fadeOut": 37926
+   },
+   "vintage-rock/splash/splash_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-4.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 95697,
+    "fadeIn": 18,
+    "fadeOut": 38279
+   },
+   "vintage-rock/splash/splash_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/55-Zildjian-10-Splash-5.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 95697,
+    "fadeIn": 19,
+    "fadeOut": 38279
+   },
+   "vintage-rock/cowbell/cowbell_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-1.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 31311,
+    "fadeIn": 19,
+    "fadeOut": 11025
+   },
+   "vintage-rock/cowbell/cowbell_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-2.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 33957,
+    "fadeIn": 18,
+    "fadeOut": 11025
+   },
+   "vintage-rock/cowbell/cowbell_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-3.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 33957,
+    "fadeIn": 19,
+    "fadeOut": 11025
+   },
+   "vintage-rock/cowbell/cowbell_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-4.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 34839,
+    "fadeIn": 19,
+    "fadeOut": 11025
+   },
+   "vintage-rock/cowbell/cowbell_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/56-Cowbell-5.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 11025
+   },
+   "vintage-rock/crash-2/crash-2_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-1.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 157437,
+    "fadeIn": 18,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-2/crash-2_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-2.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 166257,
+    "fadeIn": 18,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-2/crash-2_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-3.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 163611,
+    "fadeIn": 15,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-2/crash-2_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-4.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 155673,
+    "fadeIn": 20,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-2/crash-2_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/57-Zildjian-17-Crash-5.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 171549,
+    "fadeIn": 8,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-2-choke/crash-2-choke_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/58-Zildjian-17-CrashChoke.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 44100,
+    "fadeIn": 11,
+    "fadeOut": 11025
+   },
+   "vintage-rock/ride-shank/ride-shank_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-1.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 19,
+    "fadeOut": 61740
+   },
+   "vintage-rock/ride-shank/ride-shank_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-2.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 20,
+    "fadeOut": 61740
+   },
+   "vintage-rock/ride-shank/ride-shank_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-3.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 19,
+    "fadeOut": 61740
+   },
+   "vintage-rock/ride-shank/ride-shank_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-4.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 19,
+    "fadeOut": 61740
+   },
+   "vintage-rock/ride-shank/ride-shank_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/59-Zildjian-24-RideShank-5.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 21,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-3/crash-3_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-1.wav",
+      0.3801576271605526,
+      0.8784924433515019
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 15,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-3/crash-3_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-2.wav",
+      0.3801576271605526,
+      0.8784924433515019
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 16,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-3/crash-3_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-3.wav",
+      0.3801576271605526,
+      0.8784924433515019
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 16,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-3/crash-3_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-4.wav",
+      0.3801576271605526,
+      0.8784924433515019
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 20,
+    "fadeOut": 61740
+   },
+   "vintage-rock/crash-3/crash-3_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/60-Paiste-22-Crash-5.wav",
+      0.3801576271605526,
+      0.8784924433515019
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 1,
+    "fadeOut": 61740
+   },
+   "vintage-rock/maracas/maracas_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-1.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "vintage-rock/maracas/maracas_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-2.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "vintage-rock/maracas/maracas_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-3.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "vintage-rock/maracas/maracas_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-4.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "vintage-rock/maracas/maracas_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/61-Maraca-5.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "vintage-rock/china/china_v1_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-1.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 114219,
+    "fadeIn": 0,
+    "fadeOut": 45688
+   },
+   "vintage-rock/china/china_v2_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-2.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 120393,
+    "fadeIn": 1,
+    "fadeOut": 48157
+   },
+   "vintage-rock/china/china_v3_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-3.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 138033,
+    "fadeIn": 0,
+    "fadeOut": 55213
+   },
+   "vintage-rock/china/china_v4_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-4.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 127449,
+    "fadeIn": 0,
+    "fadeOut": 50980
+   },
+   "vintage-rock/china/china_v5_rr1.wav": {
+    "in": [
+     [
+      "ludwig:RED_ZEPPELIN_2023_repack/62-Wuhan-18-ChinaCrash-5.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 140679,
+    "fadeIn": 0,
+    "fadeOut": 56272
+   }
+  },
+  "archives": {
+   "ludwig": {
+    "url": "https://www.bandshed.net/sounds/AVLDrumkits_SFZ/RED_ZEPPELIN_2023_repack.zip",
+    "sha256": "9f5c5e5a76decae7eb63b2242f91a51210e91f7e5bb57587352c544721b1012f"
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "kit",
+   "title": "Vintage Rock Kit",
+   "category": "Drums",
+   "pitched": false,
+   "release": 0.08,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 36.3,
+   "polyphony": 96,
+   "notePolyphony": 3,
+   "offTime": 0.035,
+   "pads": [
+    {
+     "key": 49,
+     "name": "Crash"
+    },
+    {
+     "key": 51,
+     "name": "Ride"
+    },
+    {
+     "key": 46,
+     "name": "Hi-hat open"
+    },
+    {
+     "key": 42,
+     "name": "Hi-hat closed"
+    },
+    {
+     "key": 45,
+     "name": "Tom 14″"
+    },
+    {
+     "key": 25,
+     "name": "Tom 14″ edge"
+    },
+    {
+     "key": 41,
+     "name": "Tom 16″"
+    },
+    {
+     "key": 23,
+     "name": "Tom 16″ edge"
+    },
+    {
+     "key": 40,
+     "name": "Snare edge"
+    },
+    {
+     "key": 37,
+     "name": "Side stick"
+    },
+    {
+     "key": 38,
+     "name": "Snare"
+    },
+    {
+     "key": 36,
+     "name": "Kick"
+    },
+    {
+     "key": 39,
+     "name": "Clap"
+    },
+    {
+     "key": 44,
+     "name": "Hi-hat pedal"
+    },
+    {
+     "key": 26,
+     "name": "Hi-hat swish"
+    },
+    {
+     "key": 31,
+     "name": "Stick click"
+    },
+    {
+     "key": 57,
+     "name": "Crash 2"
+    },
+    {
+     "key": 53,
+     "name": "Ride bell"
+    },
+    {
+     "key": 59,
+     "name": "Ride shank"
+    },
+    {
+     "key": 55,
+     "name": "Splash"
+    },
+    {
+     "key": 27,
+     "name": "Crash choke"
+    },
+    {
+     "key": 28,
+     "name": "Crash 2 choke"
+    },
+    {
+     "key": 29,
+     "name": "Ride choke"
+    },
+    {
+     "key": 52,
+     "name": "China"
+    },
+    {
+     "key": 54,
+     "name": "Tambourine"
+    },
+    {
+     "key": 56,
+     "name": "Cowbell"
+    },
+    {
+     "key": 70,
+     "name": "Maracas"
+    },
+    {
+     "key": 30,
+     "name": "Crash 3"
+    }
+   ],
+   "zones": [
+    {
+     "file": "vintage-rock/tom-16-edge/tom-16-edge_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 2.04,
+     "start": 0,
+     "end": 79821,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "vintage-rock/tom-16-edge/tom-16-edge_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 0.09,
+     "start": 0,
+     "end": 81585,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "vintage-rock/tom-16-edge/tom-16-edge_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.39,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "vintage-rock/tom-16-edge/tom-16-edge_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.52,
+     "start": 0,
+     "end": 86877,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "vintage-rock/tom-16-edge/tom-16-edge_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 84231,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "vintage-rock/tom-14-edge/tom-14-edge_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": -2.17,
+     "start": 0,
+     "end": 55125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "vintage-rock/tom-14-edge/tom-14-edge_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -1.45,
+     "start": 0,
+     "end": 54243,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "vintage-rock/tom-14-edge/tom-14-edge_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.32,
+     "start": 0,
+     "end": 52479,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "vintage-rock/tom-14-edge/tom-14-edge_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -5.3,
+     "start": 0,
+     "end": 48069,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "vintage-rock/tom-14-edge/tom-14-edge_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 52479,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "vintage-rock/hat-swish/hat-swish_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 5.01,
+     "start": 0,
+     "end": 30646,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "vintage-rock/hat-swish/hat-swish_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 0.37,
+     "start": 0,
+     "end": 30429,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "vintage-rock/hat-swish/hat-swish_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.63,
+     "start": 0,
+     "end": 30678,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "vintage-rock/hat-swish/hat-swish_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.28,
+     "start": 0,
+     "end": 29398,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "vintage-rock/hat-swish/hat-swish_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 29394,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "vintage-rock/crash-choke/crash-choke_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 44100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 2,
+     "root": 27,
+     "lo": 27,
+     "hi": 27
+    },
+    {
+     "file": "vintage-rock/crash-2-choke/crash-2-choke_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 44100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 4,
+     "root": 28,
+     "lo": 28,
+     "hi": 28
+    },
+    {
+     "file": "vintage-rock/ride-choke/ride-choke_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 44100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 3,
+     "root": 29,
+     "lo": 29,
+     "hi": 29
+    },
+    {
+     "file": "vintage-rock/crash-3/crash-3_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 12.35,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "vintage-rock/crash-3/crash-3_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 8.23,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "vintage-rock/crash-3/crash-3_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 2.25,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "vintage-rock/crash-3/crash-3_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 1.2,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "vintage-rock/crash-3/crash-3_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "vintage-rock/stick-click/stick-click_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 18.57,
+     "start": 0,
+     "end": 8379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "vintage-rock/stick-click/stick-click_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 11.88,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "vintage-rock/stick-click/stick-click_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 6.38,
+     "start": 0,
+     "end": 11025,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "vintage-rock/stick-click/stick-click_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 3.59,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "vintage-rock/stick-click/stick-click_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "vintage-rock/kick/kick_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 1.98,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "vintage-rock/kick/kick_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 0.31,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "vintage-rock/kick/kick_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.27,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "vintage-rock/kick/kick_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.46,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "vintage-rock/kick/kick_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "vintage-rock/sidestick/sidestick_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.76,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "vintage-rock/sidestick/sidestick_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 5.75,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "vintage-rock/sidestick/sidestick_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 2.75,
+     "start": 0,
+     "end": 17199,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "vintage-rock/sidestick/sidestick_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.33,
+     "start": 0,
+     "end": 19845,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "vintage-rock/sidestick/sidestick_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 19845,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "vintage-rock/snare/snare_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 8.7,
+     "start": 0,
+     "end": 18963,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "vintage-rock/snare/snare_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 6.16,
+     "start": 0,
+     "end": 23373,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "vintage-rock/snare/snare_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 3.46,
+     "start": 0,
+     "end": 23373,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "vintage-rock/snare/snare_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 0.62,
+     "start": 0,
+     "end": 26901,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "vintage-rock/snare/snare_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 28642,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "vintage-rock/clap/clap_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.72,
+     "start": 0,
+     "end": 11907,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "vintage-rock/clap/clap_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 4.72,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "vintage-rock/clap/clap_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 1.72,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "vintage-rock/clap/clap_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.28,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "vintage-rock/clap/clap_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "vintage-rock/snare-edge/snare-edge_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 12.07,
+     "start": 0,
+     "end": 17199,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "vintage-rock/snare-edge/snare-edge_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 8.39,
+     "start": 0,
+     "end": 19845,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "vintage-rock/snare-edge/snare-edge_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 2.81,
+     "start": 0,
+     "end": 26901,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "vintage-rock/snare-edge/snare-edge_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 0.35,
+     "start": 0,
+     "end": 33957,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "vintage-rock/snare-edge/snare-edge_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 33911,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.9,
+     "start": 0,
+     "end": 87759,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 1.27,
+     "start": 0,
+     "end": 84231,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 1.57,
+     "start": 0,
+     "end": 86877,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 1.27,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 94815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "vintage-rock/hat-closed/hat-closed_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 5.39,
+     "start": 0,
+     "end": 10930,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "vintage-rock/hat-closed/hat-closed_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 5.77,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "vintage-rock/hat-closed/hat-closed_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 0.35,
+     "start": 0,
+     "end": 15367,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "vintage-rock/hat-closed/hat-closed_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 0.37,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "vintage-rock/hat-closed/hat-closed_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 15283,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.9,
+     "start": 0,
+     "end": 87759,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 1.27,
+     "start": 0,
+     "end": 84231,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 1.57,
+     "start": 0,
+     "end": 86877,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 1.27,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "vintage-rock/tom-16/tom-16_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 94815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "vintage-rock/hat-pedal/hat-pedal_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 5.14,
+     "start": 0,
+     "end": 15391,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "vintage-rock/hat-pedal/hat-pedal_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 0.53,
+     "start": 0,
+     "end": 15358,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "vintage-rock/hat-pedal/hat-pedal_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 0.92,
+     "start": 0,
+     "end": 15423,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "vintage-rock/hat-pedal/hat-pedal_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.28,
+     "start": 0,
+     "end": 15281,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "vintage-rock/hat-pedal/hat-pedal_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 15281,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 6.21,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.4,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.28,
+     "start": 0,
+     "end": 44541,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.38,
+     "start": 0,
+     "end": 43659,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 47187,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "vintage-rock/hat-open/hat-open_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 2.87,
+     "start": 0,
+     "end": 17587,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "vintage-rock/hat-open/hat-open_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 1.13,
+     "start": 0,
+     "end": 22033,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "vintage-rock/hat-open/hat-open_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 0.45,
+     "start": 0,
+     "end": 24236,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "vintage-rock/hat-open/hat-open_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.95,
+     "start": 0,
+     "end": 26433,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "vintage-rock/hat-open/hat-open_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 26464,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 6.21,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.4,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.28,
+     "start": 0,
+     "end": 44541,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.38,
+     "start": 0,
+     "end": 43659,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 47187,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 6.21,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.4,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.28,
+     "start": 0,
+     "end": 44541,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.38,
+     "start": 0,
+     "end": 43659,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 47187,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "vintage-rock/crash/crash_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 9.02,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "vintage-rock/crash/crash_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 4.96,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "vintage-rock/crash/crash_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.59,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "vintage-rock/crash/crash_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.25,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "vintage-rock/crash/crash_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 6.21,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.4,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.28,
+     "start": 0,
+     "end": 44541,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.38,
+     "start": 0,
+     "end": 43659,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "vintage-rock/tom-14/tom-14_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 47187,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "vintage-rock/ride/ride_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 8.92,
+     "start": 0,
+     "end": 144207,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "vintage-rock/ride/ride_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 4.34,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "vintage-rock/ride/ride_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 3.32,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "vintage-rock/ride/ride_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 1.47,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "vintage-rock/ride/ride_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "vintage-rock/china/china_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 11.26,
+     "start": 0,
+     "end": 114219,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "vintage-rock/china/china_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 7.99,
+     "start": 0,
+     "end": 120393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "vintage-rock/china/china_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 7.47,
+     "start": 0,
+     "end": 138033,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "vintage-rock/china/china_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 2.22,
+     "start": 0,
+     "end": 127449,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "vintage-rock/china/china_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 140679,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "vintage-rock/ride-bell/ride-bell_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 8.88,
+     "start": 0,
+     "end": 93051,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "vintage-rock/ride-bell/ride-bell_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 5.23,
+     "start": 0,
+     "end": 109809,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "vintage-rock/ride-bell/ride-bell_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 6.37,
+     "start": 0,
+     "end": 107163,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "vintage-rock/ride-bell/ride-bell_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.34,
+     "start": 0,
+     "end": 149499,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "vintage-rock/ride-bell/ride-bell_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 182133,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "vintage-rock/tambourine/tambourine_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.72,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "vintage-rock/tambourine/tambourine_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 4.72,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "vintage-rock/tambourine/tambourine_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 1.72,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "vintage-rock/tambourine/tambourine_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.28,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "vintage-rock/tambourine/tambourine_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "vintage-rock/splash/splash_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 4.16,
+     "start": 0,
+     "end": 88048,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "vintage-rock/splash/splash_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 0.4,
+     "start": 0,
+     "end": 87725,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "vintage-rock/splash/splash_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 0.07,
+     "start": 0,
+     "end": 94815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "vintage-rock/splash/splash_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.71,
+     "start": 0,
+     "end": 95697,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "vintage-rock/splash/splash_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 95697,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "vintage-rock/cowbell/cowbell_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 9.43,
+     "start": 0,
+     "end": 31311,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "vintage-rock/cowbell/cowbell_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.93,
+     "start": 0,
+     "end": 33957,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "vintage-rock/cowbell/cowbell_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 1.86,
+     "start": 0,
+     "end": 33957,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "vintage-rock/cowbell/cowbell_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 0.71,
+     "start": 0,
+     "end": 34839,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "vintage-rock/cowbell/cowbell_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "vintage-rock/crash-2/crash-2_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 10.84,
+     "start": 0,
+     "end": 157437,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "vintage-rock/crash-2/crash-2_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 1.75,
+     "start": 0,
+     "end": 166257,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "vintage-rock/crash-2/crash-2_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.01,
+     "start": 0,
+     "end": 163611,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "vintage-rock/crash-2/crash-2_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 1.02,
+     "start": 0,
+     "end": 155673,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "vintage-rock/crash-2/crash-2_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 171549,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "vintage-rock/ride-shank/ride-shank_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 6.8,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "vintage-rock/ride-shank/ride-shank_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 1.57,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "vintage-rock/ride-shank/ride-shank_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.46,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "vintage-rock/ride-shank/ride-shank_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.29,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "vintage-rock/ride-shank/ride-shank_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "vintage-rock/maracas/maracas_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.72,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    },
+    {
+     "file": "vintage-rock/maracas/maracas_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 4.72,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    },
+    {
+     "file": "vintage-rock/maracas/maracas_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 1.72,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    },
+    {
+     "file": "vintage-rock/maracas/maracas_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.28,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    },
+    {
+     "file": "vintage-rock/maracas/maracas_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -1.28,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    }
+   ]
+  }
+ ]
+}

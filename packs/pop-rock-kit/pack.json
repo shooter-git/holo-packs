@@ -1,0 +1,4227 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "pop-rock-kit",
+ "name": "Pop Rock Kit",
+ "license": "CC-BY-SA-3.0",
+ "credit": "Made from AVL Drumkits by Glen MacArthur (CC BY-SA 3.0; music made with it can be licensed freely): its Black Pearl kit, a Pearl kit with a 22\" kick, 14\" snare, 12/16\" toms, Sabian, Zildjian, Paiste and Wuhan cymbals. Placed for HO[LO] at the library's own pans.",
+ "bytes": 51943660,
+ "source": {
+  "kind": "mix",
+  "note": "AVL Drumkits' Black Pearl (2023 repack), one mono WAV a hit, each placed at the library's pan.",
+  "bases": {},
+  "downloads": {
+   "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-1.wav": "93fd775073286235f620de28ee09bc4a5e819ee2415fd066cf51eabaa41c3881",
+   "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-2.wav": "d51182d4a314458191190ac2f8d3c8fe794256c212ebd877190800dc6cdc0d52",
+   "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-3.wav": "83d0f4bd52e7d84bd9e735231f7a0f85d273fc9127dd3a60cc3431e9e74e66e3",
+   "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-4.wav": "9f977de2890b9574061420bc2dbf81c70ef3ca329efae0b06a35a822b5a23f94",
+   "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-5.wav": "fafe76627d9a4e4a6c344944bf9786f686fbe29686164158e1eb5b03668231c7",
+   "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-1.wav": "8c62b1afe55a3eb5694e8f51cf2f177e119df02951105828d8718c7f3106fdf8",
+   "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-2.wav": "0e21787fd90d36d286d7c27694fd6cbdecfe876b4f5c1ba2c1ebca2e7e0b334c",
+   "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-3.wav": "bb1981a6f5067b00d1c993e0c2dc9a4cb5a8a75609e5bd7a1f7852bd45de17c5",
+   "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-4.wav": "cc76357a668639600c9eb2ea620bb35fb86a75965c22c59a14b7f9edc5c70199",
+   "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-5.wav": "1b94ef15ecbb6e615b80dba6a468db707715a312b5ed937d924cd356110626e0",
+   "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-1.wav": "7023d45635749b61902393b76732ca623d69a6bb32084f1a973c5ed8c55d1b8e",
+   "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-2.wav": "22e807bccf76033c5188c3b10678186e9b2d1862572373dca37b3e30375020bc",
+   "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-3.wav": "8dfa14ad0a82dfd7e5802f1d782ad5291226102c4cc7ec6881a10fa322174fec",
+   "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-4.wav": "62142bed10ddb5b1fe134a034e7195590ef01b2ea4c64bb5846dd3e940780b9c",
+   "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-5.wav": "68d5d4de285372bb1a6a9e31a67e813101b8e1cf43f625006a1f4975f847a222",
+   "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-1.wav": "61048cfffa32d091fbf8f257173b86a9770d63d51112d24521539d10d437ea96",
+   "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-2.wav": "d36d1df9c1873362422e16db77770e6c0d4af7224d3c240ea17740e31266087b",
+   "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-3.wav": "2da054c1ea52b86a5c32124e913ac6cd9f4a96af3fd291eb4278d20267ef8162",
+   "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-4.wav": "c61667388e330b08d1d0388a952c24f62e9d3c537377244f1108b946d7d9a139",
+   "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-5.wav": "16c84f26d82cb1273541669f6a6ef598f3179de516328b6719843ad1e8e136b8",
+   "pearl:BLACK_PEARL_2023_repack/39-HandClap-1.wav": "e91bbf6a31ce50944765ca04825966a1b9536301116a22be286a405d2c3bcf3b",
+   "pearl:BLACK_PEARL_2023_repack/39-HandClap-2.wav": "26ffbd41f9b6f62b61e79b1ab8cd44d5ab0f13bc3366cfa3e88c1c9009590f37",
+   "pearl:BLACK_PEARL_2023_repack/39-HandClap-3.wav": "96583fe7c10fa5bc013f8940b2f5fec25fbd01c49cfaabbda6e46808d40590dc",
+   "pearl:BLACK_PEARL_2023_repack/39-HandClap-4.wav": "9ef1e8084b8fc738d8792a65c4537dc0568988da53a8112c913dcde67bff0670",
+   "pearl:BLACK_PEARL_2023_repack/39-HandClap-5.wav": "cdf72c920f5999f4e8cdc3798b844ff13c4b249b3ce89ee840582a38d11c9829",
+   "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-1.wav": "b0587450d04f7bdabc8a4da997f98990303adde18eacc2f071610e48c68599cf",
+   "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-2.wav": "9cfcae6719db1368b9b98d7d5556a2a950fdb59f3b294bf16e9ed467b32e9a5a",
+   "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-3.wav": "b7efe56e43522a7fcfce6c772152331e6b27a9a043f02a2a23cef13722c18329",
+   "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-4.wav": "e7b29664dd52f90ca7afd929899e717cfb6574d75cf6f3f4d1ae0b63bb372475",
+   "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-5.wav": "893e6e7288230a08bba514028386b2c35f025e0f77fc2ae677916d86b5cb53b4",
+   "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-1.wav": "98f4c815981e0a2e98f39b557222a89a6935c5bfc61262f877b2843f4624c7c5",
+   "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-2.wav": "49cd1b69091257076c9282f425a72e8a7822a2f286e95fdc1b12ad235d32e7f0",
+   "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-3.wav": "08bc50884c1cc9d1041f3dfbba23c96e0728d37b0c570db5ccf270db1b279449",
+   "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-4.wav": "728587e7c4bdbb7d0bb29384c28937356a5c28d785b05cb4254b43f730e95f24",
+   "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-5.wav": "f524f361160b2a2cea17288551ff8ad07952fe919b7c56ec4be593b3ae96c9de",
+   "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-1.wav": "09a9a81e9511d21c57ce13b8b496a0bfd9caa3b650c6ddcf0fb9e96cf2b30377",
+   "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-2.wav": "96f99b6afd42cd5bfee3d2bc7703ffc351fbdb860f944fc3e731b60f30d2508e",
+   "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-3.wav": "ffe25554917ca0a3d53ddaaf60f7f3c040b7d7db418048deea9a1d33fd118e98",
+   "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-4.wav": "94d6e94679734ece56a9814bf9ef7f5f532b78212d9ad2b0f779477c8ac334b3",
+   "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-5.wav": "4a057a07063df42d72a1f61058a70157189604d32c732980093f290945843efc",
+   "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-1.wav": "9c4be75f1cab18dcff1621e32bc61a1573130b2ee6c8e66cf1b8c40c9fa34612",
+   "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-2.wav": "f552a7ae8e92fa7f4367e6f0e9624533a2baab6ba52a77cc415125827631c4ce",
+   "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-3.wav": "7e927dfba42bb4d97d2138eb0cd3a17a029be62c9c57a146a08586102b189387",
+   "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-4.wav": "3fc198b1ef36e8b47a363429cbeb21a72b59f1cd30d6827fbd5a49cf0e0ccd52",
+   "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-5.wav": "8d9ef3c7dabe5051c0af2d53a3ec768955e5fcc8d65f41ec6eaecf054d8f15f3",
+   "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-1.wav": "61c2fcd2b7657162688d3fc57bc5df3e47af917a29c73f2142c876180942f018",
+   "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-2.wav": "2be7830af83e8ae4c6873c2aae7d22b421490a4a4e8021e002de56ac5b43444c",
+   "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-3.wav": "27789e5e1163bfa27e3cb54639bcf194def8ec6d521c5b00b36cf72945dba42a",
+   "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-4.wav": "0bacaaa39cc6c5de87e9ccee50b52b2b370e0a40a474d22965edd73ada7b6106",
+   "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-5.wav": "6e6cc29446a3724abcf1037bb32da7770f8d83ac5f2283fca4f165728e23c387",
+   "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-1.wav": "ddae1efc5d6cac34ea5db5297ddac47e1d2feddb390bbee235636354747b0d08",
+   "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-2.wav": "bf0941d9083595b2f4e48997125211dbe5763e5d0dd267b46e2ed01617a375ae",
+   "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-3.wav": "a39918cb878bc9e3079a75d63b32778ea3bdfee9644502b0b171c8a9af0646fe",
+   "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-4.wav": "e42b2d4a1ad4a60da592387996e218acf1a1557d4d48f30f2477ba43927f69fa",
+   "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-5.wav": "cbaad9cadeb72deae4dc93bd014a78c9ba49dca7cba35de7f76c5f5ef7e5df53",
+   "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-1.wav": "2ca10b4ad19c1cae6a35216f32a034df078cd650c1896036abbc72f334000814",
+   "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-2.wav": "0fe9cdcbfcd577e9ba310d2182a01cc6892c006c0333ff3691317a167278df13",
+   "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-3.wav": "442a4a911b257a5dcb39a943e1945ce9285ae9e6d1191dec6791fe74fc15e065",
+   "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-4.wav": "d2ac1b268687ae73c9ade586476354ad486a0b5b3fe51f9db8a89b38a2e62a4c",
+   "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-5.wav": "84ee10a52ad8e09650972ebb952e24ae324b6af18e452a28a030664313165ecd",
+   "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-1.wav": "24ce5346ac3223b2acdb15474d9d044f49cf244352385256b965e72111825919",
+   "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-2.wav": "ae0cb38ba09107cf8236e6b1c345d62a5bec77629f3fb6674f3957144043cdb8",
+   "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-3.wav": "d23153b3c6bc36c5c53f587623df199981a18f04d617f63ec5589ad415fa2482",
+   "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-4.wav": "051190bb1fe6be3df3603541d5c34a4ed6f500a7e7ac21b7adc735d468f6346a",
+   "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-5.wav": "efb3defecbeaabf407226f4dc0c26bfccb8c266d18f41e670aa6c69574cb835a",
+   "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-1.wav": "92b0098fd561f19d318bd2d6e47d417a05b65668068ce3a119b869de68ad6de4",
+   "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-2.wav": "04bfaef11489d470e5287f69424b78d364197917bedd1502da1dbdb91b2e4303",
+   "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-3.wav": "ff9dfba9f8104168e009275b2e909b4b72af7089f4164d2385648cd6f001efab",
+   "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-4.wav": "a63af840179f02eda7cdb5af72c29d294d5dbd1edfd44c8aa7a9ef0e4392ea00",
+   "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-5.wav": "13663a5d9cc932c48e4424967023b80f5c65ef5a6023c3dfdc8976b372eb2620",
+   "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-1.wav": "bef3a4d1ce5c7def3481a6edf5beff81002d0e0323a493e3bed91fb274a33ccc",
+   "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-2.wav": "45ffa9886359ac4113bc9a7986c84b0b8925e85b3cd01c4ccc2ccafef1232cd1",
+   "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-3.wav": "19565007f79e04014a82bc8f2cf820b4d4020783349318a473e080a0c0a0a13f",
+   "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-4.wav": "e7877400ed0ff62e56e9ad09a0964c983e908eb281fbe9abb7e2a0f7343751e9",
+   "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-5.wav": "10d5d4c08fa8750f64491f46fb9520aa4f829b2bb955064d04d65ff117aee813",
+   "pearl:BLACK_PEARL_2023_repack/50-SabianAA-16-CrashChoke.wav": "0ad6b0ea4d1f3d77830a11e1c002abdc8cd033e044053a2b3008fee17952a576",
+   "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-1.wav": "f84652473dfb5d8d9e6b27821a111cb8a9c697f960bc559d1c3b04e4806f88ed",
+   "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-2.wav": "7e6902b23e5efdcc7414cde3b39d9c8e26bfc01af31f3f2565575eb95de51d7e",
+   "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-3.wav": "cc702d78c02cb13d7b7818875b0d6b4bdfe1a71e1fd60d45c178c8cc9825abd2",
+   "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-4.wav": "816f1662f9887f2539780fde8cccc1dbb37d630b099e6807b546cce0be78d174",
+   "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-5.wav": "57175fc33596d17e3c2d3f4f9fcbf269f0672970b200ac0541a273f5cbc9b821",
+   "pearl:BLACK_PEARL_2023_repack/52-SabianAAX-20-RideChoke.wav": "3cd31e67fbace9fa9063f849f31edb7c2f82796e7a5174ae239d3af980e99c2b",
+   "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-1.wav": "39d601aec3106d80c299ba0598ec16bfc147745d04b53205973b733a4c8309ff",
+   "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-2.wav": "224e6432f69629c036b40224a1cb181894f42accd5cd8685a22b37bbfdf0237e",
+   "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-3.wav": "1520943c808d23a175073f88938771092c059e0346c0e85472924b7b92356013",
+   "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-4.wav": "960e8cb28ff94d03771c65713bbc69573707731d8787d278ba3e12e37f470bb9",
+   "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-5.wav": "dc9414ebcfbbe4cb153614bf0bb4194a5edfcca47c24415a71e3c58c04e83cbe",
+   "pearl:BLACK_PEARL_2023_repack/54-Tambourine-1.wav": "387385e89332f2af0211b24542c7e277bdeee3295cfc9fcfac8bad6b79530936",
+   "pearl:BLACK_PEARL_2023_repack/54-Tambourine-2.wav": "b71366479c2cdc0438edfaf829493b8cabf07425b2876fdbb0f884b1b1e5dccd",
+   "pearl:BLACK_PEARL_2023_repack/54-Tambourine-3.wav": "d6d32235612946f65968bc17364322cffa2a352c780d7c7cfa01a89e155c6927",
+   "pearl:BLACK_PEARL_2023_repack/54-Tambourine-4.wav": "bcede7e7762839b749b7b98ba1565a4c555d6d9aebf11e81dac5c1f65e931329",
+   "pearl:BLACK_PEARL_2023_repack/54-Tambourine-5.wav": "dd88203f9aaaa1b60f03c13e315df5acff48243bb014bb8e3a90b06f55cac697",
+   "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-1.wav": "96cc1bcb14fab06c330d85af950e0a41b166db294a0a956830434c39168252bb",
+   "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-2.wav": "be34f81fe211b616464086a1f6864a8578ff3c9f412eb53098b541041519aa1f",
+   "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-3.wav": "f562f31ca7416fe55dce958c6174b3b100b5e8ddbc6ed2befcb8d44e6b833089",
+   "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-4.wav": "a2ec0545bec750f244e45bd077aa1136bc7ce3aa7a154fec9baa702b38281e27",
+   "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-5.wav": "1de71eab0e615423b9787d7a924606bc691bc470986338ca8075086ba97fb7a2",
+   "pearl:BLACK_PEARL_2023_repack/56-Cowbell-1.wav": "8bc5091bf88d27af82519e86c7535eac9b2725a5129314b9af462127b7fa9333",
+   "pearl:BLACK_PEARL_2023_repack/56-Cowbell-2.wav": "882353efbeb69232136097f9499e0fce1340d38ed0e0503030b938899cc9be46",
+   "pearl:BLACK_PEARL_2023_repack/56-Cowbell-3.wav": "55ad36b0dc00519cc615f20da5dc7fd692ab178c748aa918efc0d80846741b64",
+   "pearl:BLACK_PEARL_2023_repack/56-Cowbell-4.wav": "c21bc2c2df825867af3bd63004b527b989181b2b1c395f68b58068676c8f7bf0",
+   "pearl:BLACK_PEARL_2023_repack/56-Cowbell-5.wav": "ab9a6a0df01b6708258e066bdb112b62bfbe5d592f7b1602eea5fd58060cb5fe",
+   "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-1.wav": "115671905196b445b3a607eaf8f6b1c54f5bbcaed195b3ead5284b7f48f9badb",
+   "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-2.wav": "a0ba3f11fb5cc113840bdd89d24552d6f6384d25b3a9b81992295ec650503e21",
+   "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-3.wav": "05c8e04784ef188e34fd1ed7aa3d35df80549c40ec4cfb0f596e749443f7f7b7",
+   "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-4.wav": "16c13f3daa851684cd7030e9b77da8924357cb72e6e5f16ee922b812b4e01fd9",
+   "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-5.wav": "92e9de1ce6226047012c41b45a202bbd51456b543cbb3288d357042d11e2fb57",
+   "pearl:BLACK_PEARL_2023_repack/58-SabianAAX-17-CrashChoke.wav": "0db6b5b99dd0cf43c6bfaeebdbdc5636be1937f4851ea602cf65e975d2417299",
+   "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-1.wav": "dd5ac14bd0c3e670bc367adec9cb1120ca0beed96b9d907de9456ed1706e01bb",
+   "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-2.wav": "e7da2d95316b3b20f5be9650162da0bc93afe3b43ad7807aed32ff04b789c907",
+   "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-3.wav": "c9a0ee4356b9fec9fc8e53b3c499fc890e0a2453ea1d30a269ef5be5a946654c",
+   "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-4.wav": "7145515d58d8892df44d248029f07a9210945495bd6c3f55c6a7a1a8a2f438d4",
+   "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-5.wav": "0cdc6d754dd17befead1387e4d443974698e475901fbb9e678abb15dfb1bb23c",
+   "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-1.wav": "a35e1e439e23b5e0d8e3303737f96407dedf44fa787ca213f68bfb7806622dcf",
+   "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-2.wav": "164da4f4cc364a81f07d5864c4b27ae69f28a235ebeb5aead572ba60ab00bf5c",
+   "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-3.wav": "41c4cb7ac26ea460184cff6c44dcff86d3d88571e21899434d86b45c22aa4707",
+   "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-4.wav": "d37f7f175f9e9c084c341e5b669f614c0e7fac161babee789e6c06b6220f0ae1",
+   "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-5.wav": "2b34cfc4fc270707713be5923289e7a31f1c13fde7656bba628e00ba8c292600",
+   "pearl:BLACK_PEARL_2023_repack/61-Maraca-1.wav": "5dfa0fdeeabb921110a873257f20ff3831bc19dbe97943fbfbbe1dd79abc2af9",
+   "pearl:BLACK_PEARL_2023_repack/61-Maraca-2.wav": "2e811f18937a12ca9df87d011a21b56807c8ca5c7f6d42408e56d1c00cb467d6",
+   "pearl:BLACK_PEARL_2023_repack/61-Maraca-3.wav": "e9c5a549e93e579305d7c8f2cc28c5790d13f1de973ba9e45f6bfdf58df8aece",
+   "pearl:BLACK_PEARL_2023_repack/61-Maraca-4.wav": "eaec8ce14868bea5792021925b9c28cafb4a14b4219b7e3f4f24d7f6d62c3e84",
+   "pearl:BLACK_PEARL_2023_repack/61-Maraca-5.wav": "bbe5b90943ed7734f2e3c3469dab7548dcfa2621fa03e1e83c86297329016509",
+   "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-1.wav": "a9c281c00a3c4117bbac78ec1a07e0a45346631dca21f84fae42f50ee8a2961d",
+   "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-2.wav": "a66661cf0b1a52bac81919c4ebe263226d221576774e515a09f3953ae9fc9daa",
+   "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-3.wav": "1e40b61042b0ecb486cfd1b8fd4fe966130701492fa749418f543a8882b5e7bc",
+   "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-4.wav": "6c10fbeca4cd07af33eeea6a926c77dc3d1d611a0fb10c13411f2fc61c4d8a76",
+   "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-5.wav": "5134aa53f19056dbf7596caa62eff2295b885a55d40db88ef1444f0346f942e1"
+  },
+  "bits": 24,
+  "files": {
+   "pop-rock/stick-click/stick-click_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-1.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 8379,
+    "fadeIn": 0,
+    "fadeOut": 3352
+   },
+   "pop-rock/stick-click/stick-click_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-2.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 0,
+    "fadeOut": 4057
+   },
+   "pop-rock/stick-click/stick-click_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-3.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 11025,
+    "fadeIn": 0,
+    "fadeOut": 4410
+   },
+   "pop-rock/stick-click/stick-click_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-4.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "pop-rock/stick-click/stick-click_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/35-JojoMayer-2-StickClick-5.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "pop-rock/kick/kick_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-1.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 65709,
+    "fadeIn": 0,
+    "fadeOut": 15435
+   },
+   "pop-rock/kick/kick_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-2.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 62181,
+    "fadeIn": 5,
+    "fadeOut": 15435
+   },
+   "pop-rock/kick/kick_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-3.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 8,
+    "fadeOut": 15435
+   },
+   "pop-rock/kick/kick_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-4.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 31,
+    "fadeOut": 15435
+   },
+   "pop-rock/kick/kick_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/36-Pearl-22-Kick-5.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 5,
+    "fadeOut": 15435
+   },
+   "pop-rock/sidestick/sidestick_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-1.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "pop-rock/sidestick/sidestick_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-2.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 4,
+    "fadeOut": 5468
+   },
+   "pop-rock/sidestick/sidestick_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-3.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 20,
+    "fadeOut": 5116
+   },
+   "pop-rock/sidestick/sidestick_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-4.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 8,
+    "fadeOut": 5468
+   },
+   "pop-rock/sidestick/sidestick_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/37-Pearl-14-SideStick-5.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 6,
+    "fadeOut": 5468
+   },
+   "pop-rock/snare/snare_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-1.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 18963,
+    "fadeIn": 18,
+    "fadeOut": 7585
+   },
+   "pop-rock/snare/snare_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-2.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 20727,
+    "fadeIn": 18,
+    "fadeOut": 8291
+   },
+   "pop-rock/snare/snare_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-3.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 24255,
+    "fadeIn": 19,
+    "fadeOut": 9702
+   },
+   "pop-rock/snare/snare_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-4.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 25137,
+    "fadeIn": 18,
+    "fadeOut": 10055
+   },
+   "pop-rock/snare/snare_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/38-Pearl-14-Snare-5.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 24255,
+    "fadeIn": 18,
+    "fadeOut": 9702
+   },
+   "pop-rock/clap/clap_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/39-HandClap-1.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 11907,
+    "fadeIn": 0,
+    "fadeOut": 4763
+   },
+   "pop-rock/clap/clap_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/39-HandClap-2.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "pop-rock/clap/clap_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/39-HandClap-3.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "pop-rock/clap/clap_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/39-HandClap-4.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "pop-rock/clap/clap_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/39-HandClap-5.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "pop-rock/snare-edge/snare-edge_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-1.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 11907,
+    "fadeIn": 10,
+    "fadeOut": 4763
+   },
+   "pop-rock/snare-edge/snare-edge_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-2.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 9,
+    "fadeOut": 5468
+   },
+   "pop-rock/snare-edge/snare-edge_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-3.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 13,
+    "fadeOut": 6527
+   },
+   "pop-rock/snare-edge/snare-edge_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-4.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 13,
+    "fadeOut": 6527
+   },
+   "pop-rock/snare-edge/snare-edge_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/40-Pearl-14-SnareEdge-5.wav",
+      0.7744066836728349,
+      0.5626393896599093
+     ]
+    ],
+    "start": 0,
+    "frames": 20727,
+    "fadeIn": 16,
+    "fadeOut": 8291
+   },
+   "pop-rock/tom-16/tom-16_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-1.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 76293,
+    "fadeIn": 27,
+    "fadeOut": 26460
+   },
+   "pop-rock/tom-16/tom-16_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-2.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 79821,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "pop-rock/tom-16/tom-16_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-3.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 84231,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "pop-rock/tom-16/tom-16_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-4.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 86877,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "pop-rock/tom-16/tom-16_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/41-Pearl-16-FloorTom-5.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 90405,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "pop-rock/hat-closed/hat-closed_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-1.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 10920,
+    "fadeIn": 13,
+    "fadeOut": 4368
+   },
+   "pop-rock/hat-closed/hat-closed_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-2.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 10,
+    "fadeOut": 5116
+   },
+   "pop-rock/hat-closed/hat-closed_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-3.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 15356,
+    "fadeIn": 8,
+    "fadeOut": 6142
+   },
+   "pop-rock/hat-closed/hat-closed_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-4.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 15269,
+    "fadeIn": 9,
+    "fadeOut": 6108
+   },
+   "pop-rock/hat-closed/hat-closed_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/42-Sabian-13-HatClosed-5.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 8,
+    "fadeOut": 5468
+   },
+   "pop-rock/tom-16-edge/tom-16-edge_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-1.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 43659,
+    "fadeIn": 32,
+    "fadeOut": 17464
+   },
+   "pop-rock/tom-16-edge/tom-16-edge_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-2.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 54243,
+    "fadeIn": 28,
+    "fadeOut": 21697
+   },
+   "pop-rock/tom-16-edge/tom-16-edge_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-3.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 70119,
+    "fadeIn": 20,
+    "fadeOut": 26460
+   },
+   "pop-rock/tom-16-edge/tom-16-edge_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-4.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 73647,
+    "fadeIn": 10,
+    "fadeOut": 26460
+   },
+   "pop-rock/tom-16-edge/tom-16-edge_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/43-Pearl-16-FloorTomEdge-5.wav",
+      0.4345684698427178,
+      0.8528886442746159
+     ]
+    ],
+    "start": 0,
+    "frames": 68355,
+    "fadeIn": 10,
+    "fadeOut": 26460
+   },
+   "pop-rock/hat-pedal/hat-pedal_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-1.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 15391,
+    "fadeIn": 32,
+    "fadeOut": 6156
+   },
+   "pop-rock/hat-pedal/hat-pedal_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-2.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 28,
+    "frames": 15358,
+    "fadeIn": 32,
+    "fadeOut": 6143
+   },
+   "pop-rock/hat-pedal/hat-pedal_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-3.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 29,
+    "frames": 15423,
+    "fadeIn": 32,
+    "fadeOut": 6169
+   },
+   "pop-rock/hat-pedal/hat-pedal_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-4.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 26,
+    "frames": 15281,
+    "fadeIn": 32,
+    "fadeOut": 6112
+   },
+   "pop-rock/hat-pedal/hat-pedal_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/44-Sabian-13-HatPedal-5.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 26,
+    "frames": 15281,
+    "fadeIn": 32,
+    "fadeOut": 6112
+   },
+   "pop-rock/tom-12/tom-12_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-1.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 49833,
+    "fadeIn": 19,
+    "fadeOut": 19933
+   },
+   "pop-rock/tom-12/tom-12_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-2.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 58653,
+    "fadeIn": 20,
+    "fadeOut": 23461
+   },
+   "pop-rock/tom-12/tom-12_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-3.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 66591,
+    "fadeIn": 19,
+    "fadeOut": 26460
+   },
+   "pop-rock/tom-12/tom-12_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-4.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 76293,
+    "fadeIn": 21,
+    "fadeOut": 26460
+   },
+   "pop-rock/tom-12/tom-12_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/45-Pearl-12-Tom-5.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 93051,
+    "fadeIn": 21,
+    "fadeOut": 26460
+   },
+   "pop-rock/hat-open/hat-open_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-1.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 17586,
+    "fadeIn": 19,
+    "fadeOut": 7034
+   },
+   "pop-rock/hat-open/hat-open_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-2.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 22033,
+    "fadeIn": 1,
+    "fadeOut": 8813
+   },
+   "pop-rock/hat-open/hat-open_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-3.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 24236,
+    "fadeIn": 0,
+    "fadeOut": 9694
+   },
+   "pop-rock/hat-open/hat-open_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-4.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 26433,
+    "fadeIn": 0,
+    "fadeOut": 10573
+   },
+   "pop-rock/hat-open/hat-open_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/46-Sabian-13-HatSemi-5.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 26464,
+    "fadeIn": 0,
+    "fadeOut": 10586
+   },
+   "pop-rock/tom-12-edge/tom-12-edge_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-1.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 48069,
+    "fadeIn": 0,
+    "fadeOut": 19228
+   },
+   "pop-rock/tom-12-edge/tom-12-edge_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-2.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 53361,
+    "fadeIn": 0,
+    "fadeOut": 21344
+   },
+   "pop-rock/tom-12-edge/tom-12-edge_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-3.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 54854,
+    "fadeIn": 0,
+    "fadeOut": 21942
+   },
+   "pop-rock/tom-12-edge/tom-12-edge_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-4.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 59409,
+    "fadeIn": 17,
+    "fadeOut": 23764
+   },
+   "pop-rock/tom-12-edge/tom-12-edge_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/47-Pearl-12-TomEdge-5.wav",
+      0.7278752685786533,
+      0.6216642083195612
+     ]
+    ],
+    "start": 0,
+    "frames": 75411,
+    "fadeIn": 8,
+    "fadeOut": 26460
+   },
+   "pop-rock/hat-swish/hat-swish_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-1.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 30628,
+    "fadeIn": 3,
+    "fadeOut": 12251
+   },
+   "pop-rock/hat-swish/hat-swish_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-2.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 30429,
+    "fadeIn": 17,
+    "fadeOut": 12172
+   },
+   "pop-rock/hat-swish/hat-swish_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-3.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 30670,
+    "fadeIn": 17,
+    "fadeOut": 12268
+   },
+   "pop-rock/hat-swish/hat-swish_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-4.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 29393,
+    "fadeIn": 18,
+    "fadeOut": 11757
+   },
+   "pop-rock/hat-swish/hat-swish_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/48-Sabian-13-HatSwish-5.wav",
+      0.8388176697047329,
+      0.4611439162616754
+     ]
+    ],
+    "start": 0,
+    "frames": 29393,
+    "fadeIn": 18,
+    "fadeOut": 11757
+   },
+   "pop-rock/crash/crash_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-1.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 121275,
+    "fadeIn": 17,
+    "fadeOut": 48510
+   },
+   "pop-rock/crash/crash_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-2.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 98343,
+    "fadeIn": 19,
+    "fadeOut": 39337
+   },
+   "pop-rock/crash/crash_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-3.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 100989,
+    "fadeIn": 19,
+    "fadeOut": 40396
+   },
+   "pop-rock/crash/crash_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-4.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 123921,
+    "fadeIn": 18,
+    "fadeOut": 49568
+   },
+   "pop-rock/crash/crash_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/49-SabianAA-16-Crash-5.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 127449,
+    "fadeIn": 17,
+    "fadeOut": 50980
+   },
+   "pop-rock/crash-choke/crash-choke_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/50-SabianAA-16-CrashChoke.wav",
+      0.8596093303686838,
+      0.4211182656417746
+     ]
+    ],
+    "start": 0,
+    "frames": 26455,
+    "fadeIn": 15,
+    "fadeOut": 10582
+   },
+   "pop-rock/ride/ride_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-1.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 62181,
+    "fadeIn": 14,
+    "fadeOut": 24872
+   },
+   "pop-rock/ride/ride_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-2.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 65709,
+    "fadeIn": 18,
+    "fadeOut": 26284
+   },
+   "pop-rock/ride/ride_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-3.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 85113,
+    "fadeIn": 20,
+    "fadeOut": 34045
+   },
+   "pop-rock/ride/ride_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-4.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 123921,
+    "fadeIn": 13,
+    "fadeOut": 49568
+   },
+   "pop-rock/ride/ride_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/51-SabianAAX-20-Ride-5.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 132741,
+    "fadeIn": 19,
+    "fadeOut": 53096
+   },
+   "pop-rock/ride-choke/ride-choke_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/52-SabianAAX-20-RideChoke.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 32997,
+    "fadeIn": 12,
+    "fadeOut": 11025
+   },
+   "pop-rock/ride-bell/ride-bell_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-1.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 41013,
+    "fadeIn": 18,
+    "fadeOut": 16405
+   },
+   "pop-rock/ride-bell/ride-bell_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-2.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 77175,
+    "fadeIn": 15,
+    "fadeOut": 30870
+   },
+   "pop-rock/ride-bell/ride-bell_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-3.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 63063,
+    "fadeIn": 18,
+    "fadeOut": 25225
+   },
+   "pop-rock/ride-bell/ride-bell_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-4.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 83349,
+    "fadeIn": 19,
+    "fadeOut": 33340
+   },
+   "pop-rock/ride-bell/ride-bell_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/53-SabianAAX-20-RideBell-5.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 64827,
+    "fadeIn": 16,
+    "fadeOut": 25931
+   },
+   "pop-rock/tambourine/tambourine_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/54-Tambourine-1.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 0,
+    "fadeOut": 5468
+   },
+   "pop-rock/tambourine/tambourine_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/54-Tambourine-2.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "pop-rock/tambourine/tambourine_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/54-Tambourine-3.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "pop-rock/tambourine/tambourine_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/54-Tambourine-4.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "pop-rock/tambourine/tambourine_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/54-Tambourine-5.wav",
+      0.89,
+      0.3523759278299719
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "pop-rock/splash/splash_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-1.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 88047,
+    "fadeIn": 16,
+    "fadeOut": 35219
+   },
+   "pop-rock/splash/splash_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-2.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 87719,
+    "fadeIn": 13,
+    "fadeOut": 35088
+   },
+   "pop-rock/splash/splash_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-3.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 94815,
+    "fadeIn": 19,
+    "fadeOut": 37926
+   },
+   "pop-rock/splash/splash_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-4.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 95697,
+    "fadeIn": 32,
+    "fadeOut": 38279
+   },
+   "pop-rock/splash/splash_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/55-Zildjian-10-Splash-5.wav",
+      0.7180207954316311,
+      0.6330204829559319
+     ]
+    ],
+    "start": 0,
+    "frames": 95697,
+    "fadeIn": 23,
+    "fadeOut": 38279
+   },
+   "pop-rock/cowbell/cowbell_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/56-Cowbell-1.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 31311,
+    "fadeIn": 21,
+    "fadeOut": 11025
+   },
+   "pop-rock/cowbell/cowbell_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/56-Cowbell-2.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 33957,
+    "fadeIn": 22,
+    "fadeOut": 11025
+   },
+   "pop-rock/cowbell/cowbell_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/56-Cowbell-3.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 33957,
+    "fadeIn": 22,
+    "fadeOut": 11025
+   },
+   "pop-rock/cowbell/cowbell_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/56-Cowbell-4.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 34839,
+    "fadeIn": 32,
+    "fadeOut": 11025
+   },
+   "pop-rock/cowbell/cowbell_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/56-Cowbell-5.wav",
+      0.6768562604105962,
+      0.6768562604105961
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 11025
+   },
+   "pop-rock/crash-2/crash-2_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-1.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 79821,
+    "fadeIn": 14,
+    "fadeOut": 31928
+   },
+   "pop-rock/crash-2/crash-2_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-2.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 118629,
+    "fadeIn": 18,
+    "fadeOut": 47452
+   },
+   "pop-rock/crash-2/crash-2_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-3.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 139797,
+    "fadeIn": 20,
+    "fadeOut": 55919
+   },
+   "pop-rock/crash-2/crash-2_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-4.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 148617,
+    "fadeIn": 20,
+    "fadeOut": 59447
+   },
+   "pop-rock/crash-2/crash-2_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/57-SabianAAX-17-Crash-5.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 160965,
+    "fadeIn": 21,
+    "fadeOut": 61740
+   },
+   "pop-rock/crash-2-choke/crash-2-choke_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/58-SabianAAX-17-CrashChoke.wav",
+      0.4211182656417748,
+      0.8596093303686838
+     ]
+    ],
+    "start": 0,
+    "frames": 42777,
+    "fadeIn": 12,
+    "fadeOut": 11025
+   },
+   "pop-rock/ride-shank/ride-shank_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-1.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 15,
+    "fadeOut": 61740
+   },
+   "pop-rock/ride-shank/ride-shank_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-2.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 11,
+    "fadeOut": 61740
+   },
+   "pop-rock/ride-shank/ride-shank_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-3.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 12,
+    "fadeOut": 61740
+   },
+   "pop-rock/ride-shank/ride-shank_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-4.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 12,
+    "fadeOut": 61740
+   },
+   "pop-rock/ride-shank/ride-shank_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/59-SabianAAX-20-RideShank-5.wav",
+      0.46114391626167545,
+      0.8388176697047329
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 14,
+    "fadeOut": 61740
+   },
+   "pop-rock/crash-3/crash-3_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-1.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 8,
+    "fadeOut": 61740
+   },
+   "pop-rock/crash-3/crash-3_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-2.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 9,
+    "fadeOut": 61740
+   },
+   "pop-rock/crash-3/crash-3_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-3.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 12,
+    "fadeOut": 61740
+   },
+   "pop-rock/crash-3/crash-3_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-4.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 15,
+    "fadeOut": 61740
+   },
+   "pop-rock/crash-3/crash-3_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/60-Paiste-22-Crash-5.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 1,
+    "fadeOut": 61740
+   },
+   "pop-rock/maracas/maracas_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/61-Maraca-1.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "pop-rock/maracas/maracas_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/61-Maraca-2.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "pop-rock/maracas/maracas_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/61-Maraca-3.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "pop-rock/maracas/maracas_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/61-Maraca-4.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "pop-rock/maracas/maracas_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/61-Maraca-5.wav",
+      0.352375927829972,
+      0.8899999999999999
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 6,
+    "fadeOut": 2999
+   },
+   "pop-rock/china/china_v1_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-1.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 114219,
+    "fadeIn": 0,
+    "fadeOut": 45688
+   },
+   "pop-rock/china/china_v2_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-2.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 120393,
+    "fadeIn": 1,
+    "fadeOut": 48157
+   },
+   "pop-rock/china/china_v3_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-3.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 138033,
+    "fadeIn": 0,
+    "fadeOut": 55213
+   },
+   "pop-rock/china/china_v4_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-4.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 127449,
+    "fadeIn": 0,
+    "fadeOut": 50980
+   },
+   "pop-rock/china/china_v5_rr1.wav": {
+    "in": [
+     [
+      "pearl:BLACK_PEARL_2023_repack/62-Wuhan-18-ChinaCrash-5.wav",
+      0.2957970320479347,
+      0.9103696558792295
+     ]
+    ],
+    "start": 0,
+    "frames": 140679,
+    "fadeIn": 0,
+    "fadeOut": 56272
+   }
+  },
+  "archives": {
+   "pearl": {
+    "url": "https://www.bandshed.net/sounds/AVLDrumkits_SFZ/BLACK_PEARL_2023_repack.zip",
+    "sha256": "1ab43270ce4ea5d8794e98b158210a566e431d7e76646ef778ebabafba807609"
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "kit",
+   "title": "Pop Rock Kit",
+   "category": "Drums",
+   "pitched": false,
+   "release": 0.08,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 36.3,
+   "polyphony": 96,
+   "notePolyphony": 3,
+   "offTime": 0.035,
+   "pads": [
+    {
+     "key": 49,
+     "name": "Crash"
+    },
+    {
+     "key": 51,
+     "name": "Ride"
+    },
+    {
+     "key": 46,
+     "name": "Hi-hat open"
+    },
+    {
+     "key": 42,
+     "name": "Hi-hat closed"
+    },
+    {
+     "key": 45,
+     "name": "Tom 12″"
+    },
+    {
+     "key": 25,
+     "name": "Tom 12″ edge"
+    },
+    {
+     "key": 41,
+     "name": "Tom 16″"
+    },
+    {
+     "key": 23,
+     "name": "Tom 16″ edge"
+    },
+    {
+     "key": 40,
+     "name": "Snare edge"
+    },
+    {
+     "key": 37,
+     "name": "Side stick"
+    },
+    {
+     "key": 38,
+     "name": "Snare"
+    },
+    {
+     "key": 36,
+     "name": "Kick"
+    },
+    {
+     "key": 39,
+     "name": "Clap"
+    },
+    {
+     "key": 44,
+     "name": "Hi-hat pedal"
+    },
+    {
+     "key": 26,
+     "name": "Hi-hat swish"
+    },
+    {
+     "key": 31,
+     "name": "Stick click"
+    },
+    {
+     "key": 57,
+     "name": "Crash 2"
+    },
+    {
+     "key": 53,
+     "name": "Ride bell"
+    },
+    {
+     "key": 59,
+     "name": "Ride shank"
+    },
+    {
+     "key": 55,
+     "name": "Splash"
+    },
+    {
+     "key": 27,
+     "name": "Crash choke"
+    },
+    {
+     "key": 28,
+     "name": "Crash 2 choke"
+    },
+    {
+     "key": 29,
+     "name": "Ride choke"
+    },
+    {
+     "key": 52,
+     "name": "China"
+    },
+    {
+     "key": 54,
+     "name": "Tambourine"
+    },
+    {
+     "key": 56,
+     "name": "Cowbell"
+    },
+    {
+     "key": 70,
+     "name": "Maracas"
+    },
+    {
+     "key": 30,
+     "name": "Crash 3"
+    }
+   ],
+   "zones": [
+    {
+     "file": "pop-rock/tom-16-edge/tom-16-edge_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 6.94,
+     "start": 0,
+     "end": 43659,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "pop-rock/tom-16-edge/tom-16-edge_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 1.52,
+     "start": 0,
+     "end": 54243,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "pop-rock/tom-16-edge/tom-16-edge_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.04,
+     "start": 0,
+     "end": 70119,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "pop-rock/tom-16-edge/tom-16-edge_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.64,
+     "start": 0,
+     "end": 73647,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "pop-rock/tom-16-edge/tom-16-edge_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 68355,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 23,
+     "lo": 23,
+     "hi": 23
+    },
+    {
+     "file": "pop-rock/tom-12-edge/tom-12-edge_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.45,
+     "start": 0,
+     "end": 48069,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "pop-rock/tom-12-edge/tom-12-edge_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 3.21,
+     "start": 0,
+     "end": 53361,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "pop-rock/tom-12-edge/tom-12-edge_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 1.58,
+     "start": 0,
+     "end": 54854,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "pop-rock/tom-12-edge/tom-12-edge_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.79,
+     "start": 0,
+     "end": 59409,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "pop-rock/tom-12-edge/tom-12-edge_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 75411,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "pop-rock/hat-swish/hat-swish_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 2.74,
+     "start": 0,
+     "end": 30628,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "pop-rock/hat-swish/hat-swish_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -1.9,
+     "start": 0,
+     "end": 30429,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "pop-rock/hat-swish/hat-swish_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -2.9,
+     "start": 0,
+     "end": 30670,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "pop-rock/hat-swish/hat-swish_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.56,
+     "start": 0,
+     "end": 29393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "pop-rock/hat-swish/hat-swish_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 29393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "pop-rock/crash-choke/crash-choke_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 26455,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 2,
+     "root": 27,
+     "lo": 27,
+     "hi": 27
+    },
+    {
+     "file": "pop-rock/crash-2-choke/crash-2-choke_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 42777,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 4,
+     "root": 28,
+     "lo": 28,
+     "hi": 28
+    },
+    {
+     "file": "pop-rock/ride-choke/ride-choke_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 32997,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 3,
+     "root": 29,
+     "lo": 29,
+     "hi": 29
+    },
+    {
+     "file": "pop-rock/crash-3/crash-3_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 10.07,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "pop-rock/crash-3/crash-3_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 5.95,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "pop-rock/crash-3/crash-3_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.02,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "pop-rock/crash-3/crash-3_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.07,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "pop-rock/crash-3/crash-3_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 30,
+     "lo": 30,
+     "hi": 30
+    },
+    {
+     "file": "pop-rock/stick-click/stick-click_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 16.3,
+     "start": 0,
+     "end": 8379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "pop-rock/stick-click/stick-click_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 9.61,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "pop-rock/stick-click/stick-click_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 4.11,
+     "start": 0,
+     "end": 11025,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "pop-rock/stick-click/stick-click_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 1.32,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "pop-rock/stick-click/stick-click_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 31,
+     "lo": 31,
+     "hi": 31
+    },
+    {
+     "file": "pop-rock/kick/kick_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": -0.12,
+     "start": 0,
+     "end": 65709,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "pop-rock/kick/kick_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -2.5,
+     "start": 0,
+     "end": 62181,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "pop-rock/kick/kick_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.96,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "pop-rock/kick/kick_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -3.35,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "pop-rock/kick/kick_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "pop-rock/sidestick/sidestick_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": -0.68,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "pop-rock/sidestick/sidestick_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -0.51,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "pop-rock/sidestick/sidestick_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.07,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "pop-rock/sidestick/sidestick_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.12,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "pop-rock/sidestick/sidestick_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "pop-rock/snare/snare_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 5.53,
+     "start": 0,
+     "end": 18963,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "pop-rock/snare/snare_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -0.39,
+     "start": 0,
+     "end": 20727,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "pop-rock/snare/snare_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.12,
+     "start": 0,
+     "end": 24255,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "pop-rock/snare/snare_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.36,
+     "start": 0,
+     "end": 25137,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "pop-rock/snare/snare_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 24255,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "pop-rock/clap/clap_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 5.45,
+     "start": 0,
+     "end": 11907,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "pop-rock/clap/clap_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.44,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "pop-rock/clap/clap_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.56,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "pop-rock/clap/clap_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.56,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "pop-rock/clap/clap_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "pop-rock/snare-edge/snare-edge_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.06,
+     "start": 0,
+     "end": 11907,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "pop-rock/snare-edge/snare-edge_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 6.78,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "pop-rock/snare-edge/snare-edge_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 1.51,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "pop-rock/snare-edge/snare-edge_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.95,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "pop-rock/snare-edge/snare-edge_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 20727,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.73,
+     "start": 0,
+     "end": 76293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.76,
+     "start": 0,
+     "end": 79821,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.77,
+     "start": 0,
+     "end": 84231,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.97,
+     "start": 0,
+     "end": 86877,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "pop-rock/hat-closed/hat-closed_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 1.46,
+     "start": 0,
+     "end": 10920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "pop-rock/hat-closed/hat-closed_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 1.84,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "pop-rock/hat-closed/hat-closed_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -3.58,
+     "start": 0,
+     "end": 15356,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "pop-rock/hat-closed/hat-closed_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -5.21,
+     "start": 0,
+     "end": 15269,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "pop-rock/hat-closed/hat-closed_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.73,
+     "start": 0,
+     "end": 76293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.76,
+     "start": 0,
+     "end": 79821,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.77,
+     "start": 0,
+     "end": 84231,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.97,
+     "start": 0,
+     "end": 86877,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "pop-rock/tom-16/tom-16_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "pop-rock/hat-pedal/hat-pedal_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 2.87,
+     "start": 0,
+     "end": 15391,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "pop-rock/hat-pedal/hat-pedal_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -1.74,
+     "start": 0,
+     "end": 15358,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "pop-rock/hat-pedal/hat-pedal_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.35,
+     "start": 0,
+     "end": 15423,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "pop-rock/hat-pedal/hat-pedal_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.56,
+     "start": 0,
+     "end": 15281,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "pop-rock/hat-pedal/hat-pedal_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 15281,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 3.99,
+     "start": 0,
+     "end": 49833,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -0.07,
+     "start": 0,
+     "end": 58653,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.91,
+     "start": 0,
+     "end": 66591,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.7,
+     "start": 0,
+     "end": 76293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 93051,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "pop-rock/hat-open/hat-open_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 0.6,
+     "start": 0,
+     "end": 17586,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "pop-rock/hat-open/hat-open_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -1.14,
+     "start": 0,
+     "end": 22033,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "pop-rock/hat-open/hat-open_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.82,
+     "start": 0,
+     "end": 24236,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "pop-rock/hat-open/hat-open_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -4.22,
+     "start": 0,
+     "end": 26433,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "pop-rock/hat-open/hat-open_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 26464,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 3.99,
+     "start": 0,
+     "end": 49833,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -0.07,
+     "start": 0,
+     "end": 58653,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.91,
+     "start": 0,
+     "end": 66591,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.7,
+     "start": 0,
+     "end": 76293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 93051,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 3.99,
+     "start": 0,
+     "end": 49833,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -0.07,
+     "start": 0,
+     "end": 58653,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.91,
+     "start": 0,
+     "end": 66591,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.7,
+     "start": 0,
+     "end": 76293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 93051,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "pop-rock/crash/crash_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.86,
+     "start": 0,
+     "end": 121275,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "pop-rock/crash/crash_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 6.54,
+     "start": 0,
+     "end": 98343,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "pop-rock/crash/crash_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 0.11,
+     "start": 0,
+     "end": 100989,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "pop-rock/crash/crash_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.55,
+     "start": 0,
+     "end": 123921,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "pop-rock/crash/crash_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 127449,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 2,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 3.99,
+     "start": 0,
+     "end": 49833,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -0.07,
+     "start": 0,
+     "end": 58653,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -1.91,
+     "start": 0,
+     "end": 66591,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.7,
+     "start": 0,
+     "end": 76293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "pop-rock/tom-12/tom-12_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 93051,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "pop-rock/ride/ride_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 6.37,
+     "start": 0,
+     "end": 62181,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "pop-rock/ride/ride_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 4.74,
+     "start": 0,
+     "end": 65709,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "pop-rock/ride/ride_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -2.5,
+     "start": 0,
+     "end": 85113,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "pop-rock/ride/ride_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.55,
+     "start": 0,
+     "end": 123921,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "pop-rock/ride/ride_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 132741,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "pop-rock/china/china_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 8.99,
+     "start": 0,
+     "end": 114219,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "pop-rock/china/china_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 5.72,
+     "start": 0,
+     "end": 120393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "pop-rock/china/china_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 5.2,
+     "start": 0,
+     "end": 138033,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "pop-rock/china/china_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -0.05,
+     "start": 0,
+     "end": 127449,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "pop-rock/china/china_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 140679,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "pop-rock/ride-bell/ride-bell_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 4.21,
+     "start": 0,
+     "end": 41013,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "pop-rock/ride-bell/ride-bell_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -4.41,
+     "start": 0,
+     "end": 77175,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "pop-rock/ride-bell/ride-bell_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -3.68,
+     "start": 0,
+     "end": 63063,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "pop-rock/ride-bell/ride-bell_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -5.73,
+     "start": 0,
+     "end": 83349,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "pop-rock/ride-bell/ride-bell_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 64827,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "pop-rock/tambourine/tambourine_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 5.45,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "pop-rock/tambourine/tambourine_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.45,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "pop-rock/tambourine/tambourine_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.56,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "pop-rock/tambourine/tambourine_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.56,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "pop-rock/tambourine/tambourine_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "pop-rock/splash/splash_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 1.88,
+     "start": 0,
+     "end": 88047,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "pop-rock/splash/splash_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -1.87,
+     "start": 0,
+     "end": 87719,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "pop-rock/splash/splash_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -2.21,
+     "start": 0,
+     "end": 94815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "pop-rock/splash/splash_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.98,
+     "start": 0,
+     "end": 95697,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "pop-rock/splash/splash_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 95697,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "pop-rock/cowbell/cowbell_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.16,
+     "start": 0,
+     "end": 31311,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "pop-rock/cowbell/cowbell_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 0.66,
+     "start": 0,
+     "end": 33957,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "pop-rock/cowbell/cowbell_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.41,
+     "start": 0,
+     "end": 33957,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "pop-rock/cowbell/cowbell_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.56,
+     "start": 0,
+     "end": 34839,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "pop-rock/cowbell/cowbell_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 56,
+     "lo": 56,
+     "hi": 56
+    },
+    {
+     "file": "pop-rock/crash-2/crash-2_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 16.69,
+     "start": 0,
+     "end": 79821,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "pop-rock/crash-2/crash-2_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 10.89,
+     "start": 0,
+     "end": 118629,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "pop-rock/crash-2/crash-2_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 6.47,
+     "start": 0,
+     "end": 139797,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "pop-rock/crash-2/crash-2_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -1.57,
+     "start": 0,
+     "end": 148617,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "pop-rock/crash-2/crash-2_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 160965,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 4,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "pop-rock/ride-shank/ride-shank_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": -1.06,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "pop-rock/ride-shank/ride-shank_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": -3.95,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "pop-rock/ride-shank/ride-shank_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -2.68,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "pop-rock/ride-shank/ride-shank_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.24,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "pop-rock/ride-shank/ride-shank_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "offBy": 3,
+     "root": 59,
+     "lo": 59,
+     "hi": 59
+    },
+    {
+     "file": "pop-rock/maracas/maracas_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 5.45,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    },
+    {
+     "file": "pop-rock/maracas/maracas_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 2.44,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    },
+    {
+     "file": "pop-rock/maracas/maracas_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": -0.56,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    },
+    {
+     "file": "pop-rock/maracas/maracas_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": -2.56,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    },
+    {
+     "file": "pop-rock/maracas/maracas_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": -3.56,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 70,
+     "lo": 70,
+     "hi": 70
+    }
+   ]
+  }
+ ]
+}

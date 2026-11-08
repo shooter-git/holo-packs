@@ -9,7 +9,7 @@ An install, and an experience's own build, fetch the audio from its source:
 - the Iowa notes cut from the university's own downloads;
 - the FreePats guitar decoded from the project's own archive;
 - the Steinway, the other pianos and keys, the solo instruments and the drum kits made from their
-  libraries' own recordings (trimmed, and the kits mixed from their microphones, or each microphone
+  libraries' own recordings (DrumGizmo's taken out of its own ZIPs) (trimmed, and the kits mixed from their microphones, or each microphone
   kept as its own file) by the recipes in `packs/<id>/recipe.mjs`.
 
 | Pack | Authors | Licence | Source |
@@ -56,6 +56,17 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Brushes Kit](packs/brushes-kit/) (Swirly Drums), [Soul Kit](packs/soul-kit/) and [Studio Kit](packs/studio-kit/) (Unruly Drums) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.swirly-drums>, <https://github.com/sfzinstruments/karoryfer.unruly-drums> |
 | [Black And Green Guitars](packs/black-green-guitars/), [Black And Blue Basses](packs/black-blue-basses/), [String Cyborgs](packs/string-cyborgs/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.black-and-green-guitars>, <https://github.com/sfzinstruments/karoryfer.black-and-blue-basses>, <https://github.com/sfzinstruments/karoryfer.string-cyborgs> |
 | [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Wilkinson Audio; its SFZ and FLAC version by kinwie | CC BY 4.0 | <https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums> |
+| [Metal Kit (DrumGizmo CrocellKit)](packs/metal-kit/) | The DrumGizmo team: sampled and prepared by Lars Muldjord, the kit set up by Crocell's drummer, its microphones by Jacob Olsen (JBOSound). Drum samples provided by DrumGizmo.org | CC BY 4.0 | <https://drumgizmo.org/wiki/doku.php?id=kits:crocellkit> |
+| [Extreme Metal Kit (DrumGizmo Aasimonster)](packs/extreme-metal-kit/) | The DrumGizmo team: set up and sampled by Deva, prepared by Chaot4 and Deva, bleed control by Henry Järvinen. Drum samples provided by DrumGizmo.org | CC BY 4.0 | <https://drumgizmo.org/wiki/doku.php?id=kits:the_aasimonster> |
+| [Heavy Kit (DrumGizmo MuldjordKit)](packs/heavy-kit/) | Lars Muldjord (drum samples provided by DrumGizmo.org); its SFZ and FLAC version by kinwie | CC BY 4.0 | <https://github.com/sfzinstruments/DrumGizmo.MuldjordKit> |
+| [Classic Rock Kit (DrumGizmo DRSKit)](packs/classic-rock-kit/) | The DrumGizmo team and Jes Eiler of DRSDrums (drum samples provided by DrumGizmo.org); its SFZ and FLAC version by kinwie | CC BY 4.0 | <https://github.com/sfzinstruments/DrumGizmo.DRSKit> |
+| [Session Kit (Sam's Sonor)](packs/session-kit/) | Sam Greene; SFZ and FLAC version by kinwie | CC BY-SA 4.0 | <https://github.com/sfzinstruments/SamsSonor> |
+| [Salamander Drumkit](packs/salamander-drums/) | Alexander Holm | CC BY-SA 3.0 | <https://archive.org/details/SalamanderDrumkit> |
+| [Pop Rock Kit](packs/pop-rock-kit/) | Made from AVL Drumkits (Black Pearl) by Glen MacArthur | CC BY-SA 3.0 (with the AVL exception) | <https://www.bandshed.net/sounds/AVLDrumkits_SFZ/BLACK_PEARL_2023_repack.zip> |
+| [Vintage Rock Kit](packs/vintage-rock-kit/) | Made from AVL Drumkits (Red Zeppelin) by Glen MacArthur | CC BY-SA 3.0 (with the AVL exception) | <https://www.bandshed.net/sounds/AVLDrumkits_SFZ/RED_ZEPPELIN_2023_repack.zip> |
+| [Bop Kit](packs/bop-kit/) | Made from AVL Drumkits (Blonde Bop) by Glen MacArthur | CC BY-SA 3.0 (with the AVL exception) | <https://www.bandshed.net/sounds/AVLDrumkits_SFZ/BLONDE_BOP_SFZ.zip> |
+| [Bop Kit, Hot Rods](packs/bop-kit-rods/) | Made from AVL Drumkits (Blonde Bop HR) by Glen MacArthur | CC BY-SA 3.0 (with the AVL exception) | <https://www.bandshed.net/sounds/AVLDrumkits_SFZ/BLONDE_BOP_HR_SFZ.zip> |
+| [Busker Kit](packs/busker-kit/) | Made from AVL Drumkits (Buskman's Holiday) by Glen MacArthur | CC BY-SA 3.0 (with the AVL exception) | <https://www.bandshed.net/sounds/AVLDrumkits_SFZ/BUSKMANS_HOLIDAY_SFZ.zip> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.

@@ -1,7 +1,7 @@
 // `node tools/check.mjs [ID…]`: every pack checked with HO[LO] Desk's own code, as CI runs it.
 //
 // - Its map parses, is a holo-pack map named after its folder, and says whose samples it plays and
-//   under what licence: one that lets anyone share them (CC0, CC BY 3.0 or 4.0, public domain, the
+//   under what licence: one that lets anyone share them (CC0, CC BY 3.0 or 4.0, CC BY-SA 3.0 or 4.0, public domain, the
 //   Unlicense, the Artistic License 2.0, or free to use without restriction).
 // - Every file its instruments and spaces name has a checksum (what an install and an experience's
 //   build check each sample against). A palette has no files: source "none", and a files.sha256 of one

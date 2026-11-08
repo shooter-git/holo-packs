@@ -1,0 +1,5929 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "busker-kit",
+ "name": "Busker Kit",
+ "license": "CC-BY-SA-3.0",
+ "credit": "Made from AVL Drumkits by Glen MacArthur (CC BY-SA 3.0; music made with it can be licensed freely): its Buskman's Holiday kit, a Meinl cajon, Meinl congas, shakers, tambourines, claves, a Paiste cymbal, a cowbell, a stomp, a bucket and bell trees. Placed for HO[LO] at the library's own pans.",
+ "bytes": 56404546,
+ "source": {
+  "kind": "mix",
+  "note": "AVL Drumkits' Buskman's Holiday, one mono WAV a hit, each placed at the library's pan.",
+  "bases": {},
+  "downloads": {
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-1.wav": "1998ce1618bbf45dcad16e3fb1776fca218ec9243dc1a02a7ad24fedac383624",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-10.wav": "e3c6e54e35adc26f990bd719fa5d625d7f30ebd5dbba3d0d64a979e6157c5753",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-2.wav": "fdb54697f546d09ed525412b9df1723ad936fa39481f32c7c24d3cd7f87ba97e",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-3.wav": "f03b1cc786c41367c4e344d56ef2b5d1f53059ef657aa3fc3a2b89ceac46c43c",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-4.wav": "56dae09f7527aeca0820811ffc07f487fe5e4cf54fb81ceee5e475d14c054200",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-5.wav": "4fb2725e10a1477705dea3ed204ec70425eb27f9c456858cd23f7298f06e6c06",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-6.wav": "d98fb99013a7d1d8abd510fd1e6ff1b9d97a0570508149a76d679cf8e692cfdb",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-7.wav": "7192d012636429de07a2abaf827ea3f47921ce57c1fa39998f7b78d5dd8be877",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-8.wav": "c389a13b87512a1f57a3c937f61795c571492c3e6906ea2752e342400eaa31c3",
+   "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-9.wav": "423ace004ddfb78d1135335eee0c486082060c22556a7325178e2ec3c42a31c8",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-1.wav": "2076cc92db6b97fec8a26163346a7c2656ef5295f45e3c55c8140109424459ea",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-10.wav": "87b3cdda0505defd406bf01edc91eaac4bc7d8b0d79bacb86ec3d44aae55dbf1",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-2.wav": "51a8b09eda3ca8113541a9d14b0cd3f39443e62d8cc8bbc10498de7c82bf1dc2",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-3.wav": "1b7299b9343c7ed2a6b664b4c4204d6a53becedf9541c188e5b5ed23ce22c628",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-4.wav": "79b48623a86af60e958fc21150243df59970c4f11bd4bbd0cf40a21740b28b62",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-5.wav": "7688090423cee0a78ea100302e35adc534aa0112e57ba3d91660cac6dcf67349",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-6.wav": "92c0ae1f416fdbcd8567122b41406ae14c3732b499017375341d0783b8358444",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-7.wav": "5da2530e19569b7b7ccc485a95570d555e1354e148ff91f7d6d00b04f1e59910",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-8.wav": "b54e9de70a695858c8126313b19c022f94f0d94b20963cd3bfd4d7d382787678",
+   "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-9.wav": "ce326683790852040f32963dc90a04e24d5067bad5ac95393479254e74ed79ef",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-1.wav": "cf488424902b96df1af74c63a67db21f006c5f33cae51689c3790e1eb378ba98",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-10.wav": "b957b2cacc9b9926ff24162dc1a2c1947affc526980867c6d935c151341857db",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-2.wav": "0001dfc652660d2c9ec35d79bbc6b266bacab30c82a0ca258bd59c76e66961cd",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-3.wav": "515d4c2ca392f8bcc255314b13869ff5477d5c4bcf7143b735bf957554c05f2f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-4.wav": "b86aa460d62244904c40595892758e3a0ebd437d6da9c4188ed4dad97ea2c1b2",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-5.wav": "efd8f10b20c2ed5edbbe6ef536cbe52cdc7a082f6df950dcff5fae41d0ba1560",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-6.wav": "78d801f6df334638839cac51a30f76374e8295f2fc071ef8517c6144e95d56dc",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-7.wav": "00847e59b788065801eed612a4cfb7bcab500c8bb185dbc1ab7574a9a2a691e1",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-8.wav": "6f881097caedeb1d7827a0febdafd379422a8a586661c49b000219187ae3e5dc",
+   "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-9.wav": "7d9789d849d6366c1b21ebe034ce8486e37f148e2cb8d1ef017804f1b1045e5e",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-1.wav": "86c9fd798b89927fc92a989038664c0832ab3c95fab23a8dfd148327988579ed",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-10.wav": "476bad7e90b1ee75687027a9e35085d1447aca88be7ccbd81baf5d389c63dd45",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-2.wav": "16b7b9e6b3c91265eda483468d0112f873e24b7a051141b78d0d87068a65aff9",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-3.wav": "3a07a2d5d96ec21620c4a299a8f289d961d9c3743417a2311a69d867bc680d60",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-4.wav": "be8fca1517dddbfbad2f41041c18d40421131943d73e8dba63c5a186c52afdb1",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-5.wav": "09e83ae6a76a3cac44de42e2739dfa01eb21b78f270957a20e73768d1ab8482e",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-6.wav": "7b6f952ab3e1e0c862a0e7f5fe9d5c31a933273c6d832e8aeb9544ff445d6adc",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-7.wav": "46352d27a8fcc59d8854e7d9427133337c5dc98680f59abdc68d9b448663df85",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-8.wav": "d630b0e5a1c8bb14653333b4ed825af427c7b76c9f859480c7fe1ca83d5f4dd3",
+   "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-9.wav": "992c05143488c89a4c31dbb7b35f83bc88361b9d4903d1a37f8098150e8e1cfe",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-1.wav": "c263d0b998c408f8dc88946d1e8f710b2a405a19a9f79ed4dc813981eb125ba2",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-10.wav": "e4bc4f460ddb309f50880bc21d309fb2b2ce90791e2cd0bc0d7b545ad08c711a",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-2.wav": "b4c7c45d1d025a155640d15820e5384ef7bbb1c08a587c321587e0f0aaf3c4b9",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-3.wav": "7d8f50bba16e9e01bd33ad4caa56fe32f40ab0b2e57db676a3bc2316ef268051",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-4.wav": "e746ba3e634c8a55b1aac0cf59547c6f8a5dae383853620dfcb06eb95e77f225",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-5.wav": "b3facf470402790e7003d0ed945d89bb948464b3f111dd175ef1cc7704c22e54",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-6.wav": "79dcdfe0848abeaaf15afce02fef44e23c1357119421b81a6123420c1f3923c9",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-7.wav": "56109613b2557b7751181f708d69b92d4cf410a9eeb9cf4651b89e9e3b6b0523",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-8.wav": "62783dded03027b7f3a674b197059e94f57e13e728ee8977b36bb8572fea7d18",
+   "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-9.wav": "eb98098bf4cbf4f166692dec9d0cea2ceffb5081fc5862ab96af6e0795124ce3",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-1.wav": "b524f9f3c4ff8d1836fd559d68ab6601c275d6243b8dcc6f561051c378988e0a",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-10.wav": "c527d65184755bfa0d0c51d5b6d0842472f5654d08da52e3ac984209eb398f65",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-2.wav": "9109a2913d8e42cb21842d83b4fe359d34f46d4230e115f98cee543ac783c440",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-3.wav": "a0450a9599818b215cefcae692d3d2c421c7ed045534289bbb71318960c578be",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-4.wav": "c2f17d7f8fa9ff94ddb6ef0d3177ce64421be91b2db35fcbd7711580aba56fcc",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-5.wav": "97bcd30546f81524b239ba841c4fcaf5e3bd57e5667422d8ea27438e42848d3b",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-6.wav": "1701e8fc42801dca5d2a6871ce44370adcb333ca23d136942718d5805c3051b7",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-7.wav": "d8e86e483219deddb6c089133351fe4ff8d680528ced76a161f30dccf057627b",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-8.wav": "06e764481ea89c5386d6995ed9fa4905939348982de033d30149d68bc16312c0",
+   "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-9.wav": "60c7308c8b03351e02718226af6a306edead7a1f90e85ea08e5c40e19aa9a741",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-1.wav": "dfa539e8994da3d96f76d39d1ffebfcff4092297ec26836c2fb47fdc516580b9",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-10.wav": "c8431b91fc295cc8e28226dd4faf401f323514161d2ac31340bc4f22bad81a83",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-2.wav": "29028d0a0596070f244d8e779c1529238e07c4ba611962b738b7ab41dae6fd19",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-3.wav": "6b170be25552fe5bcc9f182d07a5d1f29482ade00bd88e9b84470df2068372b2",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-4.wav": "20da682b15506d4035f1c0a1de30b46c34ca428829ada442563d756f0c23e528",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-5.wav": "173451cb037aad959f9ba91f76ef99f6464462c5b6ad6f9aeaa001df021771bb",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-6.wav": "861bcfd70cf3e9dd876d8594a0bd7a3ebc204060ec52eaf242df8807ed912e9b",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-7.wav": "c9fbb4369d575891c4eac96c7cefa78b5ec9311c9bfce35883a387d7c9535a16",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-8.wav": "c7de1d346df5879960e2cbef45f1eedcb7e9bcb8545b8ed9835ac950af7d450f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-9.wav": "d49920eadd4017e122761776549875b7b1c88dc3f0b6de0bf386be128800c9ee",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-1.wav": "ec985c4378f79df91e72936b7677c399f24af3bca33e3b8ad673965389519a04",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-10.wav": "19c6dbfabb71b5716a5361d0180f2d3f08303f61dbdfc2347a163ac8c6bf1958",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-2.wav": "bc6df26c7856062074a7d9a89112632c6dedd20971e60bc0b89adb4b0cf0f631",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-3.wav": "88d2f8a2620959a001c99cfdb1244867cc6a05a5e1ad62735ca743f40f505564",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-4.wav": "7045ee1db8505cfe5d6fbf77eac3246a81b2afbb4dab70670d4618c893d48243",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-5.wav": "b71f5a25c578e00b51df0ad65e5b28903286e9f3606da1ac2c22a6ac7f66802d",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-6.wav": "283c178be253a2a91b9976b629681070845698530d4eef4a87afa4916651468d",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-7.wav": "166a09653fcc53a54f6cdccee7e75efecaa9824f6f64fd6b3a89f42a3957f362",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-8.wav": "8962e26ab2c0ee4af29773489e231b72ccf7160aa4052ff7a1a077692799822f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-9.wav": "826d2bc6acea5047e39d653c91dd384761b5c1780455e04af2ae13af1ab75733",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-1.wav": "bb284a1796fd75e823626033fe8cb7c0eb5e7fcd9bceb85671c9fde95255076e",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-10.wav": "13adf44b061cb3b3670cd68e9504d055565bc930d6ff010d50ba5077551505c7",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-2.wav": "24e0b06f82c8e3468c24212e413724ccbe77784ea4ecb7d62b73f2a0db1eff3b",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-3.wav": "e7e790aa59a960f3f243e825230bf48c421d1f2f75c962062913b91c96b28e6b",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-4.wav": "35ddfcd8f176f12362cbd296ce6452db42a88650f6e8d9a6483ca4d902708d42",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-5.wav": "6adf4bd11adaa771c3b5cff60b09a2aa2b9579ccf9250634bdbea37022972fba",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-6.wav": "1061d0aa879dd0dbcd4037766fd2630f61955427aa49d6644de2d3ccfe5065a8",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-7.wav": "0acdba5e056bd198d54b3d28b238fd65246fb9a5e9a38a7607e055fa57c7c333",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-8.wav": "7e21669735d3573ab6790edc805fbd6efd03ed4a709967eb1c420670982fbc71",
+   "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-9.wav": "b03efbb4720d38678bf8b895de2933f29a52aa5ec66c41acf10e369b7c34768d",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-1.wav": "3616009e13dd4bc9db7399d2bce311b8ad76ab74acd9a46aabdde33c148d45d6",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-10.wav": "07da8b1cb8cc6d530ef1813e37aecd21a558738d565563041b44276400c2f558",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-2.wav": "0cd27f81fd3a89ffe35668fd8c83665524ae52b0e42f95cb96387bf210419efd",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-3.wav": "228ad3c622fb29fd651d307a1d81138cf896eb4022eff3e0dedc3d9567d6e645",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-4.wav": "e794e0d000b885ec8f13f4c9c03dea974203588e9028bd00e75002c6836e852e",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-5.wav": "1029369c9e37a4b693e07bae2d0b3df26bb6d42e8e267f7225ab651440c14ad2",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-6.wav": "699602a50115da089db843ec08ba2f3c05c59262ae64904eec9fa050525e1fce",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-7.wav": "ca082a9af7de9a58c57cf2f61b183550b5c95e2d9cd41bd99e21255e92cfb8d8",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-8.wav": "0402a2cbefbe170e47b0da279a105ec0e10fe97c80e80bcdb66e1d3a8a97a321",
+   "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-9.wav": "52f5b6454e1d756e7cb270471a5d4f99eba9765c9c90cee5f8c1449eb6bca200",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-1.wav": "c48b8e5c73cf260de467a869af43fd74704cf4d372def6fe4e84087764ac4142",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-10.wav": "b175a1c22d332c3de9ac6542a09dce3b91670f93eb59e4b76e73a0840e60adb7",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-2.wav": "6ecbec333fc934a9faa12921de7a393a1653d482c248eab950cf2904ebad6657",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-3.wav": "bf04b31b27c0c79e1e87cfd8365dbe461dc50913461f52ab5ff0f923f230e68e",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-4.wav": "8581ea876de611094e99c6739354fcbc060081e33de97700552ec33c1a82f17d",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-5.wav": "d2a650e7a8d1a4b51d060b470d8fbc8e3216745652c974f92591f4a4768a0f49",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-6.wav": "26c11d5cd4468f9aa398c5a0d0e7ba73fac422648806e6fe79c35fda793a27ce",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-7.wav": "b76d71c9c349a4037b4ee403d8dfae271ef93099c889acede65ae6eb46037a59",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-8.wav": "3f8adbbf1ad8801aa17215295f9ed42cc89c311c75e70591a9e3595bfeff1efb",
+   "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-9.wav": "545472a5b08f460d029f66019416303484996d80a0a9aa2dec38abad7c9e1c0f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-1.wav": "be9bfad648b4417cf0cc016692b8aeb34eabe42513920dbc6edb6625ba51e3ef",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-10.wav": "56f31f8e4425f026702b780c6bc181dad1a976361765374e8acbd793339a5c99",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-2.wav": "a8c479019f84f192c1cb8af2537b5e6935ab99acac4325c4c155d756fb2d976c",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-3.wav": "8c71c54a24a8fac9d820514acd9cf222ff8c080056b6fe9437789b1496da4f05",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-4.wav": "9568af32065158a63d17a0bc1e81c5ae7e0da6335d2bb2e93a6ba37400badad6",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-5.wav": "98b372014038ce52056efac98a96ba61307564ede52aa5cb8436378782cd6f21",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-6.wav": "479009ae899543957c201eeca3675aa9ac7e0798407fd1df2e011553c931dc31",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-7.wav": "6559d676fb6e71b346531005fbc6d18263ade3d750d7427c4e4c400a74007a08",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-8.wav": "ae654ad22269920d6eefa94da209d3d88b7abac8c3ec0caa3b4abb2bd3eed46e",
+   "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-9.wav": "d96538799d388155851f003ea6cea51e5f0085510c7731a910688a776dd1d31f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-1.wav": "3443360aa61839bf859384f96181d485863fc1c2f101028277a62272de1f473e",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-10.wav": "7b0e46394d45ec1a16daf226de353bc59a60593dc0d54af47208d684771fa413",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-2.wav": "ee20e1d95af70815f1581f3aa716faeeb33a7e06695024ddac133b36d8fe4d65",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-3.wav": "6acc81d41bb6f44d97761f297da64e4cd3a2cf293026966dd2408b905b241695",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-4.wav": "958abd126db34b6b9534b03f42b70702604cc5963409899d0293a7735a70a128",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-5.wav": "60b9518332be270ead4176f8799033e6acaa05b4283a187b37182a50969e859c",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-6.wav": "69a215ddbe662fb955832619dce09ed1a944579ef50a2a9b0f7d0ddca467d8d7",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-7.wav": "35f1801209b1473cad6da83b077db2a4d58cc70faae74d257b2538f451a5900c",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-8.wav": "dd4b36d1054b3e1b44ecc5f56d9e5ff389705351433d7c30d79e665e974c6043",
+   "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-9.wav": "2fd9c778f83bfae93a2e7853c17fcf4cc74238e249d6616b1236c6fd8e602456",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-1.wav": "eb545f19601f5d8c377f5a72c6acd5ef7d92d669ecb9c4b2848a61278ca78b06",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-10.wav": "bc6c98d563def73cba8705fbfa9e1b132a1e834b82bbd8198553d34ce64d1a70",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-2.wav": "17a684d0e2080867d3cbad6da833399f61579cdc2c938bc5309422d7886c0537",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-3.wav": "5f62b85c45c0b587944f172ed33acd6dce5aaf860fee9b2b0dabb273999973c5",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-4.wav": "abab8d021aa151f5efd2e6455bb2796c964818361a2a532bb310b8fee771dba8",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-5.wav": "7e73e7492ad2e402bac82e148584e2c3337bf602a8aa0625ed074839ac68c151",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-6.wav": "0a17eb3a9cf4c9ee9f02a6c142b1817dae10d80c7aa64f1f722a82c94316cf71",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-7.wav": "aa4bf7f57c2ca836feecfa29ff201080be30c7f3ca3eca522f7c5fe59a6fd6f8",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-8.wav": "f4d5e6a7e942e05e9a318942279433fb874e993c34e59a0c6171a15647407b2d",
+   "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-9.wav": "b8ad9d88b14005596b2410ef6805e7819eb6b068eca80d060cedfb2d2e617456",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-1.wav": "f423f77b76f83f052311af022ca647c9a863588afbc8a9a9ecc45622879ca828",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-10.wav": "6debf31a3d7ff408ede1a493ad0dae1d7e482e3d60b60ff64e9dd2e3e1bcefd2",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-2.wav": "b10c181742785611bc623b59aaebfa95780de292d1d24aeb0ff0bf3b7fe656d2",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-3.wav": "127f6a34589a8c05d376406c0a9a9cd0a49de88bcfeaea502a8fa98cf7d09c14",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-4.wav": "3f1efb9aedde7096ac61dede2bbf796777a9c5aed76cfb60bd609a12eebd9acb",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-5.wav": "91b68d4a8bad60752c3a40083160bb11df9f7b20d8b4d0974aa124ac2b2e3d50",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-6.wav": "a84c03b7d44344333e1018abeab4cc28e5ecf9dd019d0fe188c732d54d5484fc",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-7.wav": "3f8a45c39f281882cb82dad59a3863a801a81f46c20460cdcc28a42e6c4d7444",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-8.wav": "c136dd4e8c42dde2659559acbd46c4a8ca8eeeb5655b07ccc11d555f7f1abc87",
+   "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-9.wav": "252fc1e8acbb23bf6343afb735be6c6486d6ef5c10b46789d8734936cbeccc03",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-1.wav": "c0dde2a53a1c87fafe592895d6fa020069da208ba06a3c0ab8572692a573368a",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-10.wav": "bb5a94ac86630701ac49f6540a9f90545051f2a095727d21aa021374b2dadc40",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-2.wav": "262ea37b68024628d5f0c2515ddb2f0627dd8065c6dd164c928f163d3f733402",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-3.wav": "88dc49608466ccfb47f40aa12843213f748973224f77139ed29fd5b3ce760815",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-4.wav": "7016b22a1f1c1f0d70791783d00f1476fe5cb70b35bef79f2657e4934d06b3d7",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-5.wav": "43ebe937e29f7052f956c5205b8dcc89e301a5796b5a9a7de9416a2cc689759d",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-6.wav": "1b775dabef9883538e1e1680cc5ac0351361c353af57a1d90058a4b81a5fa49b",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-7.wav": "3fa02ae52cb9b94f9218bea39aead69de1bab2918b4a51817558fa7fe701afc2",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-8.wav": "847877a7f7848f109907fbf20d3033079e55fbe318698a8a46ac80ac9d70affa",
+   "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-9.wav": "222516687db83085366247dd4036688a503881d9a83e5d5e58037ea6a3800571",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-1.wav": "deeddfeb2c8109500a4f00ffb16c125cade22aa4bdffb0a7028de20ccc46623a",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-10.wav": "7125caf06a8e7d0a1dcadfb4e192179512d9923f55d53ab06951efd5c8e1230f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-2.wav": "1bfb253b14050768408777977b4851e751935740a7a90de41e7e0d6f0d9111fc",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-3.wav": "1cd9e9ca8b4af948193849496758ef5f3c242eb31a104fb9ac1303d981809e19",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-4.wav": "0d0bfcf47a374af5117bd1119c384a966c863e84059ecf3726c988bb59ddf39f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-5.wav": "cba97c8b961559e8d44c6e61b80b3d392865fbf2cfcd78f259ef5e60b9ead174",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-6.wav": "1d0a83c10c3e0bd4100202cb33faa2d5da2c00852941c2d7fc03917c63afe0fb",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-7.wav": "a08c23542b6d08352d4039e2858599d3a70a74328cbf9c1ab88196d6b9cb4daa",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-8.wav": "07bb701f20c662142638366a61d7c3814833b2dc0c622e6d224ca4fd633e9bef",
+   "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-9.wav": "8737dda98c4b4b4d9ae316d3f133d070d6f2b318bc01ad3dbc47da6d41966d06",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-1.wav": "6b2ff888d437a6816dce77eb0643ae1d8d2e6088112212dff588dc243fd5a96c",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-10.wav": "b1dcbcb2b942d991527676294c303bdf17ad0c2ae6259364320807ea22df7279",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-2.wav": "ecab0d3df4dbd56e5cc0c329fdf3b34e932b0d841ef9f4ff2ca915757bd72f6f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-3.wav": "f77f34f0e55c10b0926e9fbdd66bb75ed596a4d297603ce2b682e866473c357f",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-4.wav": "f284c7a00e633fb300d1a761acee4a339abfe70968836d7d252423adffd43907",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-5.wav": "ed449c2c24c93ef2724be5c122990ef69df6a40fcb2dc22a74a0c90970cf31e4",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-6.wav": "a1eda390e1d17a49658943d4e9f4dd6d7032d47652699b8ce581fe991fb2f6a4",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-7.wav": "5f2d6183f0d5320dfd3f389b72d940c42d47043ef83878b4a29c3d89fc555dc6",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-8.wav": "d8435b04b8e7a1ae5f29bc73c4309c89be1145f8f7e78676a8add1c52a3bb0ca",
+   "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-9.wav": "838cf222cba3af6eb1ecf4b0fa0dd551b4d48a87280462de8a0299f280926c9a",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-1.wav": "06ecfc17aae2779f8412412b4f5f24dd2a9295b22e089a8229751f9e3e0fbcf5",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-10.wav": "4d52f6ad37f9697edef94f1eee8bdc8af4fb00a9f9756ef75b057bc0f9aa2248",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-2.wav": "0f65b766bb636c98ebb669b3f3b087c0c75db3b113c27e353531119e32c03c02",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-3.wav": "8b1771d23693cb5bcd771f6239633f4b9ff8436d4b3dd4025a43499860295dcd",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-4.wav": "e87a126e63a0b8917d46f60b525a9673542612171ee728379a8e622330ccb585",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-5.wav": "909886e7ce69af91002ff9f7a1dfb7c9ee7ddc434e802ec6fdc0c1e67fd32eea",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-6.wav": "f17e5ebe2b00f0275067084bf6c1306f2a319bf0a7e28bce5c59d18980e4a291",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-7.wav": "1b5d9e21f84478207c9099272c8142ebe175bc607ee7482c0abad6cd6002f2ef",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-8.wav": "97ed0ecc9e77131c5f268bd7eabd79882820c090d5c2474e5ba2c69bf0c08fbb",
+   "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-9.wav": "9eaeefd41884213369c4d8afc82adde4134100e139290d3c9ffffbaa800a7587",
+   "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-1.wav": "1d95a1a2f385b774a31536c09bc94e67b33c12be730859183bd90fb39a9e4c6d",
+   "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-2.wav": "6b6bd4ad034a4169dfe008e9c4c31ab3184a1eef7b42d2d40801af9176844192",
+   "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-3.wav": "c27bc179833806f90da88cba228ba992124f26b3cd661d831c9056d78d603d8b",
+   "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-4.wav": "46243434ce15785ebafbccc876d5c1cad0e481dfebdde56d7e1b4e69d12d9ccf",
+   "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-5.wav": "3c2abad9b5d0b0ae41a7de36d5ef3244bd4a8aa12df15a7eca626b95af313bd0",
+   "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-1.wav": "7d01518d2d2ca3a030d1891c51ceeb72accfe27ea74b29e1c145911b7bc6fa7a",
+   "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-2.wav": "c1cbca1e32d39685767c6fb3177eaff0da96e0d273c8e5789a87791a37aa6213",
+   "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-3.wav": "c7a3d083bda7155f28e0c3f139b8d57c059923bff4b39f685a161e987d3eb8b9",
+   "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-4.wav": "f01b310267bfdf94063aa48cd4d91c2c13be12ddc6094397daec2ba9d67afc69",
+   "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-5.wav": "f5868cbf6e4207aa1dd3c5a8dd424c99fd99fcf44d01c2fe982699a68e8a57e2"
+  },
+  "bits": 24,
+  "files": {
+   "busker/stick-click/stick-click_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-1.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 6615,
+    "fadeIn": 0,
+    "fadeOut": 2646
+   },
+   "busker/stick-click/stick-click_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-2.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 6615,
+    "fadeIn": 0,
+    "fadeOut": 2646
+   },
+   "busker/stick-click/stick-click_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-3.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 0,
+    "fadeOut": 2999
+   },
+   "busker/stick-click/stick-click_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-4.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 0,
+    "fadeOut": 2999
+   },
+   "busker/stick-click/stick-click_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-5.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 8379,
+    "fadeIn": 0,
+    "fadeOut": 3352
+   },
+   "busker/stick-click/stick-click_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-6.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 0,
+    "fadeOut": 2999
+   },
+   "busker/stick-click/stick-click_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-7.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 8379,
+    "fadeIn": 0,
+    "fadeOut": 3352
+   },
+   "busker/stick-click/stick-click_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-8.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 8379,
+    "fadeIn": 0,
+    "fadeOut": 3352
+   },
+   "busker/stick-click/stick-click_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-9.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 9261,
+    "fadeIn": 0,
+    "fadeOut": 3704
+   },
+   "busker/stick-click/stick-click_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/35-JojoMayer-StickClick-10.wav",
+      0.624266513937817,
+      0.7918782978315256
+     ]
+    ],
+    "start": 0,
+    "frames": 9261,
+    "fadeIn": 0,
+    "fadeOut": 3704
+   },
+   "busker/cajon-bass/cajon-bass_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-1.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "busker/cajon-bass/cajon-bass_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-2.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "busker/cajon-bass/cajon-bass_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-3.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 18081,
+    "fadeIn": 0,
+    "fadeOut": 7232
+   },
+   "busker/cajon-bass/cajon-bass_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-4.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 18081,
+    "fadeIn": 0,
+    "fadeOut": 7232
+   },
+   "busker/cajon-bass/cajon-bass_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-5.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 18963,
+    "fadeIn": 0,
+    "fadeOut": 7585
+   },
+   "busker/cajon-bass/cajon-bass_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-6.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "busker/cajon-bass/cajon-bass_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-7.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "busker/cajon-bass/cajon-bass_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-8.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "busker/cajon-bass/cajon-bass_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-9.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 18081,
+    "fadeIn": 0,
+    "fadeOut": 7232
+   },
+   "busker/cajon-bass/cajon-bass_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/36-Meinl-Cajon-Thump-10.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 17199,
+    "fadeIn": 2,
+    "fadeOut": 6880
+   },
+   "busker/snaps/snaps_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-1.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 0,
+    "frames": 4851,
+    "fadeIn": 2,
+    "fadeOut": 1940
+   },
+   "busker/snaps/snaps_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-2.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 0,
+    "frames": 5733,
+    "fadeIn": 0,
+    "fadeOut": 2293
+   },
+   "busker/snaps/snaps_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-3.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 0,
+    "frames": 5733,
+    "fadeIn": 30,
+    "fadeOut": 2293
+   },
+   "busker/snaps/snaps_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-4.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 0,
+    "frames": 6615,
+    "fadeIn": 32,
+    "fadeOut": 2646
+   },
+   "busker/snaps/snaps_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-5.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 0,
+    "frames": 6615,
+    "fadeIn": 28,
+    "fadeOut": 2646
+   },
+   "busker/snaps/snaps_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-6.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 32,
+    "fadeOut": 2999
+   },
+   "busker/snaps/snaps_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-7.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 17,
+    "fadeOut": 2999
+   },
+   "busker/snaps/snaps_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-8.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 319,
+    "frames": 7178,
+    "fadeIn": 32,
+    "fadeOut": 2871
+   },
+   "busker/snaps/snaps_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-9.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 291,
+    "frames": 8088,
+    "fadeIn": 32,
+    "fadeOut": 3235
+   },
+   "busker/snaps/snaps_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/37-FingerSnaps-10.wav",
+      0.5667796159618655,
+      0.8339908788054876
+     ]
+    ],
+    "start": 0,
+    "frames": 8379,
+    "fadeIn": 8,
+    "fadeOut": 3352
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-1.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 1,
+    "fadeOut": 4057
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-2.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 0,
+    "fadeOut": 4057
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-3.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 0,
+    "frames": 11907,
+    "fadeIn": 0,
+    "fadeOut": 4763
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-4.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 0,
+    "fadeOut": 5468
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-5.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-6.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 0,
+    "fadeOut": 5468
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-7.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-8.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 175,
+    "frames": 14378,
+    "fadeIn": 32,
+    "fadeOut": 5751
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-9.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 1,
+    "fadeOut": 6527
+   },
+   "busker/cajon-slap-left/cajon-slap-left_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/38-Meinl-Cajon-Slap-LH-10.wav",
+      0.86793357485813,
+      0.5132944852953476
+     ]
+    ],
+    "start": 409,
+    "frames": 15908,
+    "fadeIn": 32,
+    "fadeOut": 6363
+   },
+   "busker/claps/claps_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-1.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 8379,
+    "fadeIn": 0,
+    "fadeOut": 3352
+   },
+   "busker/claps/claps_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-2.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 8379,
+    "fadeIn": 0,
+    "fadeOut": 3352
+   },
+   "busker/claps/claps_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-3.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 2,
+    "fadeOut": 4057
+   },
+   "busker/claps/claps_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-4.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 2,
+    "fadeOut": 4057
+   },
+   "busker/claps/claps_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-5.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 0,
+    "fadeOut": 4057
+   },
+   "busker/claps/claps_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-6.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 11025,
+    "fadeIn": 0,
+    "fadeOut": 4410
+   },
+   "busker/claps/claps_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-7.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 11025,
+    "fadeIn": 0,
+    "fadeOut": 4410
+   },
+   "busker/claps/claps_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-8.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 2,
+    "fadeOut": 4057
+   },
+   "busker/claps/claps_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-9.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 11025,
+    "fadeIn": 0,
+    "fadeOut": 4410
+   },
+   "busker/claps/claps_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/39-HandClaps-10.wav",
+      0.8339908788054876,
+      0.5667796159618655
+     ]
+    ],
+    "start": 0,
+    "frames": 11025,
+    "fadeIn": 3,
+    "fadeOut": 4410
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-1.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-2.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 0,
+    "fadeOut": 4057
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-3.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 0,
+    "fadeOut": 4057
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-4.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-5.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 11907,
+    "fadeIn": 2,
+    "fadeOut": 4763
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-6.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 2,
+    "fadeOut": 5468
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-7.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 0,
+    "fadeOut": 5468
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-8.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 0,
+    "fadeOut": 5821
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-9.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 106,
+    "frames": 15329,
+    "fadeIn": 32,
+    "fadeOut": 6132
+   },
+   "busker/cajon-slap-right/cajon-slap-right_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/40-Meinl-Cajon-Slap-RH-10.wav",
+      0.5132944852953477,
+      0.86793357485813
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 0,
+    "fadeOut": 6527
+   },
+   "busker/conga-low-left/conga-low-left_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-1.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 22491,
+    "fadeIn": 0,
+    "fadeOut": 8996
+   },
+   "busker/conga-low-left/conga-low-left_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-2.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 25137,
+    "fadeIn": 0,
+    "fadeOut": 10055
+   },
+   "busker/conga-low-left/conga-low-left_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-3.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 25137,
+    "fadeIn": 0,
+    "fadeOut": 10055
+   },
+   "busker/conga-low-left/conga-low-left_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-4.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 27783,
+    "fadeIn": 0,
+    "fadeOut": 11113
+   },
+   "busker/conga-low-left/conga-low-left_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-5.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 26901,
+    "fadeIn": 0,
+    "fadeOut": 10760
+   },
+   "busker/conga-low-left/conga-low-left_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-6.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 29547,
+    "fadeIn": 0,
+    "fadeOut": 11819
+   },
+   "busker/conga-low-left/conga-low-left_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-7.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 30429,
+    "fadeIn": 0,
+    "fadeOut": 12172
+   },
+   "busker/conga-low-left/conga-low-left_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-8.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 30429,
+    "fadeIn": 0,
+    "fadeOut": 12172
+   },
+   "busker/conga-low-left/conga-low-left_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-9.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 34839,
+    "fadeIn": 15,
+    "fadeOut": 13936
+   },
+   "busker/conga-low-left/conga-low-left_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/41-Meinl-Conga-Large-LH-10.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 35721,
+    "fadeIn": 0,
+    "fadeOut": 14288
+   },
+   "busker/shaker/shaker_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-1.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 10143,
+    "fadeIn": 0,
+    "fadeOut": 4057
+   },
+   "busker/shaker/shaker_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-2.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 9261,
+    "fadeIn": 3,
+    "fadeOut": 3704
+   },
+   "busker/shaker/shaker_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-3.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "busker/shaker/shaker_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-4.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 18081,
+    "fadeIn": 0,
+    "fadeOut": 7232
+   },
+   "busker/shaker/shaker_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-5.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 21609,
+    "fadeIn": 0,
+    "fadeOut": 8644
+   },
+   "busker/shaker/shaker_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-6.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 18963,
+    "fadeIn": 0,
+    "fadeOut": 7585
+   },
+   "busker/shaker/shaker_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-7.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 19845,
+    "fadeIn": 0,
+    "fadeOut": 7938
+   },
+   "busker/shaker/shaker_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-8.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 25137,
+    "fadeIn": 21,
+    "fadeOut": 10055
+   },
+   "busker/shaker/shaker_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-9.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 0,
+    "frames": 20727,
+    "fadeIn": 32,
+    "fadeOut": 8291
+   },
+   "busker/shaker/shaker_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/42-GonBops-Triple-Shaker-10.wav",
+      0.8984509336119403,
+      0.4577836157973131
+     ]
+    ],
+    "start": 52,
+    "frames": 23321,
+    "fadeIn": 32,
+    "fadeOut": 9328
+   },
+   "busker/conga-low-right/conga-low-right_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-1.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 20727,
+    "fadeIn": 0,
+    "fadeOut": 8291
+   },
+   "busker/conga-low-right/conga-low-right_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-2.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 24255,
+    "fadeIn": 0,
+    "fadeOut": 9702
+   },
+   "busker/conga-low-right/conga-low-right_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-3.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 26901,
+    "fadeIn": 0,
+    "fadeOut": 10760
+   },
+   "busker/conga-low-right/conga-low-right_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-4.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 27783,
+    "fadeIn": 0,
+    "fadeOut": 11113
+   },
+   "busker/conga-low-right/conga-low-right_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-5.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 432,
+    "frames": 28233,
+    "fadeIn": 32,
+    "fadeOut": 11293
+   },
+   "busker/conga-low-right/conga-low-right_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-6.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 31311,
+    "fadeIn": 0,
+    "fadeOut": 12524
+   },
+   "busker/conga-low-right/conga-low-right_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-7.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 36603,
+    "fadeIn": 0,
+    "fadeOut": 14641
+   },
+   "busker/conga-low-right/conga-low-right_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-8.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 414,
+    "frames": 36189,
+    "fadeIn": 32,
+    "fadeOut": 14476
+   },
+   "busker/conga-low-right/conga-low-right_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-9.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 624,
+    "frames": 34215,
+    "fadeIn": 32,
+    "fadeOut": 13686
+   },
+   "busker/conga-low-right/conga-low-right_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/43-Meinl-Conga-Large-RH-10.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 244,
+    "frames": 36359,
+    "fadeIn": 32,
+    "fadeOut": 14544
+   },
+   "busker/tambourine-shake/tambourine-shake_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-1.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 0,
+    "frames": 11025,
+    "fadeIn": 3,
+    "fadeOut": 4410
+   },
+   "busker/tambourine-shake/tambourine-shake_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-2.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 0,
+    "frames": 14553,
+    "fadeIn": 3,
+    "fadeOut": 5821
+   },
+   "busker/tambourine-shake/tambourine-shake_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-3.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 0,
+    "frames": 24255,
+    "fadeIn": 3,
+    "fadeOut": 9702
+   },
+   "busker/tambourine-shake/tambourine-shake_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-4.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 63,
+    "frames": 13608,
+    "fadeIn": 32,
+    "fadeOut": 5443
+   },
+   "busker/tambourine-shake/tambourine-shake_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-5.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 220,
+    "frames": 15215,
+    "fadeIn": 32,
+    "fadeOut": 6086
+   },
+   "busker/tambourine-shake/tambourine-shake_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-6.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 483,
+    "frames": 14070,
+    "fadeIn": 32,
+    "fadeOut": 5628
+   },
+   "busker/tambourine-shake/tambourine-shake_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-7.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 221,
+    "frames": 11686,
+    "fadeIn": 32,
+    "fadeOut": 4674
+   },
+   "busker/tambourine-shake/tambourine-shake_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-8.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 318,
+    "frames": 14235,
+    "fadeIn": 32,
+    "fadeOut": 5694
+   },
+   "busker/tambourine-shake/tambourine-shake_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-9.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 444,
+    "frames": 14109,
+    "fadeIn": 32,
+    "fadeOut": 5644
+   },
+   "busker/tambourine-shake/tambourine-shake_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/44-Shake-Tambourine-10.wav",
+      0.4577836157973132,
+      0.8984509336119402
+     ]
+    ],
+    "start": 110,
+    "frames": 23263,
+    "fadeIn": 32,
+    "fadeOut": 9305
+   },
+   "busker/conga-high-left/conga-high-left_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-1.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 17199,
+    "fadeIn": 0,
+    "fadeOut": 6880
+   },
+   "busker/conga-high-left/conga-high-left_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-2.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 21609,
+    "fadeIn": 1,
+    "fadeOut": 8644
+   },
+   "busker/conga-high-left/conga-high-left_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-3.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 22491,
+    "fadeIn": 0,
+    "fadeOut": 8996
+   },
+   "busker/conga-high-left/conga-high-left_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-4.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 24255,
+    "fadeIn": 0,
+    "fadeOut": 9702
+   },
+   "busker/conga-high-left/conga-high-left_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-5.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 23373,
+    "fadeIn": 0,
+    "fadeOut": 9349
+   },
+   "busker/conga-high-left/conga-high-left_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-6.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 26019,
+    "fadeIn": 0,
+    "fadeOut": 10408
+   },
+   "busker/conga-high-left/conga-high-left_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-7.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 27783,
+    "fadeIn": 0,
+    "fadeOut": 11113
+   },
+   "busker/conga-high-left/conga-high-left_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-8.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 11466
+   },
+   "busker/conga-high-left/conga-high-left_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-9.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 11466
+   },
+   "busker/conga-high-left/conga-high-left_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/45-Meinl-Conga-Small-LH-10.wav",
+      0.8836282714461269,
+      0.4857787530365641
+     ]
+    ],
+    "start": 0,
+    "frames": 30429,
+    "fadeIn": 0,
+    "fadeOut": 12172
+   },
+   "busker/tambourine-hit/tambourine-hit_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-1.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 0,
+    "frames": 26901,
+    "fadeIn": 15,
+    "fadeOut": 10760
+   },
+   "busker/tambourine-hit/tambourine-hit_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-2.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 21,
+    "frames": 29526,
+    "fadeIn": 32,
+    "fadeOut": 11025
+   },
+   "busker/tambourine-hit/tambourine-hit_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-3.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 4,
+    "frames": 23369,
+    "fadeIn": 32,
+    "fadeOut": 9348
+   },
+   "busker/tambourine-hit/tambourine-hit_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-4.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 104,
+    "frames": 25033,
+    "fadeIn": 32,
+    "fadeOut": 10013
+   },
+   "busker/tambourine-hit/tambourine-hit_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-5.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 86,
+    "frames": 32107,
+    "fadeIn": 32,
+    "fadeOut": 11025
+   },
+   "busker/tambourine-hit/tambourine-hit_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-6.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 164,
+    "frames": 23209,
+    "fadeIn": 32,
+    "fadeOut": 9284
+   },
+   "busker/tambourine-hit/tambourine-hit_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-7.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 66,
+    "frames": 26835,
+    "fadeIn": 32,
+    "fadeOut": 10734
+   },
+   "busker/tambourine-hit/tambourine-hit_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-8.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 164,
+    "frames": 26737,
+    "fadeIn": 32,
+    "fadeOut": 10695
+   },
+   "busker/tambourine-hit/tambourine-hit_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-9.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 75,
+    "frames": 38292,
+    "fadeIn": 32,
+    "fadeOut": 11025
+   },
+   "busker/tambourine-hit/tambourine-hit_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/46-GP-Bump-Tambourine-10.wav",
+      0.6548742231559114,
+      0.7667592000403848
+     ]
+    ],
+    "start": 239,
+    "frames": 30190,
+    "fadeIn": 32,
+    "fadeOut": 11025
+   },
+   "busker/conga-high-right/conga-high-right_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-1.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 22491,
+    "fadeIn": 0,
+    "fadeOut": 8996
+   },
+   "busker/conga-high-right/conga-high-right_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-2.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 22491,
+    "fadeIn": 0,
+    "fadeOut": 8996
+   },
+   "busker/conga-high-right/conga-high-right_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-3.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 24255,
+    "fadeIn": 0,
+    "fadeOut": 9702
+   },
+   "busker/conga-high-right/conga-high-right_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-4.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 23373,
+    "fadeIn": 0,
+    "fadeOut": 9349
+   },
+   "busker/conga-high-right/conga-high-right_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-5.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 25137,
+    "fadeIn": 0,
+    "fadeOut": 10055
+   },
+   "busker/conga-high-right/conga-high-right_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-6.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 27783,
+    "fadeIn": 0,
+    "fadeOut": 11113
+   },
+   "busker/conga-high-right/conga-high-right_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-7.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 27783,
+    "fadeIn": 0,
+    "fadeOut": 11113
+   },
+   "busker/conga-high-right/conga-high-right_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-8.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 475,
+    "frames": 29954,
+    "fadeIn": 32,
+    "fadeOut": 11982
+   },
+   "busker/conga-high-right/conga-high-right_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-9.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 326,
+    "frames": 29221,
+    "fadeIn": 32,
+    "fadeOut": 11688
+   },
+   "busker/conga-high-right/conga-high-right_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/47-Meinl-Conga-Small-RH-10.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 391,
+    "frames": 32684,
+    "fadeIn": 32,
+    "fadeOut": 13074
+   },
+   "busker/claves/claves_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-1.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 6615,
+    "fadeIn": 0,
+    "fadeOut": 2646
+   },
+   "busker/claves/claves_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-2.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 6615,
+    "fadeIn": 0,
+    "fadeOut": 2646
+   },
+   "busker/claves/claves_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-3.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 6615,
+    "fadeIn": 0,
+    "fadeOut": 2646
+   },
+   "busker/claves/claves_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-4.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 0,
+    "fadeOut": 2999
+   },
+   "busker/claves/claves_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-5.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 0,
+    "fadeOut": 2999
+   },
+   "busker/claves/claves_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-6.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 0,
+    "fadeOut": 2999
+   },
+   "busker/claves/claves_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-7.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 0,
+    "fadeOut": 2999
+   },
+   "busker/claves/claves_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-8.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 7497,
+    "fadeIn": 0,
+    "fadeOut": 2999
+   },
+   "busker/claves/claves_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-9.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 9261,
+    "fadeIn": 0,
+    "fadeOut": 3704
+   },
+   "busker/claves/claves_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/48-Claves-10.wav",
+      0.9055306464633919,
+      0.4436148862653514
+     ]
+    ],
+    "start": 0,
+    "frames": 9261,
+    "fadeIn": 0,
+    "fadeOut": 3704
+   },
+   "busker/cymbal/cymbal_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-1.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 227997,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-2.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 255339,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-3.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-4.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-5.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 4,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-6.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-7.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-8.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-9.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal/cymbal_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/49-Paiste-2002-16-Cymbal-10.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 70560
+   },
+   "busker/cymbal-bell/cymbal-bell_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-1.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 0,
+    "fadeOut": 5468
+   },
+   "busker/cymbal-bell/cymbal-bell_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-2.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 46305,
+    "fadeIn": 0,
+    "fadeOut": 18522
+   },
+   "busker/cymbal-bell/cymbal-bell_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-3.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 57771,
+    "fadeIn": 0,
+    "fadeOut": 23108
+   },
+   "busker/cymbal-bell/cymbal-bell_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-4.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 78939,
+    "fadeIn": 0,
+    "fadeOut": 31576
+   },
+   "busker/cymbal-bell/cymbal-bell_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-5.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 78057,
+    "fadeIn": 0,
+    "fadeOut": 31223
+   },
+   "busker/cymbal-bell/cymbal-bell_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-6.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 96579,
+    "fadeIn": 0,
+    "fadeOut": 38632
+   },
+   "busker/cymbal-bell/cymbal-bell_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-7.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 110691,
+    "fadeIn": 0,
+    "fadeOut": 44276
+   },
+   "busker/cymbal-bell/cymbal-bell_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-8.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 155673,
+    "fadeIn": 0,
+    "fadeOut": 62269
+   },
+   "busker/cymbal-bell/cymbal-bell_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-9.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 166257,
+    "fadeIn": 0,
+    "fadeOut": 66503
+   },
+   "busker/cymbal-bell/cymbal-bell_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/50-Paiste-2002-16-CymbalBell-10.wav",
+      0.7918782978315256,
+      0.6242665139378171
+     ]
+    ],
+    "start": 0,
+    "frames": 166257,
+    "fadeIn": 0,
+    "fadeOut": 66503
+   },
+   "busker/cowbell/cowbell_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-1.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 12789,
+    "fadeIn": 0,
+    "fadeOut": 5116
+   },
+   "busker/cowbell/cowbell_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-2.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 13671,
+    "fadeIn": 0,
+    "fadeOut": 5468
+   },
+   "busker/cowbell/cowbell_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-3.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 20727,
+    "fadeIn": 0,
+    "fadeOut": 8291
+   },
+   "busker/cowbell/cowbell_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-4.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 20727,
+    "fadeIn": 0,
+    "fadeOut": 8291
+   },
+   "busker/cowbell/cowbell_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-5.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "busker/cowbell/cowbell_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-6.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 15435,
+    "fadeIn": 0,
+    "fadeOut": 6174
+   },
+   "busker/cowbell/cowbell_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-7.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 18963,
+    "fadeIn": 0,
+    "fadeOut": 7585
+   },
+   "busker/cowbell/cowbell_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-8.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 19845,
+    "fadeIn": 0,
+    "fadeOut": 7938
+   },
+   "busker/cowbell/cowbell_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-9.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 17199,
+    "fadeIn": 0,
+    "fadeOut": 6880
+   },
+   "busker/cowbell/cowbell_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/51-LP-Cowbell-10.wav",
+      0.44361488626535156,
+      0.9055306464633919
+     ]
+    ],
+    "start": 0,
+    "frames": 16317,
+    "fadeIn": 1,
+    "fadeOut": 6527
+   },
+   "busker/stomp/stomp_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-1.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 14,
+    "frames": 37471,
+    "fadeIn": 32,
+    "fadeOut": 14988
+   },
+   "busker/stomp/stomp_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-2.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 40131,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "busker/stomp/stomp_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-3.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 466,
+    "frames": 42311,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "busker/stomp/stomp_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-4.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 515,
+    "frames": 46672,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "busker/stomp/stomp_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-5.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 59535,
+    "fadeIn": 19,
+    "fadeOut": 15435
+   },
+   "busker/stomp/stomp_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-6.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 214,
+    "frames": 47855,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "busker/stomp/stomp_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-7.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 216,
+    "frames": 58437,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "busker/stomp/stomp_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-8.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 265,
+    "frames": 38984,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "busker/stomp/stomp_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-9.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 1,
+    "frames": 38366,
+    "fadeIn": 32,
+    "fadeOut": 15346
+   },
+   "busker/stomp/stomp_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/52-FootStomp-10.wav",
+      0.7130146979553189,
+      0.7130146979553188
+     ]
+    ],
+    "start": 331,
+    "frames": 51266,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "busker/bucket/bucket_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-1.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 273,
+    "frames": 17808,
+    "fadeIn": 32,
+    "fadeOut": 7123
+   },
+   "busker/bucket/bucket_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-2.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 158,
+    "frames": 17923,
+    "fadeIn": 32,
+    "fadeOut": 7169
+   },
+   "busker/bucket/bucket_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-3.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 493,
+    "frames": 23762,
+    "fadeIn": 32,
+    "fadeOut": 9505
+   },
+   "busker/bucket/bucket_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-4.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 176,
+    "frames": 17023,
+    "fadeIn": 32,
+    "fadeOut": 6809
+   },
+   "busker/bucket/bucket_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-5.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 23373,
+    "fadeIn": 0,
+    "fadeOut": 9349
+   },
+   "busker/bucket/bucket_v6_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-6.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 25137,
+    "fadeIn": 17,
+    "fadeOut": 10055
+   },
+   "busker/bucket/bucket_v7_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-7.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 78,
+    "frames": 26823,
+    "fadeIn": 32,
+    "fadeOut": 10729
+   },
+   "busker/bucket/bucket_v8_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-8.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 52479,
+    "fadeIn": 32,
+    "fadeOut": 11025
+   },
+   "busker/bucket/bucket_v9_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-9.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 38367,
+    "fadeIn": 32,
+    "fadeOut": 11025
+   },
+   "busker/bucket/bucket_v10_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/53-20L-Bucket-10.wav",
+      0.4857787530365642,
+      0.8836282714461269
+     ]
+    ],
+    "start": 0,
+    "frames": 50715,
+    "fadeIn": 32,
+    "fadeOut": 11025
+   },
+   "busker/bell-tree-down/bell-tree-down_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-1.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 270333,
+    "fadeIn": 0,
+    "fadeOut": 88200
+   },
+   "busker/bell-tree-down/bell-tree-down_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-2.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 228879,
+    "fadeIn": 0,
+    "fadeOut": 88200
+   },
+   "busker/bell-tree-down/bell-tree-down_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-3.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 233289,
+    "fadeIn": 0,
+    "fadeOut": 88200
+   },
+   "busker/bell-tree-down/bell-tree-down_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-4.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 241227,
+    "fadeIn": 0,
+    "fadeOut": 88200
+   },
+   "busker/bell-tree-down/bell-tree-down_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/54-BellTreeDown-5.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 241227,
+    "fadeIn": 0,
+    "fadeOut": 88200
+   },
+   "busker/bell-tree-up/bell-tree-up_v1_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-1.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 0,
+    "frames": 216531,
+    "fadeIn": 0,
+    "fadeOut": 86612
+   },
+   "busker/bell-tree-up/bell-tree-up_v2_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-2.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 1656,
+    "frames": 230751,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "busker/bell-tree-up/bell-tree-up_v3_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-3.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 1951,
+    "frames": 241922,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "busker/bell-tree-up/bell-tree-up_v4_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-4.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 2250,
+    "frames": 246915,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "busker/bell-tree-up/bell-tree-up_v5_rr1.wav": {
+    "in": [
+     [
+      "busker:BUSKMANS_HOLIDAY_SFZ/55-BellTreeUp-5.wav",
+      0.7130146979553188,
+      0.7130146979553188
+     ]
+    ],
+    "start": 2526,
+    "frames": 261633,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   }
+  },
+  "archives": {
+   "busker": {
+    "url": "https://www.bandshed.net/sounds/AVLDrumkits_SFZ/BUSKMANS_HOLIDAY_SFZ.zip",
+    "sha256": "ed0108935710e210df1b016229167045fc025212df40082f34bf5061d6b9be82"
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "kit",
+   "title": "Busker Kit",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.08,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 36.3,
+   "polyphony": 96,
+   "notePolyphony": 3,
+   "offTime": 0.035,
+   "pads": [
+    {
+     "key": 49,
+     "name": "Cymbal"
+    },
+    {
+     "key": 50,
+     "name": "Cymbal bell"
+    },
+    {
+     "key": 54,
+     "name": "Bell tree down"
+    },
+    {
+     "key": 55,
+     "name": "Bell tree up"
+    },
+    {
+     "key": 42,
+     "name": "Shaker"
+    },
+    {
+     "key": 44,
+     "name": "Tambourine shake"
+    },
+    {
+     "key": 46,
+     "name": "Tambourine hit"
+    },
+    {
+     "key": 51,
+     "name": "Cowbell"
+    },
+    {
+     "key": 45,
+     "name": "High conga left"
+    },
+    {
+     "key": 47,
+     "name": "High conga right"
+    },
+    {
+     "key": 41,
+     "name": "Low conga left"
+    },
+    {
+     "key": 43,
+     "name": "Low conga right"
+    },
+    {
+     "key": 38,
+     "name": "Cajon slap left"
+    },
+    {
+     "key": 40,
+     "name": "Cajon slap right"
+    },
+    {
+     "key": 36,
+     "name": "Cajon bass"
+    },
+    {
+     "key": 52,
+     "name": "Foot stomp"
+    },
+    {
+     "key": 39,
+     "name": "Hand claps"
+    },
+    {
+     "key": 37,
+     "name": "Finger snaps"
+    },
+    {
+     "key": 48,
+     "name": "Claves"
+    },
+    {
+     "key": 53,
+     "name": "Bucket"
+    },
+    {
+     "key": 35,
+     "name": "Stick click"
+    }
+   ],
+   "zones": [
+    {
+     "file": "busker/stick-click/stick-click_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 8.59,
+     "start": 0,
+     "end": 6615,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 6.24,
+     "start": 0,
+     "end": 6615,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 3.26,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 4.19,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 2.95,
+     "start": 0,
+     "end": 8379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 3.62,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 2,
+     "start": 0,
+     "end": 8379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 1.42,
+     "start": 0,
+     "end": 8379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 0.15,
+     "start": 0,
+     "end": 9261,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/stick-click/stick-click_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 9261,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 35
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 16.47,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 10.32,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 8.81,
+     "start": 0,
+     "end": 18081,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 9.14,
+     "start": 0,
+     "end": 18081,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 5.86,
+     "start": 0,
+     "end": 18963,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 4.68,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 2.99,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 2.35,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 0.53,
+     "start": 0,
+     "end": 18081,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/cajon-bass/cajon-bass_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 17199,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 36,
+     "lo": 36,
+     "hi": 36
+    },
+    {
+     "file": "busker/snaps/snaps_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 20.26,
+     "start": 0,
+     "end": 4851,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 16.82,
+     "start": 0,
+     "end": 5733,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 5.58,
+     "start": 0,
+     "end": 5733,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 0.31,
+     "start": 0,
+     "end": 6615,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 0.03,
+     "start": 0,
+     "end": 6615,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 2.29,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": -0.55,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": -0.31,
+     "start": 0,
+     "end": 7178,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": -0.9,
+     "start": 0,
+     "end": 8088,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/snaps/snaps_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 8379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 37,
+     "lo": 37,
+     "hi": 37
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 20.58,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 18.3,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 9.58,
+     "start": 0,
+     "end": 11907,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 5.91,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 4.18,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 3.57,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 2.5,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 3.89,
+     "start": 0,
+     "end": 14378,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 1.14,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/cajon-slap-left/cajon-slap-left_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 15908,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "busker/claps/claps_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 4.04,
+     "start": 0,
+     "end": 8379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 3.91,
+     "start": 0,
+     "end": 8379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 0.33,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 1.23,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 1.94,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": -0.51,
+     "start": 0,
+     "end": 11025,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": -0.42,
+     "start": 0,
+     "end": 11025,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 0.3,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 0.86,
+     "start": 0,
+     "end": 11025,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/claps/claps_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 11025,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 21.87,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 21.18,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 16.03,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 10.04,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 7.26,
+     "start": 0,
+     "end": 11907,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 2.18,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 1.83,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 0.87,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 0.62,
+     "start": 0,
+     "end": 15329,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/cajon-slap-right/cajon-slap-right_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 21.25,
+     "start": 0,
+     "end": 22491,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 17.49,
+     "start": 0,
+     "end": 25137,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 17.62,
+     "start": 0,
+     "end": 25137,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 10.55,
+     "start": 0,
+     "end": 27783,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 11.33,
+     "start": 0,
+     "end": 26901,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 13.73,
+     "start": 0,
+     "end": 29547,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 6.18,
+     "start": 0,
+     "end": 30429,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 5.86,
+     "start": 0,
+     "end": 30429,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 1.69,
+     "start": 0,
+     "end": 34839,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/conga-low-left/conga-low-left_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 35721,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "busker/shaker/shaker_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 16.61,
+     "start": 0,
+     "end": 10143,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 12.66,
+     "start": 0,
+     "end": 9261,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 6.8,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 4,
+     "start": 0,
+     "end": 18081,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 2.36,
+     "start": 0,
+     "end": 21609,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 4.23,
+     "start": 0,
+     "end": 18963,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 3.45,
+     "start": 0,
+     "end": 19845,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 3.77,
+     "start": 0,
+     "end": 25137,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 0.28,
+     "start": 0,
+     "end": 20727,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/shaker/shaker_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 23321,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 28.07,
+     "start": 0,
+     "end": 20727,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 21.45,
+     "start": 0,
+     "end": 24255,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 16.6,
+     "start": 0,
+     "end": 26901,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 14.54,
+     "start": 0,
+     "end": 27783,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 13.14,
+     "start": 0,
+     "end": 28233,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 9.06,
+     "start": 0,
+     "end": 31311,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 2.79,
+     "start": 0,
+     "end": 36603,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 1.93,
+     "start": 0,
+     "end": 36189,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 4.84,
+     "start": 0,
+     "end": 34215,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/conga-low-right/conga-low-right_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 36359,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 10.04,
+     "start": 0,
+     "end": 11025,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 9.2,
+     "start": 0,
+     "end": 14553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 6.98,
+     "start": 0,
+     "end": 24255,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 8.17,
+     "start": 0,
+     "end": 13608,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 5.38,
+     "start": 0,
+     "end": 15215,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 3.7,
+     "start": 0,
+     "end": 14070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 2.95,
+     "start": 0,
+     "end": 11686,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 2.82,
+     "start": 0,
+     "end": 14235,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 0.95,
+     "start": 0,
+     "end": 14109,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/tambourine-shake/tambourine-shake_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 23263,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 28.9,
+     "start": 0,
+     "end": 17199,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 19.91,
+     "start": 0,
+     "end": 21609,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 20.62,
+     "start": 0,
+     "end": 22491,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 13.68,
+     "start": 0,
+     "end": 24255,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 14.53,
+     "start": 0,
+     "end": 23373,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 8.4,
+     "start": 0,
+     "end": 26019,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 7.04,
+     "start": 0,
+     "end": 27783,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 3.03,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 4.04,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/conga-high-left/conga-high-left_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 30429,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 6.94,
+     "start": 0,
+     "end": 26901,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 7.21,
+     "start": 0,
+     "end": 29526,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 6.45,
+     "start": 0,
+     "end": 23369,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 4.07,
+     "start": 0,
+     "end": 25033,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 5.04,
+     "start": 0,
+     "end": 32107,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 4.34,
+     "start": 0,
+     "end": 23209,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 0.79,
+     "start": 0,
+     "end": 26835,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 1.69,
+     "start": 0,
+     "end": 26737,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": -0.28,
+     "start": 0,
+     "end": 38292,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/tambourine-hit/tambourine-hit_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 30190,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 19.43,
+     "start": 0,
+     "end": 22491,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 18.4,
+     "start": 0,
+     "end": 22491,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 15.36,
+     "start": 0,
+     "end": 24255,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 13.52,
+     "start": 0,
+     "end": 23373,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 12.39,
+     "start": 0,
+     "end": 25137,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 7.88,
+     "start": 0,
+     "end": 27783,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 7.76,
+     "start": 0,
+     "end": 27783,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 3.56,
+     "start": 0,
+     "end": 29954,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 5.07,
+     "start": 0,
+     "end": 29221,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/conga-high-right/conga-high-right_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 32684,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "busker/claves/claves_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 12.22,
+     "start": 0,
+     "end": 6615,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 4.76,
+     "start": 0,
+     "end": 6615,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 5.22,
+     "start": 0,
+     "end": 6615,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 3.79,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 0.29,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 3.73,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 2.13,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 4.89,
+     "start": 0,
+     "end": 7497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 0.41,
+     "start": 0,
+     "end": 9261,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/claves/claves_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 9261,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "busker/cymbal/cymbal_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 16.33,
+     "start": 0,
+     "end": 227997,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 13.34,
+     "start": 0,
+     "end": 255339,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 8.52,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 12.38,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 11.14,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 8.68,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 6.24,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 4.75,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 2.1,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal/cymbal_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 22.03,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 11.34,
+     "start": 0,
+     "end": 46305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 9.38,
+     "start": 0,
+     "end": 57771,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 7.08,
+     "start": 0,
+     "end": 78939,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 6.35,
+     "start": 0,
+     "end": 78057,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 5.37,
+     "start": 0,
+     "end": 96579,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 1.7,
+     "start": 0,
+     "end": 110691,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 0.51,
+     "start": 0,
+     "end": 155673,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 1.83,
+     "start": 0,
+     "end": 166257,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cymbal-bell/cymbal-bell_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 166257,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "busker/cowbell/cowbell_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 2.56,
+     "start": 0,
+     "end": 12789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 1.9,
+     "start": 0,
+     "end": 13671,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 3.01,
+     "start": 0,
+     "end": 20727,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 3.01,
+     "start": 0,
+     "end": 20727,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 3.16,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 2.41,
+     "start": 0,
+     "end": 15435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 1.7,
+     "start": 0,
+     "end": 18963,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 1.21,
+     "start": 0,
+     "end": 19845,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 1.23,
+     "start": 0,
+     "end": 17199,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/cowbell/cowbell_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 16317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "busker/stomp/stomp_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 8.9,
+     "start": 0,
+     "end": 37471,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 5.97,
+     "start": 0,
+     "end": 40131,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 5.94,
+     "start": 0,
+     "end": 42311,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 4.57,
+     "start": 0,
+     "end": 46672,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 4.01,
+     "start": 0,
+     "end": 59535,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 2.12,
+     "start": 0,
+     "end": 47855,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 1.21,
+     "start": 0,
+     "end": 58437,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 2.82,
+     "start": 0,
+     "end": 38984,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 3.53,
+     "start": 0,
+     "end": 38366,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/stomp/stomp_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 51266,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 52,
+     "lo": 52,
+     "hi": 52
+    },
+    {
+     "file": "busker/bucket/bucket_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 14,
+     "gain": 6.27,
+     "start": 0,
+     "end": 17808,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v2_rr1.wav",
+     "lovel": 15,
+     "hivel": 26,
+     "gain": 5.39,
+     "start": 0,
+     "end": 17923,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v3_rr1.wav",
+     "lovel": 27,
+     "hivel": 39,
+     "gain": 4.23,
+     "start": 0,
+     "end": 23762,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v4_rr1.wav",
+     "lovel": 40,
+     "hivel": 52,
+     "gain": 4.97,
+     "start": 0,
+     "end": 17023,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v5_rr1.wav",
+     "lovel": 53,
+     "hivel": 65,
+     "gain": 4.68,
+     "start": 0,
+     "end": 23373,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v6_rr1.wav",
+     "lovel": 66,
+     "hivel": 78,
+     "gain": 3.22,
+     "start": 0,
+     "end": 25137,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v7_rr1.wav",
+     "lovel": 79,
+     "hivel": 91,
+     "gain": 1.43,
+     "start": 0,
+     "end": 26823,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v8_rr1.wav",
+     "lovel": 92,
+     "hivel": 103,
+     "gain": 0.72,
+     "start": 0,
+     "end": 52479,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v9_rr1.wav",
+     "lovel": 104,
+     "hivel": 115,
+     "gain": 1.6,
+     "start": 0,
+     "end": 38367,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bucket/bucket_v10_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 50715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "busker/bell-tree-down/bell-tree-down_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 5.25,
+     "start": 0,
+     "end": 270333,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "busker/bell-tree-down/bell-tree-down_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 3.13,
+     "start": 0,
+     "end": 228879,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "busker/bell-tree-down/bell-tree-down_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 2.13,
+     "start": 0,
+     "end": 233289,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "busker/bell-tree-down/bell-tree-down_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 0.15,
+     "start": 0,
+     "end": 241227,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "busker/bell-tree-down/bell-tree-down_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 241227,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 54,
+     "lo": 54,
+     "hi": 54
+    },
+    {
+     "file": "busker/bell-tree-up/bell-tree-up_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 27,
+     "gain": 7.12,
+     "start": 0,
+     "end": 216531,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "busker/bell-tree-up/bell-tree-up_v2_rr1.wav",
+     "lovel": 28,
+     "hivel": 52,
+     "gain": 5.13,
+     "start": 0,
+     "end": 230751,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "busker/bell-tree-up/bell-tree-up_v3_rr1.wav",
+     "lovel": 53,
+     "hivel": 77,
+     "gain": 4.13,
+     "start": 0,
+     "end": 241922,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "busker/bell-tree-up/bell-tree-up_v4_rr1.wav",
+     "lovel": 78,
+     "hivel": 102,
+     "gain": 2.14,
+     "start": 0,
+     "end": 246915,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    },
+    {
+     "file": "busker/bell-tree-up/bell-tree-up_v5_rr1.wav",
+     "lovel": 103,
+     "hivel": 127,
+     "gain": 0.15,
+     "start": 0,
+     "end": 261633,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 55,
+     "lo": 55,
+     "hi": 55
+    }
+   ]
+  }
+ ]
+}
