@@ -8,8 +8,9 @@ An install, and an experience's own build, fetch the audio from its source:
 - the git libraries at a pinned commit;
 - the Iowa notes cut from the university's own downloads;
 - the FreePats guitar decoded from the project's own archive;
-- the Steinway and the drum kits made from their libraries' own recordings (trimmed, and the kits mixed
-  from their microphones) by the recipes in `packs/<id>/recipe.mjs`.
+- the Steinway, the other pianos and keys, the solo instruments and the drum kits made from their
+  libraries' own recordings (trimmed, the kits mixed from their microphones) by the recipes in
+  `packs/<id>/recipe.mjs`.
 
 | Pack | Authors | Licence | Source |
 |---|---|---|---|
@@ -30,6 +31,9 @@ An install, and an experience's own build, fetch the audio from its source:
 | [War Tuba](packs/war-tuba/) | Karoryfer Lecolds: played by Jakub Lewicki, recorded and mapped by Drogomir Smolken | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.war-tuba> |
 | [Weresax](packs/weresax/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.weresax> |
 | [Bear Sax](packs/bear-sax/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.bear-sax> |
+| [MTG Solo Saxophones](packs/mtg-sax/) | Music Technology Group, Universitat Pompeu Fabra (Freesound); trimmed, looped and mapped by kinwie (SFZ Instruments) | CC BY 4.0 | <https://github.com/sfzinstruments/MTG.SoloSax> |
+| [Erhu](packs/erhu/) | SFZ Instruments | CC0 1.0 | <https://github.com/sfzinstruments/aliexpress-erhu> |
+| [Male Voice "Ah"](packs/vocal-ah/) | SFZ Instruments' legato vocal tutorial; the a vowel of Karoryfer's Hadzi-Fia | CC0 1.0 | <https://github.com/sfzinstruments/legato_vocal_tutorial> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.

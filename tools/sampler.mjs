@@ -49,21 +49,38 @@ export function bitsOf(bytes) {
   throw new Error('No sample size in its header');
 }
 
-/** A WAV's first loop, from its smpl chunk ([start, end) frames), or null. */
+/** A smpl chunk's first loop ([start, end) frames), from the chunk's body, or null. */
+function smplLoop(view, body, size) {
+  if (size < 36 + 24 || view.getUint32(body + 28, true) < 1) return null;
+  const start = view.getUint32(body + 36 + 8, true);
+  const end = view.getUint32(body + 36 + 12, true);
+  return end > start ? [start, end + 1] : null;
+}
+
+/**
+ * A recording's first loop ([start, end) frames), or null: a WAV's smpl chunk, or a FLAC's (kept in
+ * an APPLICATION "riff" block, as flac --keep-foreign-metadata keeps a WAV's chunks).
+ */
 export function wavLoop(bytes) {
   const tag = (at) => String.fromCharCode(...bytes.subarray(at, at + 4));
-  if (bytes.length < 12 || tag(0) !== 'RIFF' || tag(8) !== 'WAVE') return null;
   const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  if (bytes.length >= 4 && tag(0) === 'fLaC') {
+    let at = 4;
+    while (at + 4 <= bytes.length) {
+      const head = bytes[at];
+      const size = (bytes[at + 1] << 16) | (bytes[at + 2] << 8) | bytes[at + 3];
+      if ((head & 0x7f) === 2 && tag(at + 4) === 'riff' && tag(at + 8) === 'smpl')
+        return smplLoop(view, at + 16, view.getUint32(at + 12, true));
+      if (head & 0x80) break;
+      at += 4 + size;
+    }
+    return null;
+  }
+  if (bytes.length < 12 || tag(0) !== 'RIFF' || tag(8) !== 'WAVE') return null;
   let at = 12;
   while (at + 8 <= bytes.length) {
     const size = view.getUint32(at + 4, true);
-    if (tag(at) === 'smpl' && size >= 36) {
-      const loops = view.getUint32(at + 8 + 28, true);
-      if (loops < 1 || size < 36 + 24) return null;
-      const start = view.getUint32(at + 8 + 36 + 8, true);
-      const end = view.getUint32(at + 8 + 36 + 12, true);
-      return end > start ? [start, end + 1] : null;
-    }
+    if (tag(at) === 'smpl' && size >= 36) return smplLoop(view, at + 8, size);
     at += 8 + size + (size & 1);
   }
   return null;

@@ -2,10 +2,10 @@
 
 An alto saxophone: [Weresax](https://github.com/sfzinstruments/karoryfer.weresax) by Karoryfer Lecolds
 (CC0). Every note was recorded soft and loud, twice each; HO[LO] plays the library's condenser
-microphone, its files as they are, the two takes in turn.
+microphone, the two takes in turn.
 
 **Levels:** the soft and loud notes are measured and set where HO[LO]'s velocity curve meets them, the
-loudest at −17 dB at velocity 127. A note's tail ends where it falls to −60 dB.
+loudest at −17 dB at velocity 127. Each note is the library's WAV, kept until it falls to −60 dB and faded there, otherwise bit for bit.
 
 For a baritone, see [Bear Sax](../bear-sax/).
 
@@ -24,7 +24,7 @@ For a baritone, see [Bear Sax](../bear-sax/).
 
 ## Where its files come from
 
-Taken as published from [sfzinstruments/karoryfer.weresax](https://github.com/sfzinstruments/karoryfer.weresax) at commit [`a4d756b`](https://github.com/sfzinstruments/karoryfer.weresax/tree/a4d756b21d2a573aca0d840cce7e71ba5effd4c6): an install checks out only the files this map plays. [`recipe.mjs`](recipe.mjs) wrote this map; run it again to make it anew.
+Made from 128 recordings, fetched from [sfzinstruments/karoryfer.weresax](https://github.com/sfzinstruments/karoryfer.weresax/tree/a4d756b21d2a573aca0d840cce7e71ba5effd4c6) at `a4d756b`. Each file is made from its recordings by fixed arithmetic (a note trimmed and faded, a drum hit mixed from its microphones), the same in every install, so every install makes the same bytes, each checked against `files.sha256`. [`recipe.mjs`](recipe.mjs) wrote this map; run it again to make it anew.
 
 ## Instruments
 

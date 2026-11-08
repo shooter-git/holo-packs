@@ -28,15 +28,18 @@ version…) are listed with it, and every pack links to its own page.
 
 | Pack | Families | Instruments | Size | Licence |
 |---|---|---|---|---|
+| [Erhu](packs/erhu/) | Strings | 2 | 45 MB | CC0 1.0 |
 | [FreePats Spanish Classical Guitar](packs/freepats-guitar/) | Guitars and plucked strings | 1 | 20 MB | CC0 1.0 |
 | [Greg Sullivan E-Pianos (CP80, Pianet T, Wurlitzer)](packs/epianos/) | Pianos and keys | 3 | 78 MB | CC BY 3.0 |
 | [Headroom Piano (Yamaha C3)](packs/headroom/) | Pianos and keys | 2 | 512 MB | CC BY 4.0 |
 | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) | Drum kits | 1 | 168 MB | CC0 1.0 |
-| [Karoryfer Bear Sax](packs/bear-sax/) | Woodwinds | 2 | 88 MB | CC0 1.0 |
+| [Karoryfer Bear Sax](packs/bear-sax/) | Woodwinds | 2 | 87 MB | CC0 1.0 |
 | [Karoryfer Meatbass](packs/meatbass/) | Bass | 1 | 116 MB | CC0 1.0 |
-| [Karoryfer War Tuba](packs/war-tuba/) | Brass | 2 | 50 MB | CC0 1.0 |
+| [Karoryfer War Tuba](packs/war-tuba/) | Brass | 2 | 49 MB | CC0 1.0 |
 | [Karoryfer Weresax](packs/weresax/) | Woodwinds | 1 | 101 MB | CC0 1.0 |
 | [Karoryfer x bigcat Cello](packs/bigcat-cello/) | Strings | 3 | 131 MB | CC0 1.0 |
+| [Male Voice "Ah"](packs/vocal-ah/) | Voices | 1 | 38 MB | CC0 1.0 |
+| [MTG Solo Saxophones](packs/mtg-sax/) | Woodwinds | 4 | 153 MB | CC BY 4.0 |
 | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) | Drum kits | 1 | 223 MB | CC0 1.0 |
 | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) | Drum kits | 1 | 172 MB | CC0 1.0 |
 | [Salamander Grand Piano (Yamaha C5)](packs/salamander/) | Pianos and keys | 2 | 1.4 GB | Public domain |
@@ -110,6 +113,7 @@ version…) are listed with it, and every pack links to its own page.
 |---|---|---|
 | Cellos | Pizzicato, Spiccato, Tremolo | [VSCO 2 Community Edition](packs/vsco2/) |
 | Contrabass | Pizzicato, Spiccato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Erhu | Short | [Erhu](packs/erhu/) |
 | Harp |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Solo Cello | Staccato, Pizzicato | [Karoryfer x bigcat Cello](packs/bigcat-cello/) |
 | Solo Violin |  | [VSCO 2 Community Edition](packs/vsco2/) |
@@ -134,7 +138,9 @@ version…) are listed with it, and every pack links to its own page.
 | Instrument | Also played as | Pack |
 |---|---|---|
 | Alto Sax |  | [Karoryfer Weresax](packs/weresax/) |
+| Alto Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
 | Baritone Sax | Staccato | [Karoryfer Bear Sax](packs/bear-sax/) |
+| Baritone Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
 | Bassoon | Staccato | [University of Iowa MIS: Clarinet and Bassoon](packs/iowa/) |
 | Bassoon | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
 | Clarinet | Staccato | [University of Iowa MIS: Clarinet and Bassoon](packs/iowa/) |
@@ -142,6 +148,8 @@ version…) are listed with it, and every pack links to its own page.
 | Flute | Non-vibrato, Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
 | Oboe | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
 | Ocarina | Vibrato | [Versilian Community Sample Library](packs/vcsl/) |
+| Soprano Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
+| Tenor Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
 
 ### Brass
 
@@ -151,6 +159,12 @@ version…) are listed with it, and every pack links to its own page.
 | Trombones | Staccato, Vibrato | [VSCO 2 Community Edition](packs/vsco2/) |
 | Tuba | Staccato | [Karoryfer War Tuba](packs/war-tuba/) |
 | Tuba | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
+
+### Voices
+
+| Instrument | Also played as | Pack |
+|---|---|---|
+| Male Voice Ah |  | [Male Voice "Ah"](packs/vocal-ah/) |
 
 <!-- end of catalog -->
 

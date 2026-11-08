@@ -24,6 +24,7 @@ const FAMILIES = [
   'Guitars and plucked strings',
   'Woodwinds',
   'Brass',
+  'Voices',
   'Other',
 ];
 
@@ -77,6 +78,9 @@ export function family(i) {
       return 'Woodwinds';
     case 'Brass':
       return 'Brass';
+    case 'Voice':
+    case 'Choir':
+      return 'Voices';
     default:
       return 'Other';
   }
