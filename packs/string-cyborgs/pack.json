@@ -1,0 +1,3084 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "string-cyborgs",
+ "name": "Karoryfer String Cyborgs (Synth Voices)",
+ "license": "CC0-1.0",
+ "credit": "String Cyborgs by Karoryfer Lecolds (CC0): the synthesizer voices Zinc, Blackheart and Ironface.",
+ "bytes": 30501598,
+ "source": {
+  "kind": "mix",
+  "note": "The library's WAVs at the pinned commit, as they are, held on their loops.",
+  "bases": {
+   "k": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.string-cyborgs/f2238b3e36ae64c6383356221dc89c9c476c7b11/"
+  },
+  "downloads": {
+   "k:Samples/blackheart/A1.wav": "2e978c0b296c1998d41d0ac320ce34bb88cb2b859f5b4325e13a8b1396a3822d",
+   "k:Samples/blackheart/A2.wav": "3f359a85a2434fbd424ceb1605af7929148e06dc0bc76e8cb2ee56e9c1b059e3",
+   "k:Samples/blackheart/A3.wav": "97710a75f1636338246541dc0c3a387c3844a3c975c958d9851fb44ee8cd891a",
+   "k:Samples/blackheart/A4.wav": "0644e887bc14a6360e9823b06948db5066f424fbfcef676e40e774b0c611bfdc",
+   "k:Samples/blackheart/C1.wav": "7c5750863cbd62fa2752dadf0cca76a09b0d7773b89fc6d57bd3ff83f0789dd8",
+   "k:Samples/blackheart/C2.wav": "b3e7eddd669a7a3e0577607e5649cf5b81df35c773f093f345505137a74321a8",
+   "k:Samples/blackheart/C3.wav": "d286ba02b57bb89f79ac09a95fccea3ef85628b815bb211e4a97e60c2b7ce93a",
+   "k:Samples/blackheart/C4.wav": "935ab7e5819cdba8c02982e0830123cbcc30537a2903100f555bf20ef1140205",
+   "k:Samples/blackheart/C5.wav": "0f28a41452db10f1f33bb188c4249903c7552ba61119bf81a3421514de6b71da",
+   "k:Samples/blackheart/Eb1.wav": "389f2111b20672f1bd97354ca8fe89447cbd79d82fb4475cae9bae1a214e5c4c",
+   "k:Samples/blackheart/Eb2.wav": "c3a48f15f61a463ed276757776c83dcff9178e48d70362fde13ab99ec50422f1",
+   "k:Samples/blackheart/Eb3.wav": "612da01d586dc8fd32528600267287d23d5896ee78990f26947fe03fdb2a15ad",
+   "k:Samples/blackheart/Eb4.wav": "9aebd37c750f0f0e85982506b69de5559ceb9a31f60945b896cf2c6d8ee87c91",
+   "k:Samples/blackheart/Gb1.wav": "67a1229809df97a44e96eb4d09b175566b9bc6494664675abfab5b6b6c6d9de6",
+   "k:Samples/blackheart/Gb2.wav": "b4a22232c2a97a93df9094074dca6b3efa15bb805ffc7e39871efd4784810e82",
+   "k:Samples/blackheart/Gb3.wav": "c449709f52e99e385907ab20a191ceded234910b56d4f355032efe46cc641e1f",
+   "k:Samples/blackheart/Gb4.wav": "4dc62ee04de80368708f0cac8c9188fb07bff02576c8f869aea3dfabe03ecb28",
+   "k:Samples/ironface/a0_dist.wav": "f8b9ec7b0cc3ee8e0aaa486e18d8265d914f3478d257c22cb100c43af70309b1",
+   "k:Samples/ironface/a0_oscillator_tuned.wav": "4cb7be8867a0c0e788171ab793110dc4d73123765a3173d35076d94621ac40e9",
+   "k:Samples/ironface/a1_dist.wav": "cb0f3979a905ae763c1315d973f70477893976dd5a86dac1ab0e75df5b5e5092",
+   "k:Samples/ironface/a1_oscillator_tuned.wav": "f3617e0648dd7e47ecaebe18cc61c20c39f693ee4bfe2354ee3a989a426d792a",
+   "k:Samples/ironface/a2_dist.wav": "9e99e670d15a0253fa72353add6bb81dac3e4e3d0d149177c45c273c4234228e",
+   "k:Samples/ironface/a2_oscillator_tuned.wav": "2e2b5cf8b8b2273398d640d0ad3de3aa8e2ff3ea4cf237a1b6dfd6482acdbe42",
+   "k:Samples/ironface/a3_dist.wav": "773dc8996c6e0720cbf77770a313450eb05a932ec08252f569785288f0960351",
+   "k:Samples/ironface/a3_oscillator_tuned.wav": "42459f7aac1960bed37be9fd792a2ccbec9c51dfce54de28cb53a5c5bd3bae26",
+   "k:Samples/ironface/a4_dist.wav": "7de8b9652601e22b5cc3d22ac734a900f8deac876f779d534ca7b064f6661ed0",
+   "k:Samples/ironface/a4_oscillator_tuned.wav": "fd9e00b525f1c5665ab9ddca8458f9275acfee08ad04a508b0ec9a05815ba2e4",
+   "k:Samples/ironface/c1_dist.wav": "9b68be0edb658b7cd2bb1847e9b6e91d2edf88a474a6731895800a1d0e58f261",
+   "k:Samples/ironface/c1_oscillator_tuned.wav": "7133a5c4b25ee76c5bc0efa7d0a044802c21d5771148bd273e2df80c72a12251",
+   "k:Samples/ironface/c2_dist.wav": "f939e7dd016283a740ffe5171b2e807e965b03ec430e34c9a5fec765de3f6998",
+   "k:Samples/ironface/c2_oscillator_tuned.wav": "f12f53563760122f7a560fe4f161d56d272a0804dcf1da15c2648f79c35a0d28",
+   "k:Samples/ironface/c3_dist.wav": "7f7871c5a7bf5e6166a2623a7f3b526a48aef874fb4b0968306a8dd8a3df8e31",
+   "k:Samples/ironface/c3_oscillator_tuned.wav": "c6a4a9f42f61aca13ab320a49423f0b0eb1171f603119557683a7da2b778e6b9",
+   "k:Samples/ironface/c4_dist.wav": "6a4d97abea57a3678158dfb6047212f89075f2b8ae1ebe89c9adb33bc6b343b9",
+   "k:Samples/ironface/c4_oscillator_tuned.wav": "7f45c4d12992cb2b33630a5b9a893d63b9112a132168c573401bafaea4190f49",
+   "k:Samples/ironface/eb1_dist.wav": "37da39e24e7522d39eae72525134019b85fc51a0c2d6bbc941cee6f760c283e6",
+   "k:Samples/ironface/eb1_oscillator_tuned.wav": "ddb44613d5c1240dd34343c5c56b150ab8bda7cbaf317b056ac9cccc28d7d4cc",
+   "k:Samples/ironface/eb2_dist.wav": "ea3eec35d719e6ee1fedf70195cd9af88d76945bd87c575c39b0680cab1e6f47",
+   "k:Samples/ironface/eb2_oscillator_tuned.wav": "fb636d54466ff625b4e13d2091392921c1fda401978108b2d2bf385adbdb787f",
+   "k:Samples/ironface/eb3_dist.wav": "3a15c75d5ea0266e022ec6e9de84027f05cf6a916eb14568b7754249b40867ad",
+   "k:Samples/ironface/eb3_oscillator_tuned.wav": "375a3363ad1b88436033af7b8e09f2456829230ca6d8ae5c2c074bbbccacd721",
+   "k:Samples/ironface/eb4_dist.wav": "f351451bed4d2663f0f960ba8c1b8c64deeddedbaa416248edcbfa0173dd88c9",
+   "k:Samples/ironface/eb4_oscillator_tuned.wav": "4eb051b166f683cce2fe3c9d3f7028abe6eb775f287346cd7555a5277f6e38bb",
+   "k:Samples/ironface/gb1_dist.wav": "e580488d33859400e83c4659a53aaa23123407f59e9d2320d075add9936e9786",
+   "k:Samples/ironface/gb1_oscillator_tuned.wav": "a7bc74741279262ea78911373a4573558779f3f89531d953ea9afe6b896356e2",
+   "k:Samples/ironface/gb2_dist.wav": "64b1f97b127023966942a3d1c48f31df7f6410059bdd665c7a8244bdeca2ab5c",
+   "k:Samples/ironface/gb2_oscillator_tuned.wav": "427b3ee056f1d75da0266031c5808d1107fde9aefd725c8a89c822d0275bb4ab",
+   "k:Samples/ironface/gb3_dist.wav": "78e65be93da6d0938779b37b1a4c47abd1df183ba01a74e7fce756e94731933d",
+   "k:Samples/ironface/gb3_oscillator_tuned.wav": "8028173500dac36d04038e9e26536e734aaa0379bb83e1fbb17583844ac18c29",
+   "k:Samples/ironface/gb4_dist.wav": "681fc9c39dfda8cd9ccb87f33ffee997eb3e670e974fa638cf8d3fd2aa6fd051",
+   "k:Samples/ironface/gb4_oscillator_tuned.wav": "745d435ef7dce111a952e64ea817806b3e7508180880f7557175707084a70405",
+   "k:Samples/zinc/full/a1.wav": "4fc5abbc29b2ab6e37b9078e0c60cbeea707588b0d663eb9dc107ef57efb18d5",
+   "k:Samples/zinc/full/a2.wav": "b7fc7cd96d2d183ad36c44311ab70e835aef7d1365c9914e2121f96a1231e0c0",
+   "k:Samples/zinc/full/a3.wav": "0b94121009d80ce7d9ca0ee793eea70896f936f9291501cd7fca617cf2280cbc",
+   "k:Samples/zinc/full/a4.wav": "f8e8a94a788b76b1fc44e4a391a7fdf39cd6682bc064527d83ef9c31ca199e5f",
+   "k:Samples/zinc/full/a5.wav": "289934375528dad7d5168cf11cc5c9319bef427aa094724357fab893dac8d279",
+   "k:Samples/zinc/full/ab2.wav": "2c612670027389bdedd7578c6dcc94ec22c54cf485b7a690f45ecfc6b535f4f3",
+   "k:Samples/zinc/full/ab3.wav": "e8e5eca5990fa3b1975f77b8f98a61efbe9278ba51ccc630eb15ecb1b5a70121",
+   "k:Samples/zinc/full/ab4.wav": "cbfd20df86c05762d80749c5e16948a29d9bd8ad19c368b6079d578455f2515a",
+   "k:Samples/zinc/full/ab5.wav": "72611ad2f2301996b8def371c38315e3251a5997b22d818b6a38f4ad8f709cc0",
+   "k:Samples/zinc/full/b1.wav": "4e692b3aa8cccf510ca36a270e6247f0a56a49064d0945669bba9926f359f3e3",
+   "k:Samples/zinc/full/b2.wav": "98fc722c911190a13b3f146c6c88b9328346a2834267d55efd9d6d38e783fd30",
+   "k:Samples/zinc/full/b3.wav": "be3217efd2daa49b730bf7307f6e71f3bb7691befdf0f457bdb66604cec5a1e7",
+   "k:Samples/zinc/full/b4.wav": "6d5f02c08088d34d55c2673816bd5a13c6501c8946ce1800330a868ce0f23441",
+   "k:Samples/zinc/full/bb1.wav": "39a12e6383d5ae88473ef12fb8c6814f8dcadf24852cde687a28ae0f8cafaf8c",
+   "k:Samples/zinc/full/bb2.wav": "ed2cf2eb24095412eecd0cc241f97327dd0b8cedbd9fa9357e2cbf5d64580573",
+   "k:Samples/zinc/full/bb3.wav": "bfc3e9325f195e9d8acbd3d7857c6b740ce79e0dd99ae39d7858e151c3b792a1",
+   "k:Samples/zinc/full/bb4.wav": "709a0d491a3890b828c11513417eac9268d8b1ffda359697394f7fae5e5d2996",
+   "k:Samples/zinc/full/c2.wav": "f108aff51dee79fe41b8292cda2c5e5e411d9872f295445a6f729248b8936307",
+   "k:Samples/zinc/full/c3.wav": "f10057275c3300dbf18bae35e82491cdac9adc47f6f89f987444e1a0fd1e83ca",
+   "k:Samples/zinc/full/c4.wav": "3d3dcc8713c8981a915d642c1dc655bd44717287e2fb6600571d7439c4edb357",
+   "k:Samples/zinc/full/c5.wav": "009294b9c7fdc6eb059b84f94ebc56e60a73a921d37668f800ed32f2cf5b3a91",
+   "k:Samples/zinc/full/d2.wav": "42bfa2f0ea7e4b937fc0861896ad1a9be26f79958fd0dff52538077c37520da1",
+   "k:Samples/zinc/full/d3.wav": "e876297f27380736993e2ebe6a0fa154a39c73cc821b7bb6cc952c04c5dc0b11",
+   "k:Samples/zinc/full/d4.wav": "1d8707d2c4e014593919e001c635e53bddfbd63cb17cbf91d42cde58c3472bba",
+   "k:Samples/zinc/full/d5.wav": "a26813c7226f8b1a730501a8d6e65f0e264a8e3afaed0a3c56a6e37b175fe52a",
+   "k:Samples/zinc/full/db2.wav": "63b0b652b65052a3522e2226e17885e39e97727e8729ad1ab5966fe579493b12",
+   "k:Samples/zinc/full/db3.wav": "d768fb463ceb0c1cbaade29ed04b79e6766cf36db6499186a46be407d5cb4aa8",
+   "k:Samples/zinc/full/db4.wav": "2c1d564a5ba8d213b4763f450ff532d7597317b983b8d4f33899cb96afa86a52",
+   "k:Samples/zinc/full/db5.wav": "0f8e7711c168b94236bb81b04d759b7d6efae06912014c6732238964ae667865",
+   "k:Samples/zinc/full/e2.wav": "b3ca69d1e9684ceda5a76f225fa86be1686f760ce8e19065e8787f8e130fe878",
+   "k:Samples/zinc/full/e3.wav": "eb928689f19b1c635d0692c21e214e045f5e529fa8645ef3adf0fb63157e1907",
+   "k:Samples/zinc/full/e4.wav": "149cb8f00c9c4c3c4ce57a4f6a984ce232385b7ec4285b3abea6c1fdb17207eb",
+   "k:Samples/zinc/full/e5.wav": "c86a5b38c35cf11a6b77a2e09e77a37ec00521cd1ef7248a97928a0dd501e13b",
+   "k:Samples/zinc/full/eb2.wav": "4b693e27273e2fe2ea7c3c2403f87bce5bb52b1f19bcd28bb20920d8a9535245",
+   "k:Samples/zinc/full/eb3.wav": "7fc84a1e0f185971a6623449e02abdc88ecb2a4669749566bb54ca2caf58a927",
+   "k:Samples/zinc/full/eb4.wav": "e14bcbbd2c15627f2e4add836a7ff878bb8506d62787592a9c424dc7ea263f1a",
+   "k:Samples/zinc/full/eb5.wav": "5de3804a493112761419d06b9a62c7a6b29536a1002fb2159bd7ab99c7be068a",
+   "k:Samples/zinc/full/f2.wav": "0adcac54c4b46a2323c305b976206951bf12a3c0e10739ec0251cc22094b469e",
+   "k:Samples/zinc/full/f3.wav": "81dd046ae68042330887a1416e0996e490d99b7cd29680281eb2fc4defb57e87",
+   "k:Samples/zinc/full/f4.wav": "2501c95f2e5f283733b9024332609369df5c3105f05409893ee56496b8ddbd94",
+   "k:Samples/zinc/full/f5.wav": "c3abaa6bb1a4668cc4f5b5256c50bf9f5a97110de0511ff538b207e2c3af7086",
+   "k:Samples/zinc/full/g2.wav": "efb84a9c115da9234df1eeb1150e98874ff332b9ae3d9d61e3e6ec6fa6d5fa9c",
+   "k:Samples/zinc/full/g3.wav": "7a832ee72878b08e704dd07e4af6df01ac47a54ed4469ab0694f145e4adae51b",
+   "k:Samples/zinc/full/g4.wav": "3c4dfbd9586be6a7086c121f24464bc3b493f70544c3be107bcfc28e41d2fef2",
+   "k:Samples/zinc/full/g5.wav": "00dfdc0f194a4a74059b9714de7233e85dde1dbfff4508125cc6ed520ee3294c",
+   "k:Samples/zinc/full/gb2.wav": "03e7af0eff0f9d43803dfcbb5ee57c660be80fcc07326de18e24c8b88129fd6a",
+   "k:Samples/zinc/full/gb3.wav": "f7a56b57a0053e7c6461ce4fe17a12465e87cdeee06f8b8d9d8f87bf9400cab4",
+   "k:Samples/zinc/full/gb4.wav": "45ca9ad74417828d79e8853393df6832831211112693032af148d913d7306e5c",
+   "k:Samples/zinc/full/gb5.wav": "21b236c87286cd63eb964205a1195622885a099e0a1b2cedc358fc6553b70bc0"
+  },
+  "bits": 16,
+  "files": {
+   "zinc/a1.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/a1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 117072,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/bb1.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/bb1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 189994,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/b1.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/b1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 211400,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/c2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/c2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 216296,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/db2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/db2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 187016,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/d2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/d2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 223407,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/eb2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/eb2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 191354,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/e2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/e2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 164060,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/f2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/f2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 136195,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/gb2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/gb2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 134674,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/g2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/g2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 184150,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/ab2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/ab2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 179120,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/a2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/a2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 197235,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/bb2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/bb2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 149122,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/b2.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/b2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 170688,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/c3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/c3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 135601,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/db3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/db3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 152229,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/d3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/d3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 151939,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/eb3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/eb3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 107919,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/e3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/e3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 126322,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/f3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/f3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 133159,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/gb3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/gb3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 148040,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/g3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/g3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 169293,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/ab3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/ab3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 158728,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/a3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/a3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 125283,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/bb3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/bb3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 117967,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/b3.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/b3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 108670,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/c4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/c4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 108061,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/db4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/db4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 133279,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/d4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/d4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103195,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/eb4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/eb4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103244,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/e4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/e4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 127394,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/f4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/f4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 137471,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/gb4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/gb4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141845,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/g4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/g4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 123641,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/ab4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/ab4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 119418,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/a4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/a4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 136727,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/bb4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/bb4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 126925,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/b4.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/b4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 107667,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/c5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/c5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 139911,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/db5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/db5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 111333,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/d5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/d5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 104848,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/eb5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/eb5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 99272,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/e5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/e5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 107843,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/f5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/f5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 104808,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/gb5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/gb5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 93922,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/g5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/g5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 89789,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/ab5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/ab5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 80792,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "zinc/a5.wav": {
+    "in": [
+     [
+      "k:Samples/zinc/full/a5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 69596,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/C1.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/C1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 205295,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/Eb1.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/Eb1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 197691,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/Gb1.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/Gb1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 197691,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/A1.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/A1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 197691,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/C2.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/C2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 174881,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/Eb2.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/Eb2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 159674,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/Gb2.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/Gb2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 136863,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/A2.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/A2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 182484,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/C3.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/C3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 182484,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/Eb3.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/Eb3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 121656,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/Gb3.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/Gb3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 136863,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/A3.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/A3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 205295,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/C4.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/C4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 174881,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/Eb4.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/Eb4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 114053,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/Gb4.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/Gb4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 159674,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/A4.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/A4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 114053,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "blackheart/C5.wav": {
+    "in": [
+     [
+      "k:Samples/blackheart/C5.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 121656,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/a0_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a0_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 85050,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/c1_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/c1_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 226800,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/eb1_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/eb1_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/gb1_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/gb1_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 170100,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/a1_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a1_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 132300,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/c2_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/c2_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 151200,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/eb2_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/eb2_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 151200,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/gb2_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/gb2_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 170100,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/a2_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a2_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 160650,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/c3_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/c3_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 189000,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/eb3_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/eb3_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 217350,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/gb3_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/gb3_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 207900,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/a3_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a3_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 170100,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/c4_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/c4_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141750,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/eb4_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/eb4_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 151200,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/gb4_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/gb4_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 160650,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface/a4_oscillator_tuned.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a4_oscillator_tuned.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103950,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/a0_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a0_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 85050,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/c1_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/c1_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 226800,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/eb1_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/eb1_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/gb1_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/gb1_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 170100,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/a1_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a1_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 132300,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/c2_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/c2_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 151200,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/eb2_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/eb2_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 151200,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/gb2_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/gb2_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 170100,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/a2_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a2_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 160650,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/c3_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/c3_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 189000,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/eb3_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/eb3_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 217350,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/gb3_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/gb3_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 207900,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/a3_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a3_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 170100,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/c4_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/c4_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141750,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/eb4_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/eb4_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 151200,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/gb4_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/gb4_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 160650,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   },
+   "ironface-distorted/a4_dist.wav": {
+    "in": [
+     [
+      "k:Samples/ironface/a4_dist.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 103950,
+    "fadeIn": 0,
+    "fadeOut": 0,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "zinc",
+   "title": "Zinc",
+   "category": "Other",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.005,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "zinc/a1.wav",
+     "root": 21,
+     "lo": 9,
+     "hi": 21,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 117072,
+     "loopStart": 0,
+     "loopEnd": 117072,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/bb1.wav",
+     "root": 22,
+     "lo": 22,
+     "hi": 22,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 189994,
+     "loopStart": 0,
+     "loopEnd": 189994,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/b1.wav",
+     "root": 23,
+     "lo": 23,
+     "hi": 23,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 211400,
+     "loopStart": 0,
+     "loopEnd": 211400,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/c2.wav",
+     "root": 24,
+     "lo": 24,
+     "hi": 24,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 216296,
+     "loopStart": 0,
+     "loopEnd": 216296,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/db2.wav",
+     "root": 25,
+     "lo": 25,
+     "hi": 25,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 187016,
+     "loopStart": 0,
+     "loopEnd": 187016,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/d2.wav",
+     "root": 26,
+     "lo": 26,
+     "hi": 26,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 223407,
+     "loopStart": 0,
+     "loopEnd": 223407,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/eb2.wav",
+     "root": 27,
+     "lo": 27,
+     "hi": 27,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 191354,
+     "loopStart": 0,
+     "loopEnd": 191354,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/e2.wav",
+     "root": 28,
+     "lo": 28,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 164060,
+     "loopStart": 0,
+     "loopEnd": 164060,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/f2.wav",
+     "root": 29,
+     "lo": 29,
+     "hi": 29,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 136195,
+     "loopStart": 0,
+     "loopEnd": 136195,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/gb2.wav",
+     "root": 30,
+     "lo": 30,
+     "hi": 30,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 134674,
+     "loopStart": 0,
+     "loopEnd": 134674,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/g2.wav",
+     "root": 31,
+     "lo": 31,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 184150,
+     "loopStart": 0,
+     "loopEnd": 184150,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/ab2.wav",
+     "root": 32,
+     "lo": 32,
+     "hi": 32,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 179120,
+     "loopStart": 0,
+     "loopEnd": 179120,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/a2.wav",
+     "root": 33,
+     "lo": 33,
+     "hi": 33,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 197235,
+     "loopStart": 0,
+     "loopEnd": 197235,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/bb2.wav",
+     "root": 34,
+     "lo": 34,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 149122,
+     "loopStart": 0,
+     "loopEnd": 149122,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/b2.wav",
+     "root": 35,
+     "lo": 35,
+     "hi": 35,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 170688,
+     "loopStart": 0,
+     "loopEnd": 170688,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/c3.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 135601,
+     "loopStart": 0,
+     "loopEnd": 135601,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/db3.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 152229,
+     "loopStart": 0,
+     "loopEnd": 152229,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/d3.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 151939,
+     "loopStart": 0,
+     "loopEnd": 151939,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/eb3.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 107919,
+     "loopStart": 0,
+     "loopEnd": 107919,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/e3.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 126322,
+     "loopStart": 0,
+     "loopEnd": 126322,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/f3.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 133159,
+     "loopStart": 0,
+     "loopEnd": 133159,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/gb3.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 148040,
+     "loopStart": 0,
+     "loopEnd": 148040,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/g3.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 169293,
+     "loopStart": 0,
+     "loopEnd": 169293,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/ab3.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 158728,
+     "loopStart": 0,
+     "loopEnd": 158728,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/a3.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 125283,
+     "loopStart": 0,
+     "loopEnd": 125283,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/bb3.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 117967,
+     "loopStart": 0,
+     "loopEnd": 117967,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/b3.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 108670,
+     "loopStart": 0,
+     "loopEnd": 108670,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/c4.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 108061,
+     "loopStart": 0,
+     "loopEnd": 108061,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/db4.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 133279,
+     "loopStart": 0,
+     "loopEnd": 133279,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/d4.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 103195,
+     "loopStart": 0,
+     "loopEnd": 103195,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/eb4.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 103244,
+     "loopStart": 0,
+     "loopEnd": 103244,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/e4.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 127394,
+     "loopStart": 0,
+     "loopEnd": 127394,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/f4.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 137471,
+     "loopStart": 0,
+     "loopEnd": 137471,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/gb4.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 141845,
+     "loopStart": 0,
+     "loopEnd": 141845,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/g4.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 123641,
+     "loopStart": 0,
+     "loopEnd": 123641,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/ab4.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 119418,
+     "loopStart": 0,
+     "loopEnd": 119418,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/a4.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 136727,
+     "loopStart": 0,
+     "loopEnd": 136727,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/bb4.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 126925,
+     "loopStart": 0,
+     "loopEnd": 126925,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/b4.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 107667,
+     "loopStart": 0,
+     "loopEnd": 107667,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/c5.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 139911,
+     "loopStart": 0,
+     "loopEnd": 139911,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/db5.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 111333,
+     "loopStart": 0,
+     "loopEnd": 111333,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/d5.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 104848,
+     "loopStart": 0,
+     "loopEnd": 104848,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/eb5.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 99272,
+     "loopStart": 0,
+     "loopEnd": 99272,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/e5.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 107843,
+     "loopStart": 0,
+     "loopEnd": 107843,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/f5.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 104808,
+     "loopStart": 0,
+     "loopEnd": 104808,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/gb5.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 93922,
+     "loopStart": 0,
+     "loopEnd": 93922,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/g5.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 89789,
+     "loopStart": 0,
+     "loopEnd": 89789,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/ab5.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 80792,
+     "loopStart": 0,
+     "loopEnd": 80792,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "zinc/a5.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 3.8,
+     "start": 0,
+     "end": 69596,
+     "loopStart": 0,
+     "loopEnd": 69596,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  },
+  {
+   "name": "blackheart",
+   "title": "Blackheart",
+   "category": "Other",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.005,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "blackheart/C1.wav",
+     "root": 36,
+     "lo": 24,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 205295,
+     "loopStart": 0,
+     "loopEnd": 205295,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/Eb1.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 197691,
+     "loopStart": 0,
+     "loopEnd": 197691,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/Gb1.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 197691,
+     "loopStart": 0,
+     "loopEnd": 197691,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/A1.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 197691,
+     "loopStart": 0,
+     "loopEnd": 197691,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/C2.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 174881,
+     "loopStart": 0,
+     "loopEnd": 174881,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/Eb2.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 159674,
+     "loopStart": 0,
+     "loopEnd": 159674,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/Gb2.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 136863,
+     "loopStart": 0,
+     "loopEnd": 136863,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/A2.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 182484,
+     "loopStart": 0,
+     "loopEnd": 182484,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/C3.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 182484,
+     "loopStart": 0,
+     "loopEnd": 182484,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/Eb3.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 121656,
+     "loopStart": 0,
+     "loopEnd": 121656,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/Gb3.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 136863,
+     "loopStart": 0,
+     "loopEnd": 136863,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/A3.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 205295,
+     "loopStart": 0,
+     "loopEnd": 205295,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/C4.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 174881,
+     "loopStart": 0,
+     "loopEnd": 174881,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/Eb4.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 114053,
+     "loopStart": 0,
+     "loopEnd": 114053,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/Gb4.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 159674,
+     "loopStart": 0,
+     "loopEnd": 159674,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/A4.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 114053,
+     "loopStart": 0,
+     "loopEnd": 114053,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "blackheart/C5.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 96,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 121656,
+     "loopStart": 0,
+     "loopEnd": 121656,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  },
+  {
+   "name": "ironface",
+   "title": "Ironface",
+   "category": "Other",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.005,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "ironface/a0_oscillator_tuned.wav",
+     "root": 21,
+     "lo": 9,
+     "hi": 22,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 85050,
+     "loopStart": 0,
+     "loopEnd": 85050,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/c1_oscillator_tuned.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 226800,
+     "loopStart": 0,
+     "loopEnd": 226800,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/eb1_oscillator_tuned.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 264600,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/gb1_oscillator_tuned.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 170100,
+     "loopStart": 0,
+     "loopEnd": 170100,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/a1_oscillator_tuned.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 132300,
+     "loopStart": 0,
+     "loopEnd": 132300,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/c2_oscillator_tuned.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 151200,
+     "loopStart": 0,
+     "loopEnd": 151200,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/eb2_oscillator_tuned.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 151200,
+     "loopStart": 0,
+     "loopEnd": 151200,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/gb2_oscillator_tuned.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 170100,
+     "loopStart": 0,
+     "loopEnd": 170100,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/a2_oscillator_tuned.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 160650,
+     "loopStart": 0,
+     "loopEnd": 160650,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/c3_oscillator_tuned.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 189000,
+     "loopStart": 0,
+     "loopEnd": 189000,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/eb3_oscillator_tuned.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 217350,
+     "loopStart": 0,
+     "loopEnd": 217350,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/gb3_oscillator_tuned.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 207900,
+     "loopStart": 0,
+     "loopEnd": 207900,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/a3_oscillator_tuned.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 170100,
+     "loopStart": 0,
+     "loopEnd": 170100,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/c4_oscillator_tuned.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 141750,
+     "loopStart": 0,
+     "loopEnd": 141750,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/eb4_oscillator_tuned.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 151200,
+     "loopStart": 0,
+     "loopEnd": 151200,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/gb4_oscillator_tuned.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 160650,
+     "loopStart": 0,
+     "loopEnd": 160650,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface/a4_oscillator_tuned.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 0.13,
+     "start": 0,
+     "end": 103950,
+     "loopStart": 0,
+     "loopEnd": 103950,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  },
+  {
+   "name": "ironface-distorted",
+   "title": "Ironface (Distorted)",
+   "category": "Other",
+   "pitched": true,
+   "release": 0.2,
+   "attack": 0.005,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "ironface-distorted/a0_dist.wav",
+     "root": 21,
+     "lo": 9,
+     "hi": 22,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 85050,
+     "loopStart": 0,
+     "loopEnd": 85050,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/c1_dist.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 226800,
+     "loopStart": 0,
+     "loopEnd": 226800,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/eb1_dist.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 264600,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/gb1_dist.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 170100,
+     "loopStart": 0,
+     "loopEnd": 170100,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/a1_dist.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 132300,
+     "loopStart": 0,
+     "loopEnd": 132300,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/c2_dist.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 151200,
+     "loopStart": 0,
+     "loopEnd": 151200,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/eb2_dist.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 151200,
+     "loopStart": 0,
+     "loopEnd": 151200,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/gb2_dist.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 170100,
+     "loopStart": 0,
+     "loopEnd": 170100,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/a2_dist.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 160650,
+     "loopStart": 0,
+     "loopEnd": 160650,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/c3_dist.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 189000,
+     "loopStart": 0,
+     "loopEnd": 189000,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/eb3_dist.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 217350,
+     "loopStart": 0,
+     "loopEnd": 217350,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/gb3_dist.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 207900,
+     "loopStart": 0,
+     "loopEnd": 207900,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/a3_dist.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 170100,
+     "loopStart": 0,
+     "loopEnd": 170100,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/c4_dist.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 141750,
+     "loopStart": 0,
+     "loopEnd": 141750,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/eb4_dist.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 151200,
+     "loopStart": 0,
+     "loopEnd": 151200,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/gb4_dist.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 160650,
+     "loopStart": 0,
+     "loopEnd": 160650,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "ironface-distorted/a4_dist.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 72,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.12,
+     "start": 0,
+     "end": 103950,
+     "loopStart": 0,
+     "loopEnd": 103950,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  }
+ ]
+}
