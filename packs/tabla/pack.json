@@ -1,0 +1,1227 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "tabla",
+ "name": "Tabla (OLPC, Sonic Pi)",
+ "license": "CC-BY-3.0",
+ "credit": "Tabla bols by Mihir Sarkar for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/MihirSarkar), and dio_333's tabla strokes from Freesound as Sonic Pi ships them (CC0).",
+ "bytes": 3699948,
+ "source": {
+  "kind": "mix",
+  "note": "The 44.1 kHz WAVs of the OLPC zip, fetched one by one, and Sonic Pi's FLACs at the pinned commit, each kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "mihir": "https://archive.org/download/MihirSarkar/MihirSarkar44.zip/MihirSarkar44/",
+   "sonic": "https://raw.githubusercontent.com/sonic-pi-net/sonic-pi/d1393a06266f74dc216bfd8a7e9a8eb7135b4941/etc/samples/"
+  },
+  "downloads": {
+   "mihir:Dha.wav": "d9b3dcc6daa23710691520383466bc6688ee407a25439718bef882b5f7b06669",
+   "mihir:Dhin.wav": "33aa60ee5b3710eba7f556fba2d81490410dc15a294ac0908640f59389e8cf3e",
+   "mihir:Ge.wav": "02674e4e280cc1314ce9f84ec0f40efc7450336cd70acf886407c8fa1aeea63c",
+   "mihir:Ke.wav": "7b239d4b44a1ecb7704d213f66075027d264f134cd873f4280aa8a44ef9094d1",
+   "mihir:Na.wav": "20c68ae4d5b7503974db2cb9889d158a3f7a4ed68ee5abf23360088c507de960",
+   "mihir:Re.wav": "7dbcb5e45300bb01672aa3615d5ba0cc129f6ba5517a976d9923413e3e2af483",
+   "mihir:Ta.wav": "14f1f4fac6dd2d41cc818914580dc8a0bc8915041e12d7397abaf6245fcbc142",
+   "mihir:Te.wav": "674b1cf27984fa33bf9703dac3d1b693285fa28fabfa3794a1c70c5beb605886",
+   "mihir:Tin.wav": "0c95eaba03c8f5ba7cb18a500104ad767ed15927cfd91f015a1b020ff30634ef",
+   "mihir:Tu.wav": "de4fc3716472f1e52158e9160871d52c0e65a1aa033c6e2a1cff7aae16b5aebe",
+   "sonic:tabla_dhec.flac": "f5d5a59a674cc9b371ca6f5d10c807dbd74354064602aa7be385ce26f700e7b2",
+   "sonic:tabla_ghe1.flac": "ca96042eee5c10f4590da5e52f5f255210cc6e2c31e50e51d5fed62b2cc1f93a",
+   "sonic:tabla_ghe2.flac": "02fbfe4919aa6bb7540a69e9b233e8238447182922efd7c78fbf38075bf89f28",
+   "sonic:tabla_ghe3.flac": "53d300a9fbcdeb50a093323a78219ae8b43fb690aa1a149117be02211d6ad3fd",
+   "sonic:tabla_ghe4.flac": "297cb521f94e69694987405a6409e7ce0bc6270e464e6f453580a4ededa56f61",
+   "sonic:tabla_ghe5.flac": "c3d0b869afa1b2aa5789532e8165097643fcd589fbe2831d15625255ee4da602",
+   "sonic:tabla_ghe6.flac": "67e22f8777e0a9884f2492556c72c64172bf69775dd7b76a97a7a8fd31074592",
+   "sonic:tabla_ghe7.flac": "d9eb69040c81347aca84abdb311c1dda0e36dc57457e981493fa057942bfa3d9",
+   "sonic:tabla_ghe8.flac": "80168d8f8be81b17df8be6c0b8a3e6c2a68d848aa7e741ce111b1ed745c3bb35",
+   "sonic:tabla_ke1.flac": "1d6742207c77d6bba5a1ef83cf9642f056fac79384612abad669ec0c18c91b3b",
+   "sonic:tabla_ke2.flac": "0fcbede2a4c19a136f20820cfb6ab9d13a112fc55e54f0653a551e9e65dfcca4",
+   "sonic:tabla_ke3.flac": "bd6b009e2759a38cea185deac3f47e7f870940256550afe4f0bb849133b7f5a0",
+   "sonic:tabla_na.flac": "2cf51e38f5173d582d751c4333e5b658f02c01944a5b0d648ef83949edc92563",
+   "sonic:tabla_na_o.flac": "9be7446e4b754d9244df6ec558f27cb4199584b560ae1b10e1cd713b95512677",
+   "sonic:tabla_na_s.flac": "3806d33a71a388d0d087c2768c136b0104c4ac495c55e8f65e2de7d240964063",
+   "sonic:tabla_re.flac": "02ebe246c1923fb790437ace7f67154e669b2373fe56a19413f34b416ecede58",
+   "sonic:tabla_tas1.flac": "df730eddd8400d3163655033454cc223bda9c2a1c6b2d6068531f7cbf12b47b2",
+   "sonic:tabla_tas2.flac": "ef40d32d60bb9759604de2b636014fa030242047073ebca5e887e7e160c685ff",
+   "sonic:tabla_tas3.flac": "a08af469a983cb7300ea1bbe848732f3dbd44e9a3a26e993aefb7070dd860e2c",
+   "sonic:tabla_te1.flac": "276b07272060183dd8b5054b14b7bcd56328dd20a7b9a2c738a6f780c0635dd0",
+   "sonic:tabla_te2.flac": "24f48d727d4c74cdd8c10ece1b7f24f00f5b063828a698fe1234b50ac8b08591",
+   "sonic:tabla_te_m.flac": "9a7d5e62650f765121b373cfdda7b914212af567057d8b2fbc96126ce1a21769",
+   "sonic:tabla_te_ne.flac": "5d4d9dfaf2c7e2894edca62882f19e4d42aeed5da0e8a3a98d204720d9803aa8",
+   "sonic:tabla_tun1.flac": "b86e20c4654a07c01524547b75600a73c19cb1ce826f5709e4f348e752246651",
+   "sonic:tabla_tun2.flac": "7e86486ff31691db9d2884c81882956928b467057509fc86221412e167e1c801",
+   "sonic:tabla_tun3.flac": "595aed5ce92e8ba5f07ea6c1c31dda321eec3e11a749d73e78af16d68e4592c0"
+  },
+  "bits": 16,
+  "files": {
+   "tabla/dha/mihir:Dha.wav": {
+    "in": [
+     [
+      "mihir:Dha.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66154,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/dhin/mihir:Dhin.wav": {
+    "in": [
+     [
+      "mihir:Dhin.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66363,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/ge/mihir:Ge.wav": {
+    "in": [
+     [
+      "mihir:Ge.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66055,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/ke/mihir:Ke.wav": {
+    "in": [
+     [
+      "mihir:Ke.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4410,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/na/mihir:Na.wav": {
+    "in": [
+     [
+      "mihir:Na.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 39866,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/re/mihir:Re.wav": {
+    "in": [
+     [
+      "mihir:Re.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4410,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/ta/mihir:Ta.wav": {
+    "in": [
+     [
+      "mihir:Ta.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 45590,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/te/mihir:Te.wav": {
+    "in": [
+     [
+      "mihir:Te.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4398,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/tin/mihir:Tin.wav": {
+    "in": [
+     [
+      "mihir:Tin.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 88200,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "tabla/tu/mihir:Tu.wav": {
+    "in": [
+     [
+      "mihir:Tu.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 88229,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/na/sonic:tabla_na.wav": {
+    "in": [
+     [
+      "sonic:tabla_na.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 31744,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/na-open/sonic:tabla_na_o.wav": {
+    "in": [
+     [
+      "sonic:tabla_na_o.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 65664,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/na-s/sonic:tabla_na_s.wav": {
+    "in": [
+     [
+      "sonic:tabla_na_s.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 10400,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/tun/sonic:tabla_tun1.wav": {
+    "in": [
+     [
+      "sonic:tabla_tun1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 99225,
+    "fadeIn": 0,
+    "fadeOut": 13230,
+    "mono": true
+   },
+   "strokes/tun/sonic:tabla_tun2.wav": {
+    "in": [
+     [
+      "sonic:tabla_tun2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 116865,
+    "fadeIn": 0,
+    "fadeOut": 13230,
+    "mono": true
+   },
+   "strokes/tun/sonic:tabla_tun3.wav": {
+    "in": [
+     [
+      "sonic:tabla_tun3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 92416,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/te/sonic:tabla_te1.wav": {
+    "in": [
+     [
+      "sonic:tabla_te1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 7840,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/te/sonic:tabla_te2.wav": {
+    "in": [
+     [
+      "sonic:tabla_te2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 14656,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/te-m/sonic:tabla_te_m.wav": {
+    "in": [
+     [
+      "sonic:tabla_te_m.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12736,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/te-ne/sonic:tabla_te_ne.wav": {
+    "in": [
+     [
+      "sonic:tabla_te_ne.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 6752,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/re/sonic:tabla_re.wav": {
+    "in": [
+     [
+      "sonic:tabla_re.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12416,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/tas/sonic:tabla_tas1.wav": {
+    "in": [
+     [
+      "sonic:tabla_tas1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 49024,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/tas/sonic:tabla_tas2.wav": {
+    "in": [
+     [
+      "sonic:tabla_tas2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 63232,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/tas/sonic:tabla_tas3.wav": {
+    "in": [
+     [
+      "sonic:tabla_tas3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 50715,
+    "fadeIn": 0,
+    "fadeOut": 13230,
+    "mono": true
+   },
+   "strokes/ke/sonic:tabla_ke1.wav": {
+    "in": [
+     [
+      "sonic:tabla_ke1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 1915,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ke/sonic:tabla_ke2.wav": {
+    "in": [
+     [
+      "sonic:tabla_ke2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 1942,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ke/sonic:tabla_ke3.wav": {
+    "in": [
+     [
+      "sonic:tabla_ke3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 3339,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ghe/sonic:tabla_ghe1.wav": {
+    "in": [
+     [
+      "sonic:tabla_ghe1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26073,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ghe/sonic:tabla_ghe2.wav": {
+    "in": [
+     [
+      "sonic:tabla_ghe2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 117338,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ghe/sonic:tabla_ghe3.wav": {
+    "in": [
+     [
+      "sonic:tabla_ghe3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 105435,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ghe/sonic:tabla_ghe4.wav": {
+    "in": [
+     [
+      "sonic:tabla_ghe4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35108,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ghe/sonic:tabla_ghe5.wav": {
+    "in": [
+     [
+      "sonic:tabla_ghe5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 156998,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ghe/sonic:tabla_ghe6.wav": {
+    "in": [
+     [
+      "sonic:tabla_ghe6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 158810,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ghe/sonic:tabla_ghe7.wav": {
+    "in": [
+     [
+      "sonic:tabla_ghe7.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 94871,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/ghe/sonic:tabla_ghe8.wav": {
+    "in": [
+     [
+      "sonic:tabla_ghe8.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 25657,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "strokes/dhec/sonic:tabla_dhec.wav": {
+    "in": [
+     [
+      "sonic:tabla_dhec.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 14336,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "tabla",
+   "title": "Tabla",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.3,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 24,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "tabla/dha/mihir:Dha.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 66154,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/dhin/mihir:Dhin.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 66363,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/ge/mihir:Ge.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 66055,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/ke/mihir:Ke.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 4410,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/na/mihir:Na.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 39866,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/re/mihir:Re.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 4410,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/ta/mihir:Ta.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 45590,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/te/mihir:Te.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 4398,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/tin/mihir:Tin.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 88200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tabla/tu/mihir:Tu.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 2,
+     "start": 0,
+     "end": 88229,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Dha"
+    },
+    {
+     "key": 37,
+     "name": "Dhin"
+    },
+    {
+     "key": 38,
+     "name": "Ge"
+    },
+    {
+     "key": 39,
+     "name": "Ke"
+    },
+    {
+     "key": 40,
+     "name": "Na"
+    },
+    {
+     "key": 41,
+     "name": "Re"
+    },
+    {
+     "key": 42,
+     "name": "Ta"
+    },
+    {
+     "key": 43,
+     "name": "Te"
+    },
+    {
+     "key": 44,
+     "name": "Tin"
+    },
+    {
+     "key": 45,
+     "name": "Tu"
+    }
+   ]
+  },
+  {
+   "name": "tabla_strokes",
+   "title": "Tabla, Strokes",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.3,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 24,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "strokes/na/sonic:tabla_na.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 31744,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/na-open/sonic:tabla_na_o.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 65664,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/na-s/sonic:tabla_na_s.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 10400,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/tun/sonic:tabla_tun1.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 99225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/tun/sonic:tabla_tun2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 116865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "strokes/tun/sonic:tabla_tun3.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 92416,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "strokes/te/sonic:tabla_te1.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 7840,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/te/sonic:tabla_te2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 14656,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "strokes/te-m/sonic:tabla_te_m.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 12736,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/te-ne/sonic:tabla_te_ne.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 6752,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/re/sonic:tabla_re.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 12416,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/tas/sonic:tabla_tas1.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 49024,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/tas/sonic:tabla_tas2.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 63232,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "strokes/tas/sonic:tabla_tas3.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 50715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "strokes/ke/sonic:tabla_ke1.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 1915,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/ke/sonic:tabla_ke2.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 1942,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "strokes/ke/sonic:tabla_ke3.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 3339,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "strokes/ghe/sonic:tabla_ghe1.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 26073,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "strokes/ghe/sonic:tabla_ghe2.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 117338,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "strokes/ghe/sonic:tabla_ghe3.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 105435,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "strokes/ghe/sonic:tabla_ghe4.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 35108,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 4
+    },
+    {
+     "file": "strokes/ghe/sonic:tabla_ghe5.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 156998,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 5
+    },
+    {
+     "file": "strokes/ghe/sonic:tabla_ghe6.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 158810,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 6
+    },
+    {
+     "file": "strokes/ghe/sonic:tabla_ghe7.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 94871,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 7
+    },
+    {
+     "file": "strokes/ghe/sonic:tabla_ghe8.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 25657,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 8
+    },
+    {
+     "file": "strokes/dhec/sonic:tabla_dhec.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 14336,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Na"
+    },
+    {
+     "key": 37,
+     "name": "Na open"
+    },
+    {
+     "key": 38,
+     "name": "Na s"
+    },
+    {
+     "key": 39,
+     "name": "Tun"
+    },
+    {
+     "key": 40,
+     "name": "Te"
+    },
+    {
+     "key": 41,
+     "name": "Te m"
+    },
+    {
+     "key": 42,
+     "name": "Te ne"
+    },
+    {
+     "key": 43,
+     "name": "Re"
+    },
+    {
+     "key": 44,
+     "name": "Tas"
+    },
+    {
+     "key": 45,
+     "name": "Ke"
+    },
+    {
+     "key": 46,
+     "name": "Ghe"
+    },
+    {
+     "key": 47,
+     "name": "Dhec"
+    }
+   ]
+  }
+ ]
+}

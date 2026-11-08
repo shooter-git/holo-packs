@@ -34,6 +34,16 @@ An install, and an experience's own build, fetch the audio from its source:
 | [MTG Solo Saxophones](packs/mtg-sax/) | Music Technology Group, Universitat Pompeu Fabra (Freesound); trimmed, looped and mapped by kinwie (SFZ Instruments) | CC BY 4.0 | <https://github.com/sfzinstruments/MTG.SoloSax> |
 | [Erhu](packs/erhu/) | SFZ Instruments | CC0 1.0 | <https://github.com/sfzinstruments/aliexpress-erhu> |
 | [Male Voice "Ah"](packs/vocal-ah/) | SFZ Instruments' legato vocal tutorial; the a vowel of Karoryfer's Hadzi-Fia | CC0 1.0 | <https://github.com/sfzinstruments/legato_vocal_tutorial> |
+| [Javanese Gamelan](packs/gamelan-java/) | Digitópia, Casa da Música, Porto: recorded by Pedro Augusto and Rui Penha, edited by Pedro Augusto | Artistic License 2.0 | <https://github.com/Digitopia/CDM-GAMELAN-SAMPLE-LIBRARY> |
+| [Balinese Gamelan](packs/gamelan-bali/) | Akito van Troyer (One Laptop per Child) | CC BY 3.0 | <https://archive.org/details/AkitoVanTroyer> |
+| [Javanese Gongs](packs/java-gongs/) | Nils van Ottorloo (One Laptop per Child) | CC BY 3.0 | <https://archive.org/details/NilsVanOttorloo> |
+| [Tabla](packs/tabla/) | Mihir Sarkar (One Laptop per Child); dio_333 (Freesound) via Sonic Pi | CC BY 3.0; CC0 1.0 | <https://archive.org/details/MihirSarkar>, <https://github.com/sonic-pi-net/sonic-pi> |
+| [Singing Bowls](packs/singing-bowls/) | OpenPath Music (One Laptop per Child) | CC BY 3.0 | <https://archive.org/details/OpenPathMusic44V1> |
+| [Angklung and Khaen](packs/angklung-khaen/) | Berklee College of Music students (One Laptop per Child) | CC BY 3.0 | <https://archive.org/details/Berklee44v1> |
+| [Nepalese Hand Bells](packs/nepal-bells/) | Versilian Studios (VCSL) | CC0 1.0 | <https://github.com/sgossner/VCSL> |
+| [Dim Cabasa](packs/dim-cabasa/) | kinwie (SFZ Instruments) | CC BY 4.0 | <https://github.com/sfzinstruments/kinwie.dim-cabasa> |
+| [jSteelDrum](packs/steel-drum/) | Jeff Learman | The Unlicense | <https://github.com/sfzinstruments/jlearman.SteelDrum> |
+| [Gogodze Phu (Bobobo Drums)](packs/gogodze-phu/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-i> |
 | [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Wilkinson Audio; its SFZ and FLAC version by kinwie | CC BY 4.0 | <https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from

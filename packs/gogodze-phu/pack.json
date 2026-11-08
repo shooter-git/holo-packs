@@ -1,0 +1,4397 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "gogodze-phu",
+ "name": "Karoryfer Gogodze Phu (Bobobo Drums)",
+ "license": "CC0-1.0",
+ "credit": "Gogodze Phu Vol I by Karoryfer Lecolds (CC0): five bobobo drums from Ghana.",
+ "bytes": 8354466,
+ "source": {
+  "kind": "mix",
+  "note": "The library's WAVs at the pinned commit, each kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "k": "https://raw.githubusercontent.com/sfzinstruments/karoryfer.gogodze-phu-vol-i/7452f62060cd3a468c78bc361d96a4dfb30879c9/"
+  },
+  "downloads": {
+   "k:Samples/bobobo/bobobo_bass_vl1_rr1.wav": "ae3d2c1fe2bde2354d98837d6a363cc8c1eef49462fcdb5118cc0704939f0d0b",
+   "k:Samples/bobobo/bobobo_bass_vl1_rr2.wav": "0f296dc3d6572a77fac3a4f0a1f91a91f69f07fb168e416058c6a859a8899b33",
+   "k:Samples/bobobo/bobobo_bass_vl1_rr3.wav": "7181e929648766baf82e89dc82e684761cbb5b986b38de185e96c416e9598521",
+   "k:Samples/bobobo/bobobo_bass_vl1_rr4.wav": "1bc00f0e1fd621e27788e2ff1360f7cecb8ef5b0271d75701586600d42ca7f8f",
+   "k:Samples/bobobo/bobobo_bass_vl2_rr1.wav": "de6feff79b253d33b9f164ca294847d7914866d594485166ebf226fec0e7ab9e",
+   "k:Samples/bobobo/bobobo_bass_vl2_rr2.wav": "0b301c4c3f3a0cc8c74b98957e39f81b8c27d711559d49f146031358ce21883a",
+   "k:Samples/bobobo/bobobo_bass_vl2_rr3.wav": "9fafa402e397ddf2d6a3566bf2cabf46e311c83efec2782a461b5b6034cfc076",
+   "k:Samples/bobobo/bobobo_bass_vl2_rr4.wav": "f08f27927a8b0eaeefe89319a2405e7dbe5d0d96dc8ffbd0b32b199b962bab23",
+   "k:Samples/bobobo/bobobo_bass_vl3_rr1.wav": "79e84b5317d12903f7a3148050d7166b96f683371dd33ab023fe86554b7e8677",
+   "k:Samples/bobobo/bobobo_bass_vl3_rr2.wav": "021d636877b99bc5e2ee363f07dbc6f53c4a316b1fdf90ca98fe4e094b8e8eae",
+   "k:Samples/bobobo/bobobo_bass_vl3_rr3.wav": "06fb0b2d80133cf8a5cf58a486bd4e7bf1155e17c29fb5cdc66303014e8d1ffc",
+   "k:Samples/bobobo/bobobo_bass_vl3_rr4.wav": "9f10af7f7923f7dc3d52f3917700b35378d5730677c55ff23da7d0d8628dc390",
+   "k:Samples/bobobo/bobobo_bass_vl4_rr1.wav": "d38de60a4d27bf9ce7fd8657d30a1f3da8a34a2c13f56222467ec93014bea776",
+   "k:Samples/bobobo/bobobo_bass_vl4_rr2.wav": "7dca9faab07f825f065870640ed460c5018538cf1917e772a0eff84882dfe6e2",
+   "k:Samples/bobobo/bobobo_bass_vl4_rr3.wav": "d5bc0061f8c3c4ab2ef6525d8bc1b23e4ce35f5262b4e26ce9c79686055fb206",
+   "k:Samples/bobobo/bobobo_bass_vl4_rr4.wav": "ca1282d91cc9905c9c243e9510878f449c941968ab30c4db164821e884957fb5",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl1_rr1.wav": "90c3df3c1ccfa99f6ad41c02dc952d2e837ab0e5aa0081545bafe196e41a784f",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl1_rr2.wav": "8357454cadfd21f8ae8617c533eee78e57f7ae7a4ab3ba24afa5f6b541a03623",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl1_rr3.wav": "e7dbf0c9e7ba041aa90f7c32515b2cf736ef87690ef10026fd2d291170f225a4",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl1_rr4.wav": "e7a7f2819ead836d1628c4b829f820974cc12c2b4571d4b23b168a12d65b5b4e",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl2_rr1.wav": "7031b91f4ba2f12b483ed70fe0ed16e4ff6d22a896b8f2c9eb685ba38171a9a2",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl2_rr2.wav": "e37d9a5c0c049365260088f464eb0b32ad6bb943b2db276b397b9caf11ecca49",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl2_rr3.wav": "5b39f72b9477d594e48f388d2528de96cc48672ea2b518b223f26964683bc755",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl2_rr4.wav": "7e9955c4edafcd3ab875b133dd3f068f810c9db7606cd3add377ae1ac6936471",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl3_rr1.wav": "860c3456319b936b9b7542577abfa3c07e30042a880d9bc3c485d69422fda1f4",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl3_rr2.wav": "a7ac6bcc3daae85c7bc7c7dcd517519dcd5b01ff708a19511ce95de233d60fce",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl3_rr3.wav": "7602b8c3585f8c93fd0f8d9fcbbcf408ea5c6f08d5eebb75f781e9093c2f51e9",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl3_rr4.wav": "baa2886d59aa7c7cd6af52da3bcd096b4b483e06e439a998c6549ab44fa9fc59",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl4_rr1.wav": "b7c692a452af822eada4145160cd1c11db7dcb7ac12bfb4f6e257535da7d69b9",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl4_rr2.wav": "d20d1bead321b727dfa5bf816097d187d7aa492145dc5b2597b953b155f7b5e3",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl4_rr3.wav": "a8927251a4ac6b3644234821e700fc90747e81ff13c2e63f01d5ad824621b63f",
+   "k:Samples/bobobo/bobobo_tenor_l2_vl4_rr4.wav": "7badbec9b1f8fd4f6dc225556241fcbd23bdc5c3c9eea3ae66df586043cf8c3e",
+   "k:Samples/bobobo/bobobo_tenor_l_vl1_rr1.wav": "67ec33d31a7fe3f4c0aa489c2e8af95ca6beb79f31b9da39969150500a744aa3",
+   "k:Samples/bobobo/bobobo_tenor_l_vl1_rr2.wav": "d5a3e4351978c05f2813e72239a5a25abc18eb91d9dfb7eda3e23513ac62b974",
+   "k:Samples/bobobo/bobobo_tenor_l_vl1_rr3.wav": "b8bf93f059a5f5702c3376d3d511c6e93005a55e4988e107d9f8cfd5bfa6b7af",
+   "k:Samples/bobobo/bobobo_tenor_l_vl1_rr4.wav": "17369f1f7f609b03d6a03ccd6be9c1fd15f89a54b5c26a8475b5290abd875817",
+   "k:Samples/bobobo/bobobo_tenor_l_vl2_rr1.wav": "41bc694036ce06aa7fafa4b53a613d853ac2220ef3bd1843e8c65d6ce305c740",
+   "k:Samples/bobobo/bobobo_tenor_l_vl2_rr2.wav": "6c11013538bbda1f30b0002d8797e039d11bb08c9cb0436cbe4f77bdae10d14e",
+   "k:Samples/bobobo/bobobo_tenor_l_vl2_rr3.wav": "3b293f8a3261a2658b48a051e12b72f263179cf9c7ec260c7d271a1aae731460",
+   "k:Samples/bobobo/bobobo_tenor_l_vl2_rr4.wav": "cac4bbf6c20148942a219e2c72f86b67fe586f40efcd76c48a922bb890ecaf4d",
+   "k:Samples/bobobo/bobobo_tenor_l_vl3_rr1.wav": "2449745c982fcfce1076cf43ae39182ea6eaa9ecaa0f0730b21c45c952f9ea92",
+   "k:Samples/bobobo/bobobo_tenor_l_vl3_rr2.wav": "cb132b7b1040393de24e77f79dce63b5ab77a05ed6b312bba6361005826de1dd",
+   "k:Samples/bobobo/bobobo_tenor_l_vl3_rr3.wav": "d41a64735bb22e9caebea1407d4b061e52692aa1b595d326de40caeca7e6b2e3",
+   "k:Samples/bobobo/bobobo_tenor_l_vl3_rr4.wav": "0010934a54cb74800018c2e9a8d0e5b10ea319cc9c3fe20be04572a5ba769176",
+   "k:Samples/bobobo/bobobo_tenor_l_vl4_rr1.wav": "ddc134e4edfac60450cb48940265c0b220abe0f73c71e46e18f2d7f23f0e2a87",
+   "k:Samples/bobobo/bobobo_tenor_l_vl4_rr2.wav": "53cc223e54f04ec71098d7877e310933cce50162d83410156c0746ea15c69398",
+   "k:Samples/bobobo/bobobo_tenor_l_vl4_rr3.wav": "8e468dc511204d2a3f9dd00a61d9af0938ead30edb6ce066d7ee4681fe51b6eb",
+   "k:Samples/bobobo/bobobo_tenor_l_vl4_rr4.wav": "f31835c4dadc22e794f494a6f8addd870b891db5d7a6041d45b1f5249e71e07b",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl1_rr1.wav": "77eb92f1361d6eb3da1da882d238230def8ec1291a1ae154f10a77882f76f166",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl1_rr2.wav": "bc3aa9b3a20163e8bbf5bfe2fa6a4cb99a16fafda85219ae01b2ff25f97a2c17",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl1_rr3.wav": "bfe3e93dcada4c1c23deda0327757eb6bd75c6c7807be03293aae3e87b31a917",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl1_rr4.wav": "e2d9c9b30e750448398cda30ad76e505ced4393d8b5e03393cc1c6eaf81137d0",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl2_rr1.wav": "1af039a361557e02c346905256024e61de4964673ff854ef1f16210803af00a1",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl2_rr2.wav": "290e5106b48e5856c210003e8a139d30c296723e6ef68d3a0d83f08d41b14c5f",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl2_rr3.wav": "f052d1c36e8952e1d9ce061e76c2977b483cc24cb7fd950682bf2cafc19226a4",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl2_rr4.wav": "b1e47ba7d82aa06e6efe599e84e4e900a59c19df5e46a50cbc15e4e0156044e1",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl3_rr1.wav": "18a47e69e1676391e300cafb829cbf21f994c3d31315909a36d3b2ba42a0db44",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl3_rr2.wav": "e8d032ea6df13a29bff8a3426dadbbc50257558b954f4c09faf409fe59de3c5a",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl3_rr3.wav": "9161417a9e8977ac27d5f29f8e86dfa17719dc70c5f3dfebc7de4448fcd98373",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl3_rr4.wav": "c7299a8c2d943224a12cd65720cee3ef1ddb9bd0a8712fd3a3329be6044e0085",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl4_rr1.wav": "ff0e1b1a673fe2cf3b2eff5226e28da3514afd689f2e54ffa890a78e75e2fc98",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl4_rr2.wav": "3e956297a288ad0673ea6238cf7aebc3bc24c23ce5b7f699124548e42435b407",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl4_rr3.wav": "f38dfd84ad7155ce7115b0581df3431035f914a52dd509395163a6eb9a3c9cd0",
+   "k:Samples/bobobo/bobobo_tenor_s2_vl4_rr4.wav": "c3d1e1235576f4a34e74a475f7681c1b442a19c6ab5f7a000740bca5a4633c0c",
+   "k:Samples/bobobo/bobobo_tenor_s_vl1_rr1.wav": "24a37d422e7de196b54538549da37c0021c147f1d0ef62d1e4fd5f07f77d716f",
+   "k:Samples/bobobo/bobobo_tenor_s_vl1_rr2.wav": "788da871bfb7f2acd6029cc15197cb7fed548c6dea3d4cec7bb031af753f089d",
+   "k:Samples/bobobo/bobobo_tenor_s_vl1_rr3.wav": "c89b1367d9c2f3d797b9df5fa3577868209d64fcfdfe5a35571a3d8d25c2695b",
+   "k:Samples/bobobo/bobobo_tenor_s_vl1_rr4.wav": "5ec03fc5f10ceed820d58e8edc438ba31d9c5c2d95560357d333a9b3d7b78838",
+   "k:Samples/bobobo/bobobo_tenor_s_vl2_rr1.wav": "85230f15a74c1baf805c995bf05b4738bc145e4143afb45f2bfb5ffafb70fa1f",
+   "k:Samples/bobobo/bobobo_tenor_s_vl2_rr2.wav": "d00a50c7fb4cdd918f695ce8b67ba6905a55465aa9d8ac7356ec56b9c582bbbd",
+   "k:Samples/bobobo/bobobo_tenor_s_vl2_rr3.wav": "3c98c757d344fe09893366a718925f140a5932a28d8039a19edf547d3671d48a",
+   "k:Samples/bobobo/bobobo_tenor_s_vl2_rr4.wav": "202fa144fec66c5312075118a2cdc7d78f79be2b5e40d1c6bd9af0f321c71a93",
+   "k:Samples/bobobo/bobobo_tenor_s_vl3_rr1.wav": "3a4933db562c757a187068e71d866c12ff38b44d778158a4e12e82a63414bbe6",
+   "k:Samples/bobobo/bobobo_tenor_s_vl3_rr2.wav": "d44ab96d88337ac33ef86f6fff0a0bf8b9296219c1cdcb4f946d4974c0b386a0",
+   "k:Samples/bobobo/bobobo_tenor_s_vl3_rr3.wav": "57b34cc93aa5a38f2c7a0ca0d0517c9f056d5ea58ea61f53a445c94ad4fcb724",
+   "k:Samples/bobobo/bobobo_tenor_s_vl3_rr4.wav": "4ea245c1e9e2aeaeac6d884007faf1a57977a7fa7afb09cd1a780b8634688e1f",
+   "k:Samples/bobobo/bobobo_tenor_s_vl4_rr1.wav": "8af0f53cecf9f48ebf5d150048f1896934fc420f4c8b98b12194e0eb96490339",
+   "k:Samples/bobobo/bobobo_tenor_s_vl4_rr2.wav": "fc6ca9d3d1f0bd0ba35ce087bb693d6562edad79bbfb942930647e006862c074",
+   "k:Samples/bobobo/bobobo_tenor_s_vl4_rr3.wav": "2fe9613f89e48e6e7248b2250df7cb9cfc3b70d844823b83d189588f88e77032",
+   "k:Samples/bobobo/bobobo_tenor_s_vl4_rr4.wav": "c442c87f4b1dbe3651716168743e61b8d69914932f4506299d94e3edb3818802",
+   "k:Samples/bobobo/bobobo_treble_l2_vl1_rr1.wav": "e61a2e91dc82e907bc7d936ae4f98f94094ea387c1a770affb1a39b842b5d10e",
+   "k:Samples/bobobo/bobobo_treble_l2_vl1_rr2.wav": "1d6551c9761109821d1d9a3eecbc1825fa345b471fc489fb0ad88f09bff0335b",
+   "k:Samples/bobobo/bobobo_treble_l2_vl1_rr3.wav": "55fa770e986149871219eeb532d4a0adf6b74ca3f4f299c3580f194b86a6bff9",
+   "k:Samples/bobobo/bobobo_treble_l2_vl1_rr4.wav": "bf81ee3462c0836a57719c32c17836fa40e8814e0581b673206d482ab6a3010a",
+   "k:Samples/bobobo/bobobo_treble_l2_vl2_rr1.wav": "4aa810349c75c43efddbfbfe7fb192c899ca4eb577c068e410164f69ad7a79ce",
+   "k:Samples/bobobo/bobobo_treble_l2_vl2_rr2.wav": "ebfb5dbf057c1d19be6e33ca25cb59a208aa396be2c0b478e28d42a1b6ec2c2c",
+   "k:Samples/bobobo/bobobo_treble_l2_vl2_rr3.wav": "8d4ea77940a4407009b8629114d5cde4dbe582c66bf42371bcacf9757dde25b0",
+   "k:Samples/bobobo/bobobo_treble_l2_vl2_rr4.wav": "93ed5a2469c838c2c838e76579e587f0d955b84938687fa797e27862799466d3",
+   "k:Samples/bobobo/bobobo_treble_l2_vl3_rr1.wav": "8a20051155e6a931b536fd5d67cd0e58fa036f780bf4a4bfffa5fc16fbc184e9",
+   "k:Samples/bobobo/bobobo_treble_l2_vl3_rr2.wav": "67abbe97cae335db2d94d34c7794fc5a2f2f43e707b90bb00f8627d22b4f4f8d",
+   "k:Samples/bobobo/bobobo_treble_l2_vl3_rr3.wav": "c05af14af59d1c2de171524197ac58cfcfe8221953ae133f125d07f7beeb2d8c",
+   "k:Samples/bobobo/bobobo_treble_l2_vl3_rr4.wav": "f9222d0212beaaeae2a44057761f0f30cb452ebdd81cc7b148d649576eb006ae",
+   "k:Samples/bobobo/bobobo_treble_l2_vl4_rr1.wav": "277b674a6acaf9115382214eba0b91e87887d8f69d57f06ceeb2b8d6bbaedae2",
+   "k:Samples/bobobo/bobobo_treble_l2_vl4_rr2.wav": "d15647806564b3ce2b982b7778c2b670c07c50123ff2bf20b4f56d0b1a0a5887",
+   "k:Samples/bobobo/bobobo_treble_l2_vl4_rr3.wav": "4ba8c9d49164e73c03be2e6f4f0d30a4dbb5b029932f41daad5c1ab583dc5f37",
+   "k:Samples/bobobo/bobobo_treble_l2_vl4_rr4.wav": "1873cfcb8c3ebaf045932a837d6ae1f84f4a413f9881c5105335d2a481109f32",
+   "k:Samples/bobobo/bobobo_treble_l_vl1_rr1.wav": "9867927b8805a6a5bfb90fe4849559a47d02f90df8b637ce2393df52d24e4848",
+   "k:Samples/bobobo/bobobo_treble_l_vl1_rr2.wav": "d5a47f0ede693852d202a104e31a83cf3a0147e9a18350c205969292d9b59ca5",
+   "k:Samples/bobobo/bobobo_treble_l_vl1_rr3.wav": "2d5022700608831e83b4fba332e56451ef1515bfa6ed2c05fc78467f9ec62097",
+   "k:Samples/bobobo/bobobo_treble_l_vl1_rr4.wav": "e987348a02f956547f322cd90aaa7ff8b74a00ab31bdc5be97e0f43e8b799276",
+   "k:Samples/bobobo/bobobo_treble_l_vl2_rr1.wav": "ab9f63bf8510480215cfc8f2cfb7872009e5b2468f08ec76cab031ccdf247887",
+   "k:Samples/bobobo/bobobo_treble_l_vl2_rr2.wav": "4b18ed1ef25f8cd99a3f08d6609dd519fbbccdb471cbd3e4810d414b59667516",
+   "k:Samples/bobobo/bobobo_treble_l_vl2_rr3.wav": "651151450a7bf6c76208e23de3339fca0bb24705f8148597f6bed2209fc44932",
+   "k:Samples/bobobo/bobobo_treble_l_vl2_rr4.wav": "78ffbc8a65959089de4974b7424a68b5c66c14e3ea74c68092c0e28414483198",
+   "k:Samples/bobobo/bobobo_treble_l_vl3_rr1.wav": "050f79ced1e6e1ab3ecd2ba36fa8613c9fe74afc1ffbd3438f53d990e32f8f89",
+   "k:Samples/bobobo/bobobo_treble_l_vl3_rr2.wav": "89463ed732ecad2f393844b6ceef3605c7d9d39640de0c1426674f7b46c7b972",
+   "k:Samples/bobobo/bobobo_treble_l_vl3_rr3.wav": "d212d5f1822c6b29f0e40df6c5a657c56c20034ea4698ec6ba4cc469a27f7fbf",
+   "k:Samples/bobobo/bobobo_treble_l_vl3_rr4.wav": "cbbcb3d3deea7fcf652004264120632313ce016d8b5728af723f69ae88db69db",
+   "k:Samples/bobobo/bobobo_treble_l_vl4_rr1.wav": "dd2b241b271813039ec8d453933e44fa0226161d56aaea3c0af6f49481fa1d1c",
+   "k:Samples/bobobo/bobobo_treble_l_vl4_rr2.wav": "802d6b31c7065961e0527dd4ce94c4689d1adc8541ea6b3ba4173cb10a47b4cd",
+   "k:Samples/bobobo/bobobo_treble_l_vl4_rr3.wav": "61d259fb15b8c711c6e19cf489480f15210e572f81defdd7b8f7ed1a150c63f2",
+   "k:Samples/bobobo/bobobo_treble_l_vl4_rr4.wav": "b2bfd7563737117ee33ae13252c4282a3254b539679f27ee960a6ebf1082b671",
+   "k:Samples/bobobo/bobobo_treble_s2_vl1_rr1.wav": "6a0552dcd157246f26b46ff039391894899c1d80a025d069f72c347d26fe557e",
+   "k:Samples/bobobo/bobobo_treble_s2_vl1_rr2.wav": "abcfbc2dc5aec24bee07ec964f8179c15ea63dea9438eccd415d963a0238a829",
+   "k:Samples/bobobo/bobobo_treble_s2_vl1_rr3.wav": "14e1205e42eb1e0e27cb096649ce6b446f9a425a1be09760126f608ee42c60f9",
+   "k:Samples/bobobo/bobobo_treble_s2_vl1_rr4.wav": "a09041afbca0d843f7b9a5f90f0052cf1829faea39fc539ecb9fa875de43d9b8",
+   "k:Samples/bobobo/bobobo_treble_s2_vl2_rr1.wav": "2be1a490eb6863690f70902c45892100aa7916420324bcd929dc20b2b0bb67b5",
+   "k:Samples/bobobo/bobobo_treble_s2_vl2_rr2.wav": "0d3ecda74fd5fc8e126654420281d0ebb6128e7e8a7ac156dde2f586e5a095c6",
+   "k:Samples/bobobo/bobobo_treble_s2_vl2_rr3.wav": "4c2b5623e3bf9d819ae2ba264490baece7382a05a363ce7039d616a9e6f303ab",
+   "k:Samples/bobobo/bobobo_treble_s2_vl2_rr4.wav": "a58d7c3752d79122de1541351056a69dbf67cd35ea71ddde0c2359ddd36d46c1",
+   "k:Samples/bobobo/bobobo_treble_s2_vl3_rr1.wav": "d478ee81d01a63f4d381300fc36ddd53b425fa900da4d542f5670fe1d4bb0d51",
+   "k:Samples/bobobo/bobobo_treble_s2_vl3_rr2.wav": "73a4488c62c3d2b4c963f1f94162f670bbeaa96fe1d8c34dc932ea6a78ee11b5",
+   "k:Samples/bobobo/bobobo_treble_s2_vl3_rr3.wav": "fbe1c482b3f7ab0a327b8c4e3b913554dc061434cd259edc2f726122c0e3b20e",
+   "k:Samples/bobobo/bobobo_treble_s2_vl3_rr4.wav": "6502470f752afbbd347f77f2a768e870a70676953343cc5df78242b2b9b86cb3",
+   "k:Samples/bobobo/bobobo_treble_s2_vl4_rr1.wav": "9a14b9e3f72f92e6d5be106dc0a1507111dfb01c44ebb809c4ff603437af0f83",
+   "k:Samples/bobobo/bobobo_treble_s2_vl4_rr2.wav": "4706c7e80a053ba04327b441f4260375a76063a29b2c98c19666ba60cc61713f",
+   "k:Samples/bobobo/bobobo_treble_s2_vl4_rr3.wav": "722e4ae8959c5840616594ce37e4715d2c3739b1f0bf7046c288c0e5203f4820",
+   "k:Samples/bobobo/bobobo_treble_s2_vl4_rr4.wav": "f9367e05602ea6c26e2b7af556d53899016390857d784b10d465e576f50e082c",
+   "k:Samples/bobobo/bobobo_treble_s_vl1_rr1.wav": "4e128bc2c4eb142bd2b7f44b942cd31a73fc6cf600d092fd8501a698b5724394",
+   "k:Samples/bobobo/bobobo_treble_s_vl1_rr2.wav": "31c24508eaf260a08bed77dac5db07e1cbc0582a2c3b9bcd5883aeb81ee3efc1",
+   "k:Samples/bobobo/bobobo_treble_s_vl1_rr3.wav": "514ece6874bcaddcca0ad2268bc87da40aebe910054f1c212faf5101eea04666",
+   "k:Samples/bobobo/bobobo_treble_s_vl1_rr4.wav": "5183de58b2e4fbf9481c06f62578324397833d70251c574428517a25a17f6b5c",
+   "k:Samples/bobobo/bobobo_treble_s_vl2_rr1.wav": "a5bed1f8309b5a8711fea52c47573563da2859a61e7dbd9a64b52e7263511c11",
+   "k:Samples/bobobo/bobobo_treble_s_vl2_rr2.wav": "46f57156c26a18e0334a815d5c8f25f3c60a5bbdb8384d504b58319168f0acea",
+   "k:Samples/bobobo/bobobo_treble_s_vl2_rr3.wav": "3b25436643a03a89cf8e3beed76de7cbbeea14226e4e0a85a0e0808c41c2f9fc",
+   "k:Samples/bobobo/bobobo_treble_s_vl2_rr4.wav": "395bb5a91a58bf335c53589b379f05f0102c6db8c2ec9c73f0c2bd221c268fc4",
+   "k:Samples/bobobo/bobobo_treble_s_vl3_rr1.wav": "2f781a1bc66ec0424157c29df475d1f94abac5ae0ac268574c0edf00acf1d2a2",
+   "k:Samples/bobobo/bobobo_treble_s_vl3_rr2.wav": "4a4465253e2404d4ddef70ef6ec0c7452e4a3914d545eb36b1336dba82831661",
+   "k:Samples/bobobo/bobobo_treble_s_vl3_rr3.wav": "07efeb8808dde5c4152a3986dde9ac34f6e8a902d0b65e8d862692c9a83a382e",
+   "k:Samples/bobobo/bobobo_treble_s_vl3_rr4.wav": "acb80ca5e4ab96d44335012765feb0ddfd96f6bd0a15718ee388fb9c0c71491a",
+   "k:Samples/bobobo/bobobo_treble_s_vl4_rr1.wav": "edee37696299f8c719469a2c4e7ff744d1a4d15f10e17807a99f85cd4efdf359",
+   "k:Samples/bobobo/bobobo_treble_s_vl4_rr2.wav": "6f793300ecab293adf67abc78d36fcfaf2f1e4688c08c3b10a7d0df4c694ae88",
+   "k:Samples/bobobo/bobobo_treble_s_vl4_rr3.wav": "3e56b45f95d63258d403a9d4b015e8cd92f7be376dc76bfe554b43c1fd987541",
+   "k:Samples/bobobo/bobobo_treble_s_vl4_rr4.wav": "23a38062fca64bea81bfdf9c7c6c48374dcce93c01d2f659a5ebd8852f30a6ed"
+  },
+  "bits": 16,
+  "files": {
+   "bobobo/bass/bobobo_bass_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/bass/bobobo_bass_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_bass_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-long/bobobo_tenor_l_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-1-short/bobobo_tenor_s_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-long/bobobo_tenor_l2_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_l2_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/tenor-2-short/bobobo_tenor_s2_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_tenor_s2_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41895,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-long/bobobo_treble_l_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-1-short/bobobo_treble_s_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33075,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30870,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 50715,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-long/bobobo_treble_l2_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_l2_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl1_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl1_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl1_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl1_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl1_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl1_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl1_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl1_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl2_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl2_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl2_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl2_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl2_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl2_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl2_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl2_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl3_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl3_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl3_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl3_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl3_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl3_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl3_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl3_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl4_rr1.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl4_rr1.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl4_rr2.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl4_rr2.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl4_rr3.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl4_rr3.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "bobobo/treble-2-short/bobobo_treble_s2_vl4_rr4.wav": {
+    "in": [
+     [
+      "k:Samples/bobobo/bobobo_treble_s2_vl4_rr4.wav",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "bobobo",
+   "title": "Bobobo Drums",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.15,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 30,
+   "polyphony": 32,
+   "notePolyphony": 3,
+   "offTime": 0.04,
+   "zones": [
+    {
+     "file": "bobobo/bass/bobobo_bass_vl1_rr1.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl1_rr2.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl1_rr3.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl1_rr4.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl2_rr1.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl2_rr2.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl2_rr3.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl2_rr4.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl3_rr1.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl3_rr2.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl3_rr3.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl3_rr4.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl4_rr1.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl4_rr2.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl4_rr3.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/bass/bobobo_bass_vl4_rr4.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl1_rr1.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl1_rr2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl1_rr3.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl1_rr4.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl2_rr1.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl2_rr2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl2_rr3.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl2_rr4.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl3_rr1.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl3_rr2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl3_rr3.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl3_rr4.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl4_rr1.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl4_rr2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl4_rr3.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-1-long/bobobo_tenor_l_vl4_rr4.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl1_rr1.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl1_rr2.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl1_rr3.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl1_rr4.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl2_rr1.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl2_rr2.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl2_rr3.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl2_rr4.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl3_rr1.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl3_rr2.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl3_rr3.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl3_rr4.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl4_rr1.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl4_rr2.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl4_rr3.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-1-short/bobobo_tenor_s_vl4_rr4.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl1_rr1.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl1_rr2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl1_rr3.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl1_rr4.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl2_rr1.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl2_rr2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl2_rr3.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl2_rr4.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl3_rr1.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl3_rr2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl3_rr3.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl3_rr4.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl4_rr1.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl4_rr2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl4_rr3.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-2-long/bobobo_tenor_l2_vl4_rr4.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl1_rr1.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl1_rr2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl1_rr3.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl1_rr4.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl2_rr1.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl2_rr2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl2_rr3.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl2_rr4.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl3_rr1.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl3_rr2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl3_rr3.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl3_rr4.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl4_rr1.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl4_rr2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl4_rr3.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/tenor-2-short/bobobo_tenor_s2_vl4_rr4.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl1_rr1.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl1_rr2.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl1_rr3.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl1_rr4.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl2_rr1.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl2_rr2.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl2_rr3.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl2_rr4.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl3_rr1.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl3_rr2.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl3_rr3.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl3_rr4.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl4_rr1.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl4_rr2.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl4_rr3.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-1-long/bobobo_treble_l_vl4_rr4.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl1_rr1.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl1_rr2.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl1_rr3.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl1_rr4.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl2_rr1.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl2_rr2.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl2_rr3.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl2_rr4.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl3_rr1.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl3_rr2.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl3_rr3.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl3_rr4.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl4_rr1.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl4_rr2.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl4_rr3.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-1-short/bobobo_treble_s_vl4_rr4.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl1_rr1.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl1_rr2.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl1_rr3.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl1_rr4.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl2_rr1.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl2_rr2.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl2_rr3.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl2_rr4.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl3_rr1.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl3_rr2.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl3_rr3.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl3_rr4.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl4_rr1.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl4_rr2.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 50715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl4_rr3.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-2-long/bobobo_treble_l2_vl4_rr4.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl1_rr1.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl1_rr2.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl1_rr3.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl1_rr4.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 11.98,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl2_rr1.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl2_rr2.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl2_rr3.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl2_rr4.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 77,
+     "hivel": 91,
+     "gain": 8.69,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl3_rr1.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl3_rr2.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl3_rr3.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl3_rr4.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 92,
+     "hivel": 105,
+     "gain": 4.92,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl4_rr1.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl4_rr2.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl4_rr3.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2
+    },
+    {
+     "file": "bobobo/treble-2-short/bobobo_treble_s2_vl4_rr4.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": 1.94,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 3
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Bass"
+    },
+    {
+     "key": 37,
+     "name": "Tenor 1 long"
+    },
+    {
+     "key": 38,
+     "name": "Tenor 1 short"
+    },
+    {
+     "key": 39,
+     "name": "Tenor 2 long"
+    },
+    {
+     "key": 40,
+     "name": "Tenor 2 short"
+    },
+    {
+     "key": 41,
+     "name": "Treble 1 long"
+    },
+    {
+     "key": 42,
+     "name": "Treble 1 short"
+    },
+    {
+     "key": 43,
+     "name": "Treble 2 long"
+    },
+    {
+     "key": 44,
+     "name": "Treble 2 short"
+    }
+   ]
+  }
+ ]
+}

@@ -1,8 +1,8 @@
 # HO[LO] Packs
 
 The free sample packs [HO[LO] Desk](https://github.com/shooter-git/holo-desk) plays: pianos, drum kits,
-an orchestra, basses, guitars and more. Every one is free to use and to share: CC0, CC BY 3.0 or 4.0,
-public domain, the Unlicense, or free without restriction.
+an orchestra, basses, guitars, gamelan and more. Every one is free to use and to share: CC0, CC BY 3.0
+or 4.0, public domain, the Unlicense, the Artistic License 2.0, or free without restriction.
 
 **There's no audio in this repository.** Each pack here is a map: its instruments, where each sample
 comes from (a git commit, published downloads, an archive, or recordings mixed into new files), and
@@ -28,12 +28,19 @@ version…) are listed with it, and every pack links to its own page.
 
 | Pack | Families | Instruments | Size | Licence |
 |---|---|---|---|---|
+| [Angklung and Khaen (OLPC)](packs/angklung-khaen/) | Percussion, Woodwinds | 3 | 3 MB | CC BY 3.0 |
+| [Balinese Gamelan (OLPC)](packs/gamelan-bali/) | Percussion, Tuned percussion | 6 | 14 MB | CC BY 3.0 |
+| [Dim Cabasa](packs/dim-cabasa/) | Percussion | 1 | 22 MB | CC BY 4.0 |
 | [Erhu](packs/erhu/) | Strings | 2 | 45 MB | CC0 1.0 |
 | [FreePats Spanish Classical Guitar](packs/freepats-guitar/) | Guitars and plucked strings | 1 | 20 MB | CC0 1.0 |
 | [Greg Sullivan E-Pianos (CP80, Pianet T, Wurlitzer)](packs/epianos/) | Pianos and keys | 3 | 78 MB | CC BY 3.0 |
 | [Headroom Piano (Yamaha C3)](packs/headroom/) | Pianos and keys | 2 | 512 MB | CC BY 4.0 |
+| [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) | Percussion, Tuned percussion | 27 | 363 MB | Artistic License 2.0 |
+| [Javanese Gongs (OLPC)](packs/java-gongs/) | Percussion | 1 | 8 MB | CC BY 3.0 |
 | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) | Drum kits | 1 | 168 MB | CC0 1.0 |
+| [jSteelDrum](packs/steel-drum/) | Tuned percussion | 1 | 111 MB | The Unlicense |
 | [Karoryfer Bear Sax](packs/bear-sax/) | Woodwinds | 2 | 87 MB | CC0 1.0 |
+| [Karoryfer Gogodze Phu (Bobobo Drums)](packs/gogodze-phu/) | Percussion | 1 | 8 MB | CC0 1.0 |
 | [Karoryfer Meatbass](packs/meatbass/) | Bass | 1 | 116 MB | CC0 1.0 |
 | [Karoryfer War Tuba](packs/war-tuba/) | Brass | 2 | 49 MB | CC0 1.0 |
 | [Karoryfer Weresax](packs/weresax/) | Woodwinds | 1 | 101 MB | CC0 1.0 |
@@ -41,10 +48,13 @@ version…) are listed with it, and every pack links to its own page.
 | [Male Voice "Ah"](packs/vocal-ah/) | Voices | 1 | 38 MB | CC0 1.0 |
 | [MTG Solo Saxophones](packs/mtg-sax/) | Woodwinds | 4 | 153 MB | CC BY 4.0 |
 | [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Drum kits | 1 | 388 MB | CC BY 4.0 |
+| [Nepalese Hand Bells (VCSL)](packs/nepal-bells/) | Percussion | 1 | 1 MB | CC0 1.0 |
 | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) | Drum kits | 1 | 223 MB | CC0 1.0 |
 | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) | Drum kits | 1 | 172 MB | CC0 1.0 |
 | [Salamander Grand Piano (Yamaha C5)](packs/salamander/) | Pianos and keys | 2 | 1.4 GB | Public domain |
+| [Singing Bowls (OLPC)](packs/singing-bowls/) | Tuned percussion | 1 | 8 MB | CC BY 3.0 |
 | [Steinway Model D (bitKlavier Grand)](packs/steinway/) | Pianos and keys | 3 | 1.2 GB | CC BY 4.0 |
+| [Tabla (OLPC, Sonic Pi)](packs/tabla/) | Percussion | 2 | 4 MB | CC BY 3.0 |
 | [University of Iowa MIS: Clarinet and Bassoon](packs/iowa/) | Woodwinds | 4 | 101 MB | Free to use without restriction |
 | [Versilian Community Sample Library](packs/vcsl/) | Percussion, Tuned percussion, Guitars and plucked strings, Woodwinds | 22 | 198 MB | CC0 1.0 |
 | [VSCO 2 Community Edition](packs/vsco2/) | Pianos and keys, Percussion, Tuned percussion, Strings, Woodwinds, Brass | 57 | 1.5 GB | CC0 1.0 |
@@ -75,16 +85,25 @@ version…) are listed with it, and every pack links to its own page.
 
 | Instrument | Also played as | Pack |
 |---|---|---|
+| Angklung | Ensemble | [Angklung and Khaen (OLPC)](packs/angklung-khaen/) |
 | Bell Tree |  | [VSCO 2 Community Edition](packs/vsco2/) |
+| Bobobo Drums |  | [Karoryfer Gogodze Phu (Bobobo Drums)](packs/gogodze-phu/) |
 | Bongo High | Muted | [Versilian Community Sample Library](packs/vcsl/) |
 | Bongo Low |  | [Versilian Community Sample Library](packs/vcsl/) |
+| Cabasa |  | [Dim Cabasa](packs/dim-cabasa/) |
 | Concert Bass Drum |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Conga |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Cymbal Bell |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Cymbal Swell (Long) |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Cymbal Swell (Medium) |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Cymbal Swell (Short) |  | [VSCO 2 Community Edition](packs/vsco2/) |
+| Gong Ageng and Suwukan |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Gong, Kempur, Kemong, Kempli |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
 | Hi-Hat (Closed) | Open, Pedal | [Versilian Community Sample Library](packs/vcsl/) |
+| Javanese Gongs |  | [Javanese Gongs (OLPC)](packs/java-gongs/) |
+| Kendhang |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Kethuk and Kempyang |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Nepalese Hand Bells |  | [Nepalese Hand Bells (VCSL)](packs/nepal-bells/) |
 | Shaker (Down) |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Shaker (Up) |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Sleigh Bells |  | [VSCO 2 Community Edition](packs/vsco2/) |
@@ -94,6 +113,7 @@ version…) are listed with it, and every pack links to its own page.
 | Snare Roll |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Suspended Cymbal (Mallet) |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Suspended Cymbal (Stick) |  | [VSCO 2 Community Edition](packs/vsco2/) |
+| Tabla | Strokes | [Tabla (OLPC, Sonic Pi)](packs/tabla/) |
 | Triangle |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Tumba |  | [VSCO 2 Community Edition](packs/vsco2/) |
 
@@ -101,10 +121,39 @@ version…) are listed with it, and every pack links to its own page.
 
 | Instrument | Also played as | Pack |
 |---|---|---|
+| Bonang Barung (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Bonang Barung (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Bonang Penerus (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Bonang Penerus (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Calung |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
 | Finger Cymbals |  | [Versilian Community Sample Library](packs/vcsl/) |
+| Gambang (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Gambang (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Gangsa Kantilan |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
+| Gangsa Pemade |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
+| Gendèr Barung (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Gendèr Barung (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Gendèr Penerus (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Gendèr Penerus (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Glockenspiel |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Gong |  | [Versilian Community Sample Library](packs/vcsl/) |
+| Jegogan |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
+| Kempul (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Kempul (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Kenong (Pelog) | Pelog, Damped | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Kenong (Slendro) | Slendro, Damped | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Marimba |  | [VSCO 2 Community Edition](packs/vsco2/) |
+| Reyong |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
+| Saron Barung (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Saron Barung (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Saron Demung (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Saron Demung (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Saron Peking (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Saron Peking (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Singing Bowls |  | [Singing Bowls (OLPC)](packs/singing-bowls/) |
+| Slenthem (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Slenthem (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Steel Pan |  | [jSteelDrum](packs/steel-drum/) |
 | Temple Block |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Timpani | Roll | [VSCO 2 Community Edition](packs/vsco2/) |
 | Vibraphone | Bowed | [Versilian Community Sample Library](packs/vcsl/) |
@@ -148,6 +197,7 @@ version…) are listed with it, and every pack links to its own page.
 | Clarinet | Staccato | [University of Iowa MIS: Clarinet and Bassoon](packs/iowa/) |
 | Clarinet | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
 | Flute | Non-vibrato, Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Khaen |  | [Angklung and Khaen (OLPC)](packs/angklung-khaen/) |
 | Oboe | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
 | Ocarina | Vibrato | [Versilian Community Sample Library](packs/vcsl/) |
 | Soprano Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
