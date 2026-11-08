@@ -4,7 +4,7 @@
 //
 // French horn, trumpet (with and without vibrato), tenor and bass trombones and tuba: every note
 // fortissimo, in stereo. One layer a note: velocity sets its level, the loudest at -17 dB at velocity
-// 127. Each note starts just before its attack and is kept until it falls to -60 dB.
+// 127 (measured over a note's first second: a held note swells). Each note starts just before its attack and is kept until it falls to -60 dB.
 import { join } from 'node:path';
 import { arg, Downloads } from '../../tools/lib.mjs';
 import { BASE, CREDIT, LICENSE, notes, page } from '../../tools/iowa.mjs';
@@ -30,6 +30,8 @@ for (const [name, title, pageName, way] of BRASS) {
     folder: name,
     samples: notes(files, { pick: (p) => p.includes(way) }),
     trim: true,
+    // a held note swells after its attack: its loudness over its first second
+    window: 1,
     tail: { floor: -60, cap: 12, fade: 0.5 },
     playing: { release: 0.2, attack: 0.01, oneShot: false, polyphony: 24, notePolyphony: 2, offTime: 0.08 },
   });

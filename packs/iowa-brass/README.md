@@ -9,7 +9,7 @@ French horn, trumpet (with and without vibrato), tenor and bass trombones, and t
 **How it's made:** HO[LO] fetches each note's AIFF from the university's own site, starts it just
 before its attack (the recordings have silence before it), keeps it until it falls to −60 dB and fades
 it there, otherwise bit for bit. One layer a note, so velocity sets its level, the loudest at −17 dB at
-velocity 127 (less where an attack would peak over the limit). Low brass measures quiet by the loudness HO[LO] levels with, so the bass trombone sits a few dB
+velocity 127 (less where an attack would peak over the limit). A held note's loudness is measured over its first second, as it swells after its attack. Low brass measures quiet by the loudness HO[LO] levels with, so the bass trombone sits a few dB
 lower; raise its fader for weight.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->

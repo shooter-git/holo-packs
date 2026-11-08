@@ -11,7 +11,7 @@ in first position would.
 **How it's made:** HO[LO] fetches each note's AIFF from the university's own site, starts it just
 before its attack (the recordings have silence before it), keeps it until it falls to −60 dB and fades
 it there, otherwise bit for bit. One layer a note, so velocity sets its level, the loudest at −17 dB at
-velocity 127 (less where an attack would peak over the limit). 
+velocity 127 (less where an attack would peak over the limit). A held note's loudness is measured over its first second, as it swells after its attack. 
 
 For string sections, see [VSCO 2](../vsco2/) and [Orchestral Sections](../orchestral-sections/), which
 layers these soloists into VSCO 2's sections.

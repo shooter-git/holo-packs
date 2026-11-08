@@ -41,7 +41,8 @@ for (const [inst, strings] of Object.entries(STRINGS)) {
       samples: notes(files, { pick: (p) => p.includes(`.${way}.`), prefer }),
       trim: true,
       tail,
-      ...(way === 'pizz' ? { peak: -1 } : {}),
+      // a bowed note swells after its attack: its loudness over its first second
+      ...(way === 'pizz' ? { peak: -1 } : { window: 1 }),
       playing: { ...playing, polyphony: 32, notePolyphony: 2, offTime: 0.1 },
     });
 }
