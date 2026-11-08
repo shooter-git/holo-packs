@@ -8,10 +8,8 @@ leave space around the notes.
 - **Felt Upright** is the heart of it: soft hammers (a Transient Softener), the top end rolled away, a
   little warmth in the low-mids and a gentle tape warble, in a **Small Room**.
 - **Felt Upright, Worn Tape** pushes the warble and the tape saturation further.
+- **Felt Upright, Cassette** adds a cassette's hiss and grain (the Lo-fi effect).
 - Strings, pads and textures share a **Chamber**: keep them low and let the piano lead.
-
-**Coming:** **Felt Upright, Cassette** adds a cassette's hiss and grain once HO[LO] Desk has its Lo-fi
-effect.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
 
@@ -21,7 +19,7 @@ effect.
 |---|---|
 | Id | `felt-and-strings` |
 | Palette | Intimate and fragile: a felt upright close and muffled, chamber strings, soft pads, tape warble and sparse textures. |
-| Sounds | 11 (1 coming) |
+| Sounds | 11 |
 | Plays | [VSCO 2 Community Edition](../vsco2/), HO[LO] Desk's built-in synths |
 | Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0). Each pack keeps its own licence and credit. |
@@ -41,7 +39,7 @@ greyed out until then.
 |---|---|---|---|---|---|
 | Felt Upright | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter | Small Room, −14 dB | −3.5 dB | An upright with felt on the strings: soft, muffled and close, a gentle warble. |
 | Felt Upright, Worn Tape | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter, Tape Warmth | Small Room, −14 dB | −9 dB | The felt upright on old tape: deeper wow, saturated and dark. |
-| Felt Upright, Cassette *(coming)* | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter, Lo-fi | Small Room, −14 dB | 0 dB | The felt upright with a cassette’s hiss and grain (coming with the Lo-fi effect). |
+| Felt Upright, Cassette | [Upright Piano](../vsco2/) | Transient Softener, Channel EQ, Wow & Flutter, Lo-fi | Small Room, −14 dB | −4 dB | The felt upright with a cassette’s hiss and grain. |
 
 ### Strings
 

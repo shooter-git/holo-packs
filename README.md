@@ -49,7 +49,7 @@ version…) are listed with it, and every pack links to its own page.
 | [Breath and Pipes](packs/breath-and-pipes/) | 12 | Steinway Model D (bitKlavier Grand), VSCO 2 Community Edition, built-in synths |
 | [Classic Symphonic](packs/classic-symphonic/) | 16 (1 coming) | VSCO 2 Community Edition, built-in synths |
 | [Crystal Pulse](packs/crystal-pulse/) | 13 | Versilian Community Sample Library, VSCO 2 Community Edition, built-in synths |
-| [Felt and Strings](packs/felt-and-strings/) | 11 (1 coming) | VSCO 2 Community Edition, built-in synths |
+| [Felt and Strings](packs/felt-and-strings/) | 11 | VSCO 2 Community Edition, built-in synths |
 | [Gamelan](packs/gamelan/) | 8 (8 coming) | packs still to come |
 | [Heroic Orchestra](packs/heroic-orchestra/) | 14 | VSCO 2 Community Edition, built-in synths |
 | [Hybrid Epic](packs/hybrid-epic/) | 14 (1 coming) | VSCO 2 Community Edition, built-in synths |
@@ -59,7 +59,7 @@ version…) are listed with it, and every pack links to its own page.
 | [Silk and Bamboo](packs/silk-and-bamboo/) | 8 (1 coming) | Versilian Community Sample Library, built-in synths |
 | [Sitar and Tabla](packs/sitar-and-tabla/) | 7 (3 coming) | Versilian Community Sample Library, built-in synths |
 | [Southeast Asian](packs/southeast-asian/) | 6 (3 coming) | Versilian Community Sample Library |
-| [Viennese Grand](packs/viennese-grand/) | 3 (1 coming) | Steinway Model D (bitKlavier Grand) |
+| [Viennese Grand](packs/viennese-grand/) | 3 | Steinway Model D (bitKlavier Grand) |
 
 ### Pianos and keys
 

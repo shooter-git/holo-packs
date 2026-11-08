@@ -189,8 +189,8 @@
     },
     "send": -14
    },
-   "note": "The felt upright with a cassette’s hiss and grain (coming with the Lo-fi effect).",
-   "coming": true
+   "note": "The felt upright with a cassette’s hiss and grain.",
+   "volume": -4
   },
   {
    "name": "Chamber Violins",

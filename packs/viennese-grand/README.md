@@ -14,8 +14,8 @@ with HO[LO] Desk's own effects. No other piano's recordings are used.
 - **Warm Hall:** a concert hall with its highs damped (high cut at 6.5 kHz) and its decay lengthened
   by 15%.
 
-**Coming:** **Viennese Grand, Resonant** adds String Resonance, the sympathetic ringing of undamped
-strings, including extra bass strings below the lowest A, once HO[LO] Desk has that effect.
+**Viennese Grand, Resonant** adds String Resonance: the sympathetic ringing of undamped strings,
+including extra bass strings below the lowest A.
 
 **Measured** against the plain Steinway, dry, from A1 to A6 at velocities 50 and 100: the spectral
 centroid of each note's first second is 7–17% lower and its energy above 2 kHz 1.4–4 dB lower; the
@@ -30,7 +30,7 @@ changes the tone, not the length). The top octave changes least, so its fundamen
 |---|---|
 | Id | `viennese-grand` |
 | Palette | A concert grand voiced darker and rounder: soft hammers, a singing treble, full low-mids and a warm hall. |
-| Sounds | 3 (1 coming) |
+| Sounds | 3 |
 | Plays | [Steinway Model D (bitKlavier Grand)](../steinway/) |
 | Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0). Each pack keeps its own licence and credit. |
@@ -50,4 +50,4 @@ greyed out until then.
 |---|---|---|---|---|---|
 | Viennese Grand | [Steinway D Grand](../steinway/) | Transient Softener, Channel EQ | Warm Hall, −12 dB | +1.5 dB | The grand voiced darker and rounder, in a warm hall. |
 | Viennese Grand, Close | [Steinway D Grand, Close](../steinway/) | Transient Softener, Channel EQ | Warm Hall, −18 dB | +6 dB | Close to the strings: more detail, the same round, singing voice. |
-| Viennese Grand, Resonant *(coming)* | [Steinway D Grand](../steinway/) | Transient Softener, Channel EQ, String Resonance | Warm Hall, −12 dB | 0 dB | With sympathetic ringing from extra bass strings (coming with String Resonance). |
+| Viennese Grand, Resonant | [Steinway D Grand](../steinway/) | Transient Softener, Channel EQ, String Resonance | Warm Hall, −12 dB | +1 dB | With sympathetic ringing from extra bass strings. |
