@@ -1,0 +1,4455 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "ethan-winer",
+ "name": "Ethan Winer's Instruments",
+ "license": "Free to use without restriction (Ethan Winer)",
+ "credit": "Ethan Winer's original instrument samples (ethanwiner.com: free to use any way you like, royalty free, including for commercial projects), mapped in FLAC by kinwie for the SFZ Instruments project. The turtle drum was played by Katie Petreycik.",
+ "bytes": 31735684,
+ "source": {
+  "kind": "mix",
+  "note": "The collection's FLACs at the pinned commit, each kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "e": "https://raw.githubusercontent.com/sfzinstruments/EthanWiner.Soundfonts/173e3f897a922dc9fb9b96ae743f82c9d5ad1e19/"
+  },
+  "downloads": {
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf A#1.flac": "3a68a331a3db95c716d62faa4dd06bd763ce678510e967e314c3ec33336a5590",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf A#2.flac": "fc44c855df605be70bafaa98c8b9813ee58a8df69b5e800212ec2c0ea5c0bd80",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf A#3.flac": "e9eab4d372183fe056f12cea468d50ca9863237b0a79e61dfdf1df8badf75033",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf B0.flac": "74624d5bdddf514e5f0af761d7fbc815dc592c02ea75902e623cae30aea5a511",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf C#1.flac": "52ee8a9e52e8db46a42595569b5216d471b781e396c87f629112edf566272fae",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf C#2.flac": "ce492bfa1269874bd0b2a3c07167602df38ba91cd9ddf5281ef861aac2bc3fe6",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf C#3.flac": "5aa5a6cc9d739829ff577b8a2f3e24e9dbfc47eb9a1687307f38d7276f81f49d",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf C#4.flac": "8a13540184fb866b7caa11078750d2599b11888ccafba65f8e6463283dbef8e5",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf E1.flac": "60e745891accd5a0e01c18c8e1185b7af07c3679f544875ab49ecb34bd45b1ae",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf E2.flac": "62ca2c44b66900ef65564a3397454ed4055c79cac78d00f20852ceafa16c7606",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf E3.flac": "9de6e5d112ed54aa4e33358306e7839b2ef7c7f6e1a3ac5fe9b0a0ed5217f16c",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf G1.flac": "ae5ba3d87d710ea0b9a2f23d9cfe1237bdfba5503b0d7388088151a0a27abf3e",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf G2.flac": "3ff421e972500a45e53bc566d151ad95bec3c86fb9563d7cf10a5c6626a2467c",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf G3.flac": "44eff180beb65a0aafe1329f61954522af452daf96ca72c39601d3a164c2de08",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp A#1.flac": "386bfb3c3b27ba01c196bebed19210a7e6d14ff319035ffd400990a79bdd4aec",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp A#2.flac": "38fde7f4fa2d4053ccc26e3fc306b994f4333999478f28e339fc4b2271aa63a2",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp A#3.flac": "532d6b6d0ae219a84f58db21d625bb3da14a6a53c3ee04fe04922823b227468e",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp B0.flac": "85498698b8c833e7f044df29273a9a00d9a0f7e25a742922bd6c00d74c013b62",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp C#1.flac": "3f199cd24a17a1ca89318628991d8ee920c5669f87d236de7a28318fdc0695c8",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp C#2.flac": "f836be9b045d75cb24b4cf2e0c2ae19c2a482f4b46e8174a435c153f10f36557",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp C#3.flac": "6f3764060df13ee6dd963b15d9eb710e02221ee3b226702356a62afc24125074",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp C#4.flac": "b660338fed1458ec5154113a6e47bc830c7706f731d866a94973f4fd55fead70",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp E1.flac": "8a2d661c9d32618c2bc4aeca7461fd1a8d199d47e77956191ab0b68ab99a8d59",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp E2.flac": "8ddf34dd2cd2e7d242b728b930c8096e96b2bb57e76019f560af644e30dbf132",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp E3.flac": "f5366e22070580b3605beac5d76da4cec0dcff3aa646ed476cf889c6b985a79b",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp G1.flac": "c1ef32ed5892c2b49c31f7a2a7fcd5c4b1ec32cfd6430ca015e94bc59c8468d1",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp G2.flac": "9a7f50ba1cc12c3d1c496cd41e0291d222e8184bf2ea16c161af9998ce458d16",
+   "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp G3.flac": "0d18aaa1d055551c4155e4357c87fe3c90f447c4806179855c68f8bb33facb66",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello A#3.flac": "462deeb7f14e1d99ebafbec761cd79d93e9a1a835d603c43af7c8ba7bf63bcc3",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello A#4.flac": "999f20f5341a486dfab2be9f3a79ef168bfec453e7461929e19c8ad347c08c1c",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello A#5.flac": "e7b9f46cc9d0a9466a8ff4de23f244ad8fca9ae602598a010ebcfb2d97f31073",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello A#6.flac": "3fafece2e268dc54ff91568f160acffc0933ffbebfeb1ba249a36bdee245d759",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello C#3.flac": "79cc36fe223ccad3c36ef052025b088f7c4c4caba0779d626a5852ca15a0d79f",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello C#4.flac": "ec381bd7042ab02d9eb1975a8e0f324e8fb3aec4c2eb9e301ec8f9a01d9b813f",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello C#5.flac": "ad70adf5c1822ef54e7509dacc9dbfa14267abdf4a526b0809054e6431619191",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello C#6.flac": "8ff3387ce2b11844f9faaf6c7d209cb21a29a4ff8269168e72ebf6da89471acd",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello C#7.flac": "935f319d59ceee76ddce4fdf527e5ecd8fe19a5eda4f88e75d14153eb7f4b200",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello E3.flac": "75d8192fcda089e71331ede78731fc2cc0c8f7957e805f6548939a803798532e",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello E4.flac": "77ca210e5fe0def84c3dcc15b47285c7b3daee37c2398c7852edc133fc652f36",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello E5.flac": "f829cc5ab92dadae0ee90a4034dabd1b032dbacd20b86258801bd763ef90c3ea",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello E6.flac": "7800100249b973c4dda9b57cffb40defb5a7d9ebff48f905dd2ca3c0bc4cc7db",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello E7.flac": "60843532927e18825926eeb0616eaafb9f944e62c6c55aa39ad5ff830d19fc61",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello G3.flac": "29ebecb7d3a0d5229fd1392eceaa5e68b1564c43eac02b647a7729015d15863c",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello G4.flac": "8554a4a20d07ae01ab62987afce27739844b7584be1697623b5a16479b5c533b",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello G5.flac": "de91a4d46853766c782b406b39eacb74c35f07d8006acb434213f838ac648ba1",
+   "e:Ethan Winer Collection/Samples/cello_solo/Cello G6.flac": "a6dcb042e9eb3720f53fca0ebbad980edee245810d7748cfa81ea06b2b627672",
+   "e:Ethan Winer Collection/Samples/claves/Clave ff.flac": "7e86131920c2f5f0e36a8db05b1c55f3c438b6a084069c7a630463959882ee82",
+   "e:Ethan Winer Collection/Samples/claves/Clave mf.flac": "e4ae0da6af47681b322b38248d463e4fe496e5aa7346464a6e1cf38a3dc3fb52",
+   "e:Ethan Winer Collection/Samples/claves/Clave mp.flac": "40763fe26587656b8b1c27a443a51d30a394bc282cee4c7c9818e7118558358c",
+   "e:Ethan Winer Collection/Samples/claves/Clave pp.flac": "3bc86270e6e74f15a3d2b5b7f6259ed3cd2c567401c871e28a644b0d5e3e18fb",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock A2.flac": "0e019f69189119671c4d8957fc1d65cdfbcc22dd9bf577bf8aea32f3a69225dc",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock B3.flac": "49f9578bcf04f600600de2cee863525e183f97c947a837645f5f6ca4bc8e4533",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock B4.flac": "0380cad4f209bcc53c1937c88309104a6eb419930cf7c5e51920bf49c9cfb81c",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock C3.flac": "5931853cbdc2238cfbb478d1a811402c63fa0f9d6c1e15e33c773cbad75f23fb",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock D3.flac": "8822ff3da990a5f958ef9ae3d07213cdbcf1b60a759f823db9eb0ce97d0a3eb3",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock D4.flac": "dd67ea828d2be9db2ab744d5f34f75b25343f44a184a8b91981795fa575b18e4",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock F3.flac": "615687f977e757885df7622cca60cc53986448e400cc91136afb70e26cd6aa02",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock G2.flac": "487d3baa36ec56676b77d2ffa06e000bf0bd443523ee1955cac13f82e41162d0",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock G3.flac": "67ca22d177afa30397b97a1274c068823bd3a207954028263b139aa21d5e4124",
+   "e:Ethan Winer Collection/Samples/glockenspiel/EGlock G4.flac": "6216724e0e6ae90098a4f2f98a56ac73ec8b43f688ffaf0a65bd4810c18fa597",
+   "e:Ethan Winer Collection/Samples/shakers/Large Loud.flac": "786499079257480c5fdc73d54c53b51f258a624f93c924cc4ea87cf8587fb233",
+   "e:Ethan Winer Collection/Samples/shakers/Large Medium.flac": "bb9e503e75f7d13a26e485f1406dd3a0f5a278c8815033d9f730a5d5c07fc6c7",
+   "e:Ethan Winer Collection/Samples/shakers/Large Soft.flac": "02c9d5e2a0a8426d3ca2f75114b7bd1e0d5dc2a3efe5700cfe44a4792962373a",
+   "e:Ethan Winer Collection/Samples/shakers/Large Swish.flac": "332882499cdbcda7644be0d2c267f45e7feb7044f74135db832247c7feff153d",
+   "e:Ethan Winer Collection/Samples/shakers/Small Loud.flac": "483f0ea0116481f5e4cccc4f13cd78636fd362b65aaa3448b0b286d3da549259",
+   "e:Ethan Winer Collection/Samples/shakers/Small Medium.flac": "82290d039fa5e390736238d347eea1a5812fe8f55af2f60db572a4fe45342652",
+   "e:Ethan Winer Collection/Samples/shakers/Small Soft.flac": "de13ae26ce9590c52318b2e10daa13097373d04ab6a28588c34bc8599d254a5f",
+   "e:Ethan Winer Collection/Samples/shakers/Small Swish1.flac": "374f094f3ad64aedd55efe2343d7830f46563811a6ab69de3ce26eaabff3451b",
+   "e:Ethan Winer Collection/Samples/shakers/Small Swish2.flac": "f153ae9aa3f99bfb0d87820ffa63a199707ac571c06f575c35cd238327025e74",
+   "e:Ethan Winer Collection/Samples/shakers/Small Swish3.flac": "e30872111a8a668e9ba995a5622bfd52e76330ad723a436cd3496f65e7512ac3",
+   "e:Ethan Winer Collection/Samples/sleigh_bells/SBO Hit f.flac": "cb6522138dc377ee413c3b2b7c6cf8b8b79ad4061c92d7249b745a1a5f2b04db",
+   "e:Ethan Winer Collection/Samples/sleigh_bells/SBO Hit mp.flac": "3659f9623d731d30a3f6037c1167b0d9bce9c4f12edef86818003ae0f4000d93",
+   "e:Ethan Winer Collection/Samples/sleigh_bells/SBO Shake fast.flac": "865e643d0cb1b6475c421c4d59f5e455f426fd3a113f3c422ce8568f1c13f865",
+   "e:Ethan Winer Collection/Samples/sleigh_bells/SBO Shake slow.flac": "78c77b7eec7519fa7e27930c5431fb7867a179bb9f3716924c6eabeed8d805f9",
+   "e:Ethan Winer Collection/Samples/sleigh_bells/SBT Hit f.flac": "083096399662a938f078883096e8bb1d551aa4f0d0b80d19e57b2ef8aefd6ed8",
+   "e:Ethan Winer Collection/Samples/sleigh_bells/SBT Hit mp.flac": "bf8d683f6223708d03bf1f7c06752c7d6a7b92dd34a2fdd3163738e01f3d20fe",
+   "e:Ethan Winer Collection/Samples/sleigh_bells/SBT Shake fast.flac": "d3baec6568de0c68c6819a816ebf3a6227c11d00e1cadb75a3a408f761d20efd",
+   "e:Ethan Winer Collection/Samples/sleigh_bells/SBT Shake slow.flac": "afe0ab45c2160271b2715028213946ec5ccbd853b17d0f2161c3f54532973eb9",
+   "e:Ethan Winer Collection/Samples/slide_whistle/Down fast.flac": "7f132607791af2466f7fcf393973e57c1a9751344531784b5c808218be2720e7",
+   "e:Ethan Winer Collection/Samples/slide_whistle/Down faster.flac": "78345046138005d797f5fbe7d3f4c730b7ad82d5ea634e2a62820d4bc3a2b89b",
+   "e:Ethan Winer Collection/Samples/slide_whistle/Down slow.flac": "d8b28e9b3b622e5a34793bff7ef048d7b03ce92274775822109cecfe331c1d09",
+   "e:Ethan Winer Collection/Samples/slide_whistle/Up fast.flac": "b72f5ede990d289dfb434db9f5cf3916d9541d2f353bedbadf7277b9fd7415f4",
+   "e:Ethan Winer Collection/Samples/slide_whistle/Up faster.flac": "67c6f5314c337e0102aa2c0b8f88d2a7de7859b4ebe2ca61a78a76ea01d96b39",
+   "e:Ethan Winer Collection/Samples/slide_whistle/Up slow.flac": "9a8e8c4ae4191547f824e9436e7fa40ec24c6b0faa003988041eaca308185078",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum1 Loud.flac": "0cc0537cdbfb8c1af56e1bb2f2c195272d3ce8b866034add83a501c427fc4bd9",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum1 Medium.flac": "b1f89ec0f31499d240b011f457f0afd2271839384ed0371e93ab7f347fd2fb39",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum1 Soft.flac": "f786396488b3c8dad0b52300a0b3491dbf83adb8aea0e7d7f47a02ff52fe102a",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum2 Loud.flac": "d92bc94d9c6840bdaf76debfd8c7806faf52f69b763a516c126770bc2cad14f4",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum2 Medium.flac": "d7b2afe6742d3fc90f0ce2437431bea57494950dd5f25d38161127d0684f0cfb",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum2 Soft.flac": "eaa1979753f9ba61992f07989658b9060d373e2802863afce764396fdbde5216",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum3 Loud.flac": "0b1cb0bacd57aa72944564e00cd0280de6c25579144abc960f4506eeb7f307f6",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum3 Medium.flac": "04e4e6fc5354e0567952aba69888a55210e599411407d88e943df0a9a0acc27e",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum3 Soft.flac": "a05f5c0ab22cc286c0f3347d98c1083d40516244474b961002970bd496093476",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum4 Loud.flac": "26431f7074ffe9f41e00eea1d352f346b5033babba2c0622d7212912b2b8ce07",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum4 Medium.flac": "fcf83acb66be4ff52e6a71b3040356d0e6483b7db3bdd541a49c93584d149119",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum4 Soft.flac": "c62d9ac99e0a0f561193dd17c8226e8be112ff8e69c1aea81b47c506aafeb86c",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum5 Loud.flac": "252d2faf242052bec2add57f8d08b95ae29d933d6376c9013f2e6b1faf9c09c8",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum5 Medium.flac": "fc8556d4b2f29d780a5375bd4cf460528ce6808826b197bcce1739262f79cacf",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum5 Soft.flac": "e83c57ff3cf776da48202b5d3a34df67f57106487934138def5f21032921085d",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum6 Loud.flac": "2bd9bf82e45c4740b48afc98fd92f7cf5edffc83404089903392c99d6e6d64e1",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum6 Medium.flac": "4e305a4ed68928338a0b1d9f4e70c80f49707bb18e12b83a09d8a4acc7ab3573",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum6 Soft.flac": "6ef7ca4388c3ab36f60f0844302a758cb7f5f2c37b8a435bee40c9629d0305b5",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum7 Loud.flac": "607b39c46569266e23f74ca1a25e6ea19a4b6d4ecc909d16ac36f68109805dbb",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum7 Medium.flac": "703c804a535b0ea58d1cf753a81e93313b41f6e429af0a087d754ed29c7c0029",
+   "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum7 Soft.flac": "263f6b3417c412e35991ccfff93aa8217d70fa8613af1a749f6fdd0606965baf",
+   "e:Ethan Winer Collection/Samples/snare_brushed/Brush Hit Fat.flac": "9227f01538f53dbbd5a91db11f42563ef13d393eec3a1a93fd4346204dd459e4",
+   "e:Ethan Winer Collection/Samples/snare_brushed/Brush Hit.flac": "9f7bd8b45ab54ff4a55f97a58cf7777ba2e36fdfe3e25f6f4fb557b20ab4bf9b",
+   "e:Ethan Winer Collection/Samples/snare_brushed/Brush Roll Fat.flac": "f59d1b89e31eea3bd443115edfaeb1db55b800e4b8c56f63948bbd29f73bff6f",
+   "e:Ethan Winer Collection/Samples/snare_brushed/Brush Roll.flac": "617bb22b2835a145236c4c6aa36c8d1264a277548c891f348453c721f13ab41a",
+   "e:Ethan Winer Collection/Samples/tambourine/Tambourine Hit.flac": "b243601e958f2ddb1078bf87fe7e9c80ad2d1c3d41d153c2eb926b98d5a6d8d5",
+   "e:Ethan Winer Collection/Samples/tambourine/Tambourine Roll.flac": "56b374e4ef62a0dca97e0afcb8cd106b737fef4c15afea9ab86608e7ee463a63",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 1 f.flac": "3ba9091e4939ab68aef7724eef9b155df1d3b29165ab5f8aa14d367e31e53489",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 1 mf.flac": "890f101953945291e201813a2dd7ef4ac8a54a025fd128e100b2365e222348e3",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 1 mp.flac": "945da34c9bff7dbc6a6615b619b3dbd0e925d147cca832651dbce1ebe889b281",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 1 p.flac": "50dd466fbf63ca57b9edf8fb507fc6153cfad691145b81e0bc7da95c6dd7062f",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 2 f.flac": "94cc050fd1ba35ea2b0888b7191d75f9f54ef43a76984e073baf01bc352e40ee",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 2 mf.flac": "5ef3d90d94f8bb23a19e3d3422df2d690823af3d37a3a3710197874a3d9b6f82",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 2 mp.flac": "196158374030fec56100903ccf827324f4c27779d20117217012cf9828765724",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 2 p.flac": "ce22293c96fa1502a26216639735527cd228832a2dfcb890516df55abbd574c4",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 3 f.flac": "a4e860e098f921af83e19d6f5afe09af80f0c3e3690204708b4311e1ba0ab394",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 3 mf.flac": "20322a7e780fdf7b8f453daaa297a7264d288dc96d89d3dd66db11648850d205",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 3 mp.flac": "2be432685cad7a0254a1370eca878962c7d6a98e68afed7a2b32cd4ebfe20ce0",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 3 p.flac": "6bf186d3fcda6e9a5840df51cee7f3311644960a6eccd743a2f8d8088d6cc711",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 4 f.flac": "d97fce2876980ce59d17d825a71a361d85bac0451546e7a0d659313ec82606fc",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 4 mf.flac": "db544f57f117519bbf1b185e628cf6924bcea46ee22f3207c9b2e27fcce3a9a6",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 4 mp.flac": "b510f3fd6a788f6fcc5239db217169180c61faf2f5ac82ce638a2d44444d3736",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 4 p.flac": "d0207411b515266491df669035509e6afd0f1b17a3e5c2fefe97175ad40140a3",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 5 f.flac": "34ad30f302b6b1cd395e75211f97a6b34b813d417f1c0749a1a006dd8255a566",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 5 mf.flac": "c32627ade07995f173a25dec448cd9fbc4bdc7b31711c35474405f92c4d9fb16",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 5 mp.flac": "b3448520c56bf3da855d542feb34f26ede51290563e1a569eb447e48472b1bf4",
+   "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 5 p.flac": "d55141e84f89cd7d78a4bfff7730d26c287cff513e50aaea3f5dd3b31a065f6f",
+   "e:Ethan Winer Collection/Samples/triangle/Triangle.flac": "9d38ab18976cd19e1c187d42f300673e6bf54c94db67f7defef1719eec4202f0",
+   "e:Ethan Winer Collection/Samples/turtle_drum/TD f.flac": "e2d3168d9869330acf291a76e936f2c31c2fa4575b33c68ac683c08f8fd7e55c",
+   "e:Ethan Winer Collection/Samples/turtle_drum/TD ff.flac": "ea02b9144dc9f36eb9ca3b2bf20924a8077dc90806d7aa63a57ac7739d1da3f0",
+   "e:Ethan Winer Collection/Samples/turtle_drum/TD p.flac": "551e1d88ec581e93321803b2b496aaa8981079235caced725c2b3a06ec78ecae",
+   "e:Ethan Winer Collection/Samples/turtle_drum/TD pp.flac": "8a78d2f416f199f02b0d8a4332c7c828815c619e858fe2ae958d06d6a6b6fb9f",
+   "e:Ethan Winer Collection/Samples/wind_chimes/Wind Chime 1.flac": "2d7e83544d9733ceb207c9bb60123898f6c6b9efbbf70b52e43d3ff641895a98",
+   "e:Ethan Winer Collection/Samples/wind_chimes/Wind Chime 2.flac": "d896c27de6f77dceb383f5967ce7b239c9d7d08885dfd4079b09c5fbb58a58cb",
+   "e:Ethan Winer Collection/Samples/wind_chimes/Wind Chime 3.flac": "eaa4798668854c185cc5aeb6c85fb372524a721bc5d1b678c2c3a7a1a7edbb0c"
+  },
+  "bits": 16,
+  "files": {
+   "bassoon/Bassoon mp B0.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp B0.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52506,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp C#1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp C#1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 60293,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp E1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp E1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 54768,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp G1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp G1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 68006,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp A#1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp A#1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 44586,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp C#2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp C#2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34363,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp E2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp E2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46125,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp G2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp G2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 47755,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp A#2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp A#2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48854,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp C#3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp C#3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 54576,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp E3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp E3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 58758,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp G3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp G3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 57686,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp A#3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp A#3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 51919,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mp C#4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mp C#4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33153,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf B0.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf B0.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 42637,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf C#1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf C#1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 17022,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf E1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf E1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28494,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf G1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf G1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32705,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf A#1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf A#1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 47026,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf C#2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf C#2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28615,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf E2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf E2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32643,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf G2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf G2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 43070,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf A#2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf A#2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 51176,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf C#3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf C#3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 23061,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf E3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf E3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 42462,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf G3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf G3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 38635,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf A#3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf A#3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52958,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "bassoon/Bassoon mf C#4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/bassoon/Bassoon mf C#4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 42052,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "cello/Cello C#3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello C#3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 88272,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello E3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello E3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 76472,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello G3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello G3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 56211,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello A#3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello A#3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 76374,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello C#4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello C#4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 54600,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello E4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello E4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 44585,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello G4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello G4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 64676,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello A#4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello A#4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 62768,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello C#5.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello C#5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 79044,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello E5.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello E5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 85560,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello G5.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello G5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66881,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello A#5.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello A#5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52110,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello C#6.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello C#6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 50784,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello E6.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello E6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 61554,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello G6.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello G6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 58484,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello A#6.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello A#6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 57528,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello C#7.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello C#7.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 75288,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "cello/Cello E7.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/cello_solo/Cello E7.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 73210,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "glockenspiel/EGlock G2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock G2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 134505,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "glockenspiel/EGlock A2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock A2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141120,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "glockenspiel/EGlock C3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock C3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 179976,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "glockenspiel/EGlock D3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock D3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 110250,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "glockenspiel/EGlock F3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock F3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 144486,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "glockenspiel/EGlock G3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock G3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "glockenspiel/EGlock B3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock B3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 174195,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "glockenspiel/EGlock D4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock D4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 180620,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "glockenspiel/EGlock G4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock G4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 110250,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "glockenspiel/EGlock B4.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/glockenspiel/EGlock B4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 110250,
+    "fadeIn": 0,
+    "fadeOut": 22050
+   },
+   "slit-drums/slit-drum-1/Slt Drum1 Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum1 Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 16533,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-1/Slt Drum1 Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum1 Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 16394,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-1/Slt Drum1 Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum1 Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 23220,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-2/Slt Drum2 Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum2 Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 21519,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-2/Slt Drum2 Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum2 Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 23360,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-2/Slt Drum2 Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum2 Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30837,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-3/Slt Drum3 Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum3 Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 22988,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-3/Slt Drum3 Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum3 Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28369,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-3/Slt Drum3 Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum3 Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 33066,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-4/Slt Drum4 Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum4 Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 13189,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-4/Slt Drum4 Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum4 Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 17276,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-4/Slt Drum4 Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum4 Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 18066,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-5/Slt Drum5 Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum5 Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 14722,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-5/Slt Drum5 Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum5 Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 15186,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-5/Slt Drum5 Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum5 Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 14443,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-6/Slt Drum6 Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum6 Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19320,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-6/Slt Drum6 Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum6 Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 14397,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-6/Slt Drum6 Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum6 Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 16905,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-7/Slt Drum7 Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum7 Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 11936,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-7/Slt Drum7 Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum7 Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12261,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "slit-drums/slit-drum-7/Slt Drum7 Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slit_drum/Slt Drum7 Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12446,
+    "fadeIn": 0,
+    "fadeOut": 320
+   },
+   "brush-snare/brush-hit/Brush Hit.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/snare_brushed/Brush Hit.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28124,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "brush-snare/brush-roll/Brush Roll.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/snare_brushed/Brush Roll.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 36423,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "brush-snare/brush-hit-fat/Brush Hit Fat.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/snare_brushed/Brush Hit Fat.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 25950,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "brush-snare/brush-roll-fat/Brush Roll Fat.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/snare_brushed/Brush Roll Fat.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 36421,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-1/Temple Block 1 p.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 1 p.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 18934,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-1/Temple Block 1 mp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 1 mp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 10584
+   },
+   "temple-blocks/temple-block-1/Temple Block 1 mf.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 1 mf.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29185,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-1/Temple Block 1 f.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 1 f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 31411,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-2/Temple Block 2 p.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 2 p.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 18450,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-2/Temple Block 2 mp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 2 mp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 10584
+   },
+   "temple-blocks/temple-block-2/Temple Block 2 mf.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 2 mf.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30216,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-2/Temple Block 2 f.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 2 f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29676,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-3/Temple Block 3 p.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 3 p.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 16802,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-3/Temple Block 3 mp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 3 mp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26432,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-3/Temple Block 3 mf.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 3 mf.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 24585,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-3/Temple Block 3 f.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 3 f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "temple-blocks/temple-block-4/Temple Block 4 p.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 4 p.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 20840,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-4/Temple Block 4 mp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 4 mp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 22024,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-4/Temple Block 4 mf.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 4 mf.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 25915,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-4/Temple Block 4 f.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 4 f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 27549,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-5/Temple Block 5 p.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 5 p.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19956,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-5/Temple Block 5 mp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 5 mp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 24351,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-5/Temple Block 5 mf.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 5 mf.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 24245,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "temple-blocks/temple-block-5/Temple Block 5 f.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/temple_blocks/Temple Block 5 f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30301,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "shakers/large-swish/Large Swish.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Large Swish.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 105840,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "shakers/large-shaker/Large Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Large Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 59535,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "shakers/large-shaker/Large Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Large Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52920,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "shakers/large-shaker/Large Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Large Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55125,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "shakers/small-swish1/Small Swish1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Small Swish1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 89344,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "shakers/small-swish2/Small Swish2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Small Swish2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 160864,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "shakers/small-shaker/Small Soft.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Small Soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37376,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "shakers/small-shaker/Small Medium.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Small Medium.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 31104,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "shakers/small-shaker/Small Loud.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Small Loud.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 36480,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "shakers/small-swish3/Small Swish3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/shakers/Small Swish3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 73600,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "claves/clave/Clave pp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/claves/Clave pp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 23235,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "claves/clave/Clave mp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/claves/Clave mp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28665,
+    "fadeIn": 0,
+    "fadeOut": 11466
+   },
+   "claves/clave/Clave mf.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/claves/Clave mf.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26021,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "claves/clave/Clave ff.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/claves/Clave ff.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 20152,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "sleigh-bells/sleigh-bells-1-hit/SBO Hit mp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/sleigh_bells/SBO Hit mp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 72765,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "sleigh-bells/sleigh-bells-1-hit/SBO Hit f.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/sleigh_bells/SBO Hit f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 70560,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "sleigh-bells/sleigh-bells-2-hit/SBT Hit mp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/sleigh_bells/SBT Hit mp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 69602,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "sleigh-bells/sleigh-bells-2-hit/SBT Hit f.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/sleigh_bells/SBT Hit f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 97020,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "sleigh-bells/sleigh-bells-1-shake-slow/SBO Shake slow.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/sleigh_bells/SBO Shake slow.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 85770,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "sleigh-bells/sleigh-bells-1-shake-fast/SBO Shake fast.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/sleigh_bells/SBO Shake fast.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28371,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "sleigh-bells/sleigh-bells-2-shake-slow/SBT Shake slow.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/sleigh_bells/SBT Shake slow.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141317,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "sleigh-bells/sleigh-bells-2-shake-fast/SBT Shake fast.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/sleigh_bells/SBT Shake fast.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 76553,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tambourine/tambourine-hit/Tambourine Hit.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/tambourine/Tambourine Hit.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 18560,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tambourine/tambourine-roll/Tambourine Roll.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/tambourine/Tambourine Roll.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19829,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "triangle/triangle/Triangle.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/triangle/Triangle.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 90616,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "wind-chimes/wind-chime-1/Wind Chime 1.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/wind_chimes/Wind Chime 1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 255780,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "wind-chimes/wind-chime-2/Wind Chime 2.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/wind_chimes/Wind Chime 2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 276224,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "wind-chimes/wind-chime-3/Wind Chime 3.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/wind_chimes/Wind Chime 3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 302085,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "turtle-drum/turtle-drum/TD pp.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/turtle_drum/TD pp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 90405,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "turtle-drum/turtle-drum/TD p.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/turtle_drum/TD p.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 99225,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "turtle-drum/turtle-drum/TD f.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/turtle_drum/TD f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 94815,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "turtle-drum/turtle-drum/TD ff.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/turtle_drum/TD ff.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 101430,
+    "fadeIn": 0,
+    "fadeOut": 13230
+   },
+   "slide-whistle/up-slow/Up slow.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slide_whistle/Up slow.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 43769,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "slide-whistle/up-fast/Up fast.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slide_whistle/Up fast.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 28937,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "slide-whistle/up-faster/Up faster.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slide_whistle/Up faster.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29954,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "slide-whistle/down-slow/Down slow.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slide_whistle/Down slow.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 44625,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "slide-whistle/down-fast/Down fast.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slide_whistle/Down fast.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 27981,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "slide-whistle/down-faster/Down faster.wav": {
+    "in": [
+     [
+      "e:Ethan Winer Collection/Samples/slide_whistle/Down faster.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29108,
+    "fadeIn": 0,
+    "fadeOut": 441
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "bassoon",
+   "title": "Bassoon",
+   "category": "Woodwinds",
+   "pitched": true,
+   "release": 0.15,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 20,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "bassoon/Bassoon mp B0.wav",
+     "root": 35.12,
+     "lo": 34,
+     "hi": 35,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -6.43,
+     "start": 0,
+     "end": 52506,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf B0.wav",
+     "root": 35.18,
+     "lo": 34,
+     "hi": 35,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -10.09,
+     "start": 0,
+     "end": 42637,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp C#1.wav",
+     "root": 37.26,
+     "lo": 36,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 60293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf C#1.wav",
+     "root": 37.38,
+     "lo": 36,
+     "hi": 38,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 17022,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp E1.wav",
+     "root": 40.31,
+     "lo": 39,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 54768,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf E1.wav",
+     "root": 40.34,
+     "lo": 39,
+     "hi": 41,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 28494,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp G1.wav",
+     "root": 43.17,
+     "lo": 42,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 68006,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf G1.wav",
+     "root": 43.15,
+     "lo": 42,
+     "hi": 44,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 32705,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp A#1.wav",
+     "root": 46.22,
+     "lo": 45,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 44586,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf A#1.wav",
+     "root": 46.14,
+     "lo": 45,
+     "hi": 47,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 47026,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp C#2.wav",
+     "root": 49.23,
+     "lo": 48,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 34363,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf C#2.wav",
+     "root": 49.26,
+     "lo": 48,
+     "hi": 50,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 28615,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp E2.wav",
+     "root": 52.29,
+     "lo": 51,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 46125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf E2.wav",
+     "root": 52.28,
+     "lo": 51,
+     "hi": 53,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 32643,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp G2.wav",
+     "root": 55.37,
+     "lo": 54,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 47755,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf G2.wav",
+     "root": 55.29,
+     "lo": 54,
+     "hi": 56,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 43070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp A#2.wav",
+     "root": 58.23,
+     "lo": 57,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 48854,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf A#2.wav",
+     "root": 58.19,
+     "lo": 57,
+     "hi": 59,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 51176,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp C#3.wav",
+     "root": 61.08,
+     "lo": 60,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 54576,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf C#3.wav",
+     "root": 61.02,
+     "lo": 60,
+     "hi": 62,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 23061,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp E3.wav",
+     "root": 64.19,
+     "lo": 63,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 58758,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf E3.wav",
+     "root": 63.93,
+     "lo": 63,
+     "hi": 65,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 42462,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp G3.wav",
+     "root": 67.41,
+     "lo": 66,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 57686,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf G3.wav",
+     "root": 67.31,
+     "lo": 66,
+     "hi": 68,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 38635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp A#3.wav",
+     "root": 70.12,
+     "lo": 69,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 51919,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf A#3.wav",
+     "root": 70.07,
+     "lo": 69,
+     "hi": 71,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 52958,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mp C#4.wav",
+     "root": 73.27,
+     "lo": 72,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 84,
+     "gain": -4.43,
+     "start": 0,
+     "end": 33153,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    },
+    {
+     "file": "bassoon/Bassoon mf C#4.wav",
+     "root": 73.32,
+     "lo": 72,
+     "hi": 75,
+     "lovel": 85,
+     "hivel": 127,
+     "gain": -8.09,
+     "start": 0,
+     "end": 42052,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 0
+    }
+   ]
+  },
+  {
+   "name": "cello",
+   "title": "Cello",
+   "category": "Strings",
+   "pitched": true,
+   "release": 0.3,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "cello/Cello C#3.wav",
+     "root": 37.05,
+     "lo": 36,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.5,
+     "start": 0,
+     "end": 88272,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello E3.wav",
+     "root": 39.79,
+     "lo": 39,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -6.5,
+     "start": 0,
+     "end": 76472,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello G3.wav",
+     "root": 43.1,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -8.5,
+     "start": 0,
+     "end": 56211,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello A#3.wav",
+     "root": 45.9,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -6.5,
+     "start": 0,
+     "end": 76374,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello C#4.wav",
+     "root": 49,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -6.5,
+     "start": 0,
+     "end": 54600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello E4.wav",
+     "root": 51.9,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.5,
+     "start": 0,
+     "end": 44585,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello G4.wav",
+     "root": 54.94,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -8.5,
+     "start": 0,
+     "end": 64676,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello A#4.wav",
+     "root": 58,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -6.5,
+     "start": 0,
+     "end": 62768,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello C#5.wav",
+     "root": 60.83,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9.5,
+     "start": 0,
+     "end": 79044,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello E5.wav",
+     "root": 63.98,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.5,
+     "start": 0,
+     "end": 85560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello G5.wav",
+     "root": 67,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7.5,
+     "start": 0,
+     "end": 66881,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello A#5.wav",
+     "root": 69.93,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -10,
+     "start": 0,
+     "end": 52110,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello C#6.wav",
+     "root": 73.06,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3,
+     "start": 0,
+     "end": 50784,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello E6.wav",
+     "root": 75.81,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.5,
+     "start": 0,
+     "end": 61554,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello G6.wav",
+     "root": 78.81,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9.5,
+     "start": 0,
+     "end": 58484,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello A#6.wav",
+     "root": 81.7,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9.5,
+     "start": 0,
+     "end": 57528,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello C#7.wav",
+     "root": 84.35,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -9,
+     "start": 0,
+     "end": 75288,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "cello/Cello E7.wav",
+     "root": 87.8,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -7,
+     "start": 0,
+     "end": 73210,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  },
+  {
+   "name": "glockenspiel",
+   "title": "Glockenspiel",
+   "category": "Percussion",
+   "pitched": true,
+   "release": 1,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.1,
+   "zones": [
+    {
+     "file": "glockenspiel/EGlock G2.wav",
+     "root": 79,
+     "lo": 79,
+     "hi": 80,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.42,
+     "start": 0,
+     "end": 134505,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock A2.wav",
+     "root": 81,
+     "lo": 81,
+     "hi": 82,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.92,
+     "start": 0,
+     "end": 141120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock C3.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.92,
+     "start": 0,
+     "end": 179976,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock D3.wav",
+     "root": 86,
+     "lo": 86,
+     "hi": 87,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.42,
+     "start": 0,
+     "end": 110250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock F3.wav",
+     "root": 89,
+     "lo": 88,
+     "hi": 90,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.42,
+     "start": 0,
+     "end": 144486,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock G3.wav",
+     "root": 91,
+     "lo": 91,
+     "hi": 93,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.42,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock B3.wav",
+     "root": 95,
+     "lo": 94,
+     "hi": 96,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.92,
+     "start": 0,
+     "end": 174195,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock D4.wav",
+     "root": 98,
+     "lo": 97,
+     "hi": 100,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.42,
+     "start": 0,
+     "end": 180620,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock G4.wav",
+     "root": 103,
+     "lo": 101,
+     "hi": 104,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.42,
+     "start": 0,
+     "end": 110250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "glockenspiel/EGlock B4.wav",
+     "root": 107,
+     "lo": 105,
+     "hi": 108,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.92,
+     "start": 0,
+     "end": 110250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  },
+  {
+   "name": "slit-drums",
+   "title": "African Slit Drums",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 20,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "slit-drums/slit-drum-1/Slt Drum1 Soft.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 9.35,
+     "start": 0,
+     "end": 16533,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-1/Slt Drum1 Medium.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 50,
+     "hivel": 88,
+     "gain": 3.01,
+     "start": 0,
+     "end": 16394,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-1/Slt Drum1 Loud.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 89,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 23220,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-2/Slt Drum2 Soft.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 9.35,
+     "start": 0,
+     "end": 21519,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-2/Slt Drum2 Medium.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 50,
+     "hivel": 88,
+     "gain": 3.01,
+     "start": 0,
+     "end": 23360,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-2/Slt Drum2 Loud.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 89,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 30837,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-3/Slt Drum3 Soft.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 9.35,
+     "start": 0,
+     "end": 22988,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-3/Slt Drum3 Medium.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 50,
+     "hivel": 88,
+     "gain": 3.01,
+     "start": 0,
+     "end": 28369,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-3/Slt Drum3 Loud.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 89,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 33066,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-4/Slt Drum4 Soft.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 9.35,
+     "start": 0,
+     "end": 13189,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-4/Slt Drum4 Medium.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 50,
+     "hivel": 88,
+     "gain": 3.01,
+     "start": 0,
+     "end": 17276,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-4/Slt Drum4 Loud.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 89,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 18066,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-5/Slt Drum5 Soft.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 9.35,
+     "start": 0,
+     "end": 14722,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-5/Slt Drum5 Medium.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 50,
+     "hivel": 88,
+     "gain": 3.01,
+     "start": 0,
+     "end": 15186,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-5/Slt Drum5 Loud.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 89,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 14443,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-6/Slt Drum6 Soft.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 9.35,
+     "start": 0,
+     "end": 19320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-6/Slt Drum6 Medium.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 50,
+     "hivel": 88,
+     "gain": 3.01,
+     "start": 0,
+     "end": 14397,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-6/Slt Drum6 Loud.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 89,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 16905,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-7/Slt Drum7 Soft.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 9.35,
+     "start": 0,
+     "end": 11936,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-7/Slt Drum7 Medium.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 50,
+     "hivel": 88,
+     "gain": 3.01,
+     "start": 0,
+     "end": 12261,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    },
+    {
+     "file": "slit-drums/slit-drum-7/Slt Drum7 Loud.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 89,
+     "hivel": 127,
+     "gain": -2.85,
+     "start": 0,
+     "end": 12446,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 32000,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Slit drum 1"
+    },
+    {
+     "key": 37,
+     "name": "Slit drum 2"
+    },
+    {
+     "key": 38,
+     "name": "Slit drum 3"
+    },
+    {
+     "key": 39,
+     "name": "Slit drum 4"
+    },
+    {
+     "key": 40,
+     "name": "Slit drum 5"
+    },
+    {
+     "key": 41,
+     "name": "Slit drum 6"
+    },
+    {
+     "key": 42,
+     "name": "Slit drum 7"
+    }
+   ]
+  },
+  {
+   "name": "brush-snare",
+   "title": "Brush Snare Hits and Rolls",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "brush-snare/brush-hit/Brush Hit.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 28124,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "brush-snare/brush-roll/Brush Roll.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 36423,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "brush-snare/brush-hit-fat/Brush Hit Fat.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 25950,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "brush-snare/brush-roll-fat/Brush Roll Fat.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.56,
+     "start": 0,
+     "end": 36421,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Brush Hit"
+    },
+    {
+     "key": 37,
+     "name": "Brush Roll"
+    },
+    {
+     "key": 38,
+     "name": "Brush Hit Fat"
+    },
+    {
+     "key": 39,
+     "name": "Brush Roll Fat"
+    }
+   ]
+  },
+  {
+   "name": "temple-blocks",
+   "title": "Temple Blocks",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 35.1,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "temple-blocks/temple-block-1/Temple Block 1 p.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 32,
+     "gain": 25.46,
+     "start": 0,
+     "end": 18934,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-1/Temple Block 1 mp.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 33,
+     "hivel": 64,
+     "gain": 16.9,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-1/Temple Block 1 mf.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 65,
+     "hivel": 96,
+     "gain": 7.72,
+     "start": 0,
+     "end": 29185,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-1/Temple Block 1 f.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 97,
+     "hivel": 127,
+     "gain": -0.9,
+     "start": 0,
+     "end": 31411,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-2/Temple Block 2 p.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 32,
+     "gain": 25.46,
+     "start": 0,
+     "end": 18450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-2/Temple Block 2 mp.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 33,
+     "hivel": 64,
+     "gain": 16.9,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-2/Temple Block 2 mf.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 65,
+     "hivel": 96,
+     "gain": 7.72,
+     "start": 0,
+     "end": 30216,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-2/Temple Block 2 f.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 97,
+     "hivel": 127,
+     "gain": -0.9,
+     "start": 0,
+     "end": 29676,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-3/Temple Block 3 p.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 32,
+     "gain": 25.46,
+     "start": 0,
+     "end": 16802,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-3/Temple Block 3 mp.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 33,
+     "hivel": 64,
+     "gain": 16.9,
+     "start": 0,
+     "end": 26432,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-3/Temple Block 3 mf.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 65,
+     "hivel": 96,
+     "gain": 7.72,
+     "start": 0,
+     "end": 24585,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-3/Temple Block 3 f.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 97,
+     "hivel": 127,
+     "gain": -0.9,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-4/Temple Block 4 p.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 32,
+     "gain": 25.46,
+     "start": 0,
+     "end": 20840,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-4/Temple Block 4 mp.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 33,
+     "hivel": 64,
+     "gain": 16.9,
+     "start": 0,
+     "end": 22024,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-4/Temple Block 4 mf.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 65,
+     "hivel": 96,
+     "gain": 7.72,
+     "start": 0,
+     "end": 25915,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-4/Temple Block 4 f.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 97,
+     "hivel": 127,
+     "gain": -0.9,
+     "start": 0,
+     "end": 27549,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-5/Temple Block 5 p.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 32,
+     "gain": 25.46,
+     "start": 0,
+     "end": 19956,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-5/Temple Block 5 mp.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 33,
+     "hivel": 64,
+     "gain": 16.9,
+     "start": 0,
+     "end": 24351,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-5/Temple Block 5 mf.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 65,
+     "hivel": 96,
+     "gain": 7.72,
+     "start": 0,
+     "end": 24245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "temple-blocks/temple-block-5/Temple Block 5 f.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 97,
+     "hivel": 127,
+     "gain": -0.9,
+     "start": 0,
+     "end": 30301,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Temple Block 1"
+    },
+    {
+     "key": 37,
+     "name": "Temple Block 2"
+    },
+    {
+     "key": 38,
+     "name": "Temple Block 3"
+    },
+    {
+     "key": 39,
+     "name": "Temple Block 4"
+    },
+    {
+     "key": 40,
+     "name": "Temple Block 5"
+    }
+   ]
+  },
+  {
+   "name": "shakers",
+   "title": "Shakers",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 28,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "shakers/large-swish/Large Swish.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.95,
+     "start": 0,
+     "end": 105840,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/large-shaker/Large Soft.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 57,
+     "gain": 2.79,
+     "start": 0,
+     "end": 59535,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/large-shaker/Large Medium.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 58,
+     "hivel": 85,
+     "gain": -5.34,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/large-shaker/Large Loud.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 86,
+     "hivel": 127,
+     "gain": -9.64,
+     "start": 0,
+     "end": 55125,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/small-swish1/Small Swish1.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.95,
+     "start": 0,
+     "end": 89344,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/small-swish2/Small Swish2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.95,
+     "start": 0,
+     "end": 160864,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/small-shaker/Small Soft.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 57,
+     "gain": 2.79,
+     "start": 0,
+     "end": 37376,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/small-shaker/Small Medium.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 58,
+     "hivel": 85,
+     "gain": -5.34,
+     "start": 0,
+     "end": 31104,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/small-shaker/Small Loud.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 86,
+     "hivel": 127,
+     "gain": -9.64,
+     "start": 0,
+     "end": 36480,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "shakers/small-swish3/Small Swish3.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.95,
+     "start": 0,
+     "end": 73600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Large Swish"
+    },
+    {
+     "key": 37,
+     "name": "Large shaker"
+    },
+    {
+     "key": 38,
+     "name": "Small Swish1"
+    },
+    {
+     "key": 39,
+     "name": "Small Swish2"
+    },
+    {
+     "key": 40,
+     "name": "Small shaker"
+    },
+    {
+     "key": 41,
+     "name": "Small Swish3"
+    }
+   ]
+  },
+  {
+   "name": "claves",
+   "title": "Claves",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 20.1,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "claves/clave/Clave pp.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 54,
+     "gain": 16.56,
+     "start": 0,
+     "end": 23235,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "claves/clave/Clave mp.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 55,
+     "hivel": 91,
+     "gain": 4.77,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "claves/clave/Clave mf.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 92,
+     "hivel": 101,
+     "gain": 4.67,
+     "start": 0,
+     "end": 26021,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "claves/clave/Clave ff.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 102,
+     "hivel": 127,
+     "gain": 1.49,
+     "start": 0,
+     "end": 20152,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Clave"
+    }
+   ]
+  },
+  {
+   "name": "sleigh-bells",
+   "title": "Sleigh Bells",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 20,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "sleigh-bells/sleigh-bells-1-hit/SBO Hit mp.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 79,
+     "gain": -1.61,
+     "start": 0,
+     "end": 72765,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "sleigh-bells/sleigh-bells-1-hit/SBO Hit f.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 95,
+     "hivel": 127,
+     "gain": -6.32,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "sleigh-bells/sleigh-bells-2-hit/SBT Hit mp.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 79,
+     "gain": -1.61,
+     "start": 0,
+     "end": 69602,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "sleigh-bells/sleigh-bells-2-hit/SBT Hit f.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 95,
+     "hivel": 127,
+     "gain": -6.32,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "sleigh-bells/sleigh-bells-1-shake-slow/SBO Shake slow.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 80,
+     "hivel": 94,
+     "gain": -2.4,
+     "start": 0,
+     "end": 85770,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "sleigh-bells/sleigh-bells-1-shake-fast/SBO Shake fast.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 80,
+     "hivel": 94,
+     "gain": -2.4,
+     "start": 0,
+     "end": 28371,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "sleigh-bells/sleigh-bells-2-shake-slow/SBT Shake slow.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 80,
+     "hivel": 94,
+     "gain": -2.4,
+     "start": 0,
+     "end": 141317,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "sleigh-bells/sleigh-bells-2-shake-fast/SBT Shake fast.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 80,
+     "hivel": 94,
+     "gain": -2.4,
+     "start": 0,
+     "end": 76553,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Sleigh bells 1 hit"
+    },
+    {
+     "key": 37,
+     "name": "Sleigh bells 2 hit"
+    },
+    {
+     "key": 38,
+     "name": "Sleigh bells 1 shake slow"
+    },
+    {
+     "key": 39,
+     "name": "Sleigh bells 1 shake fast"
+    },
+    {
+     "key": 40,
+     "name": "Sleigh bells 2 shake slow"
+    },
+    {
+     "key": 41,
+     "name": "Sleigh bells 2 shake fast"
+    }
+   ]
+  },
+  {
+   "name": "tambourine",
+   "title": "Tambourine",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "tambourine/tambourine-hit/Tambourine Hit.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.73,
+     "start": 0,
+     "end": 18560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tambourine/tambourine-roll/Tambourine Roll.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.73,
+     "start": 0,
+     "end": 19829,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Tambourine Hit"
+    },
+    {
+     "key": 37,
+     "name": "Tambourine Roll"
+    }
+   ]
+  },
+  {
+   "name": "triangle",
+   "title": "Triangle",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "triangle/triangle/Triangle.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.23,
+     "start": 0,
+     "end": 90616,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Triangle"
+    }
+   ]
+  },
+  {
+   "name": "wind-chimes",
+   "title": "Wind Chimes",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "wind-chimes/wind-chime-1/Wind Chime 1.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.72,
+     "start": 0,
+     "end": 255780,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "wind-chimes/wind-chime-2/Wind Chime 2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.72,
+     "start": 0,
+     "end": 276224,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "wind-chimes/wind-chime-3/Wind Chime 3.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.72,
+     "start": 0,
+     "end": 302085,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Wind Chime 1"
+    },
+    {
+     "key": 37,
+     "name": "Wind Chime 2"
+    },
+    {
+     "key": 38,
+     "name": "Wind Chime 3"
+    }
+   ]
+  },
+  {
+   "name": "turtle-drum",
+   "title": "Turtle Drum",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 20,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "turtle-drum/turtle-drum/TD pp.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 76,
+     "gain": 5.54,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "turtle-drum/turtle-drum/TD p.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 77,
+     "hivel": 96,
+     "gain": 0.08,
+     "start": 0,
+     "end": 99225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "turtle-drum/turtle-drum/TD f.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 97,
+     "hivel": 105,
+     "gain": -0.77,
+     "start": 0,
+     "end": 94815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "turtle-drum/turtle-drum/TD ff.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 106,
+     "hivel": 127,
+     "gain": -2.74,
+     "start": 0,
+     "end": 101430,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Turtle drum"
+    }
+   ]
+  },
+  {
+   "name": "slide-whistle",
+   "title": "Slide Whistle",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "slide-whistle/up-slow/Up slow.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.58,
+     "start": 0,
+     "end": 43769,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "slide-whistle/up-fast/Up fast.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.58,
+     "start": 0,
+     "end": 28937,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "slide-whistle/up-faster/Up faster.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.58,
+     "start": 0,
+     "end": 29954,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "slide-whistle/down-slow/Down slow.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.58,
+     "start": 0,
+     "end": 44625,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "slide-whistle/down-fast/Down fast.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.58,
+     "start": 0,
+     "end": 27981,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "slide-whistle/down-faster/Down faster.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.58,
+     "start": 0,
+     "end": 29108,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Up slow"
+    },
+    {
+     "key": 37,
+     "name": "Up fast"
+    },
+    {
+     "key": 38,
+     "name": "Up faster"
+    },
+    {
+     "key": 39,
+     "name": "Down slow"
+    },
+    {
+     "key": 40,
+     "name": "Down fast"
+    },
+    {
+     "key": 41,
+     "name": "Down faster"
+    }
+   ]
+  }
+ ]
+}

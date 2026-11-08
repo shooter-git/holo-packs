@@ -47,6 +47,12 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Etherealwinds Harp II CE](packs/harp/) | Jordi Francis (etherealwinds) and Versilian Studios | CC BY 4.0 | <https://versilian-studios.com/etherealwinds-harp/> |
 | Iowa [Solo Strings](packs/iowa-strings/), [Woodwinds](packs/iowa-winds/), [Brass](packs/iowa-brass/), [Mallets](packs/iowa-mallets/), [Percussion and Thai Gongs](packs/iowa-percussion/) | University of Iowa Electronic Music Studios (Musical Instrument Samples) | Free to use without restriction | <https://theremin.music.uiowa.edu/MIS.html> |
 | [Orchestral Sections](packs/orchestral-sections/) | Made for HO[LO] from VSCO 2 (Versilian Studios), the University of Iowa MIS and Karoryfer Lecolds' cello and tuba | Free to use without restriction (its sources: CC0, and Iowa's free use) | <https://github.com/sgossner/VSCO-2-CE>, <https://theremin.music.uiowa.edu/MIS.html> |
+| FreePats [Bass Guitar YR](packs/freepats-bass/), [Electric Guitars (FSBS)](packs/freepats-electric-guitars/), [Button Accordion HN](packs/freepats-accordion/), [Upright Piano KW](packs/freepats-upright/), [Synthesizer Percussion](packs/freepats-synth-percussion/) | The FreePats project (the synthesizer percussion by Roberto, with Yoshimi and Geonkick) | CC0 1.0 | <https://freepats.zenvoid.org/> |
+| [Sonic Pi Samples](packs/sonic-pi/) | Freesound users as Sonic Pi's samples README lists them; Arovane (Uwe Zahn) | CC0 1.0 | <https://github.com/sonic-pi-net/sonic-pi> |
+| [Lo-fi Beat Kit](packs/lofi-kit/) | Made for HO[LO] from Sonic Pi's samples and the FreePats synthesizer percussion | CC0 1.0 | <https://github.com/sonic-pi-net/sonic-pi>, <https://freepats.zenvoid.org/> |
+| [Ethan Winer's Instruments](packs/ethan-winer/) | Ethan Winer (the turtle drum played by Katie Petreycik); mapped in FLAC by kinwie (SFZ Instruments) | Free to use without restriction | <https://ethanwiner.com/ewsf2.html>, <https://github.com/sfzinstruments/EthanWiner.Soundfonts> |
+| [Growlybass](packs/growlybass/), [Caveman Cosmonaut](packs/caveman-cosmonaut/), [Cowsynth](packs/cowsynth/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments> |
+| [Vintage Keys](packs/vintage-keys/) | Made for HO[LO] from Greg Sullivan's E-Pianos and the FreePats Upright Piano KW | CC BY 3.0 | <https://github.com/sfzinstruments/GregSullivan.E-Pianos>, <https://freepats.zenvoid.org/> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.
