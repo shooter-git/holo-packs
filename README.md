@@ -31,6 +31,7 @@ version…) are listed with it, and every pack links to its own page.
 | [FreePats Spanish Classical Guitar](packs/freepats-guitar/) | Guitars and plucked strings | 1 | 20 MB | CC0 1.0 |
 | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) | Drum kits | 1 | 168 MB | CC0 1.0 |
 | [Karoryfer Meatbass](packs/meatbass/) | Bass | 1 | 116 MB | CC0 1.0 |
+| [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Drum kits | 1 | 388 MB | CC BY 4.0 |
 | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) | Drum kits | 1 | 223 MB | CC0 1.0 |
 | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) | Drum kits | 1 | 172 MB | CC0 1.0 |
 | [Steinway Model D (bitKlavier Grand)](packs/steinway/) | Pianos and keys | 3 | 1.2 GB | CC BY 4.0 |
@@ -51,6 +52,7 @@ version…) are listed with it, and every pack links to its own page.
 | Instrument | Also played as | Pack |
 |---|---|---|
 | Jazz Kit |  | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) |
+| Naked Drums |  | [Naked Drums (Wilkinson Audio)](packs/naked-drums/) |
 | Prog Kit |  | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) |
 | Rock Kit |  | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) |
 
@@ -165,6 +167,8 @@ packs/<id>/pack.json      the map: instruments, zones, levels, pads, the source 
 packs/<id>/files.sha256   every sample's sha256, as `sha256sum -c` reads them
 packs/<id>/recipe.mjs     how pack.json was made, for the packs made from recordings
 tools/lib.mjs, kit.mjs    what the recipes share: fetching, measuring, levelling, writing a pack
+tools/sfz.mjs             an SFZ instrument read as a player reads it, for libraries whose samples' names are codes
+tools/private.mjs         what makes a pack someone's own, which never comes here
 tools/checksums.mjs       files.sha256 and the pack's size, from a pack installed in HO[LO]'s data folder
 tools/readme.mjs          the parts of the READMEs that come from the maps (the catalog, each pack's facts)
 tools/check.mjs           every pack checked with HO[LO] Desk's own code (what CI runs)
@@ -184,7 +188,9 @@ git clone https://github.com/shooter-git/holo-desk ../holo-desk
 pnpm --dir ../holo-desk install
 ```
 
-1. **Make the folder.** Create `packs/<id>/`, named by the pack's id.
+1. **Make the folder.** Create `packs/<id>/`, named by the pack's id. A pack you imported into HO[LO]
+   from your own files (its id starts with `mine-`) stays on your computer: this repository is public,
+   and its tools and check refuse one.
    - A recipe (`recipe.mjs`) writes `pack.json` and `files.sha256` itself.
    - A library taken whole from git needs only its `pack.json`. Then
      `node tools/checksums.mjs <id>` writes its checksums and its size from the pack installed in

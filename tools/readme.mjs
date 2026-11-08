@@ -85,11 +85,14 @@ function layers(i) {
   return most;
 }
 
-/** How many takes of one note and velocity take turns (round robins), at most. */
+/**
+ * How many takes of one note and velocity take turns (round robins), at most (each microphone's own,
+ * in a kit that keeps them apart).
+ */
 function takes(i) {
   const n = new Map();
   for (const z of played(i)) {
-    const k = `${z.lo}-${z.hi}-${z.lovel}-${z.hivel}`;
+    const k = `${z.lo}-${z.hi}-${z.lovel}-${z.hivel}-${z.mic ?? ''}`;
     n.set(k, (n.get(k) ?? 0) + 1);
   }
   return Math.max(1, ...n.values());
@@ -112,7 +115,28 @@ function traits(i) {
   if (i.undamped) out.push(`undamped from ${note(i.undamped)}`);
   if (played(i).some((z) => z.loopEnd > 0)) out.push('looped sustains');
   if (played(i).some((z) => z.offBy)) out.push('chokes (a closed hi-hat stops the open one)');
+  if (i.mics?.length) out.push(`${i.mics.length} microphones, each with its own level`);
   return out.join(', ');
+}
+
+/** dB as the page shows it ("−14 dB", "off"). */
+const db = (x) => (x <= -60 ? 'off' : `${x < 0 ? '−' : ''}${Math.abs(Math.round(x * 10) / 10)} dB`);
+
+/** Where a mono microphone sits ("centre", "30% left"). */
+const place = (pan) => (!pan ? 'centre' : `${Math.round(Math.abs(pan) * 100)}% ${pan < 0 ? 'left' : 'right'}`);
+
+/** A multi-microphone instrument's microphones: their knobs' starting levels, and how each is recorded. */
+function micRows(pack, i) {
+  const files = pack.source?.kind === 'mix' ? pack.source.files : null;
+  return i.mics.map((m) => {
+    const zones = played(i).filter((z) => z.mic === m.id);
+    const mono = files ? zones.filter((z) => files[z.file]?.mono) : [];
+    const kinds = [];
+    if (mono.length)
+      kinds.push(`mono, ${mono.some((z) => z.pan !== undefined) ? 'each drum at its own place' : place(m.pan)}`);
+    if (files && mono.length < zones.length) kinds.push('stereo');
+    return `| ${cell(m.name)} | \`${m.id}\` | ${db(m.level ?? 0)} | ${kinds.join('; ')} |`;
+  });
 }
 
 /**
@@ -163,10 +187,14 @@ function source(pack, hasRecipe) {
         const m = /raw\.githubusercontent\.com\/([^/]+\/[^/]+)\/([0-9a-f]{40})\//.exec(b);
         return m ? `[${m[1]}](https://github.com/${m[1]}/tree/${m[2]}) at \`${m[2].slice(0, 7)}\`` : `<${encodeURI(b)}>`;
       });
+      const apart = pack.instruments.some((i) => i.mics?.length);
       return (
         `Made from ${Object.keys(s.downloads ?? {}).length} recordings, fetched from ${bases.join(' and ')}. ` +
-        `Each file is made from its recordings by fixed arithmetic (a note trimmed and faded, a drum hit ` +
-        `mixed from its microphones), the same in every install, so every install makes the same bytes, ` +
+        `Each file is made from its recordings by fixed arithmetic (${
+          apart
+            ? 'a drum hit trimmed and faded, each of its microphones a file of its own'
+            : 'a note trimmed and faded, a drum hit mixed from its microphones'
+        }), the same in every install, so every install makes the same bytes, ` +
         `each checked against \`files.sha256\`.${recipe}`
       );
     }
@@ -215,6 +243,17 @@ export function packFacts(id, pack) {
     lines.push('', `## ${i.title}'s pads`, '', 'Each key plays one piece of the kit. The kick, snare and hi-hats sit where General MIDI has them.', '');
     lines.push('| Key | Note | Pad |', '|---|---|---|');
     for (const p of [...i.pads].sort((a, b) => a.key - b.key)) lines.push(`| ${p.key} | ${note(p.key)} | ${cell(p.name)} |`);
+  }
+  for (const i of pack.instruments.filter((x) => x.mics?.length)) {
+    lines.push(
+      '',
+      `## ${i.title}'s microphones`,
+      '',
+      "Each hit sounds every microphone together. Each has a knob in the instrument's window, turned while it plays; " +
+        "they start where the library's own mixer has them.",
+      '',
+    );
+    lines.push('| Microphone | Id | Starts at | Recorded |', '|---|---|---|---|', ...micRows(pack, i));
   }
   return `${lines.join('\n')}\n`;
 }
