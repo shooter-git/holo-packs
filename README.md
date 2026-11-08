@@ -47,6 +47,7 @@ version…) are listed with it, and every pack links to its own page.
 | [Karoryfer x bigcat Cello](packs/bigcat-cello/) | Strings | 3 | 131 MB | CC0 1.0 |
 | [Male Voice "Ah"](packs/vocal-ah/) | Voices | 1 | 38 MB | CC0 1.0 |
 | [MTG Solo Saxophones](packs/mtg-sax/) | Woodwinds | 4 | 153 MB | CC BY 4.0 |
+| [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Drum kits | 1 | 388 MB | CC BY 4.0 |
 | [Nepalese Hand Bells (VCSL)](packs/nepal-bells/) | Percussion | 1 | 1 MB | CC0 1.0 |
 | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) | Drum kits | 1 | 223 MB | CC0 1.0 |
 | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) | Drum kits | 1 | 172 MB | CC0 1.0 |
@@ -76,6 +77,7 @@ version…) are listed with it, and every pack links to its own page.
 | Instrument | Also played as | Pack |
 |---|---|---|
 | Jazz Kit |  | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) |
+| Naked Drums |  | [Naked Drums (Wilkinson Audio)](packs/naked-drums/) |
 | Prog Kit |  | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) |
 | Rock Kit |  | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) |
 
@@ -265,6 +267,7 @@ packs/<id>/recipe.mjs     how pack.json was made, for the packs made from record
 tools/lib.mjs, kit.mjs    what the recipes share: fetching, measuring, levelling, writing a pack
 tools/sampler.mjs         played instruments (pianos, strings, winds…) from a library's recordings
 tools/sfz.mjs             an SFZ program read as a player reads it, for the recipes that map one
+tools/private.mjs         what makes a pack someone's own, which never comes here
 tools/checksums.mjs       files.sha256 and the pack's size, from a pack installed in HO[LO]'s data folder
 tools/readme.mjs          the parts of the READMEs that come from the maps (the catalog, each pack's facts)
 tools/check.mjs           every pack checked with HO[LO] Desk's own code (what CI runs)
@@ -284,7 +287,9 @@ git clone https://github.com/shooter-git/holo-desk ../holo-desk
 pnpm --dir ../holo-desk install
 ```
 
-1. **Make the folder.** Create `packs/<id>/`, named by the pack's id.
+1. **Make the folder.** Create `packs/<id>/`, named by the pack's id. A pack you imported into HO[LO]
+   from your own files (its id starts with `mine-`) stays on your computer: this repository is public,
+   and its tools and check refuse one.
    - A recipe (`recipe.mjs`) writes `pack.json` and `files.sha256` itself.
    - A library taken whole from git needs only its `pack.json`. Then
      `node tools/checksums.mjs <id>` writes its checksums and its size from the pack installed in
