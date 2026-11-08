@@ -9,8 +9,8 @@ An install, and an experience's own build, fetch the audio from its source:
 - the Iowa notes cut from the university's own downloads;
 - the FreePats guitar decoded from the project's own archive;
 - the Steinway, the other pianos and keys, the solo instruments and the drum kits made from their
-  libraries' own recordings (trimmed, the kits mixed from their microphones) by the recipes in
-  `packs/<id>/recipe.mjs`.
+  libraries' own recordings (trimmed, and the kits mixed from their microphones, or each microphone
+  kept as its own file) by the recipes in `packs/<id>/recipe.mjs`.
 
 | Pack | Authors | Licence | Source |
 |---|---|---|---|
@@ -47,6 +47,7 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Etherealwinds Harp II CE](packs/harp/) | Jordi Francis (etherealwinds) and Versilian Studios | CC BY 4.0 | <https://versilian-studios.com/etherealwinds-harp/> |
 | Iowa [Solo Strings](packs/iowa-strings/), [Woodwinds](packs/iowa-winds/), [Brass](packs/iowa-brass/), [Mallets](packs/iowa-mallets/), [Percussion and Thai Gongs](packs/iowa-percussion/) | University of Iowa Electronic Music Studios (Musical Instrument Samples) | Free to use without restriction | <https://theremin.music.uiowa.edu/MIS.html> |
 | [Orchestral Sections](packs/orchestral-sections/) | Made for HO[LO] from VSCO 2 (Versilian Studios), the University of Iowa MIS and Karoryfer Lecolds' cello and tuba | Free to use without restriction (its sources: CC0, and Iowa's free use) | <https://github.com/sgossner/VSCO-2-CE>, <https://theremin.music.uiowa.edu/MIS.html> |
+| [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Wilkinson Audio; its SFZ and FLAC version by kinwie | CC BY 4.0 | <https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.

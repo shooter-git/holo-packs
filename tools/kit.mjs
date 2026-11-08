@@ -150,18 +150,61 @@ function spreadPick(list, n) {
   return Array.from({ length: n }, (_, i) => list[Math.round((i * (list.length - 1)) / (n - 1))]);
 }
 
+/** The microphone an input of a piece belongs to: its name, up to a colon ("snare-top:2" is "snare-top"'s). */
+const micOf = (input) => input.split(':')[0];
+
+/** A microphone's knob is off at this level (dB) or below. */
+export const MIC_OFF = -60;
+
+/**
+ * The microphones a multi-microphone kit keeps apart (`spec.mics`), checked against its pieces: each
+ * a unique id, a name, and a starting level (dB) and pan that make sense; every input of every piece
+ * one of them. Returns each one's linear gain at its starting level (0 when it starts off).
+ */
+function micLevels(spec) {
+  const levels = new Map();
+  for (const m of spec.mics) {
+    if (!/^[a-z0-9][a-z0-9-]*$/.test(m.id ?? ''))
+      throw new Error(`mic "${m.id}": an id is lowercase letters, digits and -`);
+    if (levels.has(m.id)) throw new Error(`mic "${m.id}" is declared twice`);
+    if (!m.name) throw new Error(`mic "${m.id}" has no name`);
+    const level = m.level ?? 0;
+    if (!Number.isFinite(level) || level > 12)
+      throw new Error(`mic "${m.id}": its level ${level} isn't a dB of 12 or less`);
+    if (m.pan !== undefined && !(m.pan >= -1 && m.pan <= 1))
+      throw new Error(`mic "${m.id}": its pan ${m.pan} isn't -1 to 1`);
+    levels.set(m.id, level <= MIC_OFF ? 0 : 10 ** (level / 20));
+  }
+  for (const piece of spec.pieces)
+    for (const input of Object.keys(piece.mics))
+      if (!levels.has(micOf(input))) throw new Error(`${piece.name}: "${input}" isn't one of the kit's mics`);
+  return levels;
+}
+
 /**
  * Build a kit pack. `spec.pieces`: each with a name, the keys it plays on, its hits (hitsIn), its
  * microphones' fader levels and pans ({ mic: [gain, pan] }, a stereo pair's pan left out), and how
- * long its tail may ring.
+ * long its tail may ring. A hit's `gains` ({ mic: factor }), where it has them, scale its microphones'
+ * faders for that hit alone (a library that sets each velocity layer's microphones apart). A piece's
+ * `heard(layer)` (dB) is for a library whose layers are recorded alike and get their dynamics from
+ * velocity: how much quieter each is heard than recorded, so its layers spread by how they're heard.
+ *
+ * `spec.mics` ([{ id, name, level?, pan? }]) keeps the microphones apart: each hit is still measured,
+ * trimmed and levelled as the mix of its microphones (each at its fader and pan, and its knob's starting
+ * `level` in dB; a microphone that starts at -60 dB or below is left out), but every microphone of it
+ * is written as a file of its own, which the sampler sounds together, each at its knob's level. A
+ * piece's `mics` are keyed by those ids, or by "<id>:<anything>" for several recordings summed into
+ * one microphone's file (two microphones on a snare's top heard as one).
  */
 export async function buildKit(spec) {
   const cache = arg('cache', join(process.env.HOME ?? '.', `.cache/holo-pack-sources/${spec.id}`));
   const out = arg('out', null);
   const downloads = spec.downloads;
   const pieces = spec.pieces;
-  // checked before anything is fetched: every piece has its pad
+  const multi = Boolean(spec.mics?.length);
+  // checked before anything is fetched: every piece has its pad, every microphone is declared
   const pads = padsOf(spec);
+  const knob = multi ? micLevels(spec) : null;
   // fetch every microphone of every hit kept
   for (const piece of pieces) {
     piece.hits = spreadPick(
@@ -184,17 +227,50 @@ export async function buildKit(spec) {
   const rateOf = (n) => decode(n).rate;
 
   // each piece's inputs: microphones at their gains and pans, summed as recorded (as the libraries'
-  // own programs sum them: none turns a microphone over)
+  // own programs sum them: none turns a microphone over). `mic` picks one microphone's (at its fader,
+  // as its own file is written); without it, the mix (and each microphone at its knob's starting level,
+  // in a kit that keeps them apart).
   for (const piece of pieces) {
-    piece.inputsOf = (hit, scale = 1) =>
+    piece.inputsOf = (hit, scale = 1, mic = null) =>
       Object.entries(piece.mics)
-        .filter(([, [gain]]) => gain > 0)
-        .map(([mic, [gain, pan]]) => {
-          const name = hit.mics[mic];
-          const g = decode(name).channels.length === 1 ? panGains(gain, pan) : [gain, gain];
+        .filter(([input, [gain]]) => gain > 0 && (mic ? micOf(input) === mic : !knob || knob.get(micOf(input)) > 0))
+        .map(([input, [gain, pan]]) => {
+          const name = hit.mics[input];
+          let g0 = hit.gains?.[input] === undefined ? gain : gain * hit.gains[input];
+          if (knob && !mic) g0 *= knob.get(micOf(input));
+          const g = decode(name).channels.length === 1 ? panGains(g0, pan) : [g0, g0];
           return [name, g[0] * scale, g[1] * scale];
         });
   }
+  /** The microphones a piece's hits are written as (a kit that keeps them apart), in the kit's order. */
+  const micsOf = (piece) =>
+    spec.mics
+      .map((m) => m.id)
+      .filter((id) => Object.entries(piece.mics).some(([i, [gain]]) => micOf(i) === id && gain > 0));
+  /**
+   * How one microphone of a hit is written: mono where every recording in it is mono and sits at one
+   * pan (the sampler places it there), else stereo with its pans in it. Returns its recipe's inputs, and
+   * the pan (-1 to 1) of a mono one.
+   */
+  const micFile = (piece, hit, mic, scale) => {
+    const parts = Object.entries(piece.mics).filter(([input, [gain]]) => gain > 0 && micOf(input) === mic);
+    const pans = new Set(parts.map(([, [, pan]]) => pan ?? 63.5));
+    if (parts.every(([input]) => decode(hit.mics[input]).channels.length === 1) && pans.size === 1) {
+      const pan = Math.max(-1, Math.min(1, ([...pans][0] - 63.5) / 63.5));
+      const inputs = parts.map(([input, [gain]]) => {
+        const g = hit.gains?.[input] === undefined ? gain : gain * hit.gains[input];
+        return [hit.mics[input], g * scale, g * scale];
+      });
+      return { inputs, mono: true, pan: Math.round(pan * 1e4) / 1e4 };
+    }
+    return { inputs: piece.inputsOf(hit, scale, mic), mono: false };
+  };
+  /** A signal's loudest sample (as a fraction of full scale). */
+  const peakOf = (channels) => {
+    let p = 0;
+    for (const c of channels) for (let i = 0; i < c.length; i++) p = Math.max(p, Math.abs(c[i]));
+    return p;
+  };
 
   // the kit's loudest moment sets how loud the files are written (just under full scale)
   let loudestPeak = 0;
@@ -206,7 +282,20 @@ export async function buildKit(spec) {
       for (let i = 0; i < l.length; i++) loudestPeak = Math.max(loudestPeak, Math.abs(l[i]), Math.abs(r[i]));
     }
   }
-  const scale = 0.89 / loudestPeak;
+  // and no microphone's own file may clip (one turned down in the mix is written at its fader)
+  let loudestMic = 0;
+  if (multi) {
+    for (const piece of pieces) {
+      for (const hit of piece.hits)
+        for (const mic of micsOf(piece)) {
+          const f = micFile(piece, hit, mic, 1);
+          const sig = mixSignal(f.inputs, new Map(f.inputs.map(([n]) => [n, decode(n)])));
+          loudestMic = Math.max(loudestMic, peakOf(f.mono ? [sig[0]] : sig));
+        }
+      decodedCache.clear();
+    }
+  }
+  const scale = 0.89 / Math.max(loudestPeak, loudestMic);
 
   // measure every hit as it will be written
   const files = {};
@@ -216,6 +305,7 @@ export async function buildKit(spec) {
     let topPeak = Number.NEGATIVE_INFINITY;
     for (const hit of piece.hits) {
       const inputs = piece.inputsOf(hit, scale);
+      if (!inputs.length) throw new Error(`${piece.name}: every one of its microphones starts off`);
       const m = new Map(inputs.map(([n]) => [n, decode(n)]));
       const rate = rateOf(inputs[0][0]);
       const [l, r] = mixSignal(inputs, m);
@@ -224,54 +314,83 @@ export async function buildKit(spec) {
       const start = Math.max(0, at - Math.round(0.0015 * rate));
       const peak = peakDb(ch);
       topPeak = Math.max(topPeak, peak);
-      measured.push({ hit, inputs, rate, ch, start, at, peak, level: loudness(ch, rate, at, 0.4) });
+      const h = { hit, inputs, rate, length: ch[0].length, env: envelope(ch, rate, 0.02), start, at, peak };
+      h.level = loudness(ch, rate, at, 0.4);
+      // each microphone's own file: from the hit's start (so they stay in step), to its own tail
+      if (multi)
+        h.mics = micsOf(piece).map((mic) => {
+          const f = micFile(piece, hit, mic, scale);
+          const sig = mixSignal(f.inputs, new Map(f.inputs.map(([n]) => [n, decode(n)])));
+          const own = f.mono ? [Float32Array.from(sig[0])] : sig.map((c) => Float32Array.from(c));
+          return { mic, ...f, length: own[0].length, env: envelope(own, rate, 0.02) };
+        });
+      measured.push(h);
     }
+    if (multi) decodedCache.clear();
     // tails: kept down to `floor` dB under the piece's loudest peak, and no longer than `ring` seconds
-    for (const h of measured) {
-      const env = envelope(h.ch, h.rate, 0.02);
-      const floor = topPeak - (piece.floor ?? 62);
+    const floor = topPeak - (piece.floor ?? 62);
+    const framesOf = (h, env, length) => {
       let last = 0;
       for (let b = env.db.length - 1; b >= 0; b--)
         if (env.db[b] > floor) {
           last = (b + 1) * env.frames;
           break;
         }
-      const end = Math.min(
-        h.ch[0].length,
-        last + Math.round(0.05 * h.rate),
-        h.start + Math.round((piece.ring ?? 2) * h.rate),
-      );
-      h.frames = Math.max(Math.round(0.05 * h.rate), end - h.start);
-      const fade = Math.min(Math.round((piece.fade ?? 0.2) * h.rate), Math.round(h.frames * 0.4));
-      const path = `${spec.folder}/${piece.name}/${piece.name}_v${h.hit.layer}_rr${h.hit.rr}.wav`;
-      h.path = path;
-      files[path] = {
-        in: h.inputs,
-        start: h.start,
-        frames: h.frames,
-        fadeIn: Math.min(32, h.at - h.start),
-        fadeOut: fade,
-      };
+      const end = Math.min(length, last + Math.round(0.05 * h.rate), h.start + Math.round((piece.ring ?? 2) * h.rate));
+      return Math.max(Math.round(0.05 * h.rate), end - h.start);
+    };
+    const recipe = (h, inputs, frames) => ({
+      in: inputs,
+      start: h.start,
+      frames,
+      fadeIn: Math.min(32, h.at - h.start),
+      fadeOut: Math.min(Math.round((piece.fade ?? 0.2) * h.rate), Math.round(frames * 0.4)),
+    });
+    for (const h of measured) {
+      h.frames = framesOf(h, h.env, h.length);
+      const stem = `${spec.folder}/${piece.name}/${piece.name}_v${h.hit.layer}_rr${h.hit.rr}`;
+      if (!multi) {
+        h.path = `${stem}.wav`;
+        files[h.path] = recipe(h, h.inputs, h.frames);
+        continue;
+      }
+      // every microphone from the hit's start, each to where its own tail falls under the floor
+      for (const m of h.mics) {
+        m.frames = framesOf(h, m.env, m.length);
+        m.path = `${stem}_${m.mic}.wav`;
+        files[m.path] = { ...recipe(h, m.inputs, m.frames), ...(m.mono ? { mono: true } : {}) };
+      }
     }
     zonesOf.set(piece, measured);
   }
 
-  // velocity: one curve for the whole kit, as wide as its widest piece needs
+  // velocity: one curve for the whole kit, as wide as its widest piece needs. A library that records
+  // (or evens out) its layers alike and makes its dynamics by velocity says how much quieter each layer
+  // is heard than recorded (`heard(layer)`, dB): its layers are placed by how loud they're heard
   const levelsOf = (piece) => {
     const m = zonesOf.get(piece);
     const layers = [...new Set(m.map((h) => h.hit.layer))].sort((a, b) => a - b);
-    return {
-      layers,
-      levels: layers.map((L) => {
-        const of = m.filter((h) => h.hit.layer === L);
-        return of.reduce((a, h) => a + h.level, 0) / of.length;
-      }),
-    };
+    const levels = layers.map((L) => {
+      const of = m.filter((h) => h.hit.layer === L);
+      return of.reduce((a, h) => a + h.level, 0) / of.length;
+    });
+    return { layers, levels, placed: piece.heard ? levels.map((l, n) => l + piece.heard(layers[n])) : levels };
   };
-  const ranges = pieces.filter((p) => p.leadsRange).map((p) => spreadLayers(levelsOf(p).levels).need);
+  /** Each layer's velocities and gain, its loudness at velocity 127 being `target` (each layer played as recorded). */
+  const spreadOf = (piece, target) => {
+    const { levels, placed } = levelsOf(piece);
+    const spread = spreadLayers(placed, { range, target });
+    if (!piece.heard) return spread;
+    return { ...spread, layers: spread.layers.map((v, n) => ({ ...v, gain: target - levels[n] })) };
+  };
+  const ranges = pieces.filter((p) => p.leadsRange).map((p) => spreadLayers(levelsOf(p).placed).need);
   const range = Math.round(Math.min(44, Math.max(28, ...ranges)) * 10) / 10;
-  // every piece at its natural level in the mix, the kit as a whole brought to `spec.level`
-  const natural = pieces.map((p) => spreadLayers(levelsOf(p).levels, { range }).ref);
+  // every piece at its natural level in the mix, the kit as a whole brought to `spec.level` (one whose
+  // layers are heard by velocity: its loudest, as it's heard at full velocity)
+  const natural = pieces.map((p) => {
+    const { levels } = levelsOf(p);
+    return p.heard ? levels[levels.length - 1] : spreadLayers(levels, { range }).ref;
+  });
   // pieces from another recording move by what brings one of them to one of this kit's
   // (`levelAs: [piece, like]`): a borrowed snare to the kick's level, and its rimshot with it
   const at = (name) => {
@@ -287,8 +406,8 @@ export async function buildKit(spec) {
   // headroom: a track's fader starts at 0 dB, so the kit comes down until its snare peaks at -2 dB at
   // full velocity, and a piece that would still peak over full scale (a spiky rimshot) comes down alone
   const peakAtTop = (piece, target) => {
-    const { layers, levels } = levelsOf(piece);
-    const spread = spreadLayers(levels, { range, target });
+    const { layers } = levelsOf(piece);
+    const spread = spreadOf(piece, target);
     let peak = Number.NEGATIVE_INFINITY;
     for (const h of zonesOf.get(piece)) {
       const v = spread.layers[layers.indexOf(h.hit.layer)];
@@ -302,35 +421,55 @@ export async function buildKit(spec) {
     return t + Math.min(0, -peakAtTop(p, t));
   });
   const tuned = pieces.some((p) => p.tune);
+  // where each microphone's mono files sit: the microphone's own pan when every one of them shares it
+  const micPan = new Map();
+  if (multi)
+    for (const m of spec.mics) {
+      if (m.pan !== undefined) {
+        micPan.set(m.id, m.pan);
+        continue;
+      }
+      const pans = new Set();
+      for (const piece of pieces)
+        for (const h of zonesOf.get(piece)) for (const f of h.mics) if (f.mic === m.id && f.mono) pans.add(f.pan);
+      if (pans.size === 1) micPan.set(m.id, [...pans][0]);
+    }
   const zones = [];
   pieces.forEach((piece, i) => {
-    const { layers, levels } = levelsOf(piece);
-    const spread = spreadLayers(levels, { range, target: targets[i] });
+    const { layers } = levelsOf(piece);
+    const spread = spreadOf(piece, targets[i]);
     for (const h of zonesOf.get(piece)) {
       const v = spread.layers[layers.indexOf(h.hit.layer)];
       if (v.unreachable) continue;
-      const base = {
-        file: h.path,
-        lovel: v.lovel,
-        hivel: v.hivel,
-        gain: Math.round(v.gain * 100) / 100,
-        start: 0,
-        end: h.frames,
-        loopStart: 0,
-        loopEnd: 0,
-        rate: h.rate,
-        rr: h.hit.rr,
-        ...(piece.group ? { group: piece.group } : {}),
-        ...(piece.offBy ? { offBy: piece.offBy } : {}),
-      };
-      // one zone a key (a tuned piece plays its recording a few semitones up)
-      if (tuned) for (const key of piece.keys) zones.push({ ...base, root: key - (piece.tune ?? 0), lo: key, hi: key });
-      else {
-        const lo = Math.min(...piece.keys);
-        const hi = Math.max(...piece.keys);
-        if (hi - lo + 1 !== piece.keys.length)
-          for (const key of piece.keys) zones.push({ ...base, root: key, lo: key, hi: key });
-        else zones.push({ ...base, root: lo, lo, hi });
+      // a kit that keeps its microphones apart: every microphone of the hit, at the hit's one gain
+      const takes = multi ? h.mics : [{ path: h.path, frames: h.frames }];
+      for (const t of takes) {
+        const base = {
+          file: t.path,
+          lovel: v.lovel,
+          hivel: v.hivel,
+          gain: Math.round(v.gain * 100) / 100,
+          start: 0,
+          end: t.frames,
+          loopStart: 0,
+          loopEnd: 0,
+          rate: h.rate,
+          rr: h.hit.rr,
+          ...(t.mic ? { mic: t.mic } : {}),
+          ...(t.mono && t.pan !== (micPan.get(t.mic) ?? 0) ? { pan: t.pan } : {}),
+          ...(piece.group ? { group: piece.group } : {}),
+          ...(piece.offBy ? { offBy: piece.offBy } : {}),
+        };
+        // one zone a key (a tuned piece plays its recording a few semitones up)
+        if (tuned)
+          for (const key of piece.keys) zones.push({ ...base, root: key - (piece.tune ?? 0), lo: key, hi: key });
+        else {
+          const lo = Math.min(...piece.keys);
+          const hi = Math.max(...piece.keys);
+          if (hi - lo + 1 !== piece.keys.length)
+            for (const key of piece.keys) zones.push({ ...base, root: key, lo: key, hi: key });
+          else zones.push({ ...base, root: lo, lo, hi });
+        }
       }
     }
   });
@@ -348,6 +487,16 @@ export async function buildKit(spec) {
     notePolyphony: 3,
     offTime: 0.035,
     pads,
+    ...(multi
+      ? {
+          mics: spec.mics.map((m) => ({
+            id: m.id,
+            name: m.name,
+            ...(m.level ? { level: m.level } : {}),
+            ...(micPan.get(m.id) ? { pan: micPan.get(m.id) } : {}),
+          })),
+        }
+      : {}),
     zones,
   };
   const source = { kind: 'mix', note: spec.note, bases: spec.bases, downloads: {}, bits: 24, files };
@@ -374,17 +523,38 @@ export async function buildKit(spec) {
           : ''
       }`,
   );
-  for (const piece of pieces) {
-    const { levels } = levelsOf(piece);
+  // what a device holds of each file (a mono one half a stereo one's)
+  const mono = new Set(Object.keys(files).filter((f) => files[f].mono));
+  const once = zones.filter((z, i, a) => a.findIndex((x) => x.file === z.file) === i);
+  pieces.forEach((piece, i) => {
+    const { levels, placed } = levelsOf(piece);
+    const own = once.filter((z) => z.file.startsWith(`${spec.folder}/${piece.name}/`));
+    const rrs = new Set(zonesOf.get(piece).map((h) => h.hit.rr)).size;
     console.log(
       `  ${piece.name.padEnd(14)} keys ${piece.keys.join(',').padEnd(10)} ${String(zonesOf.get(piece).length).padStart(3)} hits, ` +
-        `layers ${levels.length}, ${levels[0].toFixed(1)}..${levels[levels.length - 1].toFixed(1)} dB`,
+        `layers ${levels.length}, ${levels[0].toFixed(1)}..${levels[levels.length - 1].toFixed(1)} dB` +
+        (piece.heard ? ` (heard ${placed[0].toFixed(1)}..${placed[placed.length - 1].toFixed(1)})` : '') +
+        (multi
+          ? `, ${rrs} round robins, ${own.length} files, ${memoryMb(own, null, mono).toFixed(0)} MB, ` +
+            `velocities ${spreadOf(piece, targets[i])
+              .layers.map((v) => (v.unreachable ? '-' : `${v.lovel}-${v.hivel}`))
+              .join(' ')}, ` +
+            `target ${targets[i].toFixed(1)} dB, peak at 127 ${peakAtTop(piece, targets[i]).toFixed(1)} dBFS`
+          : ''),
     );
-  }
+  });
+  if (multi)
+    for (const m of instrument.mics) {
+      const own = once.filter((z) => z.mic === m.id);
+      const kinds = new Set(own.map((z) => (mono.has(z.file) ? 'mono' : 'stereo')));
+      console.log(
+        `  mic ${m.id.padEnd(13)} ${m.name.padEnd(14)} level ${String(m.level ?? 0).padStart(6)} dB, pan ${
+          m.pan ?? (own.some((z) => z.pan !== undefined) ? 'by zone' : 0)
+        }, ${[...kinds].join('+')}, ${own.length} files, ${memoryMb(own, null, mono).toFixed(0)} MB`,
+      );
+    }
   await makeFiles(pack, downloads, out);
-  console.log(
-    `${writeManifest(pack)}: ${memoryMb(zones.filter((z, i, a) => a.findIndex((x) => x.file === z.file) === i)).toFixed(0)} MB decoded at 48 kHz`,
-  );
+  console.log(`${writeManifest(pack)}: ${memoryMb(once, null, mono).toFixed(0)} MB decoded at 48 kHz`);
   return pack;
 }
 

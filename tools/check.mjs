@@ -9,9 +9,13 @@
 //   and hi-hats sit where General MIDI has them. A set of hand percussion (category Percussion: a
 //   tabla's strokes) has pads too, each its own piece, without General MIDI's kit.
 // - Every other instrument is played by pitch, or is one sound whose one pad is named by it.
+// - A multi-microphone instrument's microphones are well formed, and every hit has one zone a
+//   microphone, all of them alike but for their file, microphone and pan (they sound as one hit).
+// - No pack is someone's own (imported from their files, or made from files only they have).
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { holo, repo } from './holo.mjs';
+import { privateReason } from './private.mjs';
 import { FREE, LICENCES } from './readme.mjs';
 
 const { packPaths, parseChecksums, pinPack } = await holo('packages/music/src/packs.ts');
@@ -24,6 +28,62 @@ const KINDS = new Set(['git', 'cut', 'archive', 'mix']);
 // a piece's folder words that its pad's name must have (by letters and digits)
 const WORDS = { 'hat-three-quarter': ['hat', '¾'] };
 const flat = (s) => s.toLowerCase().replace(/[^a-z0-9¾]/g, '');
+const MIC_ID = /^[a-z0-9][a-z0-9-]*$/;
+const inRange = (x, lo, hi) => typeof x === 'number' && Number.isFinite(x) && x >= lo && x <= hi;
+
+/** What's wrong with an instrument's microphones and how its zones use them (none for most). */
+function micProblems(m) {
+  const out = [];
+  const at = `${m.name}:`;
+  const played = (m.zones ?? []).filter((z) => !z.trigger);
+  for (const z of m.zones ?? [])
+    if (z.pan !== undefined && !inRange(z.pan, -1, 1)) out.push(`${at} ${z.file}'s pan ${z.pan} isn't -1 to 1`);
+  if (m.mics === undefined) {
+    const named = played.find((z) => z.mic !== undefined);
+    if (named) out.push(`${at} ${named.file} names mic "${named.mic}", but the instrument declares no mics`);
+    return out;
+  }
+  if (!Array.isArray(m.mics) || !m.mics.length) return [...out, `${at} its "mics" isn't a list of microphones`];
+  const ids = new Set();
+  for (const mic of m.mics) {
+    const id = mic?.id;
+    if (typeof id !== 'string' || !MIC_ID.test(id))
+      out.push(`${at} mic id "${id}" isn't lowercase letters, digits and -`);
+    else if (ids.has(id)) out.push(`${at} mic "${id}" is declared twice`);
+    ids.add(id);
+    if (typeof mic?.name !== 'string' || !mic.name.trim()) out.push(`${at} mic "${id}" has no name`);
+    if (mic?.level !== undefined && !inRange(mic.level, Number.NEGATIVE_INFINITY, 12))
+      out.push(`${at} mic "${id}"'s level ${mic.level} isn't a dB of 12 or less`);
+    if (mic?.pan !== undefined && !inRange(mic.pan, -1, 1))
+      out.push(`${at} mic "${id}"'s pan ${mic.pan} isn't -1 to 1`);
+  }
+  // every zone a hit plays is one microphone's, and every microphone has zones
+  const unmiked = played.filter((z) => !ids.has(z.mic));
+  if (unmiked.length)
+    out.push(
+      `${at} ${unmiked.length} zone(s) have no declared mic, e.g. ${unmiked[0].file} (${
+        unmiked[0].mic === undefined ? 'no mic' : `mic "${unmiked[0].mic}"`
+      })`,
+    );
+  const used = new Set(played.map((z) => z.mic));
+  const idle = [...ids].filter((id) => !used.has(id));
+  if (idle.length) out.push(`${at} no zone is recorded with ${idle.map((id) => `"${id}"`).join(', ')}`);
+  // a hit sounds one zone of each microphone, together: one a microphone, all alike
+  const slots = new Map();
+  for (const z of played) {
+    const key = `${z.lo}-${z.hi} vel ${z.lovel}-${z.hivel} rr ${z.rr ?? '-'}`;
+    if (!slots.has(key)) slots.set(key, []);
+    slots.get(key).push(z);
+  }
+  for (const [key, zs] of slots) {
+    const twice = zs.map((z) => z.mic).filter((id, i, a) => a.indexOf(id) !== i);
+    if (twice.length) out.push(`${at} keys ${key} has two zones of mic "${twice[0]}"`);
+    for (const field of ['gain', 'group', 'offBy'])
+      if (new Set(zs.map((z) => z[field] ?? null)).size > 1)
+        out.push(`${at} keys ${key}: its mics' zones differ in ${field}`);
+  }
+  return out;
+}
 
 let failed = 0;
 
@@ -46,6 +106,8 @@ for (const id of readdirSync(packsDir).sort()) {
   if (pack) {
     if (pack.format !== 'holo-pack' || pack.version !== 1) fail('pack.json is not a holo-pack map, version 1');
     if (pack.id !== id) fail(`its id is "${pack.id}", not its folder's "${id}"`);
+    const mine = privateReason(pack);
+    if (mine) fail(`${mine}`);
     for (const key of ['name', 'license', 'credit']) if (!pack[key]) fail(`it has no ${key}`);
     // only licences that let anyone share the samples
     if (pack.license && !LICENCES[pack.license] && !FREE.test(pack.license))
@@ -70,6 +132,7 @@ for (const id of readdirSync(packsDir).sort()) {
 
     for (const m of pack.instruments ?? []) {
       const at = `${m.name}:`;
+      for (const p of micProblems(m)) fail(p);
       const sampler = { type: 'sampler', pack: id, name: m.name };
       const grid = padsFor(sampler, m, opts);
       if (m.pads?.length) {
