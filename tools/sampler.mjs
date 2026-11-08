@@ -16,6 +16,7 @@
 // the tail is cut and fading as it loads), or made from its recordings (`mode: 'mix'`, the default:
 // trimmed and faded copies, which is how a FLAC library becomes the WAVs a render reads).
 import { basename, extname } from 'node:path';
+import { holo } from './holo.mjs';
 import {
   loudness,
   makeFiles,
@@ -31,6 +32,8 @@ import {
 } from './lib.mjs';
 
 export const round = (x, d = 100) => Math.round(x * d) / d;
+
+const { mixFile, decodeInput } = await holo('packages/music/src/mix.ts');
 
 /** Bits a sample of a recording (FLAC, WAV or AIFF), from its header. */
 export function bitsOf(bytes) {
@@ -128,7 +131,20 @@ function measure(downloads, s, opts = {}) {
   const inputs = inputsOf(s);
   let d;
   let mono;
-  if (inputs.length === 1 && inputs[0][1] === 1 && inputs[0][2] === 1) {
+  if (inputs.some((i) => i[3]) || s.rate) {
+    // inputs lined up or played at other rates: made as an install makes them, then measured
+    const decoded = new Map(inputs.map(([n]) => [n, downloads.decoded(n)]));
+    const rate = s.rate ?? decoded.get(inputs[0][0]).rate;
+    let frames = 0;
+    for (const [n, , , at] of inputs) {
+      const x = decoded.get(n);
+      const step = (at?.rate ?? x.rate) / rate;
+      frames = Math.max(frames, Math.ceil((x.channels[0].length - (at?.start ?? 0)) / step));
+    }
+    const wav = mixFile({ in: inputs, start: 0, frames, fadeIn: 0, fadeOut: 0, rate }, decoded, 24);
+    d = decodeInput(wav);
+    mono = false;
+  } else if (inputs.length === 1 && inputs[0][1] === 1 && inputs[0][2] === 1) {
     d = downloads.decoded(inputs[0][0]);
     mono = d.channels.length === 1;
   } else {
@@ -323,6 +339,7 @@ export async function buildInstruments(spec) {
           frames: end,
           fadeIn: m.start > 0 ? Math.min(32, m.at - m.start) : 0,
           fadeOut: fade,
+          ...(s.rate ? { rate: s.rate } : {}),
           ...(m.mono ? { mono: true } : {}),
         };
         const had = files[file];
@@ -555,4 +572,26 @@ export function padSet(folder, pieces, first = 36) {
 /** One sound on every key (played as recorded at middle C): its takes as layers and round robins. */
 export function oneSound(takes) {
   return takes.map((t, n) => ({ ...t, root: 60, lo: 0, hi: 127, layer: t.layer ?? 1, rr: t.rr ?? n + 1 }));
+}
+
+/**
+ * An SFZ program inside a published archive (its samples downloads "<archive>:<path in it>"): the
+ * program's text read out of the archive, its regions as samples.
+ */
+export async function archiveProgram(downloads, archive, path, opts = {}) {
+  const { readSfz } = await import('./sfz.mjs');
+  const { unpack } = await holo('packages/music/src/archives.ts');
+  const { file, format } = await downloads.archive(archive);
+  const texts = new Map();
+  const want = new Set((await downloads.listArchive(archive)).filter((n) => /\.(sfz|txt)$/i.test(n)));
+  await unpack(file, format, want, (n, data) => {
+    texts.set(n, new TextDecoder().decode(data));
+  });
+  const read = async (p) => {
+    const hit = [...texts.keys()].find((k) => k.toLowerCase() === p.toLowerCase());
+    if (hit === undefined) throw new Error(`${p} isn't in ${archive}`);
+    return texts.get(hit);
+  };
+  const dir = path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '';
+  return sfzSamples(await readSfz(path, read), { tag: archive, dir, ...opts });
 }

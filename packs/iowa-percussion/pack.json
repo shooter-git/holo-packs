@@ -1,0 +1,2134 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "iowa-percussion",
+ "name": "University of Iowa MIS: Percussion and Thai Gongs",
+ "license": "Free to use without restriction (University of Iowa Electronic Music Studios)",
+ "credit": "University of Iowa Musical Instrument Samples (Electronic Music Studios, University of Iowa): free to use for any project, without restriction.",
+ "bytes": 96350874,
+ "source": {
+  "kind": "mix",
+  "note": "Iowa's 2012 single sounds (stereo AIFF), each from just before its attack until it falls to -60 dB, faded there, otherwise bit for bit.",
+  "bases": {
+   "iowa": "https://theremin.music.uiowa.edu/sound%20files/MIS%20Pitches%20-%202014/"
+  },
+  "downloads": {
+   "iowa:Percussion/Cymbals/Crash Cymbals/15orchcrash.bandaturka.ff.stereo.aif": "7e87321ab19c4525d06080c912f96a098ca5810344c6699e9d9e552b24965d3f",
+   "iowa:Percussion/Cymbals/Crash Cymbals/17orchcrash.medheavy.ff.stereo.aif": "cd6e41e65eee6855d84c61dfb61e88537e44c7ea5904c8d936944a21ad563ddc",
+   "iowa:Percussion/Cymbals/Crash Cymbals/18orchcrash.french.ff.stereo.aif": "7daff1f90c0b1ba9d0e74cdfc471cc965c7a7d9920218f8249fc2d2db79f2508",
+   "iowa:Percussion/Cymbals/Crash Cymbals/18orchcrash.germanic.ff.stereo.aif": "5f737136a43c700d3b0ee31decf712a20fc0ed4d36bdc3a08fcddf3a92689a78",
+   "iowa:Percussion/Cymbals/Crash Cymbals/18orchcrash.viennese.ff.stereo.aif": "52dbeb7b698e7d22681768ee545b23ad0dbda254b213d7da70c1602daf6c2a58",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/choke/18crash.chokecrash.stereo.aif": "d1d557aa4a46fb1bf07b2f1c06c2458dabc5876ee7fc9eafc49f8de6d387905b",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/rolls/18crash.mallet.roll.stereo.aif": "f929815bda01238b7b3552ae142127cdd38daaa0f78801915f286164565322dd",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/rolls/21ride.mallet.roll.stereo.aif": "4e1e1b1ed4195db45f5df15dc6e247e542f999f359a21a5949105cb86c9d63ed",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/13crash.stick.normal.ff.stereo.aif": "875c98c580636871d808f1f0ad31fb2df21a5290701037de64930829204b4ffc",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/16chinese.stick.normal.ff.stereo.aif": "58d64e97ad6e57ce5e319850f7b801e73e746a8e33b6a3437a3d016c90d2b5c6",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/17crash.stick.normal.ff.stereo.aif": "80a45701800b74c8088cb6673c695185f1765548bc5933e9219aea2748c4b74f",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/18crash.stick.normal.ff.stereo.aif": "1db0d0477883e165e9ae25674c823afe1967a615f72bc0a19af7d09ad8e6f35b",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/19chinese.stick.normal.ff.stereo.aif": "36d7c8281407f46753cc1b8f6d169278ff95d874c41185e1cf5bba242da73c31",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/20crash.stick.normal.ff.stereo.aif": "623547d0fd59e12b97bd2cddc4ab409e9a0c3f586d4c20dd2f7c936e3e8af2ae",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/21ride.stick.bell.ff.stereo.aif": "3e7bd42c0e5e482a6ae4ed33b87f32fe770f3dc20a93132532ffd59ed8a8621b",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/21ride.stick.normal.ff.stereo.aif": "f8aa4111c804339afbf9e7eae32f1b5906cef81896510c92a7e71161fa854b68",
+   "iowa:Percussion/Cymbals/Suspended Cymbals/stick/splash.stick.normal.ff.stereo.aif": "5229db6d6fc5e1c608fc10c7c205d32fa2a4c488a6c8af92c5a607fc3b30fbbc",
+   "iowa:Percussion/Hand Percussion/Castanets/castanet1.ff.stereo.aif": "fa3d1a72133655807d30bdfcd941a409a624b869a19123bd6329279bc5dd7690",
+   "iowa:Percussion/Hand Percussion/Castanets/castanet2.ff.stereo.aif": "f7c8711891f99e0faf6de04af6fc15cef12caac80376a19d5c3b940fee710f10",
+   "iowa:Percussion/Hand Percussion/Claves/clave1.ff.stereo.aif": "9266e7b230e8ed38bfd393d8ed0e0848ac38f58a1ea98a89688cc6cd583c8e39",
+   "iowa:Percussion/Hand Percussion/Claves/clave4.ff.stereo.aif": "6c6ed781c2f21f487405acbb66087ac761c83f746c9cb9d2ebfb4090884e4e9e",
+   "iowa:Percussion/Hand Percussion/Granite Blocks/graniteblock1.ff.stereo.aif": "054799e5e7661ae204370f1a8ed44673dc5cb1f5c576556fbd9649c1a1d02c8a",
+   "iowa:Percussion/Hand Percussion/Granite Blocks/graniteblock3.ff.stereo.aif": "8461afc8c8ba75cebbe351b2509a4c502e8fb0746b9e9e633a1a8a9042d0b6f0",
+   "iowa:Percussion/Hand Percussion/Granite Blocks/graniteblock5.ff.stereo.aif": "5ba6d0e76123d04b575289cc3af515d51526973a2abb4cdec64144e0e020e5a3",
+   "iowa:Percussion/Hand Percussion/Guiro/guiro.away.ff.stereo.aif": "6b528e2efe7323a3dffc3bf3cfb09e51a7949f1491db9a7fd34f35a0629b5452",
+   "iowa:Percussion/Hand Percussion/Guiro/guiro.toward.ff.stereo.aif": "d791ce947b70d641f4e22bfd4103c4c46f46807ab6e05c999a5cdbff15a208c8",
+   "iowa:Percussion/Hand Percussion/Triangles/6triangle.ff.stereo.aif": "2ebd135a4813848be1c28847c812323cd47e6dc004db8cab4d7f2fbe65a9e29f",
+   "iowa:Percussion/Hand Percussion/Triangles/6triangle.roll.ff.stereo.aif": "6caf892581d4ccd145401dc7aec4f99c64306fdc264de7a9d1229ae897221d39",
+   "iowa:Percussion/Hand Percussion/Triangles/8triangle.ff.stereo.aif": "3770189b1262e41c757fb83c2f18856930cc7f8a3a07753250a0a61069b0d613",
+   "iowa:Percussion/Hand Percussion/Triangles/8triangle.roll.ff.stereo.aif": "e786875cae18e91b37976e5071729a17d53a031641aed86cb6f83a8ead15cc1b",
+   "iowa:Percussion/Hand Percussion/Woodblocks/10wb.ff.stereo.aif": "ced5481466003fb3082e2f1d703e4594b471eba1f9e7557183e17469d57726f1",
+   "iowa:Percussion/Hand Percussion/Woodblocks/5.5wb.ff.stereo.aif": "dc55847829fdc7646cdb5138e688cb9b473f4f6e02eb41ee919c85c8968afb3d",
+   "iowa:Percussion/Hand Percussion/Woodblocks/6.5wb.ff.stereo.aif": "afd80972397d0fb3e82869151c44fd024e361830881cc10579a0c20278822116",
+   "iowa:Percussion/Hand Percussion/Woodblocks/7wb.ff.stereo.aif": "6fafa7d1a34cf9d53db7c49665b7a8f075abbd81437c8a1a11ff7a403819da20",
+   "iowa:Percussion/Hand Percussion/Woodblocks/8.5wb.ff.stereo.aif": "8c72d59bbe304f52038c1ef7eedb523c63b5716c9a8301253673e76b8e0e9ed7",
+   "iowa:Percussion/Tambourines/tambourine1.fingerroll.ff.stereo.aif": "70264ecdb71fba3c8797539add6b4c18f9f9c34945eb8909cdd7da2e68209e86",
+   "iowa:Percussion/Tambourines/tambourine1.normal.ff.stereo.aif": "fb4c82d3e257998dff8248c59f428378cb4a0b2255dcd49cc48e39248fc01821",
+   "iowa:Percussion/Tambourines/tambourine1.sforzando.stereo.aif": "e2f4ceb7dd0b85362046dc07ff09f89910a7f3b9a49ff8cc926bd3fb3e06e30d",
+   "iowa:Percussion/Tambourines/tambourine1.shakeroll.ff.stereo.aif": "25f3245a8cf5151dd2499f7595d31dd26fbb5ef2727dab331686e456dd0a8e2b",
+   "iowa:Percussion/Tambourines/tambourine1.thumbroll.ff.stereo.aif": "ca8488e1c9385ea1daf89cf33242cc4c60668a3d1cad845d680477ee80418e5e",
+   "iowa:Percussion/Tambourines/tambourine2.normal.ff.stereo.aif": "9545020aa51340c32fceaf999b48b77dcd73401c894dd6385337285309b14437",
+   "iowa:Percussion/Tambourines/tambourine3.normal.ff.stereo.aif": "75a52c4f634cf5f65f21930dc243806fe807034ce1778d9b2267f6ffb3e23c07",
+   "iowa:Percussion/Tamtams/20windgong.bow.stereo.aif": "90cebaed7d0202b7cdb6fdecc1ec3585e75ff93aef50c63a1db142dbfdccd88a",
+   "iowa:Percussion/Tamtams/20windgong.ff.stereo.aif": "955f5ade691531461053d8a6b851d24538f27fbacd8b45150cfdc0a8efab792a",
+   "iowa:Percussion/Tamtams/22tamtam.bow.stereo.aif": "e13288c9d9d352bc12a64a0c89dc012f42172bec2cbafca3faa20471ce831c47",
+   "iowa:Percussion/Tamtams/22tamtam.ff.stereo.aif": "7efc919918a67d0b7c8bb31077fdd67c2bae508011ae78d83e4ff2b27d8c447e",
+   "iowa:Percussion/Tamtams/28tamtam.bow.stereo.aif": "594857e0ebf06e603b0b1c264ff46bbc7bf66d781fead5925550744f801f2e7b",
+   "iowa:Percussion/Tamtams/28tamtam.ff.stereo.aif": "8cf1b28bbcfb69ab79fad9d903f56279931484b8a1e4faacda5a7cd482dfcbe6",
+   "iowa:Percussion/Tamtams/40tamtam.bow.stereo.aif": "b5baa6ba5aeb9c8300e6bb59cc2d00d9da45d1d625af6c8bfccc9f45934ffef4",
+   "iowa:Percussion/Tamtams/40tamtam.ff.stereo.aif": "9d1b917c477333f7b84079ad28eac2ba8aeb437dfe65e1c314cc4afcd295ba0a",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.A4.stereo.aif": "c1e7efbed95fb9d449befc1c02b1f79952486d18346e32fb2aa61f36346646c8",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.Ab4.stereo.aif": "b79e9a9d6e986194c557aa5f00b79d86935f9e901dc69f4a7400c4579386a8f3",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.B4.stereo.aif": "d63ca18bbfebf61898a6f9f61a3b3a6c64fbba2e5476b6b85a103739c4487a94",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.Bb4.stereo.aif": "9cc41e71f24e0ddbd0132f7239d8a54c92531e14f07592eb1a062f670276574b",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.C4.stereo.aif": "112d1beb3ae4b352be5a209ffe5682767b0e87c3ad3a4f4282eec1576f1cb9ad",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.C5.stereo.aif": "783c2b09f3b409010b806dc26be2133b5600e9a7ac3a7eb2c044389f4f9482d5",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.D4.stereo.aif": "fef59b06d58106a8407bcaebcb448b8ea686b9ad9470360df97635a6c412b767",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.Db4.stereo.aif": "dbd7fb4cf866ed48182fbc9ce659ed27ae56f22a7e8d637724b1ce998780c1a6",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.E4.stereo.aif": "e180b7d4585d159284fd62ac4f7fd4dccb3f266d67d406720818bc57961a25cc",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.Eb4.stereo.aif": "b31d6b0b0afbb91c6ad582ff8dcb49130d08b0bf7ac707d41eedef7faf0733bc",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.F4.stereo.aif": "d5d99c5d48606a9adfc210dfd4a875e1a1138f30c5c351ebed8149c1a1d3d51b",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.G4.stereo.aif": "0c0f089765f7bcbd398b6871d698f8fab879c8d7c81ef458f9862dc352bde80d",
+   "iowa:Percussion/Thai Gongs/thaigong.ff.Gb4.stereo.aif": "c9162946b6d1a9de06208dd611edd3c05341374fade50539787100be7d4359cf"
+  },
+  "bits": 24,
+  "files": {
+   "thai-gongs/thaigong.ff.C4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.C4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4327,
+    "frames": 330750,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.Db4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.Db4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2197,
+    "frames": 308700,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.D4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.D4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3453,
+    "frames": 374850,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.Eb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.Eb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3561,
+    "frames": 454230,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.E4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.E4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4762,
+    "frames": 291060,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.F4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.F4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3597,
+    "frames": 218295,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.Gb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.Gb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 5919,
+    "frames": 315315,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.G4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.G4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2622,
+    "frames": 220500,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.Ab4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.Ab4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3536,
+    "frames": 238140,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.A4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.A4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3838,
+    "frames": 149940,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.Bb4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.Bb4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4420,
+    "frames": 134505,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.B4.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.B4.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4295,
+    "frames": 154350,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "thai-gongs/thaigong.ff.C5.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Thai Gongs/thaigong.ff.C5.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2233,
+    "frames": 132300,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "tamtams/tam-tam-22/22tamtam.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tamtams/22tamtam.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 20194,
+    "frames": 1102500,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "tamtams/tam-tam-28/28tamtam.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tamtams/28tamtam.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 13183,
+    "frames": 1102500,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "tamtams/tam-tam-40/40tamtam.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tamtams/40tamtam.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 37376,
+    "frames": 1102500,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "tamtams/wind-gong-20/20windgong.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tamtams/20windgong.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 19843,
+    "frames": 773955,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "tamtams/tam-tam-22-bowed/22tamtam.bow.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tamtams/22tamtam.bow.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 45480,
+    "frames": 551250,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "tamtams/tam-tam-28-bowed/28tamtam.bow.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tamtams/28tamtam.bow.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 22767,
+    "frames": 696780,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "tamtams/tam-tam-40-bowed/40tamtam.bow.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tamtams/40tamtam.bow.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 18851,
+    "frames": 612990,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "tamtams/wind-gong-20-bowed/20windgong.bow.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tamtams/20windgong.bow.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 56189,
+    "frames": 372645,
+    "fadeIn": 32,
+    "fadeOut": 88200
+   },
+   "cymbals/crash-13/13crash.stick.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/13crash.stick.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 5352,
+    "frames": 202860,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/crash-17/17crash.stick.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/17crash.stick.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 7250,
+    "frames": 242550,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/crash-18/18crash.stick.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/18crash.stick.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 9404,
+    "frames": 324135,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/crash-20/20crash.stick.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/20crash.stick.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 5492,
+    "frames": 165375,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/chinese-16/16chinese.stick.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/16chinese.stick.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 5743,
+    "frames": 326340,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/chinese-19/19chinese.stick.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/19chinese.stick.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4975,
+    "frames": 357210,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/ride-21/21ride.stick.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/21ride.stick.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 987,
+    "frames": 432180,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/ride-21-bell/21ride.stick.bell.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/21ride.stick.bell.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1280,
+    "frames": 169785,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/splash/splash.stick.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/stick/splash.stick.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1484,
+    "frames": 103635,
+    "fadeIn": 32,
+    "fadeOut": 41454
+   },
+   "cymbals/crash-18-roll/18crash.mallet.roll.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/rolls/18crash.mallet.roll.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2989,
+    "frames": 635040,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/ride-21-roll/21ride.mallet.roll.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/rolls/21ride.mallet.roll.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3093,
+    "frames": 661500,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/crash-18-choke/18crash.chokecrash.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Suspended Cymbals/choke/18crash.chokecrash.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 912,
+    "frames": 44100,
+    "fadeIn": 32,
+    "fadeOut": 17640
+   },
+   "cymbals/orch-crash-15-banda-turka/15orchcrash.bandaturka.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Crash Cymbals/15orchcrash.bandaturka.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 4084,
+    "frames": 154350,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/orch-crash-17-medium-heavy/17orchcrash.medheavy.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Crash Cymbals/17orchcrash.medheavy.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1270,
+    "frames": 207270,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/orch-crash-18-french/18orchcrash.french.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Crash Cymbals/18orchcrash.french.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 7957,
+    "frames": 220500,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/orch-crash-18-germanic/18orchcrash.germanic.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Crash Cymbals/18orchcrash.germanic.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 6686,
+    "frames": 198450,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "cymbals/orch-crash-18-viennese/18orchcrash.viennese.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Cymbals/Crash Cymbals/18orchcrash.viennese.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 6739,
+    "frames": 207270,
+    "fadeIn": 32,
+    "fadeOut": 44100
+   },
+   "hand/woodblock-5/5.5wb.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Woodblocks/5.5wb.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12658,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hand/woodblock-6/6.5wb.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Woodblocks/6.5wb.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 22064,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hand/woodblock-7/7wb.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Woodblocks/7wb.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 159,
+    "frames": 19993,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "hand/woodblock-8/8.5wb.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Woodblocks/8.5wb.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 173,
+    "frames": 26460,
+    "fadeIn": 32,
+    "fadeOut": 10584
+   },
+   "hand/woodblock-10/10wb.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Woodblocks/10wb.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 136,
+    "frames": 26460,
+    "fadeIn": 32,
+    "fadeOut": 10584
+   },
+   "hand/granite-block-1/graniteblock1.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Granite Blocks/graniteblock1.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 297,
+    "frames": 26460,
+    "fadeIn": 32,
+    "fadeOut": 10584
+   },
+   "hand/granite-block-3/graniteblock3.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Granite Blocks/graniteblock3.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 146,
+    "frames": 16655,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "hand/granite-block-5/graniteblock5.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Granite Blocks/graniteblock5.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 90,
+    "frames": 19962,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "hand/clave-1/clave1.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Claves/clave1.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1175,
+    "frames": 15089,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "hand/clave-4/clave4.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Claves/clave4.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 423,
+    "frames": 15752,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "hand/guiro-away/guiro.away.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Guiro/guiro.away.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 754,
+    "frames": 26460,
+    "fadeIn": 32,
+    "fadeOut": 10584
+   },
+   "hand/guiro-toward/guiro.toward.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Guiro/guiro.toward.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2874,
+    "frames": 26460,
+    "fadeIn": 32,
+    "fadeOut": 10584
+   },
+   "hand/castanet-1/castanet1.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Castanets/castanet1.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 725,
+    "frames": 19692,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "hand/castanet-2/castanet2.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Castanets/castanet2.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 505,
+    "frames": 17703,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "hand/triangle-6/6triangle.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Triangles/6triangle.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1737,
+    "frames": 264600,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "hand/triangle-8/8triangle.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Triangles/8triangle.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 3728,
+    "frames": 264600,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "hand/triangle-6-roll/6triangle.roll.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Triangles/6triangle.roll.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 916,
+    "frames": 264600,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "hand/triangle-8-roll/8triangle.roll.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Hand Percussion/Triangles/8triangle.roll.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 5033,
+    "frames": 264600,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "tambourines/tambourine-1/tambourine1.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tambourines/tambourine1.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 331,
+    "frames": 33786,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tambourines/tambourine-2/tambourine2.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tambourines/tambourine2.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 396,
+    "frames": 33075,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "tambourines/tambourine-3/tambourine3.normal.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tambourines/tambourine3.normal.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 414,
+    "frames": 34057,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tambourines/tambourine-1-sforzando/tambourine1.sforzando.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tambourines/tambourine1.sforzando.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1183,
+    "frames": 26460,
+    "fadeIn": 32,
+    "fadeOut": 10584
+   },
+   "tambourines/tambourine-1-shake-roll/tambourine1.shakeroll.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tambourines/tambourine1.shakeroll.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 660,
+    "frames": 141120,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "tambourines/tambourine-1-thumb-roll/tambourine1.thumbroll.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tambourines/tambourine1.thumbroll.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 1708,
+    "frames": 87694,
+    "fadeIn": 32,
+    "fadeOut": 441
+   },
+   "tambourines/tambourine-1-finger-roll/tambourine1.fingerroll.ff.stereo.wav": {
+    "in": [
+     [
+      "iowa:Percussion/Tambourines/tambourine1.fingerroll.ff.stereo.aif",
+      1,
+      1
+     ]
+    ],
+    "start": 2761,
+    "frames": 60700,
+    "fadeIn": 32,
+    "fadeOut": 441
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "thai-gongs",
+   "title": "Thai Gongs",
+   "category": "Percussion",
+   "pitched": true,
+   "release": 1,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "thai-gongs/thaigong.ff.C4.stereo.wav",
+     "root": 60,
+     "lo": 57,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 330750,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.Db4.stereo.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 308700,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.D4.stereo.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 374850,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.Eb4.stereo.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 454230,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.E4.stereo.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 291060,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.F4.stereo.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 218295,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.Gb4.stereo.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 315315,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.G4.stereo.wav",
+     "root": 67,
+     "lo": 67,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.Ab4.stereo.wav",
+     "root": 68,
+     "lo": 68,
+     "hi": 68,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 238140,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.A4.stereo.wav",
+     "root": 69,
+     "lo": 69,
+     "hi": 69,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 149940,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.Bb4.stereo.wav",
+     "root": 70,
+     "lo": 70,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 134505,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.B4.stereo.wav",
+     "root": 71,
+     "lo": 71,
+     "hi": 71,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "thai-gongs/thaigong.ff.C5.stereo.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 75,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -4.87,
+     "start": 0,
+     "end": 132300,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ]
+  },
+  {
+   "name": "tamtams",
+   "title": "Tam-tams and Wind Gong",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 1,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "tamtams/tam-tam-22/22tamtam.ff.stereo.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 1.48,
+     "start": 0,
+     "end": 1102500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tamtams/tam-tam-28/28tamtam.ff.stereo.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 1.48,
+     "start": 0,
+     "end": 1102500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tamtams/tam-tam-40/40tamtam.ff.stereo.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 1.48,
+     "start": 0,
+     "end": 1102500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tamtams/wind-gong-20/20windgong.ff.stereo.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 1.48,
+     "start": 0,
+     "end": 773955,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tamtams/tam-tam-22-bowed/22tamtam.bow.stereo.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 1.48,
+     "start": 0,
+     "end": 551250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tamtams/tam-tam-28-bowed/28tamtam.bow.stereo.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 1.48,
+     "start": 0,
+     "end": 696780,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tamtams/tam-tam-40-bowed/40tamtam.bow.stereo.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 1.48,
+     "start": 0,
+     "end": 612990,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tamtams/wind-gong-20-bowed/20windgong.bow.stereo.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 1.48,
+     "start": 0,
+     "end": 372645,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Tam-tam 22″"
+    },
+    {
+     "key": 37,
+     "name": "Tam-tam 28″"
+    },
+    {
+     "key": 38,
+     "name": "Tam-tam 40″"
+    },
+    {
+     "key": 39,
+     "name": "Wind gong 20″"
+    },
+    {
+     "key": 40,
+     "name": "Tam-tam 22″ bowed"
+    },
+    {
+     "key": 41,
+     "name": "Tam-tam 28″ bowed"
+    },
+    {
+     "key": 42,
+     "name": "Tam-tam 40″ bowed"
+    },
+    {
+     "key": 43,
+     "name": "Wind gong 20″ bowed"
+    }
+   ]
+  },
+  {
+   "name": "cymbals",
+   "title": "Suspended and Orchestral Cymbals",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 1,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.15,
+   "zones": [
+    {
+     "file": "cymbals/crash-13/13crash.stick.normal.ff.stereo.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 202860,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/crash-17/17crash.stick.normal.ff.stereo.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 242550,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/crash-18/18crash.stick.normal.ff.stereo.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 324135,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/crash-20/20crash.stick.normal.ff.stereo.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 165375,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/chinese-16/16chinese.stick.normal.ff.stereo.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 326340,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/chinese-19/19chinese.stick.normal.ff.stereo.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 357210,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/ride-21/21ride.stick.normal.ff.stereo.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 432180,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/ride-21-bell/21ride.stick.bell.ff.stereo.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 169785,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/splash/splash.stick.normal.ff.stereo.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 103635,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/crash-18-roll/18crash.mallet.roll.stereo.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 635040,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/ride-21-roll/21ride.mallet.roll.stereo.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 661500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/crash-18-choke/18crash.chokecrash.stereo.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 44100,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/orch-crash-15-banda-turka/15orchcrash.bandaturka.ff.stereo.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/orch-crash-17-medium-heavy/17orchcrash.medheavy.ff.stereo.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 207270,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/orch-crash-18-french/18orchcrash.french.ff.stereo.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/orch-crash-18-germanic/18orchcrash.germanic.ff.stereo.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "cymbals/orch-crash-18-viennese/18orchcrash.viennese.ff.stereo.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.13,
+     "start": 0,
+     "end": 207270,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Crash 13″"
+    },
+    {
+     "key": 37,
+     "name": "Crash 17″"
+    },
+    {
+     "key": 38,
+     "name": "Crash 18″"
+    },
+    {
+     "key": 39,
+     "name": "Crash 20″"
+    },
+    {
+     "key": 40,
+     "name": "Chinese 16″"
+    },
+    {
+     "key": 41,
+     "name": "Chinese 19″"
+    },
+    {
+     "key": 42,
+     "name": "Ride 21″"
+    },
+    {
+     "key": 43,
+     "name": "Ride 21″ bell"
+    },
+    {
+     "key": 44,
+     "name": "Splash"
+    },
+    {
+     "key": 45,
+     "name": "Crash 18″ roll"
+    },
+    {
+     "key": 46,
+     "name": "Ride 21″ roll"
+    },
+    {
+     "key": 47,
+     "name": "Crash 18″ choke"
+    },
+    {
+     "key": 48,
+     "name": "Orch crash 15″ banda turka"
+    },
+    {
+     "key": 49,
+     "name": "Orch crash 17″ medium heavy"
+    },
+    {
+     "key": 50,
+     "name": "Orch crash 18″ French"
+    },
+    {
+     "key": 51,
+     "name": "Orch crash 18″ Germanic"
+    },
+    {
+     "key": 52,
+     "name": "Orch crash 18″ Viennese"
+    }
+   ]
+  },
+  {
+   "name": "hand",
+   "title": "Hand Percussion",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "hand/woodblock-5/5.5wb.ff.stereo.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 12658,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/woodblock-6/6.5wb.ff.stereo.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 22064,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/woodblock-7/7wb.ff.stereo.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 19993,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/woodblock-8/8.5wb.ff.stereo.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/woodblock-10/10wb.ff.stereo.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/granite-block-1/graniteblock1.ff.stereo.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/granite-block-3/graniteblock3.ff.stereo.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 16655,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/granite-block-5/graniteblock5.ff.stereo.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 19962,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/clave-1/clave1.ff.stereo.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 15089,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/clave-4/clave4.ff.stereo.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 15752,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/guiro-away/guiro.away.ff.stereo.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/guiro-toward/guiro.toward.ff.stereo.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/castanet-1/castanet1.ff.stereo.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 19692,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/castanet-2/castanet2.ff.stereo.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 17703,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/triangle-6/6triangle.ff.stereo.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/triangle-8/8triangle.ff.stereo.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/triangle-6-roll/6triangle.roll.ff.stereo.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hand/triangle-8-roll/8triangle.roll.ff.stereo.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.74,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Woodblock 5½″"
+    },
+    {
+     "key": 37,
+     "name": "Woodblock 6½″"
+    },
+    {
+     "key": 38,
+     "name": "Woodblock 7″"
+    },
+    {
+     "key": 39,
+     "name": "Woodblock 8½″"
+    },
+    {
+     "key": 40,
+     "name": "Woodblock 10″"
+    },
+    {
+     "key": 41,
+     "name": "Granite block 1"
+    },
+    {
+     "key": 42,
+     "name": "Granite block 3"
+    },
+    {
+     "key": 43,
+     "name": "Granite block 5"
+    },
+    {
+     "key": 44,
+     "name": "Clave 1"
+    },
+    {
+     "key": 45,
+     "name": "Clave 4"
+    },
+    {
+     "key": 46,
+     "name": "Guiro away"
+    },
+    {
+     "key": 47,
+     "name": "Guiro toward"
+    },
+    {
+     "key": 48,
+     "name": "Castanet 1"
+    },
+    {
+     "key": 49,
+     "name": "Castanet 2"
+    },
+    {
+     "key": 50,
+     "name": "Triangle 6″"
+    },
+    {
+     "key": 51,
+     "name": "Triangle 8″"
+    },
+    {
+     "key": 52,
+     "name": "Triangle 6″ roll"
+    },
+    {
+     "key": 53,
+     "name": "Triangle 8″ roll"
+    }
+   ]
+  },
+  {
+   "name": "tambourines",
+   "title": "Tambourines",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.2,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "tambourines/tambourine-1/tambourine1.normal.ff.stereo.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.6,
+     "start": 0,
+     "end": 33786,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tambourines/tambourine-2/tambourine2.normal.ff.stereo.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.6,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tambourines/tambourine-3/tambourine3.normal.ff.stereo.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.6,
+     "start": 0,
+     "end": 34057,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tambourines/tambourine-1-sforzando/tambourine1.sforzando.stereo.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.6,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tambourines/tambourine-1-shake-roll/tambourine1.shakeroll.ff.stereo.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.6,
+     "start": 0,
+     "end": 141120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tambourines/tambourine-1-thumb-roll/tambourine1.thumbroll.ff.stereo.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.6,
+     "start": 0,
+     "end": 87694,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "tambourines/tambourine-1-finger-roll/tambourine1.fingerroll.ff.stereo.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.6,
+     "start": 0,
+     "end": 60700,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Tambourine 1"
+    },
+    {
+     "key": 37,
+     "name": "Tambourine 2"
+    },
+    {
+     "key": 38,
+     "name": "Tambourine 3"
+    },
+    {
+     "key": 39,
+     "name": "Tambourine 1 sforzando"
+    },
+    {
+     "key": 40,
+     "name": "Tambourine 1 shake roll"
+    },
+    {
+     "key": 41,
+     "name": "Tambourine 1 thumb roll"
+    },
+    {
+     "key": 42,
+     "name": "Tambourine 1 finger roll"
+    }
+   ]
+  }
+ ]
+}

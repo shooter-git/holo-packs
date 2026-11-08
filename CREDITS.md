@@ -44,6 +44,9 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Dim Cabasa](packs/dim-cabasa/) | kinwie (SFZ Instruments) | CC BY 4.0 | <https://github.com/sfzinstruments/kinwie.dim-cabasa> |
 | [jSteelDrum](packs/steel-drum/) | Jeff Learman | The Unlicense | <https://github.com/sfzinstruments/jlearman.SteelDrum> |
 | [Gogodze Phu (Bobobo Drums)](packs/gogodze-phu/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.gogodze-phu-vol-i> |
+| [Etherealwinds Harp II CE](packs/harp/) | Jordi Francis (etherealwinds) and Versilian Studios | CC BY 4.0 | <https://versilian-studios.com/etherealwinds-harp/> |
+| Iowa [Solo Strings](packs/iowa-strings/), [Woodwinds](packs/iowa-winds/), [Brass](packs/iowa-brass/), [Mallets](packs/iowa-mallets/), [Percussion and Thai Gongs](packs/iowa-percussion/) | University of Iowa Electronic Music Studios (Musical Instrument Samples) | Free to use without restriction | <https://theremin.music.uiowa.edu/MIS.html> |
+| [Orchestral Sections](packs/orchestral-sections/) | Made for HO[LO] from VSCO 2 (Versilian Studios), the University of Iowa MIS and Karoryfer Lecolds' cello and tuba | Free to use without restriction (its sources: CC0, and Iowa's free use) | <https://github.com/sgossner/VSCO-2-CE>, <https://theremin.music.uiowa.edu/MIS.html> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.

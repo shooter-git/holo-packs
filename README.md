@@ -32,6 +32,7 @@ version…) are listed with it, and every pack links to its own page.
 | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) | Percussion, Tuned percussion | 6 | 14 MB | CC BY 3.0 |
 | [Dim Cabasa](packs/dim-cabasa/) | Percussion | 1 | 22 MB | CC BY 4.0 |
 | [Erhu](packs/erhu/) | Strings | 2 | 45 MB | CC0 1.0 |
+| [Etherealwinds Harp II CE](packs/harp/) | Strings | 1 | 179 MB | CC BY 4.0 |
 | [FreePats Spanish Classical Guitar](packs/freepats-guitar/) | Guitars and plucked strings | 1 | 20 MB | CC0 1.0 |
 | [Greg Sullivan E-Pianos (CP80, Pianet T, Wurlitzer)](packs/epianos/) | Pianos and keys | 3 | 78 MB | CC BY 3.0 |
 | [Headroom Piano (Yamaha C3)](packs/headroom/) | Pianos and keys | 2 | 512 MB | CC BY 4.0 |
@@ -48,13 +49,19 @@ version…) are listed with it, and every pack links to its own page.
 | [Male Voice "Ah"](packs/vocal-ah/) | Voices | 1 | 38 MB | CC0 1.0 |
 | [MTG Solo Saxophones](packs/mtg-sax/) | Woodwinds | 4 | 153 MB | CC BY 4.0 |
 | [Nepalese Hand Bells (VCSL)](packs/nepal-bells/) | Percussion | 1 | 1 MB | CC0 1.0 |
+| [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) | Strings, Woodwinds, Brass | 11 | 361 MB | Free to use without restriction |
 | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) | Drum kits | 1 | 223 MB | CC0 1.0 |
 | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) | Drum kits | 1 | 172 MB | CC0 1.0 |
 | [Salamander Grand Piano (Yamaha C5)](packs/salamander/) | Pianos and keys | 2 | 1.4 GB | Public domain |
 | [Singing Bowls (OLPC)](packs/singing-bowls/) | Tuned percussion | 1 | 8 MB | CC BY 3.0 |
 | [Steinway Model D (bitKlavier Grand)](packs/steinway/) | Pianos and keys | 3 | 1.2 GB | CC BY 4.0 |
 | [Tabla (OLPC, Sonic Pi)](packs/tabla/) | Percussion | 2 | 4 MB | CC BY 3.0 |
+| [University of Iowa MIS: Brass](packs/iowa-brass/) | Brass | 6 | 170 MB | Free to use without restriction |
 | [University of Iowa MIS: Clarinet and Bassoon](packs/iowa/) | Woodwinds | 4 | 101 MB | Free to use without restriction |
+| [University of Iowa MIS: Mallets](packs/iowa-mallets/) | Tuned percussion | 15 | 615 MB | Free to use without restriction |
+| [University of Iowa MIS: Percussion and Thai Gongs](packs/iowa-percussion/) | Percussion, Tuned percussion | 5 | 96 MB | Free to use without restriction |
+| [University of Iowa MIS: Solo Strings](packs/iowa-strings/) | Strings, Bass | 8 | 239 MB | Free to use without restriction |
+| [University of Iowa MIS: Woodwinds](packs/iowa-winds/) | Woodwinds | 11 | 281 MB | Free to use without restriction |
 | [Versilian Community Sample Library](packs/vcsl/) | Percussion, Tuned percussion, Guitars and plucked strings, Woodwinds | 22 | 198 MB | CC0 1.0 |
 | [VSCO 2 Community Edition](packs/vsco2/) | Pianos and keys, Percussion, Tuned percussion, Strings, Woodwinds, Brass | 57 | 1.5 GB | CC0 1.0 |
 
@@ -97,6 +104,7 @@ version…) are listed with it, and every pack links to its own page.
 | Cymbal Swell (Short) |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Gong Ageng and Suwukan |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Gong, Kempur, Kemong, Kempli |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
+| Hand Percussion |  | [University of Iowa MIS: Percussion and Thai Gongs](packs/iowa-percussion/) |
 | Hi-Hat (Closed) | Open, Pedal | [Versilian Community Sample Library](packs/vcsl/) |
 | Javanese Gongs |  | [Javanese Gongs (OLPC)](packs/java-gongs/) |
 | Kendhang |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
@@ -109,9 +117,12 @@ version…) are listed with it, and every pack links to its own page.
 | Snare Cross-stick |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Snare Drum |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Snare Roll |  | [Versilian Community Sample Library](packs/vcsl/) |
+| Suspended and Orchestral Cymbals |  | [University of Iowa MIS: Percussion and Thai Gongs](packs/iowa-percussion/) |
 | Suspended Cymbal (Mallet) |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Suspended Cymbal (Stick) |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Tabla | Strokes | [Tabla (OLPC, Sonic Pi)](packs/tabla/) |
+| Tam-tams and Wind Gong |  | [University of Iowa MIS: Percussion and Thai Gongs](packs/iowa-percussion/) |
+| Tambourines |  | [University of Iowa MIS: Percussion and Thai Gongs](packs/iowa-percussion/) |
 | Triangle |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Tumba |  | [VSCO 2 Community Edition](packs/vsco2/) |
 
@@ -124,6 +135,7 @@ version…) are listed with it, and every pack links to its own page.
 | Bonang Penerus (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Bonang Penerus (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Calung |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
+| Crotales |  | [University of Iowa MIS: Mallets](packs/iowa-mallets/) |
 | Finger Cymbals |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Gambang (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Gambang (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
@@ -133,6 +145,7 @@ version…) are listed with it, and every pack links to its own page.
 | Gendèr Barung (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Gendèr Penerus (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Gendèr Penerus (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Glockenspiel | Brass Mallets | [University of Iowa MIS: Mallets](packs/iowa-mallets/) |
 | Glockenspiel |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Gong |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Jegogan |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
@@ -140,6 +153,7 @@ version…) are listed with it, and every pack links to its own page.
 | Kempul (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Kenong (Pelog) | Pelog, Damped | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Kenong (Slendro) | Slendro, Damped | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
+| Marimba | Cord Mallets, Rubber Mallets, Roll, Dead Strokes | [University of Iowa MIS: Mallets](packs/iowa-mallets/) |
 | Marimba |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Reyong |  | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) |
 | Saron Barung (Pelog) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
@@ -153,27 +167,39 @@ version…) are listed with it, and every pack links to its own page.
 | Slenthem (Slendro) |  | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) |
 | Steel Pan |  | [jSteelDrum](packs/steel-drum/) |
 | Temple Block |  | [Versilian Community Sample Library](packs/vcsl/) |
+| Thai Gongs |  | [University of Iowa MIS: Percussion and Thai Gongs](packs/iowa-percussion/) |
 | Timpani | Roll | [VSCO 2 Community Edition](packs/vsco2/) |
+| Vibraphone | Damped, Short, Bowed | [University of Iowa MIS: Mallets](packs/iowa-mallets/) |
 | Vibraphone | Bowed | [Versilian Community Sample Library](packs/vcsl/) |
+| Xylophone | Rosewood Mallets, Roll | [University of Iowa MIS: Mallets](packs/iowa-mallets/) |
 
 ### Strings
 
 | Instrument | Also played as | Pack |
 |---|---|---|
+| Basses (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
 | Cellos | Pizzicato, Spiccato, Tremolo | [VSCO 2 Community Edition](packs/vsco2/) |
+| Cellos (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
+| Celtic Harp |  | [Etherealwinds Harp II CE](packs/harp/) |
 | Contrabass | Pizzicato, Spiccato | [VSCO 2 Community Edition](packs/vsco2/) |
 | Erhu | Short | [Erhu](packs/erhu/) |
 | Harp |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Solo Cello | Staccato, Pizzicato | [Karoryfer x bigcat Cello](packs/bigcat-cello/) |
+| Solo Cello | Pizzicato | [University of Iowa MIS: Solo Strings](packs/iowa-strings/) |
+| Solo Viola | Pizzicato | [University of Iowa MIS: Solo Strings](packs/iowa-strings/) |
+| Solo Violin | Pizzicato | [University of Iowa MIS: Solo Strings](packs/iowa-strings/) |
 | Solo Violin |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Violas | Pizzicato, Spiccato, Tremolo | [VSCO 2 Community Edition](packs/vsco2/) |
+| Violas (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
 | Violins | Pizzicato, Spiccato, Tremolo | [VSCO 2 Community Edition](packs/vsco2/) |
+| Violins (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
 
 ### Bass
 
 | Instrument | Also played as | Pack |
 |---|---|---|
 | Jazz Double Bass |  | [Karoryfer Meatbass](packs/meatbass/) |
+| Solo Double Bass | Pizzicato | [University of Iowa MIS: Solo Strings](packs/iowa-strings/) |
 
 ### Guitars and plucked strings
 
@@ -186,29 +212,49 @@ version…) are listed with it, and every pack links to its own page.
 
 | Instrument | Also played as | Pack |
 |---|---|---|
+| Alto Flute |  | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) |
 | Alto Sax |  | [Karoryfer Weresax](packs/weresax/) |
 | Alto Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
+| Alto Sax | No Vibrato | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) |
 | Baritone Sax | Staccato | [Karoryfer Bear Sax](packs/bear-sax/) |
 | Baritone Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
+| Bass Clarinet |  | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) |
+| Bass Flute |  | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) |
 | Bassoon | Staccato | [University of Iowa MIS: Clarinet and Bassoon](packs/iowa/) |
 | Bassoon | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Bassoons (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
 | Clarinet | Staccato | [University of Iowa MIS: Clarinet and Bassoon](packs/iowa/) |
 | Clarinet | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Clarinets (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
+| E♭ Clarinet |  | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) |
+| Flute | No Vibrato | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) |
 | Flute | Non-vibrato, Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Flutes (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
 | Khaen |  | [Angklung and Khaen (OLPC)](packs/angklung-khaen/) |
+| Oboe |  | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) |
 | Oboe | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Oboes (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
 | Ocarina | Vibrato | [Versilian Community Sample Library](packs/vcsl/) |
 | Soprano Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
+| Soprano Sax | No Vibrato | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) |
 | Tenor Sax |  | [MTG Solo Saxophones](packs/mtg-sax/) |
 
 ### Brass
 
 | Instrument | Also played as | Pack |
 |---|---|---|
+| Bass Trombone |  | [University of Iowa MIS: Brass](packs/iowa-brass/) |
+| French Horn |  | [University of Iowa MIS: Brass](packs/iowa-brass/) |
 | French Horns | Muted, Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Horns (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
+| Tenor Trombone |  | [University of Iowa MIS: Brass](packs/iowa-brass/) |
 | Trombones | Staccato, Vibrato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Trombones (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
+| Trumpet | No Vibrato | [University of Iowa MIS: Brass](packs/iowa-brass/) |
 | Tuba | Staccato | [Karoryfer War Tuba](packs/war-tuba/) |
+| Tuba |  | [University of Iowa MIS: Brass](packs/iowa-brass/) |
 | Tuba | Staccato | [VSCO 2 Community Edition](packs/vsco2/) |
+| Tubas (Layered) |  | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) |
 
 ### Voices
 
