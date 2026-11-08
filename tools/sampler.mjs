@@ -484,14 +484,16 @@ const keyOf = (v) => (v === undefined ? undefined : /^-?\d+$/.test(v.trim()) ? N
  * An SFZ program's regions (tools/sfz.mjs readSfz) as samples for buildInstruments: each region's
  * file (a download "<tag>:<path in the library>", the program at `dir`), its keys, root (its key
  * centre, less its tune and transpose), velocities (its velocity layer, by its lowest velocity), round
- * robin, trigger, gain (its volume), loop, offset and end. `keep(region)` leaves regions out.
+ * robin, trigger, gain (its volume), loop, offset and end. `keep(region)` leaves regions out, and
+ * `atRest` the regions that don't sound with the program's controls as it sets them (see `atRest`).
+ * A generated tone (a "*sine" region) isn't a recording, and is left out.
  */
-export function sfzSamples({ regions, control }, { tag, dir = '', keep = () => true, shift = 0 }) {
+export function sfzSamples({ regions, control }, { tag, dir = '', keep = () => true, shift = 0, atRest: rest = false }) {
   const out = [];
   // round robins taken at random (lorand): each range its own turn
   const rands = [...new Set(regions.filter((r) => r.lorand !== undefined).map((r) => Number(r.lorand)))].sort((a, b) => a - b);
   for (const r of regions) {
-    if (!r.sample || !keep(r)) continue;
+    if (!r.sample || r.sample.startsWith('*') || !keep(r) || (rest && !atRest(r, control))) continue;
     const path = joinPath(dir, `${control.default_path ?? ''}${r.sample}`);
     // `shift`: keys moved by that many semitones (a library mapped an octave off its true pitch)
     const key = keyOf(r.key);
@@ -525,6 +527,25 @@ export function sfzSamples({ regions, control }, { tag, dir = '', keep = () => t
   return out;
 }
 
+/**
+ * Whether a region sounds with its program's controls at rest: each MIDI controller it's conditioned on
+ * (locc/hicc, lohdcc/hihdcc) at the value the program sets it to (set_cc, set_hdcc), or 0 where it
+ * doesn't. A library's unison voices, feedback layers or alternative mappings behind a switch are left
+ * out this way, and the sound it plays when first loaded is kept.
+ */
+export function atRest(region, control) {
+  for (const [op, value] of Object.entries(region)) {
+    const m = /^(lo|hi)(hd)?cc(\d+)$/.exec(op);
+    if (!m) continue;
+    const cc = m[3];
+    // on the 0-127 scale either way
+    const at = control[`set_hdcc${cc}`] !== undefined ? Number(control[`set_hdcc${cc}`]) * 127 : Number(control[`set_cc${cc}`] ?? 0);
+    const bound = m[2] ? Number(value) * 127 : Number(value);
+    if (m[1] === 'lo' ? at < bound : at > bound) return false;
+  }
+  return true;
+}
+
 /** A GitHub library at a commit: where its files are, and its text files read (cached). */
 export function library(repo, commit) {
   const base = `https://raw.githubusercontent.com/${repo}/${commit}/`;
@@ -545,14 +566,14 @@ export function library(repo, commit) {
  * found from its own folder, or `base` (a map included by a program in another folder finds them from
  * that program's).
  */
-export async function programSamples(lib, path, { tag, keep, base, shift, as } = {}) {
+export async function programSamples(lib, path, { tag, keep, base, shift, as, atRest: rest } = {}) {
   const { readSfz } = await import('./sfz.mjs');
   // `as`: the path the program is read as (a map its library includes from another folder finds its
   // own includes, and its samples, from there)
   const at = as ?? path;
   const dir = base ?? (at.includes('/') ? at.slice(0, at.lastIndexOf('/')) : '');
   const read = (p) => (p === at ? lib.read(path) : lib.read(p));
-  return sfzSamples(await readSfz(at, read), { tag, dir, keep, shift });
+  return sfzSamples(await readSfz(at, read), { tag, dir, keep, shift, atRest: rest });
 }
 
 /**

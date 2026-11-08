@@ -54,6 +54,7 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Growlybass](packs/growlybass/), [Caveman Cosmonaut](packs/caveman-cosmonaut/), [Cowsynth](packs/cowsynth/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments> |
 | [Vintage Keys](packs/vintage-keys/) | Made for HO[LO] from Greg Sullivan's E-Pianos and the FreePats Upright Piano KW | CC BY 3.0 | <https://github.com/sfzinstruments/GregSullivan.E-Pianos>, <https://freepats.zenvoid.org/> |
 | [Brushes Kit](packs/brushes-kit/) (Swirly Drums), [Soul Kit](packs/soul-kit/) and [Studio Kit](packs/studio-kit/) (Unruly Drums) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.swirly-drums>, <https://github.com/sfzinstruments/karoryfer.unruly-drums> |
+| [Black And Green Guitars](packs/black-green-guitars/), [Black And Blue Basses](packs/black-blue-basses/), [String Cyborgs](packs/string-cyborgs/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.black-and-green-guitars>, <https://github.com/sfzinstruments/karoryfer.black-and-blue-basses>, <https://github.com/sfzinstruments/karoryfer.string-cyborgs> |
 | [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Wilkinson Audio; its SFZ and FLAC version by kinwie | CC BY 4.0 | <https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from

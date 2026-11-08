@@ -48,11 +48,14 @@ version…) are listed with it, and every pack links to its own page.
 | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) | Drum kits | 1 | 168 MB | CC0 1.0 |
 | [jSteelDrum](packs/steel-drum/) | Tuned percussion | 1 | 111 MB | The Unlicense |
 | [Karoryfer Bear Sax](packs/bear-sax/) | Woodwinds | 2 | 87 MB | CC0 1.0 |
+| [Karoryfer Black And Blue Basses](packs/black-blue-basses/) | Bass | 4 | 292 MB | CC0 1.0 |
+| [Karoryfer Black And Green Guitars](packs/black-green-guitars/) | Guitars and plucked strings | 4 | 299 MB | CC0 1.0 |
 | [Karoryfer Caveman Cosmonaut (Transistor Organ)](packs/caveman-cosmonaut/) | Pianos and keys, Bass | 7 | 79 MB | CC0 1.0 |
 | [Karoryfer Cowsynth (Bagpipe Synth)](packs/cowsynth/) | Other | 2 | 13 MB | CC0 1.0 |
 | [Karoryfer Gogodze Phu (Bobobo Drums)](packs/gogodze-phu/) | Percussion | 1 | 8 MB | CC0 1.0 |
 | [Karoryfer Growlybass](packs/growlybass/) | Bass | 2 | 182 MB | CC0 1.0 |
 | [Karoryfer Meatbass](packs/meatbass/) | Bass | 1 | 116 MB | CC0 1.0 |
+| [Karoryfer String Cyborgs (Synth Voices)](packs/string-cyborgs/) | Other | 4 | 26 MB | CC0 1.0 |
 | [Karoryfer War Tuba](packs/war-tuba/) | Brass | 2 | 49 MB | CC0 1.0 |
 | [Karoryfer Weresax](packs/weresax/) | Woodwinds | 1 | 101 MB | CC0 1.0 |
 | [Karoryfer x bigcat Cello](packs/bigcat-cello/) | Strings | 3 | 131 MB | CC0 1.0 |
@@ -250,8 +253,10 @@ version…) are listed with it, and every pack links to its own page.
 |---|---|---|
 | Electric Bass (Fingered) |  | [FreePats Bass Guitar YR](packs/freepats-bass/) |
 | Electric Bass (Picked) |  | [FreePats Bass Guitar YR](packs/freepats-bass/) |
+| Finger Bass (5-string) | Staccato, Ghost Notes | [Karoryfer Black And Blue Basses](packs/black-blue-basses/) |
 | Jazz Bass | Staccato | [Karoryfer Growlybass](packs/growlybass/) |
 | Jazz Double Bass |  | [Karoryfer Meatbass](packs/meatbass/) |
+| Pick Bass (5-string) |  | [Karoryfer Black And Blue Basses](packs/black-blue-basses/) |
 | Solo Double Bass | Pizzicato | [University of Iowa MIS: Solo Strings](packs/iowa-strings/) |
 | Transistor Organ Bass 8' |  | [Karoryfer Caveman Cosmonaut (Transistor Organ)](packs/caveman-cosmonaut/) |
 
@@ -259,11 +264,13 @@ version…) are listed with it, and every pack links to its own page.
 
 | Instrument | Also played as | Pack |
 |---|---|---|
+| Black Guitar | Staccato | [Karoryfer Black And Green Guitars](packs/black-green-guitars/) |
 | Classical Guitar |  | [FreePats Spanish Classical Guitar](packs/freepats-guitar/) |
 | Dan Tranh (Zither) | Glissando Down, Glissando Up, Tremolo | [Versilian Community Sample Library](packs/vcsl/) |
 | Electric Guitar (Clean) |  | [FreePats Electric Guitars (FSBS)](packs/freepats-electric-guitars/) |
 | Electric Guitar (Distorted) |  | [FreePats Electric Guitars (FSBS)](packs/freepats-electric-guitars/) |
 | Electric Guitar (Jazz) |  | [FreePats Electric Guitars (FSBS)](packs/freepats-electric-guitars/) |
+| Green Guitar | Staccato | [Karoryfer Black And Green Guitars](packs/black-green-guitars/) |
 
 ### Woodwinds
 
@@ -328,9 +335,12 @@ version…) are listed with it, and every pack links to its own page.
 | Bagpipe Synth (Lonely) |  | [Karoryfer Cowsynth (Bagpipe Synth)](packs/cowsynth/) |
 | Bagpipe Synth (Wheezy) |  | [Karoryfer Cowsynth (Bagpipe Synth)](packs/cowsynth/) |
 | Bass Hits and Guitar |  | [Sonic Pi Samples](packs/sonic-pi/) |
+| Blackheart |  | [Karoryfer String Cyborgs (Synth Voices)](packs/string-cyborgs/) |
 | Blips and Glitches |  | [Sonic Pi Samples](packs/sonic-pi/) |
 | Impacts and Vinyl |  | [Sonic Pi Samples](packs/sonic-pi/) |
+| Ironface | Distorted | [Karoryfer String Cyborgs (Synth Voices)](packs/string-cyborgs/) |
 | Loops |  | [Sonic Pi Samples](packs/sonic-pi/) |
+| Zinc |  | [Karoryfer String Cyborgs (Synth Voices)](packs/string-cyborgs/) |
 
 <!-- end of catalog -->
 
@@ -351,6 +361,9 @@ clearly their authors' own, become packs. These were looked at and left out:
 | Splendid Grand Piano | Unclear provenance. |
 | Any Bösendorfer sample set | None has a licence that allows this. |
 | Freesound | A script gets only lossy previews: the original files need each user's own login. |
+
+**Not here yet:** DrumGizmo's MuldjordKit and DRSKit. Each is recorded through many microphones, so they
+wait for kits that keep their microphones apart.
 
 ## How HO[LO] Desk uses this
 
