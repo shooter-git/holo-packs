@@ -8,6 +8,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { holo, repo } from './holo.mjs';
+import { refusePrivate } from './private.mjs';
 
 const { decodeInput, mixExtension, mixFile, mixUrl } = await holo('packages/music/src/mix.ts');
 const { formatChecksums } = await holo('packages/music/src/packs.ts');
@@ -316,6 +317,7 @@ export function widestRange(levelSets) {
 
 /** The pack's map, written as the others are (one space indent, its size after its credit). */
 export function writeManifest(pack) {
+  refusePrivate(pack, 'writing the map of');
   const file = join(root, 'packs', pack.id, 'pack.json');
   mkdirSync(dirname(file), { recursive: true });
   const { format, version, id, name, license, credit, bytes, ...rest } = pack;
@@ -330,6 +332,7 @@ export function writeManifest(pack) {
  * write their checksums.
  */
 export async function makeFiles(pack, downloads, out) {
+  refusePrivate(pack, 'making the files of');
   const source = pack.source;
   const sums = {};
   const paths = Object.keys(source.files).sort();

@@ -9,9 +9,11 @@
 // - Every other instrument is played by pitch, or is one sound whose one pad is named by it.
 // - A multi-microphone instrument's microphones are well formed, and every hit has one zone a
 //   microphone, all of them alike but for their file, microphone and pan (they sound as one hit).
+// - No pack is someone's own (imported from their files, or made from files only they have).
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { holo, repo } from './holo.mjs';
+import { privateReason } from './private.mjs';
 
 const { packPaths, parseChecksums, pinPack } = await holo('packages/music/src/packs.ts');
 const { padsFor, playsHits } = await holo('apps/web/src/ui/pads.ts');
@@ -101,6 +103,8 @@ for (const id of readdirSync(packsDir).sort()) {
   if (pack) {
     if (pack.format !== 'holo-pack' || pack.version !== 1) fail('pack.json is not a holo-pack map, version 1');
     if (pack.id !== id) fail(`its id is "${pack.id}", not its folder's "${id}"`);
+    const mine = privateReason(pack);
+    if (mine) fail(`${mine}`);
     for (const key of ['name', 'license', 'credit']) if (!pack[key]) fail(`it has no ${key}`);
     if (!Number.isInteger(pack.bytes) || pack.bytes <= 0)
       fail('it has no "bytes" (its samples\' size: node tools/checksums.mjs, or its recipe, writes it)');

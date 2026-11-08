@@ -165,6 +165,7 @@ packs/<id>/pack.json      the map: instruments, zones, levels, pads, the source 
 packs/<id>/files.sha256   every sample's sha256, as `sha256sum -c` reads them
 packs/<id>/recipe.mjs     how pack.json was made, for the packs made from recordings
 tools/lib.mjs, kit.mjs    what the recipes share: fetching, measuring, levelling, writing a pack
+tools/private.mjs         what makes a pack someone's own, which never comes here
 tools/checksums.mjs       files.sha256 and the pack's size, from a pack installed in HO[LO]'s data folder
 tools/readme.mjs          the parts of the READMEs that come from the maps (the catalog, each pack's facts)
 tools/check.mjs           every pack checked with HO[LO] Desk's own code (what CI runs)
@@ -184,7 +185,9 @@ git clone https://github.com/shooter-git/holo-desk ../holo-desk
 pnpm --dir ../holo-desk install
 ```
 
-1. **Make the folder.** Create `packs/<id>/`, named by the pack's id.
+1. **Make the folder.** Create `packs/<id>/`, named by the pack's id. A pack you imported into HO[LO]
+   from your own files (its id starts with `mine-`) stays on your computer: this repository is public,
+   and its tools and check refuse one.
    - A recipe (`recipe.mjs`) writes `pack.json` and `files.sha256` itself.
    - A library taken whole from git needs only its `pack.json`. Then
      `node tools/checksums.mjs <id>` writes its checksums and its size from the pack installed in
