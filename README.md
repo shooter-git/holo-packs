@@ -382,7 +382,7 @@ clearly their authors' own, become packs. These were looked at and left out:
 | "Public domain" 808 and 909 sample sets | Recordings of commercial machines' sounds whose provenance can't be shown. |
 | SM Drums | Unclear provenance. |
 | Splendid Grand Piano | Unclear provenance. |
-| Any Bösendorfer sample set | None has a licence that allows this. |
+| Other concert grands for a Viennese sound | None we found has a licence that allows this, so the [Viennese Grand](packs/viennese-grand/) voices the Steinway D instead. |
 | Freesound | A script gets only lossy previews: the original files need each user's own login. |
 
 **Not here yet:** DrumGizmo's MuldjordKit and DRSKit. Each is recorded through many microphones, so they
