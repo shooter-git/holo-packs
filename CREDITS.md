@@ -9,8 +9,8 @@ An install, and an experience's own build, fetch the audio from its source:
 - the Iowa notes cut from the university's own downloads;
 - the FreePats guitar decoded from the project's own archive;
 - the Steinway, the other pianos and keys, the solo instruments and the drum kits made from their
-  libraries' own recordings (trimmed, the kits mixed from their microphones) by the recipes in
-  `packs/<id>/recipe.mjs`.
+  libraries' own recordings (trimmed, and the kits mixed from their microphones, or each microphone
+  kept as its own file) by the recipes in `packs/<id>/recipe.mjs`.
 
 | Pack | Authors | Licence | Source |
 |---|---|---|---|
@@ -54,6 +54,7 @@ An install, and an experience's own build, fetch the audio from its source:
 | [Growlybass](packs/growlybass/), [Caveman Cosmonaut](packs/caveman-cosmonaut/), [Cowsynth](packs/cowsynth/) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments> |
 | [Vintage Keys](packs/vintage-keys/) | Made for HO[LO] from Greg Sullivan's E-Pianos and the FreePats Upright Piano KW | CC BY 3.0 | <https://github.com/sfzinstruments/GregSullivan.E-Pianos>, <https://freepats.zenvoid.org/> |
 | [Brushes Kit](packs/brushes-kit/) (Swirly Drums), [Soul Kit](packs/soul-kit/) and [Studio Kit](packs/studio-kit/) (Unruly Drums) | Karoryfer Lecolds | CC0 1.0 | <https://github.com/sfzinstruments/karoryfer.swirly-drums>, <https://github.com/sfzinstruments/karoryfer.unruly-drums> |
+| [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Wilkinson Audio; its SFZ and FLAC version by kinwie | CC BY 4.0 | <https://github.com/sfzinstruments/WilkinsonAudio.NakedDrums> |
 
 The samples' measurements (true pitch, level, start, end and loop points) come from
 [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues.
