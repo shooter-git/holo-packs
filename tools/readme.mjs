@@ -60,7 +60,7 @@ export function licence(pack, link = true) {
 
 /** Which family an instrument is found in. */
 export function family(i) {
-  if (i.pads?.length) return i.category === 'Percussion' ? 'Percussion' : 'Drum kits';
+  if (i.pads?.length && i.category === 'Drums') return 'Drum kits';
   switch (i.category) {
     case 'Piano':
     case 'Keys':
@@ -268,9 +268,9 @@ export function packFacts(id, pack) {
       '',
       `## ${i.title}'s pads`,
       '',
-      i.category === 'Percussion'
-        ? 'Each key plays one of its sounds.'
-        : 'Each key plays one piece of the kit. The kick, snare and hi-hats sit where General MIDI has them.',
+      i.category === 'Drums'
+        ? 'Each key plays one piece of the kit. The kick, snare and hi-hats sit where General MIDI has them.'
+        : 'Each key plays one of its sounds.',
       '',
     );
     lines.push('| Key | Note | Pad |', '|---|---|---|');

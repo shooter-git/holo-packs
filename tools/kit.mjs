@@ -474,6 +474,8 @@ export async function buildKit(spec) {
     }
   });
   zones.sort((a, b) => a.lo - b.lo || a.lovel - b.lovel || a.rr - b.rr);
+  // only the files a zone plays are made (a layer quieter than velocity 1 reaches isn't)
+  for (const path of Object.keys(files)) if (!zones.some((z) => z.file === path)) delete files[path];
   const instrument = {
     name: spec.instrument.name,
     title: spec.instrument.title,

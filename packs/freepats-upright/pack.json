@@ -1,0 +1,1957 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "freepats-upright",
+ "name": "FreePats Upright Piano KW",
+ "license": "CC0-1.0",
+ "credit": "Upright Piano KW of the FreePats project (CC0).",
+ "bytes": 85597416,
+ "source": {
+  "kind": "mix",
+  "note": "The project's SFZ+FLAC download (7z), each note taken out and written as a WAV as it is.",
+  "bases": {},
+  "downloads": {
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A0vH.flac": "1f45f97db950585373723a551cbefa493e27a11df4c3213252563cd9310b08b6",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A0vL.flac": "51b13328355cc2a58986fdbb2b796b703965a2c6b592b44faf6c987f1327fd93",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A1vH.flac": "92dd7c7af24bb5789aadadcfb9baa99627c341eaae808849cce0ac72f0ee23b7",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A1vL.flac": "6816269cb220eb52aa6880b9cc3ed221440dd1f2e76bb3129b49ed6dcd8b4290",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A2vL.flac": "91d8f90471403494595211ac05e0e1bab92cbdeefea38ea4513466d016e39ce6",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A3vH.flac": "0dd04df799269779ea705dffec0ca8a2c304209cd5ee0d70c95ea79b1c753566",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A3vL.flac": "498682c53eb222dd88692a21ffdf48641873df63287d93dd43cd814544874372",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A4vH.flac": "4a7acdcb5e3fb41a165414e86afbceb74d7417b28c566b65fd7f836b2cc4535d",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A4vL.flac": "1eb7f53be83b4fb86a5fb5f2e8b2cebd6e1da3c1a7e8c3305b20533e6ac63d86",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A5vH.flac": "849570ec5bda68318cf1598230d6f3d922cfa8673fa199aa64d41ce2349e9bff",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A5vL.flac": "1f68815ff745a1968a706916586a5d4a96b39aeca1c444a8d75dc2b6a5555ef3",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A6vH.flac": "16a8249a8f42efe1102b9f852efc4c0376c9a742f7ba1b7bd63516f79184bc84",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A6vL.flac": "d029b2c12ec7f85ef42494e13748fcb7aa254dc9d9bae2f0b392a07d0aec3902",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A7vH.flac": "b3190d9854c7d052bd26985b1a1190cb52df3927fa588cae8b0ce30e14000081",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A7vL.flac": "b1a76f8594a900454ecf8c08357c8703a96e9fb12761f7470fa38089a4b27010",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B0vH.flac": "b665f8274050c7a45dbb82589144c2420da4c7138fe3e68c3c5c87fb94d6c616",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B1vH.flac": "eac636ee0e23c53ec17ed206d46364b566aeb62093bd197ea1f0f43f917a9b93",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B2vH.flac": "5786f8bb2fe9bae5e3f127b975f2320c5d90e109d5337170b3758a35892f920d",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B3vH.flac": "3af7b68b9f680000e375cac482246047ba0a75459e36869ae721525422a54276",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B4vH.flac": "1c5f3229666eebb84e0c873b6a52111ffd9411f5455f6f1fb6a5be1ad626a287",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B5vH.flac": "2300c08469c598ceb7f4d591d449640d95feedfa647df22e14912657776331dc",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B6vH.flac": "01d5a16030a91b500001dcbddd61a30c80696c7f37cf18c83dd114810893eb49",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B7vH.flac": "030e4f4b05b7b04ffdda85cec3faf7bf7ff3e6952cd310a2154cd836936edcb3",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C1vH.flac": "35de21fbffc810347b2749172dd61c017aa615cdb6d218388aab4f589a6e8a5b",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C1vL.flac": "7b3fecfc0a58f8d4936ee1db0f17c52ee5df2e041bb6299e10d564253d0a7e40",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C2vH.flac": "ef8cf8a9015b95a94b6c92a748a74bbe9af56a052bb784c2d77f9cb66e346b33",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C2vL.flac": "992dc386e8687e1d2e58b44e523d0961d80a98dcd113432c761c636cf9db02dd",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C3vH.flac": "9cc9ac393a70282d5dedc97dd886794bbc3118a752fdc400da3763027488fcd2",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C3vL.flac": "501f7703e1006f1afd37f8dcc438906057e6f7dc84c0952237cf84d8ebaec6cb",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C4vL.flac": "4382a54ffbb731cc8c7d8d88e322b1d669d6d44ccdca71eb17860d3c81967b4f",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C5vH.flac": "a8098d1a4e14b19becbd224e3978d3232759681a545f237d54269a231e43d88a",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C5vL.flac": "b6c6948fdc8b4f0a35d260229de051d912077123ce4a4c19e2a41edca9d4214d",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C6vH.flac": "1dbdb14f7d81b1b6ad78820ad6bd70b6c20e052ce25a801de3386daf6277e7fb",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C6vL.flac": "56c6f17c3b63f273ccb69c406c030a8715aa847607ebecc56f992fda2aad7813",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C7vH.flac": "f8c6a694884d70fed9ba41eeb0095573ac5f4189be30eed803bcc49cd744f251",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C7vL.flac": "5e5c802ee5bb1b04eedc8e9b6e7d53ffbcc1337c01e7f4426c2f3c5eb80b92de",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C8vH.flac": "2ee1d210beb846177ccb27c2e1dd163e275cb09ac2fdc5d861cd3b497dcedbc6",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C8vL.flac": "18b408d7ce283ae157ac972f6a2c130034a4f3bc87796810436665c8c2f0af48",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#1vH.flac": "66eebb7c9b2b50eff7d5c41f47297fbac8b6d44d43d28ef2f8a539ab20ec7327",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#1vL.flac": "80c36562b822a8de216cc43c0b35226fbd2d43f6edf5c99c028796588eb01337",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#2vH.flac": "99beb94950194f0cc2352de4eb35e4a27bfcb2f530e9a2732c065bad0fdbf7c6",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#2vL.flac": "93637b18629e6d48aa5ecc87c11e6e00114a4984353b325c8c45d908efe3ac46",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#3vH.flac": "e6f54bb7aef81e4e7995d5ff5b7cadd4dc4c3502f6c29fdacc0a6eb56e65f725",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#3vL.flac": "c34359c5561bc71a53bce1c24ebd62fa335be5098feb63ab9eaa57af51b57521",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#4vH.flac": "b09be129c8bdc8f3ce076f8fe6d168bf8984c44a8343cf9fc4424f18680b73e4",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#4vL.flac": "105074540a60b82228cc6d9defb84b37aaab2a18d7526ccbf197500529040ff7",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#5vH.flac": "6e36f5fa2401c9da199bcacbde98a6860082d983e53649db5cc2013fb3ad2e00",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#5vL.flac": "6730be1a4ccc3747d46535fc64b6bfccd725a433ef10c122a688cf643ef0eb17",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#6vH.flac": "4df6a469f6faae438004a6b5913463024d532cab809039b72520d3b657d1accb",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#6vL.flac": "a53e8a97c15d1be0af7d0e86b49b582bf5f1360ca9f468f3940ac8341c4a232c",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#7vH.flac": "51d87c2008326ad5a0936300187bb7b2741c1b600f947e6bd26bf304b2d45c2a",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#7vL.flac": "4f2a8c4bdc59a15004859a5978dbbe25b44c6f3bc6d41049c7894e5938ab1e50",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#1vH.flac": "ef5418e17c62ef1efa10f872798d2cc540abaabe2360620e05dc50cbaaf8b337",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#1vL.flac": "5b1dc3ef99433e0f9fa37f2da57d3cad121358cc21894a78ecfb13eb2c81ad1e",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#2vH.flac": "32ebdd497e49cda9383924560e3a7a87d202c6d062981ae270970051d2a7aaf1",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#2vL.flac": "d5f7f5b399982e8aab0db2fc419c4e6ab39dd8bf3b4a67acac13bd5a473b7b4b",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#3vH.flac": "98e2301025525d6db84c6eafe49ffa9b4605222a7af68b156a4b5eef5971ec9c",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#3vL.flac": "5a39e7f31344425491c439847a009d0859aaeaf51737dbe952d47bd86d0d4998",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#4vH.flac": "c290966dcd889ed05614fbec9505b2f2ad5df8210dd372691026233ae8b7983a",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#4vL.flac": "157fa02c06d4cc768f059ae1954c11f8dabf0dae65da1f94f120570d7d6a50e5",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#5vH.flac": "f78a906e5066694496ce244c2a1c2a6b3c266228fa573e2ce4a07ada2c82b90a",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#5vL.flac": "2df9d8a44724bb7c2c9bbbd05d6b459c76ce9c7af35eac925bba1b0ab7878ca7",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#6vH.flac": "22aace81e2fa976f42b8fcf1ad1a1e900baca0edf8c99eee2e84fd6d68e785b9",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#6vL.flac": "3d40cf0ed33a4de9ce417bf9f140527b4ef1506d056536a47e6cd3af34b6f9d5",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#7vH.flac": "93be19832569c124e4c74f7bccaefea69e392e6f22799c389c045356f51086aa",
+   "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#7vL.flac": "71f2ea9054d169f029da8cbb8f4d3a9ae8e0836f71854727e46a46b040909277"
+  },
+  "bits": 24,
+  "files": {
+   "upright/A0vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A0vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 333824,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/C1vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C1vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 471203,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/D#1vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#1vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 566264,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/F#1vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#1vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 486992,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/A1vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A1vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 524047,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/C2vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C2vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 510402,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/D#2vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#2vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 585195,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/F#2vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#2vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 438577,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/A2vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A2vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 361173,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/C3vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C3vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 212690,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/D#3vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#3vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 255640,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/F#3vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#3vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 213996,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/A3vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A3vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 283692,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/C4vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C4vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 354264,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/D#4vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#4vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 184773,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/F#4vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#4vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 255617,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/A4vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A4vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 94541,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/C5vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C5vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 235935,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "upright/D#5vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#5vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 125239,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/F#5vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#5vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 83609,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/A5vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A5vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 70741,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/C6vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C6vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 97443,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/D#6vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#6vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 47123,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/F#6vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#6vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48201,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/A6vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A6vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35509,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/C7vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C7vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 27710,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/D#7vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#7vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34898,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/F#7vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#7vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26660,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/A7vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A7vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32406,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/C8vL.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C8vL.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 17369,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/A0vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A0vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 310232,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/B0vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B0vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 332752,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/C1vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C1vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 424673,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/D#1vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#1vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 461812,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/F#1vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#1vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 351572,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/A1vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A1vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 442448,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/B1vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B1vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 366948,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/C2vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C2vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 376593,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/D#2vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#2vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 398457,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/F#2vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#2vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 393527,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/B2vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B2vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 341313,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/C3vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C3vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 307086,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/D#3vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#3vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 240330,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/F#3vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#3vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 265650,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/A3vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A3vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 186817,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/B3vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B3vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 227593,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/D#4vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#4vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 217613,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/F#4vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#4vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 185346,
+    "fadeIn": 0,
+    "fadeOut": 0
+   },
+   "upright/A4vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A4vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 114660,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "upright/B4vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B4vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 149940,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "upright/C5vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C5vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 153040,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/D#5vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#5vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 139250,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/F#5vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#5vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 83790,
+    "fadeIn": 0,
+    "fadeOut": 33516
+   },
+   "upright/A5vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A5vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 114660,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "upright/B5vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B5vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 108045,
+    "fadeIn": 0,
+    "fadeOut": 43218
+   },
+   "upright/C6vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C6vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 92610,
+    "fadeIn": 0,
+    "fadeOut": 37044
+   },
+   "upright/D#6vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#6vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 80974,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/F#6vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#6vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55370,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/A6vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A6vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 55198,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/B6vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B6vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 45640,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/C7vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C7vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 61740,
+    "fadeIn": 0,
+    "fadeOut": 24696
+   },
+   "upright/D#7vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/D#7vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 31225,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/F#7vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/F#7vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29470,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "upright/A7vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/A7vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37485,
+    "fadeIn": 0,
+    "fadeOut": 14994
+   },
+   "upright/B7vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/B7vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 35280,
+    "fadeIn": 0,
+    "fadeOut": 14112
+   },
+   "upright/C8vH.wav": {
+    "in": [
+     [
+      "kw:UprightPianoKW-SFZ+FLAC-20220221/samples/C8vH.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30616,
+    "fadeIn": 0,
+    "fadeOut": 441
+   }
+  },
+  "archives": {
+   "kw": {
+    "url": "https://freepats.zenvoid.org/Piano/UprightPianoKW/UprightPianoKW-SFZ+FLAC-20220221.7z",
+    "sha256": "3a66da3b25a2fd9499d90bcf09f1aee4431825796e249361b48af59b1201e703"
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "upright",
+   "title": "Upright Piano",
+   "category": "Piano",
+   "pitched": true,
+   "release": 0.6,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 28,
+   "polyphony": 96,
+   "notePolyphony": 2,
+   "offTime": 0.12,
+   "zones": [
+    {
+     "file": "upright/A0vL.wav",
+     "root": 21,
+     "lo": 21,
+     "hi": 22,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 333824,
+     "loopStart": 244730,
+     "loopEnd": 333809,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A0vH.wav",
+     "root": 21,
+     "lo": 21,
+     "hi": 22,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 310232,
+     "loopStart": 226952,
+     "loopEnd": 310217,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C1vL.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 471203,
+     "loopStart": 325127,
+     "loopEnd": 471188,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/B0vH.wav",
+     "root": 23,
+     "lo": 23,
+     "hi": 23,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 332752,
+     "loopStart": 238766,
+     "loopEnd": 332737,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C1vH.wav",
+     "root": 24,
+     "lo": 24,
+     "hi": 25,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 424673,
+     "loopStart": 306378,
+     "loopEnd": 424658,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#1vL.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 566264,
+     "loopStart": 412198,
+     "loopEnd": 566249,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#1vH.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 461812,
+     "loopStart": 345735,
+     "loopEnd": 461797,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#1vL.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 486992,
+     "loopStart": 335793,
+     "loopEnd": 486977,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#1vH.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 351572,
+     "loopStart": 240705,
+     "loopEnd": 351557,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A1vL.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 524047,
+     "loopStart": 348550,
+     "loopEnd": 524032,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A1vH.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 33,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 442448,
+     "loopStart": 332232,
+     "loopEnd": 442433,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/B1vH.wav",
+     "root": 35,
+     "lo": 34,
+     "hi": 35,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 366948,
+     "loopStart": 256475,
+     "loopEnd": 366933,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C2vL.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 510402,
+     "loopStart": 397535,
+     "loopEnd": 510387,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C2vH.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 37,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 376593,
+     "loopStart": 256636,
+     "loopEnd": 376578,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#2vL.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 585195,
+     "loopStart": 425067,
+     "loopEnd": 585180,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#2vH.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 398457,
+     "loopStart": 288169,
+     "loopEnd": 398442,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#2vL.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 438577,
+     "loopStart": 327987,
+     "loopEnd": 438562,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#2vH.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 45,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 393527,
+     "loopStart": 250236,
+     "loopEnd": 393512,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A2vL.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 361173,
+     "loopStart": 240292,
+     "loopEnd": 361158,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/B2vH.wav",
+     "root": 47,
+     "lo": 46,
+     "hi": 47,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 341313,
+     "loopStart": 238940,
+     "loopEnd": 341298,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C3vL.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 212690,
+     "loopStart": 137735,
+     "loopEnd": 212675,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C3vH.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 49,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 307086,
+     "loopStart": 196763,
+     "loopEnd": 307071,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#3vL.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 255640,
+     "loopStart": 188513,
+     "loopEnd": 255625,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#3vH.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 240330,
+     "loopStart": 162986,
+     "loopEnd": 240315,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#3vL.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 213996,
+     "loopStart": 134294,
+     "loopEnd": 213981,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#3vH.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 265650,
+     "loopStart": 194343,
+     "loopEnd": 265635,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A3vL.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 283692,
+     "loopStart": 173690,
+     "loopEnd": 283677,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A3vH.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 57,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 186817,
+     "loopStart": 120679,
+     "loopEnd": 186802,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/B3vH.wav",
+     "root": 59,
+     "lo": 58,
+     "hi": 61,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 227593,
+     "loopStart": 163021,
+     "loopEnd": 227578,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C4vL.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 354264,
+     "loopStart": 199374,
+     "loopEnd": 354249,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#4vL.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 184773,
+     "loopStart": 111422,
+     "loopEnd": 184758,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#4vH.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 217613,
+     "loopStart": 151896,
+     "loopEnd": 217598,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#4vL.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 255617,
+     "loopStart": 151730,
+     "loopEnd": 255602,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#4vH.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 185346,
+     "loopStart": 138527,
+     "loopEnd": 185331,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A4vL.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 94541,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A4vH.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 69,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 114660,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/B4vH.wav",
+     "root": 71,
+     "lo": 70,
+     "hi": 71,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 149940,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C5vL.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 235935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C5vH.wav",
+     "root": 72,
+     "lo": 72,
+     "hi": 73,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 153040,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#5vL.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 125239,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#5vH.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 139250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#5vL.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 83609,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#5vH.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 83790,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A5vL.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 70741,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A5vH.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 81,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 114660,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/B5vH.wav",
+     "root": 83,
+     "lo": 82,
+     "hi": 83,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 108045,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C6vL.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 97443,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C6vH.wav",
+     "root": 84,
+     "lo": 84,
+     "hi": 85,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 92610,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#6vL.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 47123,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#6vH.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 80974,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#6vL.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 48201,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#6vH.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 55370,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A6vL.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 35509,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A6vH.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 93,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 55198,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/B6vH.wav",
+     "root": 95,
+     "lo": 94,
+     "hi": 95,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 45640,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C7vL.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 27710,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C7vH.wav",
+     "root": 96,
+     "lo": 96,
+     "hi": 97,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 61740,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#7vL.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 34898,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/D#7vH.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 31225,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#7vL.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 26660,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/F#7vH.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 29470,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A7vL.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 32406,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/A7vH.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 105,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/B7vH.wav",
+     "root": 107,
+     "lo": 106,
+     "hi": 107,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C8vL.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 108,
+     "lovel": 1,
+     "hivel": 80,
+     "gain": -5.1,
+     "start": 0,
+     "end": 17369,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    },
+    {
+     "file": "upright/C8vH.wav",
+     "root": 108,
+     "lo": 108,
+     "hi": 108,
+     "lovel": 81,
+     "hivel": 127,
+     "gain": -4.68,
+     "start": 0,
+     "end": 30616,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0
+    }
+   ]
+  }
+ ]
+}

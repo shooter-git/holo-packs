@@ -301,7 +301,8 @@ export async function buildInstruments(spec) {
       const counts = new Map();
       for (const d of off) counts.set(d, (counts.get(d) ?? 0) + 1);
       const [common, n] = [...counts.entries()].sort((a, b) => b[1] - a[1])[0] ?? [0, 0];
-      if (common !== 0 && n > off.length / 2)
+      if (inst.checkPitch === 'report') console.log(`  ${inst.name}: most samples sound ${common} semitones from their roots (${n} of ${off.length})`);
+      else if (common !== 0 && n > off.length / 2)
         throw new Error(`${inst.name}: most samples sound ${common} semitones from their roots (${n} of ${off.length}): shift its keys`);
     }
     const zones = [];
@@ -544,10 +545,14 @@ export function library(repo, commit) {
  * found from its own folder, or `base` (a map included by a program in another folder finds them from
  * that program's).
  */
-export async function programSamples(lib, path, { tag, keep, base, shift } = {}) {
+export async function programSamples(lib, path, { tag, keep, base, shift, as } = {}) {
   const { readSfz } = await import('./sfz.mjs');
-  const dir = base ?? (path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '');
-  return sfzSamples(await readSfz(path, lib.read), { tag, dir, keep, shift });
+  // `as`: the path the program is read as (a map its library includes from another folder finds its
+  // own includes, and its samples, from there)
+  const at = as ?? path;
+  const dir = base ?? (at.includes('/') ? at.slice(0, at.lastIndexOf('/')) : '');
+  const read = (p) => (p === at ? lib.read(path) : lib.read(p));
+  return sfzSamples(await readSfz(at, read), { tag, dir, keep, shift });
 }
 
 /**
@@ -594,4 +599,24 @@ export async function archiveProgram(downloads, archive, path, opts = {}) {
   };
   const dir = path.includes('/') ? path.slice(0, path.lastIndexOf('/')) : '';
   return sfzSamples(await readSfz(path, read), { tag: archive, dir, ...opts });
+}
+
+/**
+ * A drum kit's pieces on their keys (General MIDI's kick on 36, snare on 38, hi-hats on 42 and 46):
+ * pieces [piece, title, keys, takes, extra], each made into `<folder>/<piece>/` so its pad's name is
+ * its piece's; `extra` gives a piece's choke ({ group, offBy }: the hi-hats share a group, and the
+ * open ones are stopped by it). The pads are listed in the pieces' order, its first key each.
+ */
+export function kitSet(folder, pieces) {
+  const samples = [];
+  const pads = [];
+  for (const [piece, title, keys, takes, extra = {}] of pieces) {
+    pads.push({ key: keys[0], name: title });
+    takes.forEach((t, n) => {
+      const stem = t.download.slice(t.download.lastIndexOf('/') + 1).replace(/\.[^.]+$/, '');
+      for (const key of keys)
+        samples.push({ ...t, ...extra, out: `${folder}/${piece}/${stem}.wav`, root: key, lo: key, hi: key, layer: t.layer ?? 1, rr: t.rr ?? n + 1 });
+    });
+  }
+  return { samples, pads };
 }

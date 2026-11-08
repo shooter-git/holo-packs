@@ -1,0 +1,6046 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "sonic-pi",
+ "name": "Sonic Pi Samples",
+ "license": "CC0-1.0",
+ "credit": "The samples Sonic Pi ships (CC0): Freesound users' recordings, each listed in Sonic Pi's samples README, and beats by Arovane (Uwe Zahn).",
+ "bytes": 90662390,
+ "source": {
+  "kind": "mix",
+  "note": "Sonic Pi's FLACs at the pinned commit, each kept until it falls to -60 dB and faded there, otherwise bit for bit.",
+  "bases": {
+   "sp": "https://raw.githubusercontent.com/sonic-pi-net/sonic-pi/d1393a06266f74dc216bfd8a7e9a8eb7135b4941/etc/samples/"
+  },
+  "downloads": {
+   "sp:ambi_choir.flac": "2633a5df4280fe49c58d5ced8633325d049ee03bb4b7512310cb2356d2ab1319",
+   "sp:ambi_dark_woosh.flac": "dba2cba2a142d5d3866aefaa85b975208e1436cdd7101dac9befd4036c2be00e",
+   "sp:ambi_drone.flac": "be0f92d168cf6da66f7b881d5ccb7d5a0f05e250a0f0ea820c02270cb33d932f",
+   "sp:ambi_glass_hum.flac": "151e5c4ff594fd176df15de210ba89a1805cfeadf7a050f8b6be2076abb12eca",
+   "sp:ambi_glass_rub.flac": "d8400331199a5a2e5fec33e9c0179b09f7ec3b20554c3f042fbe89107e1c3883",
+   "sp:ambi_haunted_hum.flac": "de5b287254723c9faeab1fd4812112608615b5bcdaa64fc6ad4db036bc49c12d",
+   "sp:ambi_lunar_land.flac": "020f82384e5d55807b557901d585aff9d385ce67d9f0a66464dea0952638ce01",
+   "sp:ambi_piano.flac": "e6cd0efe8bd02f67beb76e2a930c9ff70c27712fa8829f03c2ae71362f88fe77",
+   "sp:ambi_sauna.flac": "110e5f5fb0192a4bb8da3d9c5c4539edf35c9549cf84eee44386bc62b2914328",
+   "sp:ambi_soft_buzz.flac": "41849c1485134385837ea253125f5a1aa9beea3e8459c74f9fc7f5cf00dd8158",
+   "sp:ambi_swoosh.flac": "1ba01f85418936d32b37cbdb598043e8a62e4c63818c16a349ed95821ddf8061",
+   "sp:arovane_beat_a.flac": "2060f1c91f9a2669b336159a3c18b2f26ce75077412ffe4e594499292960bb75",
+   "sp:arovane_beat_b.flac": "3dd2a1fad852e8544bfc9abdc753628465ed50e019e7483b1b7948a7c5b2ba95",
+   "sp:arovane_beat_c.flac": "b24fffc9a3a4f2fcaa5b0b10ecf92758a80145aab62fd3ab57a9617b19df756a",
+   "sp:arovane_beat_d.flac": "26d7ac87b99f784ef2ca1f77b2190e31f00893a4a141cc765b52a14175beab70",
+   "sp:arovane_beat_e.flac": "7ba62cda524ba75f0c100ddcdc127aa18b931f9e607b42da867c3d75ec101b09",
+   "sp:bass_dnb_f.flac": "56a75b06105131ea5a81ca2c1f3a0e73b90e6cb88f7aabe3a55bcb07a8b3e0d6",
+   "sp:bass_drop_c.flac": "0c072557817e2d8606a2180b87f8093a577913f8a4941d54d5626f1634c3d22d",
+   "sp:bass_hard_c.flac": "53a702cd607ae57e70376af668ce31b7d154a29f9c52dd990d2f8991dcf0b51e",
+   "sp:bass_hit_c.flac": "814d444d544be85f1ee30cc7a47774c14b9c08ea909c018429642fef6cf40687",
+   "sp:bass_thick_c.flac": "1d0034ad3a6c72aa188a72c9c17d49be2244e1201b2f23a03fac2508160dd0df",
+   "sp:bass_trance_c.flac": "fdaab68b99592aa2b0a010f9cfd54e76630b4299f1845441b800adde435c1a62",
+   "sp:bass_voxy_c.flac": "8b44bf26705e4efeba223aa6be46c8c3307e73c56290bcbe8270bc4cfc7d0df4",
+   "sp:bass_voxy_hit_c.flac": "958adf1e0a5b1fdba3edcd05b5dcfc8269f1bcde11f617ab979e7ba23e0f01d8",
+   "sp:bass_woodsy_c.flac": "24526511b9996f394c1101dc8099cc29acc775782d1b5bd3e2afb406d0bd205c",
+   "sp:bd_ada.flac": "5395964737279c3190ea3a7c1dfd7c43c5e9a5da53a06fef94fd01fcc8e1c4b3",
+   "sp:bd_boom.flac": "1ece3f3fc0c5d7d2f154e1850077c5f57fa577c4aea1902e6d2a04cb51ce43ff",
+   "sp:bd_chip.flac": "e365b1bdb0ffeb106415cc8faae03ecbc61c39aa8afd58bfa2867493431e20ef",
+   "sp:bd_fat.flac": "3c53f83cd05d8bf3f58542f1a510c31e755097cd0d727902f6199e725b42120c",
+   "sp:bd_gas.flac": "ac568aa6b75d973f663e69a05386a55b83600404e8be55eba65e162bf87f525d",
+   "sp:bd_haus.flac": "b9aa2aa81a8ccabc1a93763e689587447860497a661ed03ba3f9bd6c06e99346",
+   "sp:bd_jazz.flac": "9847388d0ddedb1f05a62bb230268778d292246f15db5b0f5183d5884c3e2809",
+   "sp:bd_klub.flac": "40beea807c90d0c31bc1f6e9a12fdb70f729912f6f0a3ddda0b2d29a1526fca3",
+   "sp:bd_mehackit.flac": "790e4419f73a75f664b131905035f79d83fa659912dd2ac38f855fb6d62c1b4e",
+   "sp:bd_pure.flac": "cd70fc3260302262f65c8f66f012faf7531853598a6d2a01a8af73bd3816c6b3",
+   "sp:bd_sone.flac": "986a685ba12e375163cee024a01363994a9db4b87afc147120e5813d2892bbc0",
+   "sp:bd_tek.flac": "031cd7d4b3b8ccd94fb3cb5b19eaaaa3ca285f46972b6ff24bdc1dea982ef035",
+   "sp:bd_zome.flac": "3bc806a8eda258b305ff7183785a56b45769cb41d6f5459f90b18639d78220ac",
+   "sp:bd_zum.flac": "1a364730e092da95a4723ed4567cfc33e1cefb3d7c0350ce87f0a08fe324442d",
+   "sp:drum_bass_hard.flac": "ed3ac2187d679ca1c3fec533ea1c3576c840c81ba98b8d967eb12a8f27471bc1",
+   "sp:drum_bass_soft.flac": "87bfb846ea7adf747515b1c59602555c2dde5da40ba4cb5a19244df06385ff23",
+   "sp:drum_cowbell.flac": "e2ee5f732b675858491e95a06ea419b98af512ebdc154afb2c27066303f0dd7f",
+   "sp:drum_cymbal_closed.flac": "f3b9d6bb14f75ba06ef633baf58b1f75f0e2ea5e07edd491f0a22aedb2480d62",
+   "sp:drum_cymbal_hard.flac": "be18750e383d09d2c3776b98551db5f736a2bf420666788e2900b2b8bf7e530a",
+   "sp:drum_cymbal_open.flac": "3a9cf6aacab05003fe3edaa9a9150841e080ecd3b7e6383571bc3570c23c7118",
+   "sp:drum_cymbal_pedal.flac": "af2cf5e259f3671d9b363418b9d222b742cf6e41dd3e6871b23f2b4ce8b36635",
+   "sp:drum_cymbal_soft.flac": "ab4cee3de9beaf99bf658f2ad54e1e9a8e5befbe96958133bdb818dfe348b0dd",
+   "sp:drum_heavy_kick.flac": "9c141c8de85e695baf6d490c9904b057d97c2c49fa3985f0396fea320ce35a57",
+   "sp:drum_roll.flac": "c83acd81dd2dcb6072678512a0fd4121b9aa23273d155cf6d6b24c0ef2513f0b",
+   "sp:drum_snare_hard.flac": "1b2325523ed2a93da49df338ef861b4c35bfcbdc2e5e726ce1e873201883ffe4",
+   "sp:drum_snare_soft.flac": "3da004f932da94c4a4ccf1066f973c08ebe314875304333c1b257dbd6725ad9e",
+   "sp:drum_splash_hard.flac": "4a050000a71b313c449580b98b48d7c3a808eabfeccdffcf8dc35071d665a679",
+   "sp:drum_splash_soft.flac": "30339472b3c399c68b6ca4971f8fddb2d0529468c5f4320fd77149c5e5c909fc",
+   "sp:drum_tom_hi_hard.flac": "18d53d2dac65d1cd2b0b1f23eaa68e6233beb6e84d4352191cc6e6ea5200295c",
+   "sp:drum_tom_hi_soft.flac": "33717a5c456c8d7783226a85e4809f298bfec0e1eb2772da41005757ac8e9124",
+   "sp:drum_tom_lo_hard.flac": "e8caf199618dfee0d9941446f5e80ef8722ee239def78f5b31bd6ec7c27d597e",
+   "sp:drum_tom_lo_soft.flac": "473adf163ce22285b633d2a7f7c673a9f1d0820b0ea184cb497ee45d66c939c3",
+   "sp:drum_tom_mid_hard.flac": "712e960a8107edaf168e6c737eb5729e7c35cad8b0510c48aecf7e24357a2d06",
+   "sp:drum_tom_mid_soft.flac": "01105a7914ae2ee5254f2ae955057a8f90246f7d30a40edb35fcbdc8c85e5119",
+   "sp:elec_beep.flac": "75a1b63240f9de4e871ad24121d76df1683ad462fac7c4aa8f60b6f4dc356336",
+   "sp:elec_bell.flac": "3e94a475dd4fd588f6547d1e0bf4bb22d9f39858498fdf72751b60a008f6164d",
+   "sp:elec_blip.flac": "6d082528d45fe31a07104a430ed229f8782e322bf985f9299099c000755214b5",
+   "sp:elec_blip2.flac": "b49e623b8414e05f279564cc022b3ee7f2a9361548c8aed22741613a7f9b8250",
+   "sp:elec_blup.flac": "3e3b6764bd9dcf4d77e9ac59aa8ea99ea360286a230762bda798164cfdc7156a",
+   "sp:elec_bong.flac": "e4f76c4bff74af70b89eae6c7e72ddce9dfd9df8a1b68fe0a663c6a91e192b61",
+   "sp:elec_chime.flac": "6491cb81484f9ec8da9b19eac3aa88b234d5519becc7a96172d54a1da1b21f0f",
+   "sp:elec_cymbal.flac": "00d18c8b6a8114948b316c86bf960dfcc355d3aeb712a78c5fbbccb2093b8752",
+   "sp:elec_filt_snare.flac": "648b29977bfd75f0aeb33215da0a2f44a214d2256fd81f3e24f458a7fe041db2",
+   "sp:elec_flip.flac": "79196827802c718dcedfb3cd11bf0579f6dd62d57644e08af2d0fe0b911876e5",
+   "sp:elec_fuzz_tom.flac": "b2fada15c49bb61e4e6a89a57cbbe407ecbb117d058c0abcebb43ee1081f38d2",
+   "sp:elec_hi_snare.flac": "73dca64f3c994ebde945572933f73d431f2813bacec8267065c76f176d5656e3",
+   "sp:elec_hollow_kick.flac": "bcccfba9f68bf248c6dac11311f62fd42a18c05dcf67ab8eaec912214fb481bb",
+   "sp:elec_lo_snare.flac": "720dc00b02969e5951417ae3e20096d594d1b23aff6758bff61c57ddfcba1acd",
+   "sp:elec_mid_snare.flac": "37cc37fcefef613f3a1e8d4e16e212345930f80ff2132de22c2ca2b88ec59a1c",
+   "sp:elec_ping.flac": "3a9d365271168d9283782d8671cfa6b2787427b2e1e387729555b538a1bf1a3b",
+   "sp:elec_plip.flac": "6bae1bd8db6167732001372b5286f27d1db28b512dde11673f66e1dfb041bae1",
+   "sp:elec_pop.flac": "c7cd99162f0aecf2cc3c18775c81f25819855b075d0a07ec9fa321e1e3cf8e19",
+   "sp:elec_snare.flac": "a5548c4e418864f985b7efc92776ffa5d81a5273c26360f28c1ea4f12c2a9865",
+   "sp:elec_soft_kick.flac": "07121a5d607c9998e0153751680a32e928c3fbf41d734a8c8fef4ce257bf3ed6",
+   "sp:elec_tick.flac": "ac3fa3c78f8af1509e4c90425e04173816cf7db968f1e31a34719c7e319312c5",
+   "sp:elec_triangle.flac": "850027f2d7e5b882b3689d91f2b95b5a26fbef43fc4e37fc3043c81ce52acbc4",
+   "sp:elec_twang.flac": "3e932435400753f7d5571a6ba9910d811f660f06b58b713f9d4c374c4d138d0a",
+   "sp:elec_twip.flac": "38da0318d5cb305cc506710e2f05032e5fb38af44a234d5fc81a4e99adcfa706",
+   "sp:elec_wood.flac": "f046ea904a91f742d3436250a2bdf2d1c21ff91a227606ddbadc4d4bee1e69fa",
+   "sp:glitch_bass_g.flac": "b15d2596cf3ad6c53f200f9fb05bbe374c19eaaf7a910e218e8faaefbe40c2a9",
+   "sp:glitch_perc1.flac": "d3743af6cdde1a81661b58d59abadb8fd864361d9815b2cfa894c023fcdd50b8",
+   "sp:glitch_perc2.flac": "452c6103cf693add6e0ee66cf179ea010a67a25793674a65f387794e49ea36e0",
+   "sp:glitch_perc3.flac": "413ba39bebeaa7824e75be85561efb08303e1e4b7f03d45dc6461eaf3692a020",
+   "sp:glitch_perc4.flac": "56bf863693fb16b65225983148bedfb91b9aa168a94f4df83ded08f912b9e41f",
+   "sp:glitch_perc5.flac": "ce02f617f21cc40a9b886097d50f45fe895ba98161a11e21cea2dcf1f64c0785",
+   "sp:glitch_robot1.flac": "f2eb0e8c9f8e5018c1e80823b44d330e9fe4e9c376feaf252269d7a128351a3d",
+   "sp:glitch_robot2.flac": "5b77314c13fb507ebda6972e26369f6ea370590a982a1ffcec92eac3b206b361",
+   "sp:guit_e_fifths.flac": "b609553b02becbada9ec00a6a13e88bbde6b7ce29098063f4b3f27209ff13f79",
+   "sp:guit_e_slide.flac": "80626ddea79461012cabafe4ca5e70ce0bdb00a42e6601730b1ff76ab84c13ea",
+   "sp:guit_em9.flac": "e6dbbdc5aef03fada9cbd84d9ef000472c6954db9badcf5721969c515d46c2f1",
+   "sp:guit_harmonics.flac": "197dc69798e07641f2003f394645155e4077d1d75fa6eb44a66f3a00b07e73ee",
+   "sp:hat_bdu.flac": "b6335e7f423c222310cdabccc0ff25f8c7d29744688ad7cac6e37b3f2abbd64f",
+   "sp:hat_cab.flac": "049d90dfaddb945911cf49418bbd001fdfd07d5d43f9db469e39841728737a05",
+   "sp:hat_cats.flac": "df3c99c42156b82df1209d9e91ff022ff5d2ee6f70d15911b7cdd06409124692",
+   "sp:hat_gem.flac": "5ebd6917141788333711253448f5d7f58eba50058eb70bab3d51cf00d4f390d7",
+   "sp:hat_gnu.flac": "633a80b6700a5970abb2b8a83b9ecb42c7474185a3a062a19e087312ab295981",
+   "sp:hat_gump.flac": "36123f8ea0f563ba012f8e49822bc3ad6c7aba793e1265cdb0e422e082b9ba9f",
+   "sp:hat_hier.flac": "8f8aef112917c8b77dbc6d2bc3ecd9544d2290ce478f2c5ef12212a4e19eee62",
+   "sp:hat_len.flac": "b92352ef08c33c1d6d55a2adb75772319c2b06881889d8772be3e02fd8c687b6",
+   "sp:hat_mess.flac": "8263ce5a63851888df819c436dd36c0d7d97ac8742018f0a93e8ed0578fa0f3c",
+   "sp:hat_metal.flac": "a696ae6fe04361980da0b081c1249ce30277f82db665bf84fce4e516913962d1",
+   "sp:hat_noiz.flac": "bf1912d692eee41525edb603df1eb76093325f1f04ff62a1e3208aafef19134a",
+   "sp:hat_psych.flac": "ee3269e2c134b29c76737c08bf729e2e7dc17d6a14d13c6a0e114fcd5b5fc626",
+   "sp:hat_raw.flac": "e92e7722dfd750630d0b92ceea70cbd9137be16c7d3c71cdcb0ff7e504524b94",
+   "sp:hat_sci.flac": "a25479c5d8bee7c858234ed0e645e4f1522c17cfcf2d39618aa3612ad457ce83",
+   "sp:hat_snap.flac": "f2c1aa0febba2b8c9a5788d6913609c7314ebb4e33926fb039b6f580ed3df19c",
+   "sp:hat_star.flac": "e02b72878188621b8181772be7195078c32ee416ed3e0bbbd91cc744dd3ed10a",
+   "sp:hat_tap.flac": "7007e5b02d8f86e161c78e7e72c96af99a9c6a5d99c1cf35703d419e6f867d8c",
+   "sp:hat_yosh.flac": "63d73c35ee98d439287702bd9561e7d391108ffe9f03252a338d9184959d278e",
+   "sp:hat_zan.flac": "f24a1ba11ca83a71d2df5a2dc03febdb13494424c11a2d96f39d97e9d2010c82",
+   "sp:hat_zap.flac": "1ab906bd17642a66a976b2c9c9dc330c53e1656e4f13b9db54a708ea73f699ad",
+   "sp:hat_zild.flac": "e916af838e56e413f8793292e499908930073215558ae6be92353c88a6beec60",
+   "sp:loop_3d_printer.flac": "697c96d11813fdd0fbb5b747f91835cccac6dec5fdf16b8a3e3024c657c3c2b8",
+   "sp:loop_compus.flac": "76d2156582500c496a5c168ab2a1ddd7f3df9534ca476eb760375c30f709ed1d",
+   "sp:loop_drone_g_97.flac": "edbc99f9b55a68776de24c0ec71045b63679569ab94206e01d30d7d812b628f9",
+   "sp:loop_electric.flac": "70eb02701f4666929593673a70bbdbc6b9d0cee2cdd464aa4df375ab350052ef",
+   "sp:loop_garzul.flac": "bc04e06c84a4b6535b8f7bdb51c5b09afe5350421bf16660454e6d370d9ab849",
+   "sp:loop_industrial.flac": "6925eb60647384e84c45c4aed84d1ddcabe4c2c34e992e5ed80915da8850aa05",
+   "sp:loop_mehackit1.flac": "51dafe70f558531c375d0f2f8e566c4363e7ac4538f4315e6e6d123320e3a7a0",
+   "sp:loop_mehackit2.flac": "dd23652a11be1c2a923d8dc7bd1f7a7087e4f34b960c6d27f58639ffbafeab8a",
+   "sp:loop_mika.flac": "c31a49960402aa63920882a0edcfbb39296547ae602966bcb34ad870dfbb73fa",
+   "sp:loop_perc1.flac": "def05c2bfbc8b08b021031aeef16098281517103431fccef7da38e1ceffc866a",
+   "sp:loop_perc2.flac": "cf2d295cebf19655cdb5f90b38e9b4940e355c41c14e10132794a0fe21b7a2f7",
+   "sp:loop_safari.flac": "4e952f7548c42b70c6a80c87d93b4f5bad0068020d7b5b28998558a9857687c4",
+   "sp:loop_tabla.flac": "7dbb7d6e216aece300700453c9734ecd6f56ec75dd56a5365c6a12194ed3ebab",
+   "sp:loop_weirdo.flac": "dcd4d3a0a09c2af80e0b57b1077654eb7a29c2b37cb586b27f5b3b1be64706c0",
+   "sp:mehackit_phone1.flac": "d57ab020192796e36bfa5e6c99f9367f183f0a9dc99ac4ab63d3cea6e2fd21e8",
+   "sp:mehackit_phone2.flac": "b79953489f021bbe5f83c2847a9c8904d0bc8c74af2d44ba09766e3a4ec8012c",
+   "sp:mehackit_phone3.flac": "1462e7c5a5915590a2e10028dc291e367e1e6e15e235d49ed90738a06f5bc892",
+   "sp:mehackit_phone4.flac": "ef2c742f3381d09eb77307fe48d1fb8d0c74e54d95278a5da9600786ad7457d1",
+   "sp:mehackit_robot1.flac": "1165726b79ed2938368de0500bdfcc750c1af3109b8efdaa0a7fe891ee795753",
+   "sp:mehackit_robot2.flac": "1d6302e5ca09d1089c030f1b9c1f57123d46f4237925886fa859c07dc2bac507",
+   "sp:mehackit_robot3.flac": "acf817c04d9ab17ce08a0a3bd9d6f0d4d434a1851cdf13e0cc618d6b8de6abac",
+   "sp:mehackit_robot4.flac": "626fcc0b494328fa659b93cb30d2e1866be6b1fa7b77944a4b02dc7f58074266",
+   "sp:mehackit_robot5.flac": "0d09e2fc1466cf4db82b1d9fc065b8189d079f81b8097a41555fb72a7bffedfc",
+   "sp:mehackit_robot6.flac": "6783e6c2fdf265b48c19594f1d8ec05ffce224deb51e47ceba0e78b4546ff6ee",
+   "sp:mehackit_robot7.flac": "e68392920d471368b430ee568b307c184c1c69da55972be0d6aa5f7c05d56f5d",
+   "sp:misc_burp.flac": "add6f9e212899d71c92f3e72dacdad006db6d37fb30e6a8b3cd5b8b4ae2c149b",
+   "sp:misc_cineboom.flac": "a03bc3dd148809d816a558c93e53af5948b846ca0abf454b238d3e243a404a60",
+   "sp:misc_crow.flac": "007e6ce77f6f187c76e1255702fdf5852f60a0edc1307e177d3219343abf7a28",
+   "sp:perc_bell.flac": "7d88fccc70acaeec1800976f57dc46e7fb80fd66668d3220c4961a11c8d30f9b",
+   "sp:perc_bell2.flac": "2e8757cd85ea898e59bb7a959e60eb50c50bee252c9e7a12d47bc9ff34ed69be",
+   "sp:perc_door.flac": "923c36d45cd67a053976602163020b32fc499f3c126c66bca790b9aa2d9e7003",
+   "sp:perc_impact1.flac": "1230a921b19465aae8dbbe64f59baa6396da7322928bd2bedba69073428d2b9e",
+   "sp:perc_impact2.flac": "bb88c430a34c0ca7ca42fbde83060d9a6bf540b3c28699212afa6adc232c8054",
+   "sp:perc_snap.flac": "09d5cc75cd9ef183e9464801c7e7b2e441ca8e12f99b2610cbc2d5168297a19d",
+   "sp:perc_snap2.flac": "03242155cc005d9ffa6236b7841d389bb6d03280c5cc9c0e2ebc05e8c916c425",
+   "sp:perc_swash.flac": "c2d125db98ff2d79f3a89a08a24b6618dc1f0410c2cc717e8cc83ebc6956dcca",
+   "sp:perc_swoosh.flac": "99704b14314b4a24f4cfe48d5d031af39b52b90c7c0fc2c9a62dc6c61f87af30",
+   "sp:perc_till.flac": "c6a97c7fb370725c1a0afb6378540aa1205d0b928723f7e92bd5ba3ab3859dc9",
+   "sp:ride_tri.flac": "acff7b0ddb105eccc979bcab27aaaa3ec65254c2f211ae7ebcf49e5048e50c21",
+   "sp:ride_via.flac": "1f1f8654e21b7fc6602783d3a57c72edfcc8668ee179e968a52b8af4b67a6a33",
+   "sp:sn_dolf.flac": "88d04c0cf427f1af163479edb9d6477b95d0db0a790633cb87bbd3f3430207c7",
+   "sp:sn_dub.flac": "165ddba961a14430ae6bbc0fad465d975c9b0b28a454c89076ab4d21b0f4613b",
+   "sp:sn_generic.flac": "c7682e3916a5eee1cdafac18d2a4a9e03e96f6ed5ccabed4a4ff4816c103860f",
+   "sp:sn_zome.flac": "9621c28afb20fd135656ed02038df0704d0ad7b8d2d51835adbfebfd560bc7e9",
+   "sp:tbd_fxbed_loop.flac": "06e4f95512ef5cb3cd0d8499b085715ceec8f640e86f6b8df251867b2cddadc6",
+   "sp:tbd_highkey_c4.flac": "0f9a2b1d75e70a0750e1eee296332a1774fa028794e4a703b0fc5c1d91175330",
+   "sp:tbd_pad_1.flac": "b761198a306aa7f55b588ddcbd151d1abb6f74ed39bf80bac2a6476acc37e01c",
+   "sp:tbd_pad_2.flac": "3d3226d960b276699344f3d245e06969d4fb1e8532d13956a06f28723e25fda2",
+   "sp:tbd_pad_3.flac": "1664ffa24dae6913b3eb2584045a6a38e98127e2c63ccacfe237a509439e0ac8",
+   "sp:tbd_pad_4.flac": "26caef363e8bd2f2bfb0ab42ab1bf9f52894200bedb9ee2dcf7069cd92539057",
+   "sp:tbd_perc_blip.flac": "1b65df7d870d4bee2ad5092d1905e4b21a4c049898afeaab409de523e0e763dd",
+   "sp:tbd_perc_hat.flac": "e7b5fc4aaa22bfeba6dbcf066eb96499499eecb236288f82d191ae6b9d2fbee7",
+   "sp:tbd_perc_tap_1.flac": "1d9b1a5616772e0cb4bb4de6403fbbeb7dd52d466c23f53c6be461f3505a6123",
+   "sp:tbd_perc_tap_2.flac": "d2aed8f7a9248fef6266e66594f8cd5dade9a29830230bb96064cb73a0e83332",
+   "sp:tbd_voctone.flac": "1b1ed7e1a12d3828bf990505c2ac49e71f77252d0521d161c7c848d8c85bf13d",
+   "sp:vinyl_backspin.flac": "ef64d5951df8fb862fdac7adca39ef637762511d6e1b2c9933bc385b5ad2d203",
+   "sp:vinyl_hiss.flac": "4e3fdaaff3399328e5a4ffc7e32292fba6ccbd3ba5353e0c8060b0ef1dc908f7",
+   "sp:vinyl_rewind.flac": "ad587a5598de7a12a225e29d6326e6a212601c81550b48e16979709a54476b93",
+   "sp:vinyl_scratch.flac": "2dc0fedcfeaa308889d065f6911da95f42cc24f0806ff823cd006a045dbe490b"
+  },
+  "bits": 24,
+  "files": {
+   "kicks/ada/sp:bd_ada.wav": {
+    "in": [
+     [
+      "sp:bd_ada.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4489,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kicks/boom/sp:bd_boom.wav": {
+    "in": [
+     [
+      "sp:bd_boom.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 75600,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/chip/sp:bd_chip.wav": {
+    "in": [
+     [
+      "sp:bd_chip.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4606,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/fat/sp:bd_fat.wav": {
+    "in": [
+     [
+      "sp:bd_fat.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 10240,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kicks/gas/sp:bd_gas.wav": {
+    "in": [
+     [
+      "sp:bd_gas.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19719,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kicks/haus/sp:bd_haus.wav": {
+    "in": [
+     [
+      "sp:bd_haus.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 9699,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/jazz/sp:bd_jazz.wav": {
+    "in": [
+     [
+      "sp:bd_jazz.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32155,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/klub/sp:bd_klub.wav": {
+    "in": [
+     [
+      "sp:bd_klub.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 16266,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/mehackit/sp:bd_mehackit.wav": {
+    "in": [
+     [
+      "sp:bd_mehackit.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37463,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/pure/sp:bd_pure.wav": {
+    "in": [
+     [
+      "sp:bd_pure.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19106,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kicks/sone/sp:bd_sone.wav": {
+    "in": [
+     [
+      "sp:bd_sone.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 18033,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/tek/sp:bd_tek.wav": {
+    "in": [
+     [
+      "sp:bd_tek.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 10595,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/zome/sp:bd_zome.wav": {
+    "in": [
+     [
+      "sp:bd_zome.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 20274,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/zum/sp:bd_zum.wav": {
+    "in": [
+     [
+      "sp:bd_zum.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 5803,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/bass-hard/sp:drum_bass_hard.wav": {
+    "in": [
+     [
+      "sp:drum_bass_hard.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 30658,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kicks/bass-soft/sp:drum_bass_soft.wav": {
+    "in": [
+     [
+      "sp:drum_bass_soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 24804,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kicks/heavy-kick/sp:drum_heavy_kick.wav": {
+    "in": [
+     [
+      "sp:drum_heavy_kick.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 11913,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "kicks/hollow-kick/sp:elec_hollow_kick.wav": {
+    "in": [
+     [
+      "sp:elec_hollow_kick.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 6864,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "kicks/soft-kick/sp:elec_soft_kick.wav": {
+    "in": [
+     [
+      "sp:elec_soft_kick.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 6016,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "snares/dub/sp:sn_dub.wav": {
+    "in": [
+     [
+      "sp:sn_dub.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12265,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "snares/dolf/sp:sn_dolf.wav": {
+    "in": [
+     [
+      "sp:sn_dolf.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 16652,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "snares/generic/sp:sn_generic.wav": {
+    "in": [
+     [
+      "sp:sn_generic.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 24055,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "snares/zome/sp:sn_zome.wav": {
+    "in": [
+     [
+      "sp:sn_zome.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 21113,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "snares/snare-hard/sp:drum_snare_hard.wav": {
+    "in": [
+     [
+      "sp:drum_snare_hard.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19621,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "snares/snare-soft/sp:drum_snare_soft.wav": {
+    "in": [
+     [
+      "sp:drum_snare_soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 13882,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "snares/roll/sp:drum_roll.wav": {
+    "in": [
+     [
+      "sp:drum_roll.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "snares/snare/sp:elec_snare.wav": {
+    "in": [
+     [
+      "sp:elec_snare.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 17169,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "snares/hi-snare/sp:elec_hi_snare.wav": {
+    "in": [
+     [
+      "sp:elec_hi_snare.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 8704,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "snares/mid-snare/sp:elec_mid_snare.wav": {
+    "in": [
+     [
+      "sp:elec_mid_snare.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32000,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "snares/lo-snare/sp:elec_lo_snare.wav": {
+    "in": [
+     [
+      "sp:elec_lo_snare.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29141,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "snares/filt-snare/sp:elec_filt_snare.wav": {
+    "in": [
+     [
+      "sp:elec_filt_snare.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66849,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "snares/snap/sp:perc_snap.wav": {
+    "in": [
+     [
+      "sp:perc_snap.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 13581,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "snares/snap2/sp:perc_snap2.wav": {
+    "in": [
+     [
+      "sp:perc_snap2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 7680,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hats/bdu/sp:hat_bdu.wav": {
+    "in": [
+     [
+      "sp:hat_bdu.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4306,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/cab/sp:hat_cab.wav": {
+    "in": [
+     [
+      "sp:hat_cab.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 6909,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/cats/sp:hat_cats.wav": {
+    "in": [
+     [
+      "sp:hat_cats.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 15663,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/gem/sp:hat_gem.wav": {
+    "in": [
+     [
+      "sp:hat_gem.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 5821,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hats/gnu/sp:hat_gnu.wav": {
+    "in": [
+     [
+      "sp:hat_gnu.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 10895,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hats/gump/sp:hat_gump.wav": {
+    "in": [
+     [
+      "sp:hat_gump.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19845,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hats/hier/sp:hat_hier.wav": {
+    "in": [
+     [
+      "sp:hat_hier.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4559,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/len/sp:hat_len.wav": {
+    "in": [
+     [
+      "sp:hat_len.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37801,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hats/mess/sp:hat_mess.wav": {
+    "in": [
+     [
+      "sp:hat_mess.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12569,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/metal/sp:hat_metal.wav": {
+    "in": [
+     [
+      "sp:hat_metal.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "hats/noiz/sp:hat_noiz.wav": {
+    "in": [
+     [
+      "sp:hat_noiz.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 17594,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hats/psych/sp:hat_psych.wav": {
+    "in": [
+     [
+      "sp:hat_psych.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 11193,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/raw/sp:hat_raw.wav": {
+    "in": [
+     [
+      "sp:hat_raw.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19891,
+    "fadeIn": 0,
+    "fadeOut": 960,
+    "mono": true
+   },
+   "hats/sci/sp:hat_sci.wav": {
+    "in": [
+     [
+      "sp:hat_sci.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 19084,
+    "fadeIn": 0,
+    "fadeOut": 1920,
+    "mono": true
+   },
+   "hats/snap/sp:hat_snap.wav": {
+    "in": [
+     [
+      "sp:hat_snap.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 7350,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hats/star/sp:hat_star.wav": {
+    "in": [
+     [
+      "sp:hat_star.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4831,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/tap/sp:hat_tap.wav": {
+    "in": [
+     [
+      "sp:hat_tap.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 7584,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/yosh/sp:hat_yosh.wav": {
+    "in": [
+     [
+      "sp:hat_yosh.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 5840,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/zan/sp:hat_zan.wav": {
+    "in": [
+     [
+      "sp:hat_zan.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 9088,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/zap/sp:hat_zap.wav": {
+    "in": [
+     [
+      "sp:hat_zap.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 6525,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "hats/zild/sp:hat_zild.wav": {
+    "in": [
+     [
+      "sp:hat_zild.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 10081,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/cymbal-closed/sp:drum_cymbal_closed.wav": {
+    "in": [
+     [
+      "sp:drum_cymbal_closed.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 9126,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/cymbal-pedal/sp:drum_cymbal_pedal.wav": {
+    "in": [
+     [
+      "sp:drum_cymbal_pedal.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12004,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/cymbal-open/sp:drum_cymbal_open.wav": {
+    "in": [
+     [
+      "sp:drum_cymbal_open.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 79573,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/cymbal-soft/sp:drum_cymbal_soft.wav": {
+    "in": [
+     [
+      "sp:drum_cymbal_soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 41883,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/cymbal-hard/sp:drum_cymbal_hard.wav": {
+    "in": [
+     [
+      "sp:drum_cymbal_hard.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 72272,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/splash-soft/sp:drum_splash_soft.wav": {
+    "in": [
+     [
+      "sp:drum_splash_soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 81937,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/splash-hard/sp:drum_splash_hard.wav": {
+    "in": [
+     [
+      "sp:drum_splash_hard.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 114492,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/tri/sp:ride_tri.wav": {
+    "in": [
+     [
+      "sp:ride_tri.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 207844,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/via/sp:ride_via.wav": {
+    "in": [
+     [
+      "sp:ride_via.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 223096,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "hats/cymbal/sp:elec_cymbal.wav": {
+    "in": [
+     [
+      "sp:elec_cymbal.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 24838,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/tom-lo-soft/sp:drum_tom_lo_soft.wav": {
+    "in": [
+     [
+      "sp:drum_tom_lo_soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 38076,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/tom-lo-hard/sp:drum_tom_lo_hard.wav": {
+    "in": [
+     [
+      "sp:drum_tom_lo_hard.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 44110,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/tom-mid-soft/sp:drum_tom_mid_soft.wav": {
+    "in": [
+     [
+      "sp:drum_tom_mid_soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29641,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/tom-mid-hard/sp:drum_tom_mid_hard.wav": {
+    "in": [
+     [
+      "sp:drum_tom_mid_hard.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32379,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/tom-hi-soft/sp:drum_tom_hi_soft.wav": {
+    "in": [
+     [
+      "sp:drum_tom_hi_soft.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 27740,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/tom-hi-hard/sp:drum_tom_hi_hard.wav": {
+    "in": [
+     [
+      "sp:drum_tom_hi_hard.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 32531,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/cowbell/sp:drum_cowbell.wav": {
+    "in": [
+     [
+      "sp:drum_cowbell.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 15430,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/fuzz-tom/sp:elec_fuzz_tom.wav": {
+    "in": [
+     [
+      "sp:elec_fuzz_tom.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 16396,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "toms/wood/sp:elec_wood.wav": {
+    "in": [
+     [
+      "sp:elec_wood.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 21085,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/tick/sp:elec_tick.wav": {
+    "in": [
+     [
+      "sp:elec_tick.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 857,
+    "fadeIn": 0,
+    "fadeOut": 343
+   },
+   "toms/triangle/sp:elec_triangle.wav": {
+    "in": [
+     [
+      "sp:elec_triangle.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 9832,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/pop/sp:elec_pop.wav": {
+    "in": [
+     [
+      "sp:elec_pop.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 3828,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/bong/sp:elec_bong.wav": {
+    "in": [
+     [
+      "sp:elec_bong.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 15280,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "toms/perc-tap-1/sp:tbd_perc_tap_1.wav": {
+    "in": [
+     [
+      "sp:tbd_perc_tap_1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4847,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "toms/perc-tap-2/sp:tbd_perc_tap_2.wav": {
+    "in": [
+     [
+      "sp:tbd_perc_tap_2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4770,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "toms/perc-hat/sp:tbd_perc_hat.wav": {
+    "in": [
+     [
+      "sp:tbd_perc_hat.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4653,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "toms/perc-blip/sp:tbd_perc_blip.wav": {
+    "in": [
+     [
+      "sp:tbd_perc_blip.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 5200,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/beep/sp:elec_beep.wav": {
+    "in": [
+     [
+      "sp:elec_beep.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4665,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "electronic/bell/sp:elec_bell.wav": {
+    "in": [
+     [
+      "sp:elec_bell.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12271,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "electronic/blip/sp:elec_blip.wav": {
+    "in": [
+     [
+      "sp:elec_blip.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 6975,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "electronic/blip2/sp:elec_blip2.wav": {
+    "in": [
+     [
+      "sp:elec_blip2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 8118,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "electronic/blup/sp:elec_blup.wav": {
+    "in": [
+     [
+      "sp:elec_blup.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 29248,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/chime/sp:elec_chime.wav": {
+    "in": [
+     [
+      "sp:elec_chime.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 100440,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "electronic/flip/sp:elec_flip.wav": {
+    "in": [
+     [
+      "sp:elec_flip.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 3297,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/ping/sp:elec_ping.wav": {
+    "in": [
+     [
+      "sp:elec_ping.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 9361,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "electronic/plip/sp:elec_plip.wav": {
+    "in": [
+     [
+      "sp:elec_plip.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 8768,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/twang/sp:elec_twang.wav": {
+    "in": [
+     [
+      "sp:elec_twang.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 27532,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/twip/sp:elec_twip.wav": {
+    "in": [
+     [
+      "sp:elec_twip.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 4472,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/glitch-perc1/sp:glitch_perc1.wav": {
+    "in": [
+     [
+      "sp:glitch_perc1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66150,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "electronic/glitch-perc2/sp:glitch_perc2.wav": {
+    "in": [
+     [
+      "sp:glitch_perc2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 40918,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/glitch-perc3/sp:glitch_perc3.wav": {
+    "in": [
+     [
+      "sp:glitch_perc3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48110,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/glitch-perc4/sp:glitch_perc4.wav": {
+    "in": [
+     [
+      "sp:glitch_perc4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 40919,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/glitch-perc5/sp:glitch_perc5.wav": {
+    "in": [
+     [
+      "sp:glitch_perc5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 40919,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/glitch-robot1/sp:glitch_robot1.wav": {
+    "in": [
+     [
+      "sp:glitch_robot1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 45118,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/glitch-robot2/sp:glitch_robot2.wav": {
+    "in": [
+     [
+      "sp:glitch_robot2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 40935,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/mehackit-phone1/sp:mehackit_phone1.wav": {
+    "in": [
+     [
+      "sp:mehackit_phone1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 54557,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/mehackit-phone2/sp:mehackit_phone2.wav": {
+    "in": [
+     [
+      "sp:mehackit_phone2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 48510,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "electronic/mehackit-phone3/sp:mehackit_phone3.wav": {
+    "in": [
+     [
+      "sp:mehackit_phone3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 63945,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "electronic/mehackit-phone4/sp:mehackit_phone4.wav": {
+    "in": [
+     [
+      "sp:mehackit_phone4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 52920,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "electronic/mehackit-robot1/sp:mehackit_robot1.wav": {
+    "in": [
+     [
+      "sp:mehackit_robot1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 40935,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/mehackit-robot2/sp:mehackit_robot2.wav": {
+    "in": [
+     [
+      "sp:mehackit_robot2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 45118,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/mehackit-robot3/sp:mehackit_robot3.wav": {
+    "in": [
+     [
+      "sp:mehackit_robot3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 54000,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/mehackit-robot4/sp:mehackit_robot4.wav": {
+    "in": [
+     [
+      "sp:mehackit_robot4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 88200,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/mehackit-robot5/sp:mehackit_robot5.wav": {
+    "in": [
+     [
+      "sp:mehackit_robot5.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66150,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/mehackit-robot6/sp:mehackit_robot6.wav": {
+    "in": [
+     [
+      "sp:mehackit_robot6.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 109114,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "electronic/mehackit-robot7/sp:mehackit_robot7.wav": {
+    "in": [
+     [
+      "sp:mehackit_robot7.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 22165,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "fx/bell/sp:perc_bell.wav": {
+    "in": [
+     [
+      "sp:perc_bell.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "fx/bell2/sp:perc_bell2.wav": {
+    "in": [
+     [
+      "sp:perc_bell2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 156555,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "fx/door/sp:perc_door.wav": {
+    "in": [
+     [
+      "sp:perc_door.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 108005,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "fx/impact1/sp:perc_impact1.wav": {
+    "in": [
+     [
+      "sp:perc_impact1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 49387,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "fx/impact2/sp:perc_impact2.wav": {
+    "in": [
+     [
+      "sp:perc_impact2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 37828,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "fx/swash/sp:perc_swash.wav": {
+    "in": [
+     [
+      "sp:perc_swash.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 14090,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "fx/swoosh/sp:perc_swoosh.wav": {
+    "in": [
+     [
+      "sp:perc_swoosh.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "fx/till/sp:perc_till.wav": {
+    "in": [
+     [
+      "sp:perc_till.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 94815,
+    "fadeIn": 0,
+    "fadeOut": 8820,
+    "mono": true
+   },
+   "fx/burp/sp:misc_burp.wav": {
+    "in": [
+     [
+      "sp:misc_burp.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34984,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "fx/cineboom/sp:misc_cineboom.wav": {
+    "in": [
+     [
+      "sp:misc_cineboom.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "fx/crow/sp:misc_crow.wav": {
+    "in": [
+     [
+      "sp:misc_crow.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 21196,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "fx/backspin/sp:vinyl_backspin.wav": {
+    "in": [
+     [
+      "sp:vinyl_backspin.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 46801,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "fx/hiss/sp:vinyl_hiss.wav": {
+    "in": [
+     [
+      "sp:vinyl_hiss.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 264600,
+    "fadeIn": 0,
+    "fadeOut": 8820
+   },
+   "fx/rewind/sp:vinyl_rewind.wav": {
+    "in": [
+     [
+      "sp:vinyl_rewind.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 118209,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "fx/scratch/sp:vinyl_scratch.wav": {
+    "in": [
+     [
+      "sp:vinyl_scratch.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 12076,
+    "fadeIn": 0,
+    "fadeOut": 441,
+    "mono": true
+   },
+   "textures/choir/sp:ambi_choir.wav": {
+    "in": [
+     [
+      "sp:ambi_choir.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 69305,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/dark-woosh/sp:ambi_dark_woosh.wav": {
+    "in": [
+     [
+      "sp:ambi_dark_woosh.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 163264,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/drone/sp:ambi_drone.wav": {
+    "in": [
+     [
+      "sp:ambi_drone.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 194412,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/glass-hum/sp:ambi_glass_hum.wav": {
+    "in": [
+     [
+      "sp:ambi_glass_hum.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 441000,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/glass-rub/sp:ambi_glass_rub.wav": {
+    "in": [
+     [
+      "sp:ambi_glass_rub.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 138887,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/haunted-hum/sp:ambi_haunted_hum.wav": {
+    "in": [
+     [
+      "sp:ambi_haunted_hum.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 431367,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/lunar-land/sp:ambi_lunar_land.wav": {
+    "in": [
+     [
+      "sp:ambi_lunar_land.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 326086,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/piano/sp:ambi_piano.wav": {
+    "in": [
+     [
+      "sp:ambi_piano.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 123998,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/sauna/sp:ambi_sauna.wav": {
+    "in": [
+     [
+      "sp:ambi_sauna.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 396900,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/soft-buzz/sp:ambi_soft_buzz.wav": {
+    "in": [
+     [
+      "sp:ambi_soft_buzz.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 34493,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/swoosh/sp:ambi_swoosh.wav": {
+    "in": [
+     [
+      "sp:ambi_swoosh.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 81517,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/pad-1/sp:tbd_pad_1.wav": {
+    "in": [
+     [
+      "sp:tbd_pad_1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 88200,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/pad-2/sp:tbd_pad_2.wav": {
+    "in": [
+     [
+      "sp:tbd_pad_2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141232,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/pad-3/sp:tbd_pad_3.wav": {
+    "in": [
+     [
+      "sp:tbd_pad_3.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 131536,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/pad-4/sp:tbd_pad_4.wav": {
+    "in": [
+     [
+      "sp:tbd_pad_4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 109030,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/voctone/sp:tbd_voctone.wav": {
+    "in": [
+     [
+      "sp:tbd_voctone.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 162831,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/highkey-c4/sp:tbd_highkey_c4.wav": {
+    "in": [
+     [
+      "sp:tbd_highkey_c4.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 50645,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "textures/fxbed-loop/sp:tbd_fxbed_loop.wav": {
+    "in": [
+     [
+      "sp:tbd_fxbed_loop.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 325662,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/3d-printer/sp:loop_3d_printer.wav": {
+    "in": [
+     [
+      "sp:loop_3d_printer.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 351000,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/compus/sp:loop_compus.wav": {
+    "in": [
+     [
+      "sp:loop_compus.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 286054,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/drone-g-97/sp:loop_drone_g_97.wav": {
+    "in": [
+     [
+      "sp:loop_drone_g_97.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 218227,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/electric/sp:loop_electric.wav": {
+    "in": [
+     [
+      "sp:loop_electric.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 109114,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/garzul/sp:loop_garzul.wav": {
+    "in": [
+     [
+      "sp:loop_garzul.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 352800,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/industrial/sp:loop_industrial.wav": {
+    "in": [
+     [
+      "sp:loop_industrial.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 38973,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/mehackit1/sp:loop_mehackit1.wav": {
+    "in": [
+     [
+      "sp:loop_mehackit1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 109114,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/mehackit2/sp:loop_mehackit2.wav": {
+    "in": [
+     [
+      "sp:loop_mehackit2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 109114,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/mika/sp:loop_mika.wav": {
+    "in": [
+     [
+      "sp:loop_mika.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 352800,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/perc1/sp:loop_perc1.wav": {
+    "in": [
+     [
+      "sp:loop_perc1.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 109114,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/perc2/sp:loop_perc2.wav": {
+    "in": [
+     [
+      "sp:loop_perc2.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 109114,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/safari/sp:loop_safari.wav": {
+    "in": [
+     [
+      "sp:loop_safari.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 353024,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/tabla/sp:loop_tabla.wav": {
+    "in": [
+     [
+      "sp:loop_tabla.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 470723,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/weirdo/sp:loop_weirdo.wav": {
+    "in": [
+     [
+      "sp:loop_weirdo.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 218227,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/beat-a/sp:arovane_beat_a.wav": {
+    "in": [
+     [
+      "sp:arovane_beat_a.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 651237,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/beat-b/sp:arovane_beat_b.wav": {
+    "in": [
+     [
+      "sp:arovane_beat_b.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 651551,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/beat-c/sp:arovane_beat_c.wav": {
+    "in": [
+     [
+      "sp:arovane_beat_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 325725,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/beat-d/sp:arovane_beat_d.wav": {
+    "in": [
+     [
+      "sp:arovane_beat_d.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 488584,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "loops/beat-e/sp:arovane_beat_e.wav": {
+    "in": [
+     [
+      "sp:arovane_beat_e.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 488312,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/dnb-f/sp:bass_dnb_f.wav": {
+    "in": [
+     [
+      "sp:bass_dnb_f.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 38391,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/drop-c/sp:bass_drop_c.wav": {
+    "in": [
+     [
+      "sp:bass_drop_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 104028,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/hard-c/sp:bass_hard_c.wav": {
+    "in": [
+     [
+      "sp:bass_hard_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 66150,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/hit-c/sp:bass_hit_c.wav": {
+    "in": [
+     [
+      "sp:bass_hit_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 26868,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/thick-c/sp:bass_thick_c.wav": {
+    "in": [
+     [
+      "sp:bass_thick_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 174992,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/trance-c/sp:bass_trance_c.wav": {
+    "in": [
+     [
+      "sp:bass_trance_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 159267,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/voxy-c/sp:bass_voxy_c.wav": {
+    "in": [
+     [
+      "sp:bass_voxy_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 274950,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/voxy-hit-c/sp:bass_voxy_hit_c.wav": {
+    "in": [
+     [
+      "sp:bass_voxy_hit_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 20173,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/woodsy-c/sp:bass_woodsy_c.wav": {
+    "in": [
+     [
+      "sp:bass_woodsy_c.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 143425,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/bass-g/sp:glitch_bass_g.wav": {
+    "in": [
+     [
+      "sp:glitch_bass_g.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 85160,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/e-fifths/sp:guit_e_fifths.wav": {
+    "in": [
+     [
+      "sp:guit_e_fifths.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 263356,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "bass/e-slide/sp:guit_e_slide.wav": {
+    "in": [
+     [
+      "sp:guit_e_slide.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 158760,
+    "fadeIn": 0,
+    "fadeOut": 44100,
+    "mono": true
+   },
+   "bass/em9/sp:guit_em9.wav": {
+    "in": [
+     [
+      "sp:guit_em9.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 421155,
+    "fadeIn": 0,
+    "fadeOut": 44100
+   },
+   "bass/harmonics/sp:guit_harmonics.wav": {
+    "in": [
+     [
+      "sp:guit_harmonics.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 147735,
+    "fadeIn": 0,
+    "fadeOut": 44100,
+    "mono": true
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "kicks",
+   "title": "Kicks",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.1,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "kicks/ada/sp:bd_ada.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 4489,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/boom/sp:bd_boom.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 75600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/chip/sp:bd_chip.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 4606,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/fat/sp:bd_fat.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 10240,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/gas/sp:bd_gas.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 19719,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/haus/sp:bd_haus.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 9699,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/jazz/sp:bd_jazz.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 32155,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/klub/sp:bd_klub.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 16266,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/mehackit/sp:bd_mehackit.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 37463,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/pure/sp:bd_pure.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 19106,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/sone/sp:bd_sone.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 18033,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/tek/sp:bd_tek.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 10595,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/zome/sp:bd_zome.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 20274,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/zum/sp:bd_zum.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 5803,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/bass-hard/sp:drum_bass_hard.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 30658,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/bass-soft/sp:drum_bass_soft.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 24804,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/heavy-kick/sp:drum_heavy_kick.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 11913,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/hollow-kick/sp:elec_hollow_kick.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 6864,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "kicks/soft-kick/sp:elec_soft_kick.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -5.44,
+     "start": 0,
+     "end": 6016,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Ada"
+    },
+    {
+     "key": 37,
+     "name": "Boom"
+    },
+    {
+     "key": 38,
+     "name": "Chip"
+    },
+    {
+     "key": 39,
+     "name": "Fat"
+    },
+    {
+     "key": 40,
+     "name": "Gas"
+    },
+    {
+     "key": 41,
+     "name": "Haus"
+    },
+    {
+     "key": 42,
+     "name": "Jazz"
+    },
+    {
+     "key": 43,
+     "name": "Klub"
+    },
+    {
+     "key": 44,
+     "name": "Mehackit"
+    },
+    {
+     "key": 45,
+     "name": "Pure"
+    },
+    {
+     "key": 46,
+     "name": "Sone"
+    },
+    {
+     "key": 47,
+     "name": "Tek"
+    },
+    {
+     "key": 48,
+     "name": "Zome"
+    },
+    {
+     "key": 49,
+     "name": "Zum"
+    },
+    {
+     "key": 50,
+     "name": "Bass hard"
+    },
+    {
+     "key": 51,
+     "name": "Bass soft"
+    },
+    {
+     "key": 52,
+     "name": "Heavy kick"
+    },
+    {
+     "key": 53,
+     "name": "Hollow kick"
+    },
+    {
+     "key": 54,
+     "name": "Soft kick"
+    }
+   ]
+  },
+  {
+   "name": "snares",
+   "title": "Snares and Snaps",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.1,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "snares/dub/sp:sn_dub.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 12265,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/dolf/sp:sn_dolf.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 16652,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/generic/sp:sn_generic.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 24055,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/zome/sp:sn_zome.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 21113,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/snare-hard/sp:drum_snare_hard.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 19621,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/snare-soft/sp:drum_snare_soft.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 13882,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/roll/sp:drum_roll.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/snare/sp:elec_snare.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 17169,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/hi-snare/sp:elec_hi_snare.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 8704,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/mid-snare/sp:elec_mid_snare.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 32000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/lo-snare/sp:elec_lo_snare.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 29141,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/filt-snare/sp:elec_filt_snare.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 66849,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/snap/sp:perc_snap.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 13581,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "snares/snap2/sp:perc_snap2.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -2.96,
+     "start": 0,
+     "end": 7680,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Dub"
+    },
+    {
+     "key": 37,
+     "name": "Dolf"
+    },
+    {
+     "key": 38,
+     "name": "Generic"
+    },
+    {
+     "key": 39,
+     "name": "Zome"
+    },
+    {
+     "key": 40,
+     "name": "Snare hard"
+    },
+    {
+     "key": 41,
+     "name": "Snare soft"
+    },
+    {
+     "key": 42,
+     "name": "Roll"
+    },
+    {
+     "key": 43,
+     "name": "Snare"
+    },
+    {
+     "key": 44,
+     "name": "Hi snare"
+    },
+    {
+     "key": 45,
+     "name": "Mid snare"
+    },
+    {
+     "key": 46,
+     "name": "Lo snare"
+    },
+    {
+     "key": 47,
+     "name": "Filt snare"
+    },
+    {
+     "key": 48,
+     "name": "Snap"
+    },
+    {
+     "key": 49,
+     "name": "Snap2"
+    }
+   ]
+  },
+  {
+   "name": "hats",
+   "title": "Hi-hats and Cymbals",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.1,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "hats/bdu/sp:hat_bdu.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 4306,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/cab/sp:hat_cab.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 6909,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/cats/sp:hat_cats.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 15663,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/gem/sp:hat_gem.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 5821,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/gnu/sp:hat_gnu.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 10895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/gump/sp:hat_gump.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 19845,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/hier/sp:hat_hier.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 4559,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/len/sp:hat_len.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 37801,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/mess/sp:hat_mess.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 12569,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/metal/sp:hat_metal.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/noiz/sp:hat_noiz.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 17594,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/psych/sp:hat_psych.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 11193,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/raw/sp:hat_raw.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 19891,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 96000,
+     "rr": 1
+    },
+    {
+     "file": "hats/sci/sp:hat_sci.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 19084,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 192000,
+     "rr": 1
+    },
+    {
+     "file": "hats/snap/sp:hat_snap.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 7350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/star/sp:hat_star.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 4831,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/tap/sp:hat_tap.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 7584,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/yosh/sp:hat_yosh.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 5840,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/zan/sp:hat_zan.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 9088,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/zap/sp:hat_zap.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 6525,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/zild/sp:hat_zild.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 10081,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/cymbal-closed/sp:drum_cymbal_closed.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 9126,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/cymbal-pedal/sp:drum_cymbal_pedal.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 12004,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/cymbal-open/sp:drum_cymbal_open.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 79573,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/cymbal-soft/sp:drum_cymbal_soft.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 41883,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/cymbal-hard/sp:drum_cymbal_hard.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 72272,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/splash-soft/sp:drum_splash_soft.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 81937,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/splash-hard/sp:drum_splash_hard.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 114492,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/tri/sp:ride_tri.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 207844,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/via/sp:ride_via.wav",
+     "root": 65,
+     "lo": 65,
+     "hi": 65,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 223096,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "hats/cymbal/sp:elec_cymbal.wav",
+     "root": 66,
+     "lo": 66,
+     "hi": 66,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.48,
+     "start": 0,
+     "end": 24838,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Bdu"
+    },
+    {
+     "key": 37,
+     "name": "Cab"
+    },
+    {
+     "key": 38,
+     "name": "Cats"
+    },
+    {
+     "key": 39,
+     "name": "Gem"
+    },
+    {
+     "key": 40,
+     "name": "Gnu"
+    },
+    {
+     "key": 41,
+     "name": "Gump"
+    },
+    {
+     "key": 42,
+     "name": "Hier"
+    },
+    {
+     "key": 43,
+     "name": "Len"
+    },
+    {
+     "key": 44,
+     "name": "Mess"
+    },
+    {
+     "key": 45,
+     "name": "Metal"
+    },
+    {
+     "key": 46,
+     "name": "Noiz"
+    },
+    {
+     "key": 47,
+     "name": "Psych"
+    },
+    {
+     "key": 48,
+     "name": "Raw"
+    },
+    {
+     "key": 49,
+     "name": "Sci"
+    },
+    {
+     "key": 50,
+     "name": "Snap"
+    },
+    {
+     "key": 51,
+     "name": "Star"
+    },
+    {
+     "key": 52,
+     "name": "Tap"
+    },
+    {
+     "key": 53,
+     "name": "Yosh"
+    },
+    {
+     "key": 54,
+     "name": "Zan"
+    },
+    {
+     "key": 55,
+     "name": "Zap"
+    },
+    {
+     "key": 56,
+     "name": "Zild"
+    },
+    {
+     "key": 57,
+     "name": "Cymbal closed"
+    },
+    {
+     "key": 58,
+     "name": "Cymbal pedal"
+    },
+    {
+     "key": 59,
+     "name": "Cymbal open"
+    },
+    {
+     "key": 60,
+     "name": "Cymbal soft"
+    },
+    {
+     "key": 61,
+     "name": "Cymbal hard"
+    },
+    {
+     "key": 62,
+     "name": "Splash soft"
+    },
+    {
+     "key": 63,
+     "name": "Splash hard"
+    },
+    {
+     "key": 64,
+     "name": "Tri"
+    },
+    {
+     "key": 65,
+     "name": "Via"
+    },
+    {
+     "key": 66,
+     "name": "Cymbal"
+    }
+   ]
+  },
+  {
+   "name": "toms",
+   "title": "Toms and Hits",
+   "category": "Percussion",
+   "pitched": false,
+   "release": 0.1,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "toms/tom-lo-soft/sp:drum_tom_lo_soft.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 38076,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/tom-lo-hard/sp:drum_tom_lo_hard.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 44110,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/tom-mid-soft/sp:drum_tom_mid_soft.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 29641,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/tom-mid-hard/sp:drum_tom_mid_hard.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 32379,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/tom-hi-soft/sp:drum_tom_hi_soft.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 27740,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/tom-hi-hard/sp:drum_tom_hi_hard.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 32531,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/cowbell/sp:drum_cowbell.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 15430,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/fuzz-tom/sp:elec_fuzz_tom.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 16396,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/wood/sp:elec_wood.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 21085,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/tick/sp:elec_tick.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 857,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/triangle/sp:elec_triangle.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 9832,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/pop/sp:elec_pop.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 3828,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/bong/sp:elec_bong.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 15280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/perc-tap-1/sp:tbd_perc_tap_1.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 4847,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/perc-tap-2/sp:tbd_perc_tap_2.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 4770,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/perc-hat/sp:tbd_perc_hat.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 4653,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "toms/perc-blip/sp:tbd_perc_blip.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1,
+     "start": 0,
+     "end": 5200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Tom lo soft"
+    },
+    {
+     "key": 37,
+     "name": "Tom lo hard"
+    },
+    {
+     "key": 38,
+     "name": "Tom mid soft"
+    },
+    {
+     "key": 39,
+     "name": "Tom mid hard"
+    },
+    {
+     "key": 40,
+     "name": "Tom hi soft"
+    },
+    {
+     "key": 41,
+     "name": "Tom hi hard"
+    },
+    {
+     "key": 42,
+     "name": "Cowbell"
+    },
+    {
+     "key": 43,
+     "name": "Fuzz tom"
+    },
+    {
+     "key": 44,
+     "name": "Wood"
+    },
+    {
+     "key": 45,
+     "name": "Tick"
+    },
+    {
+     "key": 46,
+     "name": "Triangle"
+    },
+    {
+     "key": 47,
+     "name": "Pop"
+    },
+    {
+     "key": 48,
+     "name": "Bong"
+    },
+    {
+     "key": 49,
+     "name": "Perc tap 1"
+    },
+    {
+     "key": 50,
+     "name": "Perc tap 2"
+    },
+    {
+     "key": 51,
+     "name": "Perc hat"
+    },
+    {
+     "key": 52,
+     "name": "Perc blip"
+    }
+   ]
+  },
+  {
+   "name": "electronic",
+   "title": "Blips and Glitches",
+   "category": "Other",
+   "pitched": false,
+   "release": 0.1,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "electronic/beep/sp:elec_beep.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 4665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/bell/sp:elec_bell.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 12271,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/blip/sp:elec_blip.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 6975,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/blip2/sp:elec_blip2.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 8118,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/blup/sp:elec_blup.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 29248,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/chime/sp:elec_chime.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 100440,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/flip/sp:elec_flip.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 3297,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/ping/sp:elec_ping.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 9361,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/plip/sp:elec_plip.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 8768,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/twang/sp:elec_twang.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 27532,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/twip/sp:elec_twip.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 4472,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/glitch-perc1/sp:glitch_perc1.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 66150,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/glitch-perc2/sp:glitch_perc2.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 40918,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/glitch-perc3/sp:glitch_perc3.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 48110,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/glitch-perc4/sp:glitch_perc4.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 40919,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/glitch-perc5/sp:glitch_perc5.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 40919,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/glitch-robot1/sp:glitch_robot1.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 45118,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/glitch-robot2/sp:glitch_robot2.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 40935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-phone1/sp:mehackit_phone1.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 54557,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-phone2/sp:mehackit_phone2.wav",
+     "root": 55,
+     "lo": 55,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-phone3/sp:mehackit_phone3.wav",
+     "root": 56,
+     "lo": 56,
+     "hi": 56,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 63945,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-phone4/sp:mehackit_phone4.wav",
+     "root": 57,
+     "lo": 57,
+     "hi": 57,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-robot1/sp:mehackit_robot1.wav",
+     "root": 58,
+     "lo": 58,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 40935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-robot2/sp:mehackit_robot2.wav",
+     "root": 59,
+     "lo": 59,
+     "hi": 59,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 45118,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-robot3/sp:mehackit_robot3.wav",
+     "root": 60,
+     "lo": 60,
+     "hi": 60,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 54000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-robot4/sp:mehackit_robot4.wav",
+     "root": 61,
+     "lo": 61,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 88200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-robot5/sp:mehackit_robot5.wav",
+     "root": 62,
+     "lo": 62,
+     "hi": 62,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 66150,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-robot6/sp:mehackit_robot6.wav",
+     "root": 63,
+     "lo": 63,
+     "hi": 63,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 109114,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "electronic/mehackit-robot7/sp:mehackit_robot7.wav",
+     "root": 64,
+     "lo": 64,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.31,
+     "start": 0,
+     "end": 22165,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Beep"
+    },
+    {
+     "key": 37,
+     "name": "Bell"
+    },
+    {
+     "key": 38,
+     "name": "Blip"
+    },
+    {
+     "key": 39,
+     "name": "Blip2"
+    },
+    {
+     "key": 40,
+     "name": "Blup"
+    },
+    {
+     "key": 41,
+     "name": "Chime"
+    },
+    {
+     "key": 42,
+     "name": "Flip"
+    },
+    {
+     "key": 43,
+     "name": "Ping"
+    },
+    {
+     "key": 44,
+     "name": "Plip"
+    },
+    {
+     "key": 45,
+     "name": "Twang"
+    },
+    {
+     "key": 46,
+     "name": "Twip"
+    },
+    {
+     "key": 47,
+     "name": "Glitch perc1"
+    },
+    {
+     "key": 48,
+     "name": "Glitch perc2"
+    },
+    {
+     "key": 49,
+     "name": "Glitch perc3"
+    },
+    {
+     "key": 50,
+     "name": "Glitch perc4"
+    },
+    {
+     "key": 51,
+     "name": "Glitch perc5"
+    },
+    {
+     "key": 52,
+     "name": "Glitch robot1"
+    },
+    {
+     "key": 53,
+     "name": "Glitch robot2"
+    },
+    {
+     "key": 54,
+     "name": "Mehackit phone1"
+    },
+    {
+     "key": 55,
+     "name": "Mehackit phone2"
+    },
+    {
+     "key": 56,
+     "name": "Mehackit phone3"
+    },
+    {
+     "key": 57,
+     "name": "Mehackit phone4"
+    },
+    {
+     "key": 58,
+     "name": "Mehackit robot1"
+    },
+    {
+     "key": 59,
+     "name": "Mehackit robot2"
+    },
+    {
+     "key": 60,
+     "name": "Mehackit robot3"
+    },
+    {
+     "key": 61,
+     "name": "Mehackit robot4"
+    },
+    {
+     "key": 62,
+     "name": "Mehackit robot5"
+    },
+    {
+     "key": 63,
+     "name": "Mehackit robot6"
+    },
+    {
+     "key": 64,
+     "name": "Mehackit robot7"
+    }
+   ]
+  },
+  {
+   "name": "fx",
+   "title": "Impacts and Vinyl",
+   "category": "Other",
+   "pitched": false,
+   "release": 0.1,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "fx/bell/sp:perc_bell.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/bell2/sp:perc_bell2.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 156555,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/door/sp:perc_door.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 108005,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/impact1/sp:perc_impact1.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 49387,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/impact2/sp:perc_impact2.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 37828,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/swash/sp:perc_swash.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 14090,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/swoosh/sp:perc_swoosh.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/till/sp:perc_till.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 94815,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/burp/sp:misc_burp.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 34984,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/cineboom/sp:misc_cineboom.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/crow/sp:misc_crow.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 21196,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/backspin/sp:vinyl_backspin.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 46801,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/hiss/sp:vinyl_hiss.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 264600,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/rewind/sp:vinyl_rewind.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 118209,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "fx/scratch/sp:vinyl_scratch.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.96,
+     "start": 0,
+     "end": 12076,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Bell"
+    },
+    {
+     "key": 37,
+     "name": "Bell2"
+    },
+    {
+     "key": 38,
+     "name": "Door"
+    },
+    {
+     "key": 39,
+     "name": "Impact1"
+    },
+    {
+     "key": 40,
+     "name": "Impact2"
+    },
+    {
+     "key": 41,
+     "name": "Swash"
+    },
+    {
+     "key": 42,
+     "name": "Swoosh"
+    },
+    {
+     "key": 43,
+     "name": "Till"
+    },
+    {
+     "key": 44,
+     "name": "Burp"
+    },
+    {
+     "key": 45,
+     "name": "Cineboom"
+    },
+    {
+     "key": 46,
+     "name": "Crow"
+    },
+    {
+     "key": 47,
+     "name": "Backspin"
+    },
+    {
+     "key": 48,
+     "name": "Hiss"
+    },
+    {
+     "key": 49,
+     "name": "Rewind"
+    },
+    {
+     "key": 50,
+     "name": "Scratch"
+    }
+   ]
+  },
+  {
+   "name": "textures",
+   "title": "Ambient Textures",
+   "category": "Other",
+   "pitched": false,
+   "release": 0.5,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "textures/choir/sp:ambi_choir.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 69305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/dark-woosh/sp:ambi_dark_woosh.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 163264,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/drone/sp:ambi_drone.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 194412,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/glass-hum/sp:ambi_glass_hum.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 441000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/glass-rub/sp:ambi_glass_rub.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 138887,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/haunted-hum/sp:ambi_haunted_hum.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 431367,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/lunar-land/sp:ambi_lunar_land.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 326086,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/piano/sp:ambi_piano.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 123998,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/sauna/sp:ambi_sauna.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 396900,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/soft-buzz/sp:ambi_soft_buzz.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 34493,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/swoosh/sp:ambi_swoosh.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 81517,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/pad-1/sp:tbd_pad_1.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 88200,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/pad-2/sp:tbd_pad_2.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 141232,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/pad-3/sp:tbd_pad_3.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 131536,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/pad-4/sp:tbd_pad_4.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 109030,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/voctone/sp:tbd_voctone.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 162831,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/highkey-c4/sp:tbd_highkey_c4.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 50645,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "textures/fxbed-loop/sp:tbd_fxbed_loop.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -0.87,
+     "start": 0,
+     "end": 325662,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Choir"
+    },
+    {
+     "key": 37,
+     "name": "Dark woosh"
+    },
+    {
+     "key": 38,
+     "name": "Drone"
+    },
+    {
+     "key": 39,
+     "name": "Glass hum"
+    },
+    {
+     "key": 40,
+     "name": "Glass rub"
+    },
+    {
+     "key": 41,
+     "name": "Haunted hum"
+    },
+    {
+     "key": 42,
+     "name": "Lunar land"
+    },
+    {
+     "key": 43,
+     "name": "Piano"
+    },
+    {
+     "key": 44,
+     "name": "Sauna"
+    },
+    {
+     "key": 45,
+     "name": "Soft buzz"
+    },
+    {
+     "key": 46,
+     "name": "Swoosh"
+    },
+    {
+     "key": 47,
+     "name": "Pad 1"
+    },
+    {
+     "key": 48,
+     "name": "Pad 2"
+    },
+    {
+     "key": 49,
+     "name": "Pad 3"
+    },
+    {
+     "key": 50,
+     "name": "Pad 4"
+    },
+    {
+     "key": 51,
+     "name": "Voctone"
+    },
+    {
+     "key": 52,
+     "name": "Highkey c4"
+    },
+    {
+     "key": 53,
+     "name": "Fxbed loop"
+    }
+   ]
+  },
+  {
+   "name": "loops",
+   "title": "Loops",
+   "category": "Other",
+   "pitched": false,
+   "release": 0.5,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "loops/3d-printer/sp:loop_3d_printer.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 351000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/compus/sp:loop_compus.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 286054,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/drone-g-97/sp:loop_drone_g_97.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 218227,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/electric/sp:loop_electric.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 109114,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/garzul/sp:loop_garzul.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 352800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/industrial/sp:loop_industrial.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 38973,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/mehackit1/sp:loop_mehackit1.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 109114,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/mehackit2/sp:loop_mehackit2.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 109114,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/mika/sp:loop_mika.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 352800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/perc1/sp:loop_perc1.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 109114,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/perc2/sp:loop_perc2.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 109114,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/safari/sp:loop_safari.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 353024,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/tabla/sp:loop_tabla.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 470723,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/weirdo/sp:loop_weirdo.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 218227,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/beat-a/sp:arovane_beat_a.wav",
+     "root": 50,
+     "lo": 50,
+     "hi": 50,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 651237,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/beat-b/sp:arovane_beat_b.wav",
+     "root": 51,
+     "lo": 51,
+     "hi": 51,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 651551,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/beat-c/sp:arovane_beat_c.wav",
+     "root": 52,
+     "lo": 52,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 325725,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/beat-d/sp:arovane_beat_d.wav",
+     "root": 53,
+     "lo": 53,
+     "hi": 53,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 488584,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "loops/beat-e/sp:arovane_beat_e.wav",
+     "root": 54,
+     "lo": 54,
+     "hi": 54,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -1.05,
+     "start": 0,
+     "end": 488312,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "3d printer"
+    },
+    {
+     "key": 37,
+     "name": "Compus"
+    },
+    {
+     "key": 38,
+     "name": "Drone g 97"
+    },
+    {
+     "key": 39,
+     "name": "Electric"
+    },
+    {
+     "key": 40,
+     "name": "Garzul"
+    },
+    {
+     "key": 41,
+     "name": "Industrial"
+    },
+    {
+     "key": 42,
+     "name": "Mehackit1"
+    },
+    {
+     "key": 43,
+     "name": "Mehackit2"
+    },
+    {
+     "key": 44,
+     "name": "Mika"
+    },
+    {
+     "key": 45,
+     "name": "Perc1"
+    },
+    {
+     "key": 46,
+     "name": "Perc2"
+    },
+    {
+     "key": 47,
+     "name": "Safari"
+    },
+    {
+     "key": 48,
+     "name": "Tabla"
+    },
+    {
+     "key": 49,
+     "name": "Weirdo"
+    },
+    {
+     "key": 50,
+     "name": "Beat a"
+    },
+    {
+     "key": 51,
+     "name": "Beat b"
+    },
+    {
+     "key": 52,
+     "name": "Beat c"
+    },
+    {
+     "key": 53,
+     "name": "Beat d"
+    },
+    {
+     "key": 54,
+     "name": "Beat e"
+    }
+   ]
+  },
+  {
+   "name": "bass",
+   "title": "Bass Hits and Guitar",
+   "category": "Other",
+   "pitched": false,
+   "release": 0.5,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 16,
+   "polyphony": 32,
+   "notePolyphony": 2,
+   "offTime": 0.05,
+   "zones": [
+    {
+     "file": "bass/dnb-f/sp:bass_dnb_f.wav",
+     "root": 36,
+     "lo": 36,
+     "hi": 36,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 38391,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/drop-c/sp:bass_drop_c.wav",
+     "root": 37,
+     "lo": 37,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 104028,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/hard-c/sp:bass_hard_c.wav",
+     "root": 38,
+     "lo": 38,
+     "hi": 38,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 66150,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/hit-c/sp:bass_hit_c.wav",
+     "root": 39,
+     "lo": 39,
+     "hi": 39,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 26868,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/thick-c/sp:bass_thick_c.wav",
+     "root": 40,
+     "lo": 40,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 174992,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/trance-c/sp:bass_trance_c.wav",
+     "root": 41,
+     "lo": 41,
+     "hi": 41,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 159267,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/voxy-c/sp:bass_voxy_c.wav",
+     "root": 42,
+     "lo": 42,
+     "hi": 42,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 274950,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/voxy-hit-c/sp:bass_voxy_hit_c.wav",
+     "root": 43,
+     "lo": 43,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 20173,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/woodsy-c/sp:bass_woodsy_c.wav",
+     "root": 44,
+     "lo": 44,
+     "hi": 44,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 143425,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/bass-g/sp:glitch_bass_g.wav",
+     "root": 45,
+     "lo": 45,
+     "hi": 45,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 85160,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/e-fifths/sp:guit_e_fifths.wav",
+     "root": 46,
+     "lo": 46,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 263356,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/e-slide/sp:guit_e_slide.wav",
+     "root": 47,
+     "lo": 47,
+     "hi": 47,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 158760,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/em9/sp:guit_em9.wav",
+     "root": 48,
+     "lo": 48,
+     "hi": 48,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 421155,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    },
+    {
+     "file": "bass/harmonics/sp:guit_harmonics.wav",
+     "root": 49,
+     "lo": 49,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 127,
+     "gain": -3.14,
+     "start": 0,
+     "end": 147735,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1
+    }
+   ],
+   "pads": [
+    {
+     "key": 36,
+     "name": "Dnb f"
+    },
+    {
+     "key": 37,
+     "name": "Drop c"
+    },
+    {
+     "key": 38,
+     "name": "Hard c"
+    },
+    {
+     "key": 39,
+     "name": "Hit c"
+    },
+    {
+     "key": 40,
+     "name": "Thick c"
+    },
+    {
+     "key": 41,
+     "name": "Trance c"
+    },
+    {
+     "key": 42,
+     "name": "Voxy c"
+    },
+    {
+     "key": 43,
+     "name": "Voxy hit c"
+    },
+    {
+     "key": 44,
+     "name": "Woodsy c"
+    },
+    {
+     "key": 45,
+     "name": "Bass g"
+    },
+    {
+     "key": 46,
+     "name": "E fifths"
+    },
+    {
+     "key": 47,
+     "name": "E slide"
+    },
+    {
+     "key": 48,
+     "name": "Em9"
+    },
+    {
+     "key": 49,
+     "name": "Harmonics"
+    }
+   ]
+  }
+ ]
+}
