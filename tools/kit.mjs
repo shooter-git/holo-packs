@@ -21,6 +21,7 @@ import {
   mixSignal,
   onset,
   peakDb,
+  pinArchives,
   pinDownloads,
   spreadLayers,
   writeManifest,
@@ -226,6 +227,12 @@ export async function buildKit(spec) {
   };
   const rateOf = (n) => decode(n).rate;
 
+  // a hit's microphone may be one channel of a multichannel recording (`hit.channels`: { input: n },
+  // counted from 0, as DrumGizmo keeps every microphone of a hit in one file): it's taken alone, mono
+  const channelOf = (hit, input) => hit.channels?.[input];
+  const channelAt = (hit, input) => (channelOf(hit, input) === undefined ? [] : [{ channel: channelOf(hit, input) }]);
+  const isMono = (hit, input) => channelOf(hit, input) !== undefined || decode(hit.mics[input]).channels.length === 1;
+
   // each piece's inputs: microphones at their gains and pans, summed as recorded (as the libraries'
   // own programs sum them: none turns a microphone over). `mic` picks one microphone's (at its fader,
   // as its own file is written); without it, the mix (and each microphone at its knob's starting level,
@@ -238,8 +245,8 @@ export async function buildKit(spec) {
           const name = hit.mics[input];
           let g0 = hit.gains?.[input] === undefined ? gain : gain * hit.gains[input];
           if (knob && !mic) g0 *= knob.get(micOf(input));
-          const g = decode(name).channels.length === 1 ? panGains(g0, pan) : [g0, g0];
-          return [name, g[0] * scale, g[1] * scale];
+          const g = isMono(hit, input) ? panGains(g0, pan) : [g0, g0];
+          return [name, g[0] * scale, g[1] * scale, ...channelAt(hit, input)];
         });
   }
   /** The microphones a piece's hits are written as (a kit that keeps them apart), in the kit's order. */
@@ -255,11 +262,11 @@ export async function buildKit(spec) {
   const micFile = (piece, hit, mic, scale) => {
     const parts = Object.entries(piece.mics).filter(([input, [gain]]) => gain > 0 && micOf(input) === mic);
     const pans = new Set(parts.map(([, [, pan]]) => pan ?? 63.5));
-    if (parts.every(([input]) => decode(hit.mics[input]).channels.length === 1) && pans.size === 1) {
+    if (parts.every(([input]) => isMono(hit, input)) && pans.size === 1) {
       const pan = Math.max(-1, Math.min(1, ([...pans][0] - 63.5) / 63.5));
       const inputs = parts.map(([input, [gain]]) => {
         const g = hit.gains?.[input] === undefined ? gain : gain * hit.gains[input];
-        return [hit.mics[input], g * scale, g * scale];
+        return [hit.mics[input], g * scale, g * scale, ...channelAt(hit, input)];
       });
       return { inputs, mono: true, pan: Math.round(pan * 1e4) / 1e4 };
     }
@@ -503,6 +510,13 @@ export async function buildKit(spec) {
   };
   const source = { kind: 'mix', note: spec.note, bases: spec.bases, downloads: {}, bits: 24, files };
   source.downloads = pinDownloads(source, downloads);
+  // downloads taken out of a published archive: the archive pinned too, as an install fetches it
+  // (each one's checksum taken now if the run found its files already out of it)
+  if (Object.keys(downloads.archives ?? {}).length) {
+    for (const name of Object.keys(downloads.archives))
+      if (Object.keys(source.downloads).some((d) => d.startsWith(`${name}:`))) await downloads.archive(name);
+    source.archives = pinArchives(source, downloads);
+  }
   const pack = {
     format: 'holo-pack',
     version: 1,

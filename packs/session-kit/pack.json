@@ -1,0 +1,3794 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "session-kit",
+ "name": "Session Kit (Sam's Sonor)",
+ "license": "CC-BY-SA-4.0",
+ "credit": "Sam's Sonor by Sam Greene (CC BY-SA 4.0), SFZ and FLAC version by kinwie: a Sonor Force 3001 kit with left- and right-hand snares and a snares-off snare. Levelled for HO[LO] at the library's own mix.",
+ "bytes": 36946086,
+ "source": {
+  "kind": "mix",
+  "note": "Sam's Sonor's stereo recordings (FLAC, at the pinned commit), each at its group's volume in the library's SFZ.",
+  "bases": {
+   "sonor": "https://raw.githubusercontent.com/sfzinstruments/SamsSonor/ef3e32058924ed1c3335e86d03094d3f310a9104/"
+  },
+  "downloads": {
+   "sonor:Samples/CrashClang#1.flac": "f6fd183aeb0100615ad7b65d5fa00bad10ed847d0c055bf20d68e5e9b152d952",
+   "sonor:Samples/CrashClang#2.flac": "217e159def677d078fff7f02e50f0722eb00760d5007afe565046289fc1b8854",
+   "sonor:Samples/CrashClang#3.flac": "e9931e91379b5b0a4b396dff9bdaff930bee7518402841ebb87a9d9b948e1031",
+   "sonor:Samples/CrashClang#4.flac": "100b8bfa3abb1d2db70d739a4252039423c5dae62fd1addc30a86856ef7ff08e",
+   "sonor:Samples/CrashClang.flac": "f57ff8c9d0ea375acce5855c324baed859c39fc7f903b0728bbde90d2b7aff13",
+   "sonor:Samples/CrashTip#1.flac": "661cdad83739e041c5cb7b3b6d9b286e8d45ad1d109814f1d5ae35265947b8a3",
+   "sonor:Samples/CrashTip#2.flac": "a79aab7330a41aade476907586c0469aaa57e3ac0b8ca24a7cced272f9b0acf0",
+   "sonor:Samples/CrashTip#3.flac": "25d7cdd0e6e4dbacc31b15fba7106747e0eab7fbebf4216f422b562e69dd3491",
+   "sonor:Samples/CrashTip.flac": "c92c893a4e14da048390c4c91335c394e94a32c22f2f2cf51783851193255ec4",
+   "sonor:Samples/HHClosed#1.flac": "bc4ff2e3a6d222d8d3e905335a5f3f97c0d92d71d183f942158d1811064c2ec0",
+   "sonor:Samples/HHClosed#2.flac": "7ea056f4a42c77e9b505818854c2e640c3d2ad5ac29f99ded7fa810a56075607",
+   "sonor:Samples/HHClosed#3.flac": "8f37992aec2afe8ee666dcfb0e2d17da48fc773d8981e8205e583d1ffa37129e",
+   "sonor:Samples/HHClosed#4.flac": "f987687fa1a7912a69c0b0db0be755b8e44d513f765d160e602da8bf2a016ff8",
+   "sonor:Samples/HHClosed#5.flac": "a1fb074a02b162f0e5a4010539a8be24e51e5aa95e5d3aa817f3291b039a0ec9",
+   "sonor:Samples/HHClosed#6.flac": "aab2a7d6a4dce32711e2d2b9e746da16048bd3ef4e200a18d475bec3f269c6a6",
+   "sonor:Samples/HHClosed#7.flac": "1783232871926069863691890e02415611c8b3d141a5f9b0aa9621d3bf83f1f2",
+   "sonor:Samples/HHClosed#8.flac": "2f7dde7c8023f0d24c1349275491c0c0051a69da6a2eeb2817a0ad491c91ad53",
+   "sonor:Samples/HHClosed.flac": "0715a218f5ddad8980838db7306c916691ce56e858292b7d1226f0aa9fbb6b02",
+   "sonor:Samples/HHHalfOpen#1.flac": "ee11bc8a6f3a7b6727cf7d5203a9a4e2f0fa7bb725ae4487f7323fa7ffa0cf4b",
+   "sonor:Samples/HHHalfOpen#2.flac": "ee00a5b50fbf0854c6e261ab3780f726850ad9683a494c963183dd670e1ea973",
+   "sonor:Samples/HHHalfOpen#3.flac": "6560ed5c39e723ec3f3abe88e5b2232e9e40e4e57101312f503e2375816bf3f4",
+   "sonor:Samples/HHHalfOpen#4.flac": "dc817988c6ab9d4f1a7e1b473f53e6f99c3caaa1ca9d6e44191b26e8f90d399f",
+   "sonor:Samples/HHHalfOpen#5.flac": "12d449b1fad0c84cb7384674e8f0e6eb7c1b06b5d2fda26dd4965869be17fa89",
+   "sonor:Samples/HHHalfOpen#6.flac": "05a4e2d2d272d34f6e0c090596cdf405a04c7c1d03b3b1d8604ad6f7da139ae2",
+   "sonor:Samples/HHHalfOpen#7.flac": "c52eedff1634097b642654a7e4630599786568633318da7c877969009d905a0b",
+   "sonor:Samples/HHHalfOpen.flac": "d6299c43ead46df29589ca74e7fafd4d0b3f6db68efad72d7771e60529aa9fb2",
+   "sonor:Samples/HHOpenClang#1.flac": "69c040adf7d00a5cac0e3e074660ec393ffd0fbd3dc3ad00776ea7e828451c57",
+   "sonor:Samples/HHOpenClang#2.flac": "5966e1c191db531de1e3cbe0daf2f6e0e7aca296930150ede87bbff80b80f292",
+   "sonor:Samples/HHOpenClang#3.flac": "6398b398ad3f5ed820dfb20bfd8bddb4a7a4d200610b4c2da358d90437863142",
+   "sonor:Samples/HHOpenClang#4.flac": "fcb4fdbcb7c80efe03ed2331b7a3b83014164dcd58213a4d97dc2eb14b8519c5",
+   "sonor:Samples/HHOpenClang.flac": "76cfa6d6bda8df0fd90fab1ef0c26997b90d99a194159b9288bab6ed4a3a4da0",
+   "sonor:Samples/HHOpenTip#1.flac": "97ce1ad5253f49413597b26d9526ffbf8aa6647514c260e3160a5090647e0414",
+   "sonor:Samples/HHOpenTip#2.flac": "8d9124ab3fdb59026f9c4e4fd25c63acf64bc93103269c6e854d84f4092dac0c",
+   "sonor:Samples/HHOpenTip#3.flac": "4d33c87bef12df1497a2d2ff88c2425c836289b17a1d0de04f21199fcc332357",
+   "sonor:Samples/HHOpenTip.flac": "b809150492ed12a4f1a28fbeee055c8c2770da9b85d5644b2ec5cafaeb2500b5",
+   "sonor:Samples/HHPedal#1.flac": "c24793dd53fc0ded5643e61efc98743862d47cc7dfff6ad348bb43d58a462ea3",
+   "sonor:Samples/HHPedal#2.flac": "585d9cbc0b3f317e7d08a2b50119b24087fe42cf974d92005c42033ccf140122",
+   "sonor:Samples/HHPedal#3.flac": "e73d0cee71aea8d89477b29f4ffb5dbf9dfaea928134feca86266f2844b11b4d",
+   "sonor:Samples/HHPedal#4.flac": "6e87882a440fc0e46b93e4d97f78b32637d95ce1528a858a249438c4706cbb27",
+   "sonor:Samples/HHPedal#5.flac": "155b830cd21f65d1b1baa0f15f8957290046f19ec7429583e888cb0c0ce11b39",
+   "sonor:Samples/HHPedal.flac": "3fa5f73eb2be68ea8305d48bd5186d1b5bbbfec8f17cb6b49d08c6953bb04d3b",
+   "sonor:Samples/KickSamples#1.flac": "0029ab4de793e36f6324c81224ec38849eca78baa0f66fccde1857dad2c76c36",
+   "sonor:Samples/KickSamples#2.flac": "0fa6ab09dca2989f77fd6a4dbf8ed0b730067419806c2bbe4b884bf90bb24dad",
+   "sonor:Samples/KickSamples#3.flac": "2c11977b9f924baedd06f077e5d2f7a4795e27dbdb755a7b221e67786ce1b71a",
+   "sonor:Samples/KickSamples#4.flac": "1c797b10159530fae1178139355d81c757a719d4df16ab970e664c57d7eaaa5b",
+   "sonor:Samples/KickSamples#5.flac": "650902c209fbd259ca749797417f068007e29bd8ac333b745e5acbc507f81fb3",
+   "sonor:Samples/KickSamples#6.flac": "2e3b5051b8166e5e75138086c23587bb7141cd233e9c8182c5f361c7fe1610a3",
+   "sonor:Samples/KickSamples#7.flac": "fd8ed7f96b30326ecf70b49e0e31fadc01b91f30724a93cefce532629cc4107c",
+   "sonor:Samples/KickSamples.flac": "3bffba60d2ed1cf8333127b0de954fcd4cbde3772ca922df3ec5223ede4a95d2",
+   "sonor:Samples/Ride#1.flac": "87d234828d325257590e672dbc3fbc46e1ab8911c33f268ce8f418723bc8f49a",
+   "sonor:Samples/Ride#2.flac": "28276243f24efef674f37edaebfb028da0faccabc36c05506a88def747c371aa",
+   "sonor:Samples/Ride#3.flac": "f97ec8753e46a43e5b4fa160f01bdc2b76aea18e62398595153d302418c851a4",
+   "sonor:Samples/Ride#4.flac": "e95ce5fffb6e8eade93c69053b1994f53ae2c3b9cd92e2e5ca8b7198283a7049",
+   "sonor:Samples/Ride.flac": "6f5d1a7fc1e5002dde08696e46d995dec5fb47a9b898f064df8736655b8ca972",
+   "sonor:Samples/RideBell#1.flac": "1c22b0bdeb2ae14379a86d48c52196ae5c4ba1424fa6b3c23680fa243c61ed25",
+   "sonor:Samples/RideBell#2.flac": "75bb6f52b53ce480ff978c9fd6c5db23f6d4f51f9aec513dc3979c7583e6c517",
+   "sonor:Samples/RideBell#3.flac": "d3e42c2868f89615c5dd33b342940dc84368fef59107e5abbedc705eb444bf17",
+   "sonor:Samples/RideBell.flac": "3127af16ecb78afdd3858e7deee9de72ec3f2c9be9eba8123ab64bd4a20049cc",
+   "sonor:Samples/SnareLeftHand#1.flac": "86b3d5bdfd763e5959f9176cf8bbf543d336d78c22df92c8f188ed5097237921",
+   "sonor:Samples/SnareLeftHand#2.flac": "a51f602bbb56885898904988499596cc7b625fac6d3897267068b4fafa1d966c",
+   "sonor:Samples/SnareLeftHand#3.flac": "9cdacbcd5115f306529985ad5f3728f7bd128aa60d70761a258275aad540ee49",
+   "sonor:Samples/SnareLeftHand#4.flac": "265b449629e68d32ecf6358d1a0ed8c9d26a70f2457cbfb5f61cbfb1b4184e58",
+   "sonor:Samples/SnareLeftHand#5.flac": "04b6804c8d8aa7303504831fe034f2f335d0c76dc77cd96fe999e09fd699d766",
+   "sonor:Samples/SnareLeftHand#6.flac": "2b12df467af52e656f7723dcd0410d21953c59a8b66547824d5907e365811a47",
+   "sonor:Samples/SnareLeftHand#7.flac": "51a33a9fda2bf1c37eed557964aebd08b83687adef56229435fd7074a264dcae",
+   "sonor:Samples/SnareLeftHand#8.flac": "60451f1fd26810474c0ac72be7aa367588ebc5943ad1db56fc2c6da46e0bb5cb",
+   "sonor:Samples/SnareLeftHand#9.flac": "05de9e27704873ceee5a2d358406b4b8bf4dbcb81dfe8e5b38f8263a59a6a767",
+   "sonor:Samples/SnareLeftHand.flac": "f707c5a1590229ca11035638a02294355afd3beb98bacf1a614f07a30801deb7",
+   "sonor:Samples/SnareOffLeft#1.flac": "6df3fe4292c0adf6836cbdac28f0704ad7397143a0004df556567760c4c4f745",
+   "sonor:Samples/SnareOffLeft#2.flac": "6de32ebe1240119b76f37e5740907961d4ca86f29885797684ca189c153942fc",
+   "sonor:Samples/SnareOffLeft#3.flac": "b98344ed323e25797eef1d591171f708738a9fe5ce078404cb266b6adbe2caaf",
+   "sonor:Samples/SnareOffLeft#4.flac": "1ee4353bd438814d4ce73dcd4c7489487866f79848a567053cb40bff52675d0c",
+   "sonor:Samples/SnareOffLeft.flac": "6d8c037dfa62e26502545a52682fc64fd276adf3f521104f483cfac930f202dd",
+   "sonor:Samples/SnareOffRight#1.flac": "3803cfd7d8c4c70a0f674d4fa662177a2215f26afa6fc5409c5d201738e07265",
+   "sonor:Samples/SnareOffRight#2.flac": "98c5857ec75a0a470e9c9c72f0864aab4a2a704391165d2ed6250d5ca6bc6847",
+   "sonor:Samples/SnareOffRight#3.flac": "53bc2fd31ca2b5dd7d26c78cd96bd387546917c4b0096bd99504ad1e7e79d737",
+   "sonor:Samples/SnareOffRight#4.flac": "a70f9cb9d66547cdcf5b7a0592a28fad03811fe2e9d87c976bcb4fb7b7f8f9d0",
+   "sonor:Samples/SnareOffRight.flac": "e28654d493c6533416b36ea542920c3c6fd9432baa58b576163256ed344ce0e5",
+   "sonor:Samples/SnareRightHand#1.flac": "df1550f9cd5d790c9fc958237c39bc776f9f4a9773bba67a24c9d63280c0be60",
+   "sonor:Samples/SnareRightHand#2.flac": "1c22301f86df0fc49f58217af1643cfa1cedd8758363e6f4c05da3c56beb32f9",
+   "sonor:Samples/SnareRightHand#3.flac": "1eef243d7a11cf0f79940147c3312bc3c9714c58c93ae1921dec33b11bfb8e22",
+   "sonor:Samples/SnareRightHand#4.flac": "186ae2e4706709fcd76dba4ce93200daccfee3214018a2491774216f50d59738",
+   "sonor:Samples/SnareRightHand#5.flac": "502b01211e484d0f19a80acee244b42c8c277e9f9df9a174736081ccc54c645a",
+   "sonor:Samples/SnareRightHand#6.flac": "d7175f209ee4d7d2e249cd5c39d6df58003d3000625ff233d2960de9957953e1",
+   "sonor:Samples/SnareRightHand#7.flac": "672b441b506a8fd9bd9871c8a551959ac6c24466d6ba32ec6f1ad77d5f13a5e5",
+   "sonor:Samples/SnareRightHand#8.flac": "ead4267f3a06615f0efd6995f20e88e9df747eacf6a2fa2819bc46944d1e0f51",
+   "sonor:Samples/SnareRightHand#9.flac": "c200f5f7c933bae1d0095f5f092fec1aee28d23cbab9671274a4624e7e91228a",
+   "sonor:Samples/SnareRightHand.flac": "be89e86d428379c5182c1b5eadf91e213f61212f08b6c422e38a826ef606dcde",
+   "sonor:Samples/SnareSamples#1.flac": "95748aab4fe6e2691fe6877c55203893bb66f3852d7a23e9302e954d66120c7b",
+   "sonor:Samples/SnareSamples#2.flac": "7d4655ab1159f2b2c4e8c98d180dc83110fb50d2d2a45676f51286612cdfc49a",
+   "sonor:Samples/SnareSamples#3.flac": "34fb6bc0c5b7ddee69b687307c4d002ebe1ad11282e4ef5167eff666ea19bf4d",
+   "sonor:Samples/SnareSamples#4.flac": "ecc3a58326b62a4c2295dc7cd38abdf0052abe6a509d409e2d94b3f72d4c26e6",
+   "sonor:Samples/SnareSamples#5.flac": "4718d4a3435545f6e36a3c2a8ff2b50000dcd0665d00b17496ec45d00a97ff5e",
+   "sonor:Samples/SnareSamples#6.flac": "3c2fd44c795e4bbfd92bd735f4e65b3cfa498311f494b0336d167f32db02cb38",
+   "sonor:Samples/SnareSamples#7.flac": "1a7a05f6d9960706509aa8d55f0e4c745155a6651ad843a968c27b668bbbed7a",
+   "sonor:Samples/SnareSamples#8.flac": "f4ee79ce475bc25ae230774c883d47809391277ec131f7cc83b3a79ad17bf2b2",
+   "sonor:Samples/SnareSamples#9.flac": "b82d11d03170dab7fb1bc2346e5ad08c3097ad8438644b106c0d482ecef4b637",
+   "sonor:Samples/TomClicks#1.flac": "246578f8a7634db88b18d2e841c67c694ec232d4da4fc43786c5f5f4bf71eef8",
+   "sonor:Samples/TomClicks#2.flac": "087ebc0313600de9d8fc5f21bc4a3adbd53e4e463eced9e7a14f127596ab5ac7",
+   "sonor:Samples/TomClicks#3.flac": "bc1772ca23d9ce153c619a656ed185c5e8be7929b994ce1b9e143eee3450c95e",
+   "sonor:Samples/TomClicks#4.flac": "aa4ea6a795796c9a990c04babd5f58e5e7e2c280ba9acc0a97623f97d179a51a",
+   "sonor:Samples/TomClicks.flac": "7fe88651813a620180d82dcfb4bf2ac614cb4e5c856accf0c1923ef8931dc5df",
+   "sonor:Samples/TomHigh#1.flac": "8598bf5f21a96c49658b03990ea26ca2829151e63f54029d59cbd3bd83d5a88b",
+   "sonor:Samples/TomHigh#2.flac": "615ce08d0ed1db5ff2992cc3a31085c7be11ada1bb21c83fa0d6638fe0f3645f",
+   "sonor:Samples/TomHigh#3.flac": "2c1c9dd3406c8a2e5a5eadc7374ef6d344f1972fa479969bc0bf9b6f14877caf",
+   "sonor:Samples/TomHigh#4.flac": "7a52f26202e71176eab9f60a2d1e75807af182e3f177e4fbf03732408fc01a91",
+   "sonor:Samples/TomHigh.flac": "455191c020537e5d76ba3ab972dc32cede27b0dd850e9fe5ebdff638e8b4c009",
+   "sonor:Samples/TomLow#1.flac": "de66844c48f9f57669cac42c66a10b388b25d135ecd029c48a4a9b437a490d71",
+   "sonor:Samples/TomLow#2.flac": "db4047537427c58060113bdf34a5c8deee9fc9c1197725488128f6cc95e0aca8",
+   "sonor:Samples/TomLow#3.flac": "af0024943c3a7229b457d597ea629cd46937fa27a0d932578fc1d45480189d88",
+   "sonor:Samples/TomLow#4.flac": "f595fd658a87ab53b29f8296e95c57a56fc5e0b15c52b96a38d4b6cb5658326c",
+   "sonor:Samples/TomLow#5.flac": "532eefa263319da1a34cf7e184f0e960714f8b27d488156c7f5b4a162eec49b6",
+   "sonor:Samples/TomLow#6.flac": "51d148eee5da4a4e6a403aa7d0403ff358eb6ef539f88ad886a34daefe1d315f",
+   "sonor:Samples/TomLow.flac": "28ef6b6bf24c87e332ec1885aec7cafb99ee900c6e8023a82f9184c700057bc4"
+  },
+  "bits": 24,
+  "files": {
+   "session/kick/kick_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/KickSamples.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 1020,
+    "frames": 54105,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/kick/kick_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/KickSamples#1.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 500,
+    "frames": 52861,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/kick/kick_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/KickSamples#2.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 244,
+    "frames": 53117,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/kick/kick_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/KickSamples#3.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 366,
+    "frames": 56523,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/kick/kick_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/KickSamples#4.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 329,
+    "frames": 61740,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/kick/kick_v6_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/KickSamples#5.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 955,
+    "frames": 57698,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/kick/kick_v7_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/KickSamples#6.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 476,
+    "frames": 54649,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/kick/kick_v8_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/KickSamples#7.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 391,
+    "frames": 61740,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare/snare_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 174,
+    "frames": 13497,
+    "fadeIn": 32,
+    "fadeOut": 5399
+   },
+   "session/snare/snare_v1_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 162,
+    "frames": 21447,
+    "fadeIn": 32,
+    "fadeOut": 8579
+   },
+   "session/snare/snare_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#1.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 657,
+    "frames": 18306,
+    "fadeIn": 32,
+    "fadeOut": 7322
+   },
+   "session/snare/snare_v2_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#1.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 105,
+    "frames": 25914,
+    "fadeIn": 32,
+    "fadeOut": 10366
+   },
+   "session/snare/snare_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#2.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 159,
+    "frames": 21450,
+    "fadeIn": 32,
+    "fadeOut": 8580
+   },
+   "session/snare/snare_v3_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#2.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 165,
+    "frames": 32910,
+    "fadeIn": 32,
+    "fadeOut": 13164
+   },
+   "session/snare/snare_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#3.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 554,
+    "frames": 33403,
+    "fadeIn": 32,
+    "fadeOut": 13361
+   },
+   "session/snare/snare_v4_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#3.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 385,
+    "frames": 32690,
+    "fadeIn": 32,
+    "fadeOut": 13076
+   },
+   "session/snare/snare_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#4.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 876,
+    "frames": 33963,
+    "fadeIn": 32,
+    "fadeOut": 13585
+   },
+   "session/snare/snare_v5_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#4.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 280,
+    "frames": 38087,
+    "fadeIn": 32,
+    "fadeOut": 15235
+   },
+   "session/snare/snare_v6_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#5.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 524,
+    "frames": 39607,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare/snare_v6_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#5.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 384,
+    "frames": 37983,
+    "fadeIn": 32,
+    "fadeOut": 15193
+   },
+   "session/snare/snare_v7_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#6.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 400,
+    "frames": 37085,
+    "fadeIn": 32,
+    "fadeOut": 14834
+   },
+   "session/snare/snare_v7_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#7.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 586,
+    "frames": 38663,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare/snare_v8_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#7.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 608,
+    "frames": 40405,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare/snare_v8_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#6.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 395,
+    "frames": 37972,
+    "fadeIn": 32,
+    "fadeOut": 15189
+   },
+   "session/snare/snare_v9_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#8.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 282,
+    "frames": 40731,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare/snare_v9_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#9.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 689,
+    "frames": 43852,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare/snare_v10_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareLeftHand#9.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 758,
+    "frames": 42901,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare/snare_v10_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareRightHand#8.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 286,
+    "frames": 41609,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-centre/snare-centre_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#1.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 414,
+    "frames": 19431,
+    "fadeIn": 32,
+    "fadeOut": 7772
+   },
+   "session/snare-centre/snare-centre_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#2.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 191,
+    "frames": 26710,
+    "fadeIn": 32,
+    "fadeOut": 10684
+   },
+   "session/snare-centre/snare-centre_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#3.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 509,
+    "frames": 30802,
+    "fadeIn": 32,
+    "fadeOut": 12321
+   },
+   "session/snare-centre/snare-centre_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#4.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 403,
+    "frames": 35318,
+    "fadeIn": 32,
+    "fadeOut": 14127
+   },
+   "session/snare-centre/snare-centre_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#5.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 573,
+    "frames": 35148,
+    "fadeIn": 32,
+    "fadeOut": 14059
+   },
+   "session/snare-centre/snare-centre_v6_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#6.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 408,
+    "frames": 39723,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-centre/snare-centre_v7_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#7.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 465,
+    "frames": 37020,
+    "fadeIn": 32,
+    "fadeOut": 14808
+   },
+   "session/snare-centre/snare-centre_v8_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#8.flac",
+      0.5746323323423554,
+      0.5746323323423554
+     ]
+    ],
+    "start": 701,
+    "frames": 41194,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/rimshot/rimshot_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareSamples#9.flac",
+      0.8499435028802391,
+      0.8499435028802391
+     ]
+    ],
+    "start": 442,
+    "frames": 49391,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-off/snare-off_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffLeft.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 593,
+    "frames": 28954,
+    "fadeIn": 32,
+    "fadeOut": 11582
+   },
+   "session/snare-off/snare-off_v1_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffRight.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 327,
+    "frames": 36276,
+    "fadeIn": 32,
+    "fadeOut": 14510
+   },
+   "session/snare-off/snare-off_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffLeft#1.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 929,
+    "frames": 33910,
+    "fadeIn": 32,
+    "fadeOut": 13564
+   },
+   "session/snare-off/snare-off_v2_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffRight#1.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 656,
+    "frames": 43003,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-off/snare-off_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffLeft#2.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 690,
+    "frames": 40323,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-off/snare-off_v3_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffRight#2.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 588,
+    "frames": 45717,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-off/snare-off_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffLeft#3.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 511,
+    "frames": 46676,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-off/snare-off_v4_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffRight#3.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 871,
+    "frames": 45434,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-off/snare-off_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffLeft#4.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 339,
+    "frames": 40674,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/snare-off/snare-off_v5_rr2.wav": {
+    "in": [
+     [
+      "sonor:Samples/SnareOffRight#4.flac",
+      0.14105551094416635,
+      0.14105551094416635
+     ]
+    ],
+    "start": 304,
+    "frames": 51293,
+    "fadeIn": 32,
+    "fadeOut": 15435
+   },
+   "session/floor-tom/floor-tom_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomLow.flac",
+      0.44605669110237356,
+      0.44605669110237356
+     ]
+    ],
+    "start": 162,
+    "frames": 19683,
+    "fadeIn": 32,
+    "fadeOut": 7873
+   },
+   "session/floor-tom/floor-tom_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomLow#1.flac",
+      0.44605669110237356,
+      0.44605669110237356
+     ]
+    ],
+    "start": 390,
+    "frames": 23865,
+    "fadeIn": 32,
+    "fadeOut": 9546
+   },
+   "session/floor-tom/floor-tom_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomLow#2.flac",
+      0.44605669110237356,
+      0.44605669110237356
+     ]
+    ],
+    "start": 324,
+    "frames": 26577,
+    "fadeIn": 32,
+    "fadeOut": 10631
+   },
+   "session/floor-tom/floor-tom_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomLow#3.flac",
+      0.44605669110237356,
+      0.44605669110237356
+     ]
+    ],
+    "start": 286,
+    "frames": 32789,
+    "fadeIn": 32,
+    "fadeOut": 13116
+   },
+   "session/floor-tom/floor-tom_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomLow#4.flac",
+      0.44605669110237356,
+      0.44605669110237356
+     ]
+    ],
+    "start": 257,
+    "frames": 46930,
+    "fadeIn": 32,
+    "fadeOut": 18772
+   },
+   "session/floor-tom/floor-tom_v6_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomLow#5.flac",
+      0.44605669110237356,
+      0.44605669110237356
+     ]
+    ],
+    "start": 388,
+    "frames": 55619,
+    "fadeIn": 32,
+    "fadeOut": 22248
+   },
+   "session/floor-tom/floor-tom_v7_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomLow#6.flac",
+      0.44605669110237356,
+      0.44605669110237356
+     ]
+    ],
+    "start": 451,
+    "frames": 51146,
+    "fadeIn": 32,
+    "fadeOut": 20458
+   },
+   "session/rack-tom/rack-tom_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomHigh.flac",
+      0.5301393709383571,
+      0.5301393709383571
+     ]
+    ],
+    "start": 254,
+    "frames": 70747,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/rack-tom/rack-tom_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomHigh#1.flac",
+      0.5301393709383571,
+      0.5301393709383571
+     ]
+    ],
+    "start": 398,
+    "frames": 75013,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/rack-tom/rack-tom_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomHigh#2.flac",
+      0.5301393709383571,
+      0.5301393709383571
+     ]
+    ],
+    "start": 467,
+    "frames": 77590,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/rack-tom/rack-tom_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomHigh#3.flac",
+      0.5301393709383571,
+      0.5301393709383571
+     ]
+    ],
+    "start": 372,
+    "frames": 72393,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/rack-tom/rack-tom_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomHigh#4.flac",
+      0.5301393709383571,
+      0.5301393709383571
+     ]
+    ],
+    "start": 451,
+    "frames": 71432,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/rack-tom-click/rack-tom-click_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomClicks.flac",
+      0.24796481356775887,
+      0.24796481356775887
+     ]
+    ],
+    "start": 262,
+    "frames": 38987,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "session/rack-tom-click/rack-tom-click_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomClicks#1.flac",
+      0.24796481356775887,
+      0.24796481356775887
+     ]
+    ],
+    "start": 234,
+    "frames": 40779,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "session/rack-tom-click/rack-tom-click_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomClicks#2.flac",
+      0.24796481356775887,
+      0.24796481356775887
+     ]
+    ],
+    "start": 595,
+    "frames": 52920,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "session/rack-tom-click/rack-tom-click_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomClicks#3.flac",
+      0.24796481356775887,
+      0.24796481356775887
+     ]
+    ],
+    "start": 385,
+    "frames": 48566,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "session/rack-tom-click/rack-tom-click_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/TomClicks#4.flac",
+      0.24796481356775887,
+      0.24796481356775887
+     ]
+    ],
+    "start": 229,
+    "frames": 50486,
+    "fadeIn": 32,
+    "fadeOut": 13230
+   },
+   "session/hat-closed/hat-closed_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed#1.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 172,
+    "frames": 7325,
+    "fadeIn": 32,
+    "fadeOut": 2930
+   },
+   "session/hat-closed/hat-closed_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 131,
+    "frames": 7366,
+    "fadeIn": 32,
+    "fadeOut": 2946
+   },
+   "session/hat-closed/hat-closed_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed#3.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 213,
+    "frames": 9048,
+    "fadeIn": 32,
+    "fadeOut": 3619
+   },
+   "session/hat-closed/hat-closed_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed#2.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 135,
+    "frames": 9126,
+    "fadeIn": 32,
+    "fadeOut": 3650
+   },
+   "session/hat-closed/hat-closed_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed#7.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 136,
+    "frames": 10007,
+    "fadeIn": 32,
+    "fadeOut": 4003
+   },
+   "session/hat-closed/hat-closed_v6_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed#5.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 215,
+    "frames": 9928,
+    "fadeIn": 32,
+    "fadeOut": 3971
+   },
+   "session/hat-closed/hat-closed_v7_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed#4.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 278,
+    "frames": 11629,
+    "fadeIn": 32,
+    "fadeOut": 4652
+   },
+   "session/hat-closed/hat-closed_v8_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed#6.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 246,
+    "frames": 11661,
+    "fadeIn": 32,
+    "fadeOut": 4664
+   },
+   "session/hat-closed/hat-closed_v9_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHClosed#8.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 296,
+    "frames": 14257,
+    "fadeIn": 32,
+    "fadeOut": 5703
+   },
+   "session/hat-pedal/hat-pedal_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHPedal.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 6615
+   },
+   "session/hat-pedal/hat-pedal_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHPedal#1.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 0,
+    "frames": 18081,
+    "fadeIn": 0,
+    "fadeOut": 6615
+   },
+   "session/hat-pedal/hat-pedal_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHPedal#2.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 6615
+   },
+   "session/hat-pedal/hat-pedal_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHPedal#3.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 6615
+   },
+   "session/hat-pedal/hat-pedal_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHPedal#4.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 3,
+    "fadeOut": 6615
+   },
+   "session/hat-pedal/hat-pedal_v6_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHPedal#5.flac",
+      0.8900001060962803,
+      0.8900001060962803
+     ]
+    ],
+    "start": 0,
+    "frames": 26460,
+    "fadeIn": 0,
+    "fadeOut": 6615
+   },
+   "session/hat-open/hat-open_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenClang#3.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 355,
+    "frames": 97020,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/hat-open/hat-open_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenClang#4.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 344,
+    "frames": 97020,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/hat-open/hat-open_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenClang#2.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 347,
+    "frames": 97020,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/hat-open/hat-open_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenClang.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 227,
+    "frames": 97020,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/hat-open/hat-open_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenClang#1.flac",
+      0.37530993279186864,
+      0.37530993279186864
+     ]
+    ],
+    "start": 289,
+    "frames": 97020,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/hat-half/hat-half_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHHalfOpen.flac",
+      0.3462502203211525,
+      0.3462502203211525
+     ]
+    ],
+    "start": 178,
+    "frames": 14375,
+    "fadeIn": 32,
+    "fadeOut": 5750
+   },
+   "session/hat-half/hat-half_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHHalfOpen#1.flac",
+      0.3462502203211525,
+      0.3462502203211525
+     ]
+    ],
+    "start": 188,
+    "frames": 16129,
+    "fadeIn": 32,
+    "fadeOut": 6452
+   },
+   "session/hat-half/hat-half_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHHalfOpen#2.flac",
+      0.3462502203211525,
+      0.3462502203211525
+     ]
+    ],
+    "start": 189,
+    "frames": 24066,
+    "fadeIn": 32,
+    "fadeOut": 9626
+   },
+   "session/hat-half/hat-half_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHHalfOpen#4.flac",
+      0.3462502203211525,
+      0.3462502203211525
+     ]
+    ],
+    "start": 243,
+    "frames": 21366,
+    "fadeIn": 32,
+    "fadeOut": 8546
+   },
+   "session/hat-half/hat-half_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHHalfOpen#5.flac",
+      0.3462502203211525,
+      0.3462502203211525
+     ]
+    ],
+    "start": 347,
+    "frames": 21262,
+    "fadeIn": 32,
+    "fadeOut": 8505
+   },
+   "session/hat-half/hat-half_v6_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHHalfOpen#3.flac",
+      0.3462502203211525,
+      0.3462502203211525
+     ]
+    ],
+    "start": 379,
+    "frames": 22994,
+    "fadeIn": 32,
+    "fadeOut": 9198
+   },
+   "session/hat-half/hat-half_v7_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHHalfOpen#6.flac",
+      0.3462502203211525,
+      0.3462502203211525
+     ]
+    ],
+    "start": 309,
+    "frames": 19536,
+    "fadeIn": 32,
+    "fadeOut": 7814
+   },
+   "session/hat-half/hat-half_v8_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHHalfOpen#7.flac",
+      0.3462502203211525,
+      0.3462502203211525
+     ]
+    ],
+    "start": 1165,
+    "frames": 21326,
+    "fadeIn": 32,
+    "fadeOut": 8530
+   },
+   "session/hat-open-tip/hat-open-tip_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenTip.flac",
+      0.6597661934080757,
+      0.6597661934080757
+     ]
+    ],
+    "start": 163,
+    "frames": 54962,
+    "fadeIn": 32,
+    "fadeOut": 21985
+   },
+   "session/hat-open-tip/hat-open-tip_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenTip#1.flac",
+      0.6597661934080757,
+      0.6597661934080757
+     ]
+    ],
+    "start": 144,
+    "frames": 85851,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/hat-open-tip/hat-open-tip_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenTip#2.flac",
+      0.6597661934080757,
+      0.6597661934080757
+     ]
+    ],
+    "start": 179,
+    "frames": 97020,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/hat-open-tip/hat-open-tip_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/HHOpenTip#3.flac",
+      0.6597661934080757,
+      0.6597661934080757
+     ]
+    ],
+    "start": 188,
+    "frames": 92863,
+    "fadeIn": 32,
+    "fadeOut": 26460
+   },
+   "session/ride/ride_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/Ride.flac",
+      0.19027864864868116,
+      0.19027864864868116
+     ]
+    ],
+    "start": 415,
+    "frames": 33542,
+    "fadeIn": 32,
+    "fadeOut": 13417
+   },
+   "session/ride/ride_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/Ride#1.flac",
+      0.19027864864868116,
+      0.19027864864868116
+     ]
+    ],
+    "start": 393,
+    "frames": 105006,
+    "fadeIn": 32,
+    "fadeOut": 42002
+   },
+   "session/ride/ride_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/Ride#2.flac",
+      0.19027864864868116,
+      0.19027864864868116
+     ]
+    ],
+    "start": 493,
+    "frames": 75800,
+    "fadeIn": 32,
+    "fadeOut": 30320
+   },
+   "session/ride/ride_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/Ride#3.flac",
+      0.19027864864868116,
+      0.19027864864868116
+     ]
+    ],
+    "start": 319,
+    "frames": 207392,
+    "fadeIn": 32,
+    "fadeOut": 61740
+   },
+   "session/ride/ride_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/Ride#4.flac",
+      0.19027864864868116,
+      0.19027864864868116
+     ]
+    ],
+    "start": 412,
+    "frames": 220500,
+    "fadeIn": 32,
+    "fadeOut": 61740
+   },
+   "session/ride-bell/ride-bell_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/RideBell.flac",
+      0.5240709157405957,
+      0.5240709157405957
+     ]
+    ],
+    "start": 538,
+    "frames": 34301,
+    "fadeIn": 32,
+    "fadeOut": 13720
+   },
+   "session/ride-bell/ride-bell_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/RideBell#1.flac",
+      0.5240709157405957,
+      0.5240709157405957
+     ]
+    ],
+    "start": 599,
+    "frames": 58054,
+    "fadeIn": 32,
+    "fadeOut": 23222
+   },
+   "session/ride-bell/ride-bell_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/RideBell#2.flac",
+      0.5240709157405957,
+      0.5240709157405957
+     ]
+    ],
+    "start": 569,
+    "frames": 92482,
+    "fadeIn": 32,
+    "fadeOut": 36993
+   },
+   "session/ride-bell/ride-bell_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/RideBell#3.flac",
+      0.5240709157405957,
+      0.5240709157405957
+     ]
+    ],
+    "start": 537,
+    "frames": 123384,
+    "fadeIn": 32,
+    "fadeOut": 49354
+   },
+   "session/crash/crash_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashClang.flac",
+      0.7841335904531407,
+      0.7841335904531407
+     ]
+    ],
+    "start": 435,
+    "frames": 149946,
+    "fadeIn": 32,
+    "fadeOut": 59978
+   },
+   "session/crash/crash_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashClang#1.flac",
+      0.7841335904531407,
+      0.7841335904531407
+     ]
+    ],
+    "start": 517,
+    "frames": 194846,
+    "fadeIn": 32,
+    "fadeOut": 61740
+   },
+   "session/crash/crash_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashClang#2.flac",
+      0.7841335904531407,
+      0.7841335904531407
+     ]
+    ],
+    "start": 578,
+    "frames": 199595,
+    "fadeIn": 32,
+    "fadeOut": 61740
+   },
+   "session/crash/crash_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashClang#3.flac",
+      0.7841335904531407,
+      0.7841335904531407
+     ]
+    ],
+    "start": 189,
+    "frames": 219870,
+    "fadeIn": 32,
+    "fadeOut": 61740
+   },
+   "session/crash/crash_v5_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashClang#4.flac",
+      0.7841335904531407,
+      0.7841335904531407
+     ]
+    ],
+    "start": 383,
+    "frames": 213502,
+    "fadeIn": 32,
+    "fadeOut": 61740
+   },
+   "session/crash-tip/crash-tip_v1_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashTip.flac",
+      0.36676683571863783,
+      0.36676683571863783
+     ]
+    ],
+    "start": 404,
+    "frames": 55603,
+    "fadeIn": 32,
+    "fadeOut": 22241
+   },
+   "session/crash-tip/crash-tip_v2_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashTip#1.flac",
+      0.36676683571863783,
+      0.36676683571863783
+     ]
+    ],
+    "start": 576,
+    "frames": 74835,
+    "fadeIn": 32,
+    "fadeOut": 29934
+   },
+   "session/crash-tip/crash-tip_v3_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashTip#2.flac",
+      0.36676683571863783,
+      0.36676683571863783
+     ]
+    ],
+    "start": 602,
+    "frames": 85393,
+    "fadeIn": 32,
+    "fadeOut": 34157
+   },
+   "session/crash-tip/crash-tip_v4_rr1.wav": {
+    "in": [
+     [
+      "sonor:Samples/CrashTip#3.flac",
+      0.36676683571863783,
+      0.36676683571863783
+     ]
+    ],
+    "start": 426,
+    "frames": 87333,
+    "fadeIn": 32,
+    "fadeOut": 34933
+   }
+  }
+ },
+ "root": "samples",
+ "instruments": [
+  {
+   "name": "kit",
+   "title": "Session Kit",
+   "category": "Drums",
+   "pitched": false,
+   "release": 0.08,
+   "attack": 0,
+   "oneShot": true,
+   "velocityRange": 31.2,
+   "polyphony": 96,
+   "notePolyphony": 3,
+   "offTime": 0.035,
+   "pads": [
+    {
+     "key": 49,
+     "name": "Crash"
+    },
+    {
+     "key": 51,
+     "name": "Ride"
+    },
+    {
+     "key": 46,
+     "name": "Hi-hat open"
+    },
+    {
+     "key": 42,
+     "name": "Hi-hat closed"
+    },
+    {
+     "key": 45,
+     "name": "Rack tom"
+    },
+    {
+     "key": 25,
+     "name": "Rack tom click"
+    },
+    {
+     "key": 41,
+     "name": "Floor tom"
+    },
+    {
+     "key": 44,
+     "name": "Hi-hat pedal"
+    },
+    {
+     "key": 40,
+     "name": "Rimshot"
+    },
+    {
+     "key": 39,
+     "name": "Snare centre"
+    },
+    {
+     "key": 38,
+     "name": "Snare"
+    },
+    {
+     "key": 36,
+     "name": "Kick"
+    },
+    {
+     "key": 26,
+     "name": "Hi-hat half open"
+    },
+    {
+     "key": 22,
+     "name": "Hi-hat open tip"
+    },
+    {
+     "key": 53,
+     "name": "Ride bell"
+    },
+    {
+     "key": 57,
+     "name": "Crash tip"
+    },
+    {
+     "key": 34,
+     "name": "Snare, snares off"
+    }
+   ],
+   "zones": [
+    {
+     "file": "session/hat-open-tip/hat-open-tip_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 67,
+     "gain": 14.82,
+     "start": 0,
+     "end": 54962,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 22,
+     "lo": 22,
+     "hi": 22
+    },
+    {
+     "file": "session/hat-open-tip/hat-open-tip_v2_rr1.wav",
+     "lovel": 68,
+     "hivel": 92,
+     "gain": 11.08,
+     "start": 0,
+     "end": 85851,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 22,
+     "lo": 22,
+     "hi": 22
+    },
+    {
+     "file": "session/hat-open-tip/hat-open-tip_v4_rr1.wav",
+     "lovel": 93,
+     "hivel": 110,
+     "gain": 2.78,
+     "start": 0,
+     "end": 92863,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 22,
+     "lo": 22,
+     "hi": 22
+    },
+    {
+     "file": "session/hat-open-tip/hat-open-tip_v3_rr1.wav",
+     "lovel": 111,
+     "hivel": 127,
+     "gain": 2.09,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 22,
+     "lo": 22,
+     "hi": 22
+    },
+    {
+     "file": "session/rack-tom-click/rack-tom-click_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 97,
+     "gain": 8.82,
+     "start": 0,
+     "end": 38987,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "session/rack-tom-click/rack-tom-click_v2_rr1.wav",
+     "lovel": 98,
+     "hivel": 111,
+     "gain": 2.65,
+     "start": 0,
+     "end": 40779,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "session/rack-tom-click/rack-tom-click_v3_rr1.wav",
+     "lovel": 112,
+     "hivel": 113,
+     "gain": 1.79,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "session/rack-tom-click/rack-tom-click_v4_rr1.wav",
+     "lovel": 114,
+     "hivel": 114,
+     "gain": 1.62,
+     "start": 0,
+     "end": 48566,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "session/rack-tom-click/rack-tom-click_v5_rr1.wav",
+     "lovel": 115,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 50486,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 25,
+     "lo": 25,
+     "hi": 25
+    },
+    {
+     "file": "session/hat-half/hat-half_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 19.63,
+     "start": 0,
+     "end": 14375,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "session/hat-half/hat-half_v2_rr1.wav",
+     "lovel": 50,
+     "hivel": 71,
+     "gain": 15.4,
+     "start": 0,
+     "end": 16129,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "session/hat-half/hat-half_v3_rr1.wav",
+     "lovel": 72,
+     "hivel": 85,
+     "gain": 8.85,
+     "start": 0,
+     "end": 24066,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "session/hat-half/hat-half_v4_rr1.wav",
+     "lovel": 86,
+     "hivel": 88,
+     "gain": 8.48,
+     "start": 0,
+     "end": 21366,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "session/hat-half/hat-half_v5_rr1.wav",
+     "lovel": 89,
+     "hivel": 92,
+     "gain": 7.29,
+     "start": 0,
+     "end": 21262,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "session/hat-half/hat-half_v6_rr1.wav",
+     "lovel": 93,
+     "hivel": 100,
+     "gain": 6.6,
+     "start": 0,
+     "end": 22994,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "session/hat-half/hat-half_v7_rr1.wav",
+     "lovel": 101,
+     "hivel": 113,
+     "gain": 3.14,
+     "start": 0,
+     "end": 19536,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "session/hat-half/hat-half_v8_rr1.wav",
+     "lovel": 114,
+     "hivel": 127,
+     "gain": 0.14,
+     "start": 0,
+     "end": 21326,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 26,
+     "lo": 26,
+     "hi": 26
+    },
+    {
+     "file": "session/snare-off/snare-off_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 21.13,
+     "start": 0,
+     "end": 28954,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v1_rr2.wav",
+     "lovel": 1,
+     "hivel": 49,
+     "gain": 21.13,
+     "start": 0,
+     "end": 36276,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v2_rr1.wav",
+     "lovel": 50,
+     "hivel": 77,
+     "gain": 13.82,
+     "start": 0,
+     "end": 33910,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v2_rr2.wav",
+     "lovel": 50,
+     "hivel": 77,
+     "gain": 13.82,
+     "start": 0,
+     "end": 43003,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v3_rr1.wav",
+     "lovel": 78,
+     "hivel": 98,
+     "gain": 7.36,
+     "start": 0,
+     "end": 40323,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v3_rr2.wav",
+     "lovel": 78,
+     "hivel": 98,
+     "gain": 7.36,
+     "start": 0,
+     "end": 45717,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v4_rr1.wav",
+     "lovel": 99,
+     "hivel": 110,
+     "gain": 3.29,
+     "start": 0,
+     "end": 46676,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v4_rr2.wav",
+     "lovel": 99,
+     "hivel": 110,
+     "gain": 3.29,
+     "start": 0,
+     "end": 45434,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v5_rr1.wav",
+     "lovel": 111,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 40674,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/snare-off/snare-off_v5_rr2.wav",
+     "lovel": 111,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 51293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 34,
+     "lo": 34,
+     "hi": 34
+    },
+    {
+     "file": "session/kick/kick_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 73,
+     "gain": 13.55,
+     "start": 0,
+     "end": 54105,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "session/kick/kick_v2_rr1.wav",
+     "lovel": 74,
+     "hivel": 82,
+     "gain": 9.51,
+     "start": 0,
+     "end": 52861,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "session/kick/kick_v3_rr1.wav",
+     "lovel": 83,
+     "hivel": 85,
+     "gain": 9.29,
+     "start": 0,
+     "end": 53117,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "session/kick/kick_v4_rr1.wav",
+     "lovel": 86,
+     "hivel": 94,
+     "gain": 7.72,
+     "start": 0,
+     "end": 56523,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "session/kick/kick_v5_rr1.wav",
+     "lovel": 95,
+     "hivel": 105,
+     "gain": 4.95,
+     "start": 0,
+     "end": 61740,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "session/kick/kick_v6_rr1.wav",
+     "lovel": 106,
+     "hivel": 112,
+     "gain": 2.54,
+     "start": 0,
+     "end": 57698,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "session/kick/kick_v7_rr1.wav",
+     "lovel": 113,
+     "hivel": 117,
+     "gain": 1.18,
+     "start": 0,
+     "end": 54649,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "session/kick/kick_v8_rr1.wav",
+     "lovel": 118,
+     "hivel": 127,
+     "gain": 0.14,
+     "start": 0,
+     "end": 61740,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 35,
+     "lo": 35,
+     "hi": 36
+    },
+    {
+     "file": "session/snare/snare_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 22,
+     "gain": 27.84,
+     "start": 0,
+     "end": 13497,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v1_rr2.wav",
+     "lovel": 1,
+     "hivel": 22,
+     "gain": 27.84,
+     "start": 0,
+     "end": 21447,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v2_rr1.wav",
+     "lovel": 23,
+     "hivel": 48,
+     "gain": 20.42,
+     "start": 0,
+     "end": 18306,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v2_rr2.wav",
+     "lovel": 23,
+     "hivel": 48,
+     "gain": 20.42,
+     "start": 0,
+     "end": 25914,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v3_rr1.wav",
+     "lovel": 49,
+     "hivel": 69,
+     "gain": 15.12,
+     "start": 0,
+     "end": 21450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v3_rr2.wav",
+     "lovel": 49,
+     "hivel": 69,
+     "gain": 15.12,
+     "start": 0,
+     "end": 32910,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v4_rr1.wav",
+     "lovel": 70,
+     "hivel": 84,
+     "gain": 10.15,
+     "start": 0,
+     "end": 33403,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v4_rr2.wav",
+     "lovel": 70,
+     "hivel": 84,
+     "gain": 10.15,
+     "start": 0,
+     "end": 32690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v5_rr1.wav",
+     "lovel": 85,
+     "hivel": 93,
+     "gain": 7.62,
+     "start": 0,
+     "end": 33963,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v5_rr2.wav",
+     "lovel": 85,
+     "hivel": 93,
+     "gain": 7.62,
+     "start": 0,
+     "end": 38087,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v6_rr1.wav",
+     "lovel": 94,
+     "hivel": 101,
+     "gain": 5.37,
+     "start": 0,
+     "end": 39607,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v6_rr2.wav",
+     "lovel": 94,
+     "hivel": 101,
+     "gain": 5.37,
+     "start": 0,
+     "end": 37983,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v7_rr1.wav",
+     "lovel": 102,
+     "hivel": 107,
+     "gain": 3.94,
+     "start": 0,
+     "end": 37085,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v7_rr2.wav",
+     "lovel": 102,
+     "hivel": 107,
+     "gain": 3.94,
+     "start": 0,
+     "end": 38663,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v8_rr1.wav",
+     "lovel": 108,
+     "hivel": 113,
+     "gain": 2.11,
+     "start": 0,
+     "end": 40405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v8_rr2.wav",
+     "lovel": 108,
+     "hivel": 113,
+     "gain": 2.11,
+     "start": 0,
+     "end": 37972,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v9_rr1.wav",
+     "lovel": 114,
+     "hivel": 118,
+     "gain": 1.01,
+     "start": 0,
+     "end": 40731,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v9_rr2.wav",
+     "lovel": 114,
+     "hivel": 118,
+     "gain": 1.01,
+     "start": 0,
+     "end": 43852,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v10_rr1.wav",
+     "lovel": 119,
+     "hivel": 127,
+     "gain": -0.25,
+     "start": 0,
+     "end": 42901,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare/snare_v10_rr2.wav",
+     "lovel": 119,
+     "hivel": 127,
+     "gain": -0.25,
+     "start": 0,
+     "end": 41609,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 2,
+     "root": 38,
+     "lo": 38,
+     "hi": 38
+    },
+    {
+     "file": "session/snare-centre/snare-centre_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 56,
+     "gain": 20.06,
+     "start": 0,
+     "end": 19431,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "session/snare-centre/snare-centre_v2_rr1.wav",
+     "lovel": 57,
+     "hivel": 76,
+     "gain": 11.41,
+     "start": 0,
+     "end": 26710,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "session/snare-centre/snare-centre_v3_rr1.wav",
+     "lovel": 77,
+     "hivel": 83,
+     "gain": 10.15,
+     "start": 0,
+     "end": 30802,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "session/snare-centre/snare-centre_v4_rr1.wav",
+     "lovel": 84,
+     "hivel": 93,
+     "gain": 8.17,
+     "start": 0,
+     "end": 35318,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "session/snare-centre/snare-centre_v5_rr1.wav",
+     "lovel": 94,
+     "hivel": 102,
+     "gain": 4.99,
+     "start": 0,
+     "end": 35148,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "session/snare-centre/snare-centre_v6_rr1.wav",
+     "lovel": 103,
+     "hivel": 107,
+     "gain": 3.81,
+     "start": 0,
+     "end": 39723,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "session/snare-centre/snare-centre_v7_rr1.wav",
+     "lovel": 108,
+     "hivel": 114,
+     "gain": 2.47,
+     "start": 0,
+     "end": 37020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "session/snare-centre/snare-centre_v8_rr1.wav",
+     "lovel": 115,
+     "hivel": 127,
+     "gain": 0.14,
+     "start": 0,
+     "end": 41194,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 39,
+     "lo": 39,
+     "hi": 39
+    },
+    {
+     "file": "session/rimshot/rimshot_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 127,
+     "gain": 7.86,
+     "start": 0,
+     "end": 49391,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 40,
+     "lo": 40,
+     "hi": 40
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 23.82,
+     "start": 0,
+     "end": 19683,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v2_rr1.wav",
+     "lovel": 35,
+     "hivel": 53,
+     "gain": 18.45,
+     "start": 0,
+     "end": 23865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v3_rr1.wav",
+     "lovel": 54,
+     "hivel": 71,
+     "gain": 14.39,
+     "start": 0,
+     "end": 26577,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v4_rr1.wav",
+     "lovel": 72,
+     "hivel": 82,
+     "gain": 9.94,
+     "start": 0,
+     "end": 32789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v5_rr1.wav",
+     "lovel": 83,
+     "hivel": 99,
+     "gain": 8.62,
+     "start": 0,
+     "end": 46930,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v6_rr1.wav",
+     "lovel": 100,
+     "hivel": 115,
+     "gain": 1.72,
+     "start": 0,
+     "end": 55619,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v7_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.41,
+     "start": 0,
+     "end": 51146,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 41,
+     "lo": 41,
+     "hi": 41
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 35,
+     "gain": 21.92,
+     "start": 0,
+     "end": 7325,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v2_rr1.wav",
+     "lovel": 36,
+     "hivel": 54,
+     "gain": 20.03,
+     "start": 0,
+     "end": 7366,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v3_rr1.wav",
+     "lovel": 55,
+     "hivel": 70,
+     "gain": 12.72,
+     "start": 0,
+     "end": 9048,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v4_rr1.wav",
+     "lovel": 71,
+     "hivel": 76,
+     "gain": 12.1,
+     "start": 0,
+     "end": 9126,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v5_rr1.wav",
+     "lovel": 77,
+     "hivel": 82,
+     "gain": 9.76,
+     "start": 0,
+     "end": 10007,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v6_rr1.wav",
+     "lovel": 83,
+     "hivel": 86,
+     "gain": 9.09,
+     "start": 0,
+     "end": 9928,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v7_rr1.wav",
+     "lovel": 87,
+     "hivel": 94,
+     "gain": 7.39,
+     "start": 0,
+     "end": 11629,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v8_rr1.wav",
+     "lovel": 95,
+     "hivel": 109,
+     "gain": 5.23,
+     "start": 0,
+     "end": 11661,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/hat-closed/hat-closed_v9_rr1.wav",
+     "lovel": 110,
+     "hivel": 127,
+     "gain": -0.08,
+     "start": 0,
+     "end": 14257,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 42,
+     "lo": 42,
+     "hi": 42
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 23.82,
+     "start": 0,
+     "end": 19683,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v2_rr1.wav",
+     "lovel": 35,
+     "hivel": 53,
+     "gain": 18.45,
+     "start": 0,
+     "end": 23865,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v3_rr1.wav",
+     "lovel": 54,
+     "hivel": 71,
+     "gain": 14.39,
+     "start": 0,
+     "end": 26577,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v4_rr1.wav",
+     "lovel": 72,
+     "hivel": 82,
+     "gain": 9.94,
+     "start": 0,
+     "end": 32789,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v5_rr1.wav",
+     "lovel": 83,
+     "hivel": 99,
+     "gain": 8.62,
+     "start": 0,
+     "end": 46930,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v6_rr1.wav",
+     "lovel": 100,
+     "hivel": 115,
+     "gain": 1.72,
+     "start": 0,
+     "end": 55619,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "session/floor-tom/floor-tom_v7_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.41,
+     "start": 0,
+     "end": 51146,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 43,
+     "lo": 43,
+     "hi": 43
+    },
+    {
+     "file": "session/hat-pedal/hat-pedal_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 92,
+     "gain": 7.21,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "session/hat-pedal/hat-pedal_v2_rr1.wav",
+     "lovel": 93,
+     "hivel": 103,
+     "gain": 6.29,
+     "start": 0,
+     "end": 18081,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "session/hat-pedal/hat-pedal_v3_rr1.wav",
+     "lovel": 104,
+     "hivel": 111,
+     "gain": 2.11,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "session/hat-pedal/hat-pedal_v4_rr1.wav",
+     "lovel": 112,
+     "hivel": 113,
+     "gain": 2.01,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "session/hat-pedal/hat-pedal_v6_rr1.wav",
+     "lovel": 114,
+     "hivel": 115,
+     "gain": 1.35,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "session/hat-pedal/hat-pedal_v5_rr1.wav",
+     "lovel": 116,
+     "hivel": 127,
+     "gain": 0.79,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "root": 44,
+     "lo": 44,
+     "hi": 44
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 78,
+     "gain": 12.81,
+     "start": 0,
+     "end": 70747,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v2_rr1.wav",
+     "lovel": 79,
+     "hivel": 97,
+     "gain": 7.76,
+     "start": 0,
+     "end": 75013,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v3_rr1.wav",
+     "lovel": 98,
+     "hivel": 109,
+     "gain": 3.66,
+     "start": 0,
+     "end": 77590,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v5_rr1.wav",
+     "lovel": 110,
+     "hivel": 113,
+     "gain": 1.81,
+     "start": 0,
+     "end": 71432,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v4_rr1.wav",
+     "lovel": 114,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 72393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 45,
+     "lo": 45,
+     "hi": 45
+    },
+    {
+     "file": "session/hat-open/hat-open_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 70,
+     "gain": 12.81,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "session/hat-open/hat-open_v2_rr1.wav",
+     "lovel": 71,
+     "hivel": 78,
+     "gain": 11.94,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "session/hat-open/hat-open_v3_rr1.wav",
+     "lovel": 79,
+     "hivel": 95,
+     "gain": 8.52,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "session/hat-open/hat-open_v4_rr1.wav",
+     "lovel": 96,
+     "hivel": 110,
+     "gain": 3.58,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "session/hat-open/hat-open_v5_rr1.wav",
+     "lovel": 111,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 97020,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "group": 1,
+     "offBy": 1,
+     "root": 46,
+     "lo": 46,
+     "hi": 46
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 78,
+     "gain": 12.81,
+     "start": 0,
+     "end": 70747,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v2_rr1.wav",
+     "lovel": 79,
+     "hivel": 97,
+     "gain": 7.76,
+     "start": 0,
+     "end": 75013,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v3_rr1.wav",
+     "lovel": 98,
+     "hivel": 109,
+     "gain": 3.66,
+     "start": 0,
+     "end": 77590,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v5_rr1.wav",
+     "lovel": 110,
+     "hivel": 113,
+     "gain": 1.81,
+     "start": 0,
+     "end": 71432,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v4_rr1.wav",
+     "lovel": 114,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 72393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 47,
+     "lo": 47,
+     "hi": 47
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 78,
+     "gain": 12.81,
+     "start": 0,
+     "end": 70747,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v2_rr1.wav",
+     "lovel": 79,
+     "hivel": 97,
+     "gain": 7.76,
+     "start": 0,
+     "end": 75013,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v3_rr1.wav",
+     "lovel": 98,
+     "hivel": 109,
+     "gain": 3.66,
+     "start": 0,
+     "end": 77590,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v5_rr1.wav",
+     "lovel": 110,
+     "hivel": 113,
+     "gain": 1.81,
+     "start": 0,
+     "end": 71432,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v4_rr1.wav",
+     "lovel": 114,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 72393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 48,
+     "lo": 48,
+     "hi": 48
+    },
+    {
+     "file": "session/crash/crash_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 62,
+     "gain": 16.35,
+     "start": 0,
+     "end": 149946,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "session/crash/crash_v2_rr1.wav",
+     "lovel": 63,
+     "hivel": 80,
+     "gain": 12.05,
+     "start": 0,
+     "end": 194846,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "session/crash/crash_v3_rr1.wav",
+     "lovel": 81,
+     "hivel": 100,
+     "gain": 7.36,
+     "start": 0,
+     "end": 199595,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "session/crash/crash_v4_rr1.wav",
+     "lovel": 101,
+     "hivel": 112,
+     "gain": 2.55,
+     "start": 0,
+     "end": 219870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "session/crash/crash_v5_rr1.wav",
+     "lovel": 113,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 213502,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 49,
+     "lo": 49,
+     "hi": 49
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 78,
+     "gain": 12.81,
+     "start": 0,
+     "end": 70747,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v2_rr1.wav",
+     "lovel": 79,
+     "hivel": 97,
+     "gain": 7.76,
+     "start": 0,
+     "end": 75013,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v3_rr1.wav",
+     "lovel": 98,
+     "hivel": 109,
+     "gain": 3.66,
+     "start": 0,
+     "end": 77590,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v5_rr1.wav",
+     "lovel": 110,
+     "hivel": 113,
+     "gain": 1.81,
+     "start": 0,
+     "end": 71432,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "session/rack-tom/rack-tom_v4_rr1.wav",
+     "lovel": 114,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 72393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 50,
+     "lo": 50,
+     "hi": 50
+    },
+    {
+     "file": "session/ride/ride_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 50,
+     "gain": 19.97,
+     "start": 0,
+     "end": 33542,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "session/ride/ride_v3_rr1.wav",
+     "lovel": 51,
+     "hivel": 68,
+     "gain": 14.45,
+     "start": 0,
+     "end": 75800,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "session/ride/ride_v2_rr1.wav",
+     "lovel": 69,
+     "hivel": 92,
+     "gain": 11.04,
+     "start": 0,
+     "end": 105006,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "session/ride/ride_v5_rr1.wav",
+     "lovel": 93,
+     "hivel": 112,
+     "gain": 2.73,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "session/ride/ride_v4_rr1.wav",
+     "lovel": 113,
+     "hivel": 127,
+     "gain": 1.31,
+     "start": 0,
+     "end": 207392,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 51,
+     "lo": 51,
+     "hi": 51
+    },
+    {
+     "file": "session/ride-bell/ride-bell_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 70,
+     "gain": 15.97,
+     "start": 0,
+     "end": 34301,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "session/ride-bell/ride-bell_v2_rr1.wav",
+     "lovel": 71,
+     "hivel": 97,
+     "gain": 8.82,
+     "start": 0,
+     "end": 58054,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "session/ride-bell/ride-bell_v3_rr1.wav",
+     "lovel": 98,
+     "hivel": 111,
+     "gain": 2.41,
+     "start": 0,
+     "end": 92482,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "session/ride-bell/ride-bell_v4_rr1.wav",
+     "lovel": 112,
+     "hivel": 127,
+     "gain": 2.09,
+     "start": 0,
+     "end": 123384,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 53,
+     "lo": 53,
+     "hi": 53
+    },
+    {
+     "file": "session/crash-tip/crash-tip_v1_rr1.wav",
+     "lovel": 1,
+     "hivel": 78,
+     "gain": 13.27,
+     "start": 0,
+     "end": 55603,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "session/crash-tip/crash-tip_v2_rr1.wav",
+     "lovel": 79,
+     "hivel": 98,
+     "gain": 7.2,
+     "start": 0,
+     "end": 74835,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "session/crash-tip/crash-tip_v3_rr1.wav",
+     "lovel": 99,
+     "hivel": 108,
+     "gain": 3.75,
+     "start": 0,
+     "end": 85393,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    },
+    {
+     "file": "session/crash-tip/crash-tip_v4_rr1.wav",
+     "lovel": 109,
+     "hivel": 127,
+     "gain": 2.09,
+     "start": 0,
+     "end": 87333,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 1,
+     "root": 57,
+     "lo": 57,
+     "hi": 57
+    }
+   ]
+  }
+ ]
+}

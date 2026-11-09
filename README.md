@@ -34,11 +34,16 @@ version…) are listed with it, and every pack links to its own page.
 |---|---|---|---|---|
 | [Angklung and Khaen (OLPC)](packs/angklung-khaen/) | Percussion, Woodwinds | 3 | 3 MB | CC BY 3.0 |
 | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) | Percussion, Tuned percussion | 6 | 14 MB | CC BY 3.0 |
+| [Bop Kit](packs/bop-kit/) | Drum kits | 1 | 60 MB | CC BY-SA 3.0 |
+| [Bop Kit, Hot Rods](packs/bop-kit-rods/) | Drum kits | 1 | 56 MB | CC BY-SA 3.0 |
 | [Brushes Kit (Karoryfer Swirly Drums)](packs/brushes-kit/) | Drum kits | 1 | 373 MB | CC0 1.0 |
+| [Busker Kit](packs/busker-kit/) | Percussion | 1 | 56 MB | CC BY-SA 3.0 |
+| [Classic Rock Kit (DrumGizmo DRSKit)](packs/classic-rock-kit/) | Drum kits | 1 | 421 MB | CC BY 4.0 |
 | [Dim Cabasa](packs/dim-cabasa/) | Percussion | 1 | 22 MB | CC BY 4.0 |
 | [Erhu](packs/erhu/) | Strings | 2 | 45 MB | CC0 1.0 |
 | [Ethan Winer's Instruments](packs/ethan-winer/) | Percussion, Tuned percussion, Strings, Woodwinds | 14 | 32 MB | Free to use without restriction |
 | [Etherealwinds Harp II CE](packs/harp/) | Strings | 1 | 179 MB | CC BY 4.0 |
+| [Extreme Metal Kit (DrumGizmo Aasimonster)](packs/extreme-metal-kit/) | Drum kits | 1 | 235 MB | CC BY 4.0 |
 | [FreePats Bass Guitar YR](packs/freepats-bass/) | Bass | 2 | 12 MB | CC0 1.0 |
 | [FreePats Button Accordion HN](packs/freepats-accordion/) | Pianos and keys | 1 | 7 MB | CC0 1.0 |
 | [FreePats Electric Guitars (FSBS)](packs/freepats-electric-guitars/) | Guitars and plucked strings | 3 | 394 MB | CC0 1.0 |
@@ -47,6 +52,7 @@ version…) are listed with it, and every pack links to its own page.
 | [FreePats Upright Piano KW](packs/freepats-upright/) | Pianos and keys | 1 | 86 MB | CC0 1.0 |
 | [Greg Sullivan E-Pianos (CP80, Pianet T, Wurlitzer)](packs/epianos/) | Pianos and keys | 3 | 78 MB | CC BY 3.0 |
 | [Headroom Piano (Yamaha C3)](packs/headroom/) | Pianos and keys | 2 | 512 MB | CC BY 4.0 |
+| [Heavy Kit (DrumGizmo MuldjordKit)](packs/heavy-kit/) | Drum kits | 1 | 185 MB | CC BY 4.0 |
 | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) | Percussion, Tuned percussion | 27 | 363 MB | Artistic License 2.0 |
 | [Javanese Gongs (OLPC)](packs/java-gongs/) | Percussion | 1 | 8 MB | CC BY 3.0 |
 | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) | Drum kits | 1 | 168 MB | CC0 1.0 |
@@ -65,13 +71,17 @@ version…) are listed with it, and every pack links to its own page.
 | [Karoryfer x bigcat Cello](packs/bigcat-cello/) | Strings | 3 | 131 MB | CC0 1.0 |
 | [Lo-fi Beat Kit (Sonic Pi, FreePats)](packs/lofi-kit/) | Drum kits | 1 | 3 MB | CC0 1.0 |
 | [Male Voice "Ah"](packs/vocal-ah/) | Voices | 1 | 38 MB | CC0 1.0 |
+| [Metal Kit (DrumGizmo CrocellKit)](packs/metal-kit/) | Drum kits | 1 | 347 MB | CC BY 4.0 |
 | [MTG Solo Saxophones](packs/mtg-sax/) | Woodwinds | 4 | 153 MB | CC BY 4.0 |
 | [Naked Drums (Wilkinson Audio)](packs/naked-drums/) | Drum kits | 1 | 388 MB | CC BY 4.0 |
 | [Nepalese Hand Bells (VCSL)](packs/nepal-bells/) | Percussion | 1 | 1 MB | CC0 1.0 |
 | [Orchestral Sections (VSCO 2, Iowa, Karoryfer)](packs/orchestral-sections/) | Strings, Woodwinds, Brass | 11 | 361 MB | Free to use without restriction |
+| [Pop Rock Kit](packs/pop-rock-kit/) | Drum kits | 1 | 52 MB | CC BY-SA 3.0 |
 | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) | Drum kits | 1 | 223 MB | CC0 1.0 |
 | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) | Drum kits | 1 | 172 MB | CC0 1.0 |
+| [Salamander Drumkit](packs/salamander-drums/) | Drum kits | 1 | 287 MB | CC BY-SA 3.0 |
 | [Salamander Grand Piano (Yamaha C5)](packs/salamander/) | Pianos and keys | 2 | 1.4 GB | Public domain |
+| [Session Kit (Sam's Sonor)](packs/session-kit/) | Drum kits | 1 | 37 MB | CC BY-SA 4.0 |
 | [Singing Bowls (OLPC)](packs/singing-bowls/) | Tuned percussion | 1 | 8 MB | CC BY 3.0 |
 | [Sonic Pi Samples](packs/sonic-pi/) | Percussion, Other | 9 | 91 MB | CC0 1.0 |
 | [Soul Kit (Karoryfer Unruly Drums)](packs/soul-kit/) | Drum kits | 1 | 222 MB | CC0 1.0 |
@@ -86,6 +96,7 @@ version…) are listed with it, and every pack links to its own page.
 | [University of Iowa MIS: Woodwinds](packs/iowa-winds/) | Woodwinds | 11 | 281 MB | Free to use without restriction |
 | [Versilian Community Sample Library](packs/vcsl/) | Percussion, Tuned percussion, Guitars and plucked strings, Woodwinds | 22 | 198 MB | CC0 1.0 |
 | [Vintage Keys (Greg Sullivan, FreePats)](packs/vintage-keys/) | Pianos and keys | 3 | 149 MB | CC BY 3.0 |
+| [Vintage Rock Kit](packs/vintage-rock-kit/) | Drum kits | 1 | 61 MB | CC BY-SA 3.0 |
 | [VSCO 2 Community Edition](packs/vsco2/) | Pianos and keys, Percussion, Tuned percussion, Strings, Woodwinds, Brass | 57 | 1.5 GB | CC0 1.0 |
 
 ### Palettes
@@ -135,15 +146,25 @@ version…) are listed with it, and every pack links to its own page.
 
 | Instrument | Also played as | Pack |
 |---|---|---|
+| Bop Kit |  | [Bop Kit](packs/bop-kit/) |
+| Bop Kit, Hot Rods |  | [Bop Kit, Hot Rods](packs/bop-kit-rods/) |
 | Brushes Kit |  | [Brushes Kit (Karoryfer Swirly Drums)](packs/brushes-kit/) |
+| Classic Rock Kit |  | [Classic Rock Kit (DrumGizmo DRSKit)](packs/classic-rock-kit/) |
+| Extreme Metal Kit |  | [Extreme Metal Kit (DrumGizmo Aasimonster)](packs/extreme-metal-kit/) |
+| Heavy Kit |  | [Heavy Kit (DrumGizmo MuldjordKit)](packs/heavy-kit/) |
 | Jazz Kit |  | [Jazz Kit (Virtuosity Drums)](packs/jazz-kit/) |
 | Lo-fi Beat Kit |  | [Lo-fi Beat Kit (Sonic Pi, FreePats)](packs/lofi-kit/) |
+| Metal Kit |  | [Metal Kit (DrumGizmo CrocellKit)](packs/metal-kit/) |
 | Naked Drums |  | [Naked Drums (Wilkinson Audio)](packs/naked-drums/) |
+| Pop Rock Kit |  | [Pop Rock Kit](packs/pop-rock-kit/) |
 | Prog Kit |  | [Prog Kit (Big Rusty Drums, Frankensnare, VSCO 2)](packs/prog-kit/) |
 | Rock Kit |  | [Rock Kit (Karoryfer Big Rusty Drums)](packs/rock-kit/) |
+| Salamander Drumkit |  | [Salamander Drumkit](packs/salamander-drums/) |
+| Session Kit |  | [Session Kit (Sam's Sonor)](packs/session-kit/) |
 | Soul Kit |  | [Soul Kit (Karoryfer Unruly Drums)](packs/soul-kit/) |
 | Studio Kit |  | [Studio Kit (Karoryfer Unruly Drums)](packs/studio-kit/) |
 | Synth Percussion Kit |  | [FreePats Synthesizer Percussion](packs/freepats-synth-percussion/) |
+| Vintage Rock Kit |  | [Vintage Rock Kit](packs/vintage-rock-kit/) |
 
 ### Percussion
 
@@ -156,6 +177,7 @@ version…) are listed with it, and every pack links to its own page.
 | Bongo High | Muted | [Versilian Community Sample Library](packs/vcsl/) |
 | Bongo Low |  | [Versilian Community Sample Library](packs/vcsl/) |
 | Brush Snare Hits and Rolls |  | [Ethan Winer's Instruments](packs/ethan-winer/) |
+| Busker Kit |  | [Busker Kit](packs/busker-kit/) |
 | Cabasa |  | [Dim Cabasa](packs/dim-cabasa/) |
 | Claves |  | [Ethan Winer's Instruments](packs/ethan-winer/) |
 | Concert Bass Drum |  | [VSCO 2 Community Edition](packs/vsco2/) |
@@ -385,8 +407,10 @@ clearly their authors' own, become packs. These were looked at and left out:
 | Other concert grands for a Viennese sound | None we found has a licence that allows this, so the [Viennese Grand](packs/viennese-grand/) voices the Steinway D instead. |
 | Freesound | A script gets only lossy previews: the original files need each user's own login. |
 
-**Not here yet:** DrumGizmo's MuldjordKit and DRSKit. Each is recorded through many microphones, so they
-wait for kits that keep their microphones apart.
+**Share-alike libraries:** the Salamander Drumkit, Sam's Sonor and the kits made from AVL Drumkits are
+shared under CC BY-SA, so their packs are too: anyone may share them, and a sample library made from
+them is shared alike. The music made with them isn't bound (AVL's and Salamander's licences say so in
+as many words).
 
 ## How HO[LO] Desk uses this
 

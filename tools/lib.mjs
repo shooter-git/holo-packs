@@ -314,10 +314,12 @@ export function mixSignal(inputs, decoded, start = 0, frames = Number.POSITIVE_I
   len = Math.max(0, Math.min(len, frames));
   const l = new Float64Array(len);
   const r = new Float64Array(len);
-  for (const [name, gl, gr] of inputs) {
+  for (const [name, gl, gr, at] of inputs) {
     const d = decoded.get(name);
-    const a = d.channels[0];
-    const b = d.channels[1] ?? a;
+    // one channel of a multichannel recording (one microphone of it) taken alone, as mixFile takes it
+    const a = d.channels[at?.channel ?? 0];
+    if (!a) throw new Error(`${name} has no channel ${at.channel}`);
+    const b = at?.channel === undefined ? (d.channels[1] ?? a) : a;
     const end = Math.min(len, a.length - start);
     for (let i = 0; i < end; i++) {
       l[i] += a[start + i] * gl;
