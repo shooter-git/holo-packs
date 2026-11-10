@@ -113,6 +113,7 @@ version…) are listed with it, and every pack links to its own page.
 | [Korean](packs/korean/) | 3 | built-in synths |
 | [Koto and Taiko](packs/koto-and-taiko/) | 7 | built-in synths |
 | [Minimal Ensemble](packs/minimal-ensemble/) | 14 | University of Iowa MIS: Clarinet and Bassoon, MTG Solo Saxophones, Steinway Model D (bitKlavier Grand), VSCO 2 Community Edition, built-in synths |
+| [Neon Elegy](packs/neon-elegy/) | 4 | FreePats Synthesizer Percussion, built-in synths |
 | [Silk and Bamboo](packs/silk-and-bamboo/) | 8 | Erhu, Versilian Community Sample Library, built-in synths |
 | [Sitar and Tabla](packs/sitar-and-tabla/) | 7 | Nepalese Hand Bells (VCSL), Singing Bowls (OLPC), Tabla (OLPC, Sonic Pi), built-in synths |
 | [Southeast Asian](packs/southeast-asian/) | 6 | Angklung and Khaen (OLPC), University of Iowa MIS: Percussion and Thai Gongs, Versilian Community Sample Library |
