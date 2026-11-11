@@ -1,0 +1,256 @@
+{
+  "format": "holo-pack",
+  "version": 1,
+  "id": "neon-elegy",
+  "name": "Neon Elegy",
+  "description": "Cinematic synth-pop: a round octave bass with a wide layer above it, a clean 808 boom, a gated-room clap and a soaring saw lead, voiced to sit together under a voice.",
+  "license": "CC0-1.0",
+  "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and FreePats Synthesizer Percussion by the FreePats project (CC0). Each pack keeps its own license and credit.",
+  "source": {
+    "kind": "none",
+    "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+  },
+  "instruments": [],
+  "requires": [
+    "freepats-synth-percussion"
+  ],
+  "sounds": [
+    {
+      "name": "Round Octave Bass",
+      "family": "Bass",
+      "instrument": {
+        "synth": "FM Bass",
+        "params": {
+          "brightness": 2,
+          "ratio": 1,
+          "feedback": 0.8,
+          "attack": 0.002,
+          "decay": 3,
+          "release": 0.08
+        }
+      },
+      "inserts": [
+        {
+          "type": "eq",
+          "params": {
+            "hpOn": 1,
+            "hpFreq": 30,
+            "b1Freq": 75,
+            "b1Gain": -3,
+            "b1Q": 0.9,
+            "hsFreq": 1000,
+            "hsGain": 8
+          }
+        }
+      ],
+      "space": null,
+      "volume": -4,
+      "note": "Play it in octaves: a clean fundamental under a soft upper voice, all weight and no buzz, with just enough edge to carry on small speakers."
+    },
+    {
+      "name": "Wide Bass Layer",
+      "family": "Bass",
+      "instrument": {
+        "synth": "Fat Poly",
+        "params": {
+          "cutoff": 700,
+          "emphasis": 0.1,
+          "contour": 0.1,
+          "decay": 1,
+          "glide": 0,
+          "drive": 0.3
+        }
+      },
+      "inserts": [
+        {
+          "type": "chorus",
+          "params": {
+            "rate": 0.45,
+            "depth": 55,
+            "delay": 14,
+            "mix": 50
+          }
+        },
+        {
+          "type": "eq",
+          "params": {
+            "hpOn": 1,
+            "hpFreq": 95,
+            "b2Freq": 500,
+            "b2Gain": -2,
+            "b2Q": 0.8,
+            "lpOn": 1,
+            "lpFreq": 1000
+          }
+        },
+        {
+          "type": "width",
+          "params": {
+            "width": 160,
+            "mono": 1,
+            "monoFreq": 110
+          }
+        }
+      ],
+      "space": null,
+      "volume": -8,
+      "note": "The layer that makes a bass fat: detuned saws, chorused and spread wide around 120–250 Hz, mono below. Play the root and fifth an octave or two above the bass, held through each chord, under a clean sub and the bass itself."
+    },
+    {
+      "name": "Clean 808 Boom",
+      "family": "Drums and percussion",
+      "instrument": {
+        "synth": "Analog Machine",
+        "params": {
+          "tune": 0,
+          "decay": 0.75,
+          "snap": 0.4,
+          "tone": 0.5,
+          "drive": 0.15,
+          "width": 0.3
+        }
+      },
+      "inserts": [
+        {
+          "type": "softener",
+          "params": {
+            "amount": 80,
+            "fast": 0.3,
+            "slow": 6,
+            "release": 40
+          }
+        },
+        {
+          "type": "eq",
+          "params": {
+            "hpOn": 1,
+            "hpFreq": 28,
+            "b1Freq": 100,
+            "b1Gain": -3.5,
+            "b1Q": 1.2,
+            "b2Freq": 48,
+            "b2Gain": 4,
+            "b2Q": 2.2,
+            "b3Freq": 66,
+            "b3Gain": -2.5,
+            "b3Q": 2
+          }
+        }
+      ],
+      "space": null,
+      "volume": -4.5,
+      "note": "The drum machine with its kick turned into a pure, round boom near 49 Hz: the click and the overtones that crowd a bass taken out, so it hits hard without pushing the master into its limiter."
+    },
+    {
+      "name": "Gated Room Clap",
+      "family": "Drums and percussion",
+      "instrument": {
+        "pack": "freepats-synth-percussion",
+        "name": "kit"
+      },
+      "inserts": [
+        {
+          "type": "softener",
+          "params": {
+            "amount": 60,
+            "fast": 0.4,
+            "slow": 10,
+            "release": 30
+          }
+        },
+        {
+          "type": "eq",
+          "params": {
+            "hpOn": 1,
+            "hpFreq": 200,
+            "b3Freq": 2500,
+            "b3Gain": -4,
+            "b3Q": 1,
+            "hsFreq": 7000,
+            "hsGain": -5
+          }
+        },
+        {
+          "type": "space",
+          "params": {
+            "space": 0,
+            "seed": 11,
+            "decay": 0.7,
+            "predelay": 0,
+            "cross": 80,
+            "lowcut": 300,
+            "highcut": 10000,
+            "wet": -4,
+            "dry": 0
+          }
+        }
+      ],
+      "space": null,
+      "volume": 0,
+      "note": "A big, dense room that is gone a moment after each hit, the eighties way: loud for a tenth of a second, quiet by the next sixteenth. The clap and snare keys (39, 38) suit it; keep it to the backbeat."
+    },
+    {
+      "name": "Soaring Saw Lead",
+      "family": "Synths",
+      "instrument": {
+        "synth": "Fat Mono",
+        "params": {
+          "cutoff": 2200,
+          "emphasis": 0.15,
+          "contour": 0.2,
+          "decay": 0.8,
+          "glide": 0.08,
+          "drive": 0.25
+        }
+      },
+      "inserts": [
+        {
+          "type": "chorus",
+          "params": {
+            "rate": 0.35,
+            "depth": 35,
+            "delay": 12,
+            "mix": 35
+          }
+        },
+        {
+          "type": "delay",
+          "params": {
+            "sync": 1,
+            "division": 4,
+            "feedback": 35,
+            "pingpong": 1,
+            "lowcut": 300,
+            "highcut": 6000,
+            "mix": 24
+          }
+        },
+        {
+          "type": "eq",
+          "params": {
+            "hpOn": 1,
+            "hpFreq": 250,
+            "b3Freq": 2500,
+            "b3Gain": -2.5,
+            "lpOn": 1,
+            "lpFreq": 9000
+          }
+        }
+      ],
+      "space": {
+        "name": "Night Hall",
+        "type": "space",
+        "params": {
+          "space": 12,
+          "decay": 1.6,
+          "predelay": 35,
+          "lowcut": 250,
+          "highcut": 12000
+        },
+        "send": -9
+      },
+      "volume": -6,
+      "note": "A gliding saw line for long notes high above a chorus: chorused, echoing in dotted eighths side to side, into a wide hall."
+    }
+  ]
+}
