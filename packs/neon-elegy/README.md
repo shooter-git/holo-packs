@@ -6,7 +6,8 @@ here leaves the voice's range (about 1.5 to 3 kHz) a little room.
 
 **Playing it:**
 - **Round Octave Bass** wants octaves: the root and the note an octave up together. Under **Clean 808
-  Boom**, tune the boom to the song's key and let the bass carry the harmony.
+  Boom**, tune the boom to the song's key and let the bass carry the harmony. For a fat low end, add
+  **Wide Bass Layer** on the root and fifth above it, and a clean sub an octave below.
 - **Gated Room Clap** belongs on the backbeat: its tail is cut short on purpose, so it stays big
   without washing over the next beat.
 - **Soaring Saw Lead** is for a few long notes high above a chorus; it glides between them.
@@ -18,8 +19,8 @@ here leaves the voice's range (about 1.5 to 3 kHz) a little room.
 | | |
 |---|---|
 | Id | `neon-elegy` |
-| Palette | Cinematic synth-pop: a round octave bass, a clean 808 boom, a gated-room clap and a soaring saw lead, voiced to sit together under a voice. |
-| Sounds | 4 |
+| Palette | Cinematic synth-pop: a round octave bass with a wide layer above it, a clean 808 boom, a gated-room clap and a soaring saw lead, voiced to sit together under a voice. |
+| Sounds | 5 |
 | Plays | [FreePats Synthesizer Percussion](../freepats-synth-percussion/), HO[LO] Desk's built-in synths |
 | Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and FreePats Synthesizer Percussion by the FreePats project (CC0). Each pack keeps its own license and credit. |
@@ -45,6 +46,7 @@ greyed out until then.
 | Sound | Plays | Through | Room | Level | |
 |---|---|---|---|---|---|
 | Round Octave Bass | FM Bass synth | Channel EQ | dry | −4 dB | Play it in octaves: a clean fundamental under a soft upper voice, all weight and no buzz, with just enough edge to carry on small speakers. |
+| Wide Bass Layer | Fat Poly synth | Chorus, Channel EQ, Stereo Width | dry | −8 dB | The layer that makes a bass fat: detuned saws, chorused and spread wide around 120–250 Hz, mono below. Play the root and fifth an octave or two above the bass, held through each chord, under a clean sub and the bass itself. |
 
 ### Synths
 
