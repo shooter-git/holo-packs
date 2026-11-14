@@ -5,10 +5,10 @@
  "name": "Headroom Piano (Yamaha C3)",
  "license": "CC-BY-4.0",
  "credit": "Headroom Piano by Bengt Nilsson (CC BY 4.0), mapped in FLAC by kinwie for the SFZ Instruments project: a Yamaha C3 grand from a close pair and a Decca tree. Mixed and trimmed for HO[LO]: each note ends where it falls to -58 dB.",
- "bytes": 512061828,
+ "bytes": 886213740,
  "source": {
   "kind": "mix",
-  "note": "Headroom Piano's samples (FLAC, at the pinned commit): its close pair and Decca tree mixed as the library plays them, each note kept until it falls to -58 dB (20 s at most) and faded there.",
+  "note": "Headroom Piano's samples (FLAC, at the pinned commit): its close pair and Decca tree mixed as the library plays them, and each kept apart, each note kept until it falls to -58 dB (20 s at most) and faded there.",
   "bases": {
    "hr": "https://raw.githubusercontent.com/sfzinstruments/BengtNilsson.HeadroomPiano/2a7df3f7252227a3484202c1d61bc1bfe352a971/Samples/"
   },
@@ -4965,6 +4965,1956 @@
     "frames": 30870,
     "fadeIn": 0,
     "fadeOut": 12348
+   },
+   "tree/21_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 506458,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/21_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 729042,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/21_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 821582,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/21_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/21_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 21.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/24_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 617419,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/24_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 823966,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/24_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/24_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/24_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 24.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/27_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 27.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 561895,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/27_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 27.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/27_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 27.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/27_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 27.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/27_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 27.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/30_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 30.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 774680,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/30_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 30.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 821997,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/30_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 30.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/30_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 30.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/30_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 30.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/33_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 33.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 795729,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/33_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 33.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/33_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 33.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/33_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 33.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/33_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 33.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/36_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 36.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 639986,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/36_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 36.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/36_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 36.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/36_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 36.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/36_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 36.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/39_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 39.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 659183,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/39_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 39.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/39_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 39.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/39_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 39.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/39_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 39.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/42_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 42.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/42_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 42.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/42_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 42.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/42_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 42.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/42_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 42.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/45_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 45.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 855295,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/45_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 45.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/45_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 45.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/45_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 45.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/45_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 45.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/48_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 48.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 728341,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/48_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 48.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/48_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 48.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 839063,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/48_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 48.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/48_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 48.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/51_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 51.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 734217,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/51_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 51.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 829809,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/51_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 51.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/51_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 51.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/51_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 51.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/54_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 54.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 550783,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/54_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 54.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 864214,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/54_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 54.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/54_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 54.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/54_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 54.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/57_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 57.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 725355,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/57_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 57.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 784170,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/57_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 57.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/57_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 57.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/57_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 57.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 796005,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/60_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 60.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 790864,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/60_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 60.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 580833,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/60_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 60.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/60_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 60.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/60_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 60.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/63_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 63.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 641734,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/63_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 63.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 765950,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/63_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 63.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/63_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 63.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/63_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 63.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/66_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 66.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 618035,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/66_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 66.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 724469,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/66_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 66.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 794650,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/66_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 66.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 861845,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/66_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 66.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/69_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 69.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 672731,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/69_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 69.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 713008,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/69_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 69.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 882000,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/69_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 69.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 841856,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/69_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 69.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 802620,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/72_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 72.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 619472,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/72_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 72.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 673630,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/72_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 72.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 830156,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/72_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 72.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 665702,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/72_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 72.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 820438,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/75_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 75.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 599672,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/75_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 75.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 613059,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/75_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 75.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 788667,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/75_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 75.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 699293,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/75_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 75.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 699164,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/78_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 78.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 432908,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/78_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 78.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 543767,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/78_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 78.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 611711,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/78_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 78.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 582045,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/78_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 78.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 635445,
+    "fadeIn": 0,
+    "fadeOut": 441
+   },
+   "tree/81_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 81.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 359415,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/81_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 81.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 465255,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/81_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 81.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 469665,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/81_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 81.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 366030,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/81_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 81.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 282240,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/84_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 84.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 346185,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/84_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 84.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 427770,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/84_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 84.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 460845,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/84_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 84.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 407925,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/84_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 84.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 416745,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/87_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 87.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 260190,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/87_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 87.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 465255,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/87_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 87.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 438795,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/87_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 87.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 418950,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/87_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 87.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 388080,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/90_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 90.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 229320,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/90_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 90.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 370440,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/90_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 90.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 297675,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/90_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 90.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 260190,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/90_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 90.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 218295,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/93_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 93.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 229320,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/93_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 93.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 280035,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/93_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 93.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 304290,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/93_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 93.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 302085,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/93_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 93.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 246960,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/96_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 96.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 187425,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/96_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 96.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 224910,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/96_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 96.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 266805,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/96_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 96.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 229320,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/96_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 96.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 244755,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/99_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 99.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 130095,
+    "fadeIn": 0,
+    "fadeOut": 52038
+   },
+   "tree/99_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 99.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 238140,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/99_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 99.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 224910,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/99_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 99.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 229320,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/99_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 99.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 180810,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/102_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 102.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 141120,
+    "fadeIn": 0,
+    "fadeOut": 56448
+   },
+   "tree/102_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 102.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 196245,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/102_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 102.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 202860,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/102_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 102.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 205065,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/102_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 102.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 178605,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/105_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 105.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 165375,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/105_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 105.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 180810,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/105_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 105.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 167580,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/105_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 105.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 196245,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/105_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 105.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 198450,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/108_v1.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL1 DECCA 108.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 154350,
+    "fadeIn": 0,
+    "fadeOut": 61740
+   },
+   "tree/108_v2.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL2 DECCA 108.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 183015,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/108_v3.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL3 DECCA 108.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 185220,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/108_v4.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL4 DECCA 108.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 178605,
+    "fadeIn": 0,
+    "fadeOut": 66150
+   },
+   "tree/108_v5.wav": {
+    "in": [
+     [
+      "hr:HEADROOM PIANO LEVEL5 DECCA 108.flac",
+      1,
+      1
+     ]
+    ],
+    "start": 0,
+    "frames": 187425,
+    "fadeIn": 0,
+    "fadeOut": 66150
    }
   }
  },
@@ -9799,6 +11749,5133 @@
      "rate": 44100,
      "rr": 0,
      "release": 0.12
+    }
+   ]
+  },
+  {
+   "name": "grand-mics",
+   "title": "Yamaha C3 Grand, Close and Tree",
+   "category": "Piano",
+   "pitched": true,
+   "release": 0.3,
+   "attack": 0,
+   "oneShot": false,
+   "velocityRange": 22.3,
+   "polyphony": 128,
+   "notePolyphony": 2,
+   "offTime": 0.12,
+   "undamped": 90,
+   "mics": [
+    {
+     "id": "close",
+     "name": "Close Pair"
+    },
+    {
+     "id": "tree",
+     "name": "Decca Tree",
+     "level": -6
+    }
+   ],
+   "zones": [
+    {
+     "file": "close/21_v1.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 246960,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "close"
+    },
+    {
+     "file": "tree/21_v1.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 506458,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "tree"
+    },
+    {
+     "file": "close/21_v2.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 291060,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "close"
+    },
+    {
+     "file": "tree/21_v2.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 729042,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "tree"
+    },
+    {
+     "file": "close/21_v3.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 383670,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "close"
+    },
+    {
+     "file": "tree/21_v3.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 821582,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "tree"
+    },
+    {
+     "file": "close/21_v4.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 493920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "close"
+    },
+    {
+     "file": "tree/21_v4.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "tree"
+    },
+    {
+     "file": "close/21_v5.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 643860,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "close"
+    },
+    {
+     "file": "tree/21_v5.wav",
+     "root": 21,
+     "lo": 0,
+     "hi": 22,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.5,
+     "mic": "tree"
+    },
+    {
+     "file": "close/24_v1.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 229320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "close"
+    },
+    {
+     "file": "tree/24_v1.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 617419,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "tree"
+    },
+    {
+     "file": "close/24_v2.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 346185,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "close"
+    },
+    {
+     "file": "tree/24_v2.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 823966,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "tree"
+    },
+    {
+     "file": "close/24_v3.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 423360,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "close"
+    },
+    {
+     "file": "tree/24_v3.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "tree"
+    },
+    {
+     "file": "close/24_v4.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 577710,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "close"
+    },
+    {
+     "file": "tree/24_v4.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "tree"
+    },
+    {
+     "file": "close/24_v5.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 637245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "close"
+    },
+    {
+     "file": "tree/24_v5.wav",
+     "root": 24,
+     "lo": 23,
+     "hi": 25,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.485,
+     "mic": "tree"
+    },
+    {
+     "file": "close/27_v1.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 244755,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "close"
+    },
+    {
+     "file": "tree/27_v1.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 561895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "tree"
+    },
+    {
+     "file": "close/27_v2.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 388080,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "close"
+    },
+    {
+     "file": "tree/27_v2.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "tree"
+    },
+    {
+     "file": "close/27_v3.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 509355,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "close"
+    },
+    {
+     "file": "tree/27_v3.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "tree"
+    },
+    {
+     "file": "close/27_v4.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 637245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "close"
+    },
+    {
+     "file": "tree/27_v4.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "tree"
+    },
+    {
+     "file": "close/27_v5.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 676935,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "close"
+    },
+    {
+     "file": "tree/27_v5.wav",
+     "root": 27,
+     "lo": 26,
+     "hi": 28,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.47,
+     "mic": "tree"
+    },
+    {
+     "file": "close/30_v1.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 244755,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "close"
+    },
+    {
+     "file": "tree/30_v1.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 774680,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "tree"
+    },
+    {
+     "file": "close/30_v2.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 449820,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "close"
+    },
+    {
+     "file": "tree/30_v2.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 821997,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "tree"
+    },
+    {
+     "file": "close/30_v3.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 586530,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "close"
+    },
+    {
+     "file": "tree/30_v3.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "tree"
+    },
+    {
+     "file": "close/30_v4.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 736470,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "close"
+    },
+    {
+     "file": "tree/30_v4.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "tree"
+    },
+    {
+     "file": "close/30_v5.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "close"
+    },
+    {
+     "file": "tree/30_v5.wav",
+     "root": 30,
+     "lo": 29,
+     "hi": 31,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.454,
+     "mic": "tree"
+    },
+    {
+     "file": "close/33_v1.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 149940,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "close"
+    },
+    {
+     "file": "tree/33_v1.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 795729,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "tree"
+    },
+    {
+     "file": "close/33_v2.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 493920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "close"
+    },
+    {
+     "file": "tree/33_v2.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "tree"
+    },
+    {
+     "file": "close/33_v3.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 564480,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "close"
+    },
+    {
+     "file": "tree/33_v3.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "tree"
+    },
+    {
+     "file": "close/33_v4.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 809235,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "close"
+    },
+    {
+     "file": "tree/33_v4.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "tree"
+    },
+    {
+     "file": "close/33_v5.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "close"
+    },
+    {
+     "file": "tree/33_v5.wav",
+     "root": 33,
+     "lo": 32,
+     "hi": 34,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.439,
+     "mic": "tree"
+    },
+    {
+     "file": "close/36_v1.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 284445,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "close"
+    },
+    {
+     "file": "tree/36_v1.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 639986,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "tree"
+    },
+    {
+     "file": "close/36_v2.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 346185,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "close"
+    },
+    {
+     "file": "tree/36_v2.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "tree"
+    },
+    {
+     "file": "close/36_v3.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 663705,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "close"
+    },
+    {
+     "file": "tree/36_v3.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "tree"
+    },
+    {
+     "file": "close/36_v4.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 844515,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "close"
+    },
+    {
+     "file": "tree/36_v4.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "tree"
+    },
+    {
+     "file": "close/36_v5.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "close"
+    },
+    {
+     "file": "tree/36_v5.wav",
+     "root": 36,
+     "lo": 35,
+     "hi": 37,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.424,
+     "mic": "tree"
+    },
+    {
+     "file": "close/39_v1.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 246960,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "close"
+    },
+    {
+     "file": "tree/39_v1.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 659183,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "tree"
+    },
+    {
+     "file": "close/39_v2.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 610785,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "close"
+    },
+    {
+     "file": "tree/39_v2.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "tree"
+    },
+    {
+     "file": "close/39_v3.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 612990,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "close"
+    },
+    {
+     "file": "tree/39_v3.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "tree"
+    },
+    {
+     "file": "close/39_v4.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 811440,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "close"
+    },
+    {
+     "file": "tree/39_v4.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "tree"
+    },
+    {
+     "file": "close/39_v5.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "close"
+    },
+    {
+     "file": "tree/39_v5.wav",
+     "root": 39,
+     "lo": 38,
+     "hi": 40,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.409,
+     "mic": "tree"
+    },
+    {
+     "file": "close/42_v1.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 185220,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "close"
+    },
+    {
+     "file": "tree/42_v1.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "tree"
+    },
+    {
+     "file": "close/42_v2.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 324135,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "close"
+    },
+    {
+     "file": "tree/42_v2.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "tree"
+    },
+    {
+     "file": "close/42_v3.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 601965,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "close"
+    },
+    {
+     "file": "tree/42_v3.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "tree"
+    },
+    {
+     "file": "close/42_v4.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 778365,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "close"
+    },
+    {
+     "file": "tree/42_v4.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "tree"
+    },
+    {
+     "file": "close/42_v5.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 844515,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "close"
+    },
+    {
+     "file": "tree/42_v5.wav",
+     "root": 42,
+     "lo": 41,
+     "hi": 43,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.394,
+     "mic": "tree"
+    },
+    {
+     "file": "close/45_v1.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 244755,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "close"
+    },
+    {
+     "file": "tree/45_v1.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 855295,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "tree"
+    },
+    {
+     "file": "close/45_v2.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 454230,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "close"
+    },
+    {
+     "file": "tree/45_v2.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "tree"
+    },
+    {
+     "file": "close/45_v3.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 654885,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "close"
+    },
+    {
+     "file": "tree/45_v3.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "tree"
+    },
+    {
+     "file": "close/45_v4.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 701190,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "close"
+    },
+    {
+     "file": "tree/45_v4.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "tree"
+    },
+    {
+     "file": "close/45_v5.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 820260,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "close"
+    },
+    {
+     "file": "tree/45_v5.wav",
+     "root": 45,
+     "lo": 44,
+     "hi": 46,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.378,
+     "mic": "tree"
+    },
+    {
+     "file": "close/48_v1.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 152145,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "close"
+    },
+    {
+     "file": "tree/48_v1.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 728341,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "tree"
+    },
+    {
+     "file": "close/48_v2.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 355005,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "close"
+    },
+    {
+     "file": "tree/48_v2.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "tree"
+    },
+    {
+     "file": "close/48_v3.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 429975,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "close"
+    },
+    {
+     "file": "tree/48_v3.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 839063,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "tree"
+    },
+    {
+     "file": "close/48_v4.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 458640,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "close"
+    },
+    {
+     "file": "tree/48_v4.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "tree"
+    },
+    {
+     "file": "close/48_v5.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 487305,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "close"
+    },
+    {
+     "file": "tree/48_v5.wav",
+     "root": 48,
+     "lo": 47,
+     "hi": 49,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.363,
+     "mic": "tree"
+    },
+    {
+     "file": "close/51_v1.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 79380,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "close"
+    },
+    {
+     "file": "tree/51_v1.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 734217,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "tree"
+    },
+    {
+     "file": "close/51_v2.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "close"
+    },
+    {
+     "file": "tree/51_v2.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 829809,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "tree"
+    },
+    {
+     "file": "close/51_v3.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "close"
+    },
+    {
+     "file": "tree/51_v3.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "tree"
+    },
+    {
+     "file": "close/51_v4.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 229320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "close"
+    },
+    {
+     "file": "tree/51_v4.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "tree"
+    },
+    {
+     "file": "close/51_v5.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 269010,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "close"
+    },
+    {
+     "file": "tree/51_v5.wav",
+     "root": 51,
+     "lo": 50,
+     "hi": 52,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.348,
+     "mic": "tree"
+    },
+    {
+     "file": "close/54_v1.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 134505,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "close"
+    },
+    {
+     "file": "tree/54_v1.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 550783,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "tree"
+    },
+    {
+     "file": "close/54_v2.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 163170,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "close"
+    },
+    {
+     "file": "tree/54_v2.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 864214,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "tree"
+    },
+    {
+     "file": "close/54_v3.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 178605,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "close"
+    },
+    {
+     "file": "tree/54_v3.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "tree"
+    },
+    {
+     "file": "close/54_v4.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 302085,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "close"
+    },
+    {
+     "file": "tree/54_v4.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "tree"
+    },
+    {
+     "file": "close/54_v5.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 584325,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "close"
+    },
+    {
+     "file": "tree/54_v5.wav",
+     "root": 54,
+     "lo": 53,
+     "hi": 55,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.333,
+     "mic": "tree"
+    },
+    {
+     "file": "close/57_v1.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 101430,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "close"
+    },
+    {
+     "file": "tree/57_v1.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 725355,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "tree"
+    },
+    {
+     "file": "close/57_v2.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 130095,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "close"
+    },
+    {
+     "file": "tree/57_v2.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 784170,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "tree"
+    },
+    {
+     "file": "close/57_v3.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 205065,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "close"
+    },
+    {
+     "file": "tree/57_v3.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "tree"
+    },
+    {
+     "file": "close/57_v4.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 238140,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "close"
+    },
+    {
+     "file": "tree/57_v4.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "tree"
+    },
+    {
+     "file": "close/57_v5.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 491715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "close"
+    },
+    {
+     "file": "tree/57_v5.wav",
+     "root": 57,
+     "lo": 56,
+     "hi": 58,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 796005,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.318,
+     "mic": "tree"
+    },
+    {
+     "file": "close/60_v1.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "close"
+    },
+    {
+     "file": "tree/60_v1.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 790864,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "tree"
+    },
+    {
+     "file": "close/60_v2.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 302085,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "close"
+    },
+    {
+     "file": "tree/60_v2.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 580833,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "tree"
+    },
+    {
+     "file": "close/60_v3.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 482895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "close"
+    },
+    {
+     "file": "tree/60_v3.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "tree"
+    },
+    {
+     "file": "close/60_v4.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 518175,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "close"
+    },
+    {
+     "file": "tree/60_v4.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "tree"
+    },
+    {
+     "file": "close/60_v5.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 533610,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "close"
+    },
+    {
+     "file": "tree/60_v5.wav",
+     "root": 60,
+     "lo": 59,
+     "hi": 61,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.302,
+     "mic": "tree"
+    },
+    {
+     "file": "close/63_v1.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "close"
+    },
+    {
+     "file": "tree/63_v1.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 641734,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "tree"
+    },
+    {
+     "file": "close/63_v2.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 85995,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "close"
+    },
+    {
+     "file": "tree/63_v2.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 765950,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "tree"
+    },
+    {
+     "file": "close/63_v3.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 92610,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "close"
+    },
+    {
+     "file": "tree/63_v3.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "tree"
+    },
+    {
+     "file": "close/63_v4.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 158760,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "close"
+    },
+    {
+     "file": "tree/63_v4.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "tree"
+    },
+    {
+     "file": "close/63_v5.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 163170,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "close"
+    },
+    {
+     "file": "tree/63_v5.wav",
+     "root": 63,
+     "lo": 62,
+     "hi": 64,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.287,
+     "mic": "tree"
+    },
+    {
+     "file": "close/66_v1.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "close"
+    },
+    {
+     "file": "tree/66_v1.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 618035,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "tree"
+    },
+    {
+     "file": "close/66_v2.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 110250,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "close"
+    },
+    {
+     "file": "tree/66_v2.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 724469,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "tree"
+    },
+    {
+     "file": "close/66_v3.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 119070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "close"
+    },
+    {
+     "file": "tree/66_v3.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 794650,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "tree"
+    },
+    {
+     "file": "close/66_v4.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 255780,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "close"
+    },
+    {
+     "file": "tree/66_v4.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 861845,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "tree"
+    },
+    {
+     "file": "close/66_v5.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 280035,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "close"
+    },
+    {
+     "file": "tree/66_v5.wav",
+     "root": 66,
+     "lo": 65,
+     "hi": 67,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.272,
+     "mic": "tree"
+    },
+    {
+     "file": "close/69_v1.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 57330,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "close"
+    },
+    {
+     "file": "tree/69_v1.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 672731,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "tree"
+    },
+    {
+     "file": "close/69_v2.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 178605,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "close"
+    },
+    {
+     "file": "tree/69_v2.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 713008,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "tree"
+    },
+    {
+     "file": "close/69_v3.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 205065,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "close"
+    },
+    {
+     "file": "tree/69_v3.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 882000,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "tree"
+    },
+    {
+     "file": "close/69_v4.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "close"
+    },
+    {
+     "file": "tree/69_v4.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 841856,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "tree"
+    },
+    {
+     "file": "close/69_v5.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 337365,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "close"
+    },
+    {
+     "file": "tree/69_v5.wav",
+     "root": 69,
+     "lo": 68,
+     "hi": 70,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 802620,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.257,
+     "mic": "tree"
+    },
+    {
+     "file": "close/72_v1.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "close"
+    },
+    {
+     "file": "tree/72_v1.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 619472,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "tree"
+    },
+    {
+     "file": "close/72_v2.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 295470,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "close"
+    },
+    {
+     "file": "tree/72_v2.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 673630,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "tree"
+    },
+    {
+     "file": "close/72_v3.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 304290,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "close"
+    },
+    {
+     "file": "tree/72_v3.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 830156,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "tree"
+    },
+    {
+     "file": "close/72_v4.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 313110,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "close"
+    },
+    {
+     "file": "tree/72_v4.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 665702,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "tree"
+    },
+    {
+     "file": "close/72_v5.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 366030,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "close"
+    },
+    {
+     "file": "tree/72_v5.wav",
+     "root": 72,
+     "lo": 71,
+     "hi": 73,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 820438,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.242,
+     "mic": "tree"
+    },
+    {
+     "file": "close/75_v1.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "close"
+    },
+    {
+     "file": "tree/75_v1.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 599672,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "tree"
+    },
+    {
+     "file": "close/75_v2.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 90405,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "close"
+    },
+    {
+     "file": "tree/75_v2.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 613059,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "tree"
+    },
+    {
+     "file": "close/75_v3.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 200655,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "close"
+    },
+    {
+     "file": "tree/75_v3.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 788667,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "tree"
+    },
+    {
+     "file": "close/75_v4.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 220500,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "close"
+    },
+    {
+     "file": "tree/75_v4.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 699293,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "tree"
+    },
+    {
+     "file": "close/75_v5.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 238140,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "close"
+    },
+    {
+     "file": "tree/75_v5.wav",
+     "root": 75,
+     "lo": 74,
+     "hi": 76,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 699164,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.226,
+     "mic": "tree"
+    },
+    {
+     "file": "close/78_v1.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 52920,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "close"
+    },
+    {
+     "file": "tree/78_v1.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 432908,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "tree"
+    },
+    {
+     "file": "close/78_v2.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 171990,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "close"
+    },
+    {
+     "file": "tree/78_v2.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 543767,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "tree"
+    },
+    {
+     "file": "close/78_v3.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 178605,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "close"
+    },
+    {
+     "file": "tree/78_v3.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 611711,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "tree"
+    },
+    {
+     "file": "close/78_v4.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 187425,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "close"
+    },
+    {
+     "file": "tree/78_v4.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 582045,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "tree"
+    },
+    {
+     "file": "close/78_v5.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "close"
+    },
+    {
+     "file": "tree/78_v5.wav",
+     "root": 78,
+     "lo": 77,
+     "hi": 79,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 635445,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.211,
+     "mic": "tree"
+    },
+    {
+     "file": "close/81_v1.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 119070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "close"
+    },
+    {
+     "file": "tree/81_v1.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 359415,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "tree"
+    },
+    {
+     "file": "close/81_v2.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 136710,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "close"
+    },
+    {
+     "file": "tree/81_v2.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 465255,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "tree"
+    },
+    {
+     "file": "close/81_v3.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 141120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "close"
+    },
+    {
+     "file": "tree/81_v3.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 469665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "tree"
+    },
+    {
+     "file": "close/81_v4.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "close"
+    },
+    {
+     "file": "tree/81_v4.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 366030,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "tree"
+    },
+    {
+     "file": "close/81_v5.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 160965,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "close"
+    },
+    {
+     "file": "tree/81_v5.wav",
+     "root": 81,
+     "lo": 80,
+     "hi": 82,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 282240,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.196,
+     "mic": "tree"
+    },
+    {
+     "file": "close/84_v1.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 39690,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "close"
+    },
+    {
+     "file": "tree/84_v1.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 346185,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "tree"
+    },
+    {
+     "file": "close/84_v2.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 59535,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "close"
+    },
+    {
+     "file": "tree/84_v2.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 427770,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "tree"
+    },
+    {
+     "file": "close/84_v3.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 119070,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "close"
+    },
+    {
+     "file": "tree/84_v3.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 460845,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "tree"
+    },
+    {
+     "file": "close/84_v4.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 127890,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "close"
+    },
+    {
+     "file": "tree/84_v4.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 407925,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "tree"
+    },
+    {
+     "file": "close/84_v5.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 132300,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "close"
+    },
+    {
+     "file": "tree/84_v5.wav",
+     "root": 84,
+     "lo": 83,
+     "hi": 85,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 416745,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.181,
+     "mic": "tree"
+    },
+    {
+     "file": "close/87_v1.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "close"
+    },
+    {
+     "file": "tree/87_v1.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 260190,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "tree"
+    },
+    {
+     "file": "close/87_v2.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 61740,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "close"
+    },
+    {
+     "file": "tree/87_v2.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 465255,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "tree"
+    },
+    {
+     "file": "close/87_v3.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 63945,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "close"
+    },
+    {
+     "file": "tree/87_v3.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 438795,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "tree"
+    },
+    {
+     "file": "close/87_v4.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 74970,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "close"
+    },
+    {
+     "file": "tree/87_v4.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 418950,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "tree"
+    },
+    {
+     "file": "close/87_v5.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 83790,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "close"
+    },
+    {
+     "file": "tree/87_v5.wav",
+     "root": 87,
+     "lo": 86,
+     "hi": 88,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 388080,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.166,
+     "mic": "tree"
+    },
+    {
+     "file": "close/90_v1.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 50715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "close"
+    },
+    {
+     "file": "tree/90_v1.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 229320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "tree"
+    },
+    {
+     "file": "close/90_v2.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 61740,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "close"
+    },
+    {
+     "file": "tree/90_v2.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 370440,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "tree"
+    },
+    {
+     "file": "close/90_v3.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 63945,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "close"
+    },
+    {
+     "file": "tree/90_v3.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 297675,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "tree"
+    },
+    {
+     "file": "close/90_v4.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 66150,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "close"
+    },
+    {
+     "file": "tree/90_v4.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 260190,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "tree"
+    },
+    {
+     "file": "close/90_v5.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 70560,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "close"
+    },
+    {
+     "file": "tree/90_v5.wav",
+     "root": 90,
+     "lo": 89,
+     "hi": 91,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 218295,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.15,
+     "mic": "tree"
+    },
+    {
+     "file": "close/93_v1.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "close"
+    },
+    {
+     "file": "tree/93_v1.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 229320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "tree"
+    },
+    {
+     "file": "close/93_v2.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "close"
+    },
+    {
+     "file": "tree/93_v2.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 280035,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "tree"
+    },
+    {
+     "file": "close/93_v3.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 41895,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "close"
+    },
+    {
+     "file": "tree/93_v3.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 304290,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "tree"
+    },
+    {
+     "file": "close/93_v4.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 63945,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "close"
+    },
+    {
+     "file": "tree/93_v4.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 302085,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "tree"
+    },
+    {
+     "file": "close/93_v5.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 66150,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "close"
+    },
+    {
+     "file": "tree/93_v5.wav",
+     "root": 93,
+     "lo": 92,
+     "hi": 94,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 246960,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.135,
+     "mic": "tree"
+    },
+    {
+     "file": "close/96_v1.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 48510,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/96_v1.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 187425,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/96_v2.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 50715,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/96_v2.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 224910,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/96_v3.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 68355,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/96_v3.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 266805,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/96_v4.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 72765,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/96_v4.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 229320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/96_v5.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 74970,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/96_v5.wav",
+     "root": 96,
+     "lo": 95,
+     "hi": 97,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 244755,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/99_v1.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/99_v1.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 130095,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/99_v2.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/99_v2.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 238140,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/99_v3.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/99_v3.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 224910,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/99_v4.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/99_v4.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 229320,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/99_v5.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 37485,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/99_v5.wav",
+     "root": 99,
+     "lo": 98,
+     "hi": 100,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 180810,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/102_v1.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/102_v1.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 141120,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/102_v2.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/102_v2.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/102_v3.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/102_v3.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 202860,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/102_v4.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 33075,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/102_v4.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 205065,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/102_v5.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/102_v5.wav",
+     "root": 102,
+     "lo": 101,
+     "hi": 103,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 178605,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/105_v1.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/105_v1.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 165375,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/105_v2.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 28665,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/105_v2.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 180810,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/105_v3.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/105_v3.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 167580,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/105_v4.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/105_v4.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 196245,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/105_v5.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 35280,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/105_v5.wav",
+     "root": 105,
+     "lo": 104,
+     "hi": 106,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 198450,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/108_v1.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/108_v1.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 1,
+     "hivel": 34,
+     "gain": 16.66,
+     "start": 0,
+     "end": 154350,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/108_v2.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/108_v2.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 35,
+     "hivel": 65,
+     "gain": 9.35,
+     "start": 0,
+     "end": 183015,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/108_v3.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 26460,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/108_v3.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 66,
+     "hivel": 86,
+     "gain": 5.74,
+     "start": 0,
+     "end": 185220,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/108_v4.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/108_v4.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 87,
+     "hivel": 106,
+     "gain": 1.81,
+     "start": 0,
+     "end": 178605,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
+    },
+    {
+     "file": "close/108_v5.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 30870,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "close"
+    },
+    {
+     "file": "tree/108_v5.wav",
+     "root": 108,
+     "lo": 107,
+     "hi": 127,
+     "lovel": 107,
+     "hivel": 127,
+     "gain": -1.21,
+     "start": 0,
+     "end": 187425,
+     "loopStart": 0,
+     "loopEnd": 0,
+     "rate": 44100,
+     "rr": 0,
+     "release": 0.12,
+     "mic": "tree"
     }
    ]
   }

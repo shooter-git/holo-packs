@@ -51,7 +51,7 @@ version…) are listed with it, and every pack links to its own page.
 | [FreePats Synthesizer Percussion](packs/freepats-synth-percussion/) | Drum kits | 1 | 2 MB | CC0 1.0 |
 | [FreePats Upright Piano KW](packs/freepats-upright/) | Pianos and keys | 1 | 86 MB | CC0 1.0 |
 | [Greg Sullivan E-Pianos (CP80, Pianet T, Wurlitzer)](packs/epianos/) | Pianos and keys | 3 | 78 MB | CC BY 3.0 |
-| [Headroom Piano (Yamaha C3)](packs/headroom/) | Pianos and keys | 2 | 512 MB | CC BY 4.0 |
+| [Headroom Piano (Yamaha C3)](packs/headroom/) | Pianos and keys | 3 | 886 MB | CC BY 4.0 |
 | [Heavy Kit (DrumGizmo MuldjordKit)](packs/heavy-kit/) | Drum kits | 1 | 185 MB | CC BY 4.0 |
 | [Javanese Gamelan (Casa da Música)](packs/gamelan-java/) | Percussion, Tuned percussion | 27 | 363 MB | Artistic License 2.0 |
 | [Javanese Gongs (OLPC)](packs/java-gongs/) | Percussion | 1 | 8 MB | CC BY 3.0 |
@@ -139,7 +139,7 @@ version…) are listed with it, and every pack links to its own page.
 | Upright Piano |  | [VSCO 2 Community Edition](packs/vsco2/) |
 | Wurlitzer Chorus |  | [Vintage Keys (Greg Sullivan, FreePats)](packs/vintage-keys/) |
 | Wurlitzer EP200 |  | [Greg Sullivan E-Pianos (CP80, Pianet T, Wurlitzer)](packs/epianos/) |
-| Yamaha C3 Grand | Close | [Headroom Piano (Yamaha C3)](packs/headroom/) |
+| Yamaha C3 Grand | Close, Close and Tree | [Headroom Piano (Yamaha C3)](packs/headroom/) |
 | Yamaha C5 Grand | Light | [Salamander Grand Piano (Yamaha C5)](packs/salamander/) |
 | Yamaha CP80 Electric Grand |  | [Greg Sullivan E-Pianos (CP80, Pianet T, Wurlitzer)](packs/epianos/) |
 

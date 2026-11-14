@@ -3,10 +3,13 @@
 // packs/headroom/pack.json and packs/headroom/files.sha256.
 //
 // A Yamaha C3 grand recorded from two places at once, a close pair and a Decca tree, in five velocity
-// layers every minor third from A0. Two instruments:
+// layers every minor third from A0. Three instruments:
 // - *Yamaha C3 Grand*: both, as the library plays them unless told otherwise (the close pair at full
 //   level, the tree at half), mixed into one stereo file a note;
-// - *Yamaha C3 Grand, Close*: the close pair alone, drier and nearer.
+// - *Yamaha C3 Grand, Close*: the close pair alone, drier and nearer;
+// - *Yamaha C3 Grand, Close and Tree*: both as microphones of their own, each with a level in the
+//   instrument's window, starting as the library plays them (so it first sounds as the first does). Its
+//   close pair plays the files the second plays.
 // The layers are measured and set where one velocity curve meets them, each instrument's loudest at
 // -16.4 dB (as the Steinway's); each note is kept until it falls to -58 dB (20 s at most) and faded there.
 import { join } from 'node:path';
@@ -36,6 +39,19 @@ const notes = (mics) =>
       release: damperTime(key),
     })),
   );
+/** Each note's two microphones' recordings, for the instrument that keeps them apart. */
+const hits = () =>
+  KEYS.flatMap((key) =>
+    [1, 2, 3, 4, 5].map((layer) => ({
+      mics: { close: file(layer, 'CLOSE', key), tree: file(layer, 'DECCA', key) },
+      file: `${key}_v${layer}`,
+      root: key,
+      lo: key === 21 ? 0 : key - 1,
+      hi: key === 108 ? 127 : key + 1,
+      layer,
+      release: damperTime(key),
+    })),
+  );
 const playing = { release: 0.3, attack: 0, oneShot: false, polyphony: 128, notePolyphony: 2, offTime: 0.12, undamped: 90 };
 const tail = { floor: -58, cap: 20, fade: 1.5 };
 
@@ -46,7 +62,7 @@ await buildInstruments({
   credit:
     'Headroom Piano by Bengt Nilsson (CC BY 4.0), mapped in FLAC by kinwie for the SFZ Instruments project: a Yamaha ' +
     'C3 grand from a close pair and a Decca tree. Mixed and trimmed for HO[LO]: each note ends where it falls to -58 dB.',
-  note: "Headroom Piano's samples (FLAC, at the pinned commit): its close pair and Decca tree mixed as the library plays them, each note kept until it falls to -58 dB (20 s at most) and faded there.",
+  note: "Headroom Piano's samples (FLAC, at the pinned commit): its close pair and Decca tree mixed as the library plays them, and each kept apart, each note kept until it falls to -58 dB (20 s at most) and faded there.",
   downloads,
   level: -16.4,
   instruments: [
@@ -68,6 +84,19 @@ await buildInstruments({
       category: 'Piano',
       folder: 'close',
       samples: notes([['CLOSE', 1]]),
+      tail,
+      playing,
+    },
+    {
+      name: 'grand-mics',
+      title: 'Yamaha C3 Grand, Close and Tree',
+      category: 'Piano',
+      // the library's own balance to start: the close pair at full level, the tree at half
+      mics: [
+        { id: 'close', name: 'Close Pair', folder: 'close' },
+        { id: 'tree', name: 'Decca Tree', level: -6, folder: 'tree' },
+      ],
+      samples: hits(),
       tail,
       playing,
     },
