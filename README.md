@@ -85,7 +85,7 @@ version…) are listed with it, and every pack links to its own page.
 | [Singing Bowls (OLPC)](packs/singing-bowls/) | Tuned percussion | 1 | 8 MB | CC BY 3.0 |
 | [Sonic Pi Samples](packs/sonic-pi/) | Percussion, Other | 9 | 91 MB | CC0 1.0 |
 | [Soul Kit (Karoryfer Unruly Drums)](packs/soul-kit/) | Drum kits | 1 | 222 MB | CC0 1.0 |
-| [Steinway Model D (bitKlavier Grand)](packs/steinway/) | Pianos and keys | 3 | 1.2 GB | CC BY 4.0 |
+| [Steinway Model D (bitKlavier Grand)](packs/steinway/) | Pianos and keys | 4 | 1.2 GB | CC BY 4.0 |
 | [Studio Kit (Karoryfer Unruly Drums)](packs/studio-kit/) | Drum kits | 1 | 143 MB | CC0 1.0 |
 | [Tabla (OLPC, Sonic Pi)](packs/tabla/) | Percussion | 2 | 4 MB | CC BY 3.0 |
 | [University of Iowa MIS: Brass](packs/iowa-brass/) | Brass | 6 | 170 MB | Free to use without restriction |
@@ -128,7 +128,7 @@ version…) are listed with it, and every pack links to its own page.
 | Honky-tonk Upright |  | [Vintage Keys (Greg Sullivan, FreePats)](packs/vintage-keys/) |
 | Organ | Soft, Pedal, Pedal (Soft) | [VSCO 2 Community Edition](packs/vsco2/) |
 | Stage Piano Layer (CP80 and Upright) |  | [Vintage Keys (Greg Sullivan, FreePats)](packs/vintage-keys/) |
-| Steinway D Grand | Light, Close | [Steinway Model D (bitKlavier Grand)](packs/steinway/) |
+| Steinway D Grand | Light, Close, Stage and Close | [Steinway Model D (bitKlavier Grand)](packs/steinway/) |
 | Transistor Organ Clarinet |  | [Karoryfer Caveman Cosmonaut (Transistor Organ)](packs/caveman-cosmonaut/) |
 | Transistor Organ Flutes |  | [Karoryfer Caveman Cosmonaut (Transistor Organ)](packs/caveman-cosmonaut/) |
 | Transistor Organ Tremolo |  | [Karoryfer Caveman Cosmonaut (Transistor Organ)](packs/caveman-cosmonaut/) |
