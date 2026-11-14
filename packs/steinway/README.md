@@ -20,6 +20,13 @@ This pack takes two of those positions:
 - **Piano Bar** (*Steinway D Grand, Close*): microphones inside the piano. Close, a player's
   perspective, no room.
 
+*Steinway D Grand, Stage and Close* plays both positions at once, each a microphone with a level in the
+instrument's window, turned while it plays. bitKlavier recorded its positions at once, so a note's two
+takes are one strike heard from two places (their files are as long, often to the byte, and their
+strings beat in step): each note is measured as the two sound together, both at 0 dB as recorded, and
+set on one velocity curve, so a key always sounds the same strike from both. It plays the files the
+other two play, so it adds nothing to the download, but both positions load, whatever their levels.
+
 Its notes ring for up to 74 seconds. Each is kept until it falls to −58 dB, with a fade over its last
 second or so and 20 s at most, which is what a device has to hold. Nothing else changes: the files are
 the library's 44.1 kHz 16-bit release, bit for bit, up to the fade.
@@ -45,12 +52,12 @@ the credit in its Library, and an experience's pinned `packs.json` carries it.
 | Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | bitKlavier Grand Sample Library by Matthew Wang, Andrés Villalta, Jeffrey Gordon, Katie Chou, Christien Ayers and Daniel Trueman, Princeton University (CC BY 4.0, doi:10.34770/csaa-6a71 and doi:10.34770/r75s-9j74): a Steinway D recorded in Taplin Auditorium in 2021. Trimmed for HO[LO]: each note ends where it falls to -58 dB. |
 | Size | 1.2 GB on disk, 1324 sample files |
-| Instruments | 3 |
+| Instruments | 4 |
 | Install | the studio's Library, **More packs → Steinway Model D (bitKlavier Grand)**, or `pnpm packs install steinway` |
 
 ## Where its files come from
 
-Made from 1324 recordings, fetched from <https://g-ef94ef.f0ad1.36fe.data.globus.org/10.34770/csaa-6a71/403/bitKlavierGrand_StageLidORTF_44k16b/> and <https://g-ef94ef.f0ad1.36fe.data.globus.org/10.34770/r75s-9j74/36/bitKlavierGrand_PianoBar_44k16b/>. Each file is made from its recordings by fixed arithmetic (a note trimmed and faded, a drum hit mixed from its microphones), the same in every install, so every install makes the same bytes, each checked against `files.sha256`. [`recipe.mjs`](recipe.mjs) wrote this map; run it again to make it anew.
+Made from 1324 recordings, fetched from <https://g-ef94ef.f0ad1.36fe.data.globus.org/10.34770/csaa-6a71/403/bitKlavierGrand_StageLidORTF_44k16b/> and <https://g-ef94ef.f0ad1.36fe.data.globus.org/10.34770/r75s-9j74/36/bitKlavierGrand_PianoBar_44k16b/>. Each file is made from its recordings by fixed arithmetic (a note trimmed and faded, mixed from its microphones or each of them a file of its own), the same in every install, so every install makes the same bytes, each checked against `files.sha256`. [`recipe.mjs`](recipe.mjs) wrote this map; run it again to make it anew.
 
 ## Instruments
 
@@ -59,3 +66,13 @@ Made from 1324 recordings, fetched from <https://g-ef94ef.f0ad1.36fe.data.globus
 | Steinway D Grand | `steinway/grand` | Pianos and keys | A0–C8 | 16 | 1 | release samples, undamped from F#6 |
 | Steinway D Grand, Light | `steinway/grand-light` | Pianos and keys | A0–C8 | 8 | 1 | release samples, undamped from F#6 |
 | Steinway D Grand, Close | `steinway/grand-close` | Pianos and keys | A0–C8 | 16 | 1 | release samples, undamped from F#6 |
+| Steinway D Grand, Stage and Close | `steinway/grand-mics` | Pianos and keys | A0–C8 | 16 | 1 | release samples, undamped from F#6, 2 microphones, each with its own level |
+
+## Steinway D Grand, Stage and Close's microphones
+
+Each note sounds every microphone together, one strike heard from each place. Each has a knob in the instrument's window, turned while it plays; they start as the library mixes them, or as recorded where it has no mixer.
+
+| Microphone | Id | Starts at | Recorded |
+|---|---|---|---|
+| Stage Lid ORTF | `stage` | 0 dB | stereo |
+| Piano Bar | `bar` | 0 dB | stereo |

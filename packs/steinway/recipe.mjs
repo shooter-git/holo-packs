@@ -14,6 +14,12 @@
 // The layers were recorded and balanced by bitKlavier to divide the piano's dynamic range evenly; here
 // each is measured (its loudness, as BS.1770 weighs it) and set where the velocity curve meets it, so a
 // key played harder gets louder smoothly and changes timbre at each layer, as the piano does.
+//
+// bitKlavier recorded its positions at once: the two positions' takes of a note are one strike (their
+// files are as long, often to the byte, and their strings beat in step). So a third instrument plays
+// both, each position a microphone with its own level in the instrument's window, from the files the
+// first two play: each note measured as the two sound together (both at 0 dB, as recorded) and set on
+// one velocity curve, so a key sounds the same strike from both places.
 import { join } from 'node:path';
 import {
   arg,
@@ -82,6 +88,8 @@ const downloads = new Downloads(cache, bases);
 const files = {};
 const instruments = [];
 const memory = [];
+/** Each position's notes, for the instrument that plays both. */
+const positions = [];
 
 for (const image of IMAGES) {
   console.log(`${image.title} (${image.tag}):`);
@@ -254,6 +262,7 @@ for (const image of IMAGES) {
     offTime: 0.12,
     undamped: UNDAMPED,
   };
+  positions.push({ image, sustain, harm, rel, pedal, made, dl, decayOf });
   const full = { name: image.name, title: image.title, ...playing, zones: [...struck(ALL), ...releases, ...pedals] };
   instruments.push(full);
   memory.push(`${image.title}: ${memoryMb(full.zones).toFixed(0)} MB`);
@@ -271,6 +280,100 @@ for (const image of IMAGES) {
     instruments.push(light);
     memory.push(`${image.light.title}: ${memoryMb(light.zones).toFixed(0)} MB`);
   }
+}
+
+// both positions as one instrument: each a microphone, every note sounding one strike from both
+{
+  const MICS = [
+    { id: 'stage', name: 'Stage Lid ORTF' },
+    { id: 'bar', name: 'Piano Bar' },
+  ];
+  const [stage, bar] = positions;
+  /** A note's loudness as its two positions sound together (each at 0 dB). */
+  const together = (canonical) => {
+    const [a, b] = [stage, bar].map((p) => downloads.decoded(p.dl(canonical)).channels);
+    const n = Math.min(a[0].length, b[0].length, RATE);
+    return loudness([0, 1].map((c) => Float32Array.from({ length: n }, (_, i) => a[c][i] + b[c][i])), RATE, 0, 0.4);
+  };
+  const layerLevel = (list, k) => {
+    const of = list.filter((s) => s.layer === k);
+    return of.reduce((a, s) => a + together(s.canonical), 0) / of.length;
+  };
+  const levels = Array.from({ length: 16 }, (_, i) => layerLevel(stage.sustain, i + 1));
+  // the pair's loudest layer where each position's is
+  const target = IMAGES[0].target;
+  const spread = spreadLayers(levels, { target });
+  const offset = target - spread.ref;
+  const harmLevels = [1, 2, 3].map((k) => layerLevel(stage.harm, k));
+  const harmSpread = spreadLayers(harmLevels, { target: spreadLayers(harmLevels).ref + offset });
+  console.log(
+    `Both positions: layers ${levels[0].toFixed(1)} to ${levels[15].toFixed(1)} dB together, velocity range ` +
+      `${spread.range.toFixed(1)} dB; ring-offs ${harmLevels.map((l) => l.toFixed(1)).join(' ')}`,
+  );
+  const keyRange = (key) => [key === 21 ? 0 : key - 1, key === 108 ? 127 : key + 1];
+  // each of a note's zones (one a position), alike but for its file, its end and its microphone
+  const both = (pick, zoneOf) =>
+    [stage, bar].map((p, i) => ({ ...zoneOf(pick(p)), file: p.made(pick(p).canonical), end: pick(p).end, mic: MICS[i].id }));
+  const find = (list, s) => list.find((x) => x.canonical === s.canonical);
+  const base = (s) => ({ root: s.key, start: 0, loopStart: 0, loopEnd: 0, rate: RATE, rr: 0 });
+  const zones = [];
+  for (const s of [...stage.sustain].sort((a, b) => a.key - b.key || a.layer - b.layer)) {
+    const v = spread.layers[s.layer - 1];
+    const [lo, hi] = keyRange(s.key);
+    zones.push(
+      ...both(
+        (p) => find(p.sustain, s),
+        (x) => ({ ...base(x), lo, hi, lovel: v.lovel, hivel: v.hivel, gain: round(v.gain), release: damperTime(x.key) }),
+      ),
+    );
+  }
+  for (const s of [...stage.harm].sort((a, b) => a.key - b.key || a.layer - b.layer)) {
+    const v = harmSpread.layers[s.layer - 1];
+    const [lo, hi] = keyRange(s.key);
+    // the strings ring off as the stage pair heard them fade (one piano, one rate)
+    const decay = round(Math.min(20, Math.max(0.5, stage.decayOf.get(s.key) ?? 4)));
+    zones.push(
+      ...both(
+        (p) => find(p.harm, s),
+        (x) => ({ ...base(x), lo, hi, lovel: v.lovel, hivel: v.hivel, gain: round(v.gain), trigger: 'release', decay }),
+      ),
+    );
+  }
+  for (const s of [...stage.rel].sort((a, b) => a.key - b.key)) {
+    zones.push(
+      ...both(
+        (p) => find(p.rel, s),
+        (x) => ({ ...base(x), lo: x.key, hi: x.key, lovel: 1, hivel: 127, gain: round(offset), trigger: 'release', part: 1, decay: 0 }),
+      ),
+    );
+  }
+  for (const s of [...stage.pedal].sort((a, b) => Number(b.down) - Number(a.down) || a.rr - b.rr)) {
+    zones.push(
+      ...both(
+        (p) => find(p.pedal, s),
+        (x) => ({ ...base(x), root: 60, lo: 0, hi: 127, lovel: 1, hivel: 127, gain: round(offset), rr: x.rr, trigger: x.down ? 'pedalDown' : 'pedalUp' }),
+      ),
+    );
+  }
+  const mixed = {
+    name: 'grand-mics',
+    title: 'Steinway D Grand, Stage and Close',
+    category: 'Piano',
+    pitched: true,
+    release: 0.3,
+    attack: 0,
+    oneShot: false,
+    velocityRange: round(spread.range),
+    releaseVelocityRange: round(harmSpread.range),
+    polyphony: 128,
+    notePolyphony: 2,
+    offTime: 0.12,
+    undamped: UNDAMPED,
+    mics: MICS,
+    zones,
+  };
+  instruments.push(mixed);
+  memory.push(`${mixed.title}: ${memoryMb(zones).toFixed(0)} MB`);
 }
 
 function round(x) {

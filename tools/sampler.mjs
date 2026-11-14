@@ -190,7 +190,13 @@ function tailOf(m, tail) {
  * Each instrument: { name, title, category, pitched, playing ({ release, attack, oneShot, polyphony,
  * … }), samples, tail ({ floor, cap, fade, after, keep }), trim (start just before the attack), range
  * (its velocity curve, dB), level, peak, levelAs (share another instrument's offset), folder (for the
- * files made), sharesFiles (another instrument's files, cut its own way: a lighter version) }.
+ * files made), sharesFiles (another instrument's files, cut its own way: a lighter version), mics }.
+ *
+ * `mics` ([{ id, name, level (dB it starts at), folder (where its files go: <folder>/<mic id> unless
+ * given) }]) makes an instrument whose notes sound every microphone together, each with its own level
+ * in the instrument's window. Its samples are hits, `mics` naming each microphone's recording ({ id:
+ * download }): a hit is measured (and levelled) as its microphones sound together at their starting
+ * levels, and each microphone's recording is a file of its own, from the hit's start to its own tail.
  *
  * Each sample: { download, root, lo, hi, layer (any number: louder layers higher, or as measured),
  * rr, trigger, decay, part, release, group, offBy, gain (dB more), loop ([start, end] frames: a looped
@@ -200,6 +206,19 @@ function tailOf(m, tail) {
 export async function buildInstruments(spec) {
   const downloads = spec.downloads;
   const mode = spec.mode ?? 'mix';
+  // a multi-microphone instrument's hits: measured as their microphones sound together as they start
+  for (const inst of spec.instruments) {
+    if (!inst.mics) continue;
+    if (mode === 'git') throw new Error(`${inst.name}: microphones are files made from recordings (mode 'mix')`);
+    if (inst.trim) throw new Error(`${inst.name}: a hit's microphones start together, so they can't be trimmed`);
+    for (const s of inst.samples) {
+      if (!s.mics) throw new Error(`${inst.name}: ${s.file ?? s.root} names no microphones' recordings`);
+      s.inputs = inst.mics.map((m) => {
+        const g = 10 ** ((m.level ?? 0) / 20);
+        return [s.mics[m.id], g, g];
+      });
+    }
+  }
   const names = [...new Set(spec.instruments.flatMap((i) => i.samples.flatMap((s) => inputsOf(s).map(([n]) => n))))];
   console.log(`${spec.name}: ${names.length} recordings`);
   await downloads.all(names);
@@ -234,6 +253,21 @@ export async function buildInstruments(spec) {
         measured.set(key, m);
       }
       s.m = measured.get(key);
+      // each microphone's own recording: its tail (from the hit's start), and whether it's mono
+      if (inst.mics) {
+        s.micM = {};
+        for (const mic of inst.mics) {
+          const one = { download: s.mics[mic.id], offset: s.offset, end: s.end };
+          const k = `${JSON.stringify(inputsOf(one))}|${s.offset ?? 0}|${s.end ?? ''}|0`;
+          if (!measured.has(k)) {
+            const m = measure(downloads, one, inst);
+            m.tail = s.trigger ? { end: m.frames - m.start, fade: 0 } : tailOf(m, tail);
+            m.decoded = null;
+            measured.set(k, m);
+          }
+          s.micM[mic.id] = measured.get(k);
+        }
+      }
     }
     if (measured.size % 50 === 0) console.log(`  measured ${measured.size}`);
   }
@@ -320,6 +354,44 @@ export async function buildInstruments(spec) {
         hivel = v.hivel;
         gain = v.gain + (s.gain ?? 0);
       }
+      if (inst.mics) {
+        // the hit's microphones: each a file of its own, at the hit's velocities and level
+        const named = s.file ?? inputsOf(s)[0][0];
+        const stem = basename(named.slice(named.indexOf(':') + 1), extname(named));
+        for (const mic of inst.mics) {
+          const mm = s.micM[mic.id];
+          const file = `${mic.folder ?? `${inst.folder ?? inst.name}/${mic.id}`}/${stem}.wav`;
+          const recipe = {
+            in: [[s.mics[mic.id], 1, 1]],
+            start: mm.start,
+            frames: mm.tail.end,
+            fadeIn: 0,
+            fadeOut: mm.tail.fade,
+            ...(mm.mono ? { mono: true } : {}),
+          };
+          const had = files[file];
+          if (had && JSON.stringify(had) !== JSON.stringify(recipe)) throw new Error(`${file} is made two ways`);
+          files[file] = recipe;
+          zones.push({
+            file,
+            root: s.root,
+            lo: s.lo,
+            hi: s.hi,
+            lovel,
+            hivel,
+            gain: round(gain),
+            start: 0,
+            end: mm.tail.end,
+            loopStart: 0,
+            loopEnd: 0,
+            rate: mm.rate,
+            rr: s.rr ?? 0,
+            ...ext,
+            mic: mic.id,
+          });
+        }
+        continue;
+      }
       const { end, fade } = m.tail;
       let file;
       let start = m.start;
@@ -380,6 +452,7 @@ export async function buildInstruments(spec) {
       oneShot: false,
       velocityRange: range,
       ...(inst.playing ?? {}),
+      ...(inst.mics ? { mics: inst.mics.map((m) => ({ id: m.id, name: m.name, ...(m.level ? { level: m.level } : {}) })) } : {}),
       zones,
     };
     if (inst.pads) instrument.pads = inst.pads;
