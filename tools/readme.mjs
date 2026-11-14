@@ -142,6 +142,9 @@ function traits(i) {
 /** dB as the page shows it ("−14 dB", "off"). */
 const db = (x) => (x <= -60 ? 'off' : `${x < 0 ? '−' : ''}${Math.abs(Math.round(x * 10) / 10)} dB`);
 
+/** A drum kit (its pieces on pads), as against a played instrument. */
+const isKit = (i) => !!i.pads?.length || i.pitched === false;
+
 /** Where a mono microphone sits ("centre", "30% left"). */
 const place = (pan) => (!pan ? 'centre' : `${Math.round(Math.abs(pan) * 100)}% ${pan < 0 ? 'left' : 'right'}`);
 
@@ -211,13 +214,15 @@ function source(pack, hasRecipe) {
         (a) => `the archive <${encodeURI(a.url)}> (sha256 \`${a.sha256.slice(0, 12)}…\`)`,
       );
       const list = [...bases, ...archives].join(' and ');
-      const apart = pack.instruments.some((i) => i.mics?.length);
+      const apart = pack.instruments.filter((i) => i.mics?.length);
       return (
         `Made from ${Object.keys(s.downloads ?? {}).length} recordings, fetched from ${list}. ` +
         `Each file is made from its recordings by fixed arithmetic (${
-          apart
-            ? 'a drum hit trimmed and faded, each of its microphones a file of its own'
-            : 'a note trimmed and faded, a drum hit mixed from its microphones'
+          !apart.length
+            ? 'a note trimmed and faded, a drum hit mixed from its microphones'
+            : !apart.some(isKit)
+              ? 'a note trimmed and faded, mixed from its microphones or each of them a file of its own'
+              : 'a drum hit trimmed and faded, each of its microphones a file of its own'
         }), the same in every install, so every install makes the same bytes, ` +
         `each checked against \`files.sha256\`.${recipe}`
       );
@@ -393,8 +398,12 @@ export function packFacts(id, pack, packs = new Map()) {
       '',
       `## ${i.title}'s microphones`,
       '',
-      "Each hit sounds every microphone together. Each has a knob in the instrument's window, turned while it plays; " +
-        "they start where the library's own mixer has them.",
+      isKit(i)
+        ? "Each hit sounds every microphone together. Each has a knob in the instrument's window, turned while it plays; " +
+            "they start where the library's own mixer has them."
+        : "Each note sounds every microphone together, one strike heard from each place. Each has a knob in the " +
+            "instrument's window, turned while it plays; they start as the library mixes them, or as recorded where " +
+            'it has no mixer.',
       '',
     );
     lines.push('| Microphone | Id | Starts at | Recorded |', '|---|---|---|---|', ...micRows(pack, i));
