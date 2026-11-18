@@ -108,6 +108,7 @@ version…) are listed with it, and every pack links to its own page.
 | [Crystal Pulse](packs/crystal-pulse/) | 13 | Versilian Community Sample Library, VSCO 2 Community Edition, built-in synths |
 | [Felt and Strings](packs/felt-and-strings/) | 11 | VSCO 2 Community Edition, built-in synths |
 | [Gamelan](packs/gamelan/) | 8 | Balinese Gamelan (OLPC), Javanese Gamelan (Casa da Música) |
+| [Glass Cabinets](packs/glass-cabinets/) | 7 | VSCO 2 Community Edition, built-in synths |
 | [Heroic Orchestra](packs/heroic-orchestra/) | 14 | VSCO 2 Community Edition, built-in synths |
 | [Hybrid Epic](packs/hybrid-epic/) | 14 | Karoryfer x bigcat Cello, VSCO 2 Community Edition, built-in synths |
 | [Korean](packs/korean/) | 3 | built-in synths |

@@ -1,0 +1,451 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "glass-cabinets",
+ "name": "Glass Cabinets",
+ "description": "Dreamy indie electronica: a shimmering glass bell and a kalimba, a soft synth organ and a percussive one, a gritty polysynth, ping keys and a night whistle, voiced to sit around a voice.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0). Each pack keeps its own license and credit.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."
+ },
+ "instruments": [],
+ "requires": [
+  "vsco2"
+ ],
+ "sounds": [
+  {
+   "name": "Shimmer Bell",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "Shimmer Bell",
+    "params": {
+     "tune": 0,
+     "decay": 1,
+     "hardness": 0.55,
+     "tone": 0.6,
+     "ensemble": 0.5,
+     "space": 0
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 250,
+      "lsFreq": 120,
+      "lsGain": 0,
+      "b1Freq": 250,
+      "b1Gain": 0,
+      "b1Q": 1,
+      "b2Freq": 1000,
+      "b2Gain": 0,
+      "b2Q": 1,
+      "b3Freq": 2520,
+      "b3Gain": -4.5,
+      "b3Q": 2.5,
+      "hsFreq": 8000,
+      "hsGain": 0,
+      "lpOn": 0,
+      "lpFreq": 16000,
+      "output": 0
+     }
+    },
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 0,
+      "time": 2000,
+      "feedback": 46,
+      "pingpong": 1,
+      "lowcut": 300,
+      "highcut": 9000,
+      "mix": 35
+     }
+    },
+    {
+     "type": "width",
+     "params": {
+      "width": 110,
+      "position": 0,
+      "mono": 0,
+      "monoFreq": 120
+     }
+    }
+   ],
+   "space": {
+    "name": "Glass Plate",
+    "type": "space",
+    "params": {
+     "space": 8,
+     "seed": 7,
+     "decay": 1.3,
+     "predelay": 10,
+     "cross": 55,
+     "lowcut": 250,
+     "highcut": 12000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "A small glassy bell heard at the key's pitch, its brightest partial a third above, spread by a little ensemble and echoing in sixteenths from side to side: a sparkle that skips around the beat.",
+   "volume": 4
+  },
+  {
+   "name": "Kalimba",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Kalimba",
+    "params": {
+     "tune": 0,
+     "decay": 1,
+     "hardness": 0.45,
+     "tone": 0.5,
+     "ensemble": 0,
+     "space": 0
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 110,
+      "lsFreq": 120,
+      "lsGain": 0,
+      "b1Freq": 250,
+      "b1Gain": 0,
+      "b1Q": 1,
+      "b2Freq": 1000,
+      "b2Gain": 0,
+      "b2Q": 1,
+      "b3Freq": 4000,
+      "b3Gain": 0,
+      "b3Q": 1,
+      "hsFreq": 8000,
+      "hsGain": 0,
+      "lpOn": 0,
+      "lpFreq": 16000,
+      "output": 0
+     }
+    }
+   ],
+   "space": {
+    "name": "Small Wood Room",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "seed": 5,
+     "decay": 0.6,
+     "predelay": 4,
+     "cross": 50,
+     "lowcut": 150,
+     "highcut": 11000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "A thumb piano's steel tines in a small wooden room: near-pure plucked tones with the thumb's soft thump, the high ones ringing shorter.",
+   "volume": 0
+  },
+  {
+   "name": "Organ Synth",
+   "family": "Organs",
+   "instrument": {
+    "synth": "Tonewheel Ballad",
+    "params": {
+     "drawbars": 6,
+     "percussion": 0,
+     "click": 0,
+     "vibrato": 2,
+     "rotor": 1,
+     "drive": 0
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 90,
+      "lsFreq": 120,
+      "lsGain": 0,
+      "b1Freq": 250,
+      "b1Gain": 0,
+      "b1Q": 1,
+      "b2Freq": 1000,
+      "b2Gain": 0,
+      "b2Q": 1,
+      "b3Freq": 4000,
+      "b3Gain": 0,
+      "b3Q": 1,
+      "hsFreq": 6000,
+      "hsGain": -4,
+      "lpOn": 1,
+      "lpFreq": 9000,
+      "output": 0
+     }
+    }
+   ],
+   "space": {
+    "name": "Wide Hall",
+    "type": "reverb",
+    "params": {
+     "predelay": 45,
+     "size": 85,
+     "decay": 2.3,
+     "damping": 4500,
+     "lowcut": 400,
+     "width": 100,
+     "mix": 100
+    },
+    "send": -20
+   },
+   "note": "A soft synth organ for chords under everything: the speaker turning slowly, no key click, its top end rolled off so it stays behind a voice.",
+   "volume": -7.5
+  },
+  {
+   "name": "Percussive Organ",
+   "family": "Organs",
+   "instrument": {
+    "synth": "Tonewheel Ballad",
+    "params": {
+     "drawbars": 5,
+     "percussion": 2,
+     "click": 0.2,
+     "vibrato": 0,
+     "rotor": 0.5,
+     "drive": 0
+    }
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 120,
+      "lsFreq": 120,
+      "lsGain": 0,
+      "b1Freq": 250,
+      "b1Gain": 0,
+      "b1Q": 1,
+      "b2Freq": 1000,
+      "b2Gain": 0,
+      "b2Q": 1,
+      "b3Freq": 4000,
+      "b3Gain": 0,
+      "b3Q": 1,
+      "hsFreq": 7000,
+      "hsGain": -3,
+      "lpOn": 0,
+      "lpFreq": 16000,
+      "output": 0
+     }
+    }
+   ],
+   "space": {
+    "name": "Wide Hall",
+    "type": "reverb",
+    "params": {
+     "predelay": 45,
+     "size": 85,
+     "decay": 2.3,
+     "damping": 4500,
+     "lowcut": 400,
+     "width": 100,
+     "mix": 100
+    },
+    "send": -22
+   },
+   "note": "An organ with its percussion on: each chord starts with a bright tick of harmonics that fades into a quiet held tone; good under bells.",
+   "volume": -4
+  },
+  {
+   "name": "Grit Poly",
+   "family": "Synths",
+   "instrument": {
+    "synth": "Fat Poly",
+    "params": {
+     "cutoff": 2500,
+     "emphasis": 0.15,
+     "contour": 0.2,
+     "decay": 1.5,
+     "glide": 0,
+     "drive": 0.4
+    }
+   },
+   "inserts": [
+    {
+     "type": "chorus",
+     "params": {
+      "rate": 0.4,
+      "depth": 45,
+      "delay": 12,
+      "mix": 45
+     }
+    },
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 200,
+      "lsFreq": 120,
+      "lsGain": 0,
+      "b1Freq": 250,
+      "b1Gain": 0,
+      "b1Q": 1,
+      "b2Freq": 1600,
+      "b2Gain": -2,
+      "b2Q": 0.8,
+      "b3Freq": 4000,
+      "b3Gain": 0,
+      "b3Q": 1,
+      "hsFreq": 8000,
+      "hsGain": 0,
+      "lpOn": 1,
+      "lpFreq": 9000,
+      "output": 0
+     }
+    },
+    {
+     "type": "width",
+     "params": {
+      "width": 130,
+      "position": 0,
+      "mono": 1,
+      "monoFreq": 100
+     }
+    }
+   ],
+   "space": {
+    "name": "Wide Hall",
+    "type": "reverb",
+    "params": {
+     "predelay": 45,
+     "size": 85,
+     "decay": 2.3,
+     "damping": 4500,
+     "lowcut": 400,
+     "width": 100,
+     "mix": 100
+    },
+    "send": -22
+   },
+   "note": "A classic polysynth with some dirt in its filter: wide chords with an edge, from the lows up.",
+   "volume": 0
+  },
+  {
+   "name": "Ping Keys",
+   "family": "Keys",
+   "instrument": {
+    "synth": "FM Keys",
+    "params": {
+     "brightness": 0.8,
+     "ratio": 1,
+     "feedback": 0.2,
+     "attack": 0.002,
+     "decay": 3,
+     "release": 0.6
+    }
+   },
+   "inserts": [
+    {
+     "type": "wow",
+     "params": {
+      "wow": 0.06,
+      "flutter": 0.015,
+      "wowRate": 0.55,
+      "flutterRate": 6.5,
+      "seed": 3
+     }
+    },
+    {
+     "type": "delay",
+     "params": {
+      "sync": 1,
+      "division": 2,
+      "time": 375,
+      "feedback": 28,
+      "pingpong": 1,
+      "lowcut": 250,
+      "highcut": 2500,
+      "mix": 14
+     }
+    }
+   ],
+   "space": {
+    "name": "Wide Hall",
+    "type": "reverb",
+    "params": {
+     "predelay": 45,
+     "size": 85,
+     "decay": 2.3,
+     "damping": 4500,
+     "lowcut": 400,
+     "width": 100,
+     "mix": 100
+    },
+    "send": -24
+   },
+   "note": "A gentle FM electric piano that pings and fades, on a slightly wavering tape, with a soft echo: for ballads.",
+   "volume": 0.5
+  },
+  {
+   "name": "Night Whistle",
+   "family": "Woodwinds",
+   "instrument": {
+    "pack": "vsco2",
+    "name": "flute"
+   },
+   "inserts": [
+    {
+     "type": "eq",
+     "params": {
+      "hpOn": 1,
+      "hpFreq": 400,
+      "lsFreq": 120,
+      "lsGain": 0,
+      "b1Freq": 250,
+      "b1Gain": 0,
+      "b1Q": 1,
+      "b2Freq": 1000,
+      "b2Gain": 0,
+      "b2Q": 1,
+      "b3Freq": 4000,
+      "b3Gain": 0,
+      "b3Q": 1,
+      "hsFreq": 9000,
+      "hsGain": -2,
+      "lpOn": 0,
+      "lpFreq": 16000,
+      "output": 0
+     }
+    }
+   ],
+   "space": {
+    "name": "Whistle Shimmer",
+    "type": "shimmer",
+    "params": {
+     "space": 12,
+     "seed": 7,
+     "decay": 1.4,
+     "generations": 2,
+     "feedback": 50,
+     "cross": 60,
+     "lowcut": 500,
+     "wet": 0,
+     "dry": -60,
+     "lookahead": 0
+    },
+    "send": -20
+   },
+   "note": "A high flute played as a whistle: single long notes at the top of the range with their vibrato, lifted by a shimmer an octave up.",
+   "volume": 8
+  }
+ ]
+}
