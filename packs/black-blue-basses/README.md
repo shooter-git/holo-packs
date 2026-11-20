@@ -28,7 +28,7 @@ each key plays the note it names, the low B (31 Hz) on B0.
 | | |
 |---|---|
 | Id | `black-blue-basses` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Black And Blue Basses by Karoryfer Lecolds (CC0): two 5-string bass guitars, one played with the fingers, one with a pick. |
 | Size | 292 MB on disk, 1224 sample files |
 | Instruments | 4 |

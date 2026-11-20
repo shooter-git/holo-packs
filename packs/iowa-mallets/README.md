@@ -22,7 +22,7 @@ velocity 127 (less where an attack would peak over the limit). A bowed bar swell
 | | |
 |---|---|
 | Id | `iowa-mallets` |
-| Licence | Free to use without restriction (University of Iowa Electronic Music Studios) |
+| License | Free to use without restriction (University of Iowa Electronic Music Studios) |
 | Credit | University of Iowa Musical Instrument Samples (Electronic Music Studios, University of Iowa): free to use for any project, without restriction. |
 | Size | 615 MB on disk, 707 sample files |
 | Instruments | 15 |

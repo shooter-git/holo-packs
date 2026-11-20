@@ -3,14 +3,14 @@
 The [Bop Kit](../bop-kit/) played with Hot Rods (bundled dowels): softer and breathier than sticks,
 between sticks and brushes, for quiet jazz, ballads and acoustic sets. Made from the Blonde Bop HR kit
 of [AVL Drumkits](https://www.bandshed.net/avldrumkits/) by Glen MacArthur:
-- **Drums:** an 18″ kick, a 13″ snare (centre, edge and side stick), a 10″ rack tom and a 14″ floor
+- **Drums:** an 18″ kick, a 13″ snare (center, edge and side stick), a 10″ rack tom and a 14″ floor
   tom, each with its edge.
 - **Cymbals:** Zildjian hi-hats (13″ closed, pedal and swish, 12″ half open), a 16″ Paiste 2002
   crash and a 17″ Sabian AAX crash with their chokes, a 20″ AAX ride (its tip, bell, shank and choke),
   a 10″ Zildjian splash and an 18″ Wuhan china.
 - **Percussion:** hand claps, a tambourine, a cowbell, a shaker and the rods clicked together.
 
-The library calls it Blonde Bop HR. Its licence asks that a version made from it go under a name of
+The library calls it Blonde Bop HR. Its license asks that a version made from it go under a name of
 its own, so it's the Bop Kit, Hot Rods here.
 
 **Playing:**
@@ -30,10 +30,10 @@ its own, so it's the Bop Kit, Hot Rods here.
 
 For brushes, see the [Brushes Kit](../brushes-kit/).
 
-**Licence:** AVL Drumkits are shared under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+**License:** AVL Drumkits are shared under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 with an exception of the library's own, and this pack is shared under the same terms. Music made with
 it can be licensed however you like; a sample library made from it is shared alike, under a name of
-its own. The library's licence, in full
+its own. The library's license, in full
 ([as published](http://bandshed.net/pdf/AVL-Drumkits%20CC-BY-SA%20License.pdf)):
 
 ```text
@@ -69,7 +69,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 | | |
 |---|---|
 | Id | `bop-kit-rods` |
-| Licence | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| License | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Credit | Made from AVL Drumkits by Glen MacArthur (CC BY-SA 3.0; music made with it can be licensed freely): its Blonde Bop HR kit, a TAMA bop kit with an 18" kick, 13" snare, 10/14" toms, Zildjian, Paiste, Sabian and Wuhan cymbals, played with Hot Rods. Placed for HO[LO] at the library's own pans. |
 | Size | 56 MB on disk, 135 sample files |
 | Instruments | 1 |

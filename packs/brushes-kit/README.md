@@ -3,7 +3,7 @@
 A drum kit played with brushes: [Swirly Drums](https://github.com/sfzinstruments/karoryfer.swirly-drums)
 by Karoryfer Lecolds (CC0).
 - a 20" marching kick (its beater and resonant-head microphones);
-- the snare struck in the centre and at the edge, dug, stirred and fluttered (its top and bottom
+- the snare struck in the center and at the edge, dug, stirred and fluttered (its top and bottom
   microphones);
 - hi-hats at six openings and the foot (the closed ones stop the open);
 - 16", 13", 12", 10" and 8" toms;
@@ -24,7 +24,7 @@ the kit as a whole at −19 dB at velocity 127.
 | | |
 |---|---|
 | Id | `brushes-kit` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Swirly Drums by Karoryfer Lecolds (CC0): a drum kit played with brushes. Mixed for HO[LO] from its dry close microphones. |
 | Size | 373 MB on disk, 788 sample files |
 | Instruments | 1 |

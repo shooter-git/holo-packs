@@ -11,7 +11,7 @@ its loop. Measured, the loudest at −17 dB at velocity 127. The notes are taken
 | | |
 |---|---|
 | Id | `freepats-accordion` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Button Accordion HN of the FreePats project (CC0): a Hohner button accordion. |
 | Size | 7 MB on disk, 34 sample files |
 | Instruments | 1 |

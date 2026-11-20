@@ -10,7 +10,7 @@
 // a drum part played on it comes out as the busker's version. It has no drum kit's hi-hat or snare, so it
 // is a set of percussion on pads rather than a General MIDI kit.
 //
-// The licence asks that a modified version of the library go under a name of its own: this is the
+// The license asks that a modified version of the library go under a name of its own: this is the
 // Busker Kit, the library named in its credit.
 import { avlKit } from '../../tools/avl.mjs';
 

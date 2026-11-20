@@ -6,15 +6,15 @@
 // The SFZ is read as a player reads it: each key it plays is one piece, its regions (soft to loud) the
 // piece's layers, its pan the place it sits. Every key the library plays must be given a piece here, so
 // nothing it has goes unplayed. Each mono hit is written as a stereo file at the library's pan (constant
-// power, unity in the centre), as buildKit places a single-microphone piece.
+// power, unity in the center), as buildKit places a single-microphone piece.
 //
-// The AVL licence (CC BY-SA 3.0, with its own exception) asks that a modified version go under a name of
+// The AVL license (CC BY-SA 3.0, with its own exception) asks that a modified version go under a name of
 // its own, so the packs are named for their sound, the library named in their credit.
 import { buildKit, Downloads } from './kit.mjs';
 import { arg, loudness, onset, pinArchives, writeManifest } from './lib.mjs';
 import { readSfz } from './sfz.mjs';
 
-/** An SFZ pan (-100 left to 100 right) as buildKit's (0 to 127, 63.5 the centre). */
+/** An SFZ pan (-100 left to 100 right) as buildKit's (0 to 127, 63.5 the center). */
 const sfzPan = (pan) => 63.5 + (63.5 * Math.max(-100, Math.min(100, Number(pan ?? 0)))) / 100;
 
 /**

@@ -2,7 +2,7 @@
 // Drums (CC0), written into packs/brushes-kit/pack.json and packs/brushes-kit/files.sha256.
 //
 // A kit played with brushes: a 20" marching kick (its beater and resonant-head microphones), the snare
-// struck in the centre and at the edge, dug and stirred (its top and bottom microphones), its flutter,
+// struck in the center and at the edge, dug and stirred (its top and bottom microphones), its flutter,
 // hi-hats at six openings and its foot, five toms, crash, ride, China, splash and a cracked crash, from
 // the library's dry recordings (its "wet" ones are the same takes through a room: HO[LO] adds its own).
 // Mixed the way an engineer mixes a session, each hit trimmed to just before its attack, its layers set

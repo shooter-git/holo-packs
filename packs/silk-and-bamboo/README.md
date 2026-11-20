@@ -10,7 +10,7 @@ percussion of Peking opera: hand gongs whose pitch slides after the strike, and 
 Desk's Scale Quantizer). Slide into notes on the guzheng with the pitch wheel, or use **Guzheng,
 Pressed** for the deep left-hand vibrato.
 
-**Sources:** guzheng, pipa, dizi, sheng and the opera gongs are modelled by HO[LO] Desk's synths; the
+**Sources:** guzheng, pipa, dizi, sheng and the opera gongs are modeled by HO[LO] Desk's synths; the
 temple block is from the Versilian Community Sample Library; the erhu is a CC0 recording from the SFZ
 Instruments project.
 
@@ -24,8 +24,8 @@ Instruments project.
 | Palette | Chinese instruments of silk strings and bamboo pipes: erhu, guzheng and pipa, dizi and sheng, with Peking opera gongs and the temple block. |
 | Sounds | 8 |
 | Plays | [Erhu](../erhu/), [Versilian Community Sample Library](../vcsl/), HO[LO] Desk's built-in synths |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), the erhu of the SFZ Instruments project (CC0). Each pack keeps its own licence and credit. |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), the erhu of the SFZ Instruments project (CC0). Each pack keeps its own license and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Silk and Bamboo**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install silk-and-bamboo` installs every pack it plays. |
 
 ## Sounds
@@ -34,7 +34,7 @@ Each sound is a track ready to play: its instrument, its effects, the room it se
 Levels are measured with `node tools/levels.mjs`: the same phrase from every sound measures −20 LUFS
 (pads and textures −23), unless its peak would pass −4 dBFS. A sound marked *coming* waits for a
 synth, an effect or a pack that HO[LO] Desk or this repository doesn't have yet; the Library shows it
-greyed out until then.
+grayed out until then.
 
 ### Organs
 

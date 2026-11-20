@@ -25,7 +25,7 @@ For an orchestral pedal harp, see VSCO 2's [Harp](../vsco2/).
 | | |
 |---|---|
 | Id | `harp` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | Etherealwinds Harp II: Community Edition by Jordi Francis (etherealwinds) and Versilian Studios (CC BY 4.0): a 34-string Iona Celtic harp, sampled chromatically. |
 | Size | 179 MB on disk, 232 sample files |
 | Instruments | 1 |

@@ -1,7 +1,7 @@
 // `node tools/check.mjs [ID…]`: every pack checked with HO[LO] Desk's own code, as CI runs it.
 //
 // - Its map parses, is a holo-pack map named after its folder, and says whose samples it plays and
-//   under what licence: one that lets anyone share them (CC0, CC BY 3.0 or 4.0, CC BY-SA 3.0 or 4.0, public domain, the
+//   under what license: one that lets anyone share them (CC0, CC BY 3.0 or 4.0, CC BY-SA 3.0 or 4.0, public domain, the
 //   Unlicense, the Artistic License 2.0, or free to use without restriction).
 // - Every file its instruments and spaces name has a checksum (what an install and an experience's
 //   build check each sample against). A palette has no files: source "none", and a files.sha256 of one
@@ -22,7 +22,7 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { holo, repo } from './holo.mjs';
 import { privateReason } from './private.mjs';
-import { FREE, LICENCES } from './readme.mjs';
+import { FREE, LICENSES } from './readme.mjs';
 
 const { packPaths, parseChecksums, pinPack, withRequired } = await holo('packages/music/src/packs.ts');
 const { checkSound, soundPacks, soundSampler } = await holo('packages/session/src/palettes.ts');
@@ -49,6 +49,8 @@ const maps = new Map(
 const notes = [];
 // a piece's folder words that its pad's name must have (by letters and digits)
 const WORDS = { 'hat-three-quarter': ['hat', '¾'] };
+// a source's folder words in its own spelling, as a pad names them (American)
+const SPELLED = { centre: 'center' };
 const flat = (s) => s.toLowerCase().replace(/[^a-z0-9¾]/g, '');
 const MIC_ID = /^[a-z0-9][a-z0-9-]*$/;
 const inRange = (x, lo, hi) => typeof x === 'number' && Number.isFinite(x) && x >= lo && x <= hi;
@@ -132,10 +134,10 @@ for (const id of readdirSync(packsDir).sort()) {
     if (mine) fail(`${mine}`);
     for (const key of ['name', 'license', 'credit']) if (!pack[key]) fail(`it has no ${key}`);
     if (!Array.isArray(pack.instruments)) fail('it has no "instruments" (a palette has an empty list)');
-    // only licences that let anyone share the samples
-    if (pack.license && !LICENCES[pack.license] && !FREE.test(pack.license))
+    // only licenses that let anyone share the samples
+    if (pack.license && !LICENSES[pack.license] && !FREE.test(pack.license))
       fail(
-        `its licence "${pack.license}" isn't one HO[LO] may ship (${Object.keys(LICENCES).join(', ')}, or "Free to use without restriction (whose)")`,
+        `its license "${pack.license}" isn't one HO[LO] may ship (${Object.keys(LICENSES).join(', ')}, or "Free to use without restriction (whose)")`,
       );
     const files = (() => {
       try {
@@ -192,7 +194,7 @@ for (const id of readdirSync(packsDir).sort()) {
           }
           const piece = [...hit][0];
           const folder = piece.split('/').pop();
-          for (const w of WORDS[folder] ?? folder.split('-'))
+          for (const w of (WORDS[folder] ?? folder.split('-')).map((x) => SPELLED[x] ?? x))
             if (!flat(p.name).includes(flat(w))) fail(`${at} pad "${p.name}" plays ${folder}: its name doesn't say "${w}"`);
           pieces.push(piece);
         }

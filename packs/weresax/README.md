@@ -16,7 +16,7 @@ For a baritone, see [Bear Sax](../bear-sax/).
 | | |
 |---|---|
 | Id | `weresax` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Weresax by Karoryfer Lecolds (CC0): an alto saxophone. |
 | Size | 101 MB on disk, 128 sample files |
 | Instruments | 1 |

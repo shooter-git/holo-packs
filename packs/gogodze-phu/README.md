@@ -17,7 +17,7 @@ The library's cajon isn't mapped yet.
 | | |
 |---|---|
 | Id | `gogodze-phu` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Gogodze Phu Vol I by Karoryfer Lecolds (CC0): five bobobo drums from Ghana. |
 | Size | 8 MB on disk, 144 sample files |
 | Instruments | 1 |

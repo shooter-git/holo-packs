@@ -32,8 +32,8 @@ changes the tone, not the length). The top octave changes least, so its fundamen
 | Palette | A concert grand voiced darker and rounder: soft hammers, a singing treble, full low-mids and a warm hall. |
 | Sounds | 3 |
 | Plays | [Steinway Model D (bitKlavier Grand)](../steinway/) |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0). Each pack keeps its own licence and credit. |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0). Each pack keeps its own license and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Viennese Grand**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install viennese-grand` installs every pack it plays. |
 
 ## Sounds
@@ -42,7 +42,7 @@ Each sound is a track ready to play: its instrument, its effects, the room it se
 Levels are measured with `node tools/levels.mjs`: the same phrase from every sound measures −20 LUFS
 (pads and textures −23), unless its peak would pass −4 dBFS. A sound marked *coming* waits for a
 synth, an effect or a pack that HO[LO] Desk or this repository doesn't have yet; the Library shows it
-greyed out until then.
+grayed out until then.
 
 ### Keys
 

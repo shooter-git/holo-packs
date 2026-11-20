@@ -33,7 +33,7 @@ For a Balinese gamelan, see [gamelan-bali](../gamelan-bali/); for more Javanese 
 | | |
 |---|---|
 | Id | `gamelan-java` |
-| Licence | [Artistic License 2.0](https://opensource.org/license/artistic-2-0) |
+| License | [Artistic License 2.0](https://opensource.org/license/artistic-2-0) |
 | Credit | Casa da Música's Virtual Gamelan by Digitópia, Casa da Música, Porto (Artistic License 2.0): its Javanese gamelan in pelog and slendro, recorded by Pedro Augusto and Rui Penha, edited by Pedro Augusto. |
 | Size | 363 MB on disk, 281 sample files |
 | Instruments | 27 |

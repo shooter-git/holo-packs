@@ -30,7 +30,7 @@ written as 16-bit WAVs.
 | | |
 |---|---|
 | Id | `orchestral-sections` |
-| Licence | Free to use without restriction (VSCO 2 and Karoryfer CC0; University of Iowa EMS) |
+| License | Free to use without restriction (VSCO 2 and Karoryfer CC0; University of Iowa EMS) |
 | Credit | Made for HO[LO] from VSCO 2 Community Edition (CC0, Versilian Studios), the University of Iowa Musical Instrument Samples (Electronic Music Studios, free to use without restriction), Karoryfer x bigcat cello and War Tuba (CC0, Karoryfer Lecolds and bigcat instruments). |
 | Size | 361 MB on disk, 275 sample files |
 | Instruments | 11 |

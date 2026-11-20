@@ -28,7 +28,7 @@ than the rest.
 | | |
 |---|---|
 | Id | `string-cyborgs` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | String Cyborgs by Karoryfer Lecolds (CC0): the synthesizer voices Zinc, Blackheart and Ironface. |
 | Size | 26 MB on disk, 88 sample files |
 | Instruments | 4 |

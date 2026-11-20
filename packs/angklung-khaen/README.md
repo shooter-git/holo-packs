@@ -11,13 +11,13 @@ What the recordings allow:
 - **Khaen**: the free-reed mouth organ's drone, two chords rooted at their lowest notes (A3, and G3 a
   quarter tone sharp), played on the keys around them.
 
-No free library has a melodic angklung yet; a modelled one would fill the gap.
+No free library has a melodic angklung yet; a modeled one would fill the gap.
 
 **Provenance:** the set has no notes on each file, so each was checked before it was mapped: mono
 44.1 kHz recordings with nothing pointing at a commercial library. Its many other sounds aren't mapped.
 
 **How it's made:** each file is fetched on its own out of the published zip and kept until it falls to
-−60 dB. The recordings were normalised close to full scale, so each plays at its own level under a
+−60 dB. The recordings were normalized close to full scale, so each plays at its own level under a
 −3 dB peak.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
@@ -27,7 +27,7 @@ No free library has a melodic angklung yet; a modelled one would fill the gap.
 | | |
 |---|---|
 | Id | `angklung-khaen` |
-| Licence | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| License | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | Credit | Angklung and khaen samples by Berklee College of Music students for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/Berklee44v1). |
 | Size | 3 MB on disk, 5 sample files |
 | Instruments | 3 |

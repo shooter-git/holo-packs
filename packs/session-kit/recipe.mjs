@@ -1,6 +1,6 @@
 // `node packs/session-kit/recipe.mjs [--cache DIR] [--out DIR]`: the Session Kit pack, from Sam's Sonor
 // by Sam Greene (CC BY-SA 4.0; the SFZ and FLAC version by kinwie): a Sonor Force 3001 kit, its snare
-// played by the left hand and the right (for rolls), at the centre, as a rimshot and with its snares
+// played by the left hand and the right (for rolls), at the center, as a rimshot and with its snares
 // off, two toms and a click on the high one, hi-hats closed, with the pedal, half open and open (struck
 // with the tip and with the shoulder), a ride and its bell, and a crash (its tip and its shoulder).
 //
@@ -74,7 +74,7 @@ const cymbal = { ring: 5, fade: 1.4, floor: 56 };
 const pieces = [
   piece('kick', '$KEY_KICK', [35, 36], { pad: 36, ring: 1.4, fade: 0.35, leadsRange: true }),
   piece('snare', ['$KEY_SN_LH', '$KEY_SN_RH'], [38], { ...drum, leadsRange: true }),
-  piece('snare-centre', '$KEY_SN_CT', [39], { ...drum, title: 'Snare centre' }),
+  piece('snare-centre', '$KEY_SN_CT', [39], { ...drum, title: 'Snare center' }),
   piece('rimshot', '$KEY_SN_RS', [40], drum),
   piece('snare-off', ['$KEY_SN_OL', '$KEY_SN_OR'], [34], { ...drum, title: 'Snare, snares off' }),
   piece('floor-tom', '$KEY_TM_L', [41, 43], { ...tom, pad: 41 }),

@@ -63,7 +63,7 @@ with brushes alone, see the [Brushes Kit](../brushes-kit/).
 | | |
 |---|---|
 | Id | `classic-rock-kit` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | Drum samples provided by DrumGizmo.org: the DRSKit by the DrumGizmo team and Jes Eiler of DRSDrums (CC BY 4.0), in kinwie's SFZ and FLAC version (sfzinstruments/DrumGizmo.DRSKit): a kick, three toms, a snare, Paiste hi-hats, crashes and ride, played with sticks and with brushes. Its microphones kept apart for HO[LO], each with its own level. |
 | Size | 421 MB on disk, 3168 sample files |
 | Instruments | 1 |
@@ -127,10 +127,10 @@ Each hit sounds every microphone together. Each has a knob in the instrument's w
 
 | Microphone | Id | Starts at | Recorded |
 |---|---|---|---|
-| Kick back | `kick-back` | 0 dB | mono, centre |
-| Kick front | `kick-front` | 0 dB | mono, centre |
-| Snare top | `snare-top` | 0 dB | mono, centre |
-| Snare bottom | `snare-bottom` | 0 dB | mono, centre |
+| Kick back | `kick-back` | 0 dB | mono, center |
+| Kick front | `kick-front` | 0 dB | mono, center |
+| Snare top | `snare-top` | 0 dB | mono, center |
+| Snare bottom | `snare-bottom` | 0 dB | mono, center |
 | Toms | `toms` | 0 dB | stereo |
 | Hi-hat | `hat` | −14 dB | mono, 40% left |
 | Ride | `ride` | −14 dB | mono, 40% right |

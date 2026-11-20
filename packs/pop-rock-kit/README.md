@@ -2,14 +2,14 @@
 
 A bright, punchy Pearl kit, made from the Black Pearl kit of
 [AVL Drumkits](https://www.bandshed.net/avldrumkits/) by Glen MacArthur:
-- **Drums:** a 22″ kick, a 14″ snare (centre, edge and side stick), a 12″ rack tom and a 16″ floor tom,
+- **Drums:** a 22″ kick, a 14″ snare (center, edge and side stick), a 12″ rack tom and a 16″ floor tom,
   each with its edge.
 - **Cymbals:** 13″ Sabian hi-hats (closed, pedal, half open and a swish), a 16″ Sabian AA crash and a
   17″ AAX crash with their chokes, a 20″ AAX ride with its bell, shank and choke, a 10″ Zildjian splash,
   a 22″ Paiste crash and an 18″ Wuhan china.
 - **Percussion:** hand claps, a tambourine, a cowbell, maracas and a stick click.
 
-The library calls it Black Pearl. Its licence asks that a version made from it go under a name of its
+The library calls it Black Pearl. Its license asks that a version made from it go under a name of its
 own, so it's the Pop Rock Kit here.
 
 **Playing:**
@@ -30,10 +30,10 @@ own, so it's the Pop Rock Kit here.
 For a big vintage kit from the same library, see the [Vintage Rock Kit](../vintage-rock-kit/); for a small
 jazz kit, the [Bop Kit](../bop-kit/).
 
-**Licence:** AVL Drumkits are shared under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+**License:** AVL Drumkits are shared under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 with an exception of the library's own, and this pack is shared under the same terms. Music made with
 it can be licensed however you like; a sample library made from it is shared alike, under a name of
-its own. The library's licence, in full
+its own. The library's license, in full
 ([as published](http://bandshed.net/pdf/AVL-Drumkits%20CC-BY-SA%20License.pdf)):
 
 ```text
@@ -69,7 +69,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 | | |
 |---|---|
 | Id | `pop-rock-kit` |
-| Licence | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| License | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Credit | Made from AVL Drumkits by Glen MacArthur (CC BY-SA 3.0; music made with it can be licensed freely): its Black Pearl kit, a Pearl kit with a 22" kick, 14" snare, 12/16" toms, Sabian, Zildjian, Paiste and Wuhan cymbals. Placed for HO[LO] at the library's own pans. |
 | Size | 52 MB on disk, 128 sample files |
 | Instruments | 1 |

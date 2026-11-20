@@ -30,7 +30,7 @@ const MICS = [
   { id: 'hat', name: 'Hi-hat' },
   { id: 'ride', name: 'Ride' },
   { id: 'overheads', name: 'Overheads' },
-  { id: 'oh-centre', name: 'Centre overhead' },
+  { id: 'oh-centre', name: 'Center overhead' },
   { id: 'room', name: 'Room' },
 ];
 

@@ -27,7 +27,7 @@ sounds are left out too.
 | | |
 |---|---|
 | Id | `black-green-guitars` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Black And Green Guitars by Karoryfer Lecolds (CC0): two hollow-body electric guitars. |
 | Size | 299 MB on disk, 1612 sample files |
 | Instruments | 4 |

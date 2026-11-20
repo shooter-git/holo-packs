@@ -22,7 +22,7 @@ otherwise bit for bit.
 | | |
 |---|---|
 | Id | `war-tuba` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | War Tuba by Karoryfer Lecolds (CC0): a tuba played by Jakub Lewicki, recorded and mapped by Drogomir Smolken. |
 | Size | 49 MB on disk, 351 sample files |
 | Instruments | 2 |

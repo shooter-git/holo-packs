@@ -18,7 +18,7 @@ A free orchestra: Versilian Studios' [VSCO 2 Community Edition](https://github.c
 
 HO[LO] plays the library's own recordings as they're published. Its map comes from measurements of
 every sample: true pitch, level, start, end and loop points (from
-[Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues). Sustained
+[Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogs). Sustained
 notes loop where they were measured to.
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
@@ -28,7 +28,7 @@ notes loop where they were measured to.
 | | |
 |---|---|
 | Id | `vsco2` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Using VSCO 2 Community Edition orchestral samples (CC0, Versilian Studios: Sam Gossner and contributors; the pipe organ by Simon Dalzell). |
 | Size | 1.5 GB on disk, 1466 sample files |
 | Instruments | 57 |

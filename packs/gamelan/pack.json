@@ -5,7 +5,7 @@
  "name": "Gamelan",
  "description": "The bronze orchestras of Java and Bali: metallophones, gong-chimes and hanging gongs in their own pelog and slendro tunings.",
  "license": "CC0-1.0",
- "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and Casa da Música's Virtual Gamelan by Digitópia, Casa da Música, Porto (Artistic License 2.0), Balinese gamelan by Akito van Troyer for the One Laptop per Child sound library (CC BY 3.0). Each pack keeps its own licence and credit.",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and Casa da Música's Virtual Gamelan by Digitópia, Casa da Música, Porto (Artistic License 2.0), Balinese gamelan by Akito van Troyer for the One Laptop per Child sound library (CC BY 3.0). Each pack keeps its own license and credit.",
  "source": {
   "kind": "none",
   "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."

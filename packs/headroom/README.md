@@ -32,7 +32,7 @@ the credit in its Library, and an experience's pinned `packs.json` carries it.
 | | |
 |---|---|
 | Id | `headroom` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | Headroom Piano by Bengt Nilsson (CC BY 4.0), mapped in FLAC by kinwie for the SFZ Instruments project: a Yamaha C3 grand from a close pair and a Decca tree. Mixed and trimmed for HO[LO]: each note ends where it falls to -58 dB. |
 | Size | 886 MB on disk, 450 sample files |
 | Instruments | 3 |

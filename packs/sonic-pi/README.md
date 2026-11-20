@@ -22,7 +22,7 @@ velocity 127 (less where a hit would peak over −1 dB). Each sound is kept unti
 | | |
 |---|---|
 | Id | `sonic-pi` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | The samples Sonic Pi ships (CC0): Freesound users' recordings, each listed in Sonic Pi's samples README, and beats by Arovane (Uwe Zahn). |
 | Size | 91 MB on disk, 176 sample files |
 | Instruments | 9 |

@@ -26,7 +26,7 @@ For Karoryfer's alto and baritone, see [Weresax](../weresax/) and [Bear Sax](../
 | | |
 |---|---|
 | Id | `mtg-sax` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | MTG Solo Saxophones (CC BY 4.0): samples by the Music Technology Group, Universitat Pompeu Fabra (Freesound), trimmed, looped and mapped by kinwie for the SFZ Instruments project. Soprano, alto, tenor and baritone. |
 | Size | 153 MB on disk, 298 sample files |
 | Instruments | 4 |

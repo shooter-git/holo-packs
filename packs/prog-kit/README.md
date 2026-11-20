@@ -30,7 +30,7 @@ snare, trashy cymbals and a gong, put together from three CC0 libraries:
 | | |
 |---|---|
 | Id | `prog-kit` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Big Rusty Drums and Frankensnare by Karoryfer Samples (CC0), and the gong of VSCO 2 Community Edition by Versilian Studios (CC0). Put together and mixed for HO[LO]: six toms, a 14x8 aluminium snare, a gong. |
 | Size | 223 MB on disk, 520 sample files |
 | Instruments | 1 |

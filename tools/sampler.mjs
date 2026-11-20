@@ -556,7 +556,7 @@ const keyOf = (v) => (v === undefined ? undefined : /^-?\d+$/.test(v.trim()) ? N
 /**
  * An SFZ program's regions (tools/sfz.mjs readSfz) as samples for buildInstruments: each region's
  * file (a download "<tag>:<path in the library>", the program at `dir`), its keys, root (its key
- * centre, less its tune and transpose), velocities (its velocity layer, by its lowest velocity), round
+ * center, less its tune and transpose), velocities (its velocity layer, by its lowest velocity), round
  * robin, trigger, gain (its volume), loop, offset and end. `keep(region)` leaves regions out, and
  * `atRest` the regions that don't sound with the program's controls as it sets them (see `atRest`).
  * A generated tone (a "*sine" region) isn't a recording, and is left out.
@@ -572,12 +572,12 @@ export function sfzSamples({ regions, control }, { tag, dir = '', keep = () => t
     const key = keyOf(r.key);
     const lo = Math.max(0, (keyOf(r.lokey) ?? key ?? 0) + shift);
     const hi = Math.min(127, (keyOf(r.hikey) ?? key ?? 127) + shift);
-    const centre = (keyOf(r.pitch_keycenter) ?? key ?? keyOf(r.lokey) ?? 0) + shift;
+    const center = (keyOf(r.pitch_keycenter) ?? key ?? keyOf(r.lokey) ?? 0) + shift;
     const looped = ['loop_continuous', 'loop_sustain'].includes(r.loop_mode ?? r.loopmode);
     const trigger = r.trigger === 'release' || r.trigger === 'release_key' ? 'release' : undefined;
     const sample = {
       download: `${tag}:${path}`,
-      root: round(centre - Number(r.tune ?? 0) / 100 - Number(r.transpose ?? 0), 1000),
+      root: round(center - Number(r.tune ?? 0) / 100 - Number(r.transpose ?? 0), 1000),
       lo,
       hi,
       layer: Number(r.lovel ?? 1),

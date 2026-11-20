@@ -7,7 +7,7 @@ Jacob Olsen of JBOSound, sampled and prepared by Lars Muldjord. Drum samples pro
 - **Drums:** a kick played with a double pedal, a snare, two rack toms and two floor toms.
 - **Cymbals:** hi-hats, three crashes, a ride, two chinas and two splashes.
 - **Microphones:** fifteen at once: inside the kick's shell and behind it, on the snare's top and under
-  it, one on each tom, on the hi-hat and on the ride, a pair of overheads and a centre one, and a pair
+  it, one on each tom, on the hi-hat and on the ride, a pair of overheads and a center one, and a pair
   of room microphones.
 
 **Its microphones, kept apart:**
@@ -17,7 +17,7 @@ Jacob Olsen of JBOSound, sampled and prepared by Lars Muldjord. Drum samples pro
   0 dB, the kit as it was recorded, with nothing turned over or turned down.
 - DrumGizmo leaves its close microphones unpanned. Here each is panned where the overheads place its
   drum (measured from its loudest hit), counted from the kick, which sits in the middle. The overheads
-  and the room are stereo pairs, hard left and right, as recorded; the centre overhead sits in the
+  and the room are stereo pairs, hard left and right, as recorded; the center overhead sits in the
   middle.
 - Every piece is heard on every microphone, as it was recorded: the toms ring in the snare microphones,
   the cymbals in the tom microphones.
@@ -66,7 +66,7 @@ DrumGizmo's other kits here: the [Extreme Metal Kit](../extreme-metal-kit/), the
 | | |
 |---|---|
 | Id | `metal-kit` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | CrocellKit 1.1 by the DrumGizmo team (CC BY 4.0): sampled and prepared by Lars Muldjord, the kit set up by Andreas of Crocell, its microphones by Jacob Olsen of JBOSound. Drum samples provided by DrumGizmo.org. Its fifteen microphones kept apart for HO[LO], each with its own level. |
 | Size | 347 MB on disk, 2810 sample files |
 | Instruments | 1 |
@@ -130,5 +130,5 @@ Each hit sounds every microphone together. Each has a knob in the instrument's w
 | Hi-hat | `hat` | 0 dB | mono, 1% right |
 | Ride | `ride` | 0 dB | mono, 12% left |
 | Overheads | `overheads` | 0 dB | stereo |
-| Centre overhead | `oh-centre` | 0 dB | mono, centre |
+| Center overhead | `oh-centre` | 0 dB | mono, center |
 | Room | `room` | 0 dB | stereo |

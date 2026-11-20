@@ -17,7 +17,7 @@ For layered and honky-tonk versions of it, see [Vintage Keys](../vintage-keys/).
 | | |
 |---|---|
 | Id | `freepats-upright` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Upright Piano KW of the FreePats project (CC0). |
 | Size | 86 MB on disk, 66 sample files |
 | Instruments | 1 |

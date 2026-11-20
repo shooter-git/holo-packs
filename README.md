@@ -10,7 +10,7 @@ every sample's sha256. When you install a pack, HO[LO] fetches the samples from 
 checks every file against these checksums. So everyone's copy is the same, bit for bit.
 
 - **Find a pack:** browse by family under [Instruments](#instruments), or see [Every pack](#every-pack)
-  at a glance. Each pack's page says where its sounds come from, what's in it, its licence, its size
+  at a glance. Each pack's page says where its sounds come from, what's in it, its license, its size
   and its kit pads.
 - **Palettes** are sets of ready-made sounds for a style of music: each sound an instrument with its
   effects, its room and its level, one click from a track in the studio. A palette has no audio of
@@ -30,7 +30,7 @@ version…) are listed with it, and every pack links to its own page.
 
 ### Every pack
 
-| Pack | Families | Instruments | Size | Licence |
+| Pack | Families | Instruments | Size | License |
 |---|---|---|---|---|
 | [Angklung and Khaen (OLPC)](packs/angklung-khaen/) | Percussion, Woodwinds | 3 | 3 MB | CC BY 3.0 |
 | [Balinese Gamelan (OLPC)](packs/gamelan-bali/) | Percussion, Tuned percussion | 6 | 14 MB | CC BY 3.0 |
@@ -395,25 +395,25 @@ version…) are listed with it, and every pack links to its own page.
 
 ## Libraries that aren't here, and why
 
-Only libraries whose licence lets anyone fetch, play and share the samples, and whose samples are
+Only libraries whose license lets anyone fetch, play and share the samples, and whose samples are
 clearly their authors' own, become packs. These were looked at and left out:
 
 | Library | Why not |
 |---|---|
-| Sonatina Symphonic Orchestra | Its licence (Creative Commons Sampling Plus) isn't one that allows this, and it carries Philharmonia samples inside it. |
+| Sonatina Symphonic Orchestra | Its license (Creative Commons Sampling Plus) isn't one that allows this, and it carries Philharmonia samples inside it. |
 | Philharmonia Orchestra samples | Their terms don't allow them to be redistributed. |
 | jRhodes | Non-commercial only. |
-| Spitfire LABS | Its licence forbids redistributing the samples. |
+| Spitfire LABS | Its license forbids redistributing the samples. |
 | Hydrogen drum kits | Where many of their samples came from isn't documented. |
 | "Public domain" 808 and 909 sample sets | Recordings of commercial machines' sounds whose provenance can't be shown. |
 | SM Drums | Unclear provenance. |
 | Splendid Grand Piano | Unclear provenance. |
-| Other concert grands for a Viennese sound | None we found has a licence that allows this, so the [Viennese Grand](packs/viennese-grand/) voices the Steinway D instead. |
+| Other concert grands for a Viennese sound | None we found has a license that allows this, so the [Viennese Grand](packs/viennese-grand/) voices the Steinway D instead. |
 | Freesound | A script gets only lossy previews: the original files need each user's own login. |
 
 **Share-alike libraries:** the Salamander Drumkit, Sam's Sonor and the kits made from AVL Drumkits are
 shared under CC BY-SA, so their packs are too: anyone may share them, and a sample library made from
-them is shared alike. The music made with them isn't bound (AVL's and Salamander's licences say so in
+them is shared alike. The music made with them isn't bound (AVL's and Salamander's licenses say so in
 as many words).
 
 ## How HO[LO] Desk uses this
@@ -474,7 +474,7 @@ pnpm --dir ../holo-desk install
      `node tools/checksums.mjs <id>` writes its checksums and its size from the pack installed in
      HO[LO]'s data folder.
 2. **Credit it.** Give it a `credit` and a `license` in `pack.json`, and a row in
-   [CREDITS.md](CREDITS.md). Check that the licence lets anyone fetch and play the samples, and that a
+   [CREDITS.md](CREDITS.md). Check that the license lets anyone fetch and play the samples, and that a
    script can fetch the source at a pinned version.
 3. **Write its page.** Put `packs/<id>/README.md` above the line `tools/readme.mjs` leaves: where its
    sounds come from, how they were recorded, and what's special about it. Then run:
@@ -492,7 +492,7 @@ pnpm --dir ../holo-desk install
 
 5. **Open a pull request.** Once it's merged, `pnpm packs lock` in HO[LO] Desk brings it to the studio.
 
-## Licence
+## License
 
 The maps, checksums, recipes and tools are MIT ([LICENSE](LICENSE)). Each pack's samples keep their own
-licence, which its `pack.json` names (`license`) and its page links.
+license, which its `pack.json` names (`license`) and its page links.

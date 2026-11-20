@@ -15,7 +15,7 @@ Instruments from Versilian Studios' [Versilian Community Sample Library](https:/
 - **Woodwinds:** an ocarina, plain and with vibrato.
 
 As with [VSCO 2](../vsco2/), HO[LO] plays the library's own recordings, mapped from measurements of every
-sample (from [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues).
+sample (from [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogs).
 
 <!-- Below here is written from pack.json by `node tools/readme.mjs`: change the map, not this. -->
 
@@ -24,7 +24,7 @@ sample (from [Hallowed Lanterns](https://github.com/shooter-git/hallowed-lantern
 | | |
 |---|---|
 | Id | `vcsl` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Using the Versilian Community Sample Library (CC0, Versilian Studios). |
 | Size | 198 MB on disk, 173 sample files |
 | Instruments | 22 |

@@ -3,7 +3,7 @@
 A warm, natural rock and pop kit: Sam Greene's Sonor Force 3001, in kinwie's SFZ and FLAC version of
 [Sam's Sonor](https://github.com/sfzinstruments/SamsSonor) (CC BY-SA 4.0):
 - **Drums:** a kick (eight velocity layers), a snare played by the left hand and the right (ten layers
-  each), at the centre, as a rimshot and with its snares off, a rack tom and a floor tom, and a click on
+  each), at the center, as a rimshot and with its snares off, a rack tom and a floor tom, and a click on
   the rack tom.
 - **Cymbals:** hi-hats closed, with the pedal, half open, and open (struck with the shoulder or the tip),
   a ride and its bell, and a crash (its shoulder and its tip).
@@ -23,8 +23,8 @@ A warm, natural rock and pop kit: Sam Greene's Sonor Force 3001, in kinwie's SFZ
 - The kit is anchored to the snare at −19 dB loudness. The snare peaks at −2 dBFS at most, and every
   piece at 0 dBFS at most, at velocity 127.
 
-**Licence:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ("CC Share and share alike",
-in Sam's words). The pack is shared under the same licence, as the library asks.
+**License:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ("CC Share and share alike",
+in Sam's words). The pack is shared under the same license, as the library asks.
 
 For a bigger rock sound, see the [Rock Kit](../rock-kit/); for a roomier, more characterful kit, the
 [Salamander Drumkit](../salamander-drums/).
@@ -36,7 +36,7 @@ For a bigger rock sound, see the [Rock Kit](../rock-kit/); for a roomier, more c
 | | |
 |---|---|
 | Id | `session-kit` |
-| Licence | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| License | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Credit | Sam's Sonor by Sam Greene (CC BY-SA 4.0), SFZ and FLAC version by kinwie: a Sonor Force 3001 kit with left- and right-hand snares and a snares-off snare. Levelled for HO[LO] at the library's own mix. |
 | Size | 37 MB on disk, 114 sample files |
 | Instruments | 1 |
@@ -64,7 +64,7 @@ Each key plays one piece of the kit. The kick, snare and hi-hats sit where Gener
 | 34 | A#1 | Snare, snares off |
 | 36 | C2 | Kick |
 | 38 | D2 | Snare |
-| 39 | D#2 | Snare centre |
+| 39 | D#2 | Snare center |
 | 40 | E2 | Rimshot |
 | 41 | F2 | Floor tom |
 | 42 | F#2 | Hi-hat closed |

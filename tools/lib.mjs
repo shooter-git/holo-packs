@@ -160,7 +160,7 @@ export class Downloads {
 
 // ---- measuring ----
 
-/** RBJ biquad coefficients, normalised. */
+/** RBJ biquad coefficients, normalized. */
 function biquad(type, f0, rate, q, db = 0) {
   const w0 = (2 * Math.PI * f0) / rate;
   const cos = Math.cos(w0);
@@ -351,13 +351,13 @@ export function spreadLayers(levels, { range, target } = {}) {
   const R = range ?? need;
   // the level at velocity 127: half a layer's worth above the loudest layer
   const ref = top + (R * (w / 2)) / 126;
-  const centre = sorted.map((l) => 127 + (126 * (l - ref)) / R);
+  const center = sorted.map((l) => 127 + (126 * (l - ref)) / R);
   // the layers that get velocities of their own: one quieter than velocity 1 reaches, or squeezed to
-  // nothing between its neighbours, folds away (the quietest left plays from velocity 1)
+  // nothing between its neighbors, folds away (the quietest left plays from velocity 1)
   let kept = sorted.map((_, j) => j);
   for (;;) {
     const bounds = kept.slice(0, -1).map((j, n) => {
-      const b = Math.round((centre[j] + centre[kept[n + 1]]) / 2);
+      const b = Math.round((center[j] + center[kept[n + 1]]) / 2);
       return Math.max(1, Math.min(126, b));
     });
     const empty = kept.findIndex((_, n) => {
@@ -429,7 +429,7 @@ export async function makeFiles(pack, downloads, out) {
       mkdirSync(dirname(file), { recursive: true });
       writeFileSync(file, bytes);
     }
-    // inputs are used by one file or a few neighbours: keep the cache small
+    // inputs are used by one file or a few neighbors: keep the cache small
     if (cache.size > 64) cache.clear();
     if (++done % 100 === 0) console.log(`  made ${done}/${paths.length}`);
   }

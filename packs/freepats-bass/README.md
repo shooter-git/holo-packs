@@ -13,7 +13,7 @@ The notes are taken out of the project's own 7z downloads (an install downloads 
 | | |
 |---|---|
 | Id | `freepats-bass` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Bass Guitar YR of the FreePats project (CC0): an electric bass, picked and played with the fingers. |
 | Size | 12 MB on disk, 25 sample files |
 | Instruments | 2 |

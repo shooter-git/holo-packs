@@ -22,7 +22,7 @@ For an alto, see [Weresax](../weresax/).
 | | |
 |---|---|
 | Id | `bear-sax` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Bear Sax by Karoryfer Lecolds (CC0): a 1926 Conn baritone saxophone. |
 | Size | 87 MB on disk, 512 sample files |
 | Instruments | 2 |

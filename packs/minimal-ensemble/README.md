@@ -25,8 +25,8 @@ straight-toned wordless voices.
 | Palette | A small amplified ensemble for repeating, interlocking patterns: electric and pipe organ, arpeggiating synths, piano, strings, flute, clarinet, sax and wordless voices. |
 | Sounds | 14 |
 | Plays | [University of Iowa MIS: Clarinet and Bassoon](../iowa/), [MTG Solo Saxophones](../mtg-sax/), [Steinway Model D (bitKlavier Grand)](../steinway/), [VSCO 2 Community Edition](../vsco2/), HO[LO] Desk's built-in synths |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0), the University of Iowa Musical Instrument Samples (free to use without restriction), MTG Solo Saxophones by the Music Technology Group, Universitat Pompeu Fabra, mapped for the SFZ Instruments project (CC BY 4.0). Each pack keeps its own licence and credit. |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0), the bitKlavier Grand (a Steinway D) by Princeton University (CC BY 4.0), the University of Iowa Musical Instrument Samples (free to use without restriction), MTG Solo Saxophones by the Music Technology Group, Universitat Pompeu Fabra, mapped for the SFZ Instruments project (CC BY 4.0). Each pack keeps its own license and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Minimal Ensemble**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install minimal-ensemble` installs every pack it plays. |
 
 ## Sounds
@@ -35,7 +35,7 @@ Each sound is a track ready to play: its instrument, its effects, the room it se
 Levels are measured with `node tools/levels.mjs`: the same phrase from every sound measures −20 LUFS
 (pads and textures −23), unless its peak would pass −4 dBFS. A sound marked *coming* waits for a
 synth, an effect or a pack that HO[LO] Desk or this repository doesn't have yet; the Library shows it
-greyed out until then.
+grayed out until then.
 
 ### Keys
 

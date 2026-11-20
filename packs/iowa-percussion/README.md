@@ -25,7 +25,7 @@ velocity 127 (less where an attack would peak over the limit). Each pad set is m
 | | |
 |---|---|
 | Id | `iowa-percussion` |
-| Licence | Free to use without restriction (University of Iowa Electronic Music Studios) |
+| License | Free to use without restriction (University of Iowa Electronic Music Studios) |
 | Credit | University of Iowa Musical Instrument Samples (Electronic Music Studios, University of Iowa): free to use for any project, without restriction. |
 | Size | 96 MB on disk, 63 sample files |
 | Instruments | 5 |

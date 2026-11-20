@@ -34,7 +34,7 @@ export function noteOf(path) {
 /**
  * Pitched samples from notes: `pick(path)` keeps the files of one instrument and way of playing; where
  * two files play one note (a violin's G4 on two strings), `prefer(a, b)` chooses (the first kept by
- * default). Each note covers the keys halfway to its neighbours.
+ * default). Each note covers the keys halfway to its neighbors.
  */
 export function notes(paths, { pick, prefer, bottom, top } = {}) {
   const byKey = new Map();

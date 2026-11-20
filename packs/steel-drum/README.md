@@ -15,7 +15,7 @@ splits and each plays at the level HO[LO]'s velocity curve has there, the loudes
 | | |
 |---|---|
 | Id | `steel-drum` |
-| Licence | [The Unlicense](https://unlicense.org/) |
+| License | [The Unlicense](https://unlicense.org/) |
 | Credit | jSteelDrum by Jeff Learman (the Unlicense), from the SFZ Instruments project: a steel pan. |
 | Size | 111 MB on disk, 368 sample files |
 | Instruments | 1 |

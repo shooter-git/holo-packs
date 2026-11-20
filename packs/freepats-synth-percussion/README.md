@@ -17,7 +17,7 @@ For a lo-fi kit made partly from it, see [Lo-fi Beat Kit](../lofi-kit/).
 | | |
 |---|---|
 | Id | `freepats-synth-percussion` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | The synthesizer percussion of the FreePats project (CC0), made by Roberto with the Yoshimi and Geonkick synthesizers. |
 | Size | 2 MB on disk, 21 sample files |
 | Instruments | 1 |

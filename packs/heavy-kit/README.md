@@ -52,7 +52,7 @@ another kit with every microphone kept apart, see [Naked Drums](../naked-drums/)
 | | |
 |---|---|
 | Id | `heavy-kit` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | Drum samples provided by DrumGizmo.org: the MuldjordKit by Lars Muldjord (CC BY 4.0), in kinwie's SFZ and FLAC version (sfzinstruments/DrumGizmo.MuldjordKit): a Tama Superstar with two kicks, four toms, a snare, hi-hats, crashes, rides and a china. Its microphones kept apart for HO[LO], each with its own level. |
 | Size | 185 MB on disk, 2520 sample files |
 | Instruments | 1 |
@@ -98,10 +98,10 @@ Each hit sounds every microphone together. Each has a knob in the instrument's w
 
 | Microphone | Id | Starts at | Recorded |
 |---|---|---|---|
-| Kick right | `kick-right` | 0 dB | mono, centre |
-| Kick left | `kick-left` | 0 dB | mono, centre |
-| Snare top | `snare-top` | 0 dB | mono, centre |
-| Snare bottom | `snare-bottom` | 0 dB | mono, centre |
+| Kick right | `kick-right` | 0 dB | mono, center |
+| Kick left | `kick-left` | 0 dB | mono, center |
+| Snare top | `snare-top` | 0 dB | mono, center |
+| Snare bottom | `snare-bottom` | 0 dB | mono, center |
 | Toms | `toms` | 0 dB | stereo |
 | Hi-hat | `hat` | 0 dB | mono, 40% left |
 | Ride right | `ride-right` | 0 dB | mono, 50% right |

@@ -49,7 +49,7 @@ For a kit mixed down to one stereo file a hit, see the [Rock Kit](../rock-kit/),
 | | |
 |---|---|
 | Id | `naked-drums` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | Naked Drums by Wilkinson Audio (CC BY 4.0), SFZ and FLAC version by kinwie: a 22" kick, two snares, 10/12/13/14/16" toms, hi-hats, ride, crashes, splashes and chinas. Its microphones kept apart for HO[LO], each with its own level. |
 | Size | 388 MB on disk, 1941 sample files |
 | Instruments | 1 |
@@ -102,15 +102,15 @@ Each hit sounds every microphone together. Each has a knob in the instrument's w
 
 | Microphone | Id | Starts at | Recorded |
 |---|---|---|---|
-| Kick in | `kick-in` | 0 dB | mono, centre |
-| Kick sub | `kick-sub` | 0 dB | mono, centre |
-| Snare top | `snare-top` | 0 dB | mono, centre |
-| Snare bottom | `snare-bottom` | 0 dB | mono, centre |
+| Kick in | `kick-in` | 0 dB | mono, center |
+| Kick sub | `kick-sub` | 0 dB | mono, center |
+| Snare top | `snare-top` | 0 dB | mono, center |
+| Snare bottom | `snare-bottom` | 0 dB | mono, center |
 | Toms | `toms` | 0 dB | mono, each drum at its own place |
 | Hi-hat | `hat` | −14 dB | mono, 30% left |
 | Ride | `ride` | −14 dB | mono, 30% right |
 | Overheads | `overheads` | 0 dB | stereo |
 | Wide overheads | `wide` | −14 dB | stereo |
-| Close room | `close-room` | 0 dB | mono, centre |
+| Close room | `close-room` | 0 dB | mono, center |
 | Far room | `far-room` | 0 dB | stereo |
 | Mid-side room | `mid-side` | 0 dB | stereo |

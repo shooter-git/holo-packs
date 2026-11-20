@@ -18,7 +18,7 @@ three seconds, otherwise bit for bit, fetched on its own out of the published zi
 | | |
 |---|---|
 | Id | `singing-bowls` |
-| Licence | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| License | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | Credit | Singing bowl samples by OpenPath Music for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/OpenPathMusic44V1). |
 | Size | 8 MB on disk, 3 sample files |
 | Instruments | 1 |
