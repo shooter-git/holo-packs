@@ -1,0 +1,768 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "prism-colors",
+ "name": "Prism Colors",
+ "description": "The morphing synth made ready to play: pulsing bells and glass steps, two plucks, two keys, two basses, a lead and a whistle, a pad, a choir and two slow textures, each fitted with studio EQ, compression, echoes and rooms.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play HO[LO] Desk’s built-in synths and effects."
+ },
+ "instruments": [],
+ "requires": [],
+ "sounds": [
+  {
+   "name": "Pulse Bells",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "Pulse Bells",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.25
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 150,
+      "lcSlope": 1
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "seed": 5,
+     "decay": 1,
+     "predelay": 10,
+     "cross": 55,
+     "lowcut": 250,
+     "highcut": 11000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "A struck tone restruck on every beat, glass an octave up on the half note, hopping between the sides in its own echo; its built-in room turned down for the chamber.",
+   "volume": -2.5
+  },
+  {
+   "name": "Glass Steps",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "Glass Steps",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0,
+     "m6": 0.25
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 150,
+      "lcSlope": 1
+     }
+    },
+    {
+     "type": "dualdelay",
+     "params": {
+      "noteL": 2,
+      "grooveL": 75,
+      "noteR": 2,
+      "grooveR": 50,
+      "fbL": 25,
+      "fbR": 25,
+      "crossLR": 12,
+      "crossRL": 12,
+      "lowcut": 300,
+      "highcut": 6000,
+      "mix": 18
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "seed": 5,
+     "decay": 1,
+     "predelay": 10,
+     "cross": 55,
+     "lowcut": 250,
+     "highcut": 11000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "Mallet tones accented by a sixteenth-note pattern over a glass strike on the beat, its own echo swapped for a darker one, a dotted quarter left and a quarter right.",
+   "volume": -2.5
+  },
+  {
+   "name": "Glass Pluck",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Glass Pluck",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0,
+     "m6": 0.25
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 100,
+      "lcSlope": 1
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 2,
+      "threshold": -16,
+      "ratio": 4,
+      "attack": 4,
+      "release": 60,
+      "knee": 30,
+      "makeup": 2
+     }
+    },
+    {
+     "type": "dualdelay",
+     "params": {
+      "noteL": 3,
+      "grooveL": 75,
+      "noteR": 2,
+      "grooveR": 50,
+      "fbL": 28,
+      "fbR": 22,
+      "crossLR": 15,
+      "crossRL": 15,
+      "lowcut": 350,
+      "highcut": 6500,
+      "mix": 22
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "seed": 5,
+     "decay": 1,
+     "predelay": 10,
+     "cross": 55,
+     "lowcut": 250,
+     "highcut": 11000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -20
+   },
+   "note": "Two detuned saws snapping shut with a struck bar an octave up, tightened by a quick compressor, echoing a dotted eighth left and a quarter right: lovely under the Arpeggiator.",
+   "volume": 2
+  },
+  {
+   "name": "Wood Pluck",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Wood Pluck",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0,
+     "m6": 0.25
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 100,
+      "lcSlope": 1
+     }
+    },
+    {
+     "type": "roomreverb",
+     "params": {
+      "predelay": 2,
+      "size": 6,
+      "walls": 4,
+      "decay": 0.45,
+      "lowDecay": 90,
+      "crossover": 300,
+      "highDecay": 55,
+      "highcut": 10000,
+      "lowLevel": -2,
+      "density": 70,
+      "spread": 80,
+      "balance": 40,
+      "wet": -14
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "seed": 5,
+     "decay": 1,
+     "predelay": 10,
+     "cross": 55,
+     "lowcut": 250,
+     "highcut": 11000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -20
+   },
+   "note": "A struck bar's partials ringing over a soft body, the mallet's breath on each note, in a small wooden room.",
+   "volume": -1.5
+  },
+  {
+   "name": "Silver Keys",
+   "family": "Keys",
+   "instrument": {
+    "synth": "Silver Keys",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.25
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 70,
+      "lcSlope": 1,
+      "p1Freq": 300,
+      "p1Gain": -1.5,
+      "p1Q": 1
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 3,
+      "threshold": -18,
+      "ratio": 2.5,
+      "attack": 15,
+      "release": 300,
+      "knee": 50,
+      "makeup": 2
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "seed": 5,
+     "decay": 1,
+     "predelay": 10,
+     "cross": 55,
+     "lowcut": 250,
+     "highcut": 11000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "Keys of sine partials, darker played softly and brighter hard, over a struck attack and a bell-like twelfth, evened out by a gentle optical compressor.",
+   "volume": -0.5
+  },
+  {
+   "name": "Glow Keys",
+   "family": "Keys",
+   "instrument": {
+    "synth": "Glow Keys",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.25
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 70,
+      "lcSlope": 1,
+      "p1Freq": 250,
+      "p1Gain": -1.5,
+      "p1Q": 1
+     }
+    },
+    {
+     "type": "roomreverb",
+     "params": {
+      "predelay": 4,
+      "size": 10,
+      "walls": 6,
+      "decay": 0.7,
+      "lowDecay": 95,
+      "highDecay": 60,
+      "highcut": 11000,
+      "density": 70,
+      "diffusion": 75,
+      "balance": 45,
+      "wet": -18
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "seed": 5,
+     "decay": 1,
+     "predelay": 10,
+     "cross": 55,
+     "lowcut": 250,
+     "highcut": 11000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -22
+   },
+   "note": "Drawbar partials and a detuned sine body, glass ringing an octave up and a gentle tremolo, in a close studio room.",
+   "volume": -2
+  },
+  {
+   "name": "Deep Bass",
+   "family": "Bass",
+   "instrument": {
+    "synth": "Deep Bass",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.5
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 25,
+      "lcSlope": 3
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 2,
+      "threshold": -11,
+      "ratio": 3,
+      "attack": 15,
+      "release": 120,
+      "knee": 40,
+      "makeup": 3
+     }
+    }
+   ],
+   "space": null,
+   "note": "Two saws and a sine an octave down through a growling filter, one note at a time, gliding when played legato, glued by a compressor. Dry.",
+   "volume": -9.5
+  },
+  {
+   "name": "Pulse Bass",
+   "family": "Bass",
+   "instrument": {
+    "synth": "Pulse Bass",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.5
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 30,
+      "lcSlope": 3
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 3,
+      "threshold": -15,
+      "ratio": 4,
+      "attack": 10,
+      "release": 150,
+      "knee": 40,
+      "makeup": 3
+     }
+    }
+   ],
+   "space": null,
+   "note": "A square whose symmetry sways over a saw an octave down, through a steep ladder filter, leveled by an optical compressor. Dry.",
+   "volume": -6.5
+  },
+  {
+   "name": "Stack Lead",
+   "family": "Synths",
+   "instrument": {
+    "synth": "Stack Lead",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0,
+     "m6": 0.25
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 150,
+      "lcSlope": 2,
+      "hcOn": 1,
+      "hcFreq": 12000,
+      "hcSlope": 1
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 1,
+      "threshold": -15,
+      "ratio": 4,
+      "attack": 5,
+      "release": 80,
+      "knee": 30,
+      "makeup": 4,
+      "saturation": 1
+     }
+    },
+    {
+     "type": "dualdelay",
+     "params": {
+      "noteL": 3,
+      "grooveL": 75,
+      "noteR": 2,
+      "grooveR": 50,
+      "fbL": 25,
+      "fbR": 25,
+      "crossLR": 10,
+      "crossRL": 10,
+      "lowcut": 300,
+      "highcut": 5000,
+      "mix": 18
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Chamber",
+    "type": "space",
+    "params": {
+     "space": 1,
+     "seed": 5,
+     "decay": 1,
+     "predelay": 10,
+     "cross": 55,
+     "lowcut": 250,
+     "highcut": 11000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "Five detuned saws and a square an octave up, gliding, held forward by a fast compressor, the fizz on top trimmed, echoing in time; the mod wheel adds vibrato.",
+   "volume": -6
+  },
+  {
+   "name": "Air Whistle",
+   "family": "Woodwinds",
+   "instrument": {
+    "synth": "Air Whistle",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.3
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 200,
+      "lcSlope": 1
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 3,
+      "threshold": -15,
+      "ratio": 2,
+      "attack": 20,
+      "release": 250,
+      "knee": 60,
+      "makeup": 2
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Hall",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "seed": 9,
+     "decay": 1.2,
+     "predelay": 25,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -16
+   },
+   "note": "A breathy whistle with a chiff on each note and vibrato that waits, its swells smoothed by an optical compressor, floating in a hall.",
+   "volume": -8
+  },
+  {
+   "name": "Drift Pad",
+   "family": "Pads",
+   "instrument": {
+    "synth": "Drift Pad",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.3
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 60,
+      "lcSlope": 1,
+      "p1Freq": 300,
+      "p1Gain": -1.5,
+      "p1Q": 0.8
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Hall",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "seed": 9,
+     "decay": 1.2,
+     "predelay": 25,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -16
+   },
+   "note": "A detuned saw stack, a singing voice and grains of shimmer, morphing slowly between them, the low mids eased so it sits under a melody.",
+   "volume": -4
+  },
+  {
+   "name": "Choir Bloom",
+   "family": "Voices",
+   "instrument": {
+    "synth": "Choir Bloom",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.3
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 120,
+      "lcSlope": 1,
+      "p1Freq": 350,
+      "p1Gain": -1.5,
+      "p1Q": 1,
+      "p3Freq": 3000,
+      "p3Gain": 1,
+      "p3Q": 0.8
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Hall",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "seed": 9,
+     "decay": 1.2,
+     "predelay": 25,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -14
+   },
+   "note": "Grains of a small choir and a voice moving through its vowels over a soft saw, a little air lifted and the low mids eased, in a hall.",
+   "volume": -3.5
+  },
+  {
+   "name": "Tide Field",
+   "family": "Textures",
+   "instrument": {
+    "synth": "Tide Field",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.5
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 50,
+      "lcSlope": 1,
+      "p1Freq": 300,
+      "p1Gain": -1.5,
+      "p1Q": 0.7
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Hall",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "seed": 9,
+     "decay": 1.2,
+     "predelay": 25,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "Grains of air and shimmer, a bowl's partials and a low sine, moving on two slow tides: hold a chord and let it change.",
+   "volume": -5.5
+  },
+  {
+   "name": "Frozen Bells",
+   "family": "Textures",
+   "instrument": {
+    "synth": "Frozen Bells",
+    "params": {
+     "m1": 0.5,
+     "m2": 0.5,
+     "m3": 0.5,
+     "m4": 0.5,
+     "m5": 0.5,
+     "m6": 0.5
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 60,
+      "lcSlope": 1,
+      "p1Freq": 200,
+      "p1Gain": -1.5,
+      "p1Q": 0.7
+     }
+    }
+   ],
+   "space": {
+    "name": "Prism Hall",
+    "type": "space",
+    "params": {
+     "space": 3,
+     "seed": 9,
+     "decay": 1.2,
+     "predelay": 25,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "A bell and a bowl held at one moment of their ring, that moment wandering slowly under grains of chimes: a long, still texture.",
+   "volume": -3.5
+  }
+ ]
+}

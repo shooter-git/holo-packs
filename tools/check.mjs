@@ -9,7 +9,8 @@
 // - A kit's pads each play the one piece their name says, every piece has one, and the kick, snare
 //   and hi-hats sit where General MIDI has them. Any other set of sounds on pads (a tabla's strokes,
 //   a collection's hits: a category other than Drums) has pads too, each its own piece, without
-//   General MIDI's kit.
+//   General MIDI's kit. Any settings a pad carries (its level, tune, pan, saturator, velocity curve,
+//   pitch envelope, filter, how it plays) are ones HO[LO] Desk has, each set within its range.
 // - Every other instrument is played by pitch, or is one sound whose one pad is named by it.
 // - A palette's sounds each play a synth or an effect HO[LO] Desk has, with knobs it has, set within
 //   their ranges, and an instrument of a pack it requires (which must be here). A sound waiting for a
@@ -26,6 +27,7 @@ import { FREE, LICENCES } from './readme.mjs';
 const { packPaths, parseChecksums, pinPack, withRequired } = await holo('packages/music/src/packs.ts');
 const { checkSound, soundPacks, soundSampler } = await holo('packages/session/src/palettes.ts');
 const { padsFor, playsHits } = await holo('apps/web/src/ui/pads.ts');
+const { padProblems } = await holo('packages/session/src/kit-pads.ts');
 
 const only = process.argv.slice(2);
 const packsDir = join(repo, 'packs');
@@ -176,6 +178,8 @@ for (const id of readdirSync(packsDir).sort()) {
       if (m.pads?.length) {
         // a kit: each pad strikes one piece, named by it, and every piece has one pad
         const pieces = [];
+        // each pad's own settings, as HO[LO] Desk reads them
+        for (const p of m.pads) for (const problem of padProblems(p)) fail(`${at} ${problem}`);
         for (const p of m.pads) {
           const hit = new Set(
             m.zones
