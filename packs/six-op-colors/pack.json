@@ -1,0 +1,776 @@
+{
+ "format": "holo-pack",
+ "version": 1,
+ "id": "six-op-colors",
+ "name": "Six-Op Colors",
+ "description": "The six-operator FM synth made ready to play: two tine pianos and glass keys, bells and a music box, two basses, two pads, two leads and two plucks, each fitted with studio EQ, compression, echoes and rooms.",
+ "license": "CC0-1.0",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects.",
+ "source": {
+  "kind": "none",
+  "note": "No audio of its own: its sounds play HO[LO] Desk’s built-in synths and effects."
+ },
+ "instruments": [],
+ "requires": [],
+ "sounds": [
+  {
+   "name": "Bright Tines",
+   "family": "Keys",
+   "instrument": {
+    "synth": "Bright Tines",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 70,
+      "lcSlope": 1,
+      "p1Freq": 320,
+      "p1Gain": -2,
+      "p1Q": 0.9
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 3,
+      "threshold": -18,
+      "ratio": 2.5,
+      "attack": 15,
+      "release": 300,
+      "knee": 50,
+      "makeup": 2
+     }
+    }
+   ],
+   "space": {
+    "name": "Tine Plate",
+    "type": "space",
+    "params": {
+     "space": 8,
+     "seed": 3,
+     "decay": 1,
+     "predelay": 12,
+     "cross": 55,
+     "lowcut": 300,
+     "highcut": 10000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "A bright electric piano: the tine rings out on the attack and growls when hit hard, evened out by a slow optical compressor, the low mids cleared so chords stay open.",
+   "volume": 1.5
+  },
+  {
+   "name": "Velvet Tines",
+   "family": "Keys",
+   "instrument": {
+    "synth": "Velvet Tines",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 60,
+      "lcSlope": 1,
+      "p1Freq": 280,
+      "p1Gain": -1.5,
+      "p1Q": 0.9,
+      "p3Freq": 2500,
+      "p3Gain": 1.5,
+      "p3Q": 0.8
+     }
+    },
+    {
+     "type": "roomreverb",
+     "params": {
+      "predelay": 4,
+      "size": 10,
+      "walls": 6,
+      "decay": 0.7,
+      "lowDecay": 95,
+      "highDecay": 60,
+      "highcut": 11000,
+      "density": 70,
+      "diffusion": 75,
+      "balance": 45,
+      "wet": -16
+     }
+    }
+   ],
+   "space": {
+    "name": "Tine Plate",
+    "type": "space",
+    "params": {
+     "space": 8,
+     "seed": 3,
+     "decay": 1,
+     "predelay": 12,
+     "cross": 55,
+     "lowcut": 300,
+     "highcut": 10000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -20
+   },
+   "note": "The mellow electric piano, round and soft with a gentle tremolo, in a close studio room, a little presence lifted so it holds its own beside a voice.",
+   "volume": -0.5
+  },
+  {
+   "name": "Glass Keys",
+   "family": "Keys",
+   "instrument": {
+    "synth": "Glass Keys",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 90,
+      "lcSlope": 1,
+      "p1Freq": 280,
+      "p1Gain": -2,
+      "p1Q": 1
+     }
+    }
+   ],
+   "space": {
+    "name": "Silk Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "seed": 11,
+     "decay": 1.2,
+     "predelay": 30,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -16
+   },
+   "note": "Glassy keys, bell-like overtones over a sine body held while the key is down, the low mids eased, in a wide hall: for slow chords.",
+   "volume": 0
+  },
+  {
+   "name": "Crystal Bells",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "Crystal Bells",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 0
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 150,
+      "lcSlope": 1,
+      "p4Freq": 7000,
+      "p4Gain": -1.5,
+      "p4Q": 0.8
+     }
+    },
+    {
+     "type": "dualdelay",
+     "params": {
+      "noteL": 2,
+      "grooveL": 75,
+      "noteR": 1,
+      "grooveR": 50,
+      "fbL": 30,
+      "fbR": 30,
+      "crossLR": 10,
+      "crossRL": 10,
+      "lowcut": 400,
+      "highcut": 6500,
+      "mix": 20
+     }
+    }
+   ],
+   "space": {
+    "name": "Silk Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "seed": 11,
+     "decay": 1.2,
+     "predelay": 30,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -16
+   },
+   "note": "Long, clear bells over a low hum, echoing in time, a dotted quarter on the left and a half note on the right, each repeat darker, into a wide hall.",
+   "volume": 1.5
+  },
+  {
+   "name": "Music Box",
+   "family": "Mallets and bells",
+   "instrument": {
+    "synth": "Music Box",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 180,
+      "lcSlope": 1
+     }
+    },
+    {
+     "type": "roomreverb",
+     "params": {
+      "predelay": 2,
+      "size": 6,
+      "walls": 4,
+      "decay": 0.45,
+      "lowDecay": 90,
+      "crossover": 300,
+      "highDecay": 55,
+      "highcut": 10000,
+      "lowLevel": -2,
+      "density": 70,
+      "spread": 80,
+      "balance": 40,
+      "wet": -14
+     }
+    }
+   ],
+   "space": {
+    "name": "Tine Plate",
+    "type": "space",
+    "params": {
+     "space": 8,
+     "seed": 3,
+     "decay": 1,
+     "predelay": 12,
+     "cross": 55,
+     "lowcut": 300,
+     "highcut": 10000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -20
+   },
+   "note": "A small music box on a wooden table: short bright tines, the high ones ringing shorter, with their own soft echo and the small room around them.",
+   "volume": 2
+  },
+  {
+   "name": "Solid Bass",
+   "family": "Bass",
+   "instrument": {
+    "synth": "Solid Bass",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 30,
+      "lcSlope": 3,
+      "p1Freq": 90,
+      "p1Gain": 1.5,
+      "p1Q": 1
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 2,
+      "threshold": -19,
+      "ratio": 4,
+      "attack": 10,
+      "release": 120,
+      "knee": 40,
+      "makeup": 3,
+      "saturation": 1
+     }
+    }
+   ],
+   "space": null,
+   "note": "A punchy FM bass, a snap on the attack over a round, solid tone, held steady by a compressor whose rounded peaks add a little edge for small speakers. Dry.",
+   "volume": -2
+  },
+  {
+   "name": "Rubber Bass",
+   "family": "Bass",
+   "instrument": {
+    "synth": "Rubber Bass",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 30,
+      "lcSlope": 3
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 3,
+      "threshold": -17,
+      "ratio": 3,
+      "attack": 20,
+      "release": 200,
+      "knee": 50,
+      "makeup": 3
+     }
+    }
+   ],
+   "space": null,
+   "note": "A bouncy bass whose two filters snap open on every note, an optical compressor evening out the notes and leaving the snap. Dry.",
+   "volume": -3.5
+  },
+  {
+   "name": "Silk Pad",
+   "family": "Pads",
+   "instrument": {
+    "synth": "Silk Pad",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 120,
+      "lcSlope": 1
+     }
+    },
+    {
+     "type": "smoothhall",
+     "params": {
+      "predelay": 40,
+      "size": 85,
+      "decay": 4,
+      "density": 90,
+      "highcut": 7000,
+      "lowcut": 200,
+      "modRate": 0.3,
+      "modDepth": 60,
+      "spread": 100,
+      "wet": -12
+     }
+    }
+   ],
+   "space": {
+    "name": "Silk Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "seed": 11,
+     "decay": 1.2,
+     "predelay": 30,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -22
+   },
+   "note": "A slow, wide pad swelling through a drifting filter, with a long, soft hall of its own: chords to hold under everything.",
+   "volume": -4.5
+  },
+  {
+   "name": "Halo Pad",
+   "family": "Pads",
+   "instrument": {
+    "synth": "Halo Pad",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 150,
+      "lcSlope": 1
+     }
+    }
+   ],
+   "space": {
+    "name": "Silk Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "seed": 11,
+     "decay": 1.2,
+     "predelay": 30,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -16
+   },
+   "note": "An airy pad whose overtones rise and fall on their own while it is held, with its long echoes, cleared below so it floats above a bass.",
+   "volume": -5
+  },
+  {
+   "name": "Wire Lead",
+   "family": "Synths",
+   "instrument": {
+    "synth": "Wire Lead",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 0
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 150,
+      "lcSlope": 2
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 1,
+      "threshold": -18,
+      "ratio": 4,
+      "attack": 5,
+      "release": 80,
+      "knee": 30,
+      "makeup": 3,
+      "saturation": 1
+     }
+    },
+    {
+     "type": "dualdelay",
+     "params": {
+      "noteL": 3,
+      "grooveL": 75,
+      "noteR": 2,
+      "grooveR": 50,
+      "fbL": 25,
+      "fbR": 25,
+      "crossLR": 10,
+      "crossRL": 10,
+      "lowcut": 300,
+      "highcut": 5000,
+      "mix": 18
+     }
+    }
+   ],
+   "space": {
+    "name": "Tine Plate",
+    "type": "space",
+    "params": {
+     "space": 8,
+     "seed": 3,
+     "decay": 1,
+     "predelay": 12,
+     "cross": 55,
+     "lowcut": 300,
+     "highcut": 10000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -18
+   },
+   "note": "A bright, buzzy lead held forward by a fast compressor, echoing in time, a dotted eighth on the left and a quarter on the right; the mod wheel adds vibrato.",
+   "volume": -1
+  },
+  {
+   "name": "Hollow Lead",
+   "family": "Synths",
+   "instrument": {
+    "synth": "Hollow Lead",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 150,
+      "lcSlope": 1,
+      "p1Freq": 350,
+      "p1Gain": -1.5,
+      "p1Q": 1,
+      "p3Freq": 3000,
+      "p3Gain": 1,
+      "p3Q": 0.8
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 3,
+      "threshold": -19,
+      "ratio": 2.5,
+      "attack": 20,
+      "release": 250,
+      "knee": 50,
+      "makeup": 2
+     }
+    },
+    {
+     "type": "roomreverb",
+     "params": {
+      "predelay": 8,
+      "size": 16,
+      "walls": 5,
+      "decay": 1.4,
+      "lowDecay": 105,
+      "highDecay": 60,
+      "highcut": 10000,
+      "diffusion": 85,
+      "spread": 110,
+      "balance": 55,
+      "wet": -16
+     }
+    }
+   ],
+   "space": {
+    "name": "Tine Plate",
+    "type": "space",
+    "params": {
+     "space": 8,
+     "seed": 3,
+     "decay": 1,
+     "predelay": 12,
+     "cross": 55,
+     "lowcut": 300,
+     "highcut": 10000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -24
+   },
+   "note": "A hollow, reedy lead whose vibrato arrives once the note settles, smoothed by an optical compressor and played in a chamber.",
+   "volume": -2.5
+  },
+  {
+   "name": "Harp Pluck",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Harp Pluck",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 1
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 80,
+      "lcSlope": 1,
+      "p1Freq": 250,
+      "p1Gain": -1.5,
+      "p1Q": 1
+     }
+    },
+    {
+     "type": "roomreverb",
+     "params": {
+      "predelay": 8,
+      "size": 16,
+      "walls": 5,
+      "decay": 1.4,
+      "lowDecay": 105,
+      "highDecay": 60,
+      "highcut": 10000,
+      "diffusion": 85,
+      "spread": 110,
+      "balance": 55,
+      "wet": -14
+     }
+    }
+   ],
+   "space": {
+    "name": "Silk Hall",
+    "type": "space",
+    "params": {
+     "space": 2,
+     "seed": 11,
+     "decay": 1.2,
+     "predelay": 30,
+     "cross": 60,
+     "lowcut": 200,
+     "highcut": 9000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -20
+   },
+   "note": "A soft, round pluck like a harp, its brightness falling away at once while the note rings on, given a body by a chamber, then the hall.",
+   "volume": 0
+  },
+  {
+   "name": "Spark Pluck",
+   "family": "Plucked",
+   "instrument": {
+    "synth": "Spark Pluck",
+    "params": {
+     "brightness": 1,
+     "velocity": 1,
+     "attack": 1,
+     "decay": 1,
+     "release": 1,
+     "chorus": 0
+    }
+   },
+   "inserts": [
+    {
+     "type": "studioeq",
+     "params": {
+      "lcOn": 1,
+      "lcFreq": 120,
+      "lcSlope": 1
+     }
+    },
+    {
+     "type": "charcomp",
+     "params": {
+      "circuit": 2,
+      "threshold": -14,
+      "ratio": 4,
+      "attack": 2,
+      "release": 60,
+      "knee": 30,
+      "makeup": 2
+     }
+    },
+    {
+     "type": "dualdelay",
+     "params": {
+      "noteL": 3,
+      "grooveL": 75,
+      "noteR": 3,
+      "grooveR": 75,
+      "fbL": 30,
+      "fbR": 0,
+      "crossLR": 45,
+      "crossRL": 0,
+      "lowcut": 300,
+      "highcut": 6000,
+      "mix": 25
+     }
+    }
+   ],
+   "space": {
+    "name": "Tine Plate",
+    "type": "space",
+    "params": {
+     "space": 8,
+     "seed": 3,
+     "decay": 1,
+     "predelay": 12,
+     "cross": 55,
+     "lowcut": 300,
+     "highcut": 10000,
+     "wet": 0,
+     "dry": -60
+    },
+    "send": -20
+   },
+   "note": "A bright, short pluck for arpeggios and sequences, its attack tightened by a quick compressor, its echo a dotted eighth that crosses from left to right and fills in the sixteenths.",
+   "volume": 4.5
+  }
+ ]
+}
