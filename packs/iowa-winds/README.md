@@ -20,7 +20,7 @@ velocity 127 (less where an attack would peak over the limit).
 | | |
 |---|---|
 | Id | `iowa-winds` |
-| Licence | Free to use without restriction (University of Iowa Electronic Music Studios) |
+| License | Free to use without restriction (University of Iowa Electronic Music Studios) |
 | Credit | University of Iowa Musical Instrument Samples (Electronic Music Studios, University of Iowa): free to use for any project, without restriction. |
 | Size | 281 MB on disk, 399 sample files |
 | Instruments | 11 |

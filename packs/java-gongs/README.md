@@ -22,7 +22,7 @@ For a whole gamelan, see [gamelan-java](../gamelan-java/).
 | | |
 |---|---|
 | Id | `java-gongs` |
-| Licence | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| License | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | Credit | Javanese gong samples by Nils van Ottorloo for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/NilsVanOttorloo). |
 | Size | 8 MB on disk, 14 sample files |
 | Instruments | 1 |

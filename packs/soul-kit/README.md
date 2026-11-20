@@ -3,7 +3,7 @@
 A small, warm kit from [Unruly Drums](https://github.com/sfzinstruments/karoryfer.unruly-drums) by
 Karoryfer Lecolds (CC0):
 - the 20" kick played clean;
-- the 14" snare (centre, edge, rimshot, side stick);
+- the 14" snare (center, edge, rimshot, side stick);
 - the 13" and 22" snares with their snares off, played as toms;
 - 14" hi-hats played with the stick's tip at seven openings and the foot;
 - the 20" ride (bow, bell, edge), the 16" crash, and two woodblocks.
@@ -24,7 +24,7 @@ The same kit tuned and played another way is the [Studio Kit](../studio-kit/).
 | | |
 |---|---|
 | Id | `soul-kit` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Unruly Drums by Karoryfer Lecolds (CC0). Mixed for HO[LO] from its close and overhead microphones: a soul kit. |
 | Size | 222 MB on disk, 520 sample files |
 | Instruments | 1 |

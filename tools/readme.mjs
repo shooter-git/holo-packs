@@ -30,23 +30,23 @@ const FAMILIES = [
 ];
 
 /**
- * The licences a pack may have (each lets anyone share the samples): its id in pack.json, its name and
+ * The licenses a pack may have (each lets anyone share the samples): its id in pack.json, its name and
  * where it's written. A pack free without restriction says so in words ("Free to use without
  * restriction (…)"); check.mjs refuses any other.
  */
-export const LICENCES = {
+export const LICENSES = {
   'Artistic-2.0': ['Artistic License 2.0', 'https://opensource.org/license/artistic-2-0'],
   'CC0-1.0': ['CC0 1.0', 'https://creativecommons.org/publicdomain/zero/1.0/'],
   'CC-BY-3.0': ['CC BY 3.0', 'https://creativecommons.org/licenses/by/3.0/'],
   'CC-BY-4.0': ['CC BY 4.0', 'https://creativecommons.org/licenses/by/4.0/'],
-  // share-alike: a pack made from them is shared under the same licence (the music made with it isn't bound)
+  // share-alike: a pack made from them is shared under the same license (the music made with it isn't bound)
   'CC-BY-SA-3.0': ['CC BY-SA 3.0', 'https://creativecommons.org/licenses/by-sa/3.0/'],
   'CC-BY-SA-4.0': ['CC BY-SA 4.0', 'https://creativecommons.org/licenses/by-sa/4.0/'],
   'Public-Domain': ['Public domain', 'https://creativecommons.org/publicdomain/mark/1.0/'],
   Unlicense: ['The Unlicense', 'https://unlicense.org/'],
 };
 
-/** A licence in words that HO[LO] may ship: free to use without restriction (and whose it is). */
+/** A license in words that HO[LO] may ship: free to use without restriction (and whose it is). */
 export const FREE = /^Free to use without restriction \(.+\)$/;
 
 const NOTES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
@@ -55,9 +55,9 @@ const note = (key) => `${NOTES[((key % 12) + 12) % 12]}${Math.floor(key / 12) - 
 const mb = (bytes) => (bytes >= 1e9 ? `${(bytes / 1e9).toFixed(1)} GB` : `${Math.round(bytes / 1e6)} MB`);
 const cell = (s) => String(s).replace(/\|/g, '\\|');
 
-export function licence(pack, link = true) {
-  const known = LICENCES[pack.license];
-  // a licence of its own, in a word or two in a table ("Free to use without restriction")
+export function license(pack, link = true) {
+  const known = LICENSES[pack.license];
+  // a license of its own, in a word or two in a table ("Free to use without restriction")
   if (!known) return link ? pack.license : pack.license.replace(/\s*\(.*\)$/, '');
   return link ? `[${known[0]}](${known[1]})` : known[0];
 }
@@ -145,8 +145,8 @@ const db = (x) => (x <= -60 ? 'off' : `${x < 0 ? '−' : ''}${Math.abs(Math.roun
 /** A drum kit (its pieces on pads), as against a played instrument. */
 const isKit = (i) => !!i.pads?.length || i.pitched === false;
 
-/** Where a mono microphone sits ("centre", "30% left"). */
-const place = (pan) => (!pan ? 'centre' : `${Math.round(Math.abs(pan) * 100)}% ${pan < 0 ? 'left' : 'right'}`);
+/** Where a mono microphone sits ("center", "30% left"). */
+const place = (pan) => (!pan ? 'center' : `${Math.round(Math.abs(pan) * 100)}% ${pan < 0 ? 'left' : 'right'}`);
 
 /** A multi-microphone instrument's microphones: their knobs' starting levels, and how each is recorded. */
 function micRows(pack, i) {
@@ -323,7 +323,7 @@ function paletteFacts(id, pack, packs) {
     `| Palette | ${cell(pack.description)} |`,
     `| Sounds | ${pack.sounds.length}${coming ? ` (${coming} coming)` : ''} |`,
     `| Plays | ${using.join(', ') || 'packs that are still to come (below)'} |`,
-    `| Licence | ${licence(pack)} |`,
+    `| License | ${license(pack)} |`,
     `| Credit | ${cell(pack.credit)} |`,
     `| Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → ${cell(pack.name)}**: a click on a sound installs the packs it plays, then adds it as a track. \`pnpm packs install ${id}\` installs every pack it plays. |`,
     '',
@@ -333,7 +333,7 @@ function paletteFacts(id, pack, packs) {
     'Levels are measured with `node tools/levels.mjs`: the same phrase from every sound measures −20 LUFS',
     '(pads and textures −23), unless its peak would pass −4 dBFS. A sound marked *coming* waits for a',
     'synth, an effect or a pack that HO[LO] Desk or this repository doesn\'t have yet; the Library shows it',
-    'greyed out until then.',
+    'grayed out until then.',
   ];
   const families = [
     ...SOUND_FAMILIES.filter((f) => pack.sounds.some((s) => s.family === f)),
@@ -365,7 +365,7 @@ export function packFacts(id, pack, packs = new Map()) {
     '| | |',
     '|---|---|',
     `| Id | \`${id}\` |`,
-    `| Licence | ${licence(pack)} |`,
+    `| License | ${license(pack)} |`,
     `| Credit | ${cell(pack.credit)} |`,
     `| Size | ${mb(pack.bytes)} on disk, ${files} sample files |`,
     `| Instruments | ${pack.instruments.length} |`,
@@ -419,11 +419,11 @@ export function packFacts(id, pack, packs = new Map()) {
 /** The catalog in README.md. */
 export function catalog(packs) {
   const lines = [BEGIN, '', '### Every pack', ''];
-  lines.push('| Pack | Families | Instruments | Size | Licence |', '|---|---|---|---|---|');
+  lines.push('| Pack | Families | Instruments | Size | License |', '|---|---|---|---|---|');
   for (const [id, pack] of [...packs].filter(([, p]) => !isPalette(p)).sort((a, b) => a[1].name.localeCompare(b[1].name))) {
     const fams = FAMILIES.filter((f) => pack.instruments.some((i) => family(i) === f));
     lines.push(
-      `| [${cell(pack.name)}](packs/${id}/) | ${fams.join(', ')} | ${pack.instruments.length} | ${mb(pack.bytes)} | ${licence(pack, false)} |`,
+      `| [${cell(pack.name)}](packs/${id}/) | ${fams.join(', ')} | ${pack.instruments.length} | ${mb(pack.bytes)} | ${license(pack, false)} |`,
     );
   }
   const palettes = [...packs].filter(([, p]) => isPalette(p)).sort((a, b) => a[1].name.localeCompare(b[1].name));

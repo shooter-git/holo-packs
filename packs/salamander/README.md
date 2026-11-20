@@ -40,7 +40,7 @@ For another grand, see the [Steinway Model D](../steinway/) and the [Headroom Pi
 | | |
 |---|---|
 | Id | `salamander` |
-| Licence | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) |
+| License | [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) |
 | Credit | Salamander Grand Piano V3 by Alexander Holm (public domain since 4 March 2022), mapped in FLAC by kinwie for the SFZ Instruments project: a Yamaha C5 recorded at 48 kHz, 24-bit. Trimmed for HO[LO]: each note ends where it falls to -55 dB. |
 | Size | 1.4 GB on disk, 641 sample files |
 | Instruments | 2 |

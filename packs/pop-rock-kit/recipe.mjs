@@ -4,7 +4,7 @@
 // splash, a 22" Paiste crash and an 18" Wuhan china, five velocity layers a piece, each hit one mono
 // file, placed at the library's own pan.
 //
-// The licence asks that a modified version of the library go under a name of its own: this is the Pop
+// The license asks that a modified version of the library go under a name of its own: this is the Pop
 // Rock Kit, the library named in its credit.
 import { avlKit, drumKeys, drumPads } from '../../tools/avl.mjs';
 

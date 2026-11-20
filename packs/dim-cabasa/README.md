@@ -14,7 +14,7 @@ credit in its Library, and an experience's pinned `packs.json` carries it.
 | | |
 |---|---|
 | Id | `dim-cabasa` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | Dim Cabasa by kinwie for the SFZ Instruments project (CC BY 4.0). |
 | Size | 22 MB on disk, 250 sample files |
 | Instruments | 1 |

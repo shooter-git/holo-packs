@@ -35,7 +35,7 @@ For a tighter kit with six toms, see the [Prog Kit](../prog-kit/). For jazz, see
 | | |
 |---|---|
 | Id | `rock-kit` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Big Rusty Drums by Karoryfer Samples (CC0): a 24" kick, a 14x8 snare, 14/15/18" toms and a 22" floor, Sabian and Zildjian cymbals. Mixed for HO[LO] from its close and overhead microphones. |
 | Size | 172 MB on disk, 470 sample files |
 | Instruments | 1 |

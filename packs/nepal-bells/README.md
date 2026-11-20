@@ -13,7 +13,7 @@ VCSL's other instruments, its đàn tranh zither among them, are in the [vcsl](.
 | | |
 |---|---|
 | Id | `nepal-bells` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Nepalese hand bells from the Versilian Community Sample Library (CC0, Versilian Studios). |
 | Size | 1 MB on disk, 3 sample files |
 | Instruments | 1 |

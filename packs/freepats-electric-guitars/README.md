@@ -22,7 +22,7 @@ The notes are taken out of the project's own 7z downloads (an install downloads 
 | | |
 |---|---|
 | Id | `freepats-electric-guitars` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Electric Guitar FSBS of the FreePats project (CC0): a Fender electric guitar, clean, jazz and distorted. |
 | Size | 394 MB on disk, 360 sample files |
 | Instruments | 3 |

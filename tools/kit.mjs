@@ -114,7 +114,7 @@ export function padsOf(spec) {
   });
 }
 
-/** A mono microphone's gains into left and right at an SFZ pan (0 left, 63.5 centre, 127 right): constant power, unity in the centre. */
+/** A mono microphone's gains into left and right at an SFZ pan (0 left, 63.5 center, 127 right): constant power, unity in the center. */
 export function panGains(gain, pan = 63.5) {
   const p = Math.max(-1, Math.min(1, (pan - 63.5) / 63.5));
   const theta = ((p + 1) * Math.PI) / 4;

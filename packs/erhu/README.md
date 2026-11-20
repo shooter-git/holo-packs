@@ -22,7 +22,7 @@ the loudest at −17 dB at velocity 127 (a little less where a bow's attack woul
 | | |
 |---|---|
 | Id | `erhu` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | The erhu of the SFZ Instruments project (CC0): a two-string Chinese fiddle, close miked in stereo. |
 | Size | 45 MB on disk, 120 sample files |
 | Instruments | 2 |

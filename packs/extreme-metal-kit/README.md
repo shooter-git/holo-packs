@@ -25,7 +25,7 @@ prepared for DrumGizmo by Chaot4 and Deva. Drum samples provided by DrumGizmo.or
 
 **Playing:**
 - Every instrument the kit has, each on its own pad, on the keys DrumGizmo's own MIDI map gives them:
-  both kicks, the snare's centre and edge and its rimshot, the four toms, three closed hi-hats (the
+  both kicks, the snare's center and edge and its rimshot, the four toms, three closed hi-hats (the
   library's own three) and the open one, the ride and its two bells, both crashes and their
   chokes, the three chinas and the bell cymbal.
 - A few keys move off DrumGizmo's map to General MIDI's: the crashes' chokes (DrumGizmo puts one on
@@ -65,7 +65,7 @@ DrumGizmo's other kits here: the [Metal Kit](../metal-kit/), the [Heavy Kit](../
 | | |
 |---|---|
 | Id | `extreme-metal-kit` |
-| Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| License | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Credit | Aasimonster 2.1 by the DrumGizmo team (CC BY 4.0): set up and sampled by Deva, prepared by Chaot4 and Deva, bleed control by Henry Järvinen. Drum samples provided by DrumGizmo.org. Its fourteen microphones kept apart for HO[LO], each with its own level. |
 | Size | 235 MB on disk, 3222 sample files |
 | Instruments | 1 |

@@ -24,7 +24,7 @@ the credit in its Library, and an experience's pinned `packs.json` carries it.
 | | |
 |---|---|
 | Id | `tabla` |
-| Licence | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| License | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | Credit | Tabla bols by Mihir Sarkar for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/MihirSarkar), and dio_333's tabla strokes from Freesound as Sonic Pi ships them (CC0). |
 | Size | 4 MB on disk, 36 sample files |
 | Instruments | 2 |

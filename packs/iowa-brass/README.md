@@ -19,7 +19,7 @@ lower; raise its fader for weight.
 | | |
 |---|---|
 | Id | `iowa-brass` |
-| Licence | Free to use without restriction (University of Iowa Electronic Music Studios) |
+| License | Free to use without restriction (University of Iowa Electronic Music Studios) |
 | Credit | University of Iowa Musical Instrument Samples (Electronic Music Studios, University of Iowa): free to use for any project, without restriction. |
 | Size | 170 MB on disk, 212 sample files |
 | Instruments | 6 |

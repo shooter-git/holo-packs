@@ -25,7 +25,7 @@ For a cello section, see VSCO 2's [Cellos](../vsco2/).
 | | |
 |---|---|
 | Id | `bigcat-cello` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Karoryfer x bigcat cello by Karoryfer Lecolds and bigcat instruments (CC0): a cello played by Kamila Borowiak. |
 | Size | 131 MB on disk, 458 sample files |
 | Instruments | 3 |

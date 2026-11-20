@@ -133,16 +133,16 @@ export function drumgizmoPiece(kit, instrument, name, keys, { layers = 6, minRR 
  * Where each close microphone's drum sits between the overheads: `homes` gives each channel its drum
  * (an instrument), and each gets the pan (SFZ's 0 to 127) of a mono microphone that puts its drum
  * where its loudest hit's left and right overheads hear it, constant power, as panGains places it.
- * Measured from the `centre` drums (the kick): a pair of overheads is seldom exactly balanced, so a
+ * Measured from the `center` drums (the kick): a pair of overheads is seldom exactly balanced, so a
  * drum's place is how far it sits from the kick's, the kick in the middle.
  */
-export async function overheadPans(downloads, kit, homes, [left, right], centre) {
+export async function overheadPans(downloads, kit, homes, [left, right], center) {
   const top = (instrument) => {
     const ins = kit.instruments.get(instrument);
     if (!ins) throw new Error(`The kit has no instrument ${instrument}`);
     return ins.samples.reduce((a, s) => (s.power > a.power ? s : a));
   };
-  const drums = [...new Set([...Object.values(homes), ...centre])];
+  const drums = [...new Set([...Object.values(homes), ...center])];
   await downloads.all([...new Set(drums.flatMap((i) => [top(i).mics[left][0], top(i).mics[right][0]]))]);
   const angle = (instrument) => {
     const energy = (channel) => {
@@ -155,7 +155,7 @@ export async function overheadPans(downloads, kit, homes, [left, right], centre)
     };
     return Math.atan2(energy(right), energy(left));
   };
-  const middle = centre.reduce((a, i) => a + angle(i), 0) / centre.length;
+  const middle = center.reduce((a, i) => a + angle(i), 0) / center.length;
   const pans = {};
   for (const [channel, instrument] of Object.entries(homes)) {
     const p = Math.max(-1, Math.min(1, (4 * (angle(instrument) - middle)) / Math.PI));

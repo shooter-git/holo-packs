@@ -19,7 +19,7 @@ by kinwie for the [SFZ Instruments](https://github.com/sfzinstruments/EthanWiner
 | | |
 |---|---|
 | Id | `ethan-winer` |
-| Licence | Free to use without restriction (Ethan Winer) |
+| License | Free to use without restriction (Ethan Winer) |
 | Credit | Ethan Winer's original instrument samples (ethanwiner.com: free to use any way you like, royalty free, including for commercial projects), mapped in FLAC by kinwie for the SFZ Instruments project. The turtle drum was played by Katie Petreycik. |
 | Size | 32 MB on disk, 139 sample files |
 | Instruments | 14 |

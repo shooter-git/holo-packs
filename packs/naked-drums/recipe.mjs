@@ -137,7 +137,7 @@ function piece(name, from, keys, opts = {}) {
   const tunes = new Set();
   for (const r of regions) {
     const { input, db, pan } = mixerOf(r);
-    // a mono close microphone where its pan knob starts (SFZ's 0 to 127, 63.5 the centre)
+    // a mono close microphone where its pan knob starts (SFZ's 0 to 127, 63.5 the center)
     mics[input] = [1, 63.5 + 63.5 * Math.max(-1, Math.min(1, pan))];
     const layer = layers.indexOf(Number(r.lovel)) + 1;
     const rr = Number(r.seq_position ?? 1);

@@ -16,7 +16,7 @@ measured, voice by voice). Each voice is measured, the loudest at −17 dB at ve
 | | |
 |---|---|
 | Id | `caveman-cosmonaut` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Caveman Cosmonaut by Karoryfer Lecolds (CC0): the voices of an Unitra B-11 transistor organ. |
 | Size | 79 MB on disk, 271 sample files |
 | Instruments | 7 |

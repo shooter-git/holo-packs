@@ -28,7 +28,7 @@ the credit in its Library, and an experience's pinned `packs.json` carries it.
 | | |
 |---|---|
 | Id | `epianos` |
-| Licence | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| License | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | Credit | Greg Sullivan's E-Pianos (CC BY 3.0, sullivang.net): a Yamaha CP80 electric grand, a Hohner Pianet T and a Wurlitzer EP200, mapped in FLAC by kinwie for the SFZ Instruments project. Trimmed for HO[LO]: each note ends where it falls to -60 dB. |
 | Size | 78 MB on disk, 172 sample files |
 | Instruments | 3 |

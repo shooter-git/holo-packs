@@ -31,10 +31,10 @@ own, recorded on a stereo pair of overheads at 48 kHz. A roomy, natural, charact
 **Where it comes from:** the original release (`salamanderDrumkit.tar.bz2`), as the Internet Archive
 keeps it. It's one compressed archive read end to end, so an install takes a minute or two to unpack it.
 
-**Licence:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). In the author's words, the
+**License:** [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). In the author's words, the
 share-alike condition only applies if you modify the samples or make new sample libraries with them;
 music and other works made with it can be licensed as you like. This pack, being made from the samples,
-is shared under the same licence.
+is shared under the same license.
 
 For a kit recorded on many microphones, see [Naked Drums](../naked-drums/).
 
@@ -45,7 +45,7 @@ For a kit recorded on many microphones, see [Naked Drums](../naked-drums/).
 | | |
 |---|---|
 | Id | `salamander-drums` |
-| Licence | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| License | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Credit | Salamander Drumkit by Alexander Holm (CC BY-SA 3.0; the share-alike applies to sample libraries made from it, not music): a birch-stave kit with an 18" kick, 14" snares, 12/14" toms, Paiste, Stagg and Masterworks cymbals, on overheads. Levelled for HO[LO] as its own program plays it. |
 | Size | 287 MB on disk, 534 sample files |
 | Instruments | 1 |

@@ -5,7 +5,7 @@ A jazz double bass: Karoryfer Samples' [Meatbass](https://github.com/sfzinstrume
 layers and round robins for walking lines that don't repeat themselves.
 
 HO[LO] plays the library's own recordings, mapped from measurements of every sample (from
-[Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogues).
+[Hallowed Lanterns](https://github.com/shooter-git/hallowed-lanterns)' sample catalogs).
 
 For a bowed or orchestral bass, see VSCO 2's [Contrabass](../vsco2/).
 
@@ -16,7 +16,7 @@ For a bowed or orchestral bass, see VSCO 2's [Contrabass](../vsco2/).
 | | |
 |---|---|
 | Id | `meatbass` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Meatbass by Karoryfer Samples (CC0): a 1958 Otto Rubner double bass played and sampled by Drogomir Smolken. |
 | Size | 116 MB on disk, 224 sample files |
 | Instruments | 1 |

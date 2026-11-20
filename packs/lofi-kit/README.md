@@ -20,7 +20,7 @@ darker, rounder, a little longer. It's resampled by plain arithmetic, the same o
 | | |
 |---|---|
 | Id | `lofi-kit` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Made for HO[LO] from Sonic Pi's samples (CC0, Freesound users' recordings as Sonic Pi's README lists them) and the FreePats synthesizer percussion (CC0, Roberto of FreePats): each played two semitones slow. |
 | Size | 3 MB on disk, 18 sample files |
 | Instruments | 1 |

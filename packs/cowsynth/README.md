@@ -15,7 +15,7 @@ The library maps each note an octave under where it sounds; here each key plays 
 | | |
 |---|---|
 | Id | `cowsynth` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Cowsynth by Karoryfer Lecolds (CC0): a replica of medieval bagpipes, sampled as a synthesizer's oscillators. |
 | Size | 13 MB on disk, 16 sample files |
 | Instruments | 2 |

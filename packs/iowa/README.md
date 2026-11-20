@@ -22,7 +22,7 @@ For a fuller woodwind section (flute, oboe, clarinet and bassoon), see [VSCO 2](
 | | |
 |---|---|
 | Id | `iowa` |
-| Licence | Free to use without restriction (University of Iowa Electronic Music Studios) |
+| License | Free to use without restriction (University of Iowa Electronic Music Studios) |
 | Credit | University of Iowa Musical Instrument Samples (Electronic Music Studios, University of Iowa). |
 | Size | 101 MB on disk, 256 sample files |
 | Instruments | 4 |

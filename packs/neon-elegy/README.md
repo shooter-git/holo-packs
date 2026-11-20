@@ -22,7 +22,7 @@ here leaves the voice's range (about 1.5 to 3 kHz) a little room.
 | Palette | Cinematic synth-pop: a round octave bass with a wide layer above it, a clean 808 boom, a gated-room clap and a soaring saw lead, voiced to sit together under a voice. |
 | Sounds | 5 |
 | Plays | [FreePats Synthesizer Percussion](../freepats-synth-percussion/), HO[LO] Desk's built-in synths |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and FreePats Synthesizer Percussion by the FreePats project (CC0). Each pack keeps its own license and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Neon Elegy**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install neon-elegy` installs every pack it plays. |
 
@@ -32,7 +32,7 @@ Each sound is a track ready to play: its instrument, its effects, the room it se
 Levels are measured with `node tools/levels.mjs`: the same phrase from every sound measures −20 LUFS
 (pads and textures −23), unless its peak would pass −4 dBFS. A sound marked *coming* waits for a
 synth, an effect or a pack that HO[LO] Desk or this repository doesn't have yet; the Library shows it
-greyed out until then.
+grayed out until then.
 
 ### Drums and percussion
 

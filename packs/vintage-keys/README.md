@@ -25,7 +25,7 @@ the credit in its Library, and an experience's pinned `packs.json` carries it.
 | | |
 |---|---|
 | Id | `vintage-keys` |
-| Licence | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| License | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | Credit | Made for HO[LO] from Greg Sullivan's E-Pianos (CC BY 3.0, sullivang.net; mapped in FLAC by kinwie for the SFZ Instruments project) and the FreePats Upright Piano KW (CC0): honky-tonk, layered and chorused mixes. |
 | Size | 149 MB on disk, 190 sample files |
 | Instruments | 3 |

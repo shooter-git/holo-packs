@@ -5,7 +5,7 @@
  "name": "Sitar and Tabla",
  "description": "North Indian classical instruments: sitar and tanpura, bansuri and harmonium, tabla, with singing bowls and Nepalese bells.",
  "license": "CC0-1.0",
- "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), tabla bols by Mihir Sarkar for the One Laptop per Child sound library (CC BY 3.0), singing bowls by OpenPath Music for the One Laptop per Child sound library (CC BY 3.0). Each pack keeps its own licence and credit.",
+ "credit": "Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and the Versilian Community Sample Library by Versilian Studios (CC0), tabla bols by Mihir Sarkar for the One Laptop per Child sound library (CC BY 3.0), singing bowls by OpenPath Music for the One Laptop per Child sound library (CC BY 3.0). Each pack keeps its own license and credit.",
  "source": {
   "kind": "none",
   "note": "No audio of its own: its sounds play the packs it requires and HO[LO] Desk’s built-in synths."

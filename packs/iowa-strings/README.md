@@ -23,7 +23,7 @@ layers these soloists into VSCO 2's sections.
 | | |
 |---|---|
 | Id | `iowa-strings` |
-| Licence | Free to use without restriction (University of Iowa Electronic Music Studios) |
+| License | Free to use without restriction (University of Iowa Electronic Music Studios) |
 | Credit | University of Iowa Musical Instrument Samples (Electronic Music Studios, University of Iowa): free to use for any project, without restriction. |
 | Size | 239 MB on disk, 364 sample files |
 | Instruments | 8 |

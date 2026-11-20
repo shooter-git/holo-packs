@@ -2,14 +2,14 @@
 
 A big, deep Ludwig kit in the 1970s rock manner, made from the Red Zeppelin kit of
 [AVL Drumkits](https://www.bandshed.net/avldrumkits/) by Glen MacArthur:
-- **Drums:** a 26″ kick, a 14″ snare (centre, edge and side stick), a 14″ rack tom and a 16″ floor tom,
+- **Drums:** a 26″ kick, a 14″ snare (center, edge and side stick), a 14″ rack tom and a 16″ floor tom,
   each with its edge.
 - **Cymbals:** 13″ Sabian hi-hats (closed, pedal, half open and a swish), a 20″ and a 17″ Zildjian
   crash with their chokes, a 24″ Zildjian ride with its bell, shank and choke, a 10″ Zildjian splash, a
   22″ Paiste crash and an 18″ Wuhan china.
 - **Percussion:** hand claps, a tambourine, a cowbell, maracas and a stick click.
 
-The library calls it Red Zeppelin. Its licence asks that a version made from it go under a name of its
+The library calls it Red Zeppelin. Its license asks that a version made from it go under a name of its
 own, so it's the Vintage Rock Kit here: named for its sound, a big-shelled kit with a huge kick.
 
 **Playing:**
@@ -29,10 +29,10 @@ own, so it's the Vintage Rock Kit here: named for its sound, a big-shelled kit w
 
 For a tighter kit from the same library, see the [Pop Rock Kit](../pop-rock-kit/).
 
-**Licence:** AVL Drumkits are shared under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+**License:** AVL Drumkits are shared under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 with an exception of the library's own, and this pack is shared under the same terms. Music made with
 it can be licensed however you like; a sample library made from it is shared alike, under a name of
-its own. The library's licence, in full
+its own. The library's license, in full
 ([as published](http://bandshed.net/pdf/AVL-Drumkits%20CC-BY-SA%20License.pdf)):
 
 ```text
@@ -68,7 +68,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 | | |
 |---|---|
 | Id | `vintage-rock-kit` |
-| Licence | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| License | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Credit | Made from AVL Drumkits by Glen MacArthur (CC BY-SA 3.0; music made with it can be licensed freely): its Red Zeppelin kit, a Ludwig kit with a 26" kick, 14" snare, 14/16" toms, Sabian, Zildjian, Paiste and Wuhan cymbals. Placed for HO[LO] at the library's own pans. |
 | Size | 61 MB on disk, 128 sample files |
 | Instruments | 1 |

@@ -1,7 +1,7 @@
 // `node packs/soul-kit/recipe.mjs [--cache DIR] [--out DIR]`: a soul kit from Karoryfer's Unruly Drums
 // (CC0), written into packs/soul-kit/pack.json and packs/soul-kit/files.sha256.
 //
-// A small, warm kit: the 20" kick played clean, the 14" snare (centre, edge, rimshot, side stick), the
+// A small, warm kit: the 20" kick played clean, the 14" snare (center, edge, rimshot, side stick), the
 // 13" and 22" snares with their snares off for toms, 14" hi-hats played with the stick's tip at seven
 // openings and the foot, the 20" ride (bow, bell, edge), the 16" crash, woodblocks. Mixed from each
 // piece's close and overhead microphones, each hit trimmed to just before its attack, its layers set

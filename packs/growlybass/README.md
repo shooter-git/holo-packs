@@ -19,7 +19,7 @@ each key plays the note it names, its low E (41 Hz) on key 28. Each note is kept
 | | |
 |---|---|
 | Id | `growlybass` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Growlybass by Karoryfer Lecolds (CC0): a Squier Jazz Bass. |
 | Size | 182 MB on disk, 294 sample files |
 | Instruments | 2 |

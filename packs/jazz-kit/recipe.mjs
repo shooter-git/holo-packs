@@ -4,8 +4,8 @@
 // the room), as a jazz session is: the overheads lead, the close microphones fill in, and each drum's
 // sound carries what the others' microphones heard of it.
 //
-// The snare has 36 velocity layers at the centre and 36 off it: they take turns, so a snare played
-// twice alike never sounds twice alike. The toms likewise (centre and off centre).
+// The snare has 36 velocity layers at the center and 36 off it: they take turns, so a snare played
+// twice alike never sounds twice alike. The toms likewise (center and off center).
 import { buildKit, Downloads, githubTree, hitsIn, raw } from '../../tools/kit.mjs';
 import { arg } from '../../tools/lib.mjs';
 
@@ -29,7 +29,7 @@ const hits = (piece, art, rr) => {
   );
   return rr ? found.map((h) => ({ ...h, rr })) : found;
 };
-/** Two articulations (centre and off centre) as round robins of one. */
+/** Two articulations (center and off center) as round robins of one. */
 const pair = (piece, a, b) => [...hits(piece, a, 1), ...hits(piece, b, 2)];
 /** A layer the second set lacks plays the first's alone (layers are matched by number). */
 const matched = (list) => {

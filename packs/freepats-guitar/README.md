@@ -17,7 +17,7 @@ A nylon-string Spanish classical guitar from the [FreePats project](https://free
 | | |
 |---|---|
 | Id | `freepats-guitar` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | The Spanish classical guitar of the FreePats project (CC0). |
 | Size | 20 MB on disk, 48 sample files |
 | Instruments | 1 |

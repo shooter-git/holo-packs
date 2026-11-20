@@ -17,7 +17,7 @@ on key 50); here each key plays the note it names. The files are the library's W
 | | |
 |---|---|
 | Id | `vocal-ah` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | A male voice singing "ah": the legato vocal tutorial of the SFZ Instruments project (CC0), the a vowel from Karoryfer's Hadzi-Fia sample library. |
 | Size | 38 MB on disk, 23 sample files |
 | Instruments | 1 |

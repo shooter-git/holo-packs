@@ -20,13 +20,13 @@ A street percussionist's kit, made from the Buskman's Holiday kit of
   view).
 - The kit is anchored to the cajon's slap at −19 dB loudness.
 
-The library calls it Buskman's Holiday. Its licence asks that a version made from it go under a name of
+The library calls it Buskman's Holiday. Its license asks that a version made from it go under a name of
 its own, so it's the Busker Kit here.
 
-**Licence:** AVL Drumkits are shared under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+**License:** AVL Drumkits are shared under [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 with an exception of the library's own, and this pack is shared under the same terms. Music made with
 it can be licensed however you like; a sample library made from it is shared alike, under a name of
-its own. The library's licence, in full
+its own. The library's license, in full
 ([as published](http://bandshed.net/pdf/AVL-Drumkits%20CC-BY-SA%20License.pdf)):
 
 ```text
@@ -62,7 +62,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 | | |
 |---|---|
 | Id | `busker-kit` |
-| Licence | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| License | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
 | Credit | Made from AVL Drumkits by Glen MacArthur (CC BY-SA 3.0; music made with it can be licensed freely): its Buskman's Holiday kit, a Meinl cajon, Meinl congas, shakers, tambourines, claves, a Paiste cymbal, a cowbell, a stomp, a bucket and bell trees. Placed for HO[LO] at the library's own pans. |
 | Size | 56 MB on disk, 200 sample files |
 | Instruments | 1 |

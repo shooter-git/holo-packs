@@ -3,7 +3,7 @@
 A palette for dreamy indie electronica: a glass bell that sparkles in sixteenths, a kalimba, two
 organs (a soft one for held chords and a percussive one under bells), a polysynth with grit, keys
 that ping and a whistle high above. Every sound here is made in HO[LO] Desk itself; the bell and the
-kalimba are modelled mode by mode, each partial set and decay measured from real instruments.
+kalimba are modeled mode by mode, each partial set and decay measured from real instruments.
 
 **Playing it:**
 - **Shimmer Bell** is heard at the note you play, its brightest partial a third above: write its
@@ -23,7 +23,7 @@ kalimba are modelled mode by mode, each partial set and decay measured from real
 | Palette | Dreamy indie electronica: a shimmering glass bell and a kalimba, a soft synth organ and a percussive one, a gritty polysynth, ping keys and a night whistle, voiced to sit around a voice. |
 | Sounds | 7 |
 | Plays | [VSCO 2 Community Edition](../vsco2/), HO[LO] Desk's built-in synths |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Sounds put together for HO[LO] (CC0): HO[LO] Desk's built-in synths and effects, and VSCO 2 Community Edition by Versilian Studios (CC0). Each pack keeps its own license and credit. |
 | Install | Nothing to download for the palette itself. In the studio's Library, **Palettes → Glass and Tines**: a click on a sound installs the packs it plays, then adds it as a track. `pnpm packs install glass-and-tines` installs every pack it plays. |
 
@@ -33,7 +33,7 @@ Each sound is a track ready to play: its instrument, its effects, the room it se
 Levels are measured with `node tools/levels.mjs`: the same phrase from every sound measures −20 LUFS
 (pads and textures −23), unless its peak would pass −4 dBFS. A sound marked *coming* waits for a
 synth, an effect or a pack that HO[LO] Desk or this repository doesn't have yet; the Library shows it
-greyed out until then.
+grayed out until then.
 
 ### Keys
 

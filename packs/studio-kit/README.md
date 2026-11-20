@@ -25,7 +25,7 @@ The same kit played warmer is the [Soul Kit](../soul-kit/); for brushes, see the
 | | |
 |---|---|
 | Id | `studio-kit` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Unruly Drums by Karoryfer Lecolds (CC0). Mixed for HO[LO] from its close and overhead microphones: a studio kit. |
 | Size | 143 MB on disk, 376 sample files |
 | Instruments | 1 |

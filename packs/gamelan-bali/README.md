@@ -24,7 +24,7 @@ Each instrument's loudest note plays at −17 dB at velocity 127.
 | | |
 |---|---|
 | Id | `gamelan-bali` |
-| Licence | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| License | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | Credit | Balinese gamelan samples by Akito van Troyer for the One Laptop per Child sound library (CC BY 3.0, archive.org/details/AkitoVanTroyer). |
 | Size | 14 MB on disk, 47 sample files |
 | Instruments | 6 |

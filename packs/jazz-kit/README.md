@@ -10,8 +10,8 @@ Versilian Studios and Karoryfer Samples (CC0). It was recorded at 48 kHz on six 
 - Each drum's sound carries what the others' microphones heard of it.
 
 **Playing:**
-- The snare has 36 velocity layers at the centre and 36 off it, and they take turns. A snare played twice
-  alike never sounds twice alike. The toms do likewise (centre and off centre).
+- The snare has 36 velocity layers at the center and 36 off it, and they take turns. A snare played twice
+  alike never sounds twice alike. The toms do likewise (center and off center).
 - The hi-hat plays closed, open, half open and three-quarter open, plus its pedal.
 - The ride has its bell, and there's a flat ride.
 
@@ -27,7 +27,7 @@ For a bigger rock sound, see the [Rock Kit](../rock-kit/) and the [Prog Kit](../
 | | |
 |---|---|
 | Id | `jazz-kit` |
-| Licence | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| License | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Credit | Virtuosity Drums by Versilian Studios and Karoryfer Samples (CC0): a contemporary jazz kit. Mixed for HO[LO] from its kick, snare, overhead and room microphones. |
 | Size | 168 MB on disk, 321 sample files |
 | Instruments | 1 |
